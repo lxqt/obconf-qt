@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+_Name=Openbox Preferences
+Icon=
+Exec=obconf-qt
+_Comment=Configure window manager Openbox
+StartupNotify=true
+Terminal=false
+Categories=Qt;Settings;HardwareSettings;X-LXDE-Settings;
+NotShowIn=GNOME;KDE;XFCE;

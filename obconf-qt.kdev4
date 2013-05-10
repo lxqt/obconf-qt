@@ -1,0 +1,4 @@
+[Project]
+Name=obconf-qt
+Manager=KDevCMakeManager
+VersionControl=
