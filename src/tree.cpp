@@ -16,11 +16,15 @@
    See the COPYING file for a copy of the GNU General Public License.
 */
 
+#include <QX11Info>
+#include <QMessageBox>
+
 #include "tree.h"
-// #include "main.h"
+#include "main.h"
 
 #include <obt/xml.h>
-// #include <gdk/gdkx.h>
+#include <X11/Xlib.h>
+#include <X11/Xatom.h>
 
 xmlNodePtr tree_get_node(const gchar *path, const gchar *def)
 {
@@ -57,12 +61,12 @@ xmlNodePtr tree_get_node(const gchar *path, const gchar *def)
         if (!c) {
             gint i;
 
-            c = xmlNewTextChild(n, NULL, attrs[0], *next ? NULL : def);
+            c = xmlNewTextChild(n, NULL, (xmlChar*)attrs[0], (xmlChar*)(*next ? NULL : def));
 
             for (i = 1; attrs[i]; ++i) {
                 gchar **eq = g_strsplit(attrs[i], "=", 2);
                 if (eq[1])
-                    xmlNewProp(c, eq[0], eq[1]);
+                  xmlNewProp(c, (xmlChar*)eq[0], (xmlChar*)eq[1]);
                 g_strfreev(eq);
             }
         }
@@ -104,7 +108,8 @@ void tree_apply()
         gchar *s;
         s = g_strdup_printf("An error occured while saving the "
                             "config file '%s'", p);
-        obconf_error(s, FALSE);
+        // obconf_error(s, FALSE);
+        QMessageBox::critical(NULL, QString(), QString::fromUtf8(s));
         g_free(s);
     }
     g_free(p);
@@ -113,16 +118,17 @@ void tree_apply()
         XEvent ce;
 
         ce.xclient.type = ClientMessage;
-        ce.xclient.message_type = gdk_x11_get_xatom_by_name("_OB_CONTROL");
-        ce.xclient.display = GDK_DISPLAY();
-        ce.xclient.window = GDK_ROOT_WINDOW();
+        ce.xclient.display = QX11Info::display();
+        ce.xclient.message_type = XInternAtom(ce.xclient.display, "_OB_CONTROL", false);
+        Window root = NULL;
+        ce.xclient.window = root;
         ce.xclient.format = 32;
         ce.xclient.data.l[0] = 1; /* reconfigure */
         ce.xclient.data.l[1] = 0;
         ce.xclient.data.l[2] = 0;
         ce.xclient.data.l[3] = 0;
         ce.xclient.data.l[4] = 0;
-        XSendEvent(GDK_DISPLAY(), GDK_ROOT_WINDOW(), FALSE,
+        XSendEvent(ce.xclient.display, root, FALSE,
                    SubstructureNotifyMask | SubstructureRedirectMask,
                    &ce);
     }

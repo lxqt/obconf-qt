@@ -1,3 +1,5 @@
+#include <QMessageBox>
+
 #include "theme.h"
 
 #include <string.h>
@@ -5,19 +7,6 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <unistd.h>
-
-#define gtk_msg(type, args...) \
-{                                                                        \
-    GtkWidget *msgw;                                                     \
-    msgw = gtk_message_dialog_new(GTK_WINDOW(mainwin),                   \
-                                  GTK_DIALOG_DESTROY_WITH_PARENT |       \
-                                  GTK_DIALOG_MODAL,                      \
-                                  type,                                  \
-                                  GTK_BUTTONS_OK,                        \
-                                  args);                                 \
-    gtk_dialog_run(GTK_DIALOG(msgw));                                    \
-    gtk_widget_destroy(msgw);                                            \
-}
 
 static gchar *get_theme_dir();
 static gboolean change_dir(const gchar *dir);
@@ -35,7 +24,9 @@ gchar* archive_install(const gchar *path)
         return NULL;
 
     if ((name = install_theme_to(path, dest))) {
-        gtk_msg(GTK_MESSAGE_INFO, _("\"%s\" was installed to %s"), name, dest);
+      QMessageBox::information(NULL, QString(), QObject::tr("\"%1\" was installed to %1")
+        .arg(QString::fromUtf8(name))
+        .arg(QString::fromUtf8(dest)));
     }
 
     g_free(dest);
@@ -60,8 +51,8 @@ void archive_create(const gchar *path)
     }
 
     if (create_theme_archive(path, name, dest))
-        gtk_msg(GTK_MESSAGE_INFO, _("\"%s\" was successfully created"),
-                dest);
+      QMessageBox::information(NULL, QString(), QObject::tr("\"%1\" was successfully created")
+        .arg(QString::fromUtf8(dest)));
 
     g_free(dest);
     g_free(name);
@@ -95,14 +86,15 @@ static gboolean create_theme_archive(const gchar *dir, const gchar *name,
                      NULL, &errtxt, &exitcode, &e))
     {
         if (exitcode != EXIT_SUCCESS)
-            gtk_msg(GTK_MESSAGE_ERROR,
-                    _("Unable to create the theme archive \"%s\".\nThe following errors were reported:\n%s"),
-                    to, errtxt);
+            QMessageBox::critical(NULL, QString(),
+                    QObject::tr("Unable to create the theme archive \"%1\".\nThe following errors were reported:\n%2")
+                      .arg(QString::fromUtf8(to))
+                      .arg(QString::fromUtf8(errtxt)));
 
     }
     else
-        gtk_msg(GTK_MESSAGE_ERROR, _("Unable to run the \"tar\" command: %s"),
-                e->message);
+      QMessageBox::critical(NULL, QString(),QObject::tr("Unable to run the \"tar\" command: %1")
+        .arg(QString::fromUtf8(e->message)));
 
     g_strfreev(argv);
     if (e) g_error_free(e);
@@ -120,9 +112,10 @@ static gchar *get_theme_dir()
     dir = g_build_path(G_DIR_SEPARATOR_S, g_get_home_dir(), ".themes", NULL);
     r = mkdir(dir, 0777);
     if (r == -1 && errno != EEXIST) {
-        gtk_msg(GTK_MESSAGE_ERROR,
-                _("Unable to create directory \"%s\": %s"),
-                dir, strerror(errno));
+      QMessageBox::critical(NULL, QString(),
+                QObject::tr("Unable to create directory \"%1\": %2")
+                .arg(QString::fromUtf8(dir))
+                .arg(QString::fromUtf8(strerror(errno))));
         g_free(dir);
         dir = NULL;
     }
@@ -142,9 +135,9 @@ static gchar* name_from_dir(const gchar *dir)
     g_free(rc);
 
     if (!r) {
-        gtk_msg(GTK_MESSAGE_ERROR,
-                _("\"%s\" does not appear to be a valid Openbox theme directory"),
-                dir);
+        QMessageBox::critical(NULL, QString(),
+                QObject::tr("\"%1\" does not appear to be a valid Openbox theme directory")
+                  .arg(QString::fromUtf8(dir)));
         return NULL;
     }
     return g_path_get_basename(dir);
@@ -153,8 +146,9 @@ static gchar* name_from_dir(const gchar *dir)
 static gboolean change_dir(const gchar *dir)
 {
     if (chdir(dir) == -1) {
-        gtk_msg(GTK_MESSAGE_ERROR, _("Unable to move to directory \"%s\": %s"),
-                dir, strerror(errno));
+        QMessageBox::critical(NULL, QString(), QObject::tr("Unable to move to directory \"%1\": %2")
+          .arg(QString::fromUtf8(dir))
+          .arg(QString::fromUtf8(strerror(errno))));
         return FALSE;
     }
     return TRUE;
@@ -182,15 +176,17 @@ static gchar* install_theme_to(const gchar *file, const gchar *to)
     argv[10] = NULL;
     if (!g_spawn_sync(NULL, argv, NULL, G_SPAWN_SEARCH_PATH, NULL, NULL,
                       &outtxt, &errtxt, &exitcode, &e))
-        gtk_msg(GTK_MESSAGE_ERROR, _("Unable to run the \"tar\" command: %s"),
-                e->message);
+        QMessageBox::critical(NULL, QString(), QObject::tr("Unable to run the \"tar\" command: %1")
+            .arg(QString::fromUtf8(e->message)));
     g_strfreev(argv);
     if (e) g_error_free(e);
 
     if (exitcode != EXIT_SUCCESS)
-        gtk_msg(GTK_MESSAGE_ERROR,
-                _("Unable to extract the file \"%s\".\nPlease ensure that \"%s\" is writable and that the file is a valid Openbox theme archive.\nThe following errors were reported:\n%s"),
-                file, to, errtxt);
+        QMessageBox::critical(NULL, QString(),
+                QObject::tr("Unable to extract the file \"%1\".\nPlease ensure that \"%2\" is writable and that the file is a valid Openbox theme archive.\nThe following errors were reported:\n%3")
+                .arg(QString::fromUtf8(file))
+                .arg(QString::fromUtf8(to))
+                .arg(QString::fromUtf8(errtxt)));
 
     if (exitcode == EXIT_SUCCESS) {
         gchar **lines = g_strsplit(outtxt, "\n", 0);

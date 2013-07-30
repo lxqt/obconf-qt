@@ -24,17 +24,17 @@
 #include <obt/xml.h>
 #include <obt/paths.h>
 
-#include <gtk/gtk.h>
-#include <glade/glade-xml.h>
+// #include <gtk/gtk.h>
+// #include <glade/glade-xml.h>
 
-extern GladeXML *glade;
+// extern GladeXML *glade;
 extern RrInstance *rrinst;
-extern GtkWidget *mainwin;
+// extern GtkWidget *mainwin;
 extern gchar *obc_config_file;
 extern ObtPaths *paths;
 extern ObtXmlInst *parse_i;
 
-#define get_widget(s) glade_xml_get_widget(glade, s)
+// #define get_widget(s) glade_xml_get_widget(glade, s)
 
 void obconf_error(gchar *msg, gboolean model);
 void obconf_show_main();

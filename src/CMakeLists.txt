@@ -6,6 +6,8 @@ include_directories(
   ${GLIB_INCLUDE_DIRS}
   ${OPENBOX_INCLUDE_DIRS}
   ${CMAKE_CURRENT_BINARY_DIR}
+  ${CMAKE_CURRENT_SOURCE_DIR}
+
 )
 
 set(CMAKE_AUTOMOC TRUE)
@@ -13,6 +15,10 @@ set(CMAKE_AUTOMOC TRUE)
 set(obconf-qt_SRCS
   obconf-qt.cpp
   maindialog.cpp
+  tree.cpp
+  archive.cpp
+  theme.cpp
+  fontbutton.cpp
 )
 
 set(obconf-qt_UIS

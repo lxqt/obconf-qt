@@ -85,20 +85,20 @@
        <property name="currentIndex">
         <number>0</number>
        </property>
-       <widget class="QWidget" name="page">
+       <widget class="QWidget" name="themePage">
         <layout class="QVBoxLayout" name="verticalLayout_2">
          <item>
-          <widget class="QListView" name="listView"/>
+          <widget class="QListView" name="theme_names"/>
          </item>
          <item>
-          <widget class="QPushButton" name="pushButton">
+          <widget class="QPushButton" name="install_theme">
            <property name="text">
             <string>_Install a new theme...</string>
            </property>
           </widget>
          </item>
          <item>
-          <widget class="QPushButton" name="pushButton_2">
+          <widget class="QPushButton" name="theme_archive">
            <property name="text">
             <string>Create a theme _archive (.obt)...</string>
            </property>
@@ -106,51 +106,109 @@
          </item>
         </layout>
        </widget>
-       <widget class="QWidget" name="page_3"/>
-       <widget class="QWidget" name="page_4">
+       <widget class="QWidget" name="appearancePage">
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+         <item>
+          <widget class="QGroupBox" name="groupBox">
+           <property name="title">
+            <string>Windows</string>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_3">
+            <item>
+             <widget class="QCheckBox" name="window_border">
+              <property name="text">
+               <string>_Windows retain a border when undecorated</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="animate_iconify">
+              <property name="text">
+               <string>A_nimate iconify and restore</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QGroupBox" name="groupBox_2">
+           <property name="title">
+            <string>Window Titles</string>
+           </property>
+           <layout class="QFormLayout" name="formLayout_2">
+            <item row="0" column="0">
+             <widget class="QLabel" name="label">
+              <property name="text">
+               <string>Button order:</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLineEdit" name="title_layout"/>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_4">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="fontPage">
         <layout class="QFormLayout" name="formLayout">
          <property name="fieldGrowthPolicy">
           <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
          </property>
          <item row="0" column="1">
-          <widget class="QPushButton" name="pushButton_3">
+          <widget class="Fm::FontButton" name="font_active">
            <property name="text">
-            <string>PushButton</string>
+            <string/>
            </property>
           </widget>
          </item>
          <item row="1" column="1">
-          <widget class="QPushButton" name="pushButton_4">
+          <widget class="Fm::FontButton" name="font_inactive">
            <property name="text">
-            <string>PushButton</string>
+            <string/>
            </property>
           </widget>
          </item>
          <item row="2" column="1">
-          <widget class="QPushButton" name="pushButton_6">
+          <widget class="Fm::FontButton" name="font_menu_header">
            <property name="text">
-            <string>PushButton</string>
+            <string/>
            </property>
           </widget>
          </item>
          <item row="3" column="1">
-          <widget class="QPushButton" name="pushButton_5">
+          <widget class="Fm::FontButton" name="font_menu_item">
            <property name="text">
-            <string>PushButton</string>
+            <string/>
            </property>
           </widget>
          </item>
          <item row="4" column="1">
-          <widget class="QPushButton" name="pushButton_7">
+          <widget class="Fm::FontButton" name="font_active_display">
            <property name="text">
-            <string>PushButton</string>
+            <string/>
            </property>
           </widget>
          </item>
          <item row="5" column="1">
-          <widget class="QPushButton" name="pushButton_8">
+          <widget class="Fm::FontButton" name="font_inactive_display">
            <property name="text">
-            <string>PushButton</string>
+            <string/>
            </property>
           </widget>
          </item>
@@ -198,66 +256,8 @@
          </item>
         </layout>
        </widget>
-       <widget class="QWidget" name="page_2">
-        <layout class="QVBoxLayout" name="verticalLayout_4">
-         <item>
-          <widget class="QGroupBox" name="groupBox">
-           <property name="title">
-            <string>Windows</string>
-           </property>
-           <layout class="QVBoxLayout" name="verticalLayout_3">
-            <item>
-             <widget class="QCheckBox" name="checkBox">
-              <property name="text">
-               <string>_Windows retain a border when undecorated</string>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <widget class="QCheckBox" name="checkBox_2">
-              <property name="text">
-               <string>A_nimate iconify and restore</string>
-              </property>
-             </widget>
-            </item>
-           </layout>
-          </widget>
-         </item>
-         <item>
-          <widget class="QGroupBox" name="groupBox_2">
-           <property name="title">
-            <string>Window Titles</string>
-           </property>
-           <layout class="QFormLayout" name="formLayout_2">
-            <item row="0" column="0">
-             <widget class="QLabel" name="label">
-              <property name="text">
-               <string>Button order:</string>
-              </property>
-             </widget>
-            </item>
-            <item row="0" column="1">
-             <widget class="QLineEdit" name="lineEdit"/>
-            </item>
-           </layout>
-          </widget>
-         </item>
-         <item>
-          <spacer name="verticalSpacer_4">
-           <property name="orientation">
-            <enum>Qt::Vertical</enum>
-           </property>
-           <property name="sizeHint" stdset="0">
-            <size>
-             <width>20</width>
-             <height>40</height>
-            </size>
-           </property>
-          </spacer>
-         </item>
-        </layout>
-       </widget>
-       <widget class="QWidget" name="page_5">
+       <widget class="QWidget" name="windowsPage"/>
+       <widget class="QWidget" name="moveResizePage">
         <layout class="QVBoxLayout" name="verticalLayout_5">
          <item>
           <widget class="QGroupBox" name="groupBox_3">
@@ -266,7 +266,7 @@
            </property>
            <layout class="QFormLayout" name="formLayout_3">
             <item row="0" column="0" colspan="2">
-             <widget class="QCheckBox" name="checkBox_3">
+             <widget class="QCheckBox" name="resize_contents">
               <property name="text">
                <string>Update the window contents while _resizing</string>
               </property>
@@ -280,7 +280,14 @@
              </widget>
             </item>
             <item row="1" column="1">
-             <widget class="QSpinBox" name="spinBox"/>
+             <widget class="QSpinBox" name="drag_threshold">
+              <property name="minimum">
+               <number>1</number>
+              </property>
+              <property name="maximum">
+               <number>100</number>
+              </property>
+             </widget>
             </item>
             <item row="2" column="0">
              <widget class="QLabel" name="label_9">
@@ -290,7 +297,14 @@
              </widget>
             </item>
             <item row="2" column="1">
-             <widget class="QSpinBox" name="spinBox_2"/>
+             <widget class="QSpinBox" name="resist_window">
+              <property name="minimum">
+               <number>0</number>
+              </property>
+              <property name="maximum">
+               <number>100</number>
+              </property>
+             </widget>
             </item>
             <item row="3" column="0">
              <widget class="QLabel" name="label_10">
@@ -300,7 +314,14 @@
              </widget>
             </item>
             <item row="3" column="1">
-             <widget class="QSpinBox" name="spinBox_3"/>
+             <widget class="QSpinBox" name="resist_edge">
+              <property name="minimum">
+               <number>0</number>
+              </property>
+              <property name="maximum">
+               <number>100</number>
+              </property>
+             </widget>
             </item>
             <item row="5" column="0">
              <widget class="QLabel" name="label_11">
@@ -310,10 +331,17 @@
              </widget>
             </item>
             <item row="5" column="1">
-             <widget class="QSpinBox" name="spinBox_4"/>
+             <widget class="QSpinBox" name="warp_edge_time">
+              <property name="minimum">
+               <number>100</number>
+              </property>
+              <property name="maximum">
+               <number>10000</number>
+              </property>
+             </widget>
             </item>
             <item row="4" column="0" colspan="2">
-             <widget class="QCheckBox" name="checkBox_4">
+             <widget class="QCheckBox" name="warp_edge">
               <property name="text">
                <string>_Switch desktops when moving a window past the screen edge</string>
               </property>
@@ -339,7 +367,7 @@
              </widget>
             </item>
             <item row="0" column="1">
-             <widget class="QComboBox" name="comboBox"/>
+             <widget class="QComboBox" name="resize_popup"/>
             </item>
             <item row="1" column="0">
              <widget class="QLabel" name="label_13">
@@ -349,7 +377,7 @@
              </widget>
             </item>
             <item row="1" column="1">
-             <widget class="QComboBox" name="comboBox_2"/>
+             <widget class="QComboBox" name="resize_position"/>
             </item>
            </layout>
           </widget>
@@ -372,7 +400,7 @@
          </item>
         </layout>
        </widget>
-       <widget class="QWidget" name="page_6">
+       <widget class="QWidget" name="mousePage">
         <layout class="QVBoxLayout" name="verticalLayout_7">
          <item>
           <widget class="QGroupBox" name="groupBox_5">
@@ -384,7 +412,7 @@
            </property>
            <layout class="QVBoxLayout" name="verticalLayout_6">
             <item>
-             <widget class="QCheckBox" name="checkBox_5">
+             <widget class="QCheckBox" name="focus_mouse">
               <property name="text">
                <string>Focus windows when the mouse pointer moves over them</string>
               </property>
@@ -403,24 +431,31 @@
                </widget>
               </item>
               <item row="3" column="1">
-               <widget class="QSpinBox" name="spinBox_5"/>
+               <widget class="QSpinBox" name="focus_delay">
+                <property name="minimum">
+                 <number>0</number>
+                </property>
+                <property name="maximum">
+                 <number>10000</number>
+                </property>
+               </widget>
               </item>
               <item row="0" column="0" colspan="2">
-               <widget class="QCheckBox" name="checkBox_6">
+               <widget class="QCheckBox" name="focus_notlast">
                 <property name="text">
                  <string>Move focus under the mouse when _switching desktops</string>
                 </property>
                </widget>
               </item>
               <item row="1" column="0" colspan="2">
-               <widget class="QCheckBox" name="checkBox_7">
+               <widget class="QCheckBox" name="focus_under_mouse">
                 <property name="text">
                  <string>Move focus _under the mouse when the mouse is not moving</string>
                 </property>
                </widget>
               </item>
               <item row="2" column="0" colspan="2">
-               <widget class="QCheckBox" name="checkBox_8">
+               <widget class="QCheckBox" name="focus_raise">
                 <property name="text">
                  <string>_Raise windows when the mouse pointer moves over them</string>
                 </property>
@@ -440,22 +475,26 @@
             <item row="0" column="0">
              <widget class="QLabel" name="label_15">
               <property name="text">
-               <string>TextLabel</string>
+               <string>Double click on the _titlebar:</string>
               </property>
              </widget>
             </item>
             <item row="0" column="1">
-             <widget class="QComboBox" name="comboBox_3"/>
+             <widget class="QComboBox" name="titlebar_doubleclick"/>
             </item>
             <item row="1" column="0">
              <widget class="QLabel" name="label_16">
               <property name="text">
-               <string>TextLabel</string>
+               <string>Double click ti_me:</string>
               </property>
              </widget>
             </item>
             <item row="1" column="1">
-             <widget class="QSpinBox" name="spinBox_6"/>
+             <widget class="QSpinBox" name="doubleclick_time">
+              <property name="maximum">
+               <number>10000</number>
+              </property>
+             </widget>
             </item>
            </layout>
           </widget>
@@ -475,13 +514,13 @@
          </item>
         </layout>
        </widget>
-       <widget class="QWidget" name="page_7">
+       <widget class="QWidget" name="desktopPage">
         <layout class="QFormLayout" name="formLayout_7">
          <property name="fieldGrowthPolicy">
           <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
          </property>
          <item row="0" column="0">
-          <widget class="QCheckBox" name="checkBox_9">
+          <widget class="QCheckBox" name="desktop_popup">
            <property name="text">
             <string>_Show a notification when switching desktops</string>
            </property>
@@ -495,7 +534,14 @@
           </widget>
          </item>
          <item row="1" column="1">
-          <widget class="QSpinBox" name="spinBox_7"/>
+          <widget class="QSpinBox" name="desktop_popup_time">
+           <property name="minimum">
+            <number>1</number>
+           </property>
+           <property name="maximum">
+            <number>10000</number>
+           </property>
+          </widget>
          </item>
          <item row="3" column="0">
           <widget class="QLabel" name="label_18">
@@ -505,7 +551,14 @@
           </widget>
          </item>
          <item row="3" column="1">
-          <widget class="QSpinBox" name="spinBox_8"/>
+          <widget class="QSpinBox" name="desktop_num">
+           <property name="minimum">
+            <number>1</number>
+           </property>
+           <property name="maximum">
+            <number>100</number>
+           </property>
+          </widget>
          </item>
          <item row="4" column="0">
           <widget class="QLabel" name="label_19">
@@ -515,11 +568,11 @@
           </widget>
          </item>
          <item row="9" column="0" colspan="2">
-          <widget class="QListWidget" name="listWidget_2"/>
+          <widget class="QListWidget" name="desktop_names"/>
          </item>
         </layout>
        </widget>
-       <widget class="QWidget" name="page_8">
+       <widget class="QWidget" name="marginsPage">
         <layout class="QVBoxLayout" name="verticalLayout_8">
          <item>
           <widget class="QGroupBox" name="groupBox_7">
@@ -545,7 +598,11 @@
              </widget>
             </item>
             <item row="1" column="1">
-             <widget class="QSpinBox" name="spinBox_9"/>
+             <widget class="QSpinBox" name="margins_left">
+              <property name="maximum">
+               <number>100</number>
+              </property>
+             </widget>
             </item>
             <item row="1" column="2">
              <widget class="QLabel" name="label_25">
@@ -562,7 +619,11 @@
              </widget>
             </item>
             <item row="2" column="1">
-             <widget class="QSpinBox" name="spinBox_10"/>
+             <widget class="QSpinBox" name="margins_top">
+              <property name="maximum">
+               <number>100</number>
+              </property>
+             </widget>
             </item>
             <item row="2" column="2">
              <widget class="QLabel" name="label_26">
@@ -579,7 +640,11 @@
              </widget>
             </item>
             <item row="3" column="1">
-             <widget class="QSpinBox" name="spinBox_11"/>
+             <widget class="QSpinBox" name="margins_right">
+              <property name="maximum">
+               <number>100</number>
+              </property>
+             </widget>
             </item>
             <item row="3" column="2">
              <widget class="QLabel" name="label_27">
@@ -596,7 +661,11 @@
              </widget>
             </item>
             <item row="4" column="1">
-             <widget class="QSpinBox" name="spinBox_12"/>
+             <widget class="QSpinBox" name="margins_bottom">
+              <property name="maximum">
+               <number>100</number>
+              </property>
+             </widget>
             </item>
             <item row="4" column="2">
              <widget class="QLabel" name="label_28">
@@ -623,7 +692,7 @@
          </item>
         </layout>
        </widget>
-       <widget class="QWidget" name="page_9"/>
+       <widget class="QWidget" name="dockPage"/>
       </widget>
      </item>
     </layout>
@@ -634,12 +703,19 @@
       <enum>Qt::Horizontal</enum>
      </property>
      <property name="standardButtons">
-      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+      <set>QDialogButtonBox::Close</set>
      </property>
     </widget>
    </item>
   </layout>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>Fm::FontButton</class>
+   <extends>QPushButton</extends>
+   <header>fontbutton.h</header>
+  </customwidget>
+ </customwidgets>
  <resources/>
  <connections>
   <connection>

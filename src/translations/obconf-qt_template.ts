@@ -2,6 +2,17 @@
 <!DOCTYPE TS>
 <TS version="2.0">
 <context>
+    <name>Fm::FontButton</name>
+    <message>
+        <source>Bold</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Italic</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>MainDialog</name>
     <message>
         <source>Mouse</source>
@@ -41,10 +52,6 @@
     </message>
     <message>
         <source>Dock</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>PushButton</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -201,6 +208,58 @@
     </message>
     <message>
         <source>Create a theme _archive (.obt)...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Double click on the _titlebar:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Double click ti_me:</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>QObject</name>
+    <message>
+        <source>&quot;%1&quot; was installed to %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&quot;%1&quot; was successfully created</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unable to create the theme archive &quot;%1&quot;.
+The following errors were reported:
+%2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unable to run the &quot;tar&quot; command: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unable to create directory &quot;%1&quot;: %2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&quot;%1&quot; does not appear to be a valid Openbox theme directory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unable to move to directory &quot;%1&quot;: %2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unable to extract the file &quot;%1&quot;.
+Please ensure that &quot;%2&quot; is writable and that the file is a valid Openbox theme archive.
+The following errors were reported:
+%3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ObConf Error</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
