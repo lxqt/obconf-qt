@@ -338,11 +338,25 @@
         <source>Shades the window</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>N: Window icon
+L: Window label (Title)
+I: Iconify (Minimize)
+M: Maximize
+C: Close
+S: Shade (Roll up)
+D: Omnipresent (On all desktops)</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>Obconf::MainDialog</name>
     <message>
         <source>Custom actions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>(Unnamed desktop)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

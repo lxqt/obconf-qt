@@ -49,6 +49,10 @@ private:
   void desktops_setup_tab();
   void dock_setup_tab();
 
+  void desktops_read_names();
+  void desktops_write_names();
+  void desktops_write_number();
+
 private Q_SLOTS:
   // theme
   
@@ -69,6 +73,8 @@ private Q_SLOTS:
   void on_resist_window_valueChanged(int newValue);
   void on_resist_edge_valueChanged(int newValue);
   void on_resize_contents_toggled(bool checked);
+  
+  void on_resize_popup_currentIndexChanged(int index);
 
   void on_drag_threshold_valueChanged(int newValue);
 

@@ -147,6 +147,19 @@
             <item row="0" column="1">
              <widget class="QLineEdit" name="title_layout"/>
             </item>
+            <item row="1" column="0" colspan="2">
+             <widget class="QLabel" name="label_35">
+              <property name="text">
+               <string>N: Window icon
+L: Window label (Title)
+I: Iconify (Minimize)
+M: Maximize
+C: Close
+S: Shade (Roll up)
+D: Omnipresent (On all desktops)</string>
+              </property>
+             </widget>
+            </item>
            </layout>
           </widget>
          </item>

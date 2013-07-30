@@ -36,6 +36,7 @@
 #include <QFile>
 #include <QStringBuilder>
 #include <QFont>
+#include <QListWidgetItem>
 
 #include <obt/xml.h>
 #include <obrender/render.h>
@@ -259,50 +260,38 @@ void MainDialog::moveresize_setup_tab() {
   else                         pos = POSITION_CENTER;
 
   g_free(s);
-
   ui.resize_position->setCurrentIndex(pos);
 
-#if 0
-  w = get_widget("fixed_x_popup");
+
   s = tree_get_string("resize/popupFixedPosition/x", "0");
   opp = s[0] == '-';
-
-  if(s[0] == '-' || s[0] == '+') ++s;
-
+  if(s[0] == '-' || s[0] == '+')
+    ++s;
   if(!strcasecmp(s, "Center")) pos = EDGE_CENTER;
   else if(opp) pos = EDGE_RIGHT;
   else pos = EDGE_LEFT;
 
   g_free(s);
-  gtk_option_menu_set_history(GTK_OPTION_MENU(w), pos);
 
-  w = get_widget("fixed_x_pos");
-  gtk_spin_button_set_value(GTK_SPIN_BUTTON(w), MAX(atoi(s), 0));
+  ui.fixed_x_popup->setCurrentIndex(pos);
+  ui.fixed_x_pos->setValue(MAX(atoi(s), 0));
 
-  w = get_widget("fixed_y_popup");
   s = tree_get_string("resize/popupFixedPosition/y", "0");
   opp = s[0] == '-';
-
   if(!strcasecmp(s, "Center")) pos = EDGE_CENTER;
   else if(opp) pos = EDGE_RIGHT;
   else pos = EDGE_LEFT;
-
   g_free(s);
-  gtk_option_menu_set_history(GTK_OPTION_MENU(w), pos);
 
-  w = get_widget("fixed_y_pos");
-  gtk_spin_button_set_value(GTK_SPIN_BUTTON(w), MAX(atoi(s), 0));
+  ui.fixed_y_popup->setCurrentIndex(pos);
+  ui.fixed_y_pos->setValue(MAX(atoi(s), 0));
 
   i = tree_get_int("mouse/screenEdgeWarpTime", 400);
 
-  w = get_widget("warp_edge");
-  gtk_toggle_button_set_active(GTK_TOGGLE_BUTTON(w), i != 0);
-
-  w = get_widget("warp_edge_time");
-  gtk_spin_button_set_value(GTK_SPIN_BUTTON(w), i ? i : 400);
+  ui.warp_edge->setChecked(i != 0);
+  ui.warp_edge_time->setValue(i ? i : 400);
 
   enable_stuff();
-#endif
 }
 
 #if 0
@@ -360,24 +349,20 @@ void MainDialog::on_resize_contents_toggled(bool checked) {
   tree_set_bool("resize/drawContents", checked);
 }
 
-/*
-void MainDialog::on_resize_popup_nonpixel_activate(GtkMenuItem* w, gpointer data) {
-  tree_set_string("resize/popupShow", "NonPixel");
+void MainDialog::on_resize_popup_currentIndexChanged(int index) {
+  switch(index) {
+    case POPUP_NONPIXEL:
+      tree_set_string("resize/popupShow", "NonPixel");
+      break;
+    case POPUP_ALWAYS:
+      tree_set_string("resize/popupShow", "Always");
+      break;
+    case POPUP_NEVER:
+      tree_set_string("resize/popupShow", "Never");
+      break;
+  }
   enable_stuff();
 }
-
-void MainDialog::on_resize_popup_always_activate(GtkMenuItem* w, gpointer data) {
-  tree_set_string("resize/popupShow", "Always");
-  enable_stuff();
-}
-
-void MainDialog::on_resize_popup_never_activate(GtkMenuItem* w, gpointer data) {
-
-
-  tree_set_string("resize/popupShow", "Never");
-  enable_stuff();
-}
-*/
 
 void MainDialog::on_drag_threshold_valueChanged(int newValue) {
   tree_set_int("mouse/dragThreshold", newValue);
@@ -1012,7 +997,6 @@ static RrFont* write_font(Fm::FontButton* button, const gchar* place) {
 //-------------------------- desktops ------------------------------
 
 static int num_desktops;
-static GList* desktop_names;
 
 static void desktops_read_names();
 static void desktops_write_names();
@@ -1049,8 +1033,9 @@ void MainDialog::desktops_setup_tab() {
            ("Name", render, "text", 0, "editable", 1, NULL);
   gtk_tree_view_append_column(GTK_TREE_VIEW(w), column);
 
-  desktops_read_names();
 #endif
+
+  desktops_read_names();
 
   i = tree_get_int("desktops/popupTime", 875);
   ui.desktop_popup->setChecked(i != 0);
@@ -1111,99 +1096,58 @@ static void MainDialog::on_desktop_names_cell_edited(GtkCellRendererText* cell,
 
 #endif
 
-static void desktops_read_names() {
-#if 0
-  // FIXME
-
-  GtkTreeIter it;
+void MainDialog::desktops_read_names() {
   xmlNodePtr n;
   gint i;
-  GList* lit;
 
-  gtk_list_store_clear(desktop_store);
-
-  for(lit = desktop_names; lit; lit = g_list_next(lit))
-    g_free(lit->data);
-
-  g_list_free(desktop_names);
-  desktop_names = NULL;
+  ui.desktop_names->clear();
 
   i = 0;
   n = tree_get_node("desktops/names", NULL)->children;
-
   while(n) {
     gchar* name;
-
     if(!xmlStrcmp(n->name, (const xmlChar*)"name")) {
       name = obt_xml_node_string(n);
-
-      desktop_names = g_list_append(desktop_names, name);
-
-      gtk_list_store_append(desktop_store, &it);
-      gtk_list_store_set(desktop_store, &it,
-                         0, (name[0] ? name : _("(Unnamed desktop)")),
-                         1, TRUE,
-                         -1);
+      QString desktop_name = QString::fromUtf8(name);
+      if(desktop_name.isEmpty())
+        desktop_name = tr("(Unnamed desktop)");
+      ui.desktop_names->addItem(desktop_name);
       ++i;
     }
-
     n = n->next;
   }
 
   while(i < num_desktops) {
-    gchar* name = g_strdup("");
-
-    desktop_names = g_list_append(desktop_names, name);
-
-    gtk_list_store_append(desktop_store, &it);
-    gtk_list_store_set(desktop_store, &it,
-                       0, _("(Unnamed desktop)"),
-                       1, TRUE,
-                       -1);
+    ui.desktop_names->addItem(tr("(Unnamed desktop)"));
     ++i;
   }
-#endif
 }
 
-static void desktops_write_names() {
-#if 0
-  //FIXME
-
+void MainDialog::desktops_write_names() {
   gchar** s;
-  GList* lit;
   xmlNodePtr n, c;
   gint num = 0, last = -1;
 
+  // delete all existing keys
   n = tree_get_node("desktops/names", NULL);
-
   while((c = n->children)) {
     xmlUnlinkNode(c);
     xmlFreeNode(c);
   }
 
-  for(lit = desktop_names; lit; lit = g_list_next(lit)) {
-    if(((gchar*)lit->data)[0])  /* not empty */
-      last = num;
-
-    ++num;
+  int i;
+  for(i = 0; i < ui.desktop_names->count(); ++i) {
+    QListWidgetItem* item = ui.desktop_names->item(i);
+    QString text = item->text();
+    xmlNewTextChild(n, NULL, (xmlChar*)"name", (xmlChar*)text.toUtf8().constData());
   }
-
-  num = 0;
-
-  for(lit = desktop_names; lit && num <= last; lit = g_list_next(lit)) {
-    xmlNewTextChild(n, NULL, "name", lit->data);
-    ++num;
-  }
-
   tree_apply();
-
   /* make openbox re-set the property */
-  XDeleteProperty(GDK_DISPLAY(), GDK_ROOT_WINDOW(),
-                  gdk_x11_get_xatom_by_name("_NET_DESKTOP_NAMES"));
-#endif
+  XDeleteProperty(QX11Info::display(), QX11Info::appRootWindow(),
+                  XInternAtom(QX11Info::display(), "_NET_DESKTOP_NAMES", False));
 }
 
-static void desktops_write_number() {
+void MainDialog::desktops_write_number() {
   XEvent ce;
   tree_set_int("desktops/number", num_desktops);
   ce.xclient.type = ClientMessage;
