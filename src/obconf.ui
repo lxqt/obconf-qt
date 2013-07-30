@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>583</width>
-    <height>409</height>
+    <width>596</width>
+    <height>473</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -256,7 +256,136 @@
          </item>
         </layout>
        </widget>
-       <widget class="QWidget" name="windowsPage"/>
+       <widget class="QWidget" name="windowsPage">
+        <layout class="QVBoxLayout" name="verticalLayout_10">
+         <item>
+          <widget class="QCheckBox" name="focus_new">
+           <property name="text">
+            <string>Focus _new windows when they appear</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="place_mouse">
+           <property name="text">
+            <string>_Place new windows under the mouse pointer</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="place_center">
+           <property name="text">
+            <string>_Center new windows when they are placed</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_3">
+           <item>
+            <widget class="QLabel" name="label_31">
+             <property name="text">
+              <string>Prefer to place new windows _on:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="place_active_popup">
+             <item>
+              <property name="text">
+               <string>All monitors</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>The active monitor</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>The monitor with the mouse</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QGroupBox" name="groupBox_8">
+           <property name="title">
+            <string>Primary Monitor</string>
+           </property>
+           <layout class="QFormLayout" name="formLayout_4">
+            <item row="0" column="0" colspan="2">
+             <widget class="QLabel" name="label_32">
+              <property name="text">
+               <string>The primary monitor is where Openbox will place dialogs, such as the one used for cycling windows.</string>
+              </property>
+              <property name="wordWrap">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="label_33">
+              <property name="text">
+               <string>Primary _monitor:</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QComboBox" name="primary_monitor_popup">
+              <item>
+               <property name="text">
+                <string>Fixed Monitor</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Active Monitor</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Monitor With Mouse Pointer</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="label_34">
+              <property name="text">
+               <string>_Fixed monitor:</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QSpinBox" name="fixed_monitor">
+              <property name="minimum">
+               <number>1</number>
+              </property>
+              <property name="maximum">
+               <number>100</number>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_5">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </widget>
        <widget class="QWidget" name="moveResizePage">
         <layout class="QVBoxLayout" name="verticalLayout_5">
          <item>
@@ -355,29 +484,124 @@
            <property name="title">
             <string>Information Dialog</string>
            </property>
-           <layout class="QFormLayout" name="formLayout_4">
-            <property name="fieldGrowthPolicy">
-             <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
-            </property>
-            <item row="0" column="0">
-             <widget class="QLabel" name="label_12">
+           <layout class="QGridLayout" name="gridLayout_2">
+            <item row="2" column="1">
+             <widget class="QComboBox" name="fixed_x_popup">
+              <item>
+               <property name="text">
+                <string>Centered</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>From left edge</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>From right edge</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item row="3" column="0">
+             <widget class="QLabel" name="label_30">
               <property name="text">
-               <string>TextLabel</string>
+               <string>Fixed _y position:</string>
               </property>
              </widget>
             </item>
-            <item row="0" column="1">
-             <widget class="QComboBox" name="resize_popup"/>
+            <item row="3" column="1">
+             <widget class="QComboBox" name="fixed_y_popup">
+              <item>
+               <property name="text">
+                <string>Centered</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>From top edge</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>From bottom edge</string>
+               </property>
+              </item>
+             </widget>
             </item>
             <item row="1" column="0">
              <widget class="QLabel" name="label_13">
               <property name="text">
-               <string>TextLabel</string>
+               <string>Information dialog's _position:</string>
               </property>
              </widget>
             </item>
-            <item row="1" column="1">
-             <widget class="QComboBox" name="resize_position"/>
+            <item row="2" column="0">
+             <widget class="QLabel" name="label_29">
+              <property name="text">
+               <string>Fixed _x position:</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="0">
+             <widget class="QLabel" name="label_12">
+              <property name="text">
+               <string>Show _information dialog:</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="2">
+             <widget class="QSpinBox" name="fixed_y_pos">
+              <property name="maximum">
+               <number>10000</number>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="2">
+             <widget class="QSpinBox" name="fixed_x_pos">
+              <property name="maximum">
+               <number>10000</number>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1" colspan="2">
+             <widget class="QComboBox" name="resize_popup">
+              <item>
+               <property name="text">
+                <string>When resizing terminal windows</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Always</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Never</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item row="1" column="1" colspan="2">
+             <widget class="QComboBox" name="resize_position">
+              <item>
+               <property name="text">
+                <string>Centered on the window</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Above the window</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Fixed position on screen</string>
+               </property>
+              </item>
+             </widget>
             </item>
            </layout>
           </widget>
@@ -480,7 +704,18 @@
              </widget>
             </item>
             <item row="0" column="1">
-             <widget class="QComboBox" name="titlebar_doubleclick"/>
+             <widget class="QComboBox" name="titlebar_doubleclick">
+              <item>
+               <property name="text">
+                <string>Maximizes the window</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Shades the window</string>
+               </property>
+              </item>
+             </widget>
             </item>
             <item row="1" column="0">
              <widget class="QLabel" name="label_16">

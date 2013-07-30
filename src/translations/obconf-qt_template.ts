@@ -127,10 +127,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>TextLabel</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Focusing Windows</source>
         <translation type="unfinished"></translation>
     </message>
@@ -216,6 +212,137 @@
     </message>
     <message>
         <source>Double click ti_me:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Focus _new windows when they appear</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>_Place new windows under the mouse pointer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>_Center new windows when they are placed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Prefer to place new windows _on:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>All monitors</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The active monitor</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The monitor with the mouse</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Primary Monitor</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The primary monitor is where Openbox will place dialogs, such as the one used for cycling windows.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Primary _monitor:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Fixed Monitor</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Active Monitor</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Monitor With Mouse Pointer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>_Fixed monitor:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Centered</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>From left edge</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>From right edge</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Fixed _y position:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>From top edge</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>From bottom edge</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Information dialog&apos;s _position:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Fixed _x position:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show _information dialog:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>When resizing terminal windows</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Always</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Never</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Centered on the window</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Above the window</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Fixed position on screen</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Maximizes the window</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Shades the window</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Obconf::MainDialog</name>
+    <message>
+        <source>Custom actions</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

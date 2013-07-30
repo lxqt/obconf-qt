@@ -1,6 +1,9 @@
 /*
-    <one line to give the program's name and a brief idea of what it does.>
-    Copyright (C) 2013  <copyright holder> <email>
+    Copyright (C) 2013  Hong Jen Yee (PCMan) <pcman.tw@gmail.com>
+    
+    Part of the code in this file is taken from obconf:
+    Copyright (c) 2003-2007   Dana Jansens
+    Copyright (c) 2003        Tim Riley
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -95,53 +98,39 @@ void MainDialog::reject() {
 #define PLACE_ON_ALL 3
 
 void MainDialog::windows_setup_tab() {
-#if 0
   gchar* s;
-  ui.focus_new;
+  ui.focus_new->setChecked(tree_get_bool("focus/focusNew", TRUE));
 
-  w = get_widget("focus_new");
-  gtk_toggle_button_set_active(GTK_TOGGLE_BUTTON(w),
-                               tree_get_bool("focus/focusNew", TRUE));
-
-  w = get_widget("place_mouse");
   s = tree_get_string("placement/policy", "Smart");
-  gtk_toggle_button_set_active(GTK_TOGGLE_BUTTON(w),
-                               !g_ascii_strcasecmp(s, "UnderMouse"));
+  ui.place_mouse->setChecked(!g_ascii_strcasecmp(s, "UnderMouse"));
   g_free(s);
 
-  w = get_widget("place_active_popup");
+  int index;
   s = tree_get_string("placement/monitor", "Any");
-
   if(!g_ascii_strcasecmp(s, "Active"))
-    gtk_option_menu_set_history(GTK_OPTION_MENU(w), PLACE_ON_ACTIVE);
+    index = PLACE_ON_ACTIVE;
   else if(!g_ascii_strcasecmp(s, "Mouse"))
-    gtk_option_menu_set_history(GTK_OPTION_MENU(w), PLACE_ON_MOUSE);
+    index = PLACE_ON_MOUSE;
   else if(!g_ascii_strcasecmp(s, "Primary"))
-    gtk_option_menu_set_history(GTK_OPTION_MENU(w), PLACE_ON_PRIMARY);
+    index = PLACE_ON_PRIMARY;
   else
-    gtk_option_menu_set_history(GTK_OPTION_MENU(w), PLACE_ON_ALL);
-
+    index = PLACE_ON_ALL;
   g_free(s);
+  ui.place_active_popup->setCurrentIndex(index);
 
-  w = get_widget("primary_monitor_popup");
   s = tree_get_string("placement/primaryMonitor", "");
-
   if(!g_ascii_strcasecmp(s, "Active"))
-    gtk_option_menu_set_history(GTK_OPTION_MENU(w), PLACE_ON_ACTIVE);
+    index = PLACE_ON_ACTIVE;
   else if(!g_ascii_strcasecmp(s, "Mouse"))
-    gtk_option_menu_set_history(GTK_OPTION_MENU(w), PLACE_ON_MOUSE);
+    index = PLACE_ON_MOUSE;
   else {
-    gtk_option_menu_set_history(GTK_OPTION_MENU(w), PLACE_ON_FIXED);
-
-    w = get_widget("fixed_monitor");
-    gtk_spin_button_set_value(GTK_SPIN_BUTTON(w),
-                              tree_get_int("placement/primaryMonitor", 1));
+    index = PLACE_ON_FIXED;
+    ui.fixed_monitor->setValue(tree_get_int("placement/primaryMonitor", 1));
   }
-
   g_free(s);
+  ui.primary_monitor_popup->setCurrentIndex(index);
 
-  enable_stuff();
-#endif
+  // FIXME enable_stuff();
 }
 
 static void enable_stuff() {
@@ -576,9 +565,10 @@ void MainDialog::mouse_setup_tab() {
   // w = get_widget("titlebar_doubleclick");
   a = read_doubleclick_action();
 
-  /* FIXME
   if(a == TITLEBAR_CUSTOM) {
-    GtkWidget* i = gtk_menu_item_new_with_label(_("Custom actions"));
+    ui.titlebar_doubleclick->addItem(tr("Custom actions"));
+/*
+    GtkWidget* i = gtk_menu_item_new_with_label(_());
     g_signal_connect(i, "activate",
                      G_CALLBACK(on_titlebar_doubleclick_custom_activate),
                      NULL);
@@ -586,11 +576,10 @@ void MainDialog::mouse_setup_tab() {
     (GTK_MENU_SHELL
      (gtk_option_menu_get_menu
       (GTK_OPTION_MENU(w))), i);
+*/
   }
-
-  gtk_option_menu_set_history(GTK_OPTION_MENU(w), a);
-  enable_stuff();
-  */
+  ui.titlebar_doubleclick->setCurrentIndex(a);
+  // FIXME enable_stuff();
 }
 
 /*
