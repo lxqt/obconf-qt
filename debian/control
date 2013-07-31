@@ -1,0 +1,26 @@
+Source: obconf-qt
+Section: x11
+Priority: optional
+Maintainer: Julien Lavergne <gilir@ubuntu.com>
+Build-Depends: debhelper (>= 9~)
+ , cmake
+ , libqt4-dev
+ , libglib2.0-dev
+ , openbox-dev
+Standards-Version: 3.9.3
+
+Package: obconf-qt
+Architecture: any
+Depends: ${shlibs:Depends}, 
+         ${misc:Depends},
+Description: Openbox configuration in Qt
+ obconf-qt is an utility to configure openbox with a Qt interface.
+
+Package: obconf-qt-dbg
+Architecture: any
+Section: debug
+Depends: obconf-qt (= ${binary:Version}),
+         ${shlibs:Depends},
+         ${misc:Depends}
+Description: Debug package for obconf-qt
+ This package containes debug symbols.
