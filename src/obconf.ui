@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>541</width>
-    <height>397</height>
+    <height>399</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -83,7 +83,7 @@
      <item>
       <widget class="QStackedWidget" name="stackedWidget">
        <property name="currentIndex">
-        <number>5</number>
+        <number>0</number>
        </property>
        <widget class="QWidget" name="themePage">
         <layout class="QVBoxLayout" name="verticalLayout_2">
@@ -93,14 +93,14 @@
          <item>
           <widget class="QPushButton" name="install_theme">
            <property name="text">
-            <string>_Install a new theme...</string>
+            <string>&amp;Install a new theme...</string>
            </property>
           </widget>
          </item>
          <item>
           <widget class="QPushButton" name="theme_archive">
            <property name="text">
-            <string>Create a theme _archive (.obt)...</string>
+            <string>Create a theme &amp;archive (.obt)...</string>
            </property>
           </widget>
          </item>
@@ -117,14 +117,14 @@
             <item>
              <widget class="QCheckBox" name="window_border">
               <property name="text">
-               <string>_Windows retain a border when undecorated</string>
+               <string>&amp;Windows retain a border when undecorated</string>
               </property>
              </widget>
             </item>
             <item>
              <widget class="QCheckBox" name="animate_iconify">
               <property name="text">
-               <string>A_nimate iconify and restore</string>
+               <string>A&amp;nimate iconify and restore</string>
               </property>
              </widget>
             </item>
@@ -228,42 +228,60 @@ D: Omnipresent (On all desktops)</string>
          <item row="0" column="0">
           <widget class="QLabel" name="label_2">
            <property name="text">
-            <string>_Active window title: </string>
+            <string>&amp;Active window title: </string>
+           </property>
+           <property name="buddy">
+            <cstring>font_active</cstring>
            </property>
           </widget>
          </item>
          <item row="1" column="0">
           <widget class="QLabel" name="label_3">
            <property name="text">
-            <string>_Inactive window title: </string>
+            <string>&amp;Inactive window title: </string>
+           </property>
+           <property name="buddy">
+            <cstring>font_inactive</cstring>
            </property>
           </widget>
          </item>
          <item row="2" column="0">
           <widget class="QLabel" name="label_5">
            <property name="text">
-            <string>Menu _header: </string>
+            <string>Menu &amp;header: </string>
+           </property>
+           <property name="buddy">
+            <cstring>font_menu_header</cstring>
            </property>
           </widget>
          </item>
          <item row="3" column="0">
           <widget class="QLabel" name="label_4">
            <property name="text">
-            <string>_Menu Item: </string>
+            <string>&amp;Menu Item: </string>
+           </property>
+           <property name="buddy">
+            <cstring>font_menu_item</cstring>
            </property>
           </widget>
          </item>
          <item row="4" column="0">
           <widget class="QLabel" name="label_6">
            <property name="text">
-            <string>Active _On-screen display: </string>
+            <string>Active &amp;On-screen display: </string>
+           </property>
+           <property name="buddy">
+            <cstring>font_active_display</cstring>
            </property>
           </widget>
          </item>
          <item row="5" column="0">
           <widget class="QLabel" name="label_7">
            <property name="text">
-            <string>Inactive O_n-screen display: </string>
+            <string>Inactive O&amp;n-screen display: </string>
+           </property>
+           <property name="buddy">
+            <cstring>font_inactive_display</cstring>
            </property>
           </widget>
          </item>
@@ -274,21 +292,21 @@ D: Omnipresent (On all desktops)</string>
          <item>
           <widget class="QCheckBox" name="focus_new">
            <property name="text">
-            <string>Focus _new windows when they appear</string>
+            <string>Focus &amp;new windows when they appear</string>
            </property>
           </widget>
          </item>
          <item>
           <widget class="QCheckBox" name="place_mouse">
            <property name="text">
-            <string>_Place new windows under the mouse pointer</string>
+            <string>&amp;Place new windows under the mouse pointer</string>
            </property>
           </widget>
          </item>
          <item>
           <widget class="QCheckBox" name="place_center">
            <property name="text">
-            <string>_Center new windows when they are placed</string>
+            <string>&amp;Center new windows when they are placed</string>
            </property>
           </widget>
          </item>
@@ -297,7 +315,10 @@ D: Omnipresent (On all desktops)</string>
            <item>
             <widget class="QLabel" name="label_31">
              <property name="text">
-              <string>Prefer to place new windows _on:</string>
+              <string>Prefer to place new windows &amp;on:</string>
+             </property>
+             <property name="buddy">
+              <cstring>place_active_popup</cstring>
              </property>
             </widget>
            </item>
@@ -346,7 +367,10 @@ D: Omnipresent (On all desktops)</string>
             <item row="1" column="0">
              <widget class="QLabel" name="label_33">
               <property name="text">
-               <string>Primary _monitor:</string>
+               <string>Primary &amp;monitor:</string>
+              </property>
+              <property name="buddy">
+               <cstring>primary_monitor_popup</cstring>
               </property>
              </widget>
             </item>
@@ -372,7 +396,10 @@ D: Omnipresent (On all desktops)</string>
             <item row="2" column="0">
              <widget class="QLabel" name="label_34">
               <property name="text">
-               <string>_Fixed monitor:</string>
+               <string>&amp;Fixed monitor:</string>
+              </property>
+              <property name="buddy">
+               <cstring>fixed_monitor</cstring>
               </property>
              </widget>
             </item>
@@ -415,14 +442,17 @@ D: Omnipresent (On all desktops)</string>
             <item row="0" column="0" colspan="2">
              <widget class="QCheckBox" name="resize_contents">
               <property name="text">
-               <string>Update the window contents while _resizing</string>
+               <string>Update the window contents while &amp;resizing</string>
               </property>
              </widget>
             </item>
             <item row="1" column="0">
              <widget class="QLabel" name="label_8">
               <property name="text">
-               <string>Drag _threshold distance:</string>
+               <string>Drag &amp;threshold distance:</string>
+              </property>
+              <property name="buddy">
+               <cstring>drag_threshold</cstring>
               </property>
              </widget>
             </item>
@@ -439,7 +469,10 @@ D: Omnipresent (On all desktops)</string>
             <item row="2" column="0">
              <widget class="QLabel" name="label_9">
               <property name="text">
-               <string>Amount of resistance against other _windows:</string>
+               <string>Amount of resistance against other &amp;windows:</string>
+              </property>
+              <property name="buddy">
+               <cstring>resist_window</cstring>
               </property>
              </widget>
             </item>
@@ -456,7 +489,10 @@ D: Omnipresent (On all desktops)</string>
             <item row="3" column="0">
              <widget class="QLabel" name="label_10">
               <property name="text">
-               <string>Amount of resistance against screen _edges:</string>
+               <string>Amount of resistance against screen &amp;edges:</string>
+              </property>
+              <property name="buddy">
+               <cstring>resist_edge</cstring>
               </property>
              </widget>
             </item>
@@ -473,7 +509,10 @@ D: Omnipresent (On all desktops)</string>
             <item row="5" column="0">
              <widget class="QLabel" name="label_11">
               <property name="text">
-               <string>_Amount of time to wait before switching:</string>
+               <string>&amp;Amount of time to wait before switching:</string>
+              </property>
+              <property name="buddy">
+               <cstring>warp_edge_time</cstring>
               </property>
              </widget>
             </item>
@@ -490,7 +529,7 @@ D: Omnipresent (On all desktops)</string>
             <item row="4" column="0" colspan="2">
              <widget class="QCheckBox" name="warp_edge">
               <property name="text">
-               <string>_Switch desktops when moving a window past the screen edge</string>
+               <string>&amp;Switch desktops when moving a window past the screen edge</string>
               </property>
              </widget>
             </item>
@@ -525,7 +564,10 @@ D: Omnipresent (On all desktops)</string>
             <item row="3" column="0">
              <widget class="QLabel" name="label_30">
               <property name="text">
-               <string>Fixed _y position:</string>
+               <string>Fixed &amp;y position:</string>
+              </property>
+              <property name="buddy">
+               <cstring>fixed_y_popup</cstring>
               </property>
              </widget>
             </item>
@@ -551,21 +593,30 @@ D: Omnipresent (On all desktops)</string>
             <item row="1" column="0">
              <widget class="QLabel" name="label_13">
               <property name="text">
-               <string>Information dialog's _position:</string>
+               <string>Information dialog's &amp;position:</string>
+              </property>
+              <property name="buddy">
+               <cstring>resize_position</cstring>
               </property>
              </widget>
             </item>
             <item row="2" column="0">
              <widget class="QLabel" name="label_29">
               <property name="text">
-               <string>Fixed _x position:</string>
+               <string>Fixed &amp;x position:</string>
+              </property>
+              <property name="buddy">
+               <cstring>fixed_x_popup</cstring>
               </property>
              </widget>
             </item>
             <item row="0" column="0">
              <widget class="QLabel" name="label_12">
               <property name="text">
-               <string>Show _information dialog:</string>
+               <string>Show &amp;information dialog:</string>
+              </property>
+              <property name="buddy">
+               <cstring>resize_popup</cstring>
               </property>
              </widget>
             </item>
@@ -668,7 +719,10 @@ D: Omnipresent (On all desktops)</string>
               <item row="3" column="0">
                <widget class="QLabel" name="focus_delay_label">
                 <property name="text">
-                 <string>_Delay before focusing and raising windows:</string>
+                 <string>&amp;Delay before focusing and raising windows:</string>
+                </property>
+                <property name="buddy">
+                 <cstring>focus_delay</cstring>
                 </property>
                </widget>
               </item>
@@ -685,21 +739,21 @@ D: Omnipresent (On all desktops)</string>
               <item row="0" column="0" colspan="2">
                <widget class="QCheckBox" name="focus_notlast">
                 <property name="text">
-                 <string>Move focus under the mouse when _switching desktops</string>
+                 <string>Move focus under the mouse when &amp;switching desktops</string>
                 </property>
                </widget>
               </item>
               <item row="1" column="0" colspan="2">
                <widget class="QCheckBox" name="focus_under_mouse">
                 <property name="text">
-                 <string>Move focus _under the mouse when the mouse is not moving</string>
+                 <string>Move focus &amp;under the mouse when the mouse is not moving</string>
                 </property>
                </widget>
               </item>
               <item row="2" column="0" colspan="2">
                <widget class="QCheckBox" name="focus_raise">
                 <property name="text">
-                 <string>_Raise windows when the mouse pointer moves over them</string>
+                 <string>&amp;Raise windows when the mouse pointer moves over them</string>
                 </property>
                </widget>
               </item>
@@ -717,7 +771,10 @@ D: Omnipresent (On all desktops)</string>
             <item row="0" column="0">
              <widget class="QLabel" name="label_15">
               <property name="text">
-               <string>Double click on the _titlebar:</string>
+               <string>Double click on the &amp;titlebar:</string>
+              </property>
+              <property name="buddy">
+               <cstring>titlebar_doubleclick</cstring>
               </property>
              </widget>
             </item>
@@ -738,7 +795,10 @@ D: Omnipresent (On all desktops)</string>
             <item row="1" column="0">
              <widget class="QLabel" name="label_16">
               <property name="text">
-               <string>Double click ti_me:</string>
+               <string>Double click ti&amp;me:</string>
+              </property>
+              <property name="buddy">
+               <cstring>doubleclick_time</cstring>
               </property>
              </widget>
             </item>
@@ -775,14 +835,17 @@ D: Omnipresent (On all desktops)</string>
          <item row="0" column="0">
           <widget class="QCheckBox" name="desktop_popup">
            <property name="text">
-            <string>_Show a notification when switching desktops</string>
+            <string>&amp;Show a notification when switching desktops</string>
            </property>
           </widget>
          </item>
          <item row="1" column="0">
           <widget class="QLabel" name="label_17">
            <property name="text">
-            <string>_Amount of time to show the notification for:</string>
+            <string>&amp;Amount of time to show the notification for:</string>
+           </property>
+           <property name="buddy">
+            <cstring>desktop_popup_time</cstring>
            </property>
           </widget>
          </item>
@@ -799,7 +862,10 @@ D: Omnipresent (On all desktops)</string>
          <item row="3" column="0">
           <widget class="QLabel" name="label_18">
            <property name="text">
-            <string>_Number of desktops: </string>
+            <string>&amp;Number of desktops: </string>
+           </property>
+           <property name="buddy">
+            <cstring>desktop_num</cstring>
            </property>
           </widget>
          </item>
@@ -813,15 +879,18 @@ D: Omnipresent (On all desktops)</string>
            </property>
           </widget>
          </item>
-         <item row="4" column="0">
-          <widget class="QLabel" name="label_19">
-           <property name="text">
-            <string>_Desktop names:</string>
-           </property>
-          </widget>
-         </item>
          <item row="9" column="0" colspan="2">
           <widget class="QListWidget" name="desktop_names"/>
+         </item>
+         <item row="4" column="0" colspan="2">
+          <widget class="QLabel" name="label_19">
+           <property name="text">
+            <string>&amp;Desktop names:</string>
+           </property>
+           <property name="buddy">
+            <cstring>desktop_names</cstring>
+           </property>
+          </widget>
          </item>
         </layout>
        </widget>

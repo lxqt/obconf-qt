@@ -55,38 +55,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>_Active window title: </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>_Inactive window title: </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Menu _header: </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>_Menu Item: </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Active _On-screen display: </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Inactive O_n-screen display: </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>_Windows retain a border when undecorated</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>A_nimate iconify and restore</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Window Titles</source>
         <translation type="unfinished"></translation>
     </message>
@@ -96,30 +64,6 @@
     </message>
     <message>
         <source>Moving and Resizing Windows</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Update the window contents while _resizing</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Drag _threshold distance:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Amount of resistance against other _windows:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Amount of resistance against screen _edges:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>_Amount of time to wait before switching:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>_Switch desktops when moving a window past the screen edge</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -135,39 +79,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>_Delay before focusing and raising windows:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Move focus under the mouse when _switching desktops</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Move focus _under the mouse when the mouse is not moving</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>_Raise windows when the mouse pointer moves over them</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Titlebar</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>_Show a notification when switching desktops</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>_Amount of time to show the notification for:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>_Number of desktops: </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>_Desktop names:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -199,38 +111,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>_Install a new theme...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Create a theme _archive (.obt)...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Double click on the _titlebar:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Double click ti_me:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Focus _new windows when they appear</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>_Place new windows under the mouse pointer</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>_Center new windows when they are placed</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Prefer to place new windows _on:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>All monitors</source>
         <translation type="unfinished"></translation>
     </message>
@@ -251,10 +131,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Primary _monitor:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Fixed Monitor</source>
         <translation type="unfinished"></translation>
     </message>
@@ -264,10 +140,6 @@
     </message>
     <message>
         <source>Monitor With Mouse Pointer</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>_Fixed monitor:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -283,27 +155,11 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Fixed _y position:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>From top edge</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>From bottom edge</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Information dialog&apos;s _position:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Fixed _x position:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Show _information dialog:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -354,6 +210,150 @@ D: Omnipresent (On all desktops)</source>
     </message>
     <message>
         <source>About</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Install a new theme...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create a theme &amp;archive (.obt)...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Windows retain a border when undecorated</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A&amp;nimate iconify and restore</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Active window title: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Inactive window title: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Menu &amp;header: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Menu Item: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Active &amp;On-screen display: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Inactive O&amp;n-screen display: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Focus &amp;new windows when they appear</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Place new windows under the mouse pointer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Center new windows when they are placed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Prefer to place new windows &amp;on:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Primary &amp;monitor:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Fixed monitor:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Update the window contents while &amp;resizing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Drag &amp;threshold distance:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Amount of resistance against other &amp;windows:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Amount of resistance against screen &amp;edges:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Amount of time to wait before switching:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Switch desktops when moving a window past the screen edge</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Fixed &amp;y position:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Information dialog&apos;s &amp;position:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Fixed &amp;x position:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show &amp;information dialog:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Delay before focusing and raising windows:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Move focus under the mouse when &amp;switching desktops</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Move focus &amp;under the mouse when the mouse is not moving</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Raise windows when the mouse pointer moves over them</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Double click on the &amp;titlebar:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Double click ti&amp;me:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Show a notification when switching desktops</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Amount of time to show the notification for:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Number of desktops: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Desktop names:</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

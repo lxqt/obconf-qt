@@ -343,25 +343,12 @@ int main(int argc, char** argv) {
     }
   }
 
-  /*
-  theme_setup_tab();
-  appearance_setup_tab();
-  windows_setup_tab();
-  moveresize_setup_tab();
-  mouse_setup_tab();
-  desktops_setup_tab();
-  margins_setup_tab();
-  dock_setup_tab();
-  */
-
   // build our GUI
   MainDialog dlg;
-
   if(obc_theme_install)
-    theme_install(obc_theme_install);
+    dlg.theme_install(obc_theme_install);
   else
-    theme_load_all();
-
+    dlg.theme_load_all();
   dlg.exec();
 
   /*

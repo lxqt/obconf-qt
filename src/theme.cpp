@@ -35,7 +35,7 @@ static GList* themes = NULL;
 
 static void add_theme_dir(const gchar* dirname);
 
-void theme_install(const gchar* path) {
+void MainDialog::theme_install(const char* path) {
   gchar* name;
 
   if((name = archive_install(path)))
@@ -46,7 +46,7 @@ void theme_install(const gchar* path) {
   theme_load_all();
 }
 
-void theme_load_all() {
+void MainDialog::theme_load_all() {
 #if 0
   gchar* name;
   gchar* p;
@@ -127,7 +127,7 @@ void theme_load_all() {
 #endif
 }
 
-static void add_theme_dir(const gchar* dirname) {
+void MainDialog::add_theme_dir(const char* dirname) {
   GDir* dir;
   const gchar* n;
 
@@ -152,10 +152,6 @@ static void add_theme_dir(const gchar* dirname) {
     g_dir_close(dir);
   }
 }
-
-
-
-static void add_theme_dir(const gchar* dirname);
 
 void MainDialog::theme_setup_tab() {
 #if 0
@@ -212,8 +208,6 @@ static void MainDialog::on_theme_names_selection_changed(GtkTreeSelection* sel,
   GtkTreeIter iter;
   GtkTreeModel* model;
   const gchar* name;
-
-
 
   if(gtk_tree_selection_get_selected(sel, &model, &iter)) {
     gtk_tree_model_get(model, &iter, 0, &name, -1);
@@ -283,5 +277,3 @@ void MainDialog::on_theme_archive_clicked(GtkButton* w, gpointer data) {
   }
 }
 #endif
-
-

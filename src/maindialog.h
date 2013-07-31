@@ -36,6 +36,9 @@ public:
   virtual void accept();
   virtual void reject();
 
+  void theme_install(const char* path);
+  void theme_load_all();
+
 private:
   void setLeftHandedMouse();
   void loadSettings();
@@ -48,6 +51,9 @@ private:
   void margins_setup_tab();
   void desktops_setup_tab();
   void dock_setup_tab();
+
+  // theme
+  void add_theme_dir(const char* dirname);
 
   // windows
   void windows_enable_stuff();
