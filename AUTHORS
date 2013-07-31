@@ -1,3 +1,12 @@
 Hong Jen Yee (PCMan) <pcman.tw@gmail.com>, LXDE developers
 Some source code is taken from ObConf gtk+ version.
-
+ - Dana Jansens (danakj@orodu.net)
+   - Initial code.
+ - Tim Riley (tr@slackzone.org)
+   - HIG adherence changes.
+   - Interface improvements.
+   - Maintainence.
+ - Javeed Shaikh (syscrash2k@gmail.com)
+   - Theme previews
+ - Myles Green (rmg57@telus.net)
+   - Icon

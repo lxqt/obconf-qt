@@ -23,7 +23,9 @@
 
 #include <QDialog>
 #include <glib.h>
-#include "ui_obconf.h"
+
+// We include a fixed version rather than the originally generated one.
+#include "ui_obconf_fixed.h"
 
 class QStandardItemModel;
 class QItemSelection;
@@ -44,9 +46,6 @@ public:
   void theme_load_all();
 
 private:
-  void setLeftHandedMouse();
-  void loadSettings();
-
   void theme_setup_tab();
   void appearance_setup_tab();
   void windows_setup_tab();

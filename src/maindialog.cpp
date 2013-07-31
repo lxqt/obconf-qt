@@ -33,12 +33,11 @@ MainDialog::MainDialog():
   QDialog() {
 
   ui.setupUi(this);
+  setWindowIcon(QIcon(PIXMAPS_DIR "/obconf-qt.png"));
+
   // resize the list widget according to the width of its content.
   ui.listWidget->setMaximumWidth(ui.listWidget->sizeHintForColumn(0) + ui.listWidget->frameWidth() * 2 + 2);
   ui.theme_names->setModel(themes_model);
-
-  /* read the config flie */
-  loadSettings();
 
   theme_setup_tab();
   appearance_setup_tab();
@@ -49,7 +48,9 @@ MainDialog::MainDialog():
   desktops_setup_tab();
   dock_setup_tab();
 
-  /* connect signals and slots */
+  // Normally, this is called in ui.setupUi(), but this is not desired behavior.
+  // So we edited the generated ui header file with "sed" and generated a fixed version.
+  // Then, we need to call it here.
   QMetaObject::connectSlotsByName(this);
 }
 
@@ -59,10 +60,6 @@ MainDialog::~MainDialog() {
     g_list_free(themes);
   }
   delete themes_model;
-}
-
-void MainDialog::loadSettings() {
-
 }
 
 void MainDialog::accept() {

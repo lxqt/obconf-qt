@@ -2,6 +2,8 @@ project(obconf-qt)
 # newer cmake is required for CMAKE_AUTOMOC Qt support
 cmake_minimum_required(VERSION 2.8.6)
 
+find_program(SED_PROGRAM sed)
+
 find_package(Qt4 REQUIRED QtCore QtGui) # Qt
 find_package(PkgConfig)
 pkg_check_modules(GLIB REQUIRED
@@ -15,6 +17,13 @@ pkg_check_modules(OPENBOX REQUIRED
 
 # add src subdirectory
 add_subdirectory(src)
+
+# install an icon for the application
+install(
+  FILES data/obconf-qt.png
+  # FIXME: is this the proper place to install an icon?
+  DESTINATION share/pixmaps
+)
 
 # install a desktop entry file
 configure_file(data/obconf-qt.desktop.in obconf-qt.desktop @ONLY)
