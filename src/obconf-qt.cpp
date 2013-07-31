@@ -1,6 +1,4 @@
-#include "obconf-qt.h"
 #include <glib.h>
-#include <glib/gi18n.h>
 
 #include <QApplication>
 #include <QTranslator>
@@ -12,10 +10,11 @@
 #include <X11/Xlib.h>
 #include <X11/Xatom.h>
 
-#include "main.h"
+#include "obconf-qt.h"
 #include "archive.h"
 #include "preview_update.h"
 #include <stdlib.h>
+#include <iostream>
 
 using namespace Obconf;
 
@@ -36,35 +35,39 @@ void obconf_error(gchar* msg, gboolean modal) {
 
 static void print_version() {
   // g_print("ObConf %s\n", PACKAGE_VERSION);
-  g_print(_("Copyright (c)"));
-  g_print(" 2003-2008   Dana Jansens\n");
-  g_print(_("Copyright (c)"));
-  g_print(" 2003        Tim Riley\n");
-  g_print(_("Copyright (c)"));
-  g_print(" 2007        Javeed Shaikh\n\n");
-  g_print("This program comes with ABSOLUTELY NO WARRANTY.\n");
-  g_print("This is free software, and you are welcome to redistribute it\n");
-  g_print("under certain conditions. See the file COPYING for details.\n\n");
+  QString output = QObject::tr(
+    "Copyright (c)"
+    " 2003-2008   Dana Jansens\n"
+    "Copyright (c)"
+    " 2003        Tim Riley\n"
+    "Copyright (c)"
+    " 2007        Javeed Shaikh\n\n"
+    "This program comes with ABSOLUTELY NO WARRANTY.\n"
+    "This is free software, and you are welcome to redistribute it\n"
+    "under certain conditions. See the file COPYING for details.\n\n"
+  );
+  std::cout << output.toUtf8().constData();
 
   exit(EXIT_SUCCESS);
 }
 
 static void print_help() {
-  g_print(_("Syntax: obconf [options] [ARCHIVE.obt]\n"));
-  g_print(_("\nOptions:\n"));
-  g_print(_("  --help                Display this help and exit\n"));
-  g_print(_("  --version             Display the version and exit\n"));
-  g_print(_("  --install ARCHIVE.obt Install the given theme archive and select it\n"));
-  g_print(_("  --archive THEME       Create a theme archive from the given theme directory\n"));
-  g_print(_("  --config-file FILE    Specify the path to the config file to use\n"));
-  // g_print(_("\nPlease report bugs at %s\n\n"), PACKAGE_BUGREPORT);
+  QString output = QObject::tr(
+    "Syntax: obconf [options] [ARCHIVE.obt]\n"
+    "\nOptions:\n"
+    "  --help                Display this help and exit\n"
+    "  --version             Display the version and exit\n"
+    "  --install ARCHIVE.obt Install the given theme archive and select it\n"
+    "  --archive THEME       Create a theme archive from the given theme directory\n"
+    "  --config-file FILE    Specify the path to the config file to use\n"
+  );
+  std::cout << output.toUtf8().constData();
 
   exit(EXIT_SUCCESS);
 }
 
 static void parse_args(int argc, char** argv) {
   int i;
-
   for(i = 1; i < argc; ++i) {
     if(!strcmp(argv[i], "--help"))
       print_help();
@@ -73,19 +76,19 @@ static void parse_args(int argc, char** argv) {
       print_version();
     else if(!strcmp(argv[i], "--install")) {
       if(i == argc - 1)  /* no args left */
-        g_printerr(_("--install requires an argument\n"));
+        std::cerr << QObject::tr("--install requires an argument\n").toUtf8().constData();
       else
         obc_theme_install = argv[++i];
     }
     else if(!strcmp(argv[i], "--archive")) {
       if(i == argc - 1)  /* no args left */
-        g_printerr(_("--archive requires an argument\n"));
+        std::cerr << QObject::tr("--archive requires an argument\n").toUtf8().constData();
       else
         obc_theme_archive = argv[++i];
     }
     else if(!strcmp(argv[i], "--config-file")) {
       if(i == argc - 1)  /* no args left */
-        g_printerr(_("--config-file requires an argument\n"));
+        std::cerr << QObject::tr("--config-file requires an argument\n").toUtf8().constData();
       else
         obc_config_file = argv[++i];
     }
@@ -157,124 +160,8 @@ static gboolean prop_get_string_utf8(Window win, Atom prop, gchar** ret) {
   return FALSE;
 }
 
-#if 0
-int obconf_main(int argc, char** argv) {
-  gchar* p;
-  gboolean exit_with_error = FALSE;
-
-  parse_args(argc, argv);
-
-  if(obc_theme_archive) {
-    archive_create(obc_theme_archive);
-    return;
-  }
-
-  p = g_build_filename(GLADEDIR, "obconf.glade", NULL);
-  glade = glade_xml_new(p, NULL, NULL);
-  g_free(p);
-
-  if(!glade) {
-    obconf_error(_("Failed to load the obconf.glade interface file. You have probably failed to install ObConf properly."), TRUE);
-    exit_with_error = TRUE;
-  }
-
-  paths = obt_paths_new();
-  parse_i = obt_xml_instance_new();
-  rrinst = RrInstanceNew(GDK_DISPLAY(), gdk_x11_get_default_screen());
-
-  if(!obc_config_file) {
-    gchar* p;
-
-    if(prop_get_string_utf8(GDK_ROOT_WINDOW(),
-                            gdk_x11_get_xatom_by_name("_OB_CONFIG_FILE"),
-                            &p)) {
-      obc_config_file = g_filename_from_utf8(p, -1, NULL, NULL, NULL);
-      g_free(p);
-    }
-  }
-
-  xmlIndentTreeOutput = 1;
-
-  if(!((obc_config_file &&
-        obt_xml_load_file(parse_i, obc_config_file, "openbox_config")) ||
-       obt_xml_load_config_file(parse_i, "openbox", "rc.xml",
-                                "openbox_config"))) {
-    obconf_error(_("Failed to load an rc.xml. You have probably failed to install Openbox properly."), TRUE);
-    exit_with_error = TRUE;
-  }
-  else {
-    doc = obt_xml_doc(parse_i);
-    root = obt_xml_root(parse_i);
-  }
-
-  /* look for parsing errors */
-  {
-    xmlErrorPtr e = xmlGetLastError();
-
-    if(e) {
-      char* a = g_strdup_printf
-                (_("Error while parsing the Openbox configuration file.  Your configuration file is not valid XML.\n\nMessage: %s"),
-                 e->message);
-      obconf_error(a, TRUE);
-      g_free(a);
-      exit_with_error = TRUE;
-    }
-  }
-
-  if(!exit_with_error) {
-    glade_xml_signal_autoconnect(glade);
-
-    {
-      gchar* s = g_strdup_printf
-                 ("<span weight=\"bold\" size=\"xx-large\">ObConf %s</span>",
-                  PACKAGE_VERSION);
-      gtk_label_set_markup(GTK_LABEL
-                           (glade_xml_get_widget(glade, "title_label")),
-                           s);
-      g_free(s);
-    }
-
-    theme_setup_tab();
-    appearance_setup_tab();
-    windows_setup_tab();
-    moveresize_setup_tab();
-    mouse_setup_tab();
-    desktops_setup_tab();
-    margins_setup_tab();
-    dock_setup_tab();
-
-    mainwin = get_widget("main_window");
-
-    if(obc_theme_install)
-      theme_install(obc_theme_install);
-    else
-      theme_load_all();
-
-    /* the main window is not shown here ! it is shown when the theme
-      *           previews are completed */
-    gtk_main();
-
-    preview_update_set_active_font(NULL);
-    preview_update_set_inactive_font(NULL);
-    preview_update_set_menu_header_font(NULL);
-    preview_update_set_menu_item_font(NULL);
-    preview_update_set_osd_active_font(NULL);
-    preview_update_set_osd_inactive_font(NULL);
-    preview_update_set_title_layout(NULL);
-  }
-
-  RrInstanceFree(rrinst);
-  obt_xml_instance_unref(parse_i);
-  obt_paths_unref(paths);
-
-  xmlFreeDoc(doc);
-  return 0;
-}
-#endif
-
 int main(int argc, char** argv) {
   QApplication app(argc, argv);
-
   // load translations
   QTranslator qtTranslator, translator;
   // install the translations built-into Qt itself
@@ -313,7 +200,8 @@ int main(int argc, char** argv) {
         obt_xml_load_file(parse_i, obc_config_file, "openbox_config")) ||
        obt_xml_load_config_file(parse_i, "openbox", "rc.xml",
                                 "openbox_config"))) {
-    obconf_error(_("Failed to load an rc.xml. You have probably failed to install Openbox properly."), TRUE);
+    QMessageBox::critical(NULL, QObject::tr("Error"),
+                          QObject::tr("Failed to load an rc.xml. You have probably failed to install Openbox properly."));
     exit_with_error = TRUE;
   }
   else {
@@ -326,11 +214,9 @@ int main(int argc, char** argv) {
     xmlErrorPtr e = xmlGetLastError();
 
     if(e) {
-      char* a = g_strdup_printf
-                (_("Error while parsing the Openbox configuration file.  Your configuration file is not valid XML.\n\nMessage: %s"),
-                 e->message);
-      obconf_error(a, TRUE);
-      g_free(a);
+      QString message = QObject::tr("Error while parsing the Openbox configuration file.  Your configuration file is not valid XML.\n\nMessage: %1")
+        .arg(QString::fromUtf8(e->message));
+      QMessageBox::critical(NULL, QObject::tr("Error"), message);
       exit_with_error = TRUE;
     }
   }

@@ -24,7 +24,7 @@
 #include <QItemSelection>
 #include <QFileDialog>
 
-#include "main.h"
+#include "obconf-qt.h"
 #include "tree.h"
 #include "preview_update.h"
 #include "archive.h"

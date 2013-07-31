@@ -431,5 +431,58 @@ The following errors were reported:
         <source>ObConf Error</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Copyright (c) 2003-2008   Dana Jansens
+Copyright (c) 2003        Tim Riley
+Copyright (c) 2007        Javeed Shaikh
+
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it
+under certain conditions. See the file COPYING for details.
+
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Syntax: obconf [options] [ARCHIVE.obt]
+
+Options:
+  --help                Display this help and exit
+  --version             Display the version and exit
+  --install ARCHIVE.obt Install the given theme archive and select it
+  --archive THEME       Create a theme archive from the given theme directory
+  --config-file FILE    Specify the path to the config file to use
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>--install requires an argument
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>--archive requires an argument
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>--config-file requires an argument
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Failed to load an rc.xml. You have probably failed to install Openbox properly.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error while parsing the Openbox configuration file.  Your configuration file is not valid XML.
+
+Message: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>
