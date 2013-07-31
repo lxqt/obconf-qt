@@ -1,6 +1,6 @@
 /*
     Copyright (C) 2013  Hong Jen Yee (PCMan) <pcman.tw@gmail.com>
-    
+
     Part of the code in this file is taken from obconf:
     Copyright (c) 2003-2007   Dana Jansens
     Copyright (c) 2003        Tim Riley
@@ -22,6 +22,7 @@
 
 
 #include "maindialog.h"
+#include <QMessageBox>
 
 using namespace Obconf;
 
@@ -64,4 +65,16 @@ void MainDialog::reject() {
   /* restore to original settings */
 
   QDialog::reject();
+}
+
+void MainDialog::on_about_clicked() {
+  QMessageBox::about(this, tr("About ObConf-Qt"),
+                     tr("A preferences manager for Openbox\n\n"
+                        "Copyright (c) 2003-2013\n\n"
+                        "Authors:\n"
+                        "* Hong Jen Yee (PCMan) <pcman.tw@gmail.com>\n"
+                        "* Dana Jansens <danakj@orodu.net>\n"
+                        "* Tim Riley <tr@slackzone.org>\n"
+                        "* Javeed Shaikh <syscrash2k@gmail.com>")
+                    );
 }

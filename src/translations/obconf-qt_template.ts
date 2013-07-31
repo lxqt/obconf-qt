@@ -348,6 +348,14 @@ S: Shade (Roll up)
 D: Omnipresent (On all desktops)</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Primary monitor</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>Obconf::MainDialog</name>
@@ -357,6 +365,22 @@ D: Omnipresent (On all desktops)</source>
     </message>
     <message>
         <source>(Unnamed desktop)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>About ObConf-Qt</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A preferences manager for Openbox
+
+Copyright (c) 2003-2013
+
+Authors:
+* Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;
+* Dana Jansens &lt;danakj@orodu.net&gt;
+* Tim Riley &lt;tr@slackzone.org&gt;
+* Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

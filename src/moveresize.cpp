@@ -32,7 +32,6 @@ using namespace Obconf;
 
 extern RrInstance* rrinst; // defined in obconf-qt.cpp
 
-
 #define POPUP_NONPIXEL 0
 #define POPUP_ALWAYS   1
 #define POPUP_NEVER    2
@@ -45,18 +44,13 @@ extern RrInstance* rrinst; // defined in obconf-qt.cpp
 #define EDGE_LEFT   1
 #define EDGE_RIGHT  2
 
-static void enable_stuff();
-static void write_fixed_position(const gchar* coord);
-
 void MainDialog::moveresize_setup_tab() {
   gchar* s;
   gint pos, i;
   gboolean opp;
 
   ui.resize_contents->setChecked(tree_get_bool("resize/drawContents", TRUE));
-
   ui.resist_window->setValue(tree_get_int("resistance/strength", 10));
-
   ui.resist_edge->setValue(tree_get_int("resistance/screen_edge_strength", 20));
 
   s = tree_get_string("resize/popupShow", "NonPixel");
@@ -68,9 +62,7 @@ void MainDialog::moveresize_setup_tab() {
   g_free(s);
 
   ui.resize_popup->setCurrentIndex(pos);
-
   ui.drag_threshold->setValue(tree_get_int("mouse/dragThreshold", 8));
-
   s = tree_get_string("resize/popupPosition", "Center");
 
   if(!strcasecmp(s, "Top"))   pos = POSITION_TOP;
@@ -81,22 +73,21 @@ void MainDialog::moveresize_setup_tab() {
   g_free(s);
   ui.resize_position->setCurrentIndex(pos);
 
-
   s = tree_get_string("resize/popupFixedPosition/x", "0");
-  opp = s[0] == '-';
+  char* fixed_pos = s;
+  opp = fixed_pos[0] == '-';
 
-  if(s[0] == '-' || s[0] == '+')
-    ++s;
+  if(fixed_pos[0] == '-' || fixed_pos[0] == '+')
+    ++fixed_pos;
 
-  if(!strcasecmp(s, "Center")) pos = EDGE_CENTER;
+  if(!strcasecmp(fixed_pos, "Center")) pos = EDGE_CENTER;
   else if(opp) pos = EDGE_RIGHT;
   else pos = EDGE_LEFT;
 
-  g_free(s);
-
   ui.fixed_x_popup->setCurrentIndex(pos);
-  ui.fixed_x_pos->setValue(MAX(atoi(s), 0));
-
+  ui.fixed_x_pos->setValue(MAX(atoi(fixed_pos), 0));
+  g_free(s);
+  
   s = tree_get_string("resize/popupFixedPosition/y", "0");
   opp = s[0] == '-';
 
@@ -114,51 +105,34 @@ void MainDialog::moveresize_setup_tab() {
   ui.warp_edge->setChecked(i != 0);
   ui.warp_edge_time->setValue(i ? i : 400);
 
-  // FIXME enable_stuff();
+  moveresize_enable_stuff();
 }
 
-#if 0
-static void enable_stuff() {
-  GtkWidget* w;
-  gboolean b;
+void MainDialog::moveresize_enable_stuff() {
+  bool enabled;
 
-  w = get_widget("resize_popup");
-  b = gtk_option_menu_get_history(GTK_OPTION_MENU(w)) != POPUP_NEVER;
-  w = get_widget("resize_position");
-  gtk_widget_set_sensitive(w, b);
+  enabled = (ui.resize_popup->currentIndex() != POPUP_NEVER);
+  ui.resize_position->setEnabled(enabled);
 
-  w = get_widget("warp_edge");
-  b = gtk_toggle_button_get_active(GTK_TOGGLE_BUTTON(w));
-  w = get_widget("warp_edge_time");
-  gtk_widget_set_sensitive(w, b);
+  enabled = ui.warp_edge->isChecked();
+  ui.warp_edge_time->setEnabled(enabled);
 
-  w = get_widget("resize_position");
-  b = gtk_option_menu_get_history(GTK_OPTION_MENU(w)) == POSITION_FIXED;
-  w = get_widget("fixed_x_popup");
-  gtk_widget_set_sensitive(w, b);
-  w = get_widget("fixed_y_popup");
-  gtk_widget_set_sensitive(w, b);
+  enabled = (ui.resize_position->currentIndex() == POSITION_FIXED);
+  ui.fixed_x_popup->setEnabled(enabled);
+  ui.fixed_y_popup->setEnabled(enabled);
 
-  if(!b) {
-    w = get_widget("fixed_x_pos");
-    gtk_widget_set_sensitive(w, FALSE);
-    w = get_widget("fixed_y_pos");
-    gtk_widget_set_sensitive(w, FALSE);
+  if(!enabled) {
+    ui.fixed_x_pos->setEnabled(false);
+    ui.fixed_y_pos->setEnabled(false);
   }
   else {
-    w = get_widget("fixed_x_popup");
-    b = gtk_option_menu_get_history(GTK_OPTION_MENU(w)) != EDGE_CENTER;
-    w = get_widget("fixed_x_pos");
-    gtk_widget_set_sensitive(w, b);
+    enabled = (ui.fixed_x_popup->currentIndex() != EDGE_CENTER);
+    ui.fixed_x_pos->setEnabled(enabled);
 
-    w = get_widget("fixed_y_popup");
-    b = gtk_option_menu_get_history(GTK_OPTION_MENU(w)) != EDGE_CENTER;
-    w = get_widget("fixed_y_pos");
-    gtk_widget_set_sensitive(w, b);
+    enabled = (ui.fixed_y_popup->currentIndex() != EDGE_CENTER);
+    ui.fixed_y_pos->setEnabled(enabled);
   }
 }
-
-#endif
 
 void MainDialog::on_resist_window_valueChanged(int newValue) {
   tree_set_int("resistance/strength", newValue);
@@ -185,60 +159,56 @@ void MainDialog::on_resize_popup_currentIndexChanged(int index) {
       break;
   }
 
-  // FIXME enable_stuff();
+  moveresize_enable_stuff();
 }
 
 void MainDialog::on_drag_threshold_valueChanged(int newValue) {
   tree_set_int("mouse/dragThreshold", newValue);
 }
 
-/*
- v *oid MainDialog::on_resize_position_center_activate(GtkMenuItem* w, gpointer data) {
-   tree_set_string("resize/popupPosition", "Center");
-   enable_stuff();
- }
+void MainDialog::on_resize_position_currentIndexChanged(int index) {
+  /*
+  #define POSITION_CENTER 0
+  #define POSITION_TOP    1
+  #define POSITION_FIXED  2
+  */
+  const char* strs[] = {
+    "Center",
+    "Top",
+    "Fixed"
+  };
 
- void MainDialog::on_resize_position_top_activate(GtkMenuItem* w, gpointer data) {
-   tree_set_string("resize/popupPosition", "Top");
-   enable_stuff();
- }
+  if(index >= 0 && index < G_N_ELEMENTS(strs)) {
+    tree_set_string("resize/popupPosition", strs[index]);
+    moveresize_enable_stuff();
+  }
+}
 
- void MainDialog::on_resize_position_fixed_activate(GtkMenuItem* w, gpointer data) {
-   tree_set_string("resize/popupPosition", "Fixed");
-   enable_stuff();
- }
+void MainDialog::on_fixed_x_popup_currentIndexChanged(int index) {
+  write_fixed_position("x");
+  moveresize_enable_stuff();
+}
 
- */
+void MainDialog::on_fixed_y_popup_currentIndexChanged(int index) {
+  write_fixed_position("y");
+  moveresize_enable_stuff();
+}
 
-static void write_fixed_position(const gchar* coord) {
-#if 0
-  GtkWidget* popup;
-  gchar* popupname;
-  gchar* val;
-  gchar* valname;
-  gint edge;
 
+void MainDialog::write_fixed_position(const char* coord) {
   g_assert(!strcmp(coord, "x") || !strcmp(coord, "y"));
+  QComboBox* popup = (*coord == 'x' ? ui.fixed_x_popup : ui.fixed_y_popup);
 
-  popupname = g_strdup_printf("fixed_%s_popup", coord);
-  popup = get_widget(popupname);
-  g_free(popupname);
-
-  edge = gtk_option_menu_get_history(GTK_OPTION_MENU(popup));
+  int edge = popup->currentIndex();
   g_assert(edge == EDGE_CENTER || edge == EDGE_LEFT || edge == EDGE_RIGHT);
+
+  char* val;
 
   if(edge == EDGE_CENTER)
     val = g_strdup("center");
   else {
-    GtkWidget* spin;
-    gchar* spinname;
-    gint i;
-
-    spinname = g_strdup_printf("fixed_%s_pos", coord);
-    spin = get_widget(spinname);
-    g_free(spinname);
-
-    i = gtk_spin_button_get_value_as_int(GTK_SPIN_BUTTON(spin));
+    QSpinBox* spin = (*coord == 'x' ? ui.fixed_x_pos : ui.fixed_y_pos) ;
+    int i = spin->value();
 
     if(edge == EDGE_LEFT)
       val = g_strdup_printf("%d", i);
@@ -246,57 +216,11 @@ static void write_fixed_position(const gchar* coord) {
       val = g_strdup_printf("-%d", i);
   }
 
-  valname = g_strdup_printf("resize/popupFixedPosition/%s", coord);
+  char* valname = g_strdup_printf("resize/popupFixedPosition/%s", coord);
   tree_set_string(valname, val);
   g_free(valname);
   g_free(val);
-#endif
 }
-
-/*
- v *oid MainDialog::on_fixed_x_position_left_activate(GtkMenuItem* w, gpointer data) {
-
-
-   write_fixed_position("x");
-   enable_stuff();
- }
-
- void MainDialog::on_fixed_x_position_right_activate(GtkMenuItem* w, gpointer data) {
-
-
-   write_fixed_position("x");
-   enable_stuff();
- }
-
- void MainDialog::on_fixed_x_position_center_activate(GtkMenuItem* w, gpointer data) {
-
-
-   write_fixed_position("x");
-   enable_stuff();
- }
-
- void MainDialog::on_fixed_y_position_top_activate(GtkMenuItem* w, gpointer data) {
-
-
-   write_fixed_position("y");
-   enable_stuff();
- }
-
- void MainDialog::on_fixed_y_position_bottom_activate(GtkMenuItem* w, gpointer data) {
-
-
-   write_fixed_position("y");
-   enable_stuff();
- }
-
- void MainDialog::on_fixed_y_position_center_activate(GtkMenuItem* w, gpointer data) {
-
-
-   write_fixed_position("y");
-   enable_stuff();
- }
-
- */
 
 void MainDialog::on_fixed_x_pos_valueChanged(int newValue) {
   write_fixed_position("x");
@@ -313,7 +237,7 @@ void MainDialog::on_warp_edge_toggled(bool checked) {
   else
     tree_set_int("mouse/screenEdgeWarpTime", 0);
 
-  // FIXME enable_stuff();
+  moveresize_enable_stuff();
 }
 
 void MainDialog::on_warp_edge_time_valueChanged(int newValue) {

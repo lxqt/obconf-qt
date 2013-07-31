@@ -32,12 +32,11 @@ using namespace Obconf;
 
 extern RrInstance* rrinst; // defined in obconf-qt.cpp
 
-
 #define PLACE_ON_FIXED 0
-#define PLACE_ON_PRIMARY 0
+#define PLACE_ON_ALL 0
 #define PLACE_ON_ACTIVE 1
 #define PLACE_ON_MOUSE 2
-#define PLACE_ON_ALL 3
+#define PLACE_ON_PRIMARY 3
 
 void MainDialog::windows_setup_tab() {
   gchar* s;
@@ -63,7 +62,6 @@ void MainDialog::windows_setup_tab() {
   ui.place_active_popup->setCurrentIndex(index);
 
   s = tree_get_string("placement/primaryMonitor", "");
-
   if(!g_ascii_strcasecmp(s, "Active"))
     index = PLACE_ON_ACTIVE;
   else if(!g_ascii_strcasecmp(s, "Mouse"))
@@ -72,86 +70,68 @@ void MainDialog::windows_setup_tab() {
     index = PLACE_ON_FIXED;
     ui.fixed_monitor->setValue(tree_get_int("placement/primaryMonitor", 1));
   }
-
   g_free(s);
   ui.primary_monitor_popup->setCurrentIndex(index);
 
-  // FIXME enable_stuff();
+  windows_enable_stuff();
 }
 
-static void enable_stuff() {
-#if 0
-  GtkWidget* w;
-  gboolean b;
-
-  w = get_widget("place_mouse");
-  b = gtk_toggle_button_get_active(GTK_TOGGLE_BUTTON(w));
-
-  w = get_widget("primary_monitor_popup");
-  b = gtk_option_menu_get_history(GTK_OPTION_MENU(w)) == PLACE_ON_FIXED;
-  w = get_widget("fixed_monitor");
-  gtk_widget_set_sensitive(w, b);
-#endif
+void MainDialog::windows_enable_stuff() {
+  bool enabled = (ui.primary_monitor_popup->currentIndex() == PLACE_ON_FIXED);
+  ui.fixed_monitor->setEnabled(enabled);
 }
 
-#if 0
-
-void MainDialog::on_primary_monitor_active_activate() {
-
-  tree_set_string("placement/primaryMonitor", "Active");
-  enable_stuff();
-}
-
-void MainDialog::on_primary_monitor_mouse_activate() {
-  tree_set_string("placement/primaryMonitor", "Mouse");
-  enable_stuff();
-}
-
-void MainDialog::on_primary_monitor_fixed_activate() {
-  GtkWidget* w2;
-  w2 = get_widget("fixed_monitor");
-  tree_set_int("placement/primaryMonitor",
-               gtk_spin_button_get_value_as_int(GTK_SPIN_BUTTON(w2)));
-  enable_stuff();
+void MainDialog::on_primary_monitor_popup_currentIndexChanged(int index) {
+  /*
+  #define PLACE_ON_FIXED 0
+  #define PLACE_ON_ACTIVE 1
+  #define PLACE_ON_MOUSE 2
+  #define PLACE_ON_PRIMARY 3
+  */
+  const char* strs[] = {
+    NULL,
+    "Active",
+    "Mouse"
+  };
+  if(index < G_N_ELEMENTS(strs) && index >= 0) {
+    if(index == PLACE_ON_FIXED) {
+      tree_set_int("placement/primaryMonitor", ui.fixed_monitor->value());
+    }
+    else {
+      tree_set_string("placement/primaryMonitor", strs[index]);
+    }
+    windows_enable_stuff();
+  }
 }
 
 void MainDialog::on_fixed_monitor_valueChanged(int newValue) {
-
-
-  tree_set_int("placement/primaryMonitor",
-               newValue);
+  tree_set_int("placement/primaryMonitor", newValue);
 }
 
 void MainDialog::on_focus_new_toggled(bool checked) {
-
-
   tree_set_bool("focus/focusNew", checked);
 }
 
 void MainDialog::on_place_mouse_toggled(bool checked) {
-
-
   tree_set_string("placement/policy",
                   (checked ?
-                   "UnderMouse" : "Smart"));
-  enable_stuff();
+                  "UnderMouse" : "Smart"));
+  windows_enable_stuff();
 }
 
-void MainDialog::on_place_active_popup_all_activate() {
-  tree_set_string("placement/monitor", "Any");
+void MainDialog::on_place_active_popup_currentIndexChanged(int index) {
+  /*
+   *  #define PLACE_ON_ALL 0
+   *  #define PLACE_ON_ACTIVE 1
+   *  #define PLACE_ON_MOUSE 2
+   *  #define PLACE_ON_PRIMARY 3
+   */
+  const char* strs[] = {
+    "Any",
+    "Active",
+    "Mouse",
+    "Primary"
+  };
+  if(index < G_N_ELEMENTS(strs) && index >= 0)
+    tree_set_string("placement/monitor", strs[index]);
 }
-
-void MainDialog::on_place_active_popup_active_activate() {
-  tree_set_string("placement/monitor", "Active");
-}
-
-void MainDialog::on_place_active_popup_mouse_activate() {
-  tree_set_string("placement/monitor", "Mouse");
-}
-
-void MainDialog::on_place_active_popup_primary_activate() {
-  tree_set_string("placement/monitor", "Primary");
-}
-#endif
-
-

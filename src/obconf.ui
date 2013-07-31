@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>596</width>
-    <height>473</height>
+    <width>541</width>
+    <height>397</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -83,7 +83,7 @@
      <item>
       <widget class="QStackedWidget" name="stackedWidget">
        <property name="currentIndex">
-        <number>0</number>
+        <number>4</number>
        </property>
        <widget class="QWidget" name="themePage">
         <layout class="QVBoxLayout" name="verticalLayout_2">
@@ -316,6 +316,11 @@ D: Omnipresent (On all desktops)</string>
              <item>
               <property name="text">
                <string>The monitor with the mouse</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Primary monitor</string>
               </property>
              </item>
             </widget>
@@ -946,14 +951,25 @@ D: Omnipresent (On all desktops)</string>
     </layout>
    </item>
    <item>
-    <widget class="QDialogButtonBox" name="buttonBox">
-     <property name="orientation">
-      <enum>Qt::Horizontal</enum>
-     </property>
-     <property name="standardButtons">
-      <set>QDialogButtonBox::Close</set>
-     </property>
-    </widget>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QPushButton" name="about">
+       <property name="text">
+        <string>About</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QDialogButtonBox" name="buttonBox">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="standardButtons">
+        <set>QDialogButtonBox::Close</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
    </item>
   </layout>
  </widget>

@@ -49,11 +49,21 @@ private:
   void desktops_setup_tab();
   void dock_setup_tab();
 
+  // windows
+  void windows_enable_stuff();
+  
+  // move & resize
+  void moveresize_enable_stuff();
+  void write_fixed_position(const char* coord);
+  
   void desktops_read_names();
   void desktops_write_names();
   void desktops_write_number();
 
 private Q_SLOTS:
+
+  void on_about_clicked();
+
   // theme
   
   //apearance
@@ -69,12 +79,23 @@ private Q_SLOTS:
   void on_font_active_display_changed();
   void on_font_inactive_display_changed();
 
+  // windows
+  void on_fixed_monitor_valueChanged(int newValue);
+  void on_focus_new_toggled(bool checked);
+  void on_place_mouse_toggled(bool checked);
+
+  void on_place_active_popup_currentIndexChanged(int index);
+  void on_primary_monitor_popup_currentIndexChanged(int index);
+
   // move & resize
   void on_resist_window_valueChanged(int newValue);
   void on_resist_edge_valueChanged(int newValue);
   void on_resize_contents_toggled(bool checked);
   
   void on_resize_popup_currentIndexChanged(int index);
+  void on_resize_position_currentIndexChanged(int index);
+  void on_fixed_x_popup_currentIndexChanged(int index);
+  void on_fixed_y_popup_currentIndexChanged(int index);
 
   void on_drag_threshold_valueChanged(int newValue);
 
