@@ -56,6 +56,12 @@ private:
   void moveresize_enable_stuff();
   void write_fixed_position(const char* coord);
   
+  // mouse
+  void mouse_enable_stuff();
+  int read_doubleclick_action();
+  void write_doubleclick_action(int a);
+
+  // desktops
   void desktops_read_names();
   void desktops_write_names();
   void desktops_write_number();
@@ -117,6 +123,7 @@ private Q_SLOTS:
   void on_focus_notlast_toggled(bool checked);
   void on_focus_under_mouse_toggled(bool checked);
   void on_doubleclick_time_valueChanged(int newValue);
+  void on_titlebar_doubleclick_currentIndexChanged(int index);
 
   // desktop
   void on_desktop_num_valueChanged(int newValue);

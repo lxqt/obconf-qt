@@ -32,20 +32,14 @@ using namespace Obconf;
 
 extern RrInstance* rrinst; // defined in obconf-qt.cpp
 
-
-static gboolean   mapping = FALSE;
 static xmlNodePtr saved_custom = NULL;
 
 #define TITLEBAR_MAXIMIZE 0
 #define TITLEBAR_SHADE    1
 #define TITLEBAR_CUSTOM   2
 
-static gint read_doubleclick_action();
-static void write_doubleclick_action(gint a);
 //static void MainDialog::on_titlebar_doubleclick_custom_activate(GtkMenuItem* w,
 //    gpointer data);
-static void enable_stuff();
-
 void MainDialog::mouse_setup_tab() {
   gint a;
   
@@ -73,35 +67,22 @@ void MainDialog::mouse_setup_tab() {
      */
   }
   ui.titlebar_doubleclick->setCurrentIndex(a);
-  // FIXME enable_stuff();
+  mouse_enable_stuff();
 }
 
-/*
- * static void enable_stuff() {
- *  GtkWidget* w;
- *  gboolean b;
- * 
- *  w = get_widget("focus_mouse");
- *  b = gtk_toggle_button_get_active(GTK_TOGGLE_BUTTON(w));
- * 
- *  w = get_widget("focus_delay");
- *  gtk_widget_set_sensitive(w, b);
- *  w = get_widget("focus_delay_label");
- *  gtk_widget_set_sensitive(w, b);
- *  w = get_widget("focus_delay_label_units");
- *  gtk_widget_set_sensitive(w, b);
- *  w = get_widget("focus_raise");
- *  gtk_widget_set_sensitive(w, b);
- *  w = get_widget("focus_notlast");
- *  gtk_widget_set_sensitive(w, b);
- *  w = get_widget("focus_under_mouse");
- *  gtk_widget_set_sensitive(w, b);
- }
- */
+void MainDialog::mouse_enable_stuff() {
+  bool b = ui.focus_mouse->isChecked();
+  ui.focus_delay->setEnabled(b);
+  ui.focus_delay_label->setEnabled(b);
+  // ui.focus_delay_label_units->setEnabled(b);
+  ui.focus_raise->setEnabled(b);
+  ui.focus_notlast->setEnabled(b);
+  ui.focus_under_mouse->setEnabled(b);
+}
 
 void MainDialog::on_focus_mouse_toggled(bool checked) {
   tree_set_bool("focus/followMouse", checked);
-  // FIXME enable_stuff();
+  mouse_enable_stuff();
 }
 
 void MainDialog::on_focus_delay_valueChanged(int newValue) {
@@ -120,30 +101,15 @@ void MainDialog::on_focus_under_mouse_toggled(bool checked) {
   tree_set_bool("focus/underMouse", checked);
 }
 
-/*
- * void MainDialog::on_titlebar_doubleclick_maximize_activate(GtkMenuItem* w, gpointer data) {
- *  write_doubleclick_action(TITLEBAR_MAXIMIZE);
- }
- 
- void MainDialog::on_titlebar_doubleclick_shade_activate(GtkMenuItem* w, gpointer data) {
-   
-   
-   write_doubleclick_action(TITLEBAR_SHADE);
- }
- 
- static void MainDialog::on_titlebar_doubleclick_custom_activate(GtkMenuItem* w,
- gpointer data) {
-   
-   
-   write_doubleclick_action(TITLEBAR_CUSTOM);
-   }
-   */
+void MainDialog::on_titlebar_doubleclick_currentIndexChanged(int index) {
+  write_doubleclick_action(index);
+}
 
 void MainDialog::on_doubleclick_time_valueChanged(int newValue) {
   tree_set_int("mouse/doubleClickTime", newValue);
 }
 
-static gint read_doubleclick_action() {
+int MainDialog::read_doubleclick_action() {
   xmlNodePtr n, top, c;
   gint max = 0, shade = 0, other = 0;
   
@@ -196,7 +162,7 @@ static gint read_doubleclick_action() {
   return TITLEBAR_CUSTOM;
 }
 
-static void write_doubleclick_action(gint a) {
+void MainDialog::write_doubleclick_action(int a) {
   xmlNodePtr n;
   
   n = tree_get_node("mouse/context:name=Titlebar"

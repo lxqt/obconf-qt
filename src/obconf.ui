@@ -83,7 +83,7 @@
      <item>
       <widget class="QStackedWidget" name="stackedWidget">
        <property name="currentIndex">
-        <number>4</number>
+        <number>5</number>
        </property>
        <widget class="QWidget" name="themePage">
         <layout class="QVBoxLayout" name="verticalLayout_2">
@@ -666,7 +666,7 @@ D: Omnipresent (On all desktops)</string>
                <number>16</number>
               </property>
               <item row="3" column="0">
-               <widget class="QLabel" name="label_14">
+               <widget class="QLabel" name="focus_delay_label">
                 <property name="text">
                  <string>_Delay before focusing and raising windows:</string>
                 </property>
