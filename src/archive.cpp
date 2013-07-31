@@ -1,7 +1,6 @@
 #include <QMessageBox>
 
-#include "theme.h"
-
+#include <glib.h>
 #include <string.h>
 #include <errno.h>
 #include <sys/types.h>

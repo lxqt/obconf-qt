@@ -14,16 +14,8 @@
 
 #include "main.h"
 #include "archive.h"
-#include "theme.h"
-#include "appearance.h"
-#include "windows.h"
-#include "margins.h"
-#include "mouse.h"
-#include "desktops.h"
-#include "dock.h"
 #include "preview_update.h"
 #include <stdlib.h>
-
 
 using namespace Obconf;
 

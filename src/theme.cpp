@@ -27,9 +27,7 @@
 #include "main.h"
 #include "tree.h"
 #include "preview_update.h"
-#include "gettext.h"
 #include "archive.h"
-#include "theme.h"
 #include "preview.h"
 
 using namespace Obconf;
