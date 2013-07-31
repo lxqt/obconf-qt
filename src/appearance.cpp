@@ -23,6 +23,7 @@
 #include "maindialog.h"
 #include <obrender/render.h>
 #include "tree.h"
+#include <string.h>
 
 using namespace Obconf;
 
@@ -75,70 +76,15 @@ void MainDialog::on_animate_iconify_toggled(bool checked) {
 }
 
 void MainDialog::on_title_layout_textChanged(const QString& text) {
-#if 0
-  // FIXME
-  gchar* layout;
-  gchar* it, *it2;
-  gboolean n, d, s, l, i, m, c;
-
-  layout = g_strdup(gtk_entry_get_text(w));
-
-  n = d = s = l = i = m = c = FALSE;
-
-  for(it = layout; *it; ++it) {
-    gboolean* b;
-
-    switch(*it) {
-      case 'N':
-      case 'n':
-        b = &n;
-        break;
-      case 'd':
-      case 'D':
-        b = &d;
-        break;
-      case 's':
-      case 'S':
-        b = &s;
-        break;
-      case 'l':
-      case 'L':
-        b = &l;
-        break;
-      case 'i':
-      case 'I':
-        b = &i;
-        break;
-      case 'm':
-      case 'M':
-        b = &m;
-        break;
-      case 'c':
-      case 'C':
-        b = &c;
-        break;
-      default:
-        b = NULL;
-        break;
-    }
-
-    if(!b || *b) {
-      /* drop the letter */
-      for(it2 = it; *it2; ++it2)
-        *it2 = *(it2 + 1);
-    }
-    else {
-      *it = toupper(*it);
-      *b = TRUE;
-    }
+  QByteArray layout;
+  // omit unknown chars
+  for(int i = 0; i < text.length(); ++i) {
+    char ch = text.at(i).toUpper().toAscii();
+    if(strchr("NDSLIMC", ch))
+      layout += ch;
   }
-
-  gtk_entry_set_text(w, layout);
-  tree_set_string("theme/titleLayout", layout);
-  preview_update_set_title_layout(layout);
-
-  g_free(layout);
-#endif
+  tree_set_string("theme/titleLayout", layout.constData());
+  // FIXME preview_update_set_title_layout(layout);
 }
 
 void MainDialog::on_font_active_changed() {

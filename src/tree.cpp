@@ -92,7 +92,7 @@ void tree_delete_node(const gchar *path)
 void tree_apply()
 {
     gchar *p, *d;
-    gboolean err;
+    gboolean err = FALSE;
 
     if (obc_config_file)
         p = g_strdup(obc_config_file);
@@ -120,7 +120,7 @@ void tree_apply()
         ce.xclient.type = ClientMessage;
         ce.xclient.display = QX11Info::display();
         ce.xclient.message_type = XInternAtom(ce.xclient.display, "_OB_CONTROL", false);
-        Window root = NULL;
+        Window root = QX11Info::appRootWindow();
         ce.xclient.window = root;
         ce.xclient.format = 32;
         ce.xclient.data.l[0] = 1; /* reconfigure */
