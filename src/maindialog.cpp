@@ -23,15 +23,19 @@
 
 #include "maindialog.h"
 #include <QMessageBox>
+#include <QStandardItemModel>
 
 using namespace Obconf;
 
 MainDialog::MainDialog():
+  themes(NULL),
+  themes_model(new QStandardItemModel()),
   QDialog() {
 
   ui.setupUi(this);
   // resize the list widget according to the width of its content.
   ui.listWidget->setMaximumWidth(ui.listWidget->sizeHintForColumn(0) + ui.listWidget->frameWidth() * 2 + 2);
+  ui.theme_names->setModel(themes_model);
 
   /* read the config flie */
   loadSettings();
@@ -50,7 +54,11 @@ MainDialog::MainDialog():
 }
 
 MainDialog::~MainDialog() {
-
+  if(themes) {
+    g_list_foreach(themes, (GFunc)g_free, NULL);
+    g_list_free(themes);
+  }
+  delete themes_model;
 }
 
 void MainDialog::loadSettings() {

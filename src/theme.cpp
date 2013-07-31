@@ -19,6 +19,11 @@
 
 #include "maindialog.h"
 
+#include <QStandardItem>
+#include <QStandardItemModel>
+#include <QItemSelection>
+#include <QFileDialog>
+
 #include "main.h"
 #include "tree.h"
 #include "preview_update.h"
@@ -28,12 +33,6 @@
 #include "preview.h"
 
 using namespace Obconf;
-
-static gboolean mapping = FALSE;
-
-static GList* themes = NULL;
-
-static void add_theme_dir(const gchar* dirname);
 
 void MainDialog::theme_install(const char* path) {
   gchar* name;
@@ -47,84 +46,60 @@ void MainDialog::theme_install(const char* path) {
 }
 
 void MainDialog::theme_load_all() {
-#if 0
   gchar* name;
   gchar* p;
   GList* it, *next;
   gint i;
-  GtkWidget* w;
   RrFont* active, *inactive, *menu_t, *menu_i, *osd;
+  QModelIndex currentItemIndex;
 
-  mapping = TRUE;
-
-  w = get_widget("theme_names");
   name = tree_get_string("theme/name", "TheBear");
-
-  for(it = themes; it; it = g_list_next(it))
-    g_free(it->data);
-
-  g_list_free(themes);
-  themes = NULL;
+  if(themes) {
+    g_list_foreach(themes, (GFunc)g_free, NULL);
+    g_list_free(themes);
+    themes = NULL;
+  }
 
   p = g_build_filename(g_get_home_dir(), ".themes", NULL);
   add_theme_dir(p);
   g_free(p);
-
   {
     GSList* it;
-
     for(it = obt_paths_data_dirs(paths); it; it = g_slist_next(it)) {
-      p = g_build_filename(it->data, "themes", NULL);
+      p = g_build_filename((char*)it->data, "themes", NULL);
       add_theme_dir(p);
       g_free(p);
     }
   }
 
   add_theme_dir(THEMEDIR);
-
   themes = g_list_sort(themes, (GCompareFunc) strcasecmp);
-
-  gtk_list_store_clear(theme_store);
+  
+  themes_model->clear();
 
   /* return to regular scheduled programming */
   i = 0;
-
   for(it = themes; it; it = next) {
-    GtkTreeIter iter;
-
     next = g_list_next(it);
-
     /* remove duplicates */
-    if(next && !strcmp(it->data, next->data)) {
+    if(next && !strcmp((char*)it->data, (char*)next->data)) {
       g_free(it->data);
       themes = g_list_delete_link(themes, it);
       continue;
     }
 
-    gtk_list_store_append(theme_store, &iter);
-    gtk_list_store_set(theme_store, &iter,
-                       0, it->data, /* the theme's name */
-                       1, NULL,     /* the preview is set later */
-                       2, 1.0,      /* all previews are right-aligned */
-                       -1);
-
-    if(!strcmp(name, it->data)) {
-      GtkTreePath* path;
-
-      path = gtk_tree_path_new_from_indices(i, -1);
-      gtk_tree_view_set_cursor(GTK_TREE_VIEW(w), path, NULL, FALSE);
-      gtk_tree_path_free(path);
+    QStandardItem* item = new QStandardItem(QString::fromUtf8((char*)it->data));
+    themes_model->appendRow(item);
+    if(!strcmp(name, (char*)it->data)) {
+      currentItemIndex = item->index();
+      ui.theme_names->selectionModel()->select(currentItemIndex, QItemSelectionModel::Select);
     }
-
     ++i;
   }
-
-  preview_update_all();
-
+  // FIXME: preview_update_all();
   g_free(name);
-
-  mapping = FALSE;
-#endif
+  if(currentItemIndex.isValid())
+    ui.theme_names->scrollTo(currentItemIndex, QAbstractItemView::PositionAtCenter);
 }
 
 void MainDialog::add_theme_dir(const char* dirname) {
@@ -154,126 +129,40 @@ void MainDialog::add_theme_dir(const char* dirname) {
 }
 
 void MainDialog::theme_setup_tab() {
-#if 0
-  GtkCellRenderer* render;
-  GtkTreeViewColumn* column;
-  GtkTreeSelection* select;
-  GtkWidget* w;
+  QItemSelectionModel* selModel = ui.theme_names->selectionModel();
+  connect(selModel, SIGNAL(selectionChanged(QItemSelection,QItemSelection)),
+          SLOT(onThemeNamesSelectionChanged(QItemSelection,QItemSelection)));
 
-  mapping = TRUE;
-
-  w = get_widget("theme_names");
-
-  /* widget setup */
-  theme_store = gtk_list_store_new(3,
-                                   /* the theme name */
-                                   G_TYPE_STRING,
-                                   /* the theme preview */
-                                   GDK_TYPE_PIXBUF,
-                                   /* alignment of the preview */
-                                   G_TYPE_FLOAT);
-  gtk_tree_view_set_model(GTK_TREE_VIEW(w), GTK_TREE_MODEL(theme_store));
-  preview_update_set_tree_view(GTK_TREE_VIEW(w), theme_store);
-  g_object_unref(theme_store);
-
-  gtk_tree_selection_set_mode(gtk_tree_view_get_selection(GTK_TREE_VIEW(w)),
-                              GTK_SELECTION_SINGLE);
-
-  /* text column for the names */
-  render = gtk_cell_renderer_text_new();
-  column = gtk_tree_view_column_new_with_attributes
-           ("Name", render, "text", 0, NULL);
-  gtk_tree_view_append_column(GTK_TREE_VIEW(w), column);
-
-  /* pixbuf column, for theme previews */
-  render = gtk_cell_renderer_pixbuf_new();
-  column = gtk_tree_view_column_new_with_attributes
-           ("Preview", render, "pixbuf", 1, "xalign", 2, NULL);
-  gtk_tree_view_append_column(GTK_TREE_VIEW(w), column);
-
-  /* setup the selection handler */
-  select = gtk_tree_view_get_selection(GTK_TREE_VIEW(w));
-  gtk_tree_selection_set_mode(select, GTK_SELECTION_SINGLE);
-  g_signal_connect(G_OBJECT(select), "changed",
-                   G_CALLBACK(on_theme_names_selection_changed),
-                   NULL);
-
-  mapping = FALSE;
-#endif
 }
 
-#if 0
-static void MainDialog::on_theme_names_selection_changed(GtkTreeSelection* sel,
-    gpointer data) {
-  GtkTreeIter iter;
-  GtkTreeModel* model;
-  const gchar* name;
-
-  if(gtk_tree_selection_get_selected(sel, &model, &iter)) {
-    gtk_tree_model_get(model, &iter, 0, &name, -1);
-  }
-
-  if(name)
-    tree_set_string("theme/name", name);
-}
-
-void MainDialog::on_install_theme_clicked(GtkButton* w, gpointer data) {
-  GtkWidget* d;
-  gint r;
-  gchar* path = NULL;
-  GtkFileFilter* filter;
-
-  d = gtk_file_chooser_dialog_new(_("Choose an Openbox theme"),
-                                  GTK_WINDOW(mainwin),
-                                  GTK_FILE_CHOOSER_ACTION_OPEN,
-                                  GTK_STOCK_OK, GTK_RESPONSE_OK,
-                                  GTK_STOCK_CANCEL, GTK_RESPONSE_NONE,
-                                  NULL);
-
-  gtk_file_chooser_set_show_hidden(GTK_FILE_CHOOSER(d), FALSE);
-  filter = gtk_file_filter_new();
-  gtk_file_filter_set_name(filter, _("Openbox theme archives"));
-  gtk_file_filter_add_pattern(filter, "*.obt");
-  //gtk_file_filter_add_pattern(filter, "*.tgz");
-  //gtk_file_filter_add_pattern(filter, "*.tar.gz");
-  gtk_file_chooser_add_filter(GTK_FILE_CHOOSER(d), filter);
-
-  r = gtk_dialog_run(GTK_DIALOG(d));
-
-  if(r == GTK_RESPONSE_OK)
-    path = gtk_file_chooser_get_filename(GTK_FILE_CHOOSER(d));
-
-  gtk_widget_destroy(d);
-
-  if(path != NULL) {
-    theme_install(path);
-    g_free(path);
+void MainDialog::onThemeNamesSelectionChanged(const QItemSelection & selected, const QItemSelection & deselected) {
+  QModelIndex sel = selected.indexes().first();
+  if(sel.isValid()) {
+    QStandardItem* item = themes_model->itemFromIndex(sel);
+    QVariant val = item->data(Qt::DisplayRole);
+    if(val.isValid()) {
+      QString name = val.toString();
+      tree_set_string("theme/name", name.toUtf8().constData());
+    }
   }
 }
 
-void MainDialog::on_theme_archive_clicked(GtkButton* w, gpointer data) {
-  GtkWidget* d;
-  gint r;
-  gchar* path = NULL;
-
-  d = gtk_file_chooser_dialog_new(_("Choose an Openbox theme"),
-                                  GTK_WINDOW(mainwin),
-                                  GTK_FILE_CHOOSER_ACTION_SELECT_FOLDER,
-                                  GTK_STOCK_OK, GTK_RESPONSE_OK,
-                                  GTK_STOCK_CANCEL, GTK_RESPONSE_NONE,
-                                  NULL);
-
-  gtk_file_chooser_set_show_hidden(GTK_FILE_CHOOSER(d), TRUE);
-  r = gtk_dialog_run(GTK_DIALOG(d));
-
-  if(r == GTK_RESPONSE_OK)
-    path = gtk_file_chooser_get_filename(GTK_FILE_CHOOSER(d));
-
-  gtk_widget_destroy(d);
-
-  if(path != NULL) {
-    archive_create(path);
-    g_free(path);
+void MainDialog::on_install_theme_clicked() {
+  QString filename = QFileDialog::getOpenFileName(this,
+                                                  tr("Choose an Openbox theme"),
+                                                  QString(),
+                                                  "Openbox theme archives (*.obt);;");
+  if(!filename.isEmpty()) {
+    theme_install(filename.toLocal8Bit().constData());
   }
 }
-#endif
+
+void MainDialog::on_theme_archive_clicked() {
+  QString filename = QFileDialog::getSaveFileName(this,
+                                                  tr("Choose an Openbox theme"),
+                                                  QString(),
+                                                  "Openbox theme archives (*.obt);;");
+  if(!filename.isEmpty()) {
+    archive_create(filename.toLocal8Bit().constData());
+  }
+}

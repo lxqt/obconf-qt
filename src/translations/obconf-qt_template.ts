@@ -383,6 +383,10 @@ Authors:
 * Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Choose an Openbox theme</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>QObject</name>

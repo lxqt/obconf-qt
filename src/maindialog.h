@@ -22,7 +22,11 @@
 #define OBCONF_MAINDIALOG_H
 
 #include <QDialog>
+#include <glib.h>
 #include "ui_obconf.h"
+
+class QStandardItemModel;
+class QItemSelection;
 
 namespace Obconf {
 
@@ -77,7 +81,10 @@ private Q_SLOTS:
   void on_about_clicked();
 
   // theme
-  
+  void onThemeNamesSelectionChanged(const QItemSelection & selected, const QItemSelection & deselected);
+  void on_install_theme_clicked();
+  void on_theme_archive_clicked();
+
   //apearance
   void on_window_border_toggled(bool checked);
   void on_animate_iconify_toggled(bool checked);
@@ -147,9 +154,10 @@ private Q_SLOTS:
   void on_dock_hide_delay_valueChanged(int newValue);
   void on_dock_show_delay_valueChanged(int newValue);
 
-
 private:
   Ui::MainDialog ui;
+  GList* themes;
+  QStandardItemModel* themes_model;
 };
 
 }
