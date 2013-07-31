@@ -15,6 +15,13 @@ set(CMAKE_AUTOMOC TRUE)
 set(obconf-qt_SRCS
   obconf-qt.cpp
   maindialog.cpp
+  appearance.cpp
+  windows.cpp
+  mouse.cpp
+  moveresize.cpp
+  margins.cpp
+  desktops.cpp
+  dock.cpp
   tree.cpp
   archive.cpp
   theme.cpp

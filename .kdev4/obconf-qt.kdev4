@@ -1,10 +1,16 @@
 [Buildset]
-BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x00)
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x12\x00o\x00b\x00c\x00o\x00n\x00f\x00-\x00q\x00t)
 
 [CMake]
 Build Directory Count=2
+BuildDirs=/home/pcman/obconf-qt/build/
 CMakeDir=/usr/share/cmake-2.8/Modules
 Current Build Directory Index=1
+Current CMake Binary=file:///usr/bin/cmake
+CurrentBuildDir=file:///home/pcman/obconf-qt/build/
+CurrentBuildType=Debug
+CurrentInstallDir=
+Extra Arguments=
 ProjectRootRelative=./
 
 [CMake][CMake Build Directory 0]
