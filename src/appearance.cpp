@@ -88,26 +88,32 @@ void MainDialog::on_title_layout_textChanged(const QString& text) {
 }
 
 void MainDialog::on_font_active_changed() {
+  write_font(ui.font_active, "ActiveWindow");
   // FIXME preview_update_set_active_font(write_font(w, "ActiveWindow"));
 }
 
 void MainDialog::on_font_inactive_changed() {
+  write_font(ui.font_inactive, "InactiveWindow");
   // FIXME preview_update_set_inactive_font(write_font(w, "InactiveWindow"));
 }
 
 void MainDialog::on_font_menu_header_changed() {
+  write_font(ui.font_menu_header, "MenuHeader");
   // FIXME preview_update_set_menu_header_font(write_font(w, "MenuHeader"));
 }
 
 void MainDialog::on_font_menu_item_changed() {
+  write_font(ui.font_menu_item, "MenuItem");
   // FIXME preview_update_set_menu_item_font(write_font(w, "MenuItem"));
 }
 
 void MainDialog::on_font_active_display_changed() {
+  write_font(ui.font_active_display, "ActiveOnScreenDisplay");
   // FIXME preview_update_set_osd_active_font(write_font(w, "ActiveOnScreenDisplay"));
 }
 
 void MainDialog::on_font_inactive_display_changed() {
+  write_font(ui.font_inactive_display, "InactiveOnScreenDisplay");
   // FIXME preview_update_set_osd_inactive_font
   // FIXME (write_font(w, "InactiveOnScreenDisplay"));
 }
@@ -184,62 +190,46 @@ static RrFont* read_font(Fm::FontButton* button, const gchar* place,
 }
 
 static RrFont* write_font(Fm::FontButton* button, const gchar* place) {
-  gchar* c;
-  gchar* font, *node;
-  const gchar* size = NULL;
-  const gchar* bold = NULL;
-  const gchar* italic = NULL;
-
+  gchar *c;
+  gchar *node;
   RrFontWeight weight = RR_FONTWEIGHT_NORMAL;
   RrFontSlant slant = RR_FONTSLANT_NORMAL;
 
   QFont qfont = button->font();
-#if 0
-  // FIXME
-  font = g_strdup(gtk_font_button_get_font_name(w));
+  if(qfont.bold())
+    weight = RR_FONTWEIGHT_BOLD;
 
-  while((c = strrchr(font, ' '))) {
-    if(!bold && !italic && !size && atoi(c + 1))
-      size = c + 1;
-    else if(!bold && !italic && !g_ascii_strcasecmp(c + 1, "italic"))
-      italic = c + 1;
-    else if(!bold && !g_ascii_strcasecmp(c + 1, "bold"))
-      bold = c + 1;
-    else
+  QString size = QString("%1").arg(qfont.pointSize());
+
+  const char* slantStr = NULL;
+  switch(qfont.style()) {
+    case QFont::StyleItalic:
+      slant = RR_FONTSLANT_ITALIC;
+      slantStr = "Italic";
       break;
-
-    *c = '\0';
+    case QFont::StyleOblique:
+      slant = RR_FONTSLANT_OBLIQUE;
+      slantStr = "Oblique";
+      break;
+    default:
+      slantStr = "Normal";
   }
 
-  if(!bold) bold = "Normal";
-
-  if(!italic) italic = "Normal";
-
   node = g_strdup_printf("theme/font:place=%s/name", place);
-  tree_set_string(node, font);
+  tree_set_string(node, qfont.family().toUtf8().constData());
   g_free(node);
 
   node = g_strdup_printf("theme/font:place=%s/size", place);
-  tree_set_string(node, size);
+  tree_set_string(node, size.toLatin1().constData());
   g_free(node);
 
   node = g_strdup_printf("theme/font:place=%s/weight", place);
-  tree_set_string(node, bold);
+  tree_set_string(node, qfont.bold() ? "Bold" : "Normal");
   g_free(node);
 
   node = g_strdup_printf("theme/font:place=%s/slant", place);
-  tree_set_string(node, italic);
+  tree_set_string(node, slantStr);
   g_free(node);
 
-  if(!g_ascii_strcasecmp(bold, "Bold")) weight = RR_FONTWEIGHT_BOLD;
-
-  if(!g_ascii_strcasecmp(italic, "Italic")) slant = RR_FONTSLANT_ITALIC;
-
-  if(!g_ascii_strcasecmp(italic, "Oblique")) slant = RR_FONTSLANT_OBLIQUE;
-
-  return RrFontOpen(rrinst, font, atoi(size), weight, slant);
-
-  g_free(font);
-#endif
-
+  return RrFontOpen(rrinst, qfont.family().toUtf8().constData(), qfont.pointSize(), weight, slant);
 }
