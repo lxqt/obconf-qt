@@ -163,7 +163,7 @@
     </message>
     <message>
         <source>When resizing terminal windows</source>
-        <translation type="unfinished"/>
+        <translation>Podczas zmiany rozmiaru okna terminala</translation>
     </message>
     <message>
         <source>Always</source>
@@ -175,15 +175,15 @@
     </message>
     <message>
         <source>Centered on the window</source>
-        <translation type="unfinished"/>
+        <translation>Centralnie na oknie</translation>
     </message>
     <message>
         <source>Above the window</source>
-        <translation type="unfinished"/>
+        <translation>Nad oknem</translation>
     </message>
     <message>
         <source>Fixed position on screen</source>
-        <translation type="unfinished"/>
+        <translation>Określone położenie na ekranie</translation>
     </message>
     <message>
         <source>Maximizes the window</source>
@@ -201,23 +201,29 @@ M: Maximize
 C: Close
 S: Shade (Roll up)
 D: Omnipresent (On all desktops)</source>
-        <translation type="unfinished"/>
+        <translation>N: Ikona okna
+L: Etykieta okna (Tytuł)
+I: Zwiń do ikony (Minimalizuj)
+M: Maksymalizuj
+C: Zamknij
+S: Zwiń (Zroluj)
+D: Wszechobecne (Na wszystkich pulpitach)</translation>
     </message>
     <message>
         <source>Primary monitor</source>
-        <translation type="unfinished"/>
+        <translation>Monitor główny</translation>
     </message>
     <message>
         <source>About</source>
-        <translation type="unfinished"/>
+        <translation>O programie</translation>
     </message>
     <message>
         <source>&amp;Install a new theme...</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Zainstaluj nowy motyw...</translation>
     </message>
     <message>
         <source>Create a theme &amp;archive (.obt)...</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Utwórz archiwum motywu (.obt)...</translation>
     </message>
     <message>
         <source>&amp;Windows retain a border when undecorated</source>
