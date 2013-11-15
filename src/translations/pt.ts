@@ -4,194 +4,194 @@
     <name>Fm::FontButton</name>
     <message>
         <source>Bold</source>
-        <translation type="unfinished"/>
+        <translation>Negrito</translation>
     </message>
     <message>
         <source>Italic</source>
-        <translation type="unfinished"/>
+        <translation>Itálico</translation>
     </message>
 </context>
 <context>
     <name>MainDialog</name>
     <message>
         <source>Mouse</source>
-        <translation type="unfinished"/>
+        <translation>Rato</translation>
     </message>
     <message>
         <source>Window Manager Preferences</source>
-        <translation type="unfinished"/>
+        <translation>Preferências de gestor de janelas</translation>
     </message>
     <message>
         <source>Theme</source>
-        <translation type="unfinished"/>
+        <translation>Tema</translation>
     </message>
     <message>
         <source>Appearance</source>
-        <translation type="unfinished"/>
+        <translation>Aparência</translation>
     </message>
     <message>
         <source>Font</source>
-        <translation type="unfinished"/>
+        <translation>Tipo de letra</translation>
     </message>
     <message>
         <source>Windows</source>
-        <translation type="unfinished"/>
+        <translation>Janelas</translation>
     </message>
     <message>
         <source>Move &amp; Resize</source>
-        <translation type="unfinished"/>
+        <translation>Mover e redimensionar</translation>
     </message>
     <message>
         <source>Desktops</source>
-        <translation type="unfinished"/>
+        <translation>Áreas de trabalho</translation>
     </message>
     <message>
         <source>Margins</source>
-        <translation type="unfinished"/>
+        <translation>Margens</translation>
     </message>
     <message>
         <source>Dock</source>
-        <translation type="unfinished"/>
+        <translation>Doca</translation>
     </message>
     <message>
         <source>Window Titles</source>
-        <translation type="unfinished"/>
+        <translation>Título das janelas</translation>
     </message>
     <message>
         <source>Button order:</source>
-        <translation type="unfinished"/>
+        <translation>Ordem dos botões:</translation>
     </message>
     <message>
         <source>Moving and Resizing Windows</source>
-        <translation type="unfinished"/>
+        <translation>Movimentação e redimensionamento de janelas</translation>
     </message>
     <message>
         <source>Information Dialog</source>
-        <translation type="unfinished"/>
+        <translation>Diálogos</translation>
     </message>
     <message>
         <source>Focusing Windows</source>
-        <translation type="unfinished"/>
+        <translation>Foco de janelas</translation>
     </message>
     <message>
         <source>Focus windows when the mouse pointer moves over them</source>
-        <translation type="unfinished"/>
+        <translation>Focar janelas ao passar com o ponteiro do rato</translation>
     </message>
     <message>
         <source>Titlebar</source>
-        <translation type="unfinished"/>
+        <translation>Barra de título</translation>
     </message>
     <message>
         <source>Desktop Margins</source>
-        <translation type="unfinished"/>
+        <translation>Margens da área de trabalho</translation>
     </message>
     <message>
         <source>Desktop margins are reserved areas on the edge of your screen.  New windows will not be placed within a margin, and maximized windows will not cover them.</source>
-        <translation type="unfinished"/>
+        <translation>As margens da área de trabalho são as áreas reservadas nos limites do ecrã. As janelas não serão colocadas nas margens e as janelas maximizadas também não as cobrirão.</translation>
     </message>
     <message>
         <source>Left:</source>
-        <translation type="unfinished"/>
+        <translation>Esquerda:</translation>
     </message>
     <message>
         <source>px</source>
-        <translation type="unfinished"/>
+        <translation>px</translation>
     </message>
     <message>
         <source>Top:</source>
-        <translation type="unfinished"/>
+        <translation>Superior:</translation>
     </message>
     <message>
         <source>Right:</source>
-        <translation type="unfinished"/>
+        <translation>Direita:</translation>
     </message>
     <message>
         <source>Bottom:</source>
-        <translation type="unfinished"/>
+        <translation>Inferior:</translation>
     </message>
     <message>
         <source>All monitors</source>
-        <translation type="unfinished"/>
+        <translation>Todos os monitores</translation>
     </message>
     <message>
         <source>The active monitor</source>
-        <translation type="unfinished"/>
+        <translation>Monitor ativo</translation>
     </message>
     <message>
         <source>The monitor with the mouse</source>
-        <translation type="unfinished"/>
+        <translation>Monitor com o ponteiro do rato</translation>
     </message>
     <message>
         <source>Primary Monitor</source>
-        <translation type="unfinished"/>
+        <translation>Monitor principal</translation>
     </message>
     <message>
         <source>The primary monitor is where Openbox will place dialogs, such as the one used for cycling windows.</source>
-        <translation type="unfinished"/>
+        <translation>O monitor principal é aquele em que o Openbox apresenta os diálogos, tais como o diálogo para percorrer janelas.</translation>
     </message>
     <message>
         <source>Fixed Monitor</source>
-        <translation type="unfinished"/>
+        <translation>Monitor fixo</translation>
     </message>
     <message>
         <source>Active Monitor</source>
-        <translation type="unfinished"/>
+        <translation>Monitor ativo</translation>
     </message>
     <message>
         <source>Monitor With Mouse Pointer</source>
-        <translation type="unfinished"/>
+        <translation>Monitor com o ponteiro do rato</translation>
     </message>
     <message>
         <source>Centered</source>
-        <translation type="unfinished"/>
+        <translation>Centro</translation>
     </message>
     <message>
         <source>From left edge</source>
-        <translation type="unfinished"/>
+        <translation>Da margem esquerda</translation>
     </message>
     <message>
         <source>From right edge</source>
-        <translation type="unfinished"/>
+        <translation>Da margem direita</translation>
     </message>
     <message>
         <source>From top edge</source>
-        <translation type="unfinished"/>
+        <translation>Da margem superior</translation>
     </message>
     <message>
         <source>From bottom edge</source>
-        <translation type="unfinished"/>
+        <translation>Da margem inferior</translation>
     </message>
     <message>
         <source>When resizing terminal windows</source>
-        <translation type="unfinished"/>
+        <translation>Ao redimensionar as janelas de terminal</translation>
     </message>
     <message>
         <source>Always</source>
-        <translation type="unfinished"/>
+        <translation>Sempre</translation>
     </message>
     <message>
         <source>Never</source>
-        <translation type="unfinished"/>
+        <translation>Nunca</translation>
     </message>
     <message>
         <source>Centered on the window</source>
-        <translation type="unfinished"/>
+        <translation>Centrar na janela</translation>
     </message>
     <message>
         <source>Above the window</source>
-        <translation type="unfinished"/>
+        <translation>Por cima da janela</translation>
     </message>
     <message>
         <source>Fixed position on screen</source>
-        <translation type="unfinished"/>
+        <translation>Posição fixa no ecrã</translation>
     </message>
     <message>
         <source>Maximizes the window</source>
-        <translation type="unfinished"/>
+        <translation>Maximiza a janela</translation>
     </message>
     <message>
         <source>Shades the window</source>
-        <translation type="unfinished"/>
+        <translation>Enrola a janela</translation>
     </message>
     <message>
         <source>N: Window icon
@@ -201,39 +201,45 @@ M: Maximize
 C: Close
 S: Shade (Roll up)
 D: Omnipresent (On all desktops)</source>
-        <translation type="unfinished"/>
+        <translation>N: Window icon
+L: Título da janela
+I: Minimizar
+M: Maximizar
+C: Fechar
+S: Enrolar
+D: Omnipresente (todas as áreas de trabalho)</translation>
     </message>
     <message>
         <source>Primary monitor</source>
-        <translation type="unfinished"/>
+        <translation>Monitor principal</translation>
     </message>
     <message>
         <source>About</source>
-        <translation type="unfinished"/>
+        <translation>Sobre</translation>
     </message>
     <message>
         <source>&amp;Install a new theme...</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Instalar um tema...</translation>
     </message>
     <message>
         <source>Create a theme &amp;archive (.obt)...</source>
-        <translation type="unfinished"/>
+        <translation> Criar um &amp;arquivo de tema (.obt)...</translation>
     </message>
     <message>
         <source>&amp;Windows retain a border when undecorated</source>
-        <translation type="unfinished"/>
+        <translation>As &amp;janelas possuem contorno mesmo que não decoradas</translation>
     </message>
     <message>
         <source>A&amp;nimate iconify and restore</source>
-        <translation type="unfinished"/>
+        <translation>A&amp;nimar minimização e restauro</translation>
     </message>
     <message>
         <source>&amp;Active window title: </source>
-        <translation type="unfinished"/>
+        <translation>Título da janela &amp;ativa: </translation>
     </message>
     <message>
         <source>&amp;Inactive window title: </source>
-        <translation type="unfinished"/>
+        <translation>Título da janela &amp;inativa: </translation>
     </message>
     <message>
         <source>Menu &amp;header: </source>
