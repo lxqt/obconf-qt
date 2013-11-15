@@ -4,126 +4,126 @@
     <name>Fm::FontButton</name>
     <message>
         <source>Bold</source>
-        <translation type="unfinished"/>
+        <translation>Pogrubienie</translation>
     </message>
     <message>
         <source>Italic</source>
-        <translation type="unfinished"/>
+        <translation>Kursywa</translation>
     </message>
 </context>
 <context>
     <name>MainDialog</name>
     <message>
         <source>Mouse</source>
-        <translation type="unfinished"/>
+        <translation>Mysz</translation>
     </message>
     <message>
         <source>Window Manager Preferences</source>
-        <translation type="unfinished"/>
+        <translation>Preferencje menedżera okien</translation>
     </message>
     <message>
         <source>Theme</source>
-        <translation type="unfinished"/>
+        <translation>Motyw</translation>
     </message>
     <message>
         <source>Appearance</source>
-        <translation type="unfinished"/>
+        <translation>Wygląd</translation>
     </message>
     <message>
         <source>Font</source>
-        <translation type="unfinished"/>
+        <translation>Czcionka</translation>
     </message>
     <message>
         <source>Windows</source>
-        <translation type="unfinished"/>
+        <translation>Okna</translation>
     </message>
     <message>
         <source>Move &amp; Resize</source>
-        <translation type="unfinished"/>
+        <translation>Przenieś i zmień rozmiar</translation>
     </message>
     <message>
         <source>Desktops</source>
-        <translation type="unfinished"/>
+        <translation>Pulpity</translation>
     </message>
     <message>
         <source>Margins</source>
-        <translation type="unfinished"/>
+        <translation>Obrzeża</translation>
     </message>
     <message>
         <source>Dock</source>
-        <translation type="unfinished"/>
+        <translation>Dok</translation>
     </message>
     <message>
         <source>Window Titles</source>
-        <translation type="unfinished"/>
+        <translation>Tytuły okien</translation>
     </message>
     <message>
         <source>Button order:</source>
-        <translation type="unfinished"/>
+        <translation>Kolejność przycisków:</translation>
     </message>
     <message>
         <source>Moving and Resizing Windows</source>
-        <translation type="unfinished"/>
+        <translation>Przenoszenie i zmiana rozmiaru okien</translation>
     </message>
     <message>
         <source>Information Dialog</source>
-        <translation type="unfinished"/>
+        <translation>Okno dialogowe</translation>
     </message>
     <message>
         <source>Focusing Windows</source>
-        <translation type="unfinished"/>
+        <translation>Aktywacja okien</translation>
     </message>
     <message>
         <source>Focus windows when the mouse pointer moves over them</source>
-        <translation type="unfinished"/>
+        <translation>Aktywuj okna, gdy wskaźnik myszy znajduje się nad nimi</translation>
     </message>
     <message>
         <source>Titlebar</source>
-        <translation type="unfinished"/>
+        <translation>Pasek tytułu</translation>
     </message>
     <message>
         <source>Desktop Margins</source>
-        <translation type="unfinished"/>
+        <translation>Obrzeża pulpitu</translation>
     </message>
     <message>
         <source>Desktop margins are reserved areas on the edge of your screen.  New windows will not be placed within a margin, and maximized windows will not cover them.</source>
-        <translation type="unfinished"/>
+        <translation>Obrzeża pulpitu to zarezerwowany obszar na krawędziach Twojego ekranu.  Nowe okna nie będą umieszczane na obrzeżach, a maksymalizowane okna nie będą ich pokrywać.</translation>
     </message>
     <message>
         <source>Left:</source>
-        <translation type="unfinished"/>
+        <translation>Lewy:</translation>
     </message>
     <message>
         <source>px</source>
-        <translation type="unfinished"/>
+        <translation>piks.</translation>
     </message>
     <message>
         <source>Top:</source>
-        <translation type="unfinished"/>
+        <translation>Górny:</translation>
     </message>
     <message>
         <source>Right:</source>
-        <translation type="unfinished"/>
+        <translation>Prawy:</translation>
     </message>
     <message>
         <source>Bottom:</source>
-        <translation type="unfinished"/>
+        <translation>Dolny:</translation>
     </message>
     <message>
         <source>All monitors</source>
-        <translation type="unfinished"/>
+        <translation>Wszystkie monitory</translation>
     </message>
     <message>
         <source>The active monitor</source>
-        <translation type="unfinished"/>
+        <translation>Aktywny monitor</translation>
     </message>
     <message>
         <source>The monitor with the mouse</source>
-        <translation type="unfinished"/>
+        <translation>Monitor z myszą</translation>
     </message>
     <message>
         <source>Primary Monitor</source>
-        <translation type="unfinished"/>
+        <translation>Monitor główny</translation>
     </message>
     <message>
         <source>The primary monitor is where Openbox will place dialogs, such as the one used for cycling windows.</source>
@@ -135,11 +135,11 @@
     </message>
     <message>
         <source>Active Monitor</source>
-        <translation type="unfinished"/>
+        <translation>Aktywny monitor</translation>
     </message>
     <message>
         <source>Monitor With Mouse Pointer</source>
-        <translation type="unfinished"/>
+        <translation>Monitor ze wskaźnikiem myszy</translation>
     </message>
     <message>
         <source>Centered</source>
@@ -147,19 +147,19 @@
     </message>
     <message>
         <source>From left edge</source>
-        <translation type="unfinished"/>
+        <translation>Od lewej krawędzi</translation>
     </message>
     <message>
         <source>From right edge</source>
-        <translation type="unfinished"/>
+        <translation>Od prawej krawędzi</translation>
     </message>
     <message>
         <source>From top edge</source>
-        <translation type="unfinished"/>
+        <translation>Od górnej krawędzi</translation>
     </message>
     <message>
         <source>From bottom edge</source>
-        <translation type="unfinished"/>
+        <translation>Od dolnej krawędzi</translation>
     </message>
     <message>
         <source>When resizing terminal windows</source>
@@ -167,11 +167,11 @@
     </message>
     <message>
         <source>Always</source>
-        <translation type="unfinished"/>
+        <translation>Zawsze</translation>
     </message>
     <message>
         <source>Never</source>
-        <translation type="unfinished"/>
+        <translation>Nigdy</translation>
     </message>
     <message>
         <source>Centered on the window</source>
@@ -253,7 +253,7 @@ D: Omnipresent (On all desktops)</source>
     </message>
     <message>
         <source>Focus &amp;new windows when they appear</source>
-        <translation type="unfinished"/>
+        <translation>Aktywuj &amp;nowe okna, gdy się pojawią</translation>
     </message>
     <message>
         <source>&amp;Place new windows under the mouse pointer</source>
@@ -317,7 +317,7 @@ D: Omnipresent (On all desktops)</source>
     </message>
     <message>
         <source>&amp;Delay before focusing and raising windows:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Opóźnienie przed aktywacją i wznoszeniem okien:</translation>
     </message>
     <message>
         <source>Move focus under the mouse when &amp;switching desktops</source>
@@ -364,11 +364,11 @@ D: Omnipresent (On all desktops)</source>
     </message>
     <message>
         <source>(Unnamed desktop)</source>
-        <translation type="unfinished"/>
+        <translation>(Nienazwany pulpit)</translation>
     </message>
     <message>
         <source>About ObConf-Qt</source>
-        <translation type="unfinished"/>
+        <translation>O programie ObConf-Qt</translation>
     </message>
     <message>
         <source>A preferences manager for Openbox
@@ -380,36 +380,46 @@ Authors:
 * Dana Jansens &lt;danakj@orodu.net&gt;
 * Tim Riley &lt;tr@slackzone.org&gt;
 * Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</source>
-        <translation type="unfinished"/>
+        <translation>Zarządca preferencji dla Openbox
+
+Prawa autorskie (c) 2003-2013
+
+Autorzy:
+* Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;
+* Dana Jansens &lt;danakj@orodu.net&gt;
+* Tim Riley &lt;tr@slackzone.org&gt;
+* Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</translation>
     </message>
     <message>
         <source>Choose an Openbox theme</source>
-        <translation type="unfinished"/>
+        <translation>Wybierz motyw Openbox</translation>
     </message>
 </context>
 <context>
     <name>QObject</name>
     <message>
         <source>"%1" was installed to %1</source>
-        <translation type="unfinished"/>
+        <translation>"%1" zostało zainstalowane na %1</translation>
     </message>
     <message>
         <source>"%1" was successfully created</source>
-        <translation type="unfinished"/>
+        <translation>Pomyślnie utworzono "%1".</translation>
     </message>
     <message>
         <source>Unable to create the theme archive "%1".
 The following errors were reported:
 %2</source>
-        <translation type="unfinished"/>
+        <translation>Nie udało się utworzyć archiwum motywu "%1".
+Zgłoszono następujące błędy:
+%2</translation>
     </message>
     <message>
         <source>Unable to run the "tar" command: %1</source>
-        <translation type="unfinished"/>
+        <translation>Nie udało się uruchomić polecenia "tar": %1</translation>
     </message>
     <message>
         <source>Unable to create directory "%1": %2</source>
-        <translation type="unfinished"/>
+        <translation>Nie można utworzyć katalogu "%1": %2.</translation>
     </message>
     <message>
         <source>"%1" does not appear to be a valid Openbox theme directory</source>
@@ -428,7 +438,7 @@ The following errors were reported:
     </message>
     <message>
         <source>ObConf Error</source>
-        <translation type="unfinished"/>
+        <translation>Błąd ObConfa</translation>
     </message>
     <message>
         <source>Syntax: obconf [options] [ARCHIVE.obt]
@@ -440,7 +450,15 @@ Options:
   --archive THEME       Create a theme archive from the given theme directory
   --config-file FILE    Specify the path to the config file to use
 </source>
-        <translation type="unfinished"/>
+        <translation>Składnia: obconf [opcje] [ARCHIWUM.obt]
+
+Opcje:
+  --help                Wyświetla tę pomoc i zakańcza
+  --version             Wyświetla wersję i zakańcza
+  --install ARCHIWUM.obt Instaluje dane archiwum motywu i wybiera je
+  --archive MOTYW       Tworzy archiwum motywu z danego katalogu motywu
+  --config-file PLIK    Określa ścieżkę do pliku konfiguracyjnego, przeznaczonego do użycia
+</translation>
     </message>
     <message>
         <source>--install requires an argument
@@ -455,11 +473,12 @@ Options:
     <message>
         <source>--config-file requires an argument
 </source>
-        <translation type="unfinished"/>
+        <translation>--config-file wymaga argumentu
+</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished"/>
+        <translation>Błąd</translation>
     </message>
     <message>
         <source>Failed to load an rc.xml. You have probably failed to install Openbox properly.</source>
@@ -469,7 +488,9 @@ Options:
         <source>Error while parsing the Openbox configuration file.  Your configuration file is not valid XML.
 
 Message: %1</source>
-        <translation type="unfinished"/>
+        <translation>Wystąpił błąd podczas analizowania pliku konfiguracyjnego Openbox.  Twój plik konfiguracyjny nie jest poprawnym plikiem XML.
+
+Wiadomość: %1</translation>
     </message>
     <message>
         <source>Copyright (c) 2003-2008   Dana Jansens
