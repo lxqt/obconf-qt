@@ -4,50 +4,50 @@
     <name>Fm::FontButton</name>
     <message>
         <source>Bold</source>
-        <translation type="unfinished"/>
+        <translation>Negrita</translation>
     </message>
     <message>
         <source>Italic</source>
-        <translation type="unfinished"/>
+        <translation>Cursiva</translation>
     </message>
 </context>
 <context>
     <name>MainDialog</name>
     <message>
         <source>Mouse</source>
-        <translation type="unfinished"/>
+        <translation>Ratón</translation>
     </message>
     <message>
         <source>Window Manager Preferences</source>
-        <translation type="unfinished"/>
+        <translation>Preferencias del gestor de ventanas</translation>
     </message>
     <message>
         <source>Theme</source>
-        <translation type="unfinished"/>
+        <translation>Tema</translation>
     </message>
     <message>
         <source>Appearance</source>
-        <translation type="unfinished"/>
+        <translation>Apariencia</translation>
     </message>
     <message>
         <source>Font</source>
-        <translation type="unfinished"/>
+        <translation>Tipo de letra</translation>
     </message>
     <message>
         <source>Windows</source>
-        <translation type="unfinished"/>
+        <translation>Ventanas</translation>
     </message>
     <message>
         <source>Move &amp; Resize</source>
-        <translation type="unfinished"/>
+        <translation>Mover y redimensionar</translation>
     </message>
     <message>
         <source>Desktops</source>
-        <translation type="unfinished"/>
+        <translation>Escritorios</translation>
     </message>
     <message>
         <source>Margins</source>
-        <translation type="unfinished"/>
+        <translation>Márgenes</translation>
     </message>
     <message>
         <source>Dock</source>
@@ -55,127 +55,127 @@
     </message>
     <message>
         <source>Window Titles</source>
-        <translation type="unfinished"/>
+        <translation>Títulos de las ventanas</translation>
     </message>
     <message>
         <source>Button order:</source>
-        <translation type="unfinished"/>
+        <translation>Orden de los botones:</translation>
     </message>
     <message>
         <source>Moving and Resizing Windows</source>
-        <translation type="unfinished"/>
+        <translation>Mover y redimensionar ventanas</translation>
     </message>
     <message>
         <source>Information Dialog</source>
-        <translation type="unfinished"/>
+        <translation>Diálogo de información</translation>
     </message>
     <message>
         <source>Focusing Windows</source>
-        <translation type="unfinished"/>
+        <translation>Enfocar ventanas</translation>
     </message>
     <message>
         <source>Focus windows when the mouse pointer moves over them</source>
-        <translation type="unfinished"/>
+        <translation>Enfocar las ventanas al pasar el ratón sobre ellas</translation>
     </message>
     <message>
         <source>Titlebar</source>
-        <translation type="unfinished"/>
+        <translation>Barra de título</translation>
     </message>
     <message>
         <source>Desktop Margins</source>
-        <translation type="unfinished"/>
+        <translation>Márgenes del escritorio</translation>
     </message>
     <message>
         <source>Desktop margins are reserved areas on the edge of your screen.  New windows will not be placed within a margin, and maximized windows will not cover them.</source>
-        <translation type="unfinished"/>
+        <translation>Los márgenes del escritorio son áreas reservadas en los bordes de la pantalla. Las ventanas nuevas no los ocuparán y las ventanas maximizadas no los cubrirán.</translation>
     </message>
     <message>
         <source>Left:</source>
-        <translation type="unfinished"/>
+        <translation>Izquierdo:</translation>
     </message>
     <message>
         <source>px</source>
-        <translation type="unfinished"/>
+        <translation>px</translation>
     </message>
     <message>
         <source>Top:</source>
-        <translation type="unfinished"/>
+        <translation>Superior:</translation>
     </message>
     <message>
         <source>Right:</source>
-        <translation type="unfinished"/>
+        <translation>Derecho:</translation>
     </message>
     <message>
         <source>Bottom:</source>
-        <translation type="unfinished"/>
+        <translation>Inferior:</translation>
     </message>
     <message>
         <source>All monitors</source>
-        <translation type="unfinished"/>
+        <translation>Todos los monitores</translation>
     </message>
     <message>
         <source>The active monitor</source>
-        <translation type="unfinished"/>
+        <translation>El monitor activo</translation>
     </message>
     <message>
         <source>The monitor with the mouse</source>
-        <translation type="unfinished"/>
+        <translation>El monitor que contiene el ratón</translation>
     </message>
     <message>
         <source>Primary Monitor</source>
-        <translation type="unfinished"/>
+        <translation>Monitor primario</translation>
     </message>
     <message>
         <source>The primary monitor is where Openbox will place dialogs, such as the one used for cycling windows.</source>
-        <translation type="unfinished"/>
+        <translation>El monitor primario es donde Openbox ubicará los diálogos, como el usado para alternar las ventanas.</translation>
     </message>
     <message>
         <source>Fixed Monitor</source>
-        <translation type="unfinished"/>
+        <translation>Monitor fijo</translation>
     </message>
     <message>
         <source>Active Monitor</source>
-        <translation type="unfinished"/>
+        <translation>Monitor activo</translation>
     </message>
     <message>
         <source>Monitor With Mouse Pointer</source>
-        <translation type="unfinished"/>
+        <translation>Monitor con el puntero del ratón</translation>
     </message>
     <message>
         <source>Centered</source>
-        <translation type="unfinished"/>
+        <translation>Centrado</translation>
     </message>
     <message>
         <source>From left edge</source>
-        <translation type="unfinished"/>
+        <translation>Desde el borde izquierdo</translation>
     </message>
     <message>
         <source>From right edge</source>
-        <translation type="unfinished"/>
+        <translation>Desde el borde derecho</translation>
     </message>
     <message>
         <source>From top edge</source>
-        <translation type="unfinished"/>
+        <translation>Desde el borde superior</translation>
     </message>
     <message>
         <source>From bottom edge</source>
-        <translation type="unfinished"/>
+        <translation>Desde el borde inferior</translation>
     </message>
     <message>
         <source>When resizing terminal windows</source>
-        <translation type="unfinished"/>
+        <translation>Al redimensionar ventanas de terminal</translation>
     </message>
     <message>
         <source>Always</source>
-        <translation type="unfinished"/>
+        <translation>Siempre</translation>
     </message>
     <message>
         <source>Never</source>
-        <translation type="unfinished"/>
+        <translation>Nunca</translation>
     </message>
     <message>
         <source>Centered on the window</source>
-        <translation type="unfinished"/>
+        <translation>Centrado en la ventana</translation>
     </message>
     <message>
         <source>Above the window</source>
@@ -183,15 +183,15 @@
     </message>
     <message>
         <source>Fixed position on screen</source>
-        <translation type="unfinished"/>
+        <translation>Posición fija en la pantalla</translation>
     </message>
     <message>
         <source>Maximizes the window</source>
-        <translation type="unfinished"/>
+        <translation>Maximiza la ventana</translation>
     </message>
     <message>
         <source>Shades the window</source>
-        <translation type="unfinished"/>
+        <translation>Enrolla la ventana</translation>
     </message>
     <message>
         <source>N: Window icon
@@ -201,23 +201,29 @@ M: Maximize
 C: Close
 S: Shade (Roll up)
 D: Omnipresent (On all desktops)</source>
-        <translation type="unfinished"/>
+        <translation>N: Icono de ventana
+L: Título de ventana
+I: Reducir a icono (minimizar)
+M: Maximizar
+C: Cerrar
+S: Enrollar
+D: Omnipresente (en todos los escritorios)</translation>
     </message>
     <message>
         <source>Primary monitor</source>
-        <translation type="unfinished"/>
+        <translation>Monitor primario</translation>
     </message>
     <message>
         <source>About</source>
-        <translation type="unfinished"/>
+        <translation>Acerca de</translation>
     </message>
     <message>
         <source>&amp;Install a new theme...</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Instalar un tema nuevo…</translation>
     </message>
     <message>
         <source>Create a theme &amp;archive (.obt)...</source>
-        <translation type="unfinished"/>
+        <translation>Crear &amp;archivador de tema (.obt)…</translation>
     </message>
     <message>
         <source>&amp;Windows retain a border when undecorated</source>
@@ -225,15 +231,15 @@ D: Omnipresent (On all desktops)</source>
     </message>
     <message>
         <source>A&amp;nimate iconify and restore</source>
-        <translation type="unfinished"/>
+        <translation>A&amp;nimación al minimizar y restaurar</translation>
     </message>
     <message>
         <source>&amp;Active window title: </source>
-        <translation type="unfinished"/>
+        <translation>Título de ventana &amp;activa: </translation>
     </message>
     <message>
         <source>&amp;Inactive window title: </source>
-        <translation type="unfinished"/>
+        <translation>Título de ventana &amp;inactiva: </translation>
     </message>
     <message>
         <source>Menu &amp;header: </source>
@@ -241,7 +247,7 @@ D: Omnipresent (On all desktops)</source>
     </message>
     <message>
         <source>&amp;Menu Item: </source>
-        <translation type="unfinished"/>
+        <translation>Elemento del &amp;menú: </translation>
     </message>
     <message>
         <source>Active &amp;On-screen display: </source>
@@ -269,15 +275,15 @@ D: Omnipresent (On all desktops)</source>
     </message>
     <message>
         <source>Primary &amp;monitor:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Monitor primario:</translation>
     </message>
     <message>
         <source>&amp;Fixed monitor:</source>
-        <translation type="unfinished"/>
+        <translation>Monitor &amp;fijo:</translation>
     </message>
     <message>
         <source>Update the window contents while &amp;resizing</source>
-        <translation type="unfinished"/>
+        <translation>Actualizar contenido de la ventana al &amp;redimensionarla</translation>
     </message>
     <message>
         <source>Drag &amp;threshold distance:</source>
@@ -301,19 +307,19 @@ D: Omnipresent (On all desktops)</source>
     </message>
     <message>
         <source>Fixed &amp;y position:</source>
-        <translation type="unfinished"/>
+        <translation>Posición &amp;Y fija:</translation>
     </message>
     <message>
         <source>Information dialog's &amp;position:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Posición del diálogo de información:</translation>
     </message>
     <message>
         <source>Fixed &amp;x position:</source>
-        <translation type="unfinished"/>
+        <translation>Posición &amp;X fija:</translation>
     </message>
     <message>
         <source>Show &amp;information dialog:</source>
-        <translation type="unfinished"/>
+        <translation>Mostrar diálogo de &amp;información:</translation>
     </message>
     <message>
         <source>&amp;Delay before focusing and raising windows:</source>
@@ -341,34 +347,34 @@ D: Omnipresent (On all desktops)</source>
     </message>
     <message>
         <source>&amp;Show a notification when switching desktops</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Mostrar notificación al cambiar de escritorio</translation>
     </message>
     <message>
         <source>&amp;Amount of time to show the notification for:</source>
-        <translation type="unfinished"/>
+        <translation>Por &amp;cuánto tiempo mostrar la notificación:</translation>
     </message>
     <message>
         <source>&amp;Number of desktops: </source>
-        <translation type="unfinished"/>
+        <translation>&amp;N.º de escritorios: </translation>
     </message>
     <message>
         <source>&amp;Desktop names:</source>
-        <translation type="unfinished"/>
+        <translation>Nom&amp;bres de escritorios:</translation>
     </message>
 </context>
 <context>
     <name>Obconf::MainDialog</name>
     <message>
         <source>Custom actions</source>
-        <translation type="unfinished"/>
+        <translation>Acciones personalizadas</translation>
     </message>
     <message>
         <source>(Unnamed desktop)</source>
-        <translation type="unfinished"/>
+        <translation>(Escritorio sin nombre)</translation>
     </message>
     <message>
         <source>About ObConf-Qt</source>
-        <translation type="unfinished"/>
+        <translation>Acerca de ObConf-Qt</translation>
     </message>
     <message>
         <source>A preferences manager for Openbox
@@ -380,55 +386,68 @@ Authors:
 * Dana Jansens &lt;danakj@orodu.net&gt;
 * Tim Riley &lt;tr@slackzone.org&gt;
 * Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</source>
-        <translation type="unfinished"/>
+        <translation>Un gestor de configuración para Openbox
+
+Copyright © 2003-2013
+
+Autores:
+* Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;
+* Dana Jansens &lt;danakj@orodu.net&gt;
+* Tim Riley &lt;tr@slackzone.org&gt;
+* Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</translation>
     </message>
     <message>
         <source>Choose an Openbox theme</source>
-        <translation type="unfinished"/>
+        <translation>Elija un tema de Openbox</translation>
     </message>
 </context>
 <context>
     <name>QObject</name>
     <message>
         <source>"%1" was installed to %1</source>
-        <translation type="unfinished"/>
+        <translation>Se instaló «%1» en %1</translation>
     </message>
     <message>
         <source>"%1" was successfully created</source>
-        <translation type="unfinished"/>
+        <translation>Se ha creado «%1» correctamente</translation>
     </message>
     <message>
         <source>Unable to create the theme archive "%1".
 The following errors were reported:
 %2</source>
-        <translation type="unfinished"/>
+        <translation>No se puede crear el archivador de tema «%1».
+Se produjeron los siguientes errores:
+%2</translation>
     </message>
     <message>
         <source>Unable to run the "tar" command: %1</source>
-        <translation type="unfinished"/>
+        <translation>No se puede ejecutar la orden «tar»: %1</translation>
     </message>
     <message>
         <source>Unable to create directory "%1": %2</source>
-        <translation type="unfinished"/>
+        <translation>No se puede crear la carpeta «%1»: %2</translation>
     </message>
     <message>
         <source>"%1" does not appear to be a valid Openbox theme directory</source>
-        <translation type="unfinished"/>
+        <translation>«%1» no parece ser una carpeta de tema de Openbox válida</translation>
     </message>
     <message>
         <source>Unable to move to directory "%1": %2</source>
-        <translation type="unfinished"/>
+        <translation>No se puede mover a la carpeta «%1»: %2</translation>
     </message>
     <message>
         <source>Unable to extract the file "%1".
 Please ensure that "%2" is writable and that the file is a valid Openbox theme archive.
 The following errors were reported:
 %3</source>
-        <translation type="unfinished"/>
+        <translation>No se puede extraer el archivo «%1».
+Asegúrese de que «%2» es escribible y de que el archivo es un tema de Openbox válido.
+Se produjeron los siguientes errores:
+%3</translation>
     </message>
     <message>
         <source>ObConf Error</source>
-        <translation type="unfinished"/>
+        <translation>Error de ObConf</translation>
     </message>
     <message>
         <source>Syntax: obconf [options] [ARCHIVE.obt]
@@ -440,36 +459,49 @@ Options:
   --archive THEME       Create a theme archive from the given theme directory
   --config-file FILE    Specify the path to the config file to use
 </source>
-        <translation type="unfinished"/>
+        <translation>Sintaxis: obconf [opciones] [ARCHIVADOR.obt]
+
+Opciones:
+  --help                Mostrar esta ayuda y salir
+  --version             Mostrar la versión y salir
+  --install ARCHIVADOR.obt Instalar el tema dado y seleccionarlo
+  --archive TEMA        Crear un archivador a partir de la carpeta dada
+  --config-file ARCHIVO Especificar ruta al archivo de conf. a usar
+</translation>
     </message>
     <message>
         <source>--install requires an argument
 </source>
-        <translation type="unfinished"/>
+        <translation>--install necesita un argumento
+</translation>
     </message>
     <message>
         <source>--archive requires an argument
 </source>
-        <translation type="unfinished"/>
+        <translation>--archive necesita un argumento
+</translation>
     </message>
     <message>
         <source>--config-file requires an argument
 </source>
-        <translation type="unfinished"/>
+        <translation>--config-file necesita un argumento
+</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished"/>
+        <translation>Error</translation>
     </message>
     <message>
         <source>Failed to load an rc.xml. You have probably failed to install Openbox properly.</source>
-        <translation type="unfinished"/>
+        <translation>Falló la carga de un rc.xml. Puede que la instalación de Openbox sea incorrecta.</translation>
     </message>
     <message>
         <source>Error while parsing the Openbox configuration file.  Your configuration file is not valid XML.
 
 Message: %1</source>
-        <translation type="unfinished"/>
+        <translation>Ocurrió un error al analizar el archivo de configuración de Openbox: este no contiene XML válido.
+
+Mensaje: %1</translation>
     </message>
     <message>
         <source>Copyright (c) 2003-2008   Dana Jansens
@@ -482,7 +514,16 @@ This is free software, and you are welcome to redistribute it
 under certain conditions. See the file COPYING for details.
 
 </source>
-        <translation type="unfinished"/>
+        <translation>Copyright © 2003-2008   Dana Jansens
+Copyright © 2003        Tim Riley
+Copyright © 2007        Javeed Shaikh
+Copyright © 2013        Hong Jen Yee (PCMan)
+
+Este programa viene SIN NINGUNA GARANTÍA.
+Esto es software libre que puede redistribuir bajo
+algunas condiciones. Consulte el archivo COPYING.
+
+</translation>
     </message>
 </context>
 </TS>
