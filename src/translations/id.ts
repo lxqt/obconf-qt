@@ -4,194 +4,194 @@
     <name>Fm::FontButton</name>
     <message>
         <source>Bold</source>
-        <translation type="unfinished"/>
+        <translation>Tebal</translation>
     </message>
     <message>
         <source>Italic</source>
-        <translation type="unfinished"/>
+        <translation>Miring</translation>
     </message>
 </context>
 <context>
     <name>MainDialog</name>
     <message>
         <source>Mouse</source>
-        <translation type="unfinished"/>
+        <translation>Tetikus</translation>
     </message>
     <message>
         <source>Window Manager Preferences</source>
-        <translation type="unfinished"/>
+        <translation>Preferensi Manajer Jendela</translation>
     </message>
     <message>
         <source>Theme</source>
-        <translation type="unfinished"/>
+        <translation>Tema</translation>
     </message>
     <message>
         <source>Appearance</source>
-        <translation type="unfinished"/>
+        <translation>Penampilan</translation>
     </message>
     <message>
         <source>Font</source>
-        <translation type="unfinished"/>
+        <translation>Fonta</translation>
     </message>
     <message>
         <source>Windows</source>
-        <translation type="unfinished"/>
+        <translation>Jendela</translation>
     </message>
     <message>
         <source>Move &amp; Resize</source>
-        <translation type="unfinished"/>
+        <translation>Pindah &amp; Ubah Ukuran</translation>
     </message>
     <message>
         <source>Desktops</source>
-        <translation type="unfinished"/>
+        <translation>Desktop</translation>
     </message>
     <message>
         <source>Margins</source>
-        <translation type="unfinished"/>
+        <translation>Marjin</translation>
     </message>
     <message>
         <source>Dock</source>
-        <translation type="unfinished"/>
+        <translation>Dok</translation>
     </message>
     <message>
         <source>Window Titles</source>
-        <translation type="unfinished"/>
+        <translation>Judul Jendela</translation>
     </message>
     <message>
         <source>Button order:</source>
-        <translation type="unfinished"/>
+        <translation>Urutan tombol:</translation>
     </message>
     <message>
         <source>Moving and Resizing Windows</source>
-        <translation type="unfinished"/>
+        <translation>Memindah dan Mengubah Ukuran Jendela</translation>
     </message>
     <message>
         <source>Information Dialog</source>
-        <translation type="unfinished"/>
+        <translation>Dialog Informasi</translation>
     </message>
     <message>
         <source>Focusing Windows</source>
-        <translation type="unfinished"/>
+        <translation>Pemfokusan Jendela</translation>
     </message>
     <message>
         <source>Focus windows when the mouse pointer moves over them</source>
-        <translation type="unfinished"/>
+        <translation>Fokuskan jendela ketika penunjuk tetikus bergerak di atas mereka</translation>
     </message>
     <message>
         <source>Titlebar</source>
-        <translation type="unfinished"/>
+        <translation>Bilah judul</translation>
     </message>
     <message>
         <source>Desktop Margins</source>
-        <translation type="unfinished"/>
+        <translation>Marjin Desktop</translation>
     </message>
     <message>
         <source>Desktop margins are reserved areas on the edge of your screen.  New windows will not be placed within a margin, and maximized windows will not cover them.</source>
-        <translation type="unfinished"/>
+        <translation>Marjin desktop adalah wilayah yang dicadangkan di tepi layar.  Jendela baru tak akan ditempatkan di dalam jarmin, dan jendela yang dimaksimalkan tak akan menutupinya.</translation>
     </message>
     <message>
         <source>Left:</source>
-        <translation type="unfinished"/>
+        <translation>Kiri:</translation>
     </message>
     <message>
         <source>px</source>
-        <translation type="unfinished"/>
+        <translation>px</translation>
     </message>
     <message>
         <source>Top:</source>
-        <translation type="unfinished"/>
+        <translation>Puncak:</translation>
     </message>
     <message>
         <source>Right:</source>
-        <translation type="unfinished"/>
+        <translation>Kanan:</translation>
     </message>
     <message>
         <source>Bottom:</source>
-        <translation type="unfinished"/>
+        <translation>Dasar:</translation>
     </message>
     <message>
         <source>All monitors</source>
-        <translation type="unfinished"/>
+        <translation>Semua monitor</translation>
     </message>
     <message>
         <source>The active monitor</source>
-        <translation type="unfinished"/>
+        <translation>Monitor yang aktif</translation>
     </message>
     <message>
         <source>The monitor with the mouse</source>
-        <translation type="unfinished"/>
+        <translation>Monitor dengan tetikus</translation>
     </message>
     <message>
         <source>Primary Monitor</source>
-        <translation type="unfinished"/>
+        <translation>Monitor Primer</translation>
     </message>
     <message>
         <source>The primary monitor is where Openbox will place dialogs, such as the one used for cycling windows.</source>
-        <translation type="unfinished"/>
+        <translation>Monitor primer adalah tempat dimana Openbox akan meletakkan dialog, seperti misalnya yang dipakai untuk berpindah jendela.</translation>
     </message>
     <message>
         <source>Fixed Monitor</source>
-        <translation type="unfinished"/>
+        <translation>Monitor Tetap</translation>
     </message>
     <message>
         <source>Active Monitor</source>
-        <translation type="unfinished"/>
+        <translation>Monitor Aktif</translation>
     </message>
     <message>
         <source>Monitor With Mouse Pointer</source>
-        <translation type="unfinished"/>
+        <translation>Monitor Dengan Penunjuk Tetikus</translation>
     </message>
     <message>
         <source>Centered</source>
-        <translation type="unfinished"/>
+        <translation>Rata Tengah</translation>
     </message>
     <message>
         <source>From left edge</source>
-        <translation type="unfinished"/>
+        <translation>Dari tepi kiri</translation>
     </message>
     <message>
         <source>From right edge</source>
-        <translation type="unfinished"/>
+        <translation>Dari tepi kanan</translation>
     </message>
     <message>
         <source>From top edge</source>
-        <translation type="unfinished"/>
+        <translation>Dari puncak</translation>
     </message>
     <message>
         <source>From bottom edge</source>
-        <translation type="unfinished"/>
+        <translation>Dari dasar</translation>
     </message>
     <message>
         <source>When resizing terminal windows</source>
-        <translation type="unfinished"/>
+        <translation>Ketika mengubah ukuran jendela terminal</translation>
     </message>
     <message>
         <source>Always</source>
-        <translation type="unfinished"/>
+        <translation>Selalu</translation>
     </message>
     <message>
         <source>Never</source>
-        <translation type="unfinished"/>
+        <translation>Tak pernah</translation>
     </message>
     <message>
         <source>Centered on the window</source>
-        <translation type="unfinished"/>
+        <translation>Di tengah jendela</translation>
     </message>
     <message>
         <source>Above the window</source>
-        <translation type="unfinished"/>
+        <translation>Di atas jendela</translation>
     </message>
     <message>
         <source>Fixed position on screen</source>
-        <translation type="unfinished"/>
+        <translation>Posisi tetap pada layar</translation>
     </message>
     <message>
         <source>Maximizes the window</source>
-        <translation type="unfinished"/>
+        <translation>Maksimalkan jendela</translation>
     </message>
     <message>
         <source>Shades the window</source>
-        <translation type="unfinished"/>
+        <translation>Membuat jendela berbayang</translation>
     </message>
     <message>
         <source>N: Window icon
@@ -201,39 +201,45 @@ M: Maximize
 C: Close
 S: Shade (Roll up)
 D: Omnipresent (On all desktops)</source>
-        <translation type="unfinished"/>
+        <translation>N: Ikon jendela
+L: Label jendela (Judul)
+I: Ikonkan (Minimalkan)
+M: Maksimalkan
+C: Tutup
+S: Berbayang (Gulung)
+D: Selalu ada (Pada semua desktop)</translation>
     </message>
     <message>
         <source>Primary monitor</source>
-        <translation type="unfinished"/>
+        <translation>Monitor primer</translation>
     </message>
     <message>
         <source>About</source>
-        <translation type="unfinished"/>
+        <translation>Tentang</translation>
     </message>
     <message>
         <source>&amp;Install a new theme...</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Pasang tema baru...</translation>
     </message>
     <message>
         <source>Create a theme &amp;archive (.obt)...</source>
-        <translation type="unfinished"/>
+        <translation>Buat suatu &amp;arsip tema (.obt)...</translation>
     </message>
     <message>
         <source>&amp;Windows retain a border when undecorated</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Jendela mempertahankan perbatasan ketika tak didekorasi</translation>
     </message>
     <message>
         <source>A&amp;nimate iconify and restore</source>
-        <translation type="unfinished"/>
+        <translation>A&amp;nimasikan menjadi ikon dan memulihkan</translation>
     </message>
     <message>
         <source>&amp;Active window title: </source>
-        <translation type="unfinished"/>
+        <translation>Judul jendela &amp;aktif: </translation>
     </message>
     <message>
         <source>&amp;Inactive window title: </source>
-        <translation type="unfinished"/>
+        <translation>Judul jendela tak akt&amp;if: </translation>
     </message>
     <message>
         <source>Menu &amp;header: </source>
@@ -241,7 +247,7 @@ D: Omnipresent (On all desktops)</source>
     </message>
     <message>
         <source>&amp;Menu Item: </source>
-        <translation type="unfinished"/>
+        <translation>Butir &amp;Menu: </translation>
     </message>
     <message>
         <source>Active &amp;On-screen display: </source>
@@ -253,35 +259,35 @@ D: Omnipresent (On all desktops)</source>
     </message>
     <message>
         <source>Focus &amp;new windows when they appear</source>
-        <translation type="unfinished"/>
+        <translation>Fokus ke je&amp;ndela baru ketika mereka muncul</translation>
     </message>
     <message>
         <source>&amp;Place new windows under the mouse pointer</source>
-        <translation type="unfinished"/>
+        <translation>Tem&amp;patkan jendela baru di bawah penunjuk tetikus</translation>
     </message>
     <message>
         <source>&amp;Center new windows when they are placed</source>
-        <translation type="unfinished"/>
+        <translation>Rata &amp;tengahkan jendela baru ketika mereka ditempatkan</translation>
     </message>
     <message>
         <source>Prefer to place new windows &amp;on:</source>
-        <translation type="unfinished"/>
+        <translation>Lebih suka menempatkan jendela baru p&amp;ada:</translation>
     </message>
     <message>
         <source>Primary &amp;monitor:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Monitor primer:</translation>
     </message>
     <message>
         <source>&amp;Fixed monitor:</source>
-        <translation type="unfinished"/>
+        <translation>Monitor &amp;tetap:</translation>
     </message>
     <message>
         <source>Update the window contents while &amp;resizing</source>
-        <translation type="unfinished"/>
+        <translation>Mutakhirkan isi jendela ketika mengubah uku&amp;ran</translation>
     </message>
     <message>
         <source>Drag &amp;threshold distance:</source>
-        <translation type="unfinished"/>
+        <translation>Jarak ambang sere&amp;t:</translation>
     </message>
     <message>
         <source>Amount of resistance against other &amp;windows:</source>
