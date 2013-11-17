@@ -243,11 +243,11 @@ D: Omnipresente (todas as áreas de trabalho)</translation>
     </message>
     <message>
         <source>Menu &amp;header: </source>
-        <translation type="unfinished"/>
+        <translation>Cabeçal&amp;lho de menu: </translation>
     </message>
     <message>
         <source>&amp;Menu Item: </source>
-        <translation type="unfinished"/>
+        <translation>Item de &amp;menu: </translation>
     </message>
     <message>
         <source>Active &amp;On-screen display: </source>
@@ -259,122 +259,122 @@ D: Omnipresente (todas as áreas de trabalho)</translation>
     </message>
     <message>
         <source>Focus &amp;new windows when they appear</source>
-        <translation type="unfinished"/>
+        <translation>Focar &amp;novas janelas assim que aparecerem</translation>
     </message>
     <message>
         <source>&amp;Place new windows under the mouse pointer</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Posicionar novas janelas por baixo do ponteiro do rato</translation>
     </message>
     <message>
         <source>&amp;Center new windows when they are placed</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Centrar novas janelas assim que forem posicionadas</translation>
     </message>
     <message>
         <source>Prefer to place new windows &amp;on:</source>
-        <translation type="unfinished"/>
+        <translation>C&amp;olocar novas janelas em:</translation>
     </message>
     <message>
         <source>Primary &amp;monitor:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Monitor principal:</translation>
     </message>
     <message>
         <source>&amp;Fixed monitor:</source>
-        <translation type="unfinished"/>
+        <translation>Monitor &amp;fixo:</translation>
     </message>
     <message>
         <source>Update the window contents while &amp;resizing</source>
-        <translation type="unfinished"/>
+        <translation>Atualizar conteúdo da janela ao &amp;redimensionar</translation>
     </message>
     <message>
         <source>Drag &amp;threshold distance:</source>
-        <translation type="unfinished"/>
+        <translation>Dis&amp;tância de arrasto:</translation>
     </message>
     <message>
         <source>Amount of resistance against other &amp;windows:</source>
-        <translation type="unfinished"/>
+        <translation>Resistência em relação às outras &amp;janelas:</translation>
     </message>
     <message>
         <source>Amount of resistance against screen &amp;edges:</source>
-        <translation type="unfinished"/>
+        <translation>Resistência em relação aos limit&amp;es do ecrã:</translation>
     </message>
     <message>
         <source>&amp;Amount of time to wait before switching:</source>
-        <translation type="unfinished"/>
+        <translation>Tempo de esper&amp;a antes de trocar:</translation>
     </message>
     <message>
         <source>&amp;Switch desktops when moving a window past the screen edge</source>
-        <translation type="unfinished"/>
+        <translation>Trocar de área de trabalho ao mover a janela para além do&amp;s limites do ecrã</translation>
     </message>
     <message>
         <source>Fixed &amp;y position:</source>
-        <translation type="unfinished"/>
+        <translation>Posição &amp;Y:</translation>
     </message>
     <message>
         <source>Information dialog's &amp;position:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Posição do diálogo:</translation>
     </message>
     <message>
         <source>Fixed &amp;x position:</source>
-        <translation type="unfinished"/>
+        <translation>Posição &amp;X:</translation>
     </message>
     <message>
         <source>Show &amp;information dialog:</source>
-        <translation type="unfinished"/>
+        <translation>Mostrar d&amp;iálogo de informações:</translation>
     </message>
     <message>
         <source>&amp;Delay before focusing and raising windows:</source>
-        <translation type="unfinished"/>
+        <translation>Atraso antes &amp;de focar e mostrar janelas:</translation>
     </message>
     <message>
         <source>Move focus under the mouse when &amp;switching desktops</source>
-        <translation type="unfinished"/>
+        <translation>Mover foco para bai&amp;xo do rato ao trocar de área de trabalho</translation>
     </message>
     <message>
         <source>Move focus &amp;under the mouse when the mouse is not moving</source>
-        <translation type="unfinished"/>
+        <translation>Mover foco para baixo do rato se este não esti&amp;ver em movimento</translation>
     </message>
     <message>
         <source>&amp;Raise windows when the mouse pointer moves over them</source>
-        <translation type="unfinished"/>
+        <translation>Most&amp;rar janelas ao passar o rato sobre as mesmas</translation>
     </message>
     <message>
         <source>Double click on the &amp;titlebar:</source>
-        <translation type="unfinished"/>
+        <translation>Duplo clique na barra de &amp;título:</translation>
     </message>
     <message>
         <source>Double click ti&amp;me:</source>
-        <translation type="unfinished"/>
+        <translation>Te&amp;mpo do duplo clique:</translation>
     </message>
     <message>
         <source>&amp;Show a notification when switching desktops</source>
-        <translation type="unfinished"/>
+        <translation>Mo&amp;strar notificação ao trocar a área de trabalho</translation>
     </message>
     <message>
         <source>&amp;Amount of time to show the notification for:</source>
-        <translation type="unfinished"/>
+        <translation>Mostr&amp;ar notificação durante:</translation>
     </message>
     <message>
         <source>&amp;Number of desktops: </source>
-        <translation type="unfinished"/>
+        <translation>&amp;Número de áreas de trabalho: </translation>
     </message>
     <message>
         <source>&amp;Desktop names:</source>
-        <translation type="unfinished"/>
+        <translation>Nome das áreas &amp;de trabalho:</translation>
     </message>
 </context>
 <context>
     <name>Obconf::MainDialog</name>
     <message>
         <source>Custom actions</source>
-        <translation type="unfinished"/>
+        <translation>Ações personalizadas</translation>
     </message>
     <message>
         <source>(Unnamed desktop)</source>
-        <translation type="unfinished"/>
+        <translation>(Área de trabalho sem nome)</translation>
     </message>
     <message>
         <source>About ObConf-Qt</source>
-        <translation type="unfinished"/>
+        <translation>Sobre o ObConf-Qt</translation>
     </message>
     <message>
         <source>A preferences manager for Openbox
@@ -386,55 +386,68 @@ Authors:
 * Dana Jansens &lt;danakj@orodu.net&gt;
 * Tim Riley &lt;tr@slackzone.org&gt;
 * Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</source>
-        <translation type="unfinished"/>
+        <translation>O gestor de definições do Openbox
+
+Copyright (c) 2003-2013
+
+Autores:
+* Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;
+* Dana Jansens &lt;danakj@orodu.net&gt;
+* Tim Riley &lt;tr@slackzone.org&gt;
+* Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</translation>
     </message>
     <message>
         <source>Choose an Openbox theme</source>
-        <translation type="unfinished"/>
+        <translation>Escolha o tema Openbox</translation>
     </message>
 </context>
 <context>
     <name>QObject</name>
     <message>
         <source>"%1" was installed to %1</source>
-        <translation type="unfinished"/>
+        <translation>"%1" foi instalado em %1</translation>
     </message>
     <message>
         <source>"%1" was successfully created</source>
-        <translation type="unfinished"/>
+        <translation>"%1" foi criado com sucesso</translation>
     </message>
     <message>
         <source>Unable to create the theme archive "%1".
 The following errors were reported:
 %2</source>
-        <translation type="unfinished"/>
+        <translation>Não foi possível criar o arquivo "%1".
+Foram reportados os seguintes erros:
+%2</translation>
     </message>
     <message>
         <source>Unable to run the "tar" command: %1</source>
-        <translation type="unfinished"/>
+        <translation>Não foi possível executar o comando "tar": %1</translation>
     </message>
     <message>
         <source>Unable to create directory "%1": %2</source>
-        <translation type="unfinished"/>
+        <translation>Não foi possível criar o diretório "%1": %2</translation>
     </message>
     <message>
         <source>"%1" does not appear to be a valid Openbox theme directory</source>
-        <translation type="unfinished"/>
+        <translation>"%1" não parece ser um diretório válido para temas Openbox</translation>
     </message>
     <message>
         <source>Unable to move to directory "%1": %2</source>
-        <translation type="unfinished"/>
+        <translation>Não foi possível mover para o diretório "%1": %2</translation>
     </message>
     <message>
         <source>Unable to extract the file "%1".
 Please ensure that "%2" is writable and that the file is a valid Openbox theme archive.
 The following errors were reported:
 %3</source>
-        <translation type="unfinished"/>
+        <translation>Não foi possível extrair o ficheiro "%1!
+Certifique-se que tem permissões de escrita em "%2" e que o ficheiro é um arquivo de tema Openbox.
+Foram reportados os seguintes erros:
+%3</translation>
     </message>
     <message>
         <source>ObConf Error</source>
-        <translation type="unfinished"/>
+        <translation>Erro ObConf</translation>
     </message>
     <message>
         <source>Syntax: obconf [options] [ARCHIVE.obt]
@@ -446,36 +459,49 @@ Options:
   --archive THEME       Create a theme archive from the given theme directory
   --config-file FILE    Specify the path to the config file to use
 </source>
-        <translation type="unfinished"/>
+        <translation>Sintaxe: obconf [opções] [ARQUIVO.obt]
+
+Opções:
+  --help                Mostra esta ajuda e sai
+  --version             Mostra a versão e sai
+  --install ARCHIVE.obt Instala e ativa o tema escolhido
+  --archive THEME       Cria um arquivo de tema a partir do diretório especificado
+  --config-file FILE    Especifica o caminho do ficheiro de configuração a utilizar
+</translation>
     </message>
     <message>
         <source>--install requires an argument
 </source>
-        <translation type="unfinished"/>
+        <translation>--install requer um argumento
+</translation>
     </message>
     <message>
         <source>--archive requires an argument
 </source>
-        <translation type="unfinished"/>
+        <translation>--archive requer um argumento
+</translation>
     </message>
     <message>
         <source>--config-file requires an argument
 </source>
-        <translation type="unfinished"/>
+        <translation>--config-file requer um argumento
+</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished"/>
+        <translation>Erro</translation>
     </message>
     <message>
         <source>Failed to load an rc.xml. You have probably failed to install Openbox properly.</source>
-        <translation type="unfinished"/>
+        <translation>Erro ao carregar rc.xml. É possível que o Openbox não esteja bem instalado.</translation>
     </message>
     <message>
         <source>Error while parsing the Openbox configuration file.  Your configuration file is not valid XML.
 
 Message: %1</source>
-        <translation type="unfinished"/>
+        <translation>Erro ao processar o ficheiro de configuração do Openbox. O seu ficheiro de configuração não é um XML válido.
+
+Mensagem: %1</translation>
     </message>
     <message>
         <source>Copyright (c) 2003-2008   Dana Jansens
@@ -488,7 +514,16 @@ This is free software, and you are welcome to redistribute it
 under certain conditions. See the file COPYING for details.
 
 </source>
-        <translation type="unfinished"/>
+        <translation>Copyright (c) 2003-2008   Dana Jansens
+Copyright (c) 2003            Tim Riley
+Copyright (c) 2007            Javeed Shaikh
+Copyright (c) 2013            Hong Jen Yee (PCMan)
+
+Este programa NÃO POSSUI QUALQUER GARANTIA.
+É um programa livre e é permitida a sua redistribuição
+mediante alguma condições. Consulte o ficheiro COPYING para mais informações.
+
+</translation>
     </message>
 </context>
 </TS>
