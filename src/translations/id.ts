@@ -243,7 +243,7 @@ D: Selalu ada (Pada semua desktop)</translation>
     </message>
     <message>
         <source>Menu &amp;header: </source>
-        <translation type="unfinished"/>
+        <translation>&amp;Header menu: </translation>
     </message>
     <message>
         <source>&amp;Menu Item: </source>
@@ -251,11 +251,11 @@ D: Selalu ada (Pada semua desktop)</translation>
     </message>
     <message>
         <source>Active &amp;On-screen display: </source>
-        <translation type="unfinished"/>
+        <translation>Tampilan Pada layar yang aktif: </translation>
     </message>
     <message>
         <source>Inactive O&amp;n-screen display: </source>
-        <translation type="unfinished"/>
+        <translation>Tampilan Pada layar yang tak aktif: </translation>
     </message>
     <message>
         <source>Focus &amp;new windows when they appear</source>
@@ -291,90 +291,90 @@ D: Selalu ada (Pada semua desktop)</translation>
     </message>
     <message>
         <source>Amount of resistance against other &amp;windows:</source>
-        <translation type="unfinished"/>
+        <translation>Banyaknya resistansi terhadap &amp;jendela lain:</translation>
     </message>
     <message>
         <source>Amount of resistance against screen &amp;edges:</source>
-        <translation type="unfinished"/>
+        <translation>Banyaknya resistansi terhadap t&amp;epi layar:</translation>
     </message>
     <message>
         <source>&amp;Amount of time to wait before switching:</source>
-        <translation type="unfinished"/>
+        <translation>L&amp;ama waktu tunggu sebelum bertukar:</translation>
     </message>
     <message>
         <source>&amp;Switch desktops when moving a window past the screen edge</source>
-        <translation type="unfinished"/>
+        <translation>Berpindah de&amp;sktop ketika memindahkan suatu jendela melampai tepi layar</translation>
     </message>
     <message>
         <source>Fixed &amp;y position:</source>
-        <translation type="unfinished"/>
+        <translation>Posisi &amp;y tetap:</translation>
     </message>
     <message>
         <source>Information dialog's &amp;position:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Posisi dialog informasi:</translation>
     </message>
     <message>
         <source>Fixed &amp;x position:</source>
-        <translation type="unfinished"/>
+        <translation>Posisi &amp;x tetap:</translation>
     </message>
     <message>
         <source>Show &amp;information dialog:</source>
-        <translation type="unfinished"/>
+        <translation>Tampilkan dialog &amp;informasi:</translation>
     </message>
     <message>
         <source>&amp;Delay before focusing and raising windows:</source>
-        <translation type="unfinished"/>
+        <translation>Tun&amp;daan sebelum memfokus dan menaikkan jendela: </translation>
     </message>
     <message>
         <source>Move focus under the mouse when &amp;switching desktops</source>
-        <translation type="unfinished"/>
+        <translation>Pindahkan fokus di bawah tetikus ketika bertukar de&amp;sktop</translation>
     </message>
     <message>
         <source>Move focus &amp;under the mouse when the mouse is not moving</source>
-        <translation type="unfinished"/>
+        <translation>Pindahkan fok&amp;us ke bawah tetikus ketika tetikus tak bergerak</translation>
     </message>
     <message>
         <source>&amp;Raise windows when the mouse pointer moves over them</source>
-        <translation type="unfinished"/>
+        <translation>Naikkan jendela ketika penunjuk tetikus berge&amp;rak di atasnya</translation>
     </message>
     <message>
         <source>Double click on the &amp;titlebar:</source>
-        <translation type="unfinished"/>
+        <translation>Klik ganda pada bilah &amp;judul:</translation>
     </message>
     <message>
         <source>Double click ti&amp;me:</source>
-        <translation type="unfinished"/>
+        <translation>Waktu klik ga&amp;nda:</translation>
     </message>
     <message>
         <source>&amp;Show a notification when switching desktops</source>
-        <translation type="unfinished"/>
+        <translation>Tampilkan pemberitahuan ketika bertukar de&amp;sktop</translation>
     </message>
     <message>
         <source>&amp;Amount of time to show the notification for:</source>
-        <translation type="unfinished"/>
+        <translation>L&amp;amanya menampilkan pemberitahuan:</translation>
     </message>
     <message>
         <source>&amp;Number of desktops: </source>
-        <translation type="unfinished"/>
+        <translation>Ba&amp;nyaknya desktop: </translation>
     </message>
     <message>
         <source>&amp;Desktop names:</source>
-        <translation type="unfinished"/>
+        <translation>Nama &amp;desktop:</translation>
     </message>
 </context>
 <context>
     <name>Obconf::MainDialog</name>
     <message>
         <source>Custom actions</source>
-        <translation type="unfinished"/>
+        <translation>Aksi gubahan</translation>
     </message>
     <message>
         <source>(Unnamed desktop)</source>
-        <translation type="unfinished"/>
+        <translation>(Desktop tanpa nama)</translation>
     </message>
     <message>
         <source>About ObConf-Qt</source>
-        <translation type="unfinished"/>
+        <translation>Tentang ObConf-Qt</translation>
     </message>
     <message>
         <source>A preferences manager for Openbox
@@ -386,55 +386,68 @@ Authors:
 * Dana Jansens &lt;danakj@orodu.net&gt;
 * Tim Riley &lt;tr@slackzone.org&gt;
 * Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</source>
-        <translation type="unfinished"/>
+        <translation>Manajer preferensi untuk Openbox
+
+Hak cipta (c) 2003-2013
+
+Penulis:
+* Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;
+* Dana Jansens &lt;danakj@orodu.net&gt;
+* Tim Riley &lt;tr@slackzone.org&gt;
+* Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</translation>
     </message>
     <message>
         <source>Choose an Openbox theme</source>
-        <translation type="unfinished"/>
+        <translation>Pilih tema Openbox</translation>
     </message>
 </context>
 <context>
     <name>QObject</name>
     <message>
         <source>"%1" was installed to %1</source>
-        <translation type="unfinished"/>
+        <translation>"%1" dipasang ke %1</translation>
     </message>
     <message>
         <source>"%1" was successfully created</source>
-        <translation type="unfinished"/>
+        <translation>"%1" telah berhasil dibuat</translation>
     </message>
     <message>
         <source>Unable to create the theme archive "%1".
 The following errors were reported:
 %2</source>
-        <translation type="unfinished"/>
+        <translation>Tak bisa membuat arsip tema "%1".
+Kesalahan berikut dilaporkan:
+%s</translation>
     </message>
     <message>
         <source>Unable to run the "tar" command: %1</source>
-        <translation type="unfinished"/>
+        <translation>Tak bisa menjalankan perintah "tar": %1</translation>
     </message>
     <message>
         <source>Unable to create directory "%1": %2</source>
-        <translation type="unfinished"/>
+        <translation>Tak bisa membuat direktori "%1": %2</translation>
     </message>
     <message>
         <source>"%1" does not appear to be a valid Openbox theme directory</source>
-        <translation type="unfinished"/>
+        <translation>"%1" nampaknya bukan direktori tema Openbox yang valid</translation>
     </message>
     <message>
         <source>Unable to move to directory "%1": %2</source>
-        <translation type="unfinished"/>
+        <translation>Tak bisa memindah ke direktori "%1": %2</translation>
     </message>
     <message>
         <source>Unable to extract the file "%1".
 Please ensure that "%2" is writable and that the file is a valid Openbox theme archive.
 The following errors were reported:
 %3</source>
-        <translation type="unfinished"/>
+        <translation>Tak bisa mengekstrak berkas "%1".
+Harap pastikan bahwa "%2" dapat ditulisi dan berkas tersebuat adalah arsip tema Openbox yang valid.
+Kesalahan berikut dilaporkan:
+%s</translation>
     </message>
     <message>
         <source>ObConf Error</source>
-        <translation type="unfinished"/>
+        <translation>Kesalahan ObConf</translation>
     </message>
     <message>
         <source>Syntax: obconf [options] [ARCHIVE.obt]
@@ -446,36 +459,49 @@ Options:
   --archive THEME       Create a theme archive from the given theme directory
   --config-file FILE    Specify the path to the config file to use
 </source>
-        <translation type="unfinished"/>
+        <translation>Sintaks: obconf [opsi] [ARSIP.obt]
+
+Opsi:
+  --help                Menampilkan bantuan ini dan keluar
+  --version             Menampilkan versi dan keluar
+  --install ARSIP.obt   Memasang arsip tema yang diberikan dan memilihnya
+  --archive TEMA        Membuat suatu arsip tema dari direktori tema yang diberikan
+  --config-file BERKAS  Menyatakan path ke berkas konfig yang akan dipakai
+</translation>
     </message>
     <message>
         <source>--install requires an argument
 </source>
-        <translation type="unfinished"/>
+        <translation>--install memerlukan suatu argumen
+</translation>
     </message>
     <message>
         <source>--archive requires an argument
 </source>
-        <translation type="unfinished"/>
+        <translation>--archive memerlukan suatu argumen
+</translation>
     </message>
     <message>
         <source>--config-file requires an argument
 </source>
-        <translation type="unfinished"/>
+        <translation>--config-file memerlukan suatu argumen
+</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished"/>
+        <translation>Kesalahan</translation>
     </message>
     <message>
         <source>Failed to load an rc.xml. You have probably failed to install Openbox properly.</source>
-        <translation type="unfinished"/>
+        <translation>Gagal memuat rc.xml. Mungkin Anda gagal memasang Openbox dengan benar.</translation>
     </message>
     <message>
         <source>Error while parsing the Openbox configuration file.  Your configuration file is not valid XML.
 
 Message: %1</source>
-        <translation type="unfinished"/>
+        <translation>Kesalahan saat mengurai berkas konfigurasi Openbox.  Berkas konfigurasi Anda bukat XML yang valid.
+
+Pesan: %1</translation>
     </message>
     <message>
         <source>Copyright (c) 2003-2008   Dana Jansens
@@ -488,7 +514,16 @@ This is free software, and you are welcome to redistribute it
 under certain conditions. See the file COPYING for details.
 
 </source>
-        <translation type="unfinished"/>
+        <translation>Hak cipta (c) 2003-2008   Dana Jansens
+Hak cipta (c) 2003        Tim Riley
+Hak cipta (c) 2007        Javeed Shaikh
+Hak cipta (c) 2013        Hong Jen Yee (PCMan)
+
+Program ini SEPENUHNYA TANPA JAMINAN
+Ini adalah perangkat lunak bebas, dan Anda boleh menyebarluaskannya
+di bahwa kondisi tertentu. Lihat berkas COPYING untuk rinciannya.
+
+</translation>
     </message>
 </context>
 </TS>
