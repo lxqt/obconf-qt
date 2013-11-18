@@ -131,7 +131,7 @@
     </message>
     <message>
         <source>Fixed Monitor</source>
-        <translation type="unfinished"/>
+        <translation>Stały monitor</translation>
     </message>
     <message>
         <source>Active Monitor</source>
@@ -187,11 +187,11 @@
     </message>
     <message>
         <source>Maximizes the window</source>
-        <translation type="unfinished"/>
+        <translation>Maksymalizuje okno</translation>
     </message>
     <message>
         <source>Shades the window</source>
-        <translation type="unfinished"/>
+        <translation>Przyciemnia okno</translation>
     </message>
     <message>
         <source>N: Window icon
@@ -243,11 +243,11 @@ D: Wszechobecne (Na wszystkich pulpitach)</translation>
     </message>
     <message>
         <source>Menu &amp;header: </source>
-        <translation type="unfinished"/>
+        <translation>&amp;Nagłówek menu: </translation>
     </message>
     <message>
         <source>&amp;Menu Item: </source>
-        <translation type="unfinished"/>
+        <translation>&amp;Element menu: </translation>
     </message>
     <message>
         <source>Active &amp;On-screen display: </source>
@@ -275,11 +275,11 @@ D: Wszechobecne (Na wszystkich pulpitach)</translation>
     </message>
     <message>
         <source>Primary &amp;monitor:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Monitor główny:</translation>
     </message>
     <message>
         <source>&amp;Fixed monitor:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Stały monitor:</translation>
     </message>
     <message>
         <source>Update the window contents while &amp;resizing</source>
@@ -307,7 +307,7 @@ D: Wszechobecne (Na wszystkich pulpitach)</translation>
     </message>
     <message>
         <source>Fixed &amp;y position:</source>
-        <translation type="unfinished"/>
+        <translation>Stała pozycja &amp;y:</translation>
     </message>
     <message>
         <source>Information dialog's &amp;position:</source>
@@ -315,11 +315,11 @@ D: Wszechobecne (Na wszystkich pulpitach)</translation>
     </message>
     <message>
         <source>Fixed &amp;x position:</source>
-        <translation type="unfinished"/>
+        <translation>Stała pozycja &amp;x:</translation>
     </message>
     <message>
         <source>Show &amp;information dialog:</source>
-        <translation type="unfinished"/>
+        <translation>Pokaż okno &amp;informacyjne:</translation>
     </message>
     <message>
         <source>&amp;Delay before focusing and raising windows:</source>
@@ -339,11 +339,11 @@ D: Wszechobecne (Na wszystkich pulpitach)</translation>
     </message>
     <message>
         <source>Double click on the &amp;titlebar:</source>
-        <translation type="unfinished"/>
+        <translation>Podwójne kliknięcie na pasku &amp;tytułu:</translation>
     </message>
     <message>
         <source>Double click ti&amp;me:</source>
-        <translation type="unfinished"/>
+        <translation>Czas &amp;dwukrotnego kliknięcia:</translation>
     </message>
     <message>
         <source>&amp;Show a notification when switching desktops</source>
@@ -355,18 +355,18 @@ D: Wszechobecne (Na wszystkich pulpitach)</translation>
     </message>
     <message>
         <source>&amp;Number of desktops: </source>
-        <translation type="unfinished"/>
+        <translation>&amp;Liczba pulpitów: </translation>
     </message>
     <message>
         <source>&amp;Desktop names:</source>
-        <translation type="unfinished"/>
+        <translation>Nazwy &amp;pulpitów:</translation>
     </message>
 </context>
 <context>
     <name>Obconf::MainDialog</name>
     <message>
         <source>Custom actions</source>
-        <translation type="unfinished"/>
+        <translation>Działania własne</translation>
     </message>
     <message>
         <source>(Unnamed desktop)</source>
@@ -429,11 +429,11 @@ Zgłoszono następujące błędy:
     </message>
     <message>
         <source>"%1" does not appear to be a valid Openbox theme directory</source>
-        <translation type="unfinished"/>
+        <translation>"%1" nie wydaje się być poprawnym katalogiem motywów Openbox</translation>
     </message>
     <message>
         <source>Unable to move to directory "%1": %2</source>
-        <translation type="unfinished"/>
+        <translation>Nie można przenieść do katalogu "%1": %2</translation>
     </message>
     <message>
         <source>Unable to extract the file "%1".
@@ -469,12 +469,14 @@ Opcje:
     <message>
         <source>--install requires an argument
 </source>
-        <translation type="unfinished"/>
+        <translation>--install wymaga argumentu
+</translation>
     </message>
     <message>
         <source>--archive requires an argument
 </source>
-        <translation type="unfinished"/>
+        <translation>--archive wymaga argumentu
+</translation>
     </message>
     <message>
         <source>--config-file requires an argument
