@@ -4,50 +4,50 @@
     <name>Fm::FontButton</name>
     <message>
         <source>Bold</source>
-        <translation type="unfinished"/>
+        <translation>Masno</translation>
     </message>
     <message>
         <source>Italic</source>
-        <translation type="unfinished"/>
+        <translation>Kurziv</translation>
     </message>
 </context>
 <context>
     <name>MainDialog</name>
     <message>
         <source>Mouse</source>
-        <translation type="unfinished"/>
+        <translation>Miš</translation>
     </message>
     <message>
         <source>Window Manager Preferences</source>
-        <translation type="unfinished"/>
+        <translation>Osobitosti upravitelja prozora</translation>
     </message>
     <message>
         <source>Theme</source>
-        <translation type="unfinished"/>
+        <translation>Tema</translation>
     </message>
     <message>
         <source>Appearance</source>
-        <translation type="unfinished"/>
+        <translation>Izgled</translation>
     </message>
     <message>
         <source>Font</source>
-        <translation type="unfinished"/>
+        <translation>Font</translation>
     </message>
     <message>
         <source>Windows</source>
-        <translation type="unfinished"/>
+        <translation>Prozori</translation>
     </message>
     <message>
         <source>Move &amp; Resize</source>
-        <translation type="unfinished"/>
+        <translation>Pomakni &amp; promjeni veličinu</translation>
     </message>
     <message>
         <source>Desktops</source>
-        <translation type="unfinished"/>
+        <translation>Radne površine</translation>
     </message>
     <message>
         <source>Margins</source>
-        <translation type="unfinished"/>
+        <translation>Margine</translation>
     </message>
     <message>
         <source>Dock</source>
@@ -55,19 +55,19 @@
     </message>
     <message>
         <source>Window Titles</source>
-        <translation type="unfinished"/>
+        <translation>Naslovi prozora</translation>
     </message>
     <message>
         <source>Button order:</source>
-        <translation type="unfinished"/>
+        <translation>Redoslijed dugmadi:</translation>
     </message>
     <message>
         <source>Moving and Resizing Windows</source>
-        <translation type="unfinished"/>
+        <translation>Pomicanje i promjena veličine prozora</translation>
     </message>
     <message>
         <source>Information Dialog</source>
-        <translation type="unfinished"/>
+        <translation>Informacijski dijalog</translation>
     </message>
     <message>
         <source>Focusing Windows</source>
@@ -79,11 +79,11 @@
     </message>
     <message>
         <source>Titlebar</source>
-        <translation type="unfinished"/>
+        <translation>Naslovna traka</translation>
     </message>
     <message>
         <source>Desktop Margins</source>
-        <translation type="unfinished"/>
+        <translation>Margine radne površine</translation>
     </message>
     <message>
         <source>Desktop margins are reserved areas on the edge of your screen.  New windows will not be placed within a margin, and maximized windows will not cover them.</source>
@@ -91,39 +91,39 @@
     </message>
     <message>
         <source>Left:</source>
-        <translation type="unfinished"/>
+        <translation>Lijevo:</translation>
     </message>
     <message>
         <source>px</source>
-        <translation type="unfinished"/>
+        <translation>px</translation>
     </message>
     <message>
         <source>Top:</source>
-        <translation type="unfinished"/>
+        <translation>Vrh:</translation>
     </message>
     <message>
         <source>Right:</source>
-        <translation type="unfinished"/>
+        <translation>Desno:</translation>
     </message>
     <message>
         <source>Bottom:</source>
-        <translation type="unfinished"/>
+        <translation>Dno:</translation>
     </message>
     <message>
         <source>All monitors</source>
-        <translation type="unfinished"/>
+        <translation>Svi monitori</translation>
     </message>
     <message>
         <source>The active monitor</source>
-        <translation type="unfinished"/>
+        <translation>Aktivni monitor</translation>
     </message>
     <message>
         <source>The monitor with the mouse</source>
-        <translation type="unfinished"/>
+        <translation>Monitor s  mišem</translation>
     </message>
     <message>
         <source>Primary Monitor</source>
-        <translation type="unfinished"/>
+        <translation>Osnovni monitor</translation>
     </message>
     <message>
         <source>The primary monitor is where Openbox will place dialogs, such as the one used for cycling windows.</source>
@@ -135,31 +135,31 @@
     </message>
     <message>
         <source>Active Monitor</source>
-        <translation type="unfinished"/>
+        <translation>Aktivni monitor</translation>
     </message>
     <message>
         <source>Monitor With Mouse Pointer</source>
-        <translation type="unfinished"/>
+        <translation>Monitor sa pokazivačem miša</translation>
     </message>
     <message>
         <source>Centered</source>
-        <translation type="unfinished"/>
+        <translation>Centrirano</translation>
     </message>
     <message>
         <source>From left edge</source>
-        <translation type="unfinished"/>
+        <translation>Sa lijevog ruba</translation>
     </message>
     <message>
         <source>From right edge</source>
-        <translation type="unfinished"/>
+        <translation>Sa desnog ruba</translation>
     </message>
     <message>
         <source>From top edge</source>
-        <translation type="unfinished"/>
+        <translation>Sa gornjeg ruba</translation>
     </message>
     <message>
         <source>From bottom edge</source>
-        <translation type="unfinished"/>
+        <translation>Sa donjeg ruba</translation>
     </message>
     <message>
         <source>When resizing terminal windows</source>
@@ -167,19 +167,19 @@
     </message>
     <message>
         <source>Always</source>
-        <translation type="unfinished"/>
+        <translation>Uvijek</translation>
     </message>
     <message>
         <source>Never</source>
-        <translation type="unfinished"/>
+        <translation>Nikada</translation>
     </message>
     <message>
         <source>Centered on the window</source>
-        <translation type="unfinished"/>
+        <translation>Centrirano na prozoru</translation>
     </message>
     <message>
         <source>Above the window</source>
-        <translation type="unfinished"/>
+        <translation>Iznad prozora</translation>
     </message>
     <message>
         <source>Fixed position on screen</source>
@@ -191,7 +191,7 @@
     </message>
     <message>
         <source>Shades the window</source>
-        <translation type="unfinished"/>
+        <translation>Osjenčava prozor</translation>
     </message>
     <message>
         <source>N: Window icon
@@ -205,19 +205,19 @@ D: Omnipresent (On all desktops)</source>
     </message>
     <message>
         <source>Primary monitor</source>
-        <translation type="unfinished"/>
+        <translation>Osnovni monitor</translation>
     </message>
     <message>
         <source>About</source>
-        <translation type="unfinished"/>
+        <translation>O programu</translation>
     </message>
     <message>
         <source>&amp;Install a new theme...</source>
-        <translation type="unfinished"/>
+        <translation>Instaliraj novu temu…</translation>
     </message>
     <message>
         <source>Create a theme &amp;archive (.obt)...</source>
-        <translation type="unfinished"/>
+        <translation>Napravi temu i arhivu (.obt)...</translation>
     </message>
     <message>
         <source>&amp;Windows retain a border when undecorated</source>
@@ -229,11 +229,11 @@ D: Omnipresent (On all desktops)</source>
     </message>
     <message>
         <source>&amp;Active window title: </source>
-        <translation type="unfinished"/>
+        <translation>&amp;Aktivni naslov prozora: </translation>
     </message>
     <message>
         <source>&amp;Inactive window title: </source>
-        <translation type="unfinished"/>
+        <translation>&amp;Neaktivni naslov prozora: </translation>
     </message>
     <message>
         <source>Menu &amp;header: </source>
@@ -241,7 +241,7 @@ D: Omnipresent (On all desktops)</source>
     </message>
     <message>
         <source>&amp;Menu Item: </source>
-        <translation type="unfinished"/>
+        <translation>&amp;Stavka izbornika: </translation>
     </message>
     <message>
         <source>Active &amp;On-screen display: </source>
@@ -293,7 +293,7 @@ D: Omnipresent (On all desktops)</source>
     </message>
     <message>
         <source>&amp;Amount of time to wait before switching:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Koliko treba pričekati prije prebacivanja:</translation>
     </message>
     <message>
         <source>&amp;Switch desktops when moving a window past the screen edge</source>
@@ -313,7 +313,7 @@ D: Omnipresent (On all desktops)</source>
     </message>
     <message>
         <source>Show &amp;information dialog:</source>
-        <translation type="unfinished"/>
+        <translation>Pokaži &amp;informacijski dijalog:</translation>
     </message>
     <message>
         <source>&amp;Delay before focusing and raising windows:</source>
@@ -333,15 +333,15 @@ D: Omnipresent (On all desktops)</source>
     </message>
     <message>
         <source>Double click on the &amp;titlebar:</source>
-        <translation type="unfinished"/>
+        <translation>Dvostruki klik na &amp;naslovnu traku:</translation>
     </message>
     <message>
         <source>Double click ti&amp;me:</source>
-        <translation type="unfinished"/>
+        <translation>Vrijeme dvostrukog kli&amp;ka:</translation>
     </message>
     <message>
         <source>&amp;Show a notification when switching desktops</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Pokaži obavjest kada prebacuješ radne površine</translation>
     </message>
     <message>
         <source>&amp;Amount of time to show the notification for:</source>
@@ -349,26 +349,26 @@ D: Omnipresent (On all desktops)</source>
     </message>
     <message>
         <source>&amp;Number of desktops: </source>
-        <translation type="unfinished"/>
+        <translation>&amp;Broj radnih površina: </translation>
     </message>
     <message>
         <source>&amp;Desktop names:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Imena radnih površina:</translation>
     </message>
 </context>
 <context>
     <name>Obconf::MainDialog</name>
     <message>
         <source>Custom actions</source>
-        <translation type="unfinished"/>
+        <translation>Prilagođene radnje</translation>
     </message>
     <message>
         <source>(Unnamed desktop)</source>
-        <translation type="unfinished"/>
+        <translation>(Neimenovana radna površina)</translation>
     </message>
     <message>
         <source>About ObConf-Qt</source>
-        <translation type="unfinished"/>
+        <translation>O ObConf-Qt</translation>
     </message>
     <message>
         <source>A preferences manager for Openbox
@@ -395,7 +395,7 @@ Authors:
     </message>
     <message>
         <source>"%1" was successfully created</source>
-        <translation type="unfinished"/>
+        <translation>"%1" je uspješno napravljen</translation>
     </message>
     <message>
         <source>Unable to create the theme archive "%1".
@@ -405,11 +405,11 @@ The following errors were reported:
     </message>
     <message>
         <source>Unable to run the "tar" command: %1</source>
-        <translation type="unfinished"/>
+        <translation>Nije moguće pokrenuti "tar" naredbu: %1</translation>
     </message>
     <message>
         <source>Unable to create directory "%1": %2</source>
-        <translation type="unfinished"/>
+        <translation>Nije moguće napraviti direktorij "%1": %2</translation>
     </message>
     <message>
         <source>"%1" does not appear to be a valid Openbox theme directory</source>
@@ -428,7 +428,7 @@ The following errors were reported:
     </message>
     <message>
         <source>ObConf Error</source>
-        <translation type="unfinished"/>
+        <translation>ObConf greška</translation>
     </message>
     <message>
         <source>Syntax: obconf [options] [ARCHIVE.obt]
@@ -445,12 +445,14 @@ Options:
     <message>
         <source>--install requires an argument
 </source>
-        <translation type="unfinished"/>
+        <translation>--install zahtjeva argument
+</translation>
     </message>
     <message>
         <source>--archive requires an argument
 </source>
-        <translation type="unfinished"/>
+        <translation>--archive zahtjeva argument
+</translation>
     </message>
     <message>
         <source>--config-file requires an argument
@@ -459,17 +461,18 @@ Options:
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished"/>
+        <translation>Greška</translation>
     </message>
     <message>
         <source>Failed to load an rc.xml. You have probably failed to install Openbox properly.</source>
-        <translation type="unfinished"/>
+        <translation>Neuspjelo učitavanje rc.xml. Vjerojatno niste uspjeli valjano instalirati Openbox.</translation>
     </message>
     <message>
         <source>Error while parsing the Openbox configuration file.  Your configuration file is not valid XML.
 
 Message: %1</source>
-        <translation type="unfinished"/>
+        <translation>Greška prilikom analize Openbox konfiguracijske datoteke.  Vaša konfiguracijaka datoteka nije valjani XML.
+</translation>
     </message>
     <message>
         <source>Copyright (c) 2003-2008   Dana Jansens
