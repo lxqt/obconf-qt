@@ -179,7 +179,7 @@
     </message>
     <message>
         <source>Above the window</source>
-        <translation type="unfinished"/>
+        <translation>Encima de la ventana</translation>
     </message>
     <message>
         <source>Fixed position on screen</source>
@@ -271,7 +271,7 @@ D: Omnipresente (en todos los escritorios)</translation>
     </message>
     <message>
         <source>Prefer to place new windows &amp;on:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Ubicar las ventanas nuevas en:</translation>
     </message>
     <message>
         <source>Primary &amp;monitor:</source>
@@ -291,15 +291,15 @@ D: Omnipresente (en todos los escritorios)</translation>
     </message>
     <message>
         <source>Amount of resistance against other &amp;windows:</source>
-        <translation type="unfinished"/>
+        <translation>Cantidad de resistencia a otras &amp;ventanas:</translation>
     </message>
     <message>
         <source>Amount of resistance against screen &amp;edges:</source>
-        <translation type="unfinished"/>
+        <translation>Cantidad de resistencia a los bordes de la &amp;pantalla:</translation>
     </message>
     <message>
         <source>&amp;Amount of time to wait before switching:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Tiempo a esperar antes de cambiar:</translation>
     </message>
     <message>
         <source>&amp;Switch desktops when moving a window past the screen edge</source>
@@ -323,27 +323,27 @@ D: Omnipresente (en todos los escritorios)</translation>
     </message>
     <message>
         <source>&amp;Delay before focusing and raising windows:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Retardo antes de enfocar y elevar ventanas:</translation>
     </message>
     <message>
         <source>Move focus under the mouse when &amp;switching desktops</source>
-        <translation type="unfinished"/>
+        <translation>Mover el foco bajo el ratón al cam&amp;biar de escritorio</translation>
     </message>
     <message>
         <source>Move focus &amp;under the mouse when the mouse is not moving</source>
-        <translation type="unfinished"/>
+        <translation>Mover el foco ba&amp;jo el ratón cuando éste no está en movimiento</translation>
     </message>
     <message>
         <source>&amp;Raise windows when the mouse pointer moves over them</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Elevar las ventanas cuando el puntero del ratón se mueve sobre ellas</translation>
     </message>
     <message>
         <source>Double click on the &amp;titlebar:</source>
-        <translation type="unfinished"/>
+        <translation>Pulsación doble en la barra de &amp;título:</translation>
     </message>
     <message>
         <source>Double click ti&amp;me:</source>
-        <translation type="unfinished"/>
+        <translation>Tie&amp;mpo de pulsación doble:</translation>
     </message>
     <message>
         <source>&amp;Show a notification when switching desktops</source>
