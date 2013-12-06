@@ -263,7 +263,7 @@ D: Wszechobecne (Na wszystkich pulpitach)</translation>
     </message>
     <message>
         <source>&amp;Place new windows under the mouse pointer</source>
-        <translation type="unfinished"/>
+        <translation>_Umieszczaj nowe okna pod wskaźnikiem myszy</translation>
     </message>
     <message>
         <source>&amp;Center new windows when they are placed</source>
@@ -335,7 +335,7 @@ D: Wszechobecne (Na wszystkich pulpitach)</translation>
     </message>
     <message>
         <source>&amp;Raise windows when the mouse pointer moves over them</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">Aktywuj okna, gdy wskaźnik myszy znajduje się nad nimi</translation>
     </message>
     <message>
         <source>Double click on the &amp;titlebar:</source>
