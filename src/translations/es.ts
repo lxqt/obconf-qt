@@ -243,7 +243,7 @@ D: Omnipresente (en todos los escritorios)</translation>
     </message>
     <message>
         <source>Menu &amp;header: </source>
-        <translation type="unfinished"/>
+        <translation>Encabe&amp;zamiento del menú: </translation>
     </message>
     <message>
         <source>&amp;Menu Item: </source>
@@ -259,15 +259,15 @@ D: Omnipresente (en todos los escritorios)</translation>
     </message>
     <message>
         <source>Focus &amp;new windows when they appear</source>
-        <translation type="unfinished"/>
+        <translation>Enfocar las ventanas &amp;nuevas cuando aparecen</translation>
     </message>
     <message>
         <source>&amp;Place new windows under the mouse pointer</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Ubicar las ventanas nuevas bajo el puntero del ratón</translation>
     </message>
     <message>
         <source>&amp;Center new windows when they are placed</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Centrar las ventanas nuevas al ubicarlas</translation>
     </message>
     <message>
         <source>Prefer to place new windows &amp;on:</source>
@@ -303,7 +303,7 @@ D: Omnipresente (en todos los escritorios)</translation>
     </message>
     <message>
         <source>&amp;Switch desktops when moving a window past the screen edge</source>
-        <translation type="unfinished"/>
+        <translation>Ca&amp;mbiar de escritorio al mover una ventana más allá del borde de la pantalla</translation>
     </message>
     <message>
         <source>Fixed &amp;y position:</source>
