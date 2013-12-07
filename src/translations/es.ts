@@ -227,7 +227,7 @@ D: Omnipresente (en todos los escritorios)</translation>
     </message>
     <message>
         <source>&amp;Windows retain a border when undecorated</source>
-        <translation type="unfinished"/>
+        <translation>Las &amp;ventanas conservan un borde cuando no hay decoración</translation>
     </message>
     <message>
         <source>A&amp;nimate iconify and restore</source>
@@ -251,11 +251,11 @@ D: Omnipresente (en todos los escritorios)</translation>
     </message>
     <message>
         <source>Active &amp;On-screen display: </source>
-        <translation type="unfinished"/>
+        <translation>Visualización en &amp;pantalla activa: </translation>
     </message>
     <message>
         <source>Inactive O&amp;n-screen display: </source>
-        <translation type="unfinished"/>
+        <translation>Visualización en pa&amp;ntalla inactiva: </translation>
     </message>
     <message>
         <source>Focus &amp;new windows when they appear</source>
@@ -287,7 +287,7 @@ D: Omnipresente (en todos los escritorios)</translation>
     </message>
     <message>
         <source>Drag &amp;threshold distance:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Umbral de distancia del arrastre:</translation>
     </message>
     <message>
         <source>Amount of resistance against other &amp;windows:</source>
