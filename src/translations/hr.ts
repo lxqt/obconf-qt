@@ -277,7 +277,7 @@ D: Omnipresent (On all desktops)</source>
     </message>
     <message>
         <source>Update the window contents while &amp;resizing</source>
-        <translation type="unfinished"/>
+        <translation>Ažuriraj sadtžaj prizora za vrijeme &amp;promjene veličine</translation>
     </message>
     <message>
         <source>Drag &amp;threshold distance:</source>
@@ -380,18 +380,26 @@ Authors:
 * Dana Jansens &lt;danakj@orodu.net&gt;
 * Tim Riley &lt;tr@slackzone.org&gt;
 * Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</source>
-        <translation type="unfinished"/>
+        <translation>Upravitelj osobitostima za Openbox
+
+Autorska prava (c) 2003-2013
+
+Autori:
+* Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;
+* Dana Jansens &lt;danakj@orodu.net&gt;
+* Tim Riley &lt;tr@slackzone.org&gt;
+* Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</translation>
     </message>
     <message>
         <source>Choose an Openbox theme</source>
-        <translation type="unfinished"/>
+        <translation>Odaberite Openbox temu</translation>
     </message>
 </context>
 <context>
     <name>QObject</name>
     <message>
         <source>"%1" was installed to %1</source>
-        <translation type="unfinished"/>
+        <translation>"%1" je bio instaliran na %1</translation>
     </message>
     <message>
         <source>"%1" was successfully created</source>
@@ -401,7 +409,9 @@ Authors:
         <source>Unable to create the theme archive "%1".
 The following errors were reported:
 %2</source>
-        <translation type="unfinished"/>
+        <translation>NIje moguće napraviti arhivu teme "%1".
+Slijedeće greške su prijavljene:
+%2</translation>
     </message>
     <message>
         <source>Unable to run the "tar" command: %1</source>
@@ -413,11 +423,11 @@ The following errors were reported:
     </message>
     <message>
         <source>"%1" does not appear to be a valid Openbox theme directory</source>
-        <translation type="unfinished"/>
+        <translation>"%1" nije valjani Openbox direktorij teme</translation>
     </message>
     <message>
         <source>Unable to move to directory "%1": %2</source>
-        <translation type="unfinished"/>
+        <translation>NIje moguće premjestiti direktorij "%1": %2</translation>
     </message>
     <message>
         <source>Unable to extract the file "%1".
@@ -485,7 +495,7 @@ This is free software, and you are welcome to redistribute it
 under certain conditions. See the file COPYING for details.
 
 </source>
-        <translation type="unfinished"/>
+        <translation>   </translation>
     </message>
 </context>
 </TS>
