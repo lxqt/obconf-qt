@@ -32,11 +32,6 @@ install(
   DESTINATION share/applications
 )
 
-# update translations
-add_custom_target(update_translations ALL DEPENDS
-  obconf-qt_translations
-)
-
 # building tarball with CPack -------------------------------------------------
 # To create a source distribution, type:
 # make package_source
