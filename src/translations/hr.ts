@@ -269,7 +269,7 @@ D: Omnipresent (On all desktops)</source>
     </message>
     <message>
         <source>Primary &amp;monitor:</source>
-        <translation type="unfinished"/>
+        <translation>Osnovni &amp;monitor:</translation>
     </message>
     <message>
         <source>&amp;Fixed monitor:</source>
