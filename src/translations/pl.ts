@@ -227,19 +227,19 @@ D: Wszechobecne (Na wszystkich pulpitach)</translation>
     </message>
     <message>
         <source>&amp;Windows retain a border when undecorated</source>
-        <translation type="unfinished"/>
+        <translation>Okna zacho&amp;wują obramowanie, gdy nie mają dekoracji</translation>
     </message>
     <message>
         <source>A&amp;nimate iconify and restore</source>
-        <translation type="unfinished"/>
+        <translation>A&amp;nimowane zwinięcie do ikony i odtworzenie</translation>
     </message>
     <message>
         <source>&amp;Active window title: </source>
-        <translation type="unfinished"/>
+        <translation>Tytuł &amp;aktywnego okna: </translation>
     </message>
     <message>
         <source>&amp;Inactive window title: </source>
-        <translation type="unfinished"/>
+        <translation>Tytuł n&amp;ieaktywnego okna: </translation>
     </message>
     <message>
         <source>Menu &amp;header: </source>
@@ -267,11 +267,11 @@ D: Wszechobecne (Na wszystkich pulpitach)</translation>
     </message>
     <message>
         <source>&amp;Center new windows when they are placed</source>
-        <translation type="unfinished"/>
+        <translation>Wyśrodkuj nowe okna, gdy są one umiesz&amp;czane</translation>
     </message>
     <message>
         <source>Prefer to place new windows &amp;on:</source>
-        <translation type="unfinished"/>
+        <translation>Preferencja d&amp;o umieszczania nowych okien na:</translation>
     </message>
     <message>
         <source>Primary &amp;monitor:</source>
