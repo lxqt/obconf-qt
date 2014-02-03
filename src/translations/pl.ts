@@ -327,15 +327,15 @@ D: Wszechobecne (Na wszystkich pulpitach)</translation>
     </message>
     <message>
         <source>Move focus under the mouse when &amp;switching desktops</source>
-        <translation type="unfinished"/>
+        <translation>Przenieś zaznaczenie pod wskaźnik my&amp;szy podczas przełączania pulpitów</translation>
     </message>
     <message>
         <source>Move focus &amp;under the mouse when the mouse is not moving</source>
-        <translation type="unfinished"/>
+        <translation>Przenieś zaznaczenie pod wskaźnik myszy, gdy mysz jest nier&amp;uchoma</translation>
     </message>
     <message>
         <source>&amp;Raise windows when the mouse pointer moves over them</source>
-        <translation type="unfinished">Aktywuj okna, gdy wskaźnik myszy znajduje się nad nimi</translation>
+        <translation>&amp;Aktywuj okna, gdy wskaźnik myszy znajduje się nad nimi</translation>
     </message>
     <message>
         <source>Double click on the &amp;titlebar:</source>
@@ -347,11 +347,11 @@ D: Wszechobecne (Na wszystkich pulpitach)</translation>
     </message>
     <message>
         <source>&amp;Show a notification when switching desktops</source>
-        <translation type="unfinished"/>
+        <translation>Pokaż powiadomienie podcza&amp;s przełączania pulpitów</translation>
     </message>
     <message>
         <source>&amp;Amount of time to show the notification for:</source>
-        <translation type="unfinished"/>
+        <translation>Ilość cz&amp;asu do wyświetlania powiadomienia dla:</translation>
     </message>
     <message>
         <source>&amp;Number of desktops: </source>
@@ -440,7 +440,10 @@ Zgłoszono następujące błędy:
 Please ensure that "%2" is writable and that the file is a valid Openbox theme archive.
 The following errors were reported:
 %3</source>
-        <translation type="unfinished"/>
+        <translation>Nie można rozpakować pliku "%1".
+Proszę upewnić się, że "%2" jest zapisywalny i że plik ten jest poprawnym archiwum motywów Openbox.
+Zostały zgłoszone następujące błędy:
+%3</translation>
     </message>
     <message>
         <source>ObConf Error</source>
@@ -490,7 +493,7 @@ Opcje:
     </message>
     <message>
         <source>Failed to load an rc.xml. You have probably failed to install Openbox properly.</source>
-        <translation type="unfinished"/>
+        <translation>Wystąpił błąd podczas wczytywania rc.xml. Prawdopodobnie Openbox został niepoprawnie zainstalowany.</translation>
     </message>
     <message>
         <source>Error while parsing the Openbox configuration file.  Your configuration file is not valid XML.
