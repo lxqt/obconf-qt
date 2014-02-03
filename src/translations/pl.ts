@@ -127,7 +127,7 @@
     </message>
     <message>
         <source>The primary monitor is where Openbox will place dialogs, such as the one used for cycling windows.</source>
-        <translation type="unfinished"/>
+        <translation>Główny monitor to ten, gdzie Openbox będzie umieszczać okna dialogowe, jak również ten służący do wymiany okien.</translation>
     </message>
     <message>
         <source>Fixed Monitor</source>
@@ -143,7 +143,7 @@
     </message>
     <message>
         <source>Centered</source>
-        <translation type="unfinished"/>
+        <translation>Wyśrodkowane</translation>
     </message>
     <message>
         <source>From left edge</source>
@@ -283,7 +283,7 @@ D: Wszechobecne (Na wszystkich pulpitach)</translation>
     </message>
     <message>
         <source>Update the window contents while &amp;resizing</source>
-        <translation type="unfinished"/>
+        <translation>Aktualizacja zawa&amp;rtości okna przy zmianie jego wielkości</translation>
     </message>
     <message>
         <source>Drag &amp;threshold distance:</source>
@@ -299,11 +299,11 @@ D: Wszechobecne (Na wszystkich pulpitach)</translation>
     </message>
     <message>
         <source>&amp;Amount of time to wait before switching:</source>
-        <translation type="unfinished"/>
+        <translation>Ilość cz&amp;asu do oczekiwania przed przełączeniem:</translation>
     </message>
     <message>
         <source>&amp;Switch desktops when moving a window past the screen edge</source>
-        <translation type="unfinished"/>
+        <translation>Przełącz pulpity podcza&amp;s przenoszenia okna poza krawędź ekranu</translation>
     </message>
     <message>
         <source>Fixed &amp;y position:</source>
@@ -311,7 +311,7 @@ D: Wszechobecne (Na wszystkich pulpitach)</translation>
     </message>
     <message>
         <source>Information dialog's &amp;position:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Pozycja okna dialogowego informacji:</translation>
     </message>
     <message>
         <source>Fixed &amp;x position:</source>
@@ -496,9 +496,7 @@ Opcje:
         <source>Error while parsing the Openbox configuration file.  Your configuration file is not valid XML.
 
 Message: %1</source>
-        <translation>Wystąpił błąd podczas analizowania pliku konfiguracyjnego Openbox.  Twój plik konfiguracyjny nie jest poprawnym plikiem XML.
-
-Wiadomość: %1</translation>
+        <translation>Błąd wczytania pliku rc.xml. Prawdopodobnie Openbox nie został poprawnie zainstalowany.</translation>
     </message>
     <message>
         <source>Copyright (c) 2003-2008   Dana Jansens
