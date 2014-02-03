@@ -291,11 +291,11 @@ D: Wszechobecne (Na wszystkich pulpitach)</translation>
     </message>
     <message>
         <source>Amount of resistance against other &amp;windows:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Wielkość oporu przeciwko innym oknom:</translation>
     </message>
     <message>
         <source>Amount of resistance against screen &amp;edges:</source>
-        <translation type="unfinished"/>
+        <translation>Wielkość oporu przeciwko krawędziom &amp;ekranu:</translation>
     </message>
     <message>
         <source>&amp;Amount of time to wait before switching:</source>
@@ -512,7 +512,16 @@ This is free software, and you are welcome to redistribute it
 under certain conditions. See the file COPYING for details.
 
 </source>
-        <translation type="unfinished"/>
+        <translation>Prawa autorskie (c) 2003-2008   Dana Jansens
+Prawa autorskie (c) 2003        Tim Riley
+Prawa autorskie (c) 2007        Javeed Shaikh
+Prawa autorskie (c) 2013        Hong Jen Yee (PCMan)
+
+Niniejszy program rozpowszechniany jest BEZ JAKIEJKOLWIEK GWARANCJI.
+Program ten jest wolnym oprogramowaniem; możesz go rozprowadzać dalej
+pod niektórymi warunkami. Zobacz plik COPYING po szczegóły.
+
+</translation>
     </message>
 </context>
 </TS>
