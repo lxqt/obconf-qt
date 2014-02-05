@@ -50,18 +50,20 @@ add_custom_command(
 )
 
 # add translation for obconf-qt
-# See http://www.cmake.org/Wiki/CMake:How_To_Build_Qt4_Software
-file(GLOB TS_FILES translations/*.ts)
-qt4_create_translation(QM_FILES
-  ${obconf-qt_SRCS}
-  ${obconf-qt_UI_H}
-  ${TS_FILES})
-qt4_add_translation(QM_FILES ${TS_FILES})
+option (UPDATE_TRANSLATIONS "Update source translation translations/*.ts files")
+if (UPDATE_TRANSLATIONS)
+  qt4_create_translation(QM_FILES
+    ${obconf-qt_SRCS}
+    ${obconf-qt_UI_H}
+    ${TS_FILES})
+else (UPDATE_TRANSLATIONS)
+  qt4_add_translation(QM_FILES ${TS_FILES})
+endif (UPDATE_TRANSLATIONS)
+add_custom_target (obconf-qt_translations DEPENDS ${QM_FILES})
 install(FILES ${QM_FILES} DESTINATION share/obconf-qt/translations)
-# prevent the generated ts files from being deleted during make clean
-set_directory_properties(PROPERTIES
-  CLEAN_NO_CUSTOM true
-)
+# prevent the generated files from being deleted during make clean
+set_directory_properties(PROPERTIES CLEAN_NO_CUSTOM true)
+
 
 add_executable(obconf-qt
   ${obconf-qt_SRCS}
