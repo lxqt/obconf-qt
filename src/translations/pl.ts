@@ -251,11 +251,11 @@ D: Wszechobecne (Na wszystkich pulpitach)</translation>
     </message>
     <message>
         <source>Active &amp;On-screen display: </source>
-        <translation type="unfinished"/>
+        <translation>Aktywne &amp;okienko informacyjne na ekranie: </translation>
     </message>
     <message>
         <source>Inactive O&amp;n-screen display: </source>
-        <translation type="unfinished"/>
+        <translation>Nieaktywne okie&amp;nko informacyjne na ekranie: </translation>
     </message>
     <message>
         <source>Focus &amp;new windows when they appear</source>
@@ -287,7 +287,7 @@ D: Wszechobecne (Na wszystkich pulpitach)</translation>
     </message>
     <message>
         <source>Drag &amp;threshold distance:</source>
-        <translation type="unfinished"/>
+        <translation>Opór odle&amp;głości progowej:</translation>
     </message>
     <message>
         <source>Amount of resistance against other &amp;windows:</source>
