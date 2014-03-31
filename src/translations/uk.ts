@@ -4,86 +4,86 @@
     <name>Fm::FontButton</name>
     <message>
         <source>Bold</source>
-        <translation type="unfinished"/>
+        <translation>Жирний</translation>
     </message>
     <message>
         <source>Italic</source>
-        <translation type="unfinished"/>
+        <translation>Курсив</translation>
     </message>
 </context>
 <context>
     <name>MainDialog</name>
     <message>
         <source>Mouse</source>
-        <translation type="unfinished"/>
+        <translation>Мишка</translation>
     </message>
     <message>
         <source>Window Manager Preferences</source>
-        <translation type="unfinished"/>
+        <translation>Параметри менеджера файлів</translation>
     </message>
     <message>
         <source>Theme</source>
-        <translation type="unfinished"/>
+        <translation>Тема</translation>
     </message>
     <message>
         <source>Appearance</source>
-        <translation type="unfinished"/>
+        <translation>Вигляд</translation>
     </message>
     <message>
         <source>Font</source>
-        <translation type="unfinished"/>
+        <translation>Шрифт</translation>
     </message>
     <message>
         <source>Windows</source>
-        <translation type="unfinished"/>
+        <translation>Вікна</translation>
     </message>
     <message>
         <source>Move &amp; Resize</source>
-        <translation type="unfinished"/>
+        <translation>Перемістити і Змінити розмір</translation>
     </message>
     <message>
         <source>Desktops</source>
-        <translation type="unfinished"/>
+        <translation>Стільниці</translation>
     </message>
     <message>
         <source>Margins</source>
-        <translation type="unfinished"/>
+        <translation>Поля</translation>
     </message>
     <message>
         <source>Dock</source>
-        <translation type="unfinished"/>
+        <translation>Док</translation>
     </message>
     <message>
         <source>Window Titles</source>
-        <translation type="unfinished"/>
+        <translation>Заголовки вікон</translation>
     </message>
     <message>
         <source>Button order:</source>
-        <translation type="unfinished"/>
+        <translation>Послідовність кнопок</translation>
     </message>
     <message>
         <source>Moving and Resizing Windows</source>
-        <translation type="unfinished"/>
+        <translation>Пересування і зміна розмірів вікон</translation>
     </message>
     <message>
         <source>Information Dialog</source>
-        <translation type="unfinished"/>
+        <translation>Діалог інформації</translation>
     </message>
     <message>
         <source>Focusing Windows</source>
-        <translation type="unfinished"/>
+        <translation>Фокусування вікон</translation>
     </message>
     <message>
         <source>Focus windows when the mouse pointer moves over them</source>
-        <translation type="unfinished"/>
+        <translation>Фокусування вікон, якщо вказівник миші знаходиться над ними</translation>
     </message>
     <message>
         <source>Titlebar</source>
-        <translation type="unfinished"/>
+        <translation>Заголовок</translation>
     </message>
     <message>
         <source>Desktop Margins</source>
-        <translation type="unfinished"/>
+        <translation>Поля стільниці</translation>
     </message>
     <message>
         <source>Desktop margins are reserved areas on the edge of your screen.  New windows will not be placed within a margin, and maximized windows will not cover them.</source>
@@ -91,39 +91,39 @@
     </message>
     <message>
         <source>Left:</source>
-        <translation type="unfinished"/>
+        <translation>Ліворуч:</translation>
     </message>
     <message>
         <source>px</source>
-        <translation type="unfinished"/>
+        <translation>пікселів</translation>
     </message>
     <message>
         <source>Top:</source>
-        <translation type="unfinished"/>
+        <translation>Згори:</translation>
     </message>
     <message>
         <source>Right:</source>
-        <translation type="unfinished"/>
+        <translation>Праворуч:</translation>
     </message>
     <message>
         <source>Bottom:</source>
-        <translation type="unfinished"/>
+        <translation>Знизу:</translation>
     </message>
     <message>
         <source>All monitors</source>
-        <translation type="unfinished"/>
+        <translation>Всі монітори</translation>
     </message>
     <message>
         <source>The active monitor</source>
-        <translation type="unfinished"/>
+        <translation>Активний монітор</translation>
     </message>
     <message>
         <source>The monitor with the mouse</source>
-        <translation type="unfinished"/>
+        <translation>Монітор з мишкою</translation>
     </message>
     <message>
         <source>Primary Monitor</source>
-        <translation type="unfinished"/>
+        <translation>Головний монітор</translation>
     </message>
     <message>
         <source>The primary monitor is where Openbox will place dialogs, such as the one used for cycling windows.</source>
@@ -131,67 +131,67 @@
     </message>
     <message>
         <source>Fixed Monitor</source>
-        <translation type="unfinished"/>
+        <translation>Фіксований монітор</translation>
     </message>
     <message>
         <source>Active Monitor</source>
-        <translation type="unfinished"/>
+        <translation>Активний монітор</translation>
     </message>
     <message>
         <source>Monitor With Mouse Pointer</source>
-        <translation type="unfinished"/>
+        <translation>Монітор з вказівником миші</translation>
     </message>
     <message>
         <source>Centered</source>
-        <translation type="unfinished"/>
+        <translation>У центрі</translation>
     </message>
     <message>
         <source>From left edge</source>
-        <translation type="unfinished"/>
+        <translation>Від лівого краю</translation>
     </message>
     <message>
         <source>From right edge</source>
-        <translation type="unfinished"/>
+        <translation>Від правого краю</translation>
     </message>
     <message>
         <source>From top edge</source>
-        <translation type="unfinished"/>
+        <translation>Від верхнього краю</translation>
     </message>
     <message>
         <source>From bottom edge</source>
-        <translation type="unfinished"/>
+        <translation>Від нижнього краю</translation>
     </message>
     <message>
         <source>When resizing terminal windows</source>
-        <translation type="unfinished"/>
+        <translation>При зміні розмірів термінального вікна</translation>
     </message>
     <message>
         <source>Always</source>
-        <translation type="unfinished"/>
+        <translation>Завжди</translation>
     </message>
     <message>
         <source>Never</source>
-        <translation type="unfinished"/>
+        <translation>Ніколи</translation>
     </message>
     <message>
         <source>Centered on the window</source>
-        <translation type="unfinished"/>
+        <translation>Центровано на вікні</translation>
     </message>
     <message>
         <source>Above the window</source>
-        <translation type="unfinished"/>
+        <translation>Над вікном</translation>
     </message>
     <message>
         <source>Fixed position on screen</source>
-        <translation type="unfinished"/>
+        <translation>Фіксована позиція на екрані</translation>
     </message>
     <message>
         <source>Maximizes the window</source>
-        <translation type="unfinished"/>
+        <translation>Максимізує вікно</translation>
     </message>
     <message>
         <source>Shades the window</source>
-        <translation type="unfinished"/>
+        <translation>Затіняє вікно</translation>
     </message>
     <message>
         <source>N: Window icon
@@ -205,19 +205,19 @@ D: Omnipresent (On all desktops)</source>
     </message>
     <message>
         <source>Primary monitor</source>
-        <translation type="unfinished"/>
+        <translation>Головний монітор</translation>
     </message>
     <message>
         <source>About</source>
-        <translation type="unfinished"/>
+        <translation>Про</translation>
     </message>
     <message>
         <source>&amp;Install a new theme...</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Встановити нову тему...</translation>
     </message>
     <message>
         <source>Create a theme &amp;archive (.obt)...</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">Створити &amp;архів теми (.obt)...</translation>
     </message>
     <message>
         <source>&amp;Windows retain a border when undecorated</source>
@@ -241,7 +241,7 @@ D: Omnipresent (On all desktops)</source>
     </message>
     <message>
         <source>&amp;Menu Item: </source>
-        <translation type="unfinished"/>
+        <translation>П&amp;ункт меню:</translation>
     </message>
     <message>
         <source>Active &amp;On-screen display: </source>
@@ -269,7 +269,7 @@ D: Omnipresent (On all desktops)</source>
     </message>
     <message>
         <source>Primary &amp;monitor:</source>
-        <translation type="unfinished"/>
+        <translation>Головний &amp;монітор:</translation>
     </message>
     <message>
         <source>&amp;Fixed monitor:</source>
@@ -380,7 +380,15 @@ Authors:
 * Dana Jansens &lt;danakj@orodu.net&gt;
 * Tim Riley &lt;tr@slackzone.org&gt;
 * Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</source>
-        <translation type="unfinished"/>
+        <translation>Менеджер налаштувань для Openbox
+
+Всі права застережено (c) 2003-2013
+
+Автори:
+* Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;
+* Dana Jansens &lt;danakj@orodu.net&gt;
+* Tim Riley &lt;tr@slackzone.org&gt;
+* Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</translation>
     </message>
     <message>
         <source>Choose an Openbox theme</source>
@@ -428,7 +436,7 @@ The following errors were reported:
     </message>
     <message>
         <source>ObConf Error</source>
-        <translation type="unfinished"/>
+        <translation>Помилка ObConf</translation>
     </message>
     <message>
         <source>Syntax: obconf [options] [ARCHIVE.obt]
@@ -459,7 +467,7 @@ Options:
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished"/>
+        <translation>Помилка</translation>
     </message>
     <message>
         <source>Failed to load an rc.xml. You have probably failed to install Openbox properly.</source>
@@ -482,7 +490,16 @@ This is free software, and you are welcome to redistribute it
 under certain conditions. See the file COPYING for details.
 
 </source>
-        <translation type="unfinished"/>
+        <translation>Всі права застережено (c) 2003-2008   Dana Jansens
+Всі права застережено (c) 2003        Tim Riley
+Всі права застережено (c) 2007        Javeed Shaikh
+Всі права застережено (c) 2013        Hong Jen Yee (PCMan)
+
+Ця програма поставляється без всяких гарантій.
+Це вільне програмне забезпечення, і Ви можете поширювати
+його за певних умов. Див. файл з назвою COPYING для деталей.
+
+</translation>
     </message>
 </context>
 </TS>
