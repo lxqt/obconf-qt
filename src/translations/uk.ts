@@ -87,7 +87,7 @@
     </message>
     <message>
         <source>Desktop margins are reserved areas on the edge of your screen.  New windows will not be placed within a margin, and maximized windows will not cover them.</source>
-        <translation type="unfinished"/>
+        <translation>Поля робочого столу - це зарезервовані ділянки на краю Вашого екрану. Нові вікна не будуть поміщені за цими межами, а максимізовані вікна не будуть закривати їх.</translation>
     </message>
     <message>
         <source>Left:</source>
@@ -127,7 +127,7 @@
     </message>
     <message>
         <source>The primary monitor is where Openbox will place dialogs, such as the one used for cycling windows.</source>
-        <translation type="unfinished"/>
+        <translation>Головний монітор - це монітор, де Openbox поміщає діалоги, наприклад, як діалог прокрутки вікон.</translation>
     </message>
     <message>
         <source>Fixed Monitor</source>
@@ -201,7 +201,13 @@ M: Maximize
 C: Close
 S: Shade (Roll up)
 D: Omnipresent (On all desktops)</source>
-        <translation type="unfinished"/>
+        <translation>N: Іконка вікна
+L: Мітка вікна (Назва)
+I: Іконка (Мінімізація)
+M: Максимізація
+C: Закрити
+S: Затінити (Згорнути)
+D: Розмістити всюди (На всіх стільницях)</translation>
     </message>
     <message>
         <source>Primary monitor</source>
@@ -217,11 +223,11 @@ D: Omnipresent (On all desktops)</source>
     </message>
     <message>
         <source>Create a theme &amp;archive (.obt)...</source>
-        <translation type="unfinished">Створити &amp;архів теми (.obt)...</translation>
+        <translation>Створити &amp;архів теми (.obt)...</translation>
     </message>
     <message>
         <source>&amp;Windows retain a border when undecorated</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Вікна зберігають границі, коли є без оформлення</translation>
     </message>
     <message>
         <source>A&amp;nimate iconify and restore</source>
@@ -273,11 +279,11 @@ D: Omnipresent (On all desktops)</source>
     </message>
     <message>
         <source>&amp;Fixed monitor:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Фіксований монітор:</translation>
     </message>
     <message>
         <source>Update the window contents while &amp;resizing</source>
-        <translation type="unfinished"/>
+        <translation>Оновлювати вміст вікна при &amp;зміні розміру</translation>
     </message>
     <message>
         <source>Drag &amp;threshold distance:</source>
@@ -305,19 +311,19 @@ D: Omnipresent (On all desktops)</source>
     </message>
     <message>
         <source>Information dialog's &amp;position:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Позиція інформаційного діалогу:</translation>
     </message>
     <message>
         <source>Fixed &amp;x position:</source>
-        <translation type="unfinished"/>
+        <translation>Фіксована &amp;x позиція:</translation>
     </message>
     <message>
         <source>Show &amp;information dialog:</source>
-        <translation type="unfinished"/>
+        <translation>Показати &amp;інформаційний діалог:</translation>
     </message>
     <message>
         <source>&amp;Delay before focusing and raising windows:</source>
-        <translation type="unfinished"/>
+        <translation>Затримка перед &amp;фокусуванням і розгортанням вікна:</translation>
     </message>
     <message>
         <source>Move focus under the mouse when &amp;switching desktops</source>
@@ -337,7 +343,7 @@ D: Omnipresent (On all desktops)</source>
     </message>
     <message>
         <source>Double click ti&amp;me:</source>
-        <translation type="unfinished"/>
+        <translation>Час подвійного &amp;клацання:</translation>
     </message>
     <message>
         <source>&amp;Show a notification when switching desktops</source>
@@ -349,26 +355,26 @@ D: Omnipresent (On all desktops)</source>
     </message>
     <message>
         <source>&amp;Number of desktops: </source>
-        <translation type="unfinished"/>
+        <translation>Кількість &amp;стільниць: </translation>
     </message>
     <message>
         <source>&amp;Desktop names:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Назви стільниць:</translation>
     </message>
 </context>
 <context>
     <name>Obconf::MainDialog</name>
     <message>
         <source>Custom actions</source>
-        <translation type="unfinished"/>
+        <translation>Дії користувача</translation>
     </message>
     <message>
         <source>(Unnamed desktop)</source>
-        <translation type="unfinished"/>
+        <translation>(Стільниця без назви)</translation>
     </message>
     <message>
         <source>About ObConf-Qt</source>
-        <translation type="unfinished"/>
+        <translation>Про ObConf-Qt</translation>
     </message>
     <message>
         <source>A preferences manager for Openbox
@@ -392,7 +398,7 @@ Authors:
     </message>
     <message>
         <source>Choose an Openbox theme</source>
-        <translation type="unfinished"/>
+        <translation>Виберіть тему Openbox</translation>
     </message>
 </context>
 <context>
