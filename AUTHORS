@@ -1,12 +1,10 @@
-Hong Jen Yee (PCMan) <pcman.tw@gmail.com>, LXDE developers
-Some source code is taken from ObConf gtk+ version.
- - Dana Jansens (danakj@orodu.net)
-   - Initial code.
- - Tim Riley (tr@slackzone.org)
-   - HIG adherence changes.
-   - Interface improvements.
-   - Maintainence.
- - Javeed Shaikh (syscrash2k@gmail.com)
-   - Theme previews
- - Myles Green (rmg57@telus.net)
-   - Icon
+Upstream Authors:
+    LXQt team: http://lxqt.org
+
+Copyright:
+    Copyright (c) 2012-2014 LXQt team
+
+License: GPL-2 and LGPL-2.1+
+The full text of the licenses can be found in the 'COPYING' file.
+
+Based on source code from the ObConf project <http://openbox.org/wiki/ObConf:About>
