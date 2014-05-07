@@ -1,9 +1,9 @@
 [Desktop Entry]
 Type=Application
-Name=Openbox Preferences
-Icon=@CMAKE_INSTALL_PREFIX@/share/pixmaps/obconf-qt.png
+Name=Openbox Settings
+GenericName=Window Manager Settings
+Comment=Configure the Openbox window manager
 Exec=obconf-qt
-Comment=Configure window manager Openbox
+Categories=Qt;Settings;DesktopSettings;
+Icon=@CMAKE_INSTALL_PREFIX@/share/pixmaps/obconf-qt.png
 StartupNotify=true
-Terminal=false
-Categories=Qt;Settings;HardwareSettings;X-LXDE-Settings;
