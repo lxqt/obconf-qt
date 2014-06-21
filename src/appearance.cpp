@@ -79,7 +79,7 @@ void MainDialog::on_title_layout_textChanged(const QString& text) {
   QByteArray layout;
   // omit unknown chars
   for(int i = 0; i < text.length(); ++i) {
-    char ch = text.at(i).toUpper().toAscii();
+    char ch = text.at(i).toUpper().toLatin1();
     if(strchr("NDSLIMC", ch))
       layout += ch;
   }

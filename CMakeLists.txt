@@ -4,7 +4,23 @@ cmake_minimum_required(VERSION 2.8.6)
 
 find_program(SED_PROGRAM sed)
 
-find_package(Qt4 REQUIRED QtCore QtGui) # Qt
+# Support Qt5
+option(USE_QT5 "Build with Qt5." $ENV{USE_QT5})
+set(CMAKE_INCLUDE_CURRENT_DIR ON)
+set(CMAKE_POSITION_INDEPENDENT_CODE ON)
+set(CMAKE_AUTOMOC ON)
+if(USE_QT5)
+  cmake_minimum_required(VERSION 2.8.11)
+  find_package(Qt5Widgets REQUIRED)
+  find_package(Qt5X11Extras REQUIRED)
+  find_package(Qt5LinguistTools REQUIRED QUIET)
+  message(STATUS "Building with Qt${Qt5Core_VERSION_STRING}")
+else()
+  find_package(Qt4 REQUIRED QtCore QtGui) # Qt
+  include(${QT_USE_FILE})
+  message(STATUS "Building with Qt${QTVERSION}")
+endif()
+
 find_package(PkgConfig)
 pkg_check_modules(GLIB REQUIRED
   glib-2.0
