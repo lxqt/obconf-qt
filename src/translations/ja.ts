@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
 <!DOCTYPE TS>
 <TS version="2.0" language="ja">
 <context>
@@ -472,17 +473,20 @@ Options:
     <message>
         <source>--install requires an argument
 </source>
-        <translation>--install には引数が必要です</translation>
+        <translation>--install には引数が必要です
+</translation>
     </message>
     <message>
         <source>--archive requires an argument
 </source>
-        <translation>--archive には引数が必要です</translation>
+        <translation>--archive には引数が必要です
+</translation>
     </message>
     <message>
         <source>--config-file requires an argument
 </source>
-        <translation>--config-file には引数が必要です</translation>
+        <translation>--config-file には引数が必要です
+</translation>
     </message>
     <message>
         <source>Error</source>
