@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
 <!DOCTYPE TS>
 <TS version="2.0" language="id">
 <context>
@@ -417,7 +418,7 @@ The following errors were reported:
 %2</source>
         <translation>Tak bisa membuat arsip tema "%1".
 Kesalahan berikut dilaporkan:
-%s</translation>
+%2</translation>
     </message>
     <message>
         <source>Unable to run the "tar" command: %1</source>
@@ -443,7 +444,7 @@ The following errors were reported:
         <translation>Tak bisa mengekstrak berkas "%1".
 Harap pastikan bahwa "%2" dapat ditulisi dan berkas tersebuat adalah arsip tema Openbox yang valid.
 Kesalahan berikut dilaporkan:
-%s</translation>
+%3</translation>
     </message>
     <message>
         <source>ObConf Error</source>
