@@ -56,27 +56,47 @@ add_custom_command(
 )
 
 # add translation for obconf-qt
-option (UPDATE_TRANSLATIONS "Update source translation translations/*.ts files")
+option (UPDATE_TRANSLATIONS "Update source translation translations/*.ts files" OFF)
+
+set(TRANSLATION_TEMPLATE "translations/obconf-qt.ts")
+file(GLOB TS_FILES translations/obconf-qt_*.ts)
+
 if(USE_QT5)
   if (UPDATE_TRANSLATIONS)
+    qt5_create_translation(QMS_FILES
+      ${obconf-qt_SRCS}
+      ${obconf-qt_UI_H}
+      ${TRANSLATION_TEMPLATE}
+      OPTIONS -locations absolute)
     qt5_create_translation(QM_FILES
       ${obconf-qt_SRCS}
       ${obconf-qt_UI_H}
-      ${TS_FILES})
+      ${TS_FILES}
+      OPTIONS -locations absolute)
   else (UPDATE_TRANSLATIONS)
     qt5_add_translation(QM_FILES ${TS_FILES})
   endif (UPDATE_TRANSLATIONS)
 else(USE_QT5) # use qt4
   if (UPDATE_TRANSLATIONS)
-    qt4_create_translation(QM_FILES
+    qt4_create_translation(QMS_FILES
       ${obconf-qt_SRCS}
       ${obconf-qt_UI_H}
-      ${TS_FILES})
+      ${TRANSLATION_TEMPLATE}
+      OPTIONS -locations absolute)
+    qt4_create_translation(QMS_FILES
+      ${obconf-qt_SRCS}
+      ${obconf-qt_UI_H}
+      ${TS_FILES}
+      OPTIONS -locations absolute)
   else (UPDATE_TRANSLATIONS)
     qt4_add_translation(QM_FILES ${TS_FILES})
   endif (UPDATE_TRANSLATIONS)
 endif(USE_QT5)
-add_custom_target (obconf-qt_translations DEPENDS ${QM_FILES})
+
+if(UPDATE_TRANSLATIONS)
+    add_custom_target(update_obconf-qt_translations ALL DEPENDS ${QMS})
+endif()
+
 install(FILES ${QM_FILES} DESTINATION share/obconf-qt/translations)
 # prevent the generated files from being deleted during make clean
 set_directory_properties(PROPERTIES CLEAN_NO_CUSTOM true)
