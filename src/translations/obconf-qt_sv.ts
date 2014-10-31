@@ -1,12 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="sv">
+<TS version="2.1" language="sv">
 <context>
     <name>Fm::FontButton</name>
     <message>
+        <location filename="../fontbutton.cpp" line="46"/>
         <source>Bold</source>
         <translation>Fet</translation>
     </message>
     <message>
+        <location filename="../fontbutton.cpp" line="50"/>
         <source>Italic</source>
         <translation>Kursiv</translation>
     </message>
@@ -14,186 +17,237 @@
 <context>
     <name>MainDialog</name>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="844"/>
         <source>Mouse</source>
         <translation>Mus</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="829"/>
         <source>Window Manager Preferences</source>
         <translation>Inställningar för fönstehanteraren</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="834"/>
         <source>Theme</source>
         <translation>Tema</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="836"/>
         <source>Appearance</source>
         <translation>Utseende</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="838"/>
         <source>Font</source>
         <translation>Teckensnitt</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="840"/>
+        <location filename="../../build/src/ui_obconf.h" line="855"/>
         <source>Windows</source>
         <translation>Fönster</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="842"/>
         <source>Move &amp; Resize</source>
         <translation>Flytta och byt storlek</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="846"/>
         <source>Desktops</source>
         <translation>Skrivbord</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="848"/>
         <source>Margins</source>
         <translation>Marginaler</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="850"/>
         <source>Dock</source>
         <translation>Docka</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="858"/>
         <source>Window Titles</source>
         <translation>Fönsternamn</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="859"/>
         <source>Button order:</source>
         <translation>Knappordning:</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="900"/>
         <source>Moving and Resizing Windows</source>
         <translation>Flytta och storleksändra fönster</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="907"/>
         <source>Information Dialog</source>
         <translation>Informationsruta</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="936"/>
         <source>Focusing Windows</source>
         <translation>Fokusera fönster</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="937"/>
         <source>Focus windows when the mouse pointer moves over them</source>
         <translation>Fokusera fönster när muspekaren flyttas över dem</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="942"/>
         <source>Titlebar</source>
         <translation>Namnlist</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="954"/>
         <source>Desktop Margins</source>
         <translation>Marginaler på skrivbordet</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="955"/>
         <source>Desktop margins are reserved areas on the edge of your screen.  New windows will not be placed within a margin, and maximized windows will not cover them.</source>
         <translation>Marginaler på skrivbordet reserveras vid kanten på skärmen.  Nya fönster kommer inte att placeras inom marginalen och maximerade fönster kommer inte att täcka dessa.</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="956"/>
         <source>Left:</source>
         <translation>Vänster:</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="957"/>
+        <location filename="../../build/src/ui_obconf.h" line="959"/>
+        <location filename="../../build/src/ui_obconf.h" line="961"/>
+        <location filename="../../build/src/ui_obconf.h" line="963"/>
         <source>px</source>
         <translation>px</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="958"/>
         <source>Top:</source>
         <translation>Överst:</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="960"/>
         <source>Right:</source>
         <translation>Höger:</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="962"/>
         <source>Bottom:</source>
         <translation>Nederst:</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="885"/>
         <source>All monitors</source>
         <translation>Alla bildskärmar</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="886"/>
         <source>The active monitor</source>
         <translation>Aktiv bildskärm</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="887"/>
         <source>The monitor with the mouse</source>
         <translation>Bildskärmen med musen</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="890"/>
         <source>Primary Monitor</source>
         <translation>Primär bildskärm</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="891"/>
         <source>The primary monitor is where Openbox will place dialogs, such as the one used for cycling windows.</source>
         <translation>Primär bildskärm som Openbox ska placera dialogrutor på, exempelvis den som används för rotera genom fönster.</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="895"/>
         <source>Fixed Monitor</source>
         <translation>Fast bildskärm</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="896"/>
         <source>Active Monitor</source>
         <translation>Aktiv bildskärm</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="897"/>
         <source>Monitor With Mouse Pointer</source>
         <translation>Bildskärm med muspekare</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="910"/>
+        <location filename="../../build/src/ui_obconf.h" line="917"/>
         <source>Centered</source>
         <translation>Centrerat</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="911"/>
         <source>From left edge</source>
         <translation>Från vänsterkant</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="912"/>
         <source>From right edge</source>
         <translation>Från högerkant</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="918"/>
         <source>From top edge</source>
         <translation>Från överkant</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="919"/>
         <source>From bottom edge</source>
         <translation>Från nederkant</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="926"/>
         <source>When resizing terminal windows</source>
         <translation>När storlek på terminalfönster ändras</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="927"/>
         <source>Always</source>
         <translation>Alltid</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="928"/>
         <source>Never</source>
         <translation>Aldrig</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="932"/>
         <source>Centered on the window</source>
         <translation>Centrerat på fönster</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="933"/>
         <source>Above the window</source>
         <translation>Ovanför fönster</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="934"/>
         <source>Fixed position on screen</source>
         <translation>Fast position på skärmen</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="946"/>
         <source>Maximizes the window</source>
         <translation>Maximerar fönstret</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="947"/>
         <source>Shades the window</source>
         <translation>Skuggar fönstret</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="860"/>
         <source>N: Window icon
 L: Window label (Title)
 I: Iconify (Minimize)
@@ -210,154 +264,192 @@ S: Rulla upp
 D: På alla skrivbord</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="888"/>
         <source>Primary monitor</source>
         <translation>Primär bildskärm</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="964"/>
         <source>About</source>
         <translation>Om</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="853"/>
         <source>&amp;Install a new theme...</source>
         <translation>&amp;Installera ett nytt tema...</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="854"/>
         <source>Create a theme &amp;archive (.obt)...</source>
         <translation>Skapa ett tema&amp;arkiv (.obt)...</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="856"/>
         <source>&amp;Windows retain a border when undecorated</source>
         <translation>&amp;Fönster behåller kan även utan dekoration</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="857"/>
         <source>A&amp;nimate iconify and restore</source>
         <translation>A&amp;nimera ikonifiering och återställning</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="873"/>
         <source>&amp;Active window title: </source>
         <translation>&amp;Aktiv fönstertitel: </translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="874"/>
         <source>&amp;Inactive window title: </source>
         <translation>&amp;Inaktiv fönstertitel: </translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="875"/>
         <source>Menu &amp;header: </source>
         <translation>&amp;Huvudmeny: </translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="876"/>
         <source>&amp;Menu Item: </source>
         <translation>&amp;Menyalternativ: </translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="877"/>
         <source>Active &amp;On-screen display: </source>
         <translation>Aktiv &amp;On-screen-display: </translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="878"/>
         <source>Inactive O&amp;n-screen display: </source>
         <translation>Inaktiv O&amp;n-screen-display: </translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="879"/>
         <source>Focus &amp;new windows when they appear</source>
         <translation>Fokusera &amp;nya fönster när de dyker upp</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="880"/>
         <source>&amp;Place new windows under the mouse pointer</source>
         <translation>&amp;Placera nya fönster under muspekaren</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="881"/>
         <source>&amp;Center new windows when they are placed</source>
         <translation>&amp;Centrera nya fönster när de placeras</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="882"/>
         <source>Prefer to place new windows &amp;on:</source>
         <translation>Föredra att placera nya fönster &amp;på:</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="892"/>
         <source>Primary &amp;monitor:</source>
         <translation>Primär &amp;bildskärm:</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="899"/>
         <source>&amp;Fixed monitor:</source>
         <translation>&amp;Fast bildskräm:</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="901"/>
         <source>Update the window contents while &amp;resizing</source>
         <translation>Uppdatera fönsterinnehåll när det ändrar &amp;storlek</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="902"/>
         <source>Drag &amp;threshold distance:</source>
         <translation>&amp;Tröskelvärde för distans att dra:</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="903"/>
         <source>Amount of resistance against other &amp;windows:</source>
         <translation>Motstånd mot andra &amp;fönster:</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="904"/>
         <source>Amount of resistance against screen &amp;edges:</source>
         <translation>Motstånd mot &amp;skärmkanten:</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="905"/>
         <source>&amp;Amount of time to wait before switching:</source>
         <translation>&amp;Tid att vänta innan byte:</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="906"/>
         <source>&amp;Switch desktops when moving a window past the screen edge</source>
         <translation>&amp;Byt skrivbord när fönster flyttas över kanten</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="914"/>
         <source>Fixed &amp;y position:</source>
         <translation>Fast &amp;y-position:</translation>
     </message>
     <message>
-        <source>Information dialog's &amp;position:</source>
+        <location filename="../../build/src/ui_obconf.h" line="921"/>
+        <source>Information dialog&apos;s &amp;position:</source>
         <translation>Informationsrutans &amp;position:</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="922"/>
         <source>Fixed &amp;x position:</source>
         <translation>Fast &amp;x-position:</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="923"/>
         <source>Show &amp;information dialog:</source>
         <translation>Visa &amp;informationsruta:</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="938"/>
         <source>&amp;Delay before focusing and raising windows:</source>
         <translation>&amp;Dröj innan fokusering och framhävning av fönster:</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="939"/>
         <source>Move focus under the mouse when &amp;switching desktops</source>
         <translation>Flytta fokus under musen när &amp;skrivbordsbyte sker</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="940"/>
         <source>Move focus &amp;under the mouse when the mouse is not moving</source>
         <translation>Flytta fokus &amp;under musen när musen inte flyttas</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="941"/>
         <source>&amp;Raise windows when the mouse pointer moves over them</source>
         <translation>&amp;Framhäv fönster när muspekaren flyttas över de</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="943"/>
         <source>Double click on the &amp;titlebar:</source>
         <translation>Dubbelklick på fönstertiteln:</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="949"/>
         <source>Double click ti&amp;me:</source>
         <translation>Tid för &amp;dubbelklick:</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="950"/>
         <source>&amp;Show a notification when switching desktops</source>
         <translation>Vi&amp;sa notifiering vid byte av skrivbord</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="951"/>
         <source>&amp;Amount of time to show the notification for:</source>
         <translation>&amp;Tid som notifiering visas:</translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="952"/>
         <source>&amp;Number of desktops: </source>
         <translation>&amp;Antal skrivbord: </translation>
     </message>
     <message>
+        <location filename="../../build/src/ui_obconf.h" line="953"/>
         <source>&amp;Desktop names:</source>
         <translation>&amp;Skrivbordsnamn:</translation>
     </message>
@@ -365,18 +457,23 @@ D: På alla skrivbord</translation>
 <context>
     <name>Obconf::MainDialog</name>
     <message>
+        <location filename="../mouse.cpp" line="57"/>
         <source>Custom actions</source>
         <translation>Anpassade åtgärder</translation>
     </message>
     <message>
+        <location filename="../desktops.cpp" line="152"/>
+        <location filename="../desktops.cpp" line="162"/>
         <source>(Unnamed desktop)</source>
         <translation>(Skrivbord utan namn)</translation>
     </message>
     <message>
+        <location filename="../maindialog.cpp" line="76"/>
         <source>About ObConf-Qt</source>
         <translation>Om ObConf-Qt</translation>
     </message>
     <message>
+        <location filename="../maindialog.cpp" line="77"/>
         <source>A preferences manager for Openbox
 
 Copyright (c) 2003-2013
@@ -397,6 +494,8 @@ Utvecklare:
 * Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</translation>
     </message>
     <message>
+        <location filename="../theme.cpp" line="150"/>
+        <location filename="../theme.cpp" line="160"/>
         <source>Choose an Openbox theme</source>
         <translation>Välj Openbox-tema</translation>
     </message>
@@ -404,52 +503,63 @@ Utvecklare:
 <context>
     <name>QObject</name>
     <message>
-        <source>"%1" was installed to %1</source>
-        <translation>"%1" installerades på %1</translation>
+        <location filename="../archive.cpp" line="26"/>
+        <source>&quot;%1&quot; was installed to %1</source>
+        <translation>&quot;%1&quot; installerades på %1</translation>
     </message>
     <message>
-        <source>"%1" was successfully created</source>
-        <translation>"%1" skapades</translation>
+        <location filename="../archive.cpp" line="53"/>
+        <source>&quot;%1&quot; was successfully created</source>
+        <translation>&quot;%1&quot; skapades</translation>
     </message>
     <message>
-        <source>Unable to create the theme archive "%1".
+        <location filename="../archive.cpp" line="89"/>
+        <source>Unable to create the theme archive &quot;%1&quot;.
 The following errors were reported:
 %2</source>
-        <translation>Kunde inte skapa temaarkivet "%1".
+        <translation>Kunde inte skapa temaarkivet &quot;%1&quot;.
 Följande fel rapporterades:
 %2</translation>
     </message>
     <message>
-        <source>Unable to run the "tar" command: %1</source>
+        <location filename="../archive.cpp" line="95"/>
+        <location filename="../archive.cpp" line="178"/>
+        <source>Unable to run the &quot;tar&quot; command: %1</source>
         <translation>Kunde inte köra tar-kommandot: %1</translation>
     </message>
     <message>
-        <source>Unable to create directory "%1": %2</source>
-        <translation>Kunde inte skapa katalogen "%1": %2</translation>
+        <location filename="../archive.cpp" line="115"/>
+        <source>Unable to create directory &quot;%1&quot;: %2</source>
+        <translation>Kunde inte skapa katalogen &quot;%1&quot;: %2</translation>
     </message>
     <message>
-        <source>"%1" does not appear to be a valid Openbox theme directory</source>
-        <translation>"%1" verkar inte vara en korrekt temakatalog för Openbox</translation>
+        <location filename="../archive.cpp" line="138"/>
+        <source>&quot;%1&quot; does not appear to be a valid Openbox theme directory</source>
+        <translation>&quot;%1&quot; verkar inte vara en korrekt temakatalog för Openbox</translation>
     </message>
     <message>
-        <source>Unable to move to directory "%1": %2</source>
-        <translation>Kunde inte flytta till katalog "%1": %2</translation>
+        <location filename="../archive.cpp" line="148"/>
+        <source>Unable to move to directory &quot;%1&quot;: %2</source>
+        <translation>Kunde inte flytta till katalog &quot;%1&quot;: %2</translation>
     </message>
     <message>
-        <source>Unable to extract the file "%1".
-Please ensure that "%2" is writable and that the file is a valid Openbox theme archive.
+        <location filename="../archive.cpp" line="185"/>
+        <source>Unable to extract the file &quot;%1&quot;.
+Please ensure that &quot;%2&quot; is writable and that the file is a valid Openbox theme archive.
 The following errors were reported:
 %3</source>
-        <translation>Kunde inte packa upp filen "%1".
-Tillse att "%2" är skrivbar och att filen är ett korrekt temaarkiv för Openbox.
+        <translation>Kunde inte packa upp filen &quot;%1&quot;.
+Tillse att &quot;%2&quot; är skrivbar och att filen är ett korrekt temaarkiv för Openbox.
 Följande fel rapporterades:
 %3</translation>
     </message>
     <message>
+        <location filename="../obconf-qt.cpp" line="53"/>
         <source>ObConf Error</source>
         <translation>ObConf Fel</translation>
     </message>
     <message>
+        <location filename="../obconf-qt.cpp" line="73"/>
         <source>Syntax: obconf [options] [ARCHIVE.obt]
 
 Options:
@@ -470,32 +580,39 @@ Flaggor:
 </translation>
     </message>
     <message>
+        <location filename="../obconf-qt.cpp" line="97"/>
         <source>--install requires an argument
 </source>
         <translation>--install behöver ett argument
 </translation>
     </message>
     <message>
+        <location filename="../obconf-qt.cpp" line="103"/>
         <source>--archive requires an argument
 </source>
         <translation>--archive behöver ett argument
 </translation>
     </message>
     <message>
+        <location filename="../obconf-qt.cpp" line="109"/>
         <source>--config-file requires an argument
 </source>
         <translation>--config-file behöver ett argument
 </translation>
     </message>
     <message>
+        <location filename="../obconf-qt.cpp" line="221"/>
+        <location filename="../obconf-qt.cpp" line="237"/>
         <source>Error</source>
         <translation>Fel</translation>
     </message>
     <message>
+        <location filename="../obconf-qt.cpp" line="222"/>
         <source>Failed to load an rc.xml. You have probably failed to install Openbox properly.</source>
         <translation>Kunde inte läsa rc.xml. Troligen är inte Openbox korrekt installerat.</translation>
     </message>
     <message>
+        <location filename="../obconf-qt.cpp" line="235"/>
         <source>Error while parsing the Openbox configuration file.  Your configuration file is not valid XML.
 
 Message: %1</source>
@@ -504,6 +621,7 @@ Message: %1</source>
 Meddelande: %1</translation>
     </message>
     <message>
+        <location filename="../obconf-qt.cpp" line="58"/>
         <source>Copyright (c) 2003-2008   Dana Jansens
 Copyright (c) 2003        Tim Riley
 Copyright (c) 2007        Javeed Shaikh
