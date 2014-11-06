@@ -41,7 +41,7 @@ add_subdirectory(src)
 install(
   FILES data/obconf-qt.png
   # FIXME: is this the proper place to install an icon?
-  DESTINATION share/pixmaps
+  DESTINATION share/icons/hicolor/48x48/apps
 )
 
 # building tarball with CPack -------------------------------------------------
