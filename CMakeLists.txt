@@ -4,6 +4,9 @@ cmake_minimum_required(VERSION 2.8.6)
 
 find_program(SED_PROGRAM sed)
 
+# additional cmake files
+list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
+
 # Support Qt5
 option(USE_QT5 "Build with Qt5." $ENV{USE_QT5})
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
@@ -39,13 +42,6 @@ install(
   FILES data/obconf-qt.png
   # FIXME: is this the proper place to install an icon?
   DESTINATION share/pixmaps
-)
-
-# install a desktop entry file
-configure_file(data/obconf-qt.desktop.in obconf-qt.desktop @ONLY)
-install(
-  FILES ${CMAKE_CURRENT_BINARY_DIR}/obconf-qt.desktop
-  DESTINATION share/applications
 )
 
 # building tarball with CPack -------------------------------------------------

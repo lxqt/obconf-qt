@@ -97,15 +97,23 @@ if(UPDATE_TRANSLATIONS)
     add_custom_target(update_obconf-qt_translations ALL DEPENDS ${QMS})
 endif()
 
+# install a desktop entry file
+include(LXQtTranslateDesktop)
+lxqt_translate_desktop(DESKTOP_FILES
+    SOURCES obconf-qt.desktop.in
+    TRANSLATION_DIR "translations"
+)
+install(FILES ${DESKTOP_FILES} DESTINATION share/applications)
+
 install(FILES ${QM_FILES} DESTINATION share/obconf-qt/translations)
 # prevent the generated files from being deleted during make clean
 set_directory_properties(PROPERTIES CLEAN_NO_CUSTOM true)
-
 
 add_executable(obconf-qt
   ${obconf-qt_SRCS}
   ${obconf-qt_UI_H}
   ${QM_FILES}
+  ${DESKTOP_FILES}
 )
 
 add_definitions(
