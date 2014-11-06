@@ -40,7 +40,6 @@ add_subdirectory(src)
 # install an icon for the application
 install(
   FILES data/obconf-qt.png
-  # FIXME: is this the proper place to install an icon?
   DESTINATION share/icons/hicolor/48x48/apps
 )
 
