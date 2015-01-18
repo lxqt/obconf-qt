@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="pt">
+<TS version="2.1" language="pt">
 <context>
     <name>Fm::FontButton</name>
     <message>
@@ -316,12 +316,12 @@ D: Omnipresente (todas as áreas de trabalho)</translation>
     <message>
         <location filename="../../build/src/ui_obconf.h" line="877"/>
         <source>Active &amp;On-screen display: </source>
-        <translation>&amp;OSD ativo: </translation>
+        <translation>Visualização no ecrã (&amp;OSD) ativo: </translation>
     </message>
     <message>
         <location filename="../../build/src/ui_obconf.h" line="878"/>
         <source>Inactive O&amp;n-screen display: </source>
-        <translation>O&amp;SD inativo: </translation>
+        <translation>Visualização no ecrã (O&amp;SD) inativo: </translation>
     </message>
     <message>
         <location filename="../../build/src/ui_obconf.h" line="879"/>
