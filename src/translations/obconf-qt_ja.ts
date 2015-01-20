@@ -504,8 +504,8 @@ Copyright (c) 2003-2013
     <name>QObject</name>
     <message>
         <location filename="../archive.cpp" line="26"/>
-        <source>&quot;%1&quot; was installed to %1</source>
-        <translation>&quot;%1&quot; は %1 へインストールされました</translation>
+        <source>&quot;%1&quot; was installed to %2</source>
+        <translation>&quot;%1&quot; は %2 へインストールされました</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="53"/>

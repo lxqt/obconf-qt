@@ -504,8 +504,8 @@ Penulis:
     <name>QObject</name>
     <message>
         <location filename="../archive.cpp" line="26"/>
-        <source>&quot;%1&quot; was installed to %1</source>
-        <translation>&quot;%1&quot; dipasang ke %1</translation>
+        <source>&quot;%1&quot; was installed to %2</source>
+        <translation>&quot;%1&quot; dipasang ke %2</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="53"/>
