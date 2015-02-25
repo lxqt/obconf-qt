@@ -101,8 +101,8 @@ endif()
 include(LXQtTranslateDesktop)
 lxqt_translate_desktop(DESKTOP_FILES
     TRANSLATION_DIR "translations"
+    SOURCES obconf-qt.desktop.in
 )
-    #SOURCES obconf-qt.desktop.in
 install(FILES ${DESKTOP_FILES} DESTINATION share/applications)
 
 install(FILES ${QM_FILES} DESTINATION share/obconf-qt/translations)
