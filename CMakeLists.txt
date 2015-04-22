@@ -7,21 +7,22 @@ find_program(SED_PROGRAM sed)
 # additional cmake files
 list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
 
-# Support Qt5
-option(USE_QT5 "Build with Qt5." $ENV{USE_QT5})
+# Support Qt4 for the time being
+option(USE_QT4 "Build with Qt4." $ENV{USE_QT4})
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 set(CMAKE_AUTOMOC ON)
-if(USE_QT5)
+
+if(USE_QT4)
+  find_package(Qt4 REQUIRED QtCore QtGui) # Qt
+  include(${QT_USE_FILE})
+  message(STATUS "Building with Qt${QTVERSION}")
+else()
   cmake_minimum_required(VERSION 2.8.11)
   find_package(Qt5Widgets REQUIRED)
   find_package(Qt5X11Extras REQUIRED)
   find_package(Qt5LinguistTools REQUIRED QUIET)
   message(STATUS "Building with Qt${Qt5Core_VERSION_STRING}")
-else()
-  find_package(Qt4 REQUIRED QtCore QtGui) # Qt
-  include(${QT_USE_FILE})
-  message(STATUS "Building with Qt${QTVERSION}")
 endif()
 
 find_package(PkgConfig)
