@@ -25,7 +25,6 @@
 #include "tree.h"
 
 #include <QX11Info>
-// FIXME: how to support XCB or Wayland?
 #include <X11/Xlib.h>
 
 using namespace Obconf;
@@ -46,50 +45,12 @@ void MainDialog::desktops_setup_tab() {
 
   gint i;
 
-#if 0
-  // FIXME
-  GtkWidget* w;
-  GtkCellRenderer* render;
-  GtkTreeViewColumn* column;
-
-  w = get_widget("desktop_names");
-  desktop_store = gtk_list_store_new(2, G_TYPE_STRING, G_TYPE_BOOLEAN);
-  gtk_tree_view_set_model(GTK_TREE_VIEW(w), GTK_TREE_MODEL(desktop_store));
-  g_object_unref(desktop_store);
-
-  gtk_tree_selection_set_mode(gtk_tree_view_get_selection(GTK_TREE_VIEW(w)),
-                              GTK_SELECTION_SINGLE);
-
-  render = gtk_cell_renderer_text_new();
-  g_signal_connect(render, "edited",
-                   G_CALLBACK(on_desktop_names_cell_edited),
-                   NULL);
-
-  column = gtk_tree_view_column_new_with_attributes
-           ("Name", render, "text", 0, "editable", 1, NULL);
-  gtk_tree_view_append_column(GTK_TREE_VIEW(w), column);
-
-#endif
-
   desktops_read_names();
 
   i = tree_get_int("desktops/popupTime", 875);
   ui.desktop_popup->setChecked(i != 0);
   ui.desktop_popup_time->setValue(i ? i : 875);
-  // FIXME enable_stuff();
 }
-
-/* FIXME
- * static void enable_stuff() {
- *  GtkWidget* w;
- *  gboolean b;
- *
- *  w = get_widget("desktop_popup");
- *  b = gtk_toggle_button_get_active(GTK_TOGGLE_BUTTON(w));
- *  w = get_widget("desktop_popup_time");
- *  gtk_widget_set_sensitive(w, b);
- }
- */
 
 void MainDialog::on_desktop_num_valueChanged(int newValue) {
   num_desktops = newValue;
@@ -97,40 +58,14 @@ void MainDialog::on_desktop_num_valueChanged(int newValue) {
   desktops_read_names();
 }
 
-#if 0
-// FIXME
+void MainDialog::on_desktop_names_itemChanged(QListWidgetItem * item) {
+  QString new_text = item->text();
 
-static void MainDialog::on_desktop_names_cell_edited(GtkCellRendererText* cell,
-    const gchar* path_string,
-    const gchar* new_text,
-    gpointer data) {
-  GtkTreePath* path;
-  GtkTreeIter it;
-  gchar* old_text;
-  GList* lit;
-  gint i;
-
-  path = gtk_tree_path_new_from_string(path_string);
-  gtk_tree_model_get_iter(GTK_TREE_MODEL(desktop_store), &it, path);
-
-  gtk_tree_model_get(GTK_TREE_MODEL(desktop_store), &it, 0, &old_text, -1);
-  g_free(old_text);
-
-  i = gtk_tree_path_get_indices(path)[0];
-  lit = g_list_nth(desktop_names, i);
-
-  g_free(lit->data);
-  lit->data = g_strdup(new_text);
-
-  if(new_text[0])  /* not empty */
-    gtk_list_store_set(desktop_store, &it, 0, lit->data, -1);
-  else
-    gtk_list_store_set(desktop_store, &it, 0, _("(Unnamed desktop)"), -1);
+  if(new_text.isEmpty())
+    item->setText(tr("(Unnamed desktop)"));
 
   desktops_write_names();
 }
-
-#endif
 
 void MainDialog::desktops_read_names() {
   xmlNodePtr n;
@@ -151,7 +86,9 @@ void MainDialog::desktops_read_names() {
       if(desktop_name.isEmpty())
         desktop_name = tr("(Unnamed desktop)");
 
-      ui.desktop_names->addItem(desktop_name);
+      QListWidgetItem* item = new QListWidgetItem(desktop_name);
+      item->setFlags(item->flags() | Qt::ItemIsEditable);
+      ui.desktop_names->addItem(item);
       ++i;
     }
 
@@ -159,7 +96,9 @@ void MainDialog::desktops_read_names() {
   }
 
   while(i < num_desktops) {
-    ui.desktop_names->addItem(tr("(Unnamed desktop)"));
+    QListWidgetItem* item = new QListWidgetItem(tr("(Unnamed desktop)"));
+    item->setFlags(item->flags() | Qt::ItemIsEditable);
+    ui.desktop_names->addItem(item);
     ++i;
   }
 }
@@ -216,10 +155,9 @@ void MainDialog::on_desktop_popup_toggled(bool checked) {
   }
   else
     tree_set_int("desktops/popupTime", 0);
-
-  // FIXME enable_stuff();
 }
 
 void MainDialog::on_desktop_popup_time_valueChanged(int newValue) {
   tree_set_int("desktops/popupTime", newValue);
 }
+

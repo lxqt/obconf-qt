@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>541</width>
-    <height>399</height>
+    <height>479</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -851,6 +851,9 @@ D: Omnipresent (On all desktops)</string>
          </item>
          <item row="1" column="1">
           <widget class="QSpinBox" name="desktop_popup_time">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
            <property name="minimum">
             <number>1</number>
            </property>
@@ -1058,8 +1061,8 @@ D: Omnipresent (On all desktops)</string>
    <slot>accept()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>257</x>
-     <y>494</y>
+     <x>353</x>
+     <y>468</y>
     </hint>
     <hint type="destinationlabel">
      <x>157</x>
@@ -1074,8 +1077,8 @@ D: Omnipresent (On all desktops)</string>
    <slot>reject()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>325</x>
-     <y>494</y>
+     <x>421</x>
+     <y>468</y>
     </hint>
     <hint type="destinationlabel">
      <x>286</x>
@@ -1090,12 +1093,28 @@ D: Omnipresent (On all desktops)</string>
    <slot>setCurrentIndex(int)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>129</x>
-     <y>182</y>
+     <x>101</x>
+     <y>192</y>
     </hint>
     <hint type="destinationlabel">
      <x>386</x>
      <y>180</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>desktop_popup</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>desktop_popup_time</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>258</x>
+     <y>25</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>464</x>
+     <y>62</y>
     </hint>
    </hints>
   </connection>

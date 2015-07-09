@@ -141,6 +141,7 @@ private Q_SLOTS:
   void on_desktop_num_valueChanged(int newValue);
   void on_desktop_popup_toggled(bool checked);
   void on_desktop_popup_time_valueChanged(int newValue);
+  void on_desktop_names_itemChanged(QListWidgetItem * item);
 
   // docks
   void on_dock_float_x_valueChanged(int newValue);
