@@ -66,146 +66,83 @@ void MainDialog::dock_setup_tab() {
 
   g_free(s);
 
-#if 0
-  // FIXME
-  w = get_widget("dock_position");
-  gtk_option_menu_set_history(GTK_OPTION_MENU(w), pos);
+  ui.dock_position->setCurrentIndex(pos);
 
-  w = get_widget("dock_float_x");
-  gtk_spin_button_set_value(GTK_SPIN_BUTTON(w),
-                            tree_get_int("dock/floatingX", 0));
+  bool is_floating = (pos == POSITION_FLOATING);
+  ui.dock_float_x->setEnabled(is_floating);
+  ui.dock_float_y->setEnabled(is_floating);
 
-  w = get_widget("dock_float_y");
-  gtk_spin_button_set_value(GTK_SPIN_BUTTON(w),
-                            tree_get_int("dock/floatingY", 0));
+  ui.dock_float_x->setValue(tree_get_int("dock/floatingX", 0));
+  ui.dock_float_y->setValue(tree_get_int("dock/floatingY", 0));
 
   s = tree_get_string("dock/stacking", "Above");
-
   if(!strcasecmp(s, "Normal"))
-    w = get_widget("dock_stack_normal");
+    ui.dock_stack_normal->setChecked(true);
   else if(!strcasecmp(s, "Below"))
-    w = get_widget("dock_stack_bottom");
+    ui.dock_stack_bottom->setChecked(true);
   else
-    w = get_widget("dock_stack_top");
-
+    ui.dock_stack_top->setChecked(true);
   g_free(s);
-  gtk_toggle_button_set_active(GTK_TOGGLE_BUTTON(w), TRUE);
 
-  w = get_widget("dock_direction");
   s = tree_get_string("dock/direction", "Vertical");
 
   if(!strcasecmp(s, "Horizontal")) pos = DIRECTION_HORIZONTAL;
   else                              pos = DIRECTION_VERTICAL;
 
   g_free(s);
-  gtk_option_menu_set_history(GTK_OPTION_MENU(w), pos);
+  ui.dock_direction->setCurrentIndex(pos);
 
-  w = get_widget("dock_nostrut");
-  gtk_toggle_button_set_active(GTK_TOGGLE_BUTTON(w),
-                               tree_get_bool("dock/noStrut", FALSE));
+  ui.dock_nostrut->setChecked(tree_get_bool("dock/noStrut", FALSE));
 
-  w = get_widget("dock_hide");
-  gtk_toggle_button_set_active(GTK_TOGGLE_BUTTON(w),
-                               tree_get_bool("dock/autoHide", FALSE));
+  bool auto_hide = tree_get_bool("dock/autoHide", FALSE);
+  ui.dock_hide->setChecked(auto_hide);
 
-  w = get_widget("dock_hide_delay");
-  gtk_spin_button_set_value(GTK_SPIN_BUTTON(w),
-                            tree_get_int("dock/hideDelay", 300));
+  ui.dock_hide_delay->setEnabled(auto_hide);
+  ui.dock_hide_delay->setValue(tree_get_int("dock/hideDelay", 300));
 
-  w = get_widget("dock_show_delay");
-  gtk_spin_button_set_value(GTK_SPIN_BUTTON(w),
-                            tree_get_int("dock/showDelay", 300));
-
-  dock_enable_stuff();
-
-#endif
+  ui.dock_show_delay->setEnabled(auto_hide);
+  ui.dock_show_delay->setValue(tree_get_int("dock/showDelay", 300));
 }
 
-static void dock_enable_stuff() {
-  /* FIXME
-   *  GtkWidget* w, *s;
-   *  gboolean b;
-   *
-   *  w = get_widget("dock_position");
-   *  b = gtk_option_menu_get_history(GTK_OPTION_MENU(w)) == POSITION_FLOATING;
-   *
-   *  s = get_widget("dock_float_x");
-   *  gtk_widget_set_sensitive(s, b);
-   *  s = get_widget("dock_float_y");
-   *  gtk_widget_set_sensitive(s, b);
-   *  s = get_widget("dock_float_label");
-   *  gtk_widget_set_sensitive(s, b);
-   *  s = get_widget("dock_float_label_x");
-   *  gtk_widget_set_sensitive(s, b);
-   *  s = get_widget("dock_nostrut");
-   *  gtk_widget_set_sensitive(s, !b);
-   *
-   *  w = get_widget("dock_hide");
-   *  b = gtk_toggle_button_get_active(GTK_TOGGLE_BUTTON(w));
-   *
-   *  s = get_widget("dock_hide_delay");
-   *  gtk_widget_set_sensitive(s, b);
-   *  s = get_widget("dock_hide_label");
-   *  gtk_widget_set_sensitive(s, b);
-   *  s = get_widget("dock_hide_label_units");
-   *  gtk_widget_set_sensitive(s, b);
-   *  s = get_widget("dock_show_delay");
-   *  gtk_widget_set_sensitive(s, b);
-   *  s = get_widget("dock_show_label");
-   *  gtk_widget_set_sensitive(s, b);
-   *  s = get_widget("dock_show_label_units");
-   *  gtk_widget_set_sensitive(s, b);
-   */
-}
+void MainDialog::on_dock_position_currentIndexChanged(int index) {
+  const char* val;
+  bool is_floating = false;
+  switch(index) {
+    case POSITION_TOPLEFT:
+    default:
+      val = "TopLeft";
+      break;
+    case POSITION_TOP:
+      val = "Top";
+      break;
+    case POSITION_TOPRIGHT:
+      val = "TopRight";
+      break;
+    case POSITION_LEFT:
+      val = "Left";
+      break;
+    case POSITION_RIGHT:
+      val = "Right";
+      break;
+    case POSITION_BOTTOMLEFT:
+      val = "BottomLeft";
+      break;
+    case POSITION_BOTTOM:
+      val = "Bottom";
+      break;
+    case POSITION_BOTTOMRIGHT:
+      val = "BottomRight";
+      break;
+    case POSITION_FLOATING:
+      val = "Floating";
+      is_floating = true;
+      break;
+  }
+  tree_set_string("dock/position", val);
 
-#if 0
-//FIXME
-void MainDialog::on_dock_top_left_activate(GtkMenuItem* w, gpointer data) {
-  tree_set_string("dock/position", "TopLeft");
-  dock_enable_stuff();
+  ui.dock_float_x->setEnabled(is_floating);
+  ui.dock_float_y->setEnabled(is_floating);
 }
-
-void MainDialog::on_dock_top_activate(GtkMenuItem* w, gpointer data) {
-  tree_set_string("dock/position", "Top");
-  dock_enable_stuff();
-}
-
-void MainDialog::on_dock_top_right_activate(GtkMenuItem* w, gpointer data) {
-  tree_set_string("dock/position", "TopRight");
-  dock_enable_stuff();
-}
-
-void MainDialog::on_dock_left_activate(GtkMenuItem* w, gpointer data) {
-  tree_set_string("dock/position", "Left");
-  dock_enable_stuff();
-}
-
-void MainDialog::on_dock_right_activate(GtkMenuItem* w, gpointer data) {
-  tree_set_string("dock/position", "Right");
-  dock_enable_stuff();
-}
-
-void MainDialog::on_dock_bottom_left_activate(GtkMenuItem* w, gpointer data) {
-  tree_set_string("dock/position", "BottomLeft");
-  dock_enable_stuff();
-}
-
-void MainDialog::on_dock_bottom_activate(GtkMenuItem* w, gpointer data) {
-  tree_set_string("dock/position", "Bottom");
-  dock_enable_stuff();
-}
-
-void MainDialog::on_dock_bottom_right_activate(GtkMenuItem* w, gpointer data) {
-  tree_set_string("dock/position", "BottomRight");
-  dock_enable_stuff();
-}
-
-void MainDialog::on_dock_floating_activate(GtkMenuItem* w, gpointer data) {
-  tree_set_string("dock/position", "Floating");
-  dock_enable_stuff();
-}
-
-#endif
 
 void MainDialog::on_dock_float_x_valueChanged(int newValue) {
   tree_set_int("dock/floatingX", newValue);
@@ -215,31 +152,25 @@ void MainDialog::on_dock_float_y_valueChanged(int newValue) {
   tree_set_int("dock/floatingY", newValue);
 }
 
-void MainDialog::on_dock_stacking_top_toggled(bool checked) {
+void MainDialog::on_dock_stack_top_toggled(bool checked) {
   if(checked)
     tree_set_string("dock/stacking", "Above");
 }
 
-void MainDialog::on_dock_stacking_normal_toggled(bool checked) {
+void MainDialog::on_dock_stack_normal_toggled(bool checked) {
   if(checked)
     tree_set_string("dock/stacking", "Normal");
 }
 
-void MainDialog::on_dock_stacking_bottom_toggled(bool checked) {
+void MainDialog::on_dock_stack_bottom_toggled(bool checked) {
   if(checked)
     tree_set_string("dock/stacking", "Below");
 }
 
-#if 0
-// FIXME
-void MainDialog::on_dock_horizontal_activate(GtkMenuItem* w, gpointer data) {
-  tree_set_string("dock/direction", "Horizontal");
+void MainDialog::on_dock_direction_currentIndexChanged(int index) {
+  const char* val = (index == DIRECTION_VERTICAL ? "Vertical" : "Horizontal");
+  tree_set_string("dock/direction", val);
 }
-
-void MainDialog::on_dock_vertical_activate(GtkMenuItem* w, gpointer data) {
-  tree_set_string("dock/direction", "Vertical");
-}
-#endif
 
 void MainDialog::on_dock_nostrut_toggled(bool checked) {
   tree_set_bool("dock/noStrut", checked);
@@ -247,7 +178,6 @@ void MainDialog::on_dock_nostrut_toggled(bool checked) {
 
 void MainDialog::on_dock_hide_toggled(bool checked) {
   tree_set_bool("dock/autoHide", checked);
-  dock_enable_stuff();
 }
 
 void MainDialog::on_dock_hide_delay_valueChanged(int newValue) {
@@ -257,4 +187,5 @@ void MainDialog::on_dock_hide_delay_valueChanged(int newValue) {
 void MainDialog::on_dock_show_delay_valueChanged(int newValue) {
   tree_set_int("dock/showDelay", newValue);
 }
+
 
