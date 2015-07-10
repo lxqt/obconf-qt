@@ -75,9 +75,10 @@ void MainDialog::reject() {
 void MainDialog::on_about_clicked() {
   QMessageBox::about(this, tr("About ObConf-Qt"),
                      tr("A preferences manager for Openbox\n\n"
-                        "Copyright (c) 2003-2013\n\n"
+                        "Copyright (c) 2014-2015\n\n"
                         "Authors:\n"
-                        "* Hong Jen Yee (PCMan) <pcman.tw@gmail.com>\n"
+                        "* Hong Jen Yee (PCMan) <pcman.tw@gmail.com>\n\n"
+                        "The program is based on ObConf developed by the following developers.\n"
                         "* Dana Jansens <danakj@orodu.net>\n"
                         "* Tim Riley <tr@slackzone.org>\n"
                         "* Javeed Shaikh <syscrash2k@gmail.com>")
