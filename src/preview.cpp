@@ -24,6 +24,7 @@
 #include <string.h>
 
 #include <obrender/theme.h>
+#include <QPainter>
 #include <QX11Info>
 #include <xcb/xcb.h>
 #include <xcb/xcb_image.h>
@@ -72,12 +73,8 @@ static QPixmap preview_menu(RrTheme *theme)
     RrAppearance *disabled;
     RrAppearance *selected;
     RrAppearance *bullet; /* for submenu */
-#if 0
-    cairo_surface_t *surface;
-    GdkScreen *screen;
-    Display *xdisplay;
-    Visual *xvisual;
-    GdkPixbuf *pixbuf, *tmp_pixbuf;
+
+    QImage tmp_pixbuf;
 
     /* width and height of the whole menu */
     gint width, height;
@@ -86,10 +83,6 @@ static QPixmap preview_menu(RrTheme *theme)
     gint tw, th;
     gint bw, bh;
     gint unused;
-
-    screen = gdk_screen_get_default();
-    xdisplay = gdk_x11_get_default_xdisplay();
-    xvisual = gdk_x11_visual_get_xvisual(gdk_screen_get_system_visual(screen));
 
     /* set up appearances */
     title = theme->a_menu_title;
@@ -129,9 +122,10 @@ static QPixmap preview_menu(RrTheme *theme)
     height = title_h + 3*bh + 3*theme->mbwidth;
 
     /* set border */
-    pixbuf = gdk_pixbuf_new(GDK_COLORSPACE_RGB, FALSE, 8, width, height);
-    gdk_pixbuf_fill(pixbuf, rr_color_pixel(theme->menu_border_color));
-    tmp_pixbuf = gdk_pixbuf_copy(pixbuf);
+    QPixmap pixbuf(width, height);
+    QPainter painter(pixbuf);
+    // gdk_pixbuf_fill(pixbuf, rr_color_pixel(theme->menu_border_color));
+    // tmp_pixbuf = gdk_pixbuf_copy(pixbuf);
 
     /* menu appears after inside the border */
     x = y = theme->mbwidth;
@@ -156,6 +150,7 @@ static QPixmap preview_menu(RrTheme *theme)
     surface = cairo_xlib_surface_create(xdisplay, title_text->pixmap,
                                         xvisual,
                                         bw, title_h);
+    tmp_pixbuf = ::x11PixmapToQImage(title_text->pixmap);
     tmp_pixbuf = gdk_pixbuf_get_from_surface(surface, 0, 0, bw, title_h);
     cairo_surface_destroy(surface);
     gdk_pixbuf_copy_area(tmp_pixbuf, 0, 0, bw, title_h, pixbuf, x, y);
@@ -170,11 +165,7 @@ static QPixmap preview_menu(RrTheme *theme)
 
     /* draw background for normal entry */
     theme_pixmap_paint(background, bw, bh);
-    surface = cairo_xlib_surface_create(xdisplay, background->pixmap,
-                                        xvisual,
-                                        bw, bh);
-    tmp_pixbuf = gdk_pixbuf_get_from_surface(surface, 0, 0, bw, bh);
-    cairo_surface_destroy(surface);
+    tmp_pixbuf = ::x11PixmapToQImage(background->pixmap);
     gdk_pixbuf_copy_area(tmp_pixbuf, 0, 0, bw, bh, pixbuf, x, y);
 
     /* draw normal entry */
@@ -183,11 +174,7 @@ static QPixmap preview_menu(RrTheme *theme)
     normal->surface.parenty = PADDING;
     RrMinSize(normal, &tw, &th);
     theme_pixmap_paint(normal, tw, th);
-    surface = cairo_xlib_surface_create(xdisplay, normal->pixmap,
-                                        xvisual,
-                                        tw, th);
-    tmp_pixbuf = gdk_pixbuf_get_from_surface(surface, 0, 0, tw, th);
-    cairo_surface_destroy(surface);
+    tmp_pixbuf = ::x11PixmapToQImage(normal->pixmap);
     gdk_pixbuf_copy_area(tmp_pixbuf, 0, 0, tw, th, pixbuf,
                          x + PADDING, y + PADDING);
 
@@ -264,8 +251,6 @@ static QPixmap preview_menu(RrTheme *theme)
                          x + PADDING, y + PADDING);
     g_object_unref(tmp_pixbuf);
     return pixbuf;
-#endif
-    return QPixmap();
 }
 
 static QPixmap preview_window(RrTheme *theme, const gchar *titlelayout,
