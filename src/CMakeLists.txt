@@ -13,6 +13,7 @@ include_directories(
   ${QTX_INCLUDE_DIRS}
   ${GLIB_INCLUDE_DIRS}
   ${OPENBOX_INCLUDE_DIRS}
+  ${XCB_INCLUDE_DIRS}
   ${CMAKE_CURRENT_BINARY_DIR}
 )
 
@@ -30,6 +31,7 @@ set(obconf-qt_SRCS
   archive.cpp
   theme.cpp
   fontbutton.cpp
+  preview.cpp
 )
 
 set(obconf-qt_UIS
@@ -126,6 +128,7 @@ target_link_libraries(obconf-qt
   ${QTX_LIBRARIES}
   ${GLIB_LIBRARIES}
   ${OPENBOX_LIBRARIES}
+  ${XCB_LIBRARIES}
 )
 
 install(TARGETS obconf-qt RUNTIME DESTINATION bin)

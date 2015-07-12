@@ -19,10 +19,10 @@
 #ifndef obconf__preview_h
 #define obconf__preview_h
 
+#include <QPixmap>
 #include <glib.h>
 #include <obrender/font.h>
 
-/*
 QPixmap preview_theme(const gchar *name, const gchar *titlelayout,
                          RrFont *active_window_font,
                          RrFont *inactive_window_font,
@@ -30,6 +30,5 @@ QPixmap preview_theme(const gchar *name, const gchar *titlelayout,
                          RrFont *menu_item_font,
                          RrFont *osd_active_font,
                          RrFont *osd_inactive_font);
-*/
 
 #endif

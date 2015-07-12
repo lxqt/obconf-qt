@@ -35,6 +35,11 @@ pkg_check_modules(OPENBOX REQUIRED
   obt-3.5
 )
 
+pkg_check_modules(XCB REQUIRED
+  xcb
+  xcb-image
+)
+
 # add src subdirectory
 add_subdirectory(src)
 
