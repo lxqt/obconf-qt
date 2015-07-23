@@ -46,7 +46,7 @@ endif()
 # but we don't want that. Fix it with sed.
 add_custom_command(
   OUTPUT ${CMAKE_CURRENT_BINARY_DIR}/ui_obconf_fixed.h
-  COMMAND ${SED_PROGRAM}
+  COMMAND sed
   ARGS "/connectSlotsByName/d" ${obconf-qt_UI_H} > ${CMAKE_CURRENT_BINARY_DIR}/ui_obconf_fixed.h
   # DEPENDS
   MAIN_DEPENDENCY ${obconf-qt_UI_H}
