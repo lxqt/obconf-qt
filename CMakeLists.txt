@@ -7,6 +7,8 @@ find_program(SED_PROGRAM sed)
 # additional cmake files
 list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
 
+include(GNUInstallDirs)
+
 # Support Qt4 for the time being
 option(USE_QT4 "Build with Qt4." $ENV{USE_QT4})
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
@@ -41,7 +43,7 @@ add_subdirectory(src)
 # install an icon for the application
 install(
   FILES data/obconf-qt.png
-  DESTINATION share/icons/hicolor/48x48/apps
+  DESTINATION "${CMAKE_INSTALL_DATAROOTDIR}/icons/hicolor/48x48/apps"
 )
 
 # building tarball with CPack -------------------------------------------------
