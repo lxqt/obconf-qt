@@ -2,8 +2,6 @@ project(obconf-qt)
 # newer cmake is required for CMAKE_AUTOMOC Qt support
 cmake_minimum_required(VERSION 2.8.6)
 
-find_program(SED_PROGRAM sed)
-
 # additional cmake files
 list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
 
