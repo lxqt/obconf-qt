@@ -451,7 +451,7 @@ D: auf allen Arbeitsflächen</translation>
     <message>
         <location filename="../../build/src/ui_obconf.h" line="1147"/>
         <source>The dock is a special container for &quot;dockapps&quot;, or dock applications.  It is not visible on screen until a dockapp is run.  Dockapps can be used to show things like a clock, or to provide you with a system tray.</source>
-        <translation>Das "dock" ist ein graphisches Objekt zum Vorhalten sogenannter dock-Anwendungen ("dockapps"), die z. B. eine Uhr oder Benachrichtigungen anzeigen können.
+        <translation>Das &quot;dock&quot; ist ein graphisches Objekt zum Vorhalten sogenannter dock-Anwendungen (&quot;dockapps&quot;), die z. B. eine Uhr oder Benachrichtigungen anzeigen können.
 Das dock wird erst nach dem Starten von dockapps sichtbar.</translation>
     </message>
     <message>
