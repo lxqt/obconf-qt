@@ -163,7 +163,7 @@
     <message>
         <location filename="../../build/src/ui_obconf.h" line="1074"/>
         <source>The primary monitor is where Openbox will place dialogs, such as the one used for cycling windows.</source>
-        <translation>主モニターとは Openbox がウィンドウの循環などのダイアログを配置するモニターです。</translation>
+        <translation>主モニターとは 例えばウィンドウの循環をさせる際のダイアログなどをOpenbox が配置するモニターです。</translation>
     </message>
     <message>
         <location filename="../../build/src/ui_obconf.h" line="1078"/>
@@ -244,7 +244,7 @@
     <message>
         <location filename="../../build/src/ui_obconf.h" line="1130"/>
         <source>Shades the window</source>
-        <translation>ウィンドウをシェード化する</translation>
+        <translation>ウィンドウに影をつける</translation>
     </message>
     <message>
         <location filename="../../build/src/ui_obconf.h" line="1043"/>
@@ -271,132 +271,132 @@ D: 全てのデスクトップに表示する</translation>
     <message>
         <location filename="../../build/src/ui_obconf.h" line="1147"/>
         <source>The dock is a special container for &quot;dockapps&quot;, or dock applications.  It is not visible on screen until a dockapp is run.  Dockapps can be used to show things like a clock, or to provide you with a system tray.</source>
-        <translation type="unfinished"></translation>
+        <translation>ドックは&quot;dockapps&quot;のためのコンテナです。dockappを実行しない限り表示されません。Dockappsは時計やシステムトレイで使用するようなアプリケーションを提供します。</translation>
     </message>
     <message>
         <location filename="../../build/src/ui_obconf.h" line="1148"/>
         <source>Position</source>
-        <translation type="unfinished"></translation>
+        <translation>位置</translation>
     </message>
     <message>
         <location filename="../../build/src/ui_obconf.h" line="1149"/>
         <source>&amp;Position:</source>
-        <translation type="unfinished"></translation>
+        <translation>位置(&amp;P):</translation>
     </message>
     <message>
         <location filename="../../build/src/ui_obconf.h" line="1152"/>
         <source>Top Left</source>
-        <translation type="unfinished"></translation>
+        <translation>左上</translation>
     </message>
     <message>
         <location filename="../../build/src/ui_obconf.h" line="1153"/>
         <source>Top</source>
-        <translation type="unfinished"></translation>
+        <translation>上</translation>
     </message>
     <message>
         <location filename="../../build/src/ui_obconf.h" line="1154"/>
         <source>Top Right</source>
-        <translation type="unfinished"></translation>
+        <translation>右上</translation>
     </message>
     <message>
         <location filename="../../build/src/ui_obconf.h" line="1155"/>
         <source>Left</source>
-        <translation type="unfinished"></translation>
+        <translation>左</translation>
     </message>
     <message>
         <location filename="../../build/src/ui_obconf.h" line="1156"/>
         <source>Right</source>
-        <translation type="unfinished"></translation>
+        <translation>右</translation>
     </message>
     <message>
         <location filename="../../build/src/ui_obconf.h" line="1157"/>
         <source>Bottom Left</source>
-        <translation type="unfinished"></translation>
+        <translation>左下</translation>
     </message>
     <message>
         <location filename="../../build/src/ui_obconf.h" line="1158"/>
         <source>Bottom</source>
-        <translation type="unfinished"></translation>
+        <translation>下</translation>
     </message>
     <message>
         <location filename="../../build/src/ui_obconf.h" line="1159"/>
         <source>Bottom Right</source>
-        <translation type="unfinished"></translation>
+        <translation>右下</translation>
     </message>
     <message>
         <location filename="../../build/src/ui_obconf.h" line="1160"/>
         <source>Floating</source>
-        <translation type="unfinished"></translation>
+        <translation>フローティング（固定しない）</translation>
     </message>
     <message>
         <location filename="../../build/src/ui_obconf.h" line="1162"/>
         <source>&amp;Floating position:</source>
-        <translation type="unfinished"></translation>
+        <translation>フローティングの位置(&amp;F):</translation>
     </message>
     <message>
         <location filename="../../build/src/ui_obconf.h" line="1163"/>
         <source>x</source>
-        <translation type="unfinished"></translation>
+        <translation>x</translation>
     </message>
     <message>
         <location filename="../../build/src/ui_obconf.h" line="1164"/>
         <source>Allow &amp;windows to be placed within the dock&apos;s area</source>
-        <translation type="unfinished"></translation>
+        <translation>ウィンドウをドックエリアに配置することを可能にする(&amp;w)</translation>
     </message>
     <message>
         <location filename="../../build/src/ui_obconf.h" line="1165"/>
         <source>&amp;Orientation: </source>
-        <translation type="unfinished"></translation>
+        <translation>方向(&amp;O):</translation>
     </message>
     <message>
         <location filename="../../build/src/ui_obconf.h" line="1168"/>
         <source>Vertical</source>
-        <translation type="unfinished"></translation>
+        <translation>縦</translation>
     </message>
     <message>
         <location filename="../../build/src/ui_obconf.h" line="1169"/>
         <source>Horizontal</source>
-        <translation type="unfinished"></translation>
+        <translation>横</translation>
     </message>
     <message>
         <location filename="../../build/src/ui_obconf.h" line="1171"/>
         <source>Stacking</source>
-        <translation type="unfinished"></translation>
+        <translation>重ねあわせ</translation>
     </message>
     <message>
         <location filename="../../build/src/ui_obconf.h" line="1172"/>
         <source>Keep dock &amp;above other windows</source>
-        <translation type="unfinished"></translation>
+        <translation>ドックを常に他のウィンドウの前面に配置する(&amp;a)</translation>
     </message>
     <message>
         <location filename="../../build/src/ui_obconf.h" line="1173"/>
         <source>A&amp;llow dock to be both above and below windows</source>
-        <translation type="unfinished"></translation>
+        <translation>ドックを他のウィンドウの前面にも背面にも配置することを可能にする(&amp;l)</translation>
     </message>
     <message>
         <location filename="../../build/src/ui_obconf.h" line="1174"/>
         <source>Keep dock &amp;below other windows</source>
-        <translation type="unfinished"></translation>
+        <translation>ドックを常に他のウィンドウの背面に配置する(&amp;b)</translation>
     </message>
     <message>
         <location filename="../../build/src/ui_obconf.h" line="1175"/>
         <source>Hiding</source>
-        <translation type="unfinished"></translation>
+        <translation>ハイディング</translation>
     </message>
     <message>
         <location filename="../../build/src/ui_obconf.h" line="1176"/>
         <source>&amp;Delay before hiding:</source>
-        <translation type="unfinished"></translation>
+        <translation>隠れるまでの時間(&amp;D):</translation>
     </message>
     <message>
         <location filename="../../build/src/ui_obconf.h" line="1177"/>
         <source>Delay before &amp;showing:</source>
-        <translation type="unfinished"></translation>
+        <translation>出現するまでの時間(&amp;s):</translation>
     </message>
     <message>
         <location filename="../../build/src/ui_obconf.h" line="1178"/>
         <source>&amp;Hide off screen</source>
-        <translation type="unfinished"></translation>
+        <translation>スクリーンから隠す(&amp;H)</translation>
     </message>
     <message>
         <location filename="../../build/src/ui_obconf.h" line="1179"/>
@@ -616,7 +616,18 @@ The program is based on ObConf developed by the following developers.
 * Dana Jansens &lt;danakj@orodu.net&gt;
 * Tim Riley &lt;tr@slackzone.org&gt;
 * Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Openbox の設定マネージャ
+
+Copyright (c) 2003-2015
+
+作者:
+* Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;
+
+このプログラムは下記の開発者によって開発されたObConfを基に開発されています。
+* Dana Jansens &lt;danakj@orodu.net&gt;
+* Tim Riley &lt;tr@slackzone.org&gt;
+* Javeed Shaikh &lt;syscrash2k@gmail.com&gt;
+</translation>
     </message>
     <message>
         <source>A preferences manager for Openbox
@@ -655,7 +666,7 @@ Copyright (c) 2003-2013
     <message>
         <location filename="../archive.cpp" line="53"/>
         <source>&quot;%1&quot; was successfully created</source>
-        <translation>&quot;%1&quot; の作成し成功しました</translation>
+        <translation>&quot;%1&quot; は無事に作成されました</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="89"/>
@@ -663,7 +674,7 @@ Copyright (c) 2003-2013
 The following errors were reported:
 %2</source>
         <translation>テーマアーカイブ &quot;%1&quot; が作成できません。
-エラー報告は以下の通りです:
+エラーメッセージは以下の通りです:
 %2</translation>
     </message>
     <message>
@@ -695,7 +706,7 @@ The following errors were reported:
 %3</source>
         <translation>ファイル &quot;%1” が展開できません。
 &quot;%2&quot; が書き込み可能であり、ファイルが正しい Openbox テーマアーカイブであることを確認してください。
-エラー報告は以下の通りです:
+エラーメッセージは以下の通りです:
 %3</translation>
     </message>
     <message>
