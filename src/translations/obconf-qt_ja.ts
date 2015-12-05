@@ -271,7 +271,7 @@ D: 全てのデスクトップに表示する</translation>
     <message>
         <location filename="../../build/src/ui_obconf.h" line="1147"/>
         <source>The dock is a special container for &quot;dockapps&quot;, or dock applications.  It is not visible on screen until a dockapp is run.  Dockapps can be used to show things like a clock, or to provide you with a system tray.</source>
-        <translation type="unfinished">ドックは&quot;dockapps&quot;やドック用アプリケーションのためのコンテナです。dockappを実行しない限り表示されません。Dockappsは時計やシステムトレイで使用するようなアプリケーションを提供します。</translation>
+        <translation>ドックは&quot;dockapps&quot;のためのコンテナです。dockappを実行しない限り表示されません。Dockappsは時計やシステムトレイで使用するようなアプリケーションを提供します。</translation>
     </message>
     <message>
         <location filename="../../build/src/ui_obconf.h" line="1148"/>
@@ -326,12 +326,12 @@ D: 全てのデスクトップに表示する</translation>
     <message>
         <location filename="../../build/src/ui_obconf.h" line="1160"/>
         <source>Floating</source>
-        <translation type="unfinished">フローティング（固定しない）</translation>
+        <translation>フローティング（固定しない）</translation>
     </message>
     <message>
         <location filename="../../build/src/ui_obconf.h" line="1162"/>
         <source>&amp;Floating position:</source>
-        <translation type="unfinished">フローティングの位置(&amp;F):</translation>
+        <translation>フローティングの位置(&amp;F):</translation>
     </message>
     <message>
         <location filename="../../build/src/ui_obconf.h" line="1163"/>
