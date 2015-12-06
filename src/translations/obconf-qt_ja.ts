@@ -163,7 +163,7 @@
     <message>
         <location filename="../../build/src/ui_obconf.h" line="1074"/>
         <source>The primary monitor is where Openbox will place dialogs, such as the one used for cycling windows.</source>
-        <translation>主モニターとは Openbox がウィンドウの循環などのダイアログを配置するモニターです。</translation>
+        <translation>主モニターとは 例えばウィンドウの循環をさせる際のダイアログなどをOpenbox が配置するモニターです。</translation>
     </message>
     <message>
         <location filename="../../build/src/ui_obconf.h" line="1078"/>
@@ -244,7 +244,7 @@
     <message>
         <location filename="../../build/src/ui_obconf.h" line="1130"/>
         <source>Shades the window</source>
-        <translation>ウィンドウをシェード化する</translation>
+        <translation>ウィンドウに影をつける</translation>
     </message>
     <message>
         <location filename="../../build/src/ui_obconf.h" line="1043"/>
@@ -666,7 +666,7 @@ Copyright (c) 2003-2013
     <message>
         <location filename="../archive.cpp" line="53"/>
         <source>&quot;%1&quot; was successfully created</source>
-        <translation>&quot;%1&quot; の作成し成功しました</translation>
+        <translation>&quot;%1&quot; は無事に作成されました</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="89"/>
@@ -674,7 +674,7 @@ Copyright (c) 2003-2013
 The following errors were reported:
 %2</source>
         <translation>テーマアーカイブ &quot;%1&quot; が作成できません。
-エラー報告は以下の通りです:
+エラーメッセージはは以下の通りです:
 %2</translation>
     </message>
     <message>
