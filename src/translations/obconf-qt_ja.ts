@@ -674,7 +674,7 @@ Copyright (c) 2003-2013
 The following errors were reported:
 %2</source>
         <translation>テーマアーカイブ &quot;%1&quot; が作成できません。
-エラーメッセージはは以下の通りです:
+エラーメッセージは以下の通りです:
 %2</translation>
     </message>
     <message>
@@ -706,7 +706,7 @@ The following errors were reported:
 %3</source>
         <translation>ファイル &quot;%1” が展開できません。
 &quot;%2&quot; が書き込み可能であり、ファイルが正しい Openbox テーマアーカイブであることを確認してください。
-エラー報告は以下の通りです:
+エラーメッセージは以下の通りです:
 %3</translation>
     </message>
     <message>
