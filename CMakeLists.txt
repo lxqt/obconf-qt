@@ -27,6 +27,9 @@ else()
   message(STATUS "Building with Qt${Qt5Core_VERSION_STRING}")
 endif()
 
+#Note: no run-time dependency on liblxqt, just a build dependency for lxqt_translate_ts/desktop
+find_package(lxqt REQUIRED)
+
 find_package(PkgConfig)
 pkg_check_modules(GLIB REQUIRED
   glib-2.0
