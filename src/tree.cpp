@@ -106,7 +106,7 @@ void tree_apply()
 
     if (!obt_xml_save_file(parse_i, p, TRUE)) {
         gchar *s;
-        s = g_strdup_printf("An error occured while saving the "
+        s = g_strdup_printf("An error occurred while saving the "
                             "config file '%s'", p);
         // obconf_error(s, FALSE);
         QMessageBox::critical(NULL, QString(), QString::fromUtf8(s));
