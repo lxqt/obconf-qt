@@ -634,7 +634,7 @@ Authors:
 * Dana Jansens &lt;danakj@orodu.net&gt;
 * Tim Riley &lt;tr@slackzone.org&gt;
 * Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</source>
-        <translation type="vanished">Диспетчер настроек для Openbox
+        <translation>Диспетчер настроек для Openbox
 
 Copyright (c) 2003-2013
 
