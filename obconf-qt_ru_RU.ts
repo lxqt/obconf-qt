@@ -137,12 +137,12 @@ D: На все рабочие столы</translation>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1060"/>
         <source>Active &amp;On-screen display: </source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Активная надпись на экране:</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1061"/>
         <source>Inactive O&amp;n-screen display: </source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Неактивная надпись на экране:</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1062"/>
@@ -157,7 +157,7 @@ D: На все рабочие столы</translation>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1064"/>
         <source>&amp;Center new windows when they are placed</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Выравнивать новые окна по центру</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1065"/>
@@ -308,7 +308,7 @@ D: На все рабочие столы</translation>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1109"/>
         <source>When resizing terminal windows</source>
-        <translation type="unfinished"></translation>
+        <translation>При изменении размеров окон терминалов</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1110"/>
@@ -451,7 +451,7 @@ D: На все рабочие столы</translation>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1147"/>
         <source>The dock is a special container for &quot;dockapps&quot;, or dock applications.  It is not visible on screen until a dockapp is run.  Dockapps can be used to show things like a clock, or to provide you with a system tray.</source>
-        <translation type="unfinished"></translation>
+        <translation>Док - это специальный контейнер для &quot;dockapps&quot;, или приложений дока. Он не отображается на экране, пока не запущены эти приложения. Приложения дока могут быть использованы для показа таких вещей, как часы, или отображения системного лотка.</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1148"/>
@@ -466,117 +466,117 @@ D: На все рабочие столы</translation>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1152"/>
         <source>Top Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Вверху слева</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1153"/>
         <source>Top</source>
-        <translation type="unfinished"></translation>
+        <translation>Вверху</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1154"/>
         <source>Top Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Вверху справа</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1155"/>
         <source>Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Слева</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1156"/>
         <source>Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Справа</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1157"/>
         <source>Bottom Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Снизу слева</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1158"/>
         <source>Bottom</source>
-        <translation type="unfinished"></translation>
+        <translation>Снизу</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1159"/>
         <source>Bottom Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Снизу справа</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1160"/>
         <source>Floating</source>
-        <translation type="unfinished"></translation>
+        <translation>Плавающее</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1162"/>
         <source>&amp;Floating position:</source>
-        <translation type="unfinished"></translation>
+        <translation>П&amp;лавающее расположение:</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1163"/>
         <source>x</source>
-        <translation type="unfinished"></translation>
+        <translation>x</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1164"/>
         <source>Allow &amp;windows to be placed within the dock&apos;s area</source>
-        <translation type="unfinished"></translation>
+        <translation>Разрешить &amp;размещать окна внутри области дока</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1165"/>
         <source>&amp;Orientation: </source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ориентация: </translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1168"/>
         <source>Vertical</source>
-        <translation type="unfinished"></translation>
+        <translation>Вертикально</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1169"/>
         <source>Horizontal</source>
-        <translation type="unfinished"></translation>
+        <translation>Горизонтально</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1171"/>
         <source>Stacking</source>
-        <translation type="unfinished"></translation>
+        <translation>Стопкой</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1172"/>
         <source>Keep dock &amp;above other windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Отображать док &amp;поверх других окон</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1173"/>
         <source>A&amp;llow dock to be both above and below windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Разрешить размещать док &amp;как поверх, так и позади окон</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1174"/>
         <source>Keep dock &amp;below other windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Отображать док по&amp;зади других окон</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1175"/>
         <source>Hiding</source>
-        <translation type="unfinished"></translation>
+        <translation>Скрывать док</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1176"/>
         <source>&amp;Delay before hiding:</source>
-        <translation type="unfinished"></translation>
+        <translation>Задержка перед &amp;скрытием:</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1177"/>
         <source>Delay before &amp;showing:</source>
-        <translation type="unfinished"></translation>
+        <translation>Задержка перед &amp;показом:</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1178"/>
         <source>&amp;Hide off screen</source>
-        <translation type="unfinished"></translation>
+        <translation>С&amp;крывать с экрана</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1179"/>
@@ -611,7 +611,18 @@ The program is based on ObConf developed by the following developers.
 * Dana Jansens &lt;danakj@orodu.net&gt;
 * Tim Riley &lt;tr@slackzone.org&gt;
 * Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Менеджер настроек Openbox
+
+Copyright (c) 2014-2015
+
+Авторы:
+* Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;
+
+Эта программа основана на ObConf, созданной следующими разработчиками
+* Dana Jansens &lt;danakj@orodu.net&gt;
+* Tim Riley &lt;tr@slackzone.org&gt;
+* Javeed Shaikh &lt;syscrash2k@gmail.com&gt;
+</translation>
     </message>
     <message>
         <source>A preferences manager for Openbox
@@ -623,7 +634,7 @@ Authors:
 * Dana Jansens &lt;danakj@orodu.net&gt;
 * Tim Riley &lt;tr@slackzone.org&gt;
 * Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</source>
-        <translation type="vanished">Диспетчер настроек для Openbox
+        <translation>Диспетчер настроек для Openbox
 
 Copyright (c) 2003-2013
 
