@@ -10,8 +10,8 @@ It is maintained by the LXQt project but can be used independently from this des
 
 ### Compiling source code
 
-Runtime dependencies are xkbcommon, qtx11extras, xdg-utils, hicolor-icon-theme and Openbox.   
-Additional build dependencies are CMake and optionally Git to pull latest VCS checkouts. The localization files were outsourced to repository [lxqt-l10n](https://github.com/lxde/lxqt-l10n) so the corresponding dependencies are needed, too. Please refer to this repository's `README.md` for further information.   
+Runtime dependencies are Qt X11 Extras, gtk-update-icon-cache, hicolor-icon-theme and Openbox.   
+Additional build dependencies are CMake and [liblxqt](https://github.com/lxde/liblxqt), optionally Git to pull latest VCS checkouts. The localization files were outsourced to repository [lxqt-l10n](https://github.com/lxde/lxqt-l10n) so the corresponding dependencies are needed, too. Please refer to this repository's `README.md` for further information.   
 
 Code configuration is handled by CMake. CMake variable `CMAKE_INSTALL_PREFIX` has to be set to `/usr` on most operating systems.   
 
