@@ -1,6 +1,6 @@
 project(obconf-qt)
 # newer cmake is required for CMAKE_AUTOMOC Qt support
-cmake_minimum_required(VERSION 2.8.6)
+cmake_minimum_required(VERSION 2.8.12)
 
 find_program(SED_PROGRAM sed)
 
@@ -8,6 +8,8 @@ find_program(SED_PROGRAM sed)
 list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
 
 include(GNUInstallDirs)
+
+set(LXQTBT_MINIMUM_VERSION "0.1.0")
 
 # Support Qt4 for the time being
 option(USE_QT4 "Build with Qt4." $ENV{USE_QT4})
@@ -27,8 +29,7 @@ else()
   message(STATUS "Building with Qt${Qt5Core_VERSION_STRING}")
 endif()
 
-#Note: no run-time dependency on liblxqt, just a build dependency for lxqt_translate_ts/desktop
-find_package(lxqt REQUIRED)
+find_package(lxqt-build-tools ${LXQTBT_MINIMUM_VERSION} REQUIRED)
 
 find_package(PkgConfig)
 pkg_check_modules(GLIB REQUIRED
