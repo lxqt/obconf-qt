@@ -127,12 +127,12 @@ D: Su tutti desktop</translation>
     <message>
         <location filename="../../build/src/ui_obconf.h" line="1058"/>
         <source>Menu &amp;header: </source>
-        <translation>&amp;Intestazione menù: </translation>
+        <translation>&amp;Intestazione menu: </translation>
     </message>
     <message>
         <location filename="../../build/src/ui_obconf.h" line="1059"/>
         <source>&amp;Menu Item: </source>
-        <translation>&amp;Voce nel menù: </translation>
+        <translation>&amp;Voce nel menu: </translation>
     </message>
     <message>
         <location filename="../../build/src/ui_obconf.h" line="1060"/>
