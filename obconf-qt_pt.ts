@@ -24,7 +24,7 @@
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1012"/>
         <source>Window Manager Preferences</source>
-        <translation>Preferências de gestor de janelas</translation>
+        <translation>Preferências do gestor de janelas</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1017"/>
@@ -80,7 +80,7 @@
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1083"/>
         <source>Moving and Resizing Windows</source>
-        <translation>Movimentação e redimensionamento de janelas</translation>
+        <translation>Movimentar e redimensionar janelas</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1090"/>
@@ -255,7 +255,7 @@ M: Maximize
 C: Close
 S: Shade (Roll up)
 D: Omnipresent (On all desktops)</source>
-        <translation>N: Window icon
+        <translation>N: Ícone da janela
 L: Título da janela
 I: Minimizar
 M: Maximizar
@@ -271,132 +271,132 @@ D: Omnipresente (todas as áreas de trabalho)</translation>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1147"/>
         <source>The dock is a special container for &quot;dockapps&quot;, or dock applications.  It is not visible on screen until a dockapp is run.  Dockapps can be used to show things like a clock, or to provide you with a system tray.</source>
-        <translation type="unfinished"></translation>
+        <translation>A doca é uma área em que se colocam os ícones das aplicações ou &quot;dockapps&quot;. Esta área apenas está visível de estiver a executar uma &quot;dockapp&quot;. Com as &quot;dockapps&quot; pode  mostrar um relógio e mostrar a bandeja do sistema.</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1148"/>
         <source>Position</source>
-        <translation type="unfinished"></translation>
+        <translation>Posição</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1149"/>
         <source>&amp;Position:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Posição:</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1152"/>
         <source>Top Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Cima/esquerda</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1153"/>
         <source>Top</source>
-        <translation type="unfinished"></translation>
+        <translation>Cima</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1154"/>
         <source>Top Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Cima/direita</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1155"/>
         <source>Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Esquerda</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1156"/>
         <source>Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Direita</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1157"/>
         <source>Bottom Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Baixo/esquerda</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1158"/>
         <source>Bottom</source>
-        <translation type="unfinished"></translation>
+        <translation>Baixo</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1159"/>
         <source>Bottom Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Baixo/esquerda</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1160"/>
         <source>Floating</source>
-        <translation type="unfinished"></translation>
+        <translation>Flutuante</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1162"/>
         <source>&amp;Floating position:</source>
-        <translation type="unfinished"></translation>
+        <translation>Posição &amp;flutuante:</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1163"/>
         <source>x</source>
-        <translation type="unfinished"></translation>
+        <translation>x</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1164"/>
         <source>Allow &amp;windows to be placed within the dock&apos;s area</source>
-        <translation type="unfinished"></translation>
+        <translation>Permitir &amp;colocação de janelas na área da doca</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1165"/>
         <source>&amp;Orientation: </source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Orientação: </translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1168"/>
         <source>Vertical</source>
-        <translation type="unfinished"></translation>
+        <translation>Vertical</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1169"/>
         <source>Horizontal</source>
-        <translation type="unfinished"></translation>
+        <translation>Horizontal</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1171"/>
         <source>Stacking</source>
-        <translation type="unfinished"></translation>
+        <translation>Empilhamento</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1172"/>
         <source>Keep dock &amp;above other windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Manter doc&amp;a à frente das janelas</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1173"/>
         <source>A&amp;llow dock to be both above and below windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Permitir doca à frente e por trás das jane&amp;las</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1174"/>
         <source>Keep dock &amp;below other windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Manter do&amp;ca atrás das janelas </translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1175"/>
         <source>Hiding</source>
-        <translation type="unfinished"></translation>
+        <translation>Ocultar</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1176"/>
         <source>&amp;Delay before hiding:</source>
-        <translation type="unfinished"></translation>
+        <translation>Atrso antes &amp;de ocultar:</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1177"/>
         <source>Delay before &amp;showing:</source>
-        <translation type="unfinished"></translation>
+        <translation>Atra&amp;so antes de mostrar:</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1178"/>
         <source>&amp;Hide off screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Ocultar fora do &amp;ecrã</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1179"/>
@@ -616,7 +616,17 @@ The program is based on ObConf developed by the following developers.
 * Dana Jansens &lt;danakj@orodu.net&gt;
 * Tim Riley &lt;tr@slackzone.org&gt;
 * Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Um gestor de preferências do Openbox
+
+Copyright (c) 2014-2016
+
+Autores:
+* Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;
+
+Este programa foi baseado em ObConf, desenvolvido pelas pessoas abaixo indicadas.
+* Dana Jansens &lt;danakj@orodu.net&gt;
+* Tim Riley &lt;tr@slackzone.org&gt;
+* Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</translation>
     </message>
     <message>
         <source>A preferences manager for Openbox
@@ -628,7 +638,7 @@ Authors:
 * Dana Jansens &lt;danakj@orodu.net&gt;
 * Tim Riley &lt;tr@slackzone.org&gt;
 * Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</source>
-        <translation type="vanished">O gestor de definições do Openbox
+        <translation>Um gestor de preferências do Openbox
 
 Copyright (c) 2003-2013
 
@@ -694,7 +704,7 @@ Please ensure that &quot;%2&quot; is writable and that the file is a valid Openb
 The following errors were reported:
 %3</source>
         <translation>Não foi possível extrair o ficheiro &quot;%1!
-Certifique-se que tem permissões de escrita em &quot;%2&quot; e que o ficheiro é um arquivo de tema Openbox.
+verifique se tem permissões de escrita em &quot;%2&quot; e que o ficheiro é um arquivo de tema Openbox.
 Foram reportados os seguintes erros:
 %3</translation>
     </message>
@@ -783,8 +793,8 @@ Copyright (c) 2007            Javeed Shaikh
 Copyright (c) 2013            Hong Jen Yee (PCMan)
 
 Este programa NÃO POSSUI QUALQUER GARANTIA.
-É um programa livre e é permitida a sua redistribuição
-mediante alguma condições. Consulte o ficheiro COPYING para mais informações.
+É um programa livre e a sua redistribuição é permitida mediante
+alguma condições. Consulte o ficheiro COPYING para mais informações.
 
 </translation>
     </message>
