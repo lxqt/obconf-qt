@@ -4,9 +4,6 @@ cmake_minimum_required(VERSION 2.8.12)
 
 find_program(SED_PROGRAM sed)
 
-# additional cmake files
-list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
-
 include(GNUInstallDirs)
 
 set(LXQTBT_MINIMUM_VERSION "0.1.0")
@@ -40,6 +37,9 @@ pkg_check_modules(OPENBOX REQUIRED
   obrender-3.5
   obt-3.5
 )
+
+include(LXQtTranslateTs)
+include(LXQtTranslateDesktop)
 
 # add src subdirectory
 add_subdirectory(src)

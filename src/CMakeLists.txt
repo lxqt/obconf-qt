@@ -57,7 +57,6 @@ add_custom_command(
 
 # add translation for obconf-qt
 option (UPDATE_TRANSLATIONS "Update source translation translations/*.ts files" OFF)
-include(LXQtTranslateTs)
 lxqt_translate_ts(QM_FILES
   USE_QT4
     ${USE_QT4}
@@ -79,7 +78,6 @@ lxqt_translate_ts(QM_FILES
 )
 
 # install a desktop entry file
-include(LXQtTranslateDesktop)
 lxqt_translate_desktop(DESKTOP_FILES
     TRANSLATION_DIR "translations"
     SOURCES obconf-qt.desktop.in
