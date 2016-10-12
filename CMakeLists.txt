@@ -40,6 +40,7 @@ pkg_check_modules(OPENBOX REQUIRED
 
 include(LXQtTranslateTs)
 include(LXQtTranslateDesktop)
+include(LXQtCompilerSettings)
 
 # add src subdirectory
 add_subdirectory(src)
