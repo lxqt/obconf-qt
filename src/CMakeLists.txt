@@ -1,5 +1,5 @@
 # set visibility to hidden to hide symbols, unlesss they're exporeted manually in the code
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -DQT_NO_KEYWORDS -fno-exceptions")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -DQT_NO_KEYWORDS")
 
 if(USE_QT4)
     set(QTX_INCLUDE_DIRS ${QT_QTCORE_INCLUDE_DIR} ${QT_QTGUI_INCLUDE_DIR} ${QT_QTDBUS_DIR})
@@ -57,7 +57,6 @@ add_custom_command(
 
 # add translation for obconf-qt
 option (UPDATE_TRANSLATIONS "Update source translation translations/*.ts files" OFF)
-include(LXQtTranslateTs)
 lxqt_translate_ts(QM_FILES
   USE_QT4
     ${USE_QT4}
@@ -79,7 +78,6 @@ lxqt_translate_ts(QM_FILES
 )
 
 # install a desktop entry file
-include(LXQtTranslateDesktop)
 lxqt_translate_desktop(DESKTOP_FILES
     TRANSLATION_DIR "translations"
     SOURCES obconf-qt.desktop.in
