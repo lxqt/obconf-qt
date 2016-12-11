@@ -1,7 +1,18 @@
 
-obconf-qt-0.11.0 / 2016-09-24
+obconf-qt-0.11.1 / 2016-12-11
 =============================
 
+  * Create obconf-qt_fr.desktop
+  * Use the LXQtCompilerSettings
+  * Use lxqt-build-tools translation modules
+  * Use the new lxqt-build-tools package
+  * Remove cpack (#22)
+  * README.md: Update dependencies
+
+0.11.0 / 2016-09-24
+===================
+
+  * Release 0.11.0: Add changelog
   * Bump version to 0.2.0 (#20)
   * Extend README.md
   * occured -> occurred
