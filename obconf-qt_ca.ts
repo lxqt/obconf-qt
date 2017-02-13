@@ -647,7 +647,7 @@ Aquest programa està basat en ObConf que ha estat desenvolupat pels següents d
 The following errors were reported:
 %2</source>
         <translation>No s&apos;ha pogut crear el tema de l&apos;arxiu &quot;%1&quot;.
-S&apos;han informat dels següents error:
+S&apos;han informat dels següents errors:
 %2</translation>
     </message>
     <message>
