@@ -39,7 +39,7 @@
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1021"/>
         <source>Font</source>
-        <translation>Tipus de lletra</translation>
+        <translation>Lletra</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1023"/>
