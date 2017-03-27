@@ -110,7 +110,7 @@
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1138"/>
         <source>Desktop margins are reserved areas on the edge of your screen.  New windows will not be placed within a margin, and maximized windows will not cover them.</source>
-        <translation type="unfinished"></translation>
+        <translation>Els marges de l&apos;escriptori són les àrees reservades en les vores de la vostra pantalla. No es posicionaran les finestres noves dins d&apos;un marge, així com tampoc els cobriran les finestres maximitzades.</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1139"/>
@@ -168,7 +168,7 @@
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1078"/>
         <source>Fixed Monitor</source>
-        <translation>Monitor fix</translation>
+        <translation>Monitor fixat</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1079"/>
@@ -184,32 +184,32 @@
         <location filename="../../../build/src/ui_obconf.h" line="1093"/>
         <location filename="../../../build/src/ui_obconf.h" line="1100"/>
         <source>Centered</source>
-        <translation type="unfinished"></translation>
+        <translation>Centrada</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1094"/>
         <source>From left edge</source>
-        <translation type="unfinished"></translation>
+        <translation>Des de la vora esquerra</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1095"/>
         <source>From right edge</source>
-        <translation type="unfinished"></translation>
+        <translation>Des de la vora dreta</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1101"/>
         <source>From top edge</source>
-        <translation type="unfinished"></translation>
+        <translation>Des de la vora superior</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1102"/>
         <source>From bottom edge</source>
-        <translation type="unfinished"></translation>
+        <translation>Des de la vora inferior</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1109"/>
         <source>When resizing terminal windows</source>
-        <translation>Quan es redimensionin les finestres dels terminals</translation>
+        <translation>Quan es redimensionin les finestres terminals</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1110"/>
@@ -224,7 +224,7 @@
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1115"/>
         <source>Centered on the window</source>
-        <translation type="unfinished"></translation>
+        <translation>Centrada en la finestra</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1116"/>
@@ -234,17 +234,17 @@
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1117"/>
         <source>Fixed position on screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Posició fixa en la pantalla</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1129"/>
         <source>Maximizes the window</source>
-        <translation type="unfinished"></translation>
+        <translation>Maximitza la finestra</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1130"/>
         <source>Shades the window</source>
-        <translation type="unfinished"></translation>
+        <translation>Esvaeix la finestra</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1043"/>
@@ -255,7 +255,13 @@ M: Maximize
 C: Close
 S: Shade (Roll up)
 D: Omnipresent (On all desktops)</source>
-        <translation type="unfinished"></translation>
+        <translation>N: Icona de la finestra
+L: Etiqueta de la finestra (títol)
+I: Iconifica (minimitza)
+M: Maximitza
+C: Tanca
+S: Esvaïment (replegament)
+D: Omnipresent (en tots els escriptoris)</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1071"/>
@@ -265,7 +271,7 @@ D: Omnipresent (On all desktops)</source>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1147"/>
         <source>The dock is a special container for &quot;dockapps&quot;, or dock applications.  It is not visible on screen until a dockapp is run.  Dockapps can be used to show things like a clock, or to provide you with a system tray.</source>
-        <translation type="unfinished"></translation>
+        <translation>L&apos;acoblador és un contenidor especial per a les aplicacions en acobladors («dockapps»). Aquestes aplicacions no es visualitzen en pantalla a menys que no s&apos;executin. Aquestes aplicacions es poden utilitzar coses com ara un rellotge, o el proveïment d&apos;una safata de sistema.</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1148"/>
@@ -320,12 +326,12 @@ D: Omnipresent (On all desktops)</source>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1160"/>
         <source>Floating</source>
-        <translation type="unfinished"></translation>
+        <translation>Flotació</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1162"/>
         <source>&amp;Floating position:</source>
-        <translation type="unfinished"></translation>
+        <translation>Posició de la &amp;flotació:</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1163"/>
@@ -355,12 +361,12 @@ D: Omnipresent (On all desktops)</source>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1171"/>
         <source>Stacking</source>
-        <translation type="unfinished"></translation>
+        <translation>Aplicació</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1172"/>
         <source>Keep dock &amp;above other windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Mantén l&apos;&amp;acoblador per sobre de les altres finestres</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1173"/>
@@ -370,7 +376,7 @@ D: Omnipresent (On all desktops)</source>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1174"/>
         <source>Keep dock &amp;below other windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Mantén l&apos;aco&amp;blador per sota de les altres finestres</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1175"/>
@@ -380,17 +386,17 @@ D: Omnipresent (On all desktops)</source>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1176"/>
         <source>&amp;Delay before hiding:</source>
-        <translation type="unfinished"></translation>
+        <translation>Retard abans &amp;de l&apos;ocultació:</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1177"/>
         <source>Delay before &amp;showing:</source>
-        <translation type="unfinished"></translation>
+        <translation>Retard abans de la mo&amp;stra:</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1178"/>
         <source>&amp;Hide off screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Es&amp;vaïment de la pantalla</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1179"/>
@@ -405,7 +411,7 @@ D: Omnipresent (On all desktops)</source>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1037"/>
         <source>Create a theme &amp;archive (.obt)...</source>
-        <translation type="unfinished"></translation>
+        <translation>Crea un &amp;arxiu de tema (.obt)...</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1039"/>
@@ -415,7 +421,7 @@ D: Omnipresent (On all desktops)</source>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1040"/>
         <source>A&amp;nimate iconify and restore</source>
-        <translation type="unfinished"></translation>
+        <translation>A&amp;nimació de la iconificació i la restauració</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1056"/>
@@ -425,7 +431,7 @@ D: Omnipresent (On all desktops)</source>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1057"/>
         <source>&amp;Inactive window title: </source>
-        <translation type="unfinished"></translation>
+        <translation>Títol de la finestra &amp;inactiva: </translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1058"/>
@@ -435,37 +441,37 @@ D: Omnipresent (On all desktops)</source>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1059"/>
         <source>&amp;Menu Item: </source>
-        <translation>Ítem del &amp;menu: </translation>
+        <translation>Ítem del &amp;menú: </translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1060"/>
         <source>Active &amp;On-screen display: </source>
-        <translation type="unfinished"></translation>
+        <translation>M&amp;ostra en pantalla actiu:</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1061"/>
         <source>Inactive O&amp;n-screen display: </source>
-        <translation type="unfinished"></translation>
+        <translation>Mostra en pantalla i&amp;nactiu:</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1062"/>
         <source>Focus &amp;new windows when they appear</source>
-        <translation type="unfinished"></translation>
+        <translation>E&amp;nfoca les finestres noves quan apareguin</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1063"/>
         <source>&amp;Place new windows under the mouse pointer</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Posiciona les finestres noves sota el punter del ratolí</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1064"/>
         <source>&amp;Center new windows when they are placed</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Centra les finestres noves quan són posicionades</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1065"/>
         <source>Prefer to place new windows &amp;on:</source>
-        <translation type="unfinished"></translation>
+        <translation>Es prefereix posicionar les finestres n&amp;oves en:</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1075"/>
@@ -475,37 +481,37 @@ D: Omnipresent (On all desktops)</source>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1082"/>
         <source>&amp;Fixed monitor:</source>
-        <translation>Monitor &amp;fix:</translation>
+        <translation>Monitor &amp;fixat:</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1084"/>
         <source>Update the window contents while &amp;resizing</source>
-        <translation>Actualitza el contingut sw la finestra mentre es &amp;redimensiona</translation>
+        <translation>Actualitza el contingut de la finestra mentre es &amp;redimensiona</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1085"/>
         <source>Drag &amp;threshold distance:</source>
-        <translation type="unfinished"></translation>
+        <translation>Dis&amp;tància límit de l&apos;arrossegament:</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1086"/>
         <source>Amount of resistance against other &amp;windows:</source>
-        <translation type="unfinished"></translation>
+        <translation>Quantitat de resistència contra les altres &amp;finestres:</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1087"/>
         <source>Amount of resistance against screen &amp;edges:</source>
-        <translation type="unfinished"></translation>
+        <translation>Quantitat de resistència contra les vor&amp;es de la pantalla:</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1088"/>
         <source>&amp;Amount of time to wait before switching:</source>
-        <translation type="unfinished"></translation>
+        <translation>Interv&amp;al de temps a esperar abans del canvi:</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1089"/>
         <source>&amp;Switch desktops when moving a window past the screen edge</source>
-        <translation type="unfinished"></translation>
+        <translation>Canvia els e&amp;scriptoris quan el moviment d&apos;una finestra sobrepassi la vora de la pantalla</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1097"/>
@@ -515,7 +521,7 @@ D: Omnipresent (On all desktops)</source>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1104"/>
         <source>Information dialog&apos;s &amp;position:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Posició del diàleg d&apos;informació:</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1105"/>
@@ -530,42 +536,42 @@ D: Omnipresent (On all desktops)</source>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1121"/>
         <source>&amp;Delay before focusing and raising windows:</source>
-        <translation type="unfinished"></translation>
+        <translation>Retar&amp;d abans de l&apos;enfocament i alçament de les finestres:</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1122"/>
         <source>Move focus under the mouse when &amp;switching desktops</source>
-        <translation type="unfinished"></translation>
+        <translation>Mou el focus a sota del ratolí quan es canviïn els e&amp;scriptoris</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1123"/>
         <source>Move focus &amp;under the mouse when the mouse is not moving</source>
-        <translation type="unfinished"></translation>
+        <translation>Mou el foc&amp;us a sota del ratolí quan no es mogui el ratolí</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1124"/>
         <source>&amp;Raise windows when the mouse pointer moves over them</source>
-        <translation type="unfinished"></translation>
+        <translation>Alça les finest&amp;res quan el punter del ratolí es mou per sobre d&apos;elles</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1126"/>
         <source>Double click on the &amp;titlebar:</source>
-        <translation type="unfinished"></translation>
+        <translation>Doble clic en la barra de &amp;títol:</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1132"/>
         <source>Double click ti&amp;me:</source>
-        <translation type="unfinished"></translation>
+        <translation>Te&amp;mps del doble clic:</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1133"/>
         <source>&amp;Show a notification when switching desktops</source>
-        <translation type="unfinished"></translation>
+        <translation>Mo&amp;stra una notificació quan es canviïn els escriptoris</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1134"/>
         <source>&amp;Amount of time to show the notification for:</source>
-        <translation type="unfinished"></translation>
+        <translation>Interv&amp;al de temps per mostrar la notificació:</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1135"/>
