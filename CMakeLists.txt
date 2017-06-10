@@ -38,6 +38,16 @@ pkg_check_modules(OPENBOX REQUIRED
   obt-3.5
 )
 
+if(NOT CMAKE_BUILD_TYPE)
+    set(CMAKE_BUILD_TYPE Release)
+endif()
+
+set(OBCONFQT_MAJOR_VERSION 0)
+set(OBCONFQT_MINOR_VERSION 11)
+set(OBCONFQT_PATCH_VERSION 2)
+set(OBCONFQT_VERSION ${OBCONFQT_MAJOR_VERSION}.${OBCONFQT_MINOR_VERSION}.${OBCONFQT_PATCH_VERSION})
+add_definitions("-DOBCONFQT_VERSION=\"${OBCONFQT_VERSION}\"")
+
 include(LXQtTranslateTs)
 include(LXQtTranslateDesktop)
 include(LXQtCompilerSettings)
