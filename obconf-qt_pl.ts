@@ -461,7 +461,7 @@ D: Wszechobecne (Na wszystkich pulpitach)</translation>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1063"/>
         <source>&amp;Place new windows under the mouse pointer</source>
-        <translation>_Umieszczaj nowe okna pod wskaźnikiem myszy</translation>
+        <translation>&amp;Umieszczaj nowe okna pod wskaźnikiem myszy</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1064"/>
