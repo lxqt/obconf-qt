@@ -276,12 +276,12 @@ D: Wszechobecne (Na wszystkich pulpitach)</translation>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1148"/>
         <source>Position</source>
-        <translation type="unfinished"></translation>
+        <translation>Położenie</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1149"/>
         <source>&amp;Position:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Położenie:</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1152"/>
@@ -326,7 +326,7 @@ D: Wszechobecne (Na wszystkich pulpitach)</translation>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1160"/>
         <source>Floating</source>
-        <translation type="unfinished"></translation>
+        <translation>Pływające</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1162"/>
@@ -336,27 +336,27 @@ D: Wszechobecne (Na wszystkich pulpitach)</translation>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1163"/>
         <source>x</source>
-        <translation type="unfinished"></translation>
+        <translation>x</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1164"/>
         <source>Allow &amp;windows to be placed within the dock&apos;s area</source>
-        <translation type="unfinished"></translation>
+        <translation>Pozwól na położenie okien &amp;w zadokowanej przestrzeni</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1165"/>
         <source>&amp;Orientation: </source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Obrót:</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1168"/>
         <source>Vertical</source>
-        <translation type="unfinished"></translation>
+        <translation>Pionowo</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1169"/>
         <source>Horizontal</source>
-        <translation type="unfinished"></translation>
+        <translation>Poziomo</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1171"/>
@@ -366,32 +366,32 @@ D: Wszechobecne (Na wszystkich pulpitach)</translation>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1172"/>
         <source>Keep dock &amp;above other windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Pozost&amp;aw dok nad resztą okien</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1173"/>
         <source>A&amp;llow dock to be both above and below windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Pozwó&amp;l na położenie doku nad i pod oknami</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1174"/>
         <source>Keep dock &amp;below other windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Pozostaw dok pod innymi o&amp;knami</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1175"/>
         <source>Hiding</source>
-        <translation type="unfinished"></translation>
+        <translation>Ukrywanie</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1176"/>
         <source>&amp;Delay before hiding:</source>
-        <translation type="unfinished"></translation>
+        <translation>O&amp;dstęp przed ukryciem:</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1177"/>
         <source>Delay before &amp;showing:</source>
-        <translation type="unfinished"></translation>
+        <translation>Odstęp przed &amp;pokazaniem:</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1178"/>
@@ -616,7 +616,17 @@ The program is based on ObConf developed by the following developers.
 * Dana Jansens &lt;danakj@orodu.net&gt;
 * Tim Riley &lt;tr@slackzone.org&gt;
 * Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Menedżer ustawień Openbox
+
+Prawa autorskie (c) 2014-2015
+
+Autorzy:
+* Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;
+
+Ten program jest oparty na ObConf utworzonym przez następujących programistów.
+* Dana Jansens &lt;danakj@orodu.net&gt;
+* Tim Riley &lt;tr@slackzone.org&gt;
+* Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</translation>
     </message>
     <message>
         <source>A preferences manager for Openbox
