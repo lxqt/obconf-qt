@@ -65,7 +65,7 @@
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1033"/>
         <source>Dock</source>
-        <translation type="unfinished"></translation>
+        <translation>Rıhtım</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1036"/>
@@ -80,22 +80,22 @@
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1039"/>
         <source>&amp;Windows retain a border when undecorated</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Pencereler süslemesiz bir sınıra sahip</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1040"/>
         <source>A&amp;nimate iconify and restore</source>
-        <translation type="unfinished"></translation>
+        <translation>S&amp;imgelendirme ve geri yükleme canlandır</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1041"/>
         <source>Window Titles</source>
-        <translation type="unfinished"></translation>
+        <translation>Pencere Başlıkları</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1042"/>
         <source>Button order:</source>
-        <translation type="unfinished"></translation>
+        <translation>Düğme sırası:</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1043"/>
@@ -106,107 +106,113 @@ M: Maximize
 C: Close
 S: Shade (Roll up)
 D: Omnipresent (On all desktops)</source>
-        <translation type="unfinished"></translation>
+        <translation>N: Pencere Simgesi
+L: Pencere etiketi (Başlık)
+I: Simge durumu (Küçült)
+M: Büyüt
+C: Kapat
+S: Gölge (Hareket)
+D: Hazır (Tüm masaüstlerinde)</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1056"/>
         <source>&amp;Active window title: </source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Etkin pencere başlığı: </translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1057"/>
         <source>&amp;Inactive window title: </source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Pasif pencere başlığı: </translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1058"/>
         <source>Menu &amp;header: </source>
-        <translation type="unfinished"></translation>
+        <translation>Menü &amp;başığı: </translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1059"/>
         <source>&amp;Menu Item: </source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Menü Ögesi: </translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1060"/>
         <source>Active &amp;On-screen display: </source>
-        <translation type="unfinished"></translation>
+        <translation>Etkin &amp;Görünen ekranda: </translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1061"/>
         <source>Inactive O&amp;n-screen display: </source>
-        <translation type="unfinished"></translation>
+        <translation>Pasif G&amp;örünen ekranda: </translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1062"/>
         <source>Focus &amp;new windows when they appear</source>
-        <translation type="unfinished"></translation>
+        <translation>Yeni &amp;pencereleri göründükleri zaman odakla</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1063"/>
         <source>&amp;Place new windows under the mouse pointer</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Fare işaretçisinin altına yeni pencereler yerleştirin</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1064"/>
         <source>&amp;Center new windows when they are placed</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Yerleştirildiğinde yeni pencereleri ortala</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1065"/>
         <source>Prefer to place new windows &amp;on:</source>
-        <translation type="unfinished"></translation>
+        <translation>Yeni pencere yerleştirme &amp;tercihi:</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1068"/>
         <source>All monitors</source>
-        <translation type="unfinished"></translation>
+        <translation>Tüm ekranlar</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1069"/>
         <source>The active monitor</source>
-        <translation type="unfinished"></translation>
+        <translation>Etkin ekran</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1070"/>
         <source>The monitor with the mouse</source>
-        <translation type="unfinished"></translation>
+        <translation>Fareyle ekran</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1071"/>
         <source>Primary monitor</source>
-        <translation type="unfinished"></translation>
+        <translation>Birincil ekran</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1073"/>
         <source>Primary Monitor</source>
-        <translation type="unfinished"></translation>
+        <translation>Birincil ekran</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1074"/>
         <source>The primary monitor is where Openbox will place dialogs, such as the one used for cycling windows.</source>
-        <translation type="unfinished"></translation>
+        <translation>Birincil monitör, Openbox'un pencere diyalogları koyacağı yer.</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1075"/>
         <source>Primary &amp;monitor:</source>
-        <translation type="unfinished"></translation>
+        <translation>Birincil &amp;ekran</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1078"/>
         <source>Fixed Monitor</source>
-        <translation type="unfinished"></translation>
+        <translation>Sabit Ekran</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1079"/>
         <source>Active Monitor</source>
-        <translation type="unfinished"></translation>
+        <translation>Etkin Ekran</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1080"/>
         <source>Monitor With Mouse Pointer</source>
-        <translation type="unfinished"></translation>
+        <translation>Ekranı Fareyle İzle</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1082"/>
