@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="pl">
+<TS version="2.0" language="pl">
 <context>
     <name>Fm::FontButton</name>
     <message>
@@ -271,7 +271,7 @@ D: Wszechobecne (Na wszystkich pulpitach)</translation>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1147"/>
         <source>The dock is a special container for &quot;dockapps&quot;, or dock applications.  It is not visible on screen until a dockapp is run.  Dockapps can be used to show things like a clock, or to provide you with a system tray.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dok jest miejscem przeznaczonym na zadokowane aplikacje.  Nie jest widoczny na ekranie, jeżeli nie są one uruchomienie.  Zadokowane aplikacje mogą wyświetlać np. zegar lub zawierać pasek zadań.</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1148"/>
@@ -286,42 +286,42 @@ D: Wszechobecne (Na wszystkich pulpitach)</translation>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1152"/>
         <source>Top Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Górny lewy róg</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1153"/>
         <source>Top</source>
-        <translation type="unfinished"></translation>
+        <translation>Góra</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1154"/>
         <source>Top Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Górny prawy róg</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1155"/>
         <source>Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Lewo</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1156"/>
         <source>Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Prawo</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1157"/>
         <source>Bottom Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Lewy dolny róg</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1158"/>
         <source>Bottom</source>
-        <translation type="unfinished"></translation>
+        <translation>Dół</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1159"/>
         <source>Bottom Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Prawy dolny róg</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1160"/>
@@ -331,7 +331,7 @@ D: Wszechobecne (Na wszystkich pulpitach)</translation>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1162"/>
         <source>&amp;Floating position:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Położenie pływającego doku:</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1163"/>
@@ -361,7 +361,7 @@ D: Wszechobecne (Na wszystkich pulpitach)</translation>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1171"/>
         <source>Stacking</source>
-        <translation type="unfinished"></translation>
+        <translation>Układanie</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1172"/>
@@ -396,7 +396,7 @@ D: Wszechobecne (Na wszystkich pulpitach)</translation>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1178"/>
         <source>&amp;Hide off screen</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ukryj z ekranu</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1179"/>
@@ -638,7 +638,7 @@ Authors:
 * Dana Jansens &lt;danakj@orodu.net&gt;
 * Tim Riley &lt;tr@slackzone.org&gt;
 * Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</source>
-        <translation type="vanished">Zarządca preferencji dla Openbox
+        <translation>Zarządca preferencji dla Openbox
 
 Prawa autorskie (c) 2003-2013
 
@@ -665,7 +665,7 @@ Autorzy:
     <message>
         <location filename="../../archive.cpp" line="53"/>
         <source>&quot;%1&quot; was successfully created</source>
-        <translation>Pomyślnie utworzono &quot;%1&quot;.</translation>
+        <translation>Pomyślnie utworzono &quot;%1&quot;</translation>
     </message>
     <message>
         <location filename="../../archive.cpp" line="89"/>
@@ -685,7 +685,7 @@ Zgłoszono następujące błędy:
     <message>
         <location filename="../../archive.cpp" line="115"/>
         <source>Unable to create directory &quot;%1&quot;: %2</source>
-        <translation>Nie można utworzyć katalogu &quot;%1&quot;: %2.</translation>
+        <translation>Nie można utworzyć katalogu &quot;%1&quot;: %2</translation>
     </message>
     <message>
         <location filename="../../archive.cpp" line="138"/>
@@ -771,7 +771,9 @@ Opcje:
         <source>Error while parsing the Openbox configuration file.  Your configuration file is not valid XML.
 
 Message: %1</source>
-        <translation>Błąd wczytania pliku rc.xml. Prawdopodobnie Openbox nie został poprawnie zainstalowany.</translation>
+        <translation>Błąd wczytania pliku konfiguracyjnego Openboksa. Plik nie jest prawidłowym plikiem XML.
+
+Wiadomość: %1</translation>
     </message>
     <message>
         <location filename="../../obconf-qt.cpp" line="58"/>
