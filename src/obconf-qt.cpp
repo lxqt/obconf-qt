@@ -1,20 +1,20 @@
 /* -*- indent-tabs-mode: nil; tab-width: 4; c-basic-offset: 4; -*-
- * 
+ *
  * main.c for ObConf, the configuration tool for Openbox
  * Copyright (c) 2003-2008   Dana Jansens
  * Copyright (c) 2003        Tim Riley
  * Copyright (C) 2013        Hong Jen Yee (PCMan) <pcman.tw@gmail.com>
- * 
+ *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation; either version 2 of the License, or
  * (at your option) any later version.
- * 
+ *
  * This program is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
- * 
+ *
  * See the COPYING file for a copy of the GNU General Public License.
  */
 
@@ -180,11 +180,15 @@ static gboolean prop_get_string_utf8(Window win, Atom prop, gchar** ret) {
 
 int main(int argc, char** argv) {
   QApplication app(argc, argv);
+  app.setAttribute(Qt::AA_UseHighDpiPixmaps, true);
+
   // load translations
   QTranslator qtTranslator, translator;
+
   // install the translations built-into Qt itself
   qtTranslator.load("qt_" + QLocale::system().name(), QLibraryInfo::location(QLibraryInfo::TranslationsPath));
   app.installTranslator(&qtTranslator);
+
   // install our own tranlations
   translator.load("obconf-qt_" + QLocale::system().name(), PACKAGE_DATA_DIR "/translations");
   app.installTranslator(&translator);
