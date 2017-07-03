@@ -23,7 +23,7 @@ else()
   find_package(Qt5Widgets REQUIRED)
   find_package(Qt5X11Extras REQUIRED)
   find_package(Qt5LinguistTools REQUIRED QUIET)
-  message(STATUS "Building with Qt${Qt5Core_VERSION_STRING}")
+  message(STATUS "Building with Qt${Qt5Core_VERSION}")
 endif()
 
 find_package(lxqt-build-tools ${LXQTBT_MINIMUM_VERSION} REQUIRED)
