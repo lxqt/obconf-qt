@@ -17,88 +17,88 @@
 <context>
     <name>MainDialog</name>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1012"/>
+        <location filename="../../ui_obconf.h" line="1012"/>
         <source>Window Manager Preferences</source>
         <translation>Langų tvarkytuvės nuostatos</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1017"/>
+        <location filename="../../ui_obconf.h" line="1017"/>
         <source>Theme</source>
         <translation>Tema</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1019"/>
+        <location filename="../../ui_obconf.h" line="1019"/>
         <source>Appearance</source>
         <translation>Išvaizda</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1021"/>
+        <location filename="../../ui_obconf.h" line="1021"/>
         <source>Font</source>
         <translation>Šriftas</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1023"/>
-        <location filename="../../../build/src/ui_obconf.h" line="1038"/>
+        <location filename="../../ui_obconf.h" line="1023"/>
+        <location filename="../../ui_obconf.h" line="1038"/>
         <source>Windows</source>
         <translation>Langai</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1025"/>
+        <location filename="../../ui_obconf.h" line="1025"/>
         <source>Move &amp; Resize</source>
         <translation>Perkėlimas ir dydžio keitimas</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1027"/>
+        <location filename="../../ui_obconf.h" line="1027"/>
         <source>Mouse</source>
         <translation>Pelė</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1029"/>
+        <location filename="../../ui_obconf.h" line="1029"/>
         <source>Desktops</source>
         <translation>Darbalaukiai</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1031"/>
+        <location filename="../../ui_obconf.h" line="1031"/>
         <source>Margins</source>
         <translation>Paraštės</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1033"/>
+        <location filename="../../ui_obconf.h" line="1033"/>
         <source>Dock</source>
         <translation>Dėklas</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1036"/>
+        <location filename="../../ui_obconf.h" line="1036"/>
         <source>&amp;Install a new theme...</source>
         <translation>Į&amp;diegti naują temą...</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1037"/>
+        <location filename="../../ui_obconf.h" line="1037"/>
         <source>Create a theme &amp;archive (.obt)...</source>
         <translation>Sukurti temos &amp;archyvą (.obt)...</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1039"/>
+        <location filename="../../ui_obconf.h" line="1039"/>
         <source>&amp;Windows retain a border when undecorated</source>
         <translation>&amp;Pašalinus dekoravimą, langai išsaugo rėmelį</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1040"/>
+        <location filename="../../ui_obconf.h" line="1040"/>
         <source>A&amp;nimate iconify and restore</source>
         <translation>A&amp;nimuoti suskleidimą ir išskleidimą</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1041"/>
+        <location filename="../../ui_obconf.h" line="1041"/>
         <source>Window Titles</source>
         <translation>Langų pavadinimai</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1042"/>
+        <location filename="../../ui_obconf.h" line="1042"/>
         <source>Button order:</source>
         <translation>Mygtukų tvarka:</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1043"/>
+        <location filename="../../ui_obconf.h" line="1043"/>
         <source>N: Window icon
 L: Window label (Title)
 I: Iconify (Minimize)
@@ -115,471 +115,471 @@ S: Užraityti
 D: &quot;Visuose darbalaukiuose&quot; mygtukas</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1056"/>
+        <location filename="../../ui_obconf.h" line="1056"/>
         <source>&amp;Active window title: </source>
         <translation>&amp;Aktyvaus lango pavadinimas: </translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1057"/>
+        <location filename="../../ui_obconf.h" line="1057"/>
         <source>&amp;Inactive window title: </source>
         <translation>&amp;Neaktyvaus lango pavadinimas: </translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1058"/>
+        <location filename="../../ui_obconf.h" line="1058"/>
         <source>Menu &amp;header: </source>
         <translation>Meniu &amp;antraštė: </translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1059"/>
+        <location filename="../../ui_obconf.h" line="1059"/>
         <source>&amp;Menu Item: </source>
         <translation>&amp;Meniu elementas: </translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1060"/>
+        <location filename="../../ui_obconf.h" line="1060"/>
         <source>Active &amp;On-screen display: </source>
         <translation>Aktyvus rodymas &amp;ekrane (OSD): </translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1061"/>
+        <location filename="../../ui_obconf.h" line="1061"/>
         <source>Inactive O&amp;n-screen display: </source>
         <translation>Neaktyvus rodymas ekra&amp;ne (OSD):</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1062"/>
+        <location filename="../../ui_obconf.h" line="1062"/>
         <source>Focus &amp;new windows when they appear</source>
         <translation>Fokusuoti &amp;naujus langus, jiems atsiradus</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1063"/>
+        <location filename="../../ui_obconf.h" line="1063"/>
         <source>&amp;Place new windows under the mouse pointer</source>
         <translation>&amp;Kurti naujus langus po pelės žymekliu</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1064"/>
+        <location filename="../../ui_obconf.h" line="1064"/>
         <source>&amp;Center new windows when they are placed</source>
         <translation>&amp;Išdėstant naujus langus, juos centruoti</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1065"/>
+        <location filename="../../ui_obconf.h" line="1065"/>
         <source>Prefer to place new windows &amp;on:</source>
         <translation>Teikti pirmenybę išdėstyti nau&amp;jus langus:</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1068"/>
+        <location filename="../../ui_obconf.h" line="1068"/>
         <source>All monitors</source>
         <translation>Visuose monitoriuose</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1069"/>
+        <location filename="../../ui_obconf.h" line="1069"/>
         <source>The active monitor</source>
         <translation>Aktyviame monitoriuje</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1070"/>
+        <location filename="../../ui_obconf.h" line="1070"/>
         <source>The monitor with the mouse</source>
         <translation>Monitoriuje, kuriame yra pelė</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1071"/>
+        <location filename="../../ui_obconf.h" line="1071"/>
         <source>Primary monitor</source>
         <translation>Pirminiame monitoriuje</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1073"/>
+        <location filename="../../ui_obconf.h" line="1073"/>
         <source>Primary Monitor</source>
         <translation>Pirminis monitorius</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1074"/>
+        <location filename="../../ui_obconf.h" line="1074"/>
         <source>The primary monitor is where Openbox will place dialogs, such as the one used for cycling windows.</source>
         <translation>Pirminis monitorius yra tas, kuriame Openbox rodys dialogus, kaip, pavyzdžiui, tą, kuris yra naudojamas langų perjungimui.</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1075"/>
+        <location filename="../../ui_obconf.h" line="1075"/>
         <source>Primary &amp;monitor:</source>
         <translation>Pirminis &amp;monitorius:</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1078"/>
+        <location filename="../../ui_obconf.h" line="1078"/>
         <source>Fixed Monitor</source>
         <translation>Pasirinktas monitorius</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1079"/>
+        <location filename="../../ui_obconf.h" line="1079"/>
         <source>Active Monitor</source>
         <translation>Aktyvus monitorius</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1080"/>
+        <location filename="../../ui_obconf.h" line="1080"/>
         <source>Monitor With Mouse Pointer</source>
         <translation>Monitorius, kuriame yra pelės žymeklis</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1082"/>
+        <location filename="../../ui_obconf.h" line="1082"/>
         <source>&amp;Fixed monitor:</source>
         <translation>&amp;Pasirinktas monitorius:</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1083"/>
+        <location filename="../../ui_obconf.h" line="1083"/>
         <source>Moving and Resizing Windows</source>
         <translation>Langų perkėlimas ir dydžio keitimas</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1084"/>
+        <location filename="../../ui_obconf.h" line="1084"/>
         <source>Update the window contents while &amp;resizing</source>
         <translation>Ke&amp;ičiant lango dydį, atnaujinti lango turinį</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1085"/>
+        <location filename="../../ui_obconf.h" line="1085"/>
         <source>Drag &amp;threshold distance:</source>
         <translation>Atstumas, &amp;po kurio langas bus pradedamas vilkti:</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1086"/>
+        <location filename="../../ui_obconf.h" line="1086"/>
         <source>Amount of resistance against other &amp;windows:</source>
         <translation>Pasipriešinimo kitiems lan&amp;gams kiekis:</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1087"/>
+        <location filename="../../ui_obconf.h" line="1087"/>
         <source>Amount of resistance against screen &amp;edges:</source>
         <translation>Pasipriešinimo ekrano &amp;kraštams kiekis:</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1088"/>
+        <location filename="../../ui_obconf.h" line="1088"/>
         <source>&amp;Amount of time to wait before switching:</source>
         <translation>Ki&amp;ek laiko laukti prieš perjungiant:</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1089"/>
+        <location filename="../../ui_obconf.h" line="1089"/>
         <source>&amp;Switch desktops when moving a window past the screen edge</source>
         <translation>&amp;Nuvilkus langą už ekrano krašto, perjungti į kitą darbalaukį</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1090"/>
+        <location filename="../../ui_obconf.h" line="1090"/>
         <source>Information Dialog</source>
         <translation>Informacinis dialogas</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1093"/>
-        <location filename="../../../build/src/ui_obconf.h" line="1100"/>
+        <location filename="../../ui_obconf.h" line="1093"/>
+        <location filename="../../ui_obconf.h" line="1100"/>
         <source>Centered</source>
         <translation>Centruota</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1094"/>
+        <location filename="../../ui_obconf.h" line="1094"/>
         <source>From left edge</source>
         <translation>Nuo kairiojo krašto</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1095"/>
+        <location filename="../../ui_obconf.h" line="1095"/>
         <source>From right edge</source>
         <translation>Nuo dešiniojo krašto</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1097"/>
+        <location filename="../../ui_obconf.h" line="1097"/>
         <source>Fixed &amp;y position:</source>
         <translation>Nustatyta &amp;y vieta:</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1101"/>
+        <location filename="../../ui_obconf.h" line="1101"/>
         <source>From top edge</source>
         <translation>Nuo viršutinio krašto</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1102"/>
+        <location filename="../../ui_obconf.h" line="1102"/>
         <source>From bottom edge</source>
         <translation>Nuo apatinio krašto</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1104"/>
+        <location filename="../../ui_obconf.h" line="1104"/>
         <source>Information dialog&apos;s &amp;position:</source>
         <translation>Informacinio dialogo &amp;vieta:</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1105"/>
+        <location filename="../../ui_obconf.h" line="1105"/>
         <source>Fixed &amp;x position:</source>
         <translation>Nustatyta &amp;x vieta:</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1106"/>
+        <location filename="../../ui_obconf.h" line="1106"/>
         <source>Show &amp;information dialog:</source>
         <translation>Rodyti &amp;informacinį dialogą:</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1109"/>
+        <location filename="../../ui_obconf.h" line="1109"/>
         <source>When resizing terminal windows</source>
         <translation>Keičiant terminalo langų dydį</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1110"/>
+        <location filename="../../ui_obconf.h" line="1110"/>
         <source>Always</source>
         <translation>Visada</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1111"/>
+        <location filename="../../ui_obconf.h" line="1111"/>
         <source>Never</source>
         <translation>Niekada</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1115"/>
+        <location filename="../../ui_obconf.h" line="1115"/>
         <source>Centered on the window</source>
         <translation>Lango centre</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1116"/>
+        <location filename="../../ui_obconf.h" line="1116"/>
         <source>Above the window</source>
         <translation>Virš lango</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1117"/>
+        <location filename="../../ui_obconf.h" line="1117"/>
         <source>Fixed position on screen</source>
         <translation>Nustatyta vieta ekrane</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1119"/>
+        <location filename="../../ui_obconf.h" line="1119"/>
         <source>Focusing Windows</source>
         <translation>Langų fokusavimas</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1120"/>
+        <location filename="../../ui_obconf.h" line="1120"/>
         <source>Focus windows when the mouse pointer moves over them</source>
         <translation>Fokusuoti langą, kai virš jo yra pelės žymeklis</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1121"/>
+        <location filename="../../ui_obconf.h" line="1121"/>
         <source>&amp;Delay before focusing and raising windows:</source>
         <translation>&amp;Delsa prieš fokusuojant ar iškeliant langą:</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1122"/>
+        <location filename="../../ui_obconf.h" line="1122"/>
         <source>Move focus under the mouse when &amp;switching desktops</source>
         <translation>&amp;Perjungiant darbalaukius, fokusą perkelti po pele</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1123"/>
+        <location filename="../../ui_obconf.h" line="1123"/>
         <source>Move focus &amp;under the mouse when the mouse is not moving</source>
         <translation>Kai &amp;pelė nejuda, perkelti fokusą po pele</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1124"/>
+        <location filename="../../ui_obconf.h" line="1124"/>
         <source>&amp;Raise windows when the mouse pointer moves over them</source>
         <translation>&amp;Iškelti langą, kai virš jo yra judinamas pelės žymeklis</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1125"/>
+        <location filename="../../ui_obconf.h" line="1125"/>
         <source>Titlebar</source>
         <translation>Pavadinimo juosta</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1126"/>
+        <location filename="../../ui_obconf.h" line="1126"/>
         <source>Double click on the &amp;titlebar:</source>
         <translation>Dvikartis spustelėjimas ant pavadinimo &amp;juostos:</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1129"/>
+        <location filename="../../ui_obconf.h" line="1129"/>
         <source>Maximizes the window</source>
         <translation>Išskleidžia langą</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1130"/>
+        <location filename="../../ui_obconf.h" line="1130"/>
         <source>Shades the window</source>
         <translation>Užraito langą</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1132"/>
+        <location filename="../../ui_obconf.h" line="1132"/>
         <source>Double click ti&amp;me:</source>
         <translation>Dvikarčio spustelėjimo &amp;laikas:</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1133"/>
+        <location filename="../../ui_obconf.h" line="1133"/>
         <source>&amp;Show a notification when switching desktops</source>
         <translation>&amp;Perjungiant darbalaukį, rodyti pranešimą</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1134"/>
+        <location filename="../../ui_obconf.h" line="1134"/>
         <source>&amp;Amount of time to show the notification for:</source>
         <translation>&amp;Kiek laiko rodyti pranešimą:</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1135"/>
+        <location filename="../../ui_obconf.h" line="1135"/>
         <source>&amp;Number of desktops: </source>
         <translation>&amp;Darbalaukių skaičius: </translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1136"/>
+        <location filename="../../ui_obconf.h" line="1136"/>
         <source>&amp;Desktop names:</source>
         <translation>Darbalaukių &amp;pavadinimai:</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1137"/>
+        <location filename="../../ui_obconf.h" line="1137"/>
         <source>Desktop Margins</source>
         <translation>Darbalaukio paraštės</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1138"/>
+        <location filename="../../ui_obconf.h" line="1138"/>
         <source>Desktop margins are reserved areas on the edge of your screen.  New windows will not be placed within a margin, and maximized windows will not cover them.</source>
         <translation>Darbalaukio paraštės tai rezervuota vieta jūsų ekrano kraštuose. Į paraštes nebus išdėstomi nauji langai, o išskleisti langai jų neuždengs.</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1139"/>
+        <location filename="../../ui_obconf.h" line="1139"/>
         <source>Left:</source>
         <translation>Kairė:</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1140"/>
-        <location filename="../../../build/src/ui_obconf.h" line="1142"/>
-        <location filename="../../../build/src/ui_obconf.h" line="1144"/>
-        <location filename="../../../build/src/ui_obconf.h" line="1146"/>
+        <location filename="../../ui_obconf.h" line="1140"/>
+        <location filename="../../ui_obconf.h" line="1142"/>
+        <location filename="../../ui_obconf.h" line="1144"/>
+        <location filename="../../ui_obconf.h" line="1146"/>
         <source>px</source>
         <translation>pikselių</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1141"/>
+        <location filename="../../ui_obconf.h" line="1141"/>
         <source>Top:</source>
         <translation>Viršus:</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1143"/>
+        <location filename="../../ui_obconf.h" line="1143"/>
         <source>Right:</source>
         <translation>Dešinė:</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1145"/>
+        <location filename="../../ui_obconf.h" line="1145"/>
         <source>Bottom:</source>
         <translation>Apačia:</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1147"/>
+        <location filename="../../ui_obconf.h" line="1147"/>
         <source>The dock is a special container for &quot;dockapps&quot;, or dock applications.  It is not visible on screen until a dockapp is run.  Dockapps can be used to show things like a clock, or to provide you with a system tray.</source>
         <translation>Dėklas (angl. Dock) tai specialus konteineris, kuris yra skirtas „dockapps“ arba dėklo programoms. Jis nėra matomas ekrane tol, kol neveikia dėklo programa (angl. dockapp). Dėklo programos gali būti naudojamos rodyti tokius dalykus kaip laikrodis ar suteikti sistemos dėklą.</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1148"/>
+        <location filename="../../ui_obconf.h" line="1148"/>
         <source>Position</source>
         <translation>Vieta</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1149"/>
+        <location filename="../../ui_obconf.h" line="1149"/>
         <source>&amp;Position:</source>
         <translation>&amp;Vieta:</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1152"/>
+        <location filename="../../ui_obconf.h" line="1152"/>
         <source>Top Left</source>
         <translation>Viršuje kairėje</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1153"/>
+        <location filename="../../ui_obconf.h" line="1153"/>
         <source>Top</source>
         <translation>Viršuje</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1154"/>
+        <location filename="../../ui_obconf.h" line="1154"/>
         <source>Top Right</source>
         <translation>Viršuje dešinėje</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1155"/>
+        <location filename="../../ui_obconf.h" line="1155"/>
         <source>Left</source>
         <translation>Kairėje</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1156"/>
+        <location filename="../../ui_obconf.h" line="1156"/>
         <source>Right</source>
         <translation>Dešinėje</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1157"/>
+        <location filename="../../ui_obconf.h" line="1157"/>
         <source>Bottom Left</source>
         <translation>Apačioje kairėje</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1158"/>
+        <location filename="../../ui_obconf.h" line="1158"/>
         <source>Bottom</source>
         <translation>Apačioje</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1159"/>
+        <location filename="../../ui_obconf.h" line="1159"/>
         <source>Bottom Right</source>
         <translation>Apačioje dešinėje</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1160"/>
+        <location filename="../../ui_obconf.h" line="1160"/>
         <source>Floating</source>
         <translation>Slanki</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1162"/>
+        <location filename="../../ui_obconf.h" line="1162"/>
         <source>&amp;Floating position:</source>
         <translation>&amp;Slankiojanti pozicija:</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1163"/>
+        <location filename="../../ui_obconf.h" line="1163"/>
         <source>x</source>
         <translation>x</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1164"/>
+        <location filename="../../ui_obconf.h" line="1164"/>
         <source>Allow &amp;windows to be placed within the dock&apos;s area</source>
         <translation>Leisti &amp;išdėstyti langus dėklo srityje</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1165"/>
+        <location filename="../../ui_obconf.h" line="1165"/>
         <source>&amp;Orientation: </source>
         <translation>&amp;Padėtis: </translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1168"/>
+        <location filename="../../ui_obconf.h" line="1168"/>
         <source>Vertical</source>
         <translation>Vertikali</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1169"/>
+        <location filename="../../ui_obconf.h" line="1169"/>
         <source>Horizontal</source>
         <translation>Horizontali</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1171"/>
+        <location filename="../../ui_obconf.h" line="1171"/>
         <source>Stacking</source>
         <translation>Sudėliojimas</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1172"/>
+        <location filename="../../ui_obconf.h" line="1172"/>
         <source>Keep dock &amp;above other windows</source>
         <translation>&amp;Laikyti dėklą virš kitų langų</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1173"/>
+        <location filename="../../ui_obconf.h" line="1173"/>
         <source>A&amp;llow dock to be both above and below windows</source>
         <translation>Leisti dėklui &amp;būti virš ir po kitais langais</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1174"/>
+        <location filename="../../ui_obconf.h" line="1174"/>
         <source>Keep dock &amp;below other windows</source>
         <translation>Laikyti dėklą &amp;po kitais langais</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1175"/>
+        <location filename="../../ui_obconf.h" line="1175"/>
         <source>Hiding</source>
         <translation>Slėpimas</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1176"/>
+        <location filename="../../ui_obconf.h" line="1176"/>
         <source>&amp;Delay before hiding:</source>
         <translation>&amp;Delsa prieš slepiant:</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1177"/>
+        <location filename="../../ui_obconf.h" line="1177"/>
         <source>Delay before &amp;showing:</source>
         <translation>Delsa prieš &amp;rodant:</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1178"/>
+        <location filename="../../ui_obconf.h" line="1178"/>
         <source>&amp;Hide off screen</source>
         <translation>&amp;Slėpti iš ekrano</translation>
     </message>
     <message>
-        <location filename="../../../build/src/ui_obconf.h" line="1179"/>
+        <location filename="../../ui_obconf.h" line="1179"/>
         <source>About</source>
         <translation>Apie</translation>
     </message>
@@ -759,18 +759,18 @@ Parametrai:
 </translation>
     </message>
     <message>
-        <location filename="../../obconf-qt.cpp" line="221"/>
-        <location filename="../../obconf-qt.cpp" line="237"/>
+        <location filename="../../obconf-qt.cpp" line="225"/>
+        <location filename="../../obconf-qt.cpp" line="241"/>
         <source>Error</source>
         <translation>Klaida</translation>
     </message>
     <message>
-        <location filename="../../obconf-qt.cpp" line="222"/>
+        <location filename="../../obconf-qt.cpp" line="226"/>
         <source>Failed to load an rc.xml. You have probably failed to install Openbox properly.</source>
         <translation>Nepavyko įkelti rc.xml. Jums, greičiausiai, nepavyko tinkamai įdiegti Openbox.</translation>
     </message>
     <message>
-        <location filename="../../obconf-qt.cpp" line="235"/>
+        <location filename="../../obconf-qt.cpp" line="239"/>
         <source>Error while parsing the Openbox configuration file.  Your configuration file is not valid XML.
 
 Message: %1</source>
