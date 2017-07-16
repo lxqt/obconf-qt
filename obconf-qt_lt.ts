@@ -142,7 +142,7 @@ D: &quot;Visuose darbalaukiuose&quot; mygtukas</translation>
     <message>
         <location filename="../../ui_obconf.h" line="1061"/>
         <source>Inactive O&amp;n-screen display: </source>
-        <translation>Neaktyvus rodymas ekra&amp;ne (OSD):</translation>
+        <translation>Neaktyvus rodymas ekra&amp;ne (OSD): </translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1062"/>
