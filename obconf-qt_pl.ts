@@ -346,7 +346,7 @@ D: Wszechobecne (Na wszystkich pulpitach)</translation>
     <message>
         <location filename="../../ui_obconf.h" line="1165"/>
         <source>&amp;Orientation: </source>
-        <translation>&amp;Obrót:</translation>
+        <translation>&amp;Obrót: </translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1168"/>
