@@ -110,7 +110,7 @@
     <message>
         <location filename="../../ui_obconf.h" line="1138"/>
         <source>Desktop margins are reserved areas on the edge of your screen.  New windows will not be placed within a margin, and maximized windows will not cover them.</source>
-        <translation>Obrzeża pulpitu to zarezerwowany obszar na krawędziach Twojego ekranu.  Nowe okna nie będą umieszczane na obrzeżach, a maksymalizowane okna nie będą ich pokrywać.</translation>
+        <translation>Obrzeża pulpitu to zarezerwowany obszar na krawędziach Twojego ekranu. Nowe okna nie będą umieszczane na obrzeżach, a maksymalizowane okna nie będą ich pokrywać.</translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1139"/>
@@ -271,7 +271,7 @@ D: Wszechobecne (Na wszystkich pulpitach)</translation>
     <message>
         <location filename="../../ui_obconf.h" line="1147"/>
         <source>The dock is a special container for &quot;dockapps&quot;, or dock applications.  It is not visible on screen until a dockapp is run.  Dockapps can be used to show things like a clock, or to provide you with a system tray.</source>
-        <translation>Dok jest miejscem przeznaczonym na zadokowane aplikacje.  Nie jest widoczny na ekranie, jeżeli nie są one uruchomienie.  Zadokowane aplikacje mogą wyświetlać np. zegar lub zawierać pasek zadań.</translation>
+        <translation>Dok jest miejscem przeznaczonym na zadokowane aplikacje. Nie jest widoczny na ekranie, jeżeli nie są one uruchomienie. Zadokowane aplikacje mogą wyświetlać np. zegar lub zawierać pasek zadań.</translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1148"/>
@@ -406,12 +406,12 @@ D: Wszechobecne (Na wszystkich pulpitach)</translation>
     <message>
         <location filename="../../ui_obconf.h" line="1036"/>
         <source>&amp;Install a new theme...</source>
-        <translation>&amp;Zainstaluj nowy motyw...</translation>
+        <translation>&amp;Zainstaluj nowy motyw…</translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1037"/>
         <source>Create a theme &amp;archive (.obt)...</source>
-        <translation>&amp;Utwórz archiwum motywu (.obt)...</translation>
+        <translation>&amp;Utwórz archiwum motywu (.obt)…</translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1039"/>
@@ -486,12 +486,12 @@ D: Wszechobecne (Na wszystkich pulpitach)</translation>
     <message>
         <location filename="../../ui_obconf.h" line="1084"/>
         <source>Update the window contents while &amp;resizing</source>
-        <translation>Aktualizacja zawa&amp;rtości okna przy zmianie jego wielkości</translation>
+        <translation>Aktualizacja zawa&amp;rtości okna podczas zmiany jego rozmiaru</translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1085"/>
         <source>Drag &amp;threshold distance:</source>
-        <translation>Opór odle&amp;głości progowej:</translation>
+        <translation>&amp;Odległość oporu przy przemieszczaniu:</translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1086"/>
