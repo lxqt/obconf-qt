@@ -2,8 +2,8 @@
 
 # git files
 .gitattributes export-ignore
+.github        export-ignore
 .gitignore     export-ignore
-
 
 # several files and directories we never want to export 
 # a little bit belt and braces as the most of these files
