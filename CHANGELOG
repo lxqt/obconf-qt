@@ -1,7 +1,24 @@
 
-obconf-qt-0.11.1 / 2016-12-11
+obconf-qt-0.12.0 / 2017-09-24
 =============================
 
+  * Bump version to 0.12.0
+  * Don't export github templates
+  * Added Lithuanian language
+  * liblxqt dont make sense here
+  * Copied issue template
+  * Drops Qt5Core_VERSION_STRING
+  * set Qt::AA_UseHighDpiPixmaps to true
+  * Added default CMAKE_BUILD_TYPE and versioning (#29)
+  * added Polish translation
+  * Add obconf-qt_ca.desktop (Catalan)
+  * Update AUTHORS
+  * Added *da.desktop
+
+0.11.1 / 2016-12-11
+===================
+
+  * Release 0.11.1: Update changelog
   * Create obconf-qt_fr.desktop
   * Use the LXQtCompilerSettings
   * Use lxqt-build-tools translation modules
