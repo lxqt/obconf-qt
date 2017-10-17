@@ -346,7 +346,7 @@ D: Omnipresent (en tots els escriptoris)</translation>
     <message>
         <location filename="../../ui_obconf.h" line="1165"/>
         <source>&amp;Orientation: </source>
-        <translation>&amp;Orientació:</translation>
+        <translation>&amp;Orientació: </translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1168"/>
@@ -446,12 +446,12 @@ D: Omnipresent (en tots els escriptoris)</translation>
     <message>
         <location filename="../../ui_obconf.h" line="1060"/>
         <source>Active &amp;On-screen display: </source>
-        <translation>M&amp;ostra en pantalla actiu:</translation>
+        <translation>M&amp;ostra en pantalla actiu: </translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1061"/>
         <source>Inactive O&amp;n-screen display: </source>
-        <translation>Mostra en pantalla i&amp;nactiu:</translation>
+        <translation>Mostra en pantalla i&amp;nactiu: </translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1062"/>
@@ -581,7 +581,7 @@ D: Omnipresent (en tots els escriptoris)</translation>
     <message>
         <location filename="../../ui_obconf.h" line="1136"/>
         <source>&amp;Desktop names:</source>
-        <translation>Noms &amp;dels escriptoris: </translation>
+        <translation>Noms &amp;dels escriptoris:</translation>
     </message>
 </context>
 <context>
