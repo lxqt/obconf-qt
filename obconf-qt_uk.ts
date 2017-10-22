@@ -17,237 +17,237 @@
 <context>
     <name>MainDialog</name>
     <message>
-        <location filename="../../ui_obconf.h" line="1027"/>
+        <location filename="../../ui_obconf.h" line="1059"/>
         <source>Mouse</source>
         <translation>Мишка</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1012"/>
+        <location filename="../../ui_obconf.h" line="1044"/>
         <source>Window Manager Preferences</source>
         <translation>Параметри менеджера файлів</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1017"/>
+        <location filename="../../ui_obconf.h" line="1049"/>
         <source>Theme</source>
         <translation>Тема</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1019"/>
+        <location filename="../../ui_obconf.h" line="1051"/>
         <source>Appearance</source>
         <translation>Вигляд</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1021"/>
+        <location filename="../../ui_obconf.h" line="1053"/>
         <source>Font</source>
         <translation>Шрифт</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1023"/>
-        <location filename="../../ui_obconf.h" line="1038"/>
+        <location filename="../../ui_obconf.h" line="1055"/>
+        <location filename="../../ui_obconf.h" line="1070"/>
         <source>Windows</source>
         <translation>Вікна</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1025"/>
+        <location filename="../../ui_obconf.h" line="1057"/>
         <source>Move &amp; Resize</source>
         <translation>Перемістити і Змінити розмір</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1029"/>
+        <location filename="../../ui_obconf.h" line="1061"/>
         <source>Desktops</source>
         <translation>Стільниці</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1031"/>
+        <location filename="../../ui_obconf.h" line="1063"/>
         <source>Margins</source>
         <translation>Поля</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1033"/>
+        <location filename="../../ui_obconf.h" line="1065"/>
         <source>Dock</source>
         <translation>Док</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1041"/>
+        <location filename="../../ui_obconf.h" line="1073"/>
         <source>Window Titles</source>
         <translation>Заголовки вікон</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1042"/>
+        <location filename="../../ui_obconf.h" line="1074"/>
         <source>Button order:</source>
         <translation>Послідовність кнопок:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1083"/>
+        <location filename="../../ui_obconf.h" line="1111"/>
         <source>Moving and Resizing Windows</source>
         <translation>Пересування і зміна розмірів вікон</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1090"/>
+        <location filename="../../ui_obconf.h" line="1118"/>
         <source>Information Dialog</source>
         <translation>Діалог інформації</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1119"/>
+        <location filename="../../ui_obconf.h" line="1139"/>
         <source>Focusing Windows</source>
         <translation>Фокусування вікон</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1120"/>
+        <location filename="../../ui_obconf.h" line="1140"/>
         <source>Focus windows when the mouse pointer moves over them</source>
         <translation>Фокусування вікон, якщо вказівник миші знаходиться над ними</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1125"/>
+        <location filename="../../ui_obconf.h" line="1145"/>
         <source>Titlebar</source>
         <translation>Заголовок</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1137"/>
+        <location filename="../../ui_obconf.h" line="1155"/>
         <source>Desktop Margins</source>
         <translation>Поля стільниці</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1138"/>
+        <location filename="../../ui_obconf.h" line="1156"/>
         <source>Desktop margins are reserved areas on the edge of your screen.  New windows will not be placed within a margin, and maximized windows will not cover them.</source>
         <translation>Поля робочого столу - це зарезервовані ділянки на краю Вашого екрану. Нові вікна не будуть поміщені за цими межами, а максимізовані вікна не будуть закривати їх.</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1139"/>
+        <location filename="../../ui_obconf.h" line="1157"/>
         <source>Left:</source>
         <translation>Ліворуч:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1140"/>
-        <location filename="../../ui_obconf.h" line="1142"/>
-        <location filename="../../ui_obconf.h" line="1144"/>
-        <location filename="../../ui_obconf.h" line="1146"/>
+        <location filename="../../ui_obconf.h" line="1158"/>
+        <location filename="../../ui_obconf.h" line="1160"/>
+        <location filename="../../ui_obconf.h" line="1162"/>
+        <location filename="../../ui_obconf.h" line="1164"/>
         <source>px</source>
         <translation>пт</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1141"/>
+        <location filename="../../ui_obconf.h" line="1159"/>
         <source>Top:</source>
         <translation>Згори:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1143"/>
+        <location filename="../../ui_obconf.h" line="1161"/>
         <source>Right:</source>
         <translation>Праворуч:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1145"/>
+        <location filename="../../ui_obconf.h" line="1163"/>
         <source>Bottom:</source>
         <translation>Знизу:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1068"/>
+        <location filename="../../ui_obconf.h" line="1098"/>
         <source>All monitors</source>
         <translation>Всі монітори</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1069"/>
+        <location filename="../../ui_obconf.h" line="1099"/>
         <source>The active monitor</source>
         <translation>Активний монітор</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1070"/>
+        <location filename="../../ui_obconf.h" line="1100"/>
         <source>The monitor with the mouse</source>
         <translation>Монітор з мишкою</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1073"/>
+        <location filename="../../ui_obconf.h" line="1103"/>
         <source>Primary Monitor</source>
         <translation>Головний монітор</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1074"/>
+        <location filename="../../ui_obconf.h" line="1104"/>
         <source>The primary monitor is where Openbox will place dialogs, such as the one used for cycling windows.</source>
         <translation>Головний монітор - це монітор, де Openbox поміщає діалоги, наприклад, як діалог прокрутки вікон.</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1078"/>
+        <location filename="../../ui_obconf.h" line="1106"/>
         <source>Fixed Monitor</source>
         <translation>Фіксований монітор</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1079"/>
+        <location filename="../../ui_obconf.h" line="1107"/>
         <source>Active Monitor</source>
         <translation>Активний монітор</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1080"/>
+        <location filename="../../ui_obconf.h" line="1108"/>
         <source>Monitor With Mouse Pointer</source>
         <translation>Монітор з вказівником миші</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1093"/>
-        <location filename="../../ui_obconf.h" line="1100"/>
+        <location filename="../../ui_obconf.h" line="1119"/>
+        <location filename="../../ui_obconf.h" line="1124"/>
         <source>Centered</source>
         <translation>У центрі</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1094"/>
+        <location filename="../../ui_obconf.h" line="1120"/>
         <source>From left edge</source>
         <translation>Від лівого краю</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1095"/>
+        <location filename="../../ui_obconf.h" line="1121"/>
         <source>From right edge</source>
         <translation>Від правого краю</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1101"/>
+        <location filename="../../ui_obconf.h" line="1125"/>
         <source>From top edge</source>
         <translation>Від верхнього краю</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1102"/>
+        <location filename="../../ui_obconf.h" line="1126"/>
         <source>From bottom edge</source>
         <translation>Від нижнього краю</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1109"/>
+        <location filename="../../ui_obconf.h" line="1131"/>
         <source>When resizing terminal windows</source>
         <translation>При зміні розмірів термінального вікна</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1110"/>
+        <location filename="../../ui_obconf.h" line="1132"/>
         <source>Always</source>
         <translation>Завжди</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1111"/>
+        <location filename="../../ui_obconf.h" line="1133"/>
         <source>Never</source>
         <translation>Ніколи</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1115"/>
+        <location filename="../../ui_obconf.h" line="1135"/>
         <source>Centered on the window</source>
         <translation>Центровано на вікні</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1116"/>
+        <location filename="../../ui_obconf.h" line="1136"/>
         <source>Above the window</source>
         <translation>Над вікном</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1117"/>
+        <location filename="../../ui_obconf.h" line="1137"/>
         <source>Fixed position on screen</source>
         <translation>Фіксована позиція на екрані</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1129"/>
+        <location filename="../../ui_obconf.h" line="1147"/>
         <source>Maximizes the window</source>
         <translation>Максимізує вікно</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1130"/>
+        <location filename="../../ui_obconf.h" line="1148"/>
         <source>Shades the window</source>
         <translation>Затіняє вікно</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1043"/>
+        <location filename="../../ui_obconf.h" line="1075"/>
         <source>N: Window icon
 L: Window label (Title)
 I: Iconify (Minimize)
@@ -264,322 +264,322 @@ S: Затінити (Згорнути)
 D: Розмістити всюди (На всіх стільницях)</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1071"/>
+        <location filename="../../ui_obconf.h" line="1101"/>
         <source>Primary monitor</source>
         <translation>Головний монітор</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1147"/>
+        <location filename="../../ui_obconf.h" line="1165"/>
         <source>The dock is a special container for &quot;dockapps&quot;, or dock applications.  It is not visible on screen until a dockapp is run.  Dockapps can be used to show things like a clock, or to provide you with a system tray.</source>
         <translation>Док - це спеціальний контейнер для &quot;dockapps&quot;, або програм доку. Він невидимий на екрані, поки не запущено програму доку. Програми доку можна використовувати для показу таких програм як годинник, або для системного лотка.</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1148"/>
+        <location filename="../../ui_obconf.h" line="1166"/>
         <source>Position</source>
         <translation>Позиція</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1149"/>
+        <location filename="../../ui_obconf.h" line="1167"/>
         <source>&amp;Position:</source>
         <translation>&amp;Позиція:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1152"/>
+        <location filename="../../ui_obconf.h" line="1168"/>
         <source>Top Left</source>
         <translation>Зверху зліва</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1153"/>
+        <location filename="../../ui_obconf.h" line="1169"/>
         <source>Top</source>
         <translation>Зверху</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1154"/>
+        <location filename="../../ui_obconf.h" line="1170"/>
         <source>Top Right</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1155"/>
+        <location filename="../../ui_obconf.h" line="1171"/>
         <source>Left</source>
         <translation>Зліва</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1156"/>
+        <location filename="../../ui_obconf.h" line="1172"/>
         <source>Right</source>
         <translation>Справа</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1157"/>
+        <location filename="../../ui_obconf.h" line="1173"/>
         <source>Bottom Left</source>
         <translation>Знизу зліва</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1158"/>
+        <location filename="../../ui_obconf.h" line="1174"/>
         <source>Bottom</source>
         <translation>Знизу</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1159"/>
+        <location filename="../../ui_obconf.h" line="1175"/>
         <source>Bottom Right</source>
         <translation>Знизу справа</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1160"/>
+        <location filename="../../ui_obconf.h" line="1176"/>
         <source>Floating</source>
         <translation>Плаваюча</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1162"/>
+        <location filename="../../ui_obconf.h" line="1178"/>
         <source>&amp;Floating position:</source>
         <translation>&amp;Плаваюча позиція:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1163"/>
+        <location filename="../../ui_obconf.h" line="1179"/>
         <source>x</source>
         <translation>х</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1164"/>
+        <location filename="../../ui_obconf.h" line="1180"/>
         <source>Allow &amp;windows to be placed within the dock&apos;s area</source>
         <translation>Дозволити &amp;вікнам розміщуватися поза областю дока</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1165"/>
+        <location filename="../../ui_obconf.h" line="1181"/>
         <source>&amp;Orientation: </source>
         <translation>&amp;Орієнтація:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1168"/>
+        <location filename="../../ui_obconf.h" line="1182"/>
         <source>Vertical</source>
         <translation>Вертикальна</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1169"/>
+        <location filename="../../ui_obconf.h" line="1183"/>
         <source>Horizontal</source>
         <translation>Горизонтальна</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1171"/>
+        <location filename="../../ui_obconf.h" line="1185"/>
         <source>Stacking</source>
         <translation>Штабелювання</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1172"/>
+        <location filename="../../ui_obconf.h" line="1186"/>
         <source>Keep dock &amp;above other windows</source>
         <translation>Помістити док &amp;над іншими вікнами </translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1173"/>
+        <location filename="../../ui_obconf.h" line="1187"/>
         <source>A&amp;llow dock to be both above and below windows</source>
         <translation>До&amp;зволити доку бути одночасно над і під вікнами</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1174"/>
+        <location filename="../../ui_obconf.h" line="1188"/>
         <source>Keep dock &amp;below other windows</source>
         <translation>Помістити док &amp;під іншими вікнами</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1175"/>
+        <location filename="../../ui_obconf.h" line="1189"/>
         <source>Hiding</source>
         <translation>Приховування</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1176"/>
+        <location filename="../../ui_obconf.h" line="1190"/>
         <source>&amp;Delay before hiding:</source>
         <translation>&amp;Затримка перед приховуванням:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1177"/>
+        <location filename="../../ui_obconf.h" line="1191"/>
         <source>Delay before &amp;showing:</source>
         <translation>Затримка перед &amp;показом:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1178"/>
+        <location filename="../../ui_obconf.h" line="1192"/>
         <source>&amp;Hide off screen</source>
         <translation>П&amp;риховування поза екраном </translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1179"/>
+        <location filename="../../ui_obconf.h" line="1193"/>
         <source>About</source>
         <translation>Про</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1036"/>
+        <location filename="../../ui_obconf.h" line="1068"/>
         <source>&amp;Install a new theme...</source>
         <translation>&amp;Встановити нову тему...</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1037"/>
+        <location filename="../../ui_obconf.h" line="1069"/>
         <source>Create a theme &amp;archive (.obt)...</source>
         <translation>Створити &amp;архів теми (.obt)...</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1039"/>
+        <location filename="../../ui_obconf.h" line="1071"/>
         <source>&amp;Windows retain a border when undecorated</source>
         <translation>&amp;Вікна зберігають границі, коли є без оформлення</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1040"/>
+        <location filename="../../ui_obconf.h" line="1072"/>
         <source>A&amp;nimate iconify and restore</source>
         <translation>Ані&amp;мація значків і відновлення</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1056"/>
+        <location filename="../../ui_obconf.h" line="1088"/>
         <source>&amp;Active window title: </source>
         <translation>Назва &amp;активного вікна:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1057"/>
+        <location filename="../../ui_obconf.h" line="1089"/>
         <source>&amp;Inactive window title: </source>
         <translation>Назва &amp;неактивного вікна:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1058"/>
+        <location filename="../../ui_obconf.h" line="1090"/>
         <source>Menu &amp;header: </source>
         <translation>Заголово&amp;к меню:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1059"/>
+        <location filename="../../ui_obconf.h" line="1091"/>
         <source>&amp;Menu Item: </source>
         <translation>П&amp;ункт меню:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1060"/>
+        <location filename="../../ui_obconf.h" line="1092"/>
         <source>Active &amp;On-screen display: </source>
         <translation>Активне ві&amp;дображення на екрані: </translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1061"/>
+        <location filename="../../ui_obconf.h" line="1093"/>
         <source>Inactive O&amp;n-screen display: </source>
         <translation>Неактивне від&amp;ображення на екрані:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1062"/>
+        <location filename="../../ui_obconf.h" line="1094"/>
         <source>Focus &amp;new windows when they appear</source>
         <translation>Фокусувати &amp;нове вікно коли воно появляється</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1063"/>
+        <location filename="../../ui_obconf.h" line="1095"/>
         <source>&amp;Place new windows under the mouse pointer</source>
         <translation>&amp;Помістити нові вікна під вказівником миші</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1064"/>
+        <location filename="../../ui_obconf.h" line="1096"/>
         <source>&amp;Center new windows when they are placed</source>
         <translation>&amp;Центрувати нові вікна коли вони розташовуються</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1065"/>
+        <location filename="../../ui_obconf.h" line="1097"/>
         <source>Prefer to place new windows &amp;on:</source>
         <translation>Надавати перевагу розташуванню нових вікон &amp;на:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1075"/>
+        <location filename="../../ui_obconf.h" line="1105"/>
         <source>Primary &amp;monitor:</source>
         <translation>Головний &amp;монітор:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1082"/>
+        <location filename="../../ui_obconf.h" line="1110"/>
         <source>&amp;Fixed monitor:</source>
         <translation>&amp;Фіксований монітор:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1084"/>
+        <location filename="../../ui_obconf.h" line="1112"/>
         <source>Update the window contents while &amp;resizing</source>
         <translation>Оновлювати вміст вікна при &amp;зміні розміру</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1085"/>
+        <location filename="../../ui_obconf.h" line="1113"/>
         <source>Drag &amp;threshold distance:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1086"/>
+        <location filename="../../ui_obconf.h" line="1114"/>
         <source>Amount of resistance against other &amp;windows:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1087"/>
+        <location filename="../../ui_obconf.h" line="1115"/>
         <source>Amount of resistance against screen &amp;edges:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1088"/>
+        <location filename="../../ui_obconf.h" line="1116"/>
         <source>&amp;Amount of time to wait before switching:</source>
         <translation>&amp;Час очікування перед переключанням:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1089"/>
+        <location filename="../../ui_obconf.h" line="1117"/>
         <source>&amp;Switch desktops when moving a window past the screen edge</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1097"/>
+        <location filename="../../ui_obconf.h" line="1123"/>
         <source>Fixed &amp;y position:</source>
         <translation>Фіксован&amp;а y-позиція:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1104"/>
+        <location filename="../../ui_obconf.h" line="1128"/>
         <source>Information dialog&apos;s &amp;position:</source>
         <translation>&amp;Позиція інформаційного діалогу:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1105"/>
+        <location filename="../../ui_obconf.h" line="1129"/>
         <source>Fixed &amp;x position:</source>
         <translation>Фіксована &amp;x позиція:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1106"/>
+        <location filename="../../ui_obconf.h" line="1130"/>
         <source>Show &amp;information dialog:</source>
         <translation>Показати &amp;інформаційний діалог:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1121"/>
+        <location filename="../../ui_obconf.h" line="1141"/>
         <source>&amp;Delay before focusing and raising windows:</source>
         <translation>Затримка перед &amp;фокусуванням і розгортанням вікна:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1122"/>
+        <location filename="../../ui_obconf.h" line="1142"/>
         <source>Move focus under the mouse when &amp;switching desktops</source>
         <translation>Пересовувати фокус під мишкою п&amp;ри перемиканні стільниць</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1123"/>
+        <location filename="../../ui_obconf.h" line="1143"/>
         <source>Move focus &amp;under the mouse when the mouse is not moving</source>
         <translation>Пересовувати &amp;фокус під мишкою коли мишка не рухається</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1124"/>
+        <location filename="../../ui_obconf.h" line="1144"/>
         <source>&amp;Raise windows when the mouse pointer moves over them</source>
         <translation>Підня&amp;ти вікна, коли вказівник миші рухається над ними</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1126"/>
+        <location filename="../../ui_obconf.h" line="1146"/>
         <source>Double click on the &amp;titlebar:</source>
         <translation>Подвійне клацання на панель &amp;заголовка:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1132"/>
+        <location filename="../../ui_obconf.h" line="1150"/>
         <source>Double click ti&amp;me:</source>
         <translation>Час подвійного &amp;клацання:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1133"/>
+        <location filename="../../ui_obconf.h" line="1151"/>
         <source>&amp;Show a notification when switching desktops</source>
         <translation>Показати &amp;повідомлення при перемиканні стільниць</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1134"/>
+        <location filename="../../ui_obconf.h" line="1152"/>
         <source>&amp;Amount of time to show the notification for:</source>
         <translation>&amp;Час показу повідомлень для:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1135"/>
+        <location filename="../../ui_obconf.h" line="1153"/>
         <source>&amp;Number of desktops: </source>
         <translation>Кількість &amp;стільниць: </translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1136"/>
+        <location filename="../../ui_obconf.h" line="1154"/>
         <source>&amp;Desktop names:</source>
         <translation>&amp;Назви стільниць:</translation>
     </message>

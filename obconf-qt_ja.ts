@@ -17,237 +17,237 @@
 <context>
     <name>MainDialog</name>
     <message>
-        <location filename="../../ui_obconf.h" line="1027"/>
+        <location filename="../../ui_obconf.h" line="1059"/>
         <source>Mouse</source>
         <translation>マウス</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1012"/>
+        <location filename="../../ui_obconf.h" line="1044"/>
         <source>Window Manager Preferences</source>
         <translation>ウィンドウマネージャの設定</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1017"/>
+        <location filename="../../ui_obconf.h" line="1049"/>
         <source>Theme</source>
         <translation>テーマ</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1019"/>
+        <location filename="../../ui_obconf.h" line="1051"/>
         <source>Appearance</source>
         <translation>外観</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1021"/>
+        <location filename="../../ui_obconf.h" line="1053"/>
         <source>Font</source>
         <translation>フォント</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1023"/>
-        <location filename="../../ui_obconf.h" line="1038"/>
+        <location filename="../../ui_obconf.h" line="1055"/>
+        <location filename="../../ui_obconf.h" line="1070"/>
         <source>Windows</source>
         <translation>ウィンドウ</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1025"/>
+        <location filename="../../ui_obconf.h" line="1057"/>
         <source>Move &amp; Resize</source>
         <translation>移動 &amp; リサイズ</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1029"/>
+        <location filename="../../ui_obconf.h" line="1061"/>
         <source>Desktops</source>
         <translation>デスクトップ</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1031"/>
+        <location filename="../../ui_obconf.h" line="1063"/>
         <source>Margins</source>
         <translation>余白</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1033"/>
+        <location filename="../../ui_obconf.h" line="1065"/>
         <source>Dock</source>
         <translation>ドック</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1041"/>
+        <location filename="../../ui_obconf.h" line="1073"/>
         <source>Window Titles</source>
         <translation>ウィンドウのタイトル</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1042"/>
+        <location filename="../../ui_obconf.h" line="1074"/>
         <source>Button order:</source>
         <translation>ボタンの並び順:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1083"/>
+        <location filename="../../ui_obconf.h" line="1111"/>
         <source>Moving and Resizing Windows</source>
         <translation>ウィンドウの移動とリサイズ</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1090"/>
+        <location filename="../../ui_obconf.h" line="1118"/>
         <source>Information Dialog</source>
         <translation>情報ダイアログ</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1119"/>
+        <location filename="../../ui_obconf.h" line="1139"/>
         <source>Focusing Windows</source>
         <translation>ウィンドウのフォーカス</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1120"/>
+        <location filename="../../ui_obconf.h" line="1140"/>
         <source>Focus windows when the mouse pointer moves over them</source>
         <translation>マウスポインターが入った時、そのウィンドウをフォーカスする</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1125"/>
+        <location filename="../../ui_obconf.h" line="1145"/>
         <source>Titlebar</source>
         <translation>タイトルバー</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1137"/>
+        <location filename="../../ui_obconf.h" line="1155"/>
         <source>Desktop Margins</source>
         <translation>デスクトップの余白</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1138"/>
+        <location filename="../../ui_obconf.h" line="1156"/>
         <source>Desktop margins are reserved areas on the edge of your screen.  New windows will not be placed within a margin, and maximized windows will not cover them.</source>
         <translation>デスクトップの余白とは、画面の端に予約された領域のことです。新規ウィンドウは余白の上に置かれることはなく、最大化されたウィンドウがそこに被さる事はありません。</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1139"/>
+        <location filename="../../ui_obconf.h" line="1157"/>
         <source>Left:</source>
         <translation>左:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1140"/>
-        <location filename="../../ui_obconf.h" line="1142"/>
-        <location filename="../../ui_obconf.h" line="1144"/>
-        <location filename="../../ui_obconf.h" line="1146"/>
+        <location filename="../../ui_obconf.h" line="1158"/>
+        <location filename="../../ui_obconf.h" line="1160"/>
+        <location filename="../../ui_obconf.h" line="1162"/>
+        <location filename="../../ui_obconf.h" line="1164"/>
         <source>px</source>
         <translation>ピクセル</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1141"/>
+        <location filename="../../ui_obconf.h" line="1159"/>
         <source>Top:</source>
         <translation>上:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1143"/>
+        <location filename="../../ui_obconf.h" line="1161"/>
         <source>Right:</source>
         <translation>右:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1145"/>
+        <location filename="../../ui_obconf.h" line="1163"/>
         <source>Bottom:</source>
         <translation>下:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1068"/>
+        <location filename="../../ui_obconf.h" line="1098"/>
         <source>All monitors</source>
         <translation>全てのモニター</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1069"/>
+        <location filename="../../ui_obconf.h" line="1099"/>
         <source>The active monitor</source>
         <translation>アクティブなモニター</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1070"/>
+        <location filename="../../ui_obconf.h" line="1100"/>
         <source>The monitor with the mouse</source>
         <translation>マウスのあるモニター</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1073"/>
+        <location filename="../../ui_obconf.h" line="1103"/>
         <source>Primary Monitor</source>
         <translation>主モニター</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1074"/>
+        <location filename="../../ui_obconf.h" line="1104"/>
         <source>The primary monitor is where Openbox will place dialogs, such as the one used for cycling windows.</source>
         <translation>主モニターとは 例えばウィンドウの循環をさせる際のダイアログなどをOpenbox が配置するモニターです。</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1078"/>
+        <location filename="../../ui_obconf.h" line="1106"/>
         <source>Fixed Monitor</source>
         <translation>固定モニター</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1079"/>
+        <location filename="../../ui_obconf.h" line="1107"/>
         <source>Active Monitor</source>
         <translation>アクティブなモニター</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1080"/>
+        <location filename="../../ui_obconf.h" line="1108"/>
         <source>Monitor With Mouse Pointer</source>
         <translation>マウスポインターのあるモニター</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1093"/>
-        <location filename="../../ui_obconf.h" line="1100"/>
+        <location filename="../../ui_obconf.h" line="1119"/>
+        <location filename="../../ui_obconf.h" line="1124"/>
         <source>Centered</source>
         <translation>中央</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1094"/>
+        <location filename="../../ui_obconf.h" line="1120"/>
         <source>From left edge</source>
         <translation>左端から</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1095"/>
+        <location filename="../../ui_obconf.h" line="1121"/>
         <source>From right edge</source>
         <translation>右端から</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1101"/>
+        <location filename="../../ui_obconf.h" line="1125"/>
         <source>From top edge</source>
         <translation>上端から</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1102"/>
+        <location filename="../../ui_obconf.h" line="1126"/>
         <source>From bottom edge</source>
         <translation>下端から</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1109"/>
+        <location filename="../../ui_obconf.h" line="1131"/>
         <source>When resizing terminal windows</source>
         <translation>端末ウィンドウをリサイズするとき</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1110"/>
+        <location filename="../../ui_obconf.h" line="1132"/>
         <source>Always</source>
         <translation>常に</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1111"/>
+        <location filename="../../ui_obconf.h" line="1133"/>
         <source>Never</source>
         <translation>しない</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1115"/>
+        <location filename="../../ui_obconf.h" line="1135"/>
         <source>Centered on the window</source>
         <translation>ウィンドウの中央に</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1116"/>
+        <location filename="../../ui_obconf.h" line="1136"/>
         <source>Above the window</source>
         <translation>ウィンドウの上に</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1117"/>
+        <location filename="../../ui_obconf.h" line="1137"/>
         <source>Fixed position on screen</source>
         <translation>画面の固定位置に</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1129"/>
+        <location filename="../../ui_obconf.h" line="1147"/>
         <source>Maximizes the window</source>
         <translation>ウィンドウを最大化する</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1130"/>
+        <location filename="../../ui_obconf.h" line="1148"/>
         <source>Shades the window</source>
         <translation>ウィンドウに影をつける</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1043"/>
+        <location filename="../../ui_obconf.h" line="1075"/>
         <source>N: Window icon
 L: Window label (Title)
 I: Iconify (Minimize)
@@ -264,322 +264,322 @@ S: シェード化 (巻き上げる)
 D: 全てのデスクトップに表示する</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1071"/>
+        <location filename="../../ui_obconf.h" line="1101"/>
         <source>Primary monitor</source>
         <translation>主モニター</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1147"/>
+        <location filename="../../ui_obconf.h" line="1165"/>
         <source>The dock is a special container for &quot;dockapps&quot;, or dock applications.  It is not visible on screen until a dockapp is run.  Dockapps can be used to show things like a clock, or to provide you with a system tray.</source>
         <translation>ドックは&quot;dockapps&quot;のためのコンテナです。dockappを実行しない限り表示されません。Dockappsは時計やシステムトレイで使用するようなアプリケーションを提供します。</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1148"/>
+        <location filename="../../ui_obconf.h" line="1166"/>
         <source>Position</source>
         <translation>位置</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1149"/>
+        <location filename="../../ui_obconf.h" line="1167"/>
         <source>&amp;Position:</source>
         <translation>位置(&amp;P):</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1152"/>
+        <location filename="../../ui_obconf.h" line="1168"/>
         <source>Top Left</source>
         <translation>左上</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1153"/>
+        <location filename="../../ui_obconf.h" line="1169"/>
         <source>Top</source>
         <translation>上</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1154"/>
+        <location filename="../../ui_obconf.h" line="1170"/>
         <source>Top Right</source>
         <translation>右上</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1155"/>
+        <location filename="../../ui_obconf.h" line="1171"/>
         <source>Left</source>
         <translation>左</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1156"/>
+        <location filename="../../ui_obconf.h" line="1172"/>
         <source>Right</source>
         <translation>右</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1157"/>
+        <location filename="../../ui_obconf.h" line="1173"/>
         <source>Bottom Left</source>
         <translation>左下</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1158"/>
+        <location filename="../../ui_obconf.h" line="1174"/>
         <source>Bottom</source>
         <translation>下</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1159"/>
+        <location filename="../../ui_obconf.h" line="1175"/>
         <source>Bottom Right</source>
         <translation>右下</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1160"/>
+        <location filename="../../ui_obconf.h" line="1176"/>
         <source>Floating</source>
         <translation>フローティング（固定しない）</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1162"/>
+        <location filename="../../ui_obconf.h" line="1178"/>
         <source>&amp;Floating position:</source>
         <translation>フローティングの位置(&amp;F):</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1163"/>
+        <location filename="../../ui_obconf.h" line="1179"/>
         <source>x</source>
         <translation>x</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1164"/>
+        <location filename="../../ui_obconf.h" line="1180"/>
         <source>Allow &amp;windows to be placed within the dock&apos;s area</source>
         <translation>ウィンドウをドックエリアに配置することを可能にする(&amp;w)</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1165"/>
+        <location filename="../../ui_obconf.h" line="1181"/>
         <source>&amp;Orientation: </source>
         <translation>方向(&amp;O):</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1168"/>
+        <location filename="../../ui_obconf.h" line="1182"/>
         <source>Vertical</source>
         <translation>縦</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1169"/>
+        <location filename="../../ui_obconf.h" line="1183"/>
         <source>Horizontal</source>
         <translation>横</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1171"/>
+        <location filename="../../ui_obconf.h" line="1185"/>
         <source>Stacking</source>
         <translation>重ねあわせ</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1172"/>
+        <location filename="../../ui_obconf.h" line="1186"/>
         <source>Keep dock &amp;above other windows</source>
         <translation>ドックを常に他のウィンドウの前面に配置する(&amp;a)</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1173"/>
+        <location filename="../../ui_obconf.h" line="1187"/>
         <source>A&amp;llow dock to be both above and below windows</source>
         <translation>ドックを他のウィンドウの前面にも背面にも配置することを可能にする(&amp;l)</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1174"/>
+        <location filename="../../ui_obconf.h" line="1188"/>
         <source>Keep dock &amp;below other windows</source>
         <translation>ドックを常に他のウィンドウの背面に配置する(&amp;b)</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1175"/>
+        <location filename="../../ui_obconf.h" line="1189"/>
         <source>Hiding</source>
         <translation>ハイディング</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1176"/>
+        <location filename="../../ui_obconf.h" line="1190"/>
         <source>&amp;Delay before hiding:</source>
         <translation>隠れるまでの時間(&amp;D):</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1177"/>
+        <location filename="../../ui_obconf.h" line="1191"/>
         <source>Delay before &amp;showing:</source>
         <translation>出現するまでの時間(&amp;s):</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1178"/>
+        <location filename="../../ui_obconf.h" line="1192"/>
         <source>&amp;Hide off screen</source>
         <translation>スクリーンから隠す(&amp;H)</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1179"/>
+        <location filename="../../ui_obconf.h" line="1193"/>
         <source>About</source>
         <translation>このアプリケーションについて</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1036"/>
+        <location filename="../../ui_obconf.h" line="1068"/>
         <source>&amp;Install a new theme...</source>
         <translation>新規テーマのインストール(&amp;I)...</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1037"/>
+        <location filename="../../ui_obconf.h" line="1069"/>
         <source>Create a theme &amp;archive (.obt)...</source>
         <translation>テーマアーカイブ (.obt)の作成(&amp;A)...</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1039"/>
+        <location filename="../../ui_obconf.h" line="1071"/>
         <source>&amp;Windows retain a border when undecorated</source>
         <translation>ウィンドウ装飾が外されても枠は維持する(&amp;W)</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1040"/>
+        <location filename="../../ui_obconf.h" line="1072"/>
         <source>A&amp;nimate iconify and restore</source>
         <translation>アイコン化と復帰をアニメーションする(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1056"/>
+        <location filename="../../ui_obconf.h" line="1088"/>
         <source>&amp;Active window title: </source>
         <translation>アクティブなウィンドウのタイトル(&amp;A): </translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1057"/>
+        <location filename="../../ui_obconf.h" line="1089"/>
         <source>&amp;Inactive window title: </source>
         <translation>非アクティブなウィンドウのタイトル(&amp;I): </translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1058"/>
+        <location filename="../../ui_obconf.h" line="1090"/>
         <source>Menu &amp;header: </source>
         <translation>メニューのヘッダ(&amp;H): </translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1059"/>
+        <location filename="../../ui_obconf.h" line="1091"/>
         <source>&amp;Menu Item: </source>
         <translation>メニューのアイテム(&amp;M): </translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1060"/>
+        <location filename="../../ui_obconf.h" line="1092"/>
         <source>Active &amp;On-screen display: </source>
         <translation>アクティブなオンスクリーンディスプレイ(&amp;O): </translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1061"/>
+        <location filename="../../ui_obconf.h" line="1093"/>
         <source>Inactive O&amp;n-screen display: </source>
         <translation>非アクティブなオンスクリーンディスプレイ(&amp;N): </translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1062"/>
+        <location filename="../../ui_obconf.h" line="1094"/>
         <source>Focus &amp;new windows when they appear</source>
         <translation>新規ウィンドウが現れたときそれをフォーカスする(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1063"/>
+        <location filename="../../ui_obconf.h" line="1095"/>
         <source>&amp;Place new windows under the mouse pointer</source>
         <translation>新規ウィンドウはマウスポインタの下に配置する(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1064"/>
+        <location filename="../../ui_obconf.h" line="1096"/>
         <source>&amp;Center new windows when they are placed</source>
         <translation>新規ウィンドウは中央に配置する(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1065"/>
+        <location filename="../../ui_obconf.h" line="1097"/>
         <source>Prefer to place new windows &amp;on:</source>
         <translation>新規ウィンドウの配置設定(&amp;O):</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1075"/>
+        <location filename="../../ui_obconf.h" line="1105"/>
         <source>Primary &amp;monitor:</source>
         <translation>主モニター(&amp;M):</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1082"/>
+        <location filename="../../ui_obconf.h" line="1110"/>
         <source>&amp;Fixed monitor:</source>
         <translation>固定モニター(&amp;F):</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1084"/>
+        <location filename="../../ui_obconf.h" line="1112"/>
         <source>Update the window contents while &amp;resizing</source>
         <translation>リサイズ中もウィンドウの表示内容を更新する(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1085"/>
+        <location filename="../../ui_obconf.h" line="1113"/>
         <source>Drag &amp;threshold distance:</source>
         <translation>ドラッグの閾値となる距離(&amp;T):</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1086"/>
+        <location filename="../../ui_obconf.h" line="1114"/>
         <source>Amount of resistance against other &amp;windows:</source>
         <translation>他のウィンドウに接した時の抵抗の量(&amp;W):</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1087"/>
+        <location filename="../../ui_obconf.h" line="1115"/>
         <source>Amount of resistance against screen &amp;edges:</source>
         <translation>画面端に接した時の抵抗の量(&amp;E):</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1088"/>
+        <location filename="../../ui_obconf.h" line="1116"/>
         <source>&amp;Amount of time to wait before switching:</source>
         <translation>デスクトップを切り替えるまでのウェイト(&amp;A):</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1089"/>
+        <location filename="../../ui_obconf.h" line="1117"/>
         <source>&amp;Switch desktops when moving a window past the screen edge</source>
         <translation>ウィンドウを画面端の先へ動かそうとした時デスクトップを切り替える(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1097"/>
+        <location filename="../../ui_obconf.h" line="1123"/>
         <source>Fixed &amp;y position:</source>
         <translation>固定のY位置(&amp;Y):</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1104"/>
+        <location filename="../../ui_obconf.h" line="1128"/>
         <source>Information dialog&apos;s &amp;position:</source>
         <translation>情報ダイアログの位置(&amp;P):</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1105"/>
+        <location filename="../../ui_obconf.h" line="1129"/>
         <source>Fixed &amp;x position:</source>
         <translation>固定のX位置(&amp;X):</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1106"/>
+        <location filename="../../ui_obconf.h" line="1130"/>
         <source>Show &amp;information dialog:</source>
         <translation>情報ダイアログの表示(&amp;I):</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1121"/>
+        <location filename="../../ui_obconf.h" line="1141"/>
         <source>&amp;Delay before focusing and raising windows:</source>
         <translation>ウィンドウをフォーカスし前面に出すまでの遅延(&amp;D):</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1122"/>
+        <location filename="../../ui_obconf.h" line="1142"/>
         <source>Move focus under the mouse when &amp;switching desktops</source>
         <translation>デスクトップを切り替える際にマウスの下にあるウィンドウへフォーカスを移す(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1123"/>
+        <location filename="../../ui_obconf.h" line="1143"/>
         <source>Move focus &amp;under the mouse when the mouse is not moving</source>
         <translation>マウスが動いていない時もそこへフォーカスを移す(&amp;U)</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1124"/>
+        <location filename="../../ui_obconf.h" line="1144"/>
         <source>&amp;Raise windows when the mouse pointer moves over them</source>
         <translation>マウスポインタが入ったウィンドウを前面に出す(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1126"/>
+        <location filename="../../ui_obconf.h" line="1146"/>
         <source>Double click on the &amp;titlebar:</source>
         <translation>タイトルバー上のダブルクリック(&amp;T):</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1132"/>
+        <location filename="../../ui_obconf.h" line="1150"/>
         <source>Double click ti&amp;me:</source>
         <translation>ダブルクリックの時間(&amp;M):</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1133"/>
+        <location filename="../../ui_obconf.h" line="1151"/>
         <source>&amp;Show a notification when switching desktops</source>
         <translation>デスクトップ切替時に通知を表示する(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1134"/>
+        <location filename="../../ui_obconf.h" line="1152"/>
         <source>&amp;Amount of time to show the notification for:</source>
         <translation>通知を表示する時間の長さ(&amp;A):</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1135"/>
+        <location filename="../../ui_obconf.h" line="1153"/>
         <source>&amp;Number of desktops: </source>
         <translation>デスクトップの数(&amp;N): </translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1136"/>
+        <location filename="../../ui_obconf.h" line="1154"/>
         <source>&amp;Desktop names:</source>
         <translation>デスクトップの名前(&amp;D):</translation>
     </message>

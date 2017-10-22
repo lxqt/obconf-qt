@@ -17,88 +17,88 @@
 <context>
     <name>MainDialog</name>
     <message>
-        <location filename="../../ui_obconf.h" line="1012"/>
+        <location filename="../../ui_obconf.h" line="1044"/>
         <source>Window Manager Preferences</source>
         <translation>Настройки менеджера окон</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1017"/>
+        <location filename="../../ui_obconf.h" line="1049"/>
         <source>Theme</source>
         <translation>Тема</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1019"/>
+        <location filename="../../ui_obconf.h" line="1051"/>
         <source>Appearance</source>
         <translation>Внешний вид</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1021"/>
+        <location filename="../../ui_obconf.h" line="1053"/>
         <source>Font</source>
         <translation>Шрифт</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1023"/>
-        <location filename="../../ui_obconf.h" line="1038"/>
+        <location filename="../../ui_obconf.h" line="1055"/>
+        <location filename="../../ui_obconf.h" line="1070"/>
         <source>Windows</source>
         <translation>Окна</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1025"/>
+        <location filename="../../ui_obconf.h" line="1057"/>
         <source>Move &amp; Resize</source>
         <translation>Перемещение и изменение размера</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1027"/>
+        <location filename="../../ui_obconf.h" line="1059"/>
         <source>Mouse</source>
         <translation>Мышь</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1029"/>
+        <location filename="../../ui_obconf.h" line="1061"/>
         <source>Desktops</source>
         <translation>Рабочие столы</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1031"/>
+        <location filename="../../ui_obconf.h" line="1063"/>
         <source>Margins</source>
         <translation>Границы</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1033"/>
+        <location filename="../../ui_obconf.h" line="1065"/>
         <source>Dock</source>
         <translation>Док</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1036"/>
+        <location filename="../../ui_obconf.h" line="1068"/>
         <source>&amp;Install a new theme...</source>
         <translation>&amp;Установить новую тему...</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1037"/>
+        <location filename="../../ui_obconf.h" line="1069"/>
         <source>Create a theme &amp;archive (.obt)...</source>
         <translation>Создать &amp;архив с темой (.obt)...</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1039"/>
+        <location filename="../../ui_obconf.h" line="1071"/>
         <source>&amp;Windows retain a border when undecorated</source>
         <translation>&amp;Окна без декораций сохраняют края</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1040"/>
+        <location filename="../../ui_obconf.h" line="1072"/>
         <source>A&amp;nimate iconify and restore</source>
         <translation>А&amp;нимировать сворачивание и восстановление окна</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1041"/>
+        <location filename="../../ui_obconf.h" line="1073"/>
         <source>Window Titles</source>
         <translation>Заголовки окна</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1042"/>
+        <location filename="../../ui_obconf.h" line="1074"/>
         <source>Button order:</source>
         <translation>Порядок кнопок:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1043"/>
+        <location filename="../../ui_obconf.h" line="1075"/>
         <source>N: Window icon
 L: Window label (Title)
 I: Iconify (Minimize)
@@ -115,471 +115,471 @@ S: Свернуть в заголовок окна
 D: На все рабочие столы</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1056"/>
+        <location filename="../../ui_obconf.h" line="1088"/>
         <source>&amp;Active window title: </source>
         <translation>Название &amp;активного окна: </translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1057"/>
+        <location filename="../../ui_obconf.h" line="1089"/>
         <source>&amp;Inactive window title: </source>
         <translation>Название &amp;неактивного окна: </translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1058"/>
+        <location filename="../../ui_obconf.h" line="1090"/>
         <source>Menu &amp;header: </source>
         <translation>&amp;Заголовок меню: </translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1059"/>
+        <location filename="../../ui_obconf.h" line="1091"/>
         <source>&amp;Menu Item: </source>
         <translation>Пункт &amp;меню: </translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1060"/>
+        <location filename="../../ui_obconf.h" line="1092"/>
         <source>Active &amp;On-screen display: </source>
         <translation>&amp;Активная надпись на экране: </translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1061"/>
+        <location filename="../../ui_obconf.h" line="1093"/>
         <source>Inactive O&amp;n-screen display: </source>
         <translation>&amp;Неактивная надпись на экране: </translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1062"/>
+        <location filename="../../ui_obconf.h" line="1094"/>
         <source>Focus &amp;new windows when they appear</source>
         <translation>Передавать фокус &amp;новым окнам при их возникновении</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1063"/>
+        <location filename="../../ui_obconf.h" line="1095"/>
         <source>&amp;Place new windows under the mouse pointer</source>
         <translation>&amp;Помещать новые окна под курсором мыши</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1064"/>
+        <location filename="../../ui_obconf.h" line="1096"/>
         <source>&amp;Center new windows when they are placed</source>
         <translation>&amp;Выравнивать новые окна по центру</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1065"/>
+        <location filename="../../ui_obconf.h" line="1097"/>
         <source>Prefer to place new windows &amp;on:</source>
         <translation>Предпочитать размещать новое окно &amp;на:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1068"/>
+        <location filename="../../ui_obconf.h" line="1098"/>
         <source>All monitors</source>
         <translation>Всех мониторах</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1069"/>
+        <location filename="../../ui_obconf.h" line="1099"/>
         <source>The active monitor</source>
         <translation>Активном мониторе</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1070"/>
+        <location filename="../../ui_obconf.h" line="1100"/>
         <source>The monitor with the mouse</source>
         <translation>Мониторе с мышью</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1071"/>
+        <location filename="../../ui_obconf.h" line="1101"/>
         <source>Primary monitor</source>
         <translation>Основном мониторе</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1073"/>
+        <location filename="../../ui_obconf.h" line="1103"/>
         <source>Primary Monitor</source>
         <translation>Основной монитор</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1074"/>
+        <location filename="../../ui_obconf.h" line="1104"/>
         <source>The primary monitor is where Openbox will place dialogs, such as the one used for cycling windows.</source>
         <translation>Основной монитор - это область, где Openbox будет размещать диалоги, такие как переключение окон.</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1075"/>
+        <location filename="../../ui_obconf.h" line="1105"/>
         <source>Primary &amp;monitor:</source>
         <translation>Основной &amp;монитор:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1078"/>
+        <location filename="../../ui_obconf.h" line="1106"/>
         <source>Fixed Monitor</source>
         <translation>Фиксированный монитор</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1079"/>
+        <location filename="../../ui_obconf.h" line="1107"/>
         <source>Active Monitor</source>
         <translation>Активный монитор</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1080"/>
+        <location filename="../../ui_obconf.h" line="1108"/>
         <source>Monitor With Mouse Pointer</source>
         <translation>Монитор с курсором мыши</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1082"/>
+        <location filename="../../ui_obconf.h" line="1110"/>
         <source>&amp;Fixed monitor:</source>
         <translation>&amp;Фиксированный монитор:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1083"/>
+        <location filename="../../ui_obconf.h" line="1111"/>
         <source>Moving and Resizing Windows</source>
         <translation>Перемещение и изменение размеров окон</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1084"/>
+        <location filename="../../ui_obconf.h" line="1112"/>
         <source>Update the window contents while &amp;resizing</source>
         <translation>Обновлять содержимое окна во &amp;время изменения размера</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1085"/>
+        <location filename="../../ui_obconf.h" line="1113"/>
         <source>Drag &amp;threshold distance:</source>
         <translation>&amp;Порог расстояния перетаскивания:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1086"/>
+        <location filename="../../ui_obconf.h" line="1114"/>
         <source>Amount of resistance against other &amp;windows:</source>
         <translation>Количество сопротивления к другим &amp;окнам:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1087"/>
+        <location filename="../../ui_obconf.h" line="1115"/>
         <source>Amount of resistance against screen &amp;edges:</source>
         <translation>Количество сопротивления к &amp;краям экрана:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1088"/>
+        <location filename="../../ui_obconf.h" line="1116"/>
         <source>&amp;Amount of time to wait before switching:</source>
         <translation>&amp;Время ожидания перед переключением:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1089"/>
+        <location filename="../../ui_obconf.h" line="1117"/>
         <source>&amp;Switch desktops when moving a window past the screen edge</source>
         <translation>&amp;Переключать рабочие столы при перемещенииокна за границы экрана</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1090"/>
+        <location filename="../../ui_obconf.h" line="1118"/>
         <source>Information Dialog</source>
         <translation>Информагионный диалог</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1093"/>
-        <location filename="../../ui_obconf.h" line="1100"/>
+        <location filename="../../ui_obconf.h" line="1119"/>
+        <location filename="../../ui_obconf.h" line="1124"/>
         <source>Centered</source>
         <translation>По центру</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1094"/>
+        <location filename="../../ui_obconf.h" line="1120"/>
         <source>From left edge</source>
         <translation>От левого края</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1095"/>
+        <location filename="../../ui_obconf.h" line="1121"/>
         <source>From right edge</source>
         <translation>От правого края</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1097"/>
+        <location filename="../../ui_obconf.h" line="1123"/>
         <source>Fixed &amp;y position:</source>
         <translation>Фиксированное по &amp;y:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1101"/>
+        <location filename="../../ui_obconf.h" line="1125"/>
         <source>From top edge</source>
         <translation>Отверхеней границы</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1102"/>
+        <location filename="../../ui_obconf.h" line="1126"/>
         <source>From bottom edge</source>
         <translation>От нижней границы</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1104"/>
+        <location filename="../../ui_obconf.h" line="1128"/>
         <source>Information dialog&apos;s &amp;position:</source>
         <translation>&amp;Расположение информационного диалога:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1105"/>
+        <location filename="../../ui_obconf.h" line="1129"/>
         <source>Fixed &amp;x position:</source>
         <translation>Фиксированное по &amp;x:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1106"/>
+        <location filename="../../ui_obconf.h" line="1130"/>
         <source>Show &amp;information dialog:</source>
         <translation>Показывать &amp;информационный диалог:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1109"/>
+        <location filename="../../ui_obconf.h" line="1131"/>
         <source>When resizing terminal windows</source>
         <translation>При изменении размеров окон терминалов</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1110"/>
+        <location filename="../../ui_obconf.h" line="1132"/>
         <source>Always</source>
         <translation>Всегда</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1111"/>
+        <location filename="../../ui_obconf.h" line="1133"/>
         <source>Never</source>
         <translation>Никогда</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1115"/>
+        <location filename="../../ui_obconf.h" line="1135"/>
         <source>Centered on the window</source>
         <translation>По центру окна</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1116"/>
+        <location filename="../../ui_obconf.h" line="1136"/>
         <source>Above the window</source>
         <translation>Сверху окна</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1117"/>
+        <location filename="../../ui_obconf.h" line="1137"/>
         <source>Fixed position on screen</source>
         <translation>Фиксированное место на экране</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1119"/>
+        <location filename="../../ui_obconf.h" line="1139"/>
         <source>Focusing Windows</source>
         <translation>Передача фокуса окнам</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1120"/>
+        <location filename="../../ui_obconf.h" line="1140"/>
         <source>Focus windows when the mouse pointer moves over them</source>
         <translation>Передавать фокус окнам, когда курсор перемещается над ними</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1121"/>
+        <location filename="../../ui_obconf.h" line="1141"/>
         <source>&amp;Delay before focusing and raising windows:</source>
         <translation>&amp;Задержка перед передачей курсора и поднятием окна:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1122"/>
+        <location filename="../../ui_obconf.h" line="1142"/>
         <source>Move focus under the mouse when &amp;switching desktops</source>
         <translation>Передавать фокус под курсор при &amp;переключении рабочих столов</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1123"/>
+        <location filename="../../ui_obconf.h" line="1143"/>
         <source>Move focus &amp;under the mouse when the mouse is not moving</source>
         <translation>Передавать фокус  &amp;под курсор, когда мышь не двигается</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1124"/>
+        <location filename="../../ui_obconf.h" line="1144"/>
         <source>&amp;Raise windows when the mouse pointer moves over them</source>
         <translation>&amp;Поднимать окна, когда курсор двигается по ним</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1125"/>
+        <location filename="../../ui_obconf.h" line="1145"/>
         <source>Titlebar</source>
         <translation>Заголовок окна</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1126"/>
+        <location filename="../../ui_obconf.h" line="1146"/>
         <source>Double click on the &amp;titlebar:</source>
         <translation>Двойной клик на &amp;заголовке окна:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1129"/>
+        <location filename="../../ui_obconf.h" line="1147"/>
         <source>Maximizes the window</source>
         <translation>Разворачивает окно</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1130"/>
+        <location filename="../../ui_obconf.h" line="1148"/>
         <source>Shades the window</source>
         <translation>Сворачивает окно в заголовок</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1132"/>
+        <location filename="../../ui_obconf.h" line="1150"/>
         <source>Double click ti&amp;me:</source>
         <translation>&amp;Время двойного клика:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1133"/>
+        <location filename="../../ui_obconf.h" line="1151"/>
         <source>&amp;Show a notification when switching desktops</source>
         <translation>&amp;Показывать уведомление при переключении рабочих столов</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1134"/>
+        <location filename="../../ui_obconf.h" line="1152"/>
         <source>&amp;Amount of time to show the notification for:</source>
         <translation>&amp;Время, на протяжении которого показывается уведомление:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1135"/>
+        <location filename="../../ui_obconf.h" line="1153"/>
         <source>&amp;Number of desktops: </source>
         <translation>&amp;Количество рабочих столов: </translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1136"/>
+        <location filename="../../ui_obconf.h" line="1154"/>
         <source>&amp;Desktop names:</source>
         <translation>Названия &amp;рабочих столов:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1137"/>
+        <location filename="../../ui_obconf.h" line="1155"/>
         <source>Desktop Margins</source>
         <translation>Границы рабочего стола</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1138"/>
+        <location filename="../../ui_obconf.h" line="1156"/>
         <source>Desktop margins are reserved areas on the edge of your screen.  New windows will not be placed within a margin, and maximized windows will not cover them.</source>
         <translation>Границы рабочего стола - это зарезервированные зоны по вашего экрана. Новые окна не будут помещены в рамках границ, и развёрнутые окна не перекроют их.</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1139"/>
+        <location filename="../../ui_obconf.h" line="1157"/>
         <source>Left:</source>
         <translation>Слева:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1140"/>
-        <location filename="../../ui_obconf.h" line="1142"/>
-        <location filename="../../ui_obconf.h" line="1144"/>
-        <location filename="../../ui_obconf.h" line="1146"/>
+        <location filename="../../ui_obconf.h" line="1158"/>
+        <location filename="../../ui_obconf.h" line="1160"/>
+        <location filename="../../ui_obconf.h" line="1162"/>
+        <location filename="../../ui_obconf.h" line="1164"/>
         <source>px</source>
         <translation>пикс</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1141"/>
+        <location filename="../../ui_obconf.h" line="1159"/>
         <source>Top:</source>
         <translation>Сверху:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1143"/>
+        <location filename="../../ui_obconf.h" line="1161"/>
         <source>Right:</source>
         <translation>Справа:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1145"/>
+        <location filename="../../ui_obconf.h" line="1163"/>
         <source>Bottom:</source>
         <translation>Снизу:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1147"/>
+        <location filename="../../ui_obconf.h" line="1165"/>
         <source>The dock is a special container for &quot;dockapps&quot;, or dock applications.  It is not visible on screen until a dockapp is run.  Dockapps can be used to show things like a clock, or to provide you with a system tray.</source>
         <translation>Док - это специальный контейнер для &quot;dockapps&quot;, или приложений дока. Он не отображается на экране, пока не запущены эти приложения. Приложения дока могут быть использованы для показа таких вещей, как часы, или отображения системного лотка.</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1148"/>
+        <location filename="../../ui_obconf.h" line="1166"/>
         <source>Position</source>
         <translation>Расположение</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1149"/>
+        <location filename="../../ui_obconf.h" line="1167"/>
         <source>&amp;Position:</source>
         <translation>&amp;Расположение:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1152"/>
+        <location filename="../../ui_obconf.h" line="1168"/>
         <source>Top Left</source>
         <translation>Вверху слева</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1153"/>
+        <location filename="../../ui_obconf.h" line="1169"/>
         <source>Top</source>
         <translation>Вверху</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1154"/>
+        <location filename="../../ui_obconf.h" line="1170"/>
         <source>Top Right</source>
         <translation>Вверху справа</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1155"/>
+        <location filename="../../ui_obconf.h" line="1171"/>
         <source>Left</source>
         <translation>Слева</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1156"/>
+        <location filename="../../ui_obconf.h" line="1172"/>
         <source>Right</source>
         <translation>Справа</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1157"/>
+        <location filename="../../ui_obconf.h" line="1173"/>
         <source>Bottom Left</source>
         <translation>Снизу слева</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1158"/>
+        <location filename="../../ui_obconf.h" line="1174"/>
         <source>Bottom</source>
         <translation>Снизу</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1159"/>
+        <location filename="../../ui_obconf.h" line="1175"/>
         <source>Bottom Right</source>
         <translation>Снизу справа</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1160"/>
+        <location filename="../../ui_obconf.h" line="1176"/>
         <source>Floating</source>
         <translation>Плавающее</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1162"/>
+        <location filename="../../ui_obconf.h" line="1178"/>
         <source>&amp;Floating position:</source>
         <translation>П&amp;лавающее расположение:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1163"/>
+        <location filename="../../ui_obconf.h" line="1179"/>
         <source>x</source>
         <translation>x</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1164"/>
+        <location filename="../../ui_obconf.h" line="1180"/>
         <source>Allow &amp;windows to be placed within the dock&apos;s area</source>
         <translation>Разрешить &amp;размещать окна внутри области дока</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1165"/>
+        <location filename="../../ui_obconf.h" line="1181"/>
         <source>&amp;Orientation: </source>
         <translation>&amp;Ориентация: </translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1168"/>
+        <location filename="../../ui_obconf.h" line="1182"/>
         <source>Vertical</source>
         <translation>Вертикально</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1169"/>
+        <location filename="../../ui_obconf.h" line="1183"/>
         <source>Horizontal</source>
         <translation>Горизонтально</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1171"/>
+        <location filename="../../ui_obconf.h" line="1185"/>
         <source>Stacking</source>
         <translation>Стопкой</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1172"/>
+        <location filename="../../ui_obconf.h" line="1186"/>
         <source>Keep dock &amp;above other windows</source>
         <translation>Отображать док &amp;поверх других окон</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1173"/>
+        <location filename="../../ui_obconf.h" line="1187"/>
         <source>A&amp;llow dock to be both above and below windows</source>
         <translation>Разрешить размещать док &amp;как поверх, так и позади окон</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1174"/>
+        <location filename="../../ui_obconf.h" line="1188"/>
         <source>Keep dock &amp;below other windows</source>
         <translation>Отображать док по&amp;зади других окон</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1175"/>
+        <location filename="../../ui_obconf.h" line="1189"/>
         <source>Hiding</source>
         <translation>Скрывать док</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1176"/>
+        <location filename="../../ui_obconf.h" line="1190"/>
         <source>&amp;Delay before hiding:</source>
         <translation>Задержка перед &amp;скрытием:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1177"/>
+        <location filename="../../ui_obconf.h" line="1191"/>
         <source>Delay before &amp;showing:</source>
         <translation>Задержка перед &amp;показом:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1178"/>
+        <location filename="../../ui_obconf.h" line="1192"/>
         <source>&amp;Hide off screen</source>
         <translation>С&amp;крывать с экрана</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1179"/>
+        <location filename="../../ui_obconf.h" line="1193"/>
         <source>About</source>
         <translation>О программе</translation>
     </message>

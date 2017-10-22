@@ -17,237 +17,237 @@
 <context>
     <name>MainDialog</name>
     <message>
-        <location filename="../../ui_obconf.h" line="1027"/>
+        <location filename="../../ui_obconf.h" line="1059"/>
         <source>Mouse</source>
         <translation>Mysz</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1012"/>
+        <location filename="../../ui_obconf.h" line="1044"/>
         <source>Window Manager Preferences</source>
         <translation>Preferencje menedżera okien</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1017"/>
+        <location filename="../../ui_obconf.h" line="1049"/>
         <source>Theme</source>
         <translation>Motyw</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1019"/>
+        <location filename="../../ui_obconf.h" line="1051"/>
         <source>Appearance</source>
         <translation>Wygląd</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1021"/>
+        <location filename="../../ui_obconf.h" line="1053"/>
         <source>Font</source>
         <translation>Czcionka</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1023"/>
-        <location filename="../../ui_obconf.h" line="1038"/>
+        <location filename="../../ui_obconf.h" line="1055"/>
+        <location filename="../../ui_obconf.h" line="1070"/>
         <source>Windows</source>
         <translation>Okna</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1025"/>
+        <location filename="../../ui_obconf.h" line="1057"/>
         <source>Move &amp; Resize</source>
         <translation>Przenieś i zmień rozmiar</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1029"/>
+        <location filename="../../ui_obconf.h" line="1061"/>
         <source>Desktops</source>
         <translation>Pulpity</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1031"/>
+        <location filename="../../ui_obconf.h" line="1063"/>
         <source>Margins</source>
         <translation>Obrzeża</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1033"/>
+        <location filename="../../ui_obconf.h" line="1065"/>
         <source>Dock</source>
         <translation>Dok</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1041"/>
+        <location filename="../../ui_obconf.h" line="1073"/>
         <source>Window Titles</source>
         <translation>Tytuły okien</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1042"/>
+        <location filename="../../ui_obconf.h" line="1074"/>
         <source>Button order:</source>
         <translation>Kolejność przycisków:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1083"/>
+        <location filename="../../ui_obconf.h" line="1111"/>
         <source>Moving and Resizing Windows</source>
         <translation>Przenoszenie i zmiana rozmiaru okien</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1090"/>
+        <location filename="../../ui_obconf.h" line="1118"/>
         <source>Information Dialog</source>
         <translation>Okno dialogowe</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1119"/>
+        <location filename="../../ui_obconf.h" line="1139"/>
         <source>Focusing Windows</source>
         <translation>Aktywacja okien</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1120"/>
+        <location filename="../../ui_obconf.h" line="1140"/>
         <source>Focus windows when the mouse pointer moves over them</source>
         <translation>Aktywuj okna, gdy wskaźnik myszy znajduje się nad nimi</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1125"/>
+        <location filename="../../ui_obconf.h" line="1145"/>
         <source>Titlebar</source>
         <translation>Pasek tytułu</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1137"/>
+        <location filename="../../ui_obconf.h" line="1155"/>
         <source>Desktop Margins</source>
         <translation>Obrzeża pulpitu</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1138"/>
+        <location filename="../../ui_obconf.h" line="1156"/>
         <source>Desktop margins are reserved areas on the edge of your screen.  New windows will not be placed within a margin, and maximized windows will not cover them.</source>
         <translation>Obrzeża pulpitu to zarezerwowany obszar na krawędziach Twojego ekranu. Nowe okna nie będą umieszczane na obrzeżach, a maksymalizowane okna nie będą ich pokrywać.</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1139"/>
+        <location filename="../../ui_obconf.h" line="1157"/>
         <source>Left:</source>
         <translation>Lewy:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1140"/>
-        <location filename="../../ui_obconf.h" line="1142"/>
-        <location filename="../../ui_obconf.h" line="1144"/>
-        <location filename="../../ui_obconf.h" line="1146"/>
+        <location filename="../../ui_obconf.h" line="1158"/>
+        <location filename="../../ui_obconf.h" line="1160"/>
+        <location filename="../../ui_obconf.h" line="1162"/>
+        <location filename="../../ui_obconf.h" line="1164"/>
         <source>px</source>
         <translation>piks.</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1141"/>
+        <location filename="../../ui_obconf.h" line="1159"/>
         <source>Top:</source>
         <translation>Górny:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1143"/>
+        <location filename="../../ui_obconf.h" line="1161"/>
         <source>Right:</source>
         <translation>Prawy:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1145"/>
+        <location filename="../../ui_obconf.h" line="1163"/>
         <source>Bottom:</source>
         <translation>Dolny:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1068"/>
+        <location filename="../../ui_obconf.h" line="1098"/>
         <source>All monitors</source>
         <translation>Wszystkie monitory</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1069"/>
+        <location filename="../../ui_obconf.h" line="1099"/>
         <source>The active monitor</source>
         <translation>Aktywny monitor</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1070"/>
+        <location filename="../../ui_obconf.h" line="1100"/>
         <source>The monitor with the mouse</source>
         <translation>Monitor z myszą</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1073"/>
+        <location filename="../../ui_obconf.h" line="1103"/>
         <source>Primary Monitor</source>
         <translation>Monitor główny</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1074"/>
+        <location filename="../../ui_obconf.h" line="1104"/>
         <source>The primary monitor is where Openbox will place dialogs, such as the one used for cycling windows.</source>
         <translation>Główny monitor to ten, gdzie Openbox będzie umieszczać okna dialogowe, jak również ten służący do wymiany okien.</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1078"/>
+        <location filename="../../ui_obconf.h" line="1106"/>
         <source>Fixed Monitor</source>
         <translation>Stały monitor</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1079"/>
+        <location filename="../../ui_obconf.h" line="1107"/>
         <source>Active Monitor</source>
         <translation>Aktywny monitor</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1080"/>
+        <location filename="../../ui_obconf.h" line="1108"/>
         <source>Monitor With Mouse Pointer</source>
         <translation>Monitor ze wskaźnikiem myszy</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1093"/>
-        <location filename="../../ui_obconf.h" line="1100"/>
+        <location filename="../../ui_obconf.h" line="1119"/>
+        <location filename="../../ui_obconf.h" line="1124"/>
         <source>Centered</source>
         <translation>Wyśrodkowane</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1094"/>
+        <location filename="../../ui_obconf.h" line="1120"/>
         <source>From left edge</source>
         <translation>Od lewej krawędzi</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1095"/>
+        <location filename="../../ui_obconf.h" line="1121"/>
         <source>From right edge</source>
         <translation>Od prawej krawędzi</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1101"/>
+        <location filename="../../ui_obconf.h" line="1125"/>
         <source>From top edge</source>
         <translation>Od górnej krawędzi</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1102"/>
+        <location filename="../../ui_obconf.h" line="1126"/>
         <source>From bottom edge</source>
         <translation>Od dolnej krawędzi</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1109"/>
+        <location filename="../../ui_obconf.h" line="1131"/>
         <source>When resizing terminal windows</source>
         <translation>Podczas zmiany rozmiaru okna terminala</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1110"/>
+        <location filename="../../ui_obconf.h" line="1132"/>
         <source>Always</source>
         <translation>Zawsze</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1111"/>
+        <location filename="../../ui_obconf.h" line="1133"/>
         <source>Never</source>
         <translation>Nigdy</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1115"/>
+        <location filename="../../ui_obconf.h" line="1135"/>
         <source>Centered on the window</source>
         <translation>Centralnie na oknie</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1116"/>
+        <location filename="../../ui_obconf.h" line="1136"/>
         <source>Above the window</source>
         <translation>Nad oknem</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1117"/>
+        <location filename="../../ui_obconf.h" line="1137"/>
         <source>Fixed position on screen</source>
         <translation>Określone położenie na ekranie</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1129"/>
+        <location filename="../../ui_obconf.h" line="1147"/>
         <source>Maximizes the window</source>
         <translation>Maksymalizuje okno</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1130"/>
+        <location filename="../../ui_obconf.h" line="1148"/>
         <source>Shades the window</source>
         <translation>Przyciemnia okno</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1043"/>
+        <location filename="../../ui_obconf.h" line="1075"/>
         <source>N: Window icon
 L: Window label (Title)
 I: Iconify (Minimize)
@@ -264,322 +264,322 @@ S: Zwiń (Zroluj)
 D: Wszechobecne (Na wszystkich pulpitach)</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1071"/>
+        <location filename="../../ui_obconf.h" line="1101"/>
         <source>Primary monitor</source>
         <translation>Monitor główny</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1147"/>
+        <location filename="../../ui_obconf.h" line="1165"/>
         <source>The dock is a special container for &quot;dockapps&quot;, or dock applications.  It is not visible on screen until a dockapp is run.  Dockapps can be used to show things like a clock, or to provide you with a system tray.</source>
         <translation>Dok jest miejscem przeznaczonym na zadokowane aplikacje. Nie jest widoczny na ekranie, jeżeli nie są one uruchomienie. Zadokowane aplikacje mogą wyświetlać np. zegar lub zawierać pasek zadań.</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1148"/>
+        <location filename="../../ui_obconf.h" line="1166"/>
         <source>Position</source>
         <translation>Położenie</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1149"/>
+        <location filename="../../ui_obconf.h" line="1167"/>
         <source>&amp;Position:</source>
         <translation>&amp;Położenie:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1152"/>
+        <location filename="../../ui_obconf.h" line="1168"/>
         <source>Top Left</source>
         <translation>Górny lewy róg</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1153"/>
+        <location filename="../../ui_obconf.h" line="1169"/>
         <source>Top</source>
         <translation>Góra</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1154"/>
+        <location filename="../../ui_obconf.h" line="1170"/>
         <source>Top Right</source>
         <translation>Górny prawy róg</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1155"/>
+        <location filename="../../ui_obconf.h" line="1171"/>
         <source>Left</source>
         <translation>Lewo</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1156"/>
+        <location filename="../../ui_obconf.h" line="1172"/>
         <source>Right</source>
         <translation>Prawo</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1157"/>
+        <location filename="../../ui_obconf.h" line="1173"/>
         <source>Bottom Left</source>
         <translation>Lewy dolny róg</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1158"/>
+        <location filename="../../ui_obconf.h" line="1174"/>
         <source>Bottom</source>
         <translation>Dół</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1159"/>
+        <location filename="../../ui_obconf.h" line="1175"/>
         <source>Bottom Right</source>
         <translation>Prawy dolny róg</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1160"/>
+        <location filename="../../ui_obconf.h" line="1176"/>
         <source>Floating</source>
         <translation>Pływające</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1162"/>
+        <location filename="../../ui_obconf.h" line="1178"/>
         <source>&amp;Floating position:</source>
         <translation>&amp;Położenie pływającego doku:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1163"/>
+        <location filename="../../ui_obconf.h" line="1179"/>
         <source>x</source>
         <translation>x</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1164"/>
+        <location filename="../../ui_obconf.h" line="1180"/>
         <source>Allow &amp;windows to be placed within the dock&apos;s area</source>
         <translation>Pozwól na położenie okien &amp;w zadokowanej przestrzeni</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1165"/>
+        <location filename="../../ui_obconf.h" line="1181"/>
         <source>&amp;Orientation: </source>
         <translation>&amp;Obrót: </translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1168"/>
+        <location filename="../../ui_obconf.h" line="1182"/>
         <source>Vertical</source>
         <translation>Pionowo</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1169"/>
+        <location filename="../../ui_obconf.h" line="1183"/>
         <source>Horizontal</source>
         <translation>Poziomo</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1171"/>
+        <location filename="../../ui_obconf.h" line="1185"/>
         <source>Stacking</source>
         <translation>Układanie</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1172"/>
+        <location filename="../../ui_obconf.h" line="1186"/>
         <source>Keep dock &amp;above other windows</source>
         <translation>Pozost&amp;aw dok nad resztą okien</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1173"/>
+        <location filename="../../ui_obconf.h" line="1187"/>
         <source>A&amp;llow dock to be both above and below windows</source>
         <translation>Pozwó&amp;l na położenie doku nad i pod oknami</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1174"/>
+        <location filename="../../ui_obconf.h" line="1188"/>
         <source>Keep dock &amp;below other windows</source>
         <translation>Pozostaw dok pod innymi o&amp;knami</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1175"/>
+        <location filename="../../ui_obconf.h" line="1189"/>
         <source>Hiding</source>
         <translation>Ukrywanie</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1176"/>
+        <location filename="../../ui_obconf.h" line="1190"/>
         <source>&amp;Delay before hiding:</source>
         <translation>O&amp;dstęp przed ukryciem:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1177"/>
+        <location filename="../../ui_obconf.h" line="1191"/>
         <source>Delay before &amp;showing:</source>
         <translation>Odstęp przed &amp;pokazaniem:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1178"/>
+        <location filename="../../ui_obconf.h" line="1192"/>
         <source>&amp;Hide off screen</source>
         <translation>&amp;Ukryj z ekranu</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1179"/>
+        <location filename="../../ui_obconf.h" line="1193"/>
         <source>About</source>
         <translation>O programie</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1036"/>
+        <location filename="../../ui_obconf.h" line="1068"/>
         <source>&amp;Install a new theme...</source>
         <translation>&amp;Zainstaluj nowy motyw…</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1037"/>
+        <location filename="../../ui_obconf.h" line="1069"/>
         <source>Create a theme &amp;archive (.obt)...</source>
         <translation>&amp;Utwórz archiwum motywu (.obt)…</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1039"/>
+        <location filename="../../ui_obconf.h" line="1071"/>
         <source>&amp;Windows retain a border when undecorated</source>
         <translation>Okna zacho&amp;wują obramowanie, gdy nie mają dekoracji</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1040"/>
+        <location filename="../../ui_obconf.h" line="1072"/>
         <source>A&amp;nimate iconify and restore</source>
         <translation>A&amp;nimowane zwinięcie do ikony i odtworzenie</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1056"/>
+        <location filename="../../ui_obconf.h" line="1088"/>
         <source>&amp;Active window title: </source>
         <translation>Tytuł &amp;aktywnego okna: </translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1057"/>
+        <location filename="../../ui_obconf.h" line="1089"/>
         <source>&amp;Inactive window title: </source>
         <translation>Tytuł n&amp;ieaktywnego okna: </translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1058"/>
+        <location filename="../../ui_obconf.h" line="1090"/>
         <source>Menu &amp;header: </source>
         <translation>&amp;Nagłówek menu: </translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1059"/>
+        <location filename="../../ui_obconf.h" line="1091"/>
         <source>&amp;Menu Item: </source>
         <translation>&amp;Element menu: </translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1060"/>
+        <location filename="../../ui_obconf.h" line="1092"/>
         <source>Active &amp;On-screen display: </source>
         <translation>Aktywne &amp;okienko informacyjne na ekranie: </translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1061"/>
+        <location filename="../../ui_obconf.h" line="1093"/>
         <source>Inactive O&amp;n-screen display: </source>
         <translation>Nieaktywne okie&amp;nko informacyjne na ekranie: </translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1062"/>
+        <location filename="../../ui_obconf.h" line="1094"/>
         <source>Focus &amp;new windows when they appear</source>
         <translation>Aktywuj &amp;nowe okna, gdy się pojawią</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1063"/>
+        <location filename="../../ui_obconf.h" line="1095"/>
         <source>&amp;Place new windows under the mouse pointer</source>
         <translation>&amp;Umieszczaj nowe okna pod wskaźnikiem myszy</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1064"/>
+        <location filename="../../ui_obconf.h" line="1096"/>
         <source>&amp;Center new windows when they are placed</source>
         <translation>Wyśrodkuj nowe okna, gdy są one umiesz&amp;czane</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1065"/>
+        <location filename="../../ui_obconf.h" line="1097"/>
         <source>Prefer to place new windows &amp;on:</source>
         <translation>Preferencja d&amp;o umieszczania nowych okien na:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1075"/>
+        <location filename="../../ui_obconf.h" line="1105"/>
         <source>Primary &amp;monitor:</source>
         <translation>&amp;Monitor główny:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1082"/>
+        <location filename="../../ui_obconf.h" line="1110"/>
         <source>&amp;Fixed monitor:</source>
         <translation>&amp;Stały monitor:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1084"/>
+        <location filename="../../ui_obconf.h" line="1112"/>
         <source>Update the window contents while &amp;resizing</source>
         <translation>Aktualizacja zawa&amp;rtości okna podczas zmiany jego rozmiaru</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1085"/>
+        <location filename="../../ui_obconf.h" line="1113"/>
         <source>Drag &amp;threshold distance:</source>
         <translation>&amp;Odległość oporu przy przemieszczaniu:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1086"/>
+        <location filename="../../ui_obconf.h" line="1114"/>
         <source>Amount of resistance against other &amp;windows:</source>
         <translation>&amp;Wielkość oporu przeciwko innym oknom:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1087"/>
+        <location filename="../../ui_obconf.h" line="1115"/>
         <source>Amount of resistance against screen &amp;edges:</source>
         <translation>Wielkość oporu przeciwko krawędziom &amp;ekranu:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1088"/>
+        <location filename="../../ui_obconf.h" line="1116"/>
         <source>&amp;Amount of time to wait before switching:</source>
         <translation>Ilość cz&amp;asu do oczekiwania przed przełączeniem:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1089"/>
+        <location filename="../../ui_obconf.h" line="1117"/>
         <source>&amp;Switch desktops when moving a window past the screen edge</source>
         <translation>Przełącz pulpity podcza&amp;s przenoszenia okna poza krawędź ekranu</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1097"/>
+        <location filename="../../ui_obconf.h" line="1123"/>
         <source>Fixed &amp;y position:</source>
         <translation>Stała pozycja &amp;y:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1104"/>
+        <location filename="../../ui_obconf.h" line="1128"/>
         <source>Information dialog&apos;s &amp;position:</source>
         <translation>&amp;Pozycja okna dialogowego informacji:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1105"/>
+        <location filename="../../ui_obconf.h" line="1129"/>
         <source>Fixed &amp;x position:</source>
         <translation>Stała pozycja &amp;x:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1106"/>
+        <location filename="../../ui_obconf.h" line="1130"/>
         <source>Show &amp;information dialog:</source>
         <translation>Pokaż okno &amp;informacyjne:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1121"/>
+        <location filename="../../ui_obconf.h" line="1141"/>
         <source>&amp;Delay before focusing and raising windows:</source>
         <translation>&amp;Opóźnienie przed aktywacją i wznoszeniem okien:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1122"/>
+        <location filename="../../ui_obconf.h" line="1142"/>
         <source>Move focus under the mouse when &amp;switching desktops</source>
         <translation>Przenieś zaznaczenie pod wskaźnik my&amp;szy podczas przełączania pulpitów</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1123"/>
+        <location filename="../../ui_obconf.h" line="1143"/>
         <source>Move focus &amp;under the mouse when the mouse is not moving</source>
         <translation>Przenieś zaznaczenie pod wskaźnik myszy, gdy mysz jest nier&amp;uchoma</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1124"/>
+        <location filename="../../ui_obconf.h" line="1144"/>
         <source>&amp;Raise windows when the mouse pointer moves over them</source>
         <translation>&amp;Aktywuj okna, gdy wskaźnik myszy znajduje się nad nimi</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1126"/>
+        <location filename="../../ui_obconf.h" line="1146"/>
         <source>Double click on the &amp;titlebar:</source>
         <translation>Podwójne kliknięcie na pasku &amp;tytułu:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1132"/>
+        <location filename="../../ui_obconf.h" line="1150"/>
         <source>Double click ti&amp;me:</source>
         <translation>Czas &amp;dwukrotnego kliknięcia:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1133"/>
+        <location filename="../../ui_obconf.h" line="1151"/>
         <source>&amp;Show a notification when switching desktops</source>
         <translation>Pokaż powiadomienie podcza&amp;s przełączania pulpitów</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1134"/>
+        <location filename="../../ui_obconf.h" line="1152"/>
         <source>&amp;Amount of time to show the notification for:</source>
         <translation>Ilość cz&amp;asu do wyświetlania powiadomienia dla:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1135"/>
+        <location filename="../../ui_obconf.h" line="1153"/>
         <source>&amp;Number of desktops: </source>
         <translation>&amp;Liczba pulpitów: </translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1136"/>
+        <location filename="../../ui_obconf.h" line="1154"/>
         <source>&amp;Desktop names:</source>
         <translation>Nazwy &amp;pulpitów:</translation>
     </message>
