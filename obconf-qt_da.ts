@@ -247,7 +247,7 @@ D: Allestedsnærværende (på alle skriveborde)</translation>
     <message>
         <location filename="../../ui_obconf.h" line="1116"/>
         <source>&amp;Amount of time to wait before switching:</source>
-        <translation>&amp;Forsinkelse før der skiftes:</translation>
+        <translation>&amp;Forsinkelse inden der skiftes:</translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1117"/>
@@ -348,7 +348,7 @@ D: Allestedsnærværende (på alle skriveborde)</translation>
     <message>
         <location filename="../../ui_obconf.h" line="1141"/>
         <source>&amp;Delay before focusing and raising windows:</source>
-        <translation>F&amp;orsinkelse før fokusering og hævning af vinduer:</translation>
+        <translation>F&amp;orsinkelse inden fokusering og hævning af vinduer:</translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1142"/>
@@ -451,7 +451,7 @@ D: Allestedsnærværende (på alle skriveborde)</translation>
     <message>
         <location filename="../../ui_obconf.h" line="1165"/>
         <source>The dock is a special container for &quot;dockapps&quot;, or dock applications.  It is not visible on screen until a dockapp is run.  Dockapps can be used to show things like a clock, or to provide you with a system tray.</source>
-        <translation>Dokken er en særlig beholder til &quot;dokapps&quot;, eller dokprogrammer. Den er ikke synlige på skærmen før et dokprogram startes. Dokapps kan benyttes til at vise ting såsom et ur, eller til at give dig en systembakke.</translation>
+        <translation>Dokken er en særlig beholder til &quot;dokapps&quot;, eller dokprogrammer. Den er ikke synlige på skærmen før et dokprogram startes. Dokapps kan bruges til at vise ting såsom et ur, eller til at give dig en systembakke.</translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1166"/>
@@ -566,12 +566,12 @@ D: Allestedsnærværende (på alle skriveborde)</translation>
     <message>
         <location filename="../../ui_obconf.h" line="1190"/>
         <source>&amp;Delay before hiding:</source>
-        <translation>&amp;Forsinkelse før skjul:</translation>
+        <translation>&amp;Forsinkelse inden skjul:</translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1191"/>
         <source>Delay before &amp;showing:</source>
-        <translation>Forsinkelse før vi&amp;sning:</translation>
+        <translation>Forsinkelse inden vi&amp;sning:</translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1192"/>
