@@ -346,7 +346,7 @@ D: 全てのデスクトップに表示する</translation>
     <message>
         <location filename="../../ui_obconf.h" line="1181"/>
         <source>&amp;Orientation: </source>
-        <translation>方向(&amp;O):</translation>
+        <translation>方向(&amp;O): </translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1182"/>
@@ -618,7 +618,7 @@ The program is based on ObConf developed by the following developers.
 * Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</source>
         <translation>Openbox の設定マネージャ
 
-Copyright (c) 2003-2015
+Copyright (c) 20142015
 
 作者:
 * Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;
@@ -626,8 +626,7 @@ Copyright (c) 2003-2015
 このプログラムは下記の開発者によって開発されたObConfを基に開発されています。
 * Dana Jansens &lt;danakj@orodu.net&gt;
 * Tim Riley &lt;tr@slackzone.org&gt;
-* Javeed Shaikh &lt;syscrash2k@gmail.com&gt;
-</translation>
+* Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</translation>
     </message>
     <message>
         <source>A preferences manager for Openbox
