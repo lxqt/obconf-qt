@@ -1,6 +1,6 @@
 project(obconf-qt)
 # newer cmake is required for CMAKE_AUTOMOC Qt support
-cmake_minimum_required(VERSION 2.8.12)
+cmake_minimum_required(VERSION 2.8.12 FATAL_ERROR)
 
 find_program(SED_PROGRAM sed)
 
@@ -19,7 +19,7 @@ if(USE_QT4)
   include(${QT_USE_FILE})
   message(STATUS "Building with Qt${QTVERSION}")
 else()
-  cmake_minimum_required(VERSION 2.8.11)
+  cmake_minimum_required(VERSION 3.0.2 FATAL_ERROR)
   find_package(Qt5Widgets REQUIRED)
   find_package(Qt5X11Extras REQUIRED)
   find_package(Qt5LinguistTools REQUIRED QUIET)
