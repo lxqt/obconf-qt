@@ -180,7 +180,9 @@ static gboolean prop_get_string_utf8(Window win, Atom prop, gchar** ret) {
 
 int main(int argc, char** argv) {
   QApplication app(argc, argv);
+#ifndef USE_QT4
   app.setAttribute(Qt::AA_UseHighDpiPixmaps, true);
+#endif
 
   // load translations
   QTranslator qtTranslator, translator;
