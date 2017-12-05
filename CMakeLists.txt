@@ -51,6 +51,7 @@ add_definitions("-DOBCONFQT_VERSION=\"${OBCONFQT_VERSION}\"")
 include(LXQtTranslateTs)
 include(LXQtTranslateDesktop)
 include(LXQtCompilerSettings)
+include(LXQtCompilerSettings NO_POLICY_SCOPE)
 
 # add src subdirectory
 add_subdirectory(src)
