@@ -100,6 +100,10 @@ add_definitions(
   -DTHEME_DIR="${CMAKE_INSTALL_FULL_DATAROOTDIR}/openbox/themes"
 )
 
+if (USE_QT4)
+    add_definitions(-DUSE_QT4)
+endif()
+
 target_link_libraries(obconf-qt
   ${QTX_LIBRARIES}
   ${GLIB_LIBRARIES}
