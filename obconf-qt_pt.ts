@@ -376,7 +376,7 @@ D: Omnipresente (todas as áreas de trabalho)</translation>
     <message>
         <location filename="../../ui_obconf.h" line="1188"/>
         <source>Keep dock &amp;below other windows</source>
-        <translation>Manter do&amp;ca atrás das janelas </translation>
+        <translation>Manter do&amp;ca atrás das janelas</translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1189"/>
@@ -411,7 +411,7 @@ D: Omnipresente (todas as áreas de trabalho)</translation>
     <message>
         <location filename="../../ui_obconf.h" line="1069"/>
         <source>Create a theme &amp;archive (.obt)...</source>
-        <translation> Criar um &amp;arquivo de tema (.obt)...</translation>
+        <translation>Criar um &amp;arquivo de tema (.obt)...</translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1071"/>
