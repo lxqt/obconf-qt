@@ -14,11 +14,14 @@ set(CMAKE_INCLUDE_CURRENT_DIR ON)
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 set(CMAKE_AUTOMOC ON)
 
+
 if(USE_QT4)
+  set(USE_QT5 FALSE)
   find_package(Qt4 REQUIRED QtCore QtGui) # Qt
   include(${QT_USE_FILE})
   message(STATUS "Building with Qt${QTVERSION}")
 else()
+  set(USE_QT5 TRUE)
   cmake_minimum_required(VERSION 3.0.2 FATAL_ERROR)
   find_package(Qt5Widgets REQUIRED)
   find_package(Qt5X11Extras REQUIRED)

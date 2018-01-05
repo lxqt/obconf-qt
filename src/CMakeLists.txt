@@ -60,8 +60,8 @@ add_custom_command(
 # add translation for obconf-qt
 option (UPDATE_TRANSLATIONS "Update source translation translations/*.ts files" OFF)
 lxqt_translate_ts(QM_FILES
-  USE_QT4
-    ${USE_QT4}
+  USE_QT5
+    ${USE_QT5}
   UPDATE_TRANSLATIONS
     ${UPDATE_TRANSLATIONS}
   SOURCES
