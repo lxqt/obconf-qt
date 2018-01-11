@@ -775,7 +775,7 @@ Opties:
         <translation>--config-file heeft een argument nodig</translation>
     </message>
     <message>
-        <location filename="../../obconf-qt.cpp" line="239"/>
+        <location filename="../../obconf-qt.cpp" line="241"/>
         <source>Error while parsing the Openbox configuration file.  Your configuration file is not valid XML.
 
 Message: %1</source>
@@ -792,13 +792,13 @@ Boodschap: %1</translation>
         <translation type="vanished">--config-file heeft een argument nodig</translation>
     </message>
     <message>
-        <location filename="../../obconf-qt.cpp" line="225"/>
-        <location filename="../../obconf-qt.cpp" line="241"/>
+        <location filename="../../obconf-qt.cpp" line="227"/>
+        <location filename="../../obconf-qt.cpp" line="243"/>
         <source>Error</source>
         <translation>Fout</translation>
     </message>
     <message>
-        <location filename="../../obconf-qt.cpp" line="226"/>
+        <location filename="../../obconf-qt.cpp" line="228"/>
         <source>Failed to load an rc.xml. You have probably failed to install Openbox properly.</source>
         <translation>Kon bestand rc.xml niet laden. U hebt Openbox waarschijnlijk niet juist geïnstalleerd.</translation>
     </message>

@@ -634,7 +634,7 @@ Authors:
 * Dana Jansens &lt;danakj@orodu.net&gt;
 * Tim Riley &lt;tr@slackzone.org&gt;
 * Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</source>
-        <translation>Диспетчер настроек для Openbox
+        <translation type="vanished">Диспетчер настроек для Openbox
 
 Copyright (c) 2003-2013
 
@@ -778,18 +778,18 @@ Options:
 </translation>
     </message>
     <message>
-        <location filename="../../obconf-qt.cpp" line="225"/>
-        <location filename="../../obconf-qt.cpp" line="241"/>
+        <location filename="../../obconf-qt.cpp" line="227"/>
+        <location filename="../../obconf-qt.cpp" line="243"/>
         <source>Error</source>
         <translation>Ошибка</translation>
     </message>
     <message>
-        <location filename="../../obconf-qt.cpp" line="226"/>
+        <location filename="../../obconf-qt.cpp" line="228"/>
         <source>Failed to load an rc.xml. You have probably failed to install Openbox properly.</source>
         <translation>Не удалось загрузить rc.xml. Openbox, наверное, не установлен правильно.</translation>
     </message>
     <message>
-        <location filename="../../obconf-qt.cpp" line="239"/>
+        <location filename="../../obconf-qt.cpp" line="241"/>
         <source>Error while parsing the Openbox configuration file.  Your configuration file is not valid XML.
 
 Message: %1</source>

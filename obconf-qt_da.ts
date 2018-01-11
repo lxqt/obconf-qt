@@ -759,18 +759,18 @@ Tilvalg:
 </translation>
     </message>
     <message>
-        <location filename="../../obconf-qt.cpp" line="225"/>
-        <location filename="../../obconf-qt.cpp" line="241"/>
+        <location filename="../../obconf-qt.cpp" line="227"/>
+        <location filename="../../obconf-qt.cpp" line="243"/>
         <source>Error</source>
         <translation>Fejl</translation>
     </message>
     <message>
-        <location filename="../../obconf-qt.cpp" line="226"/>
+        <location filename="../../obconf-qt.cpp" line="228"/>
         <source>Failed to load an rc.xml. You have probably failed to install Openbox properly.</source>
         <translation>Kunne ikke indlæse en rc.xml. Du har muligvis ikke fået installeret Openbox ordentligt.</translation>
     </message>
     <message>
-        <location filename="../../obconf-qt.cpp" line="239"/>
+        <location filename="../../obconf-qt.cpp" line="241"/>
         <source>Error while parsing the Openbox configuration file.  Your configuration file is not valid XML.
 
 Message: %1</source>
