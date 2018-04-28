@@ -65,7 +65,7 @@
     <message>
         <location filename="../../ui_obconf.h" line="1065"/>
         <source>Dock</source>
-        <translation type="unfinished"></translation>
+        <translation>Muelle</translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1073"/>
@@ -271,132 +271,132 @@ D: Omnipresente (en todos los escritorios)</translation>
     <message>
         <location filename="../../ui_obconf.h" line="1165"/>
         <source>The dock is a special container for &quot;dockapps&quot;, or dock applications.  It is not visible on screen until a dockapp is run.  Dockapps can be used to show things like a clock, or to provide you with a system tray.</source>
-        <translation type="unfinished"></translation>
+        <translation>El muelle es un contenedor especial para &quot;dockapps&quot;, o aplicaciones anclables.  No se ve en la pantalla hasta que se ejecuta una &quot;dockapp&quot;.  Las &quot;dockapps&quot; se pueden usar para mostrar cosas como un reloj, o para proporcionarle una bandeja del sistema.</translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1166"/>
         <source>Position</source>
-        <translation type="unfinished"></translation>
+        <translation>Posición</translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1167"/>
         <source>&amp;Position:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Posición:</translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1168"/>
         <source>Top Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Superior izquierda</translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1169"/>
         <source>Top</source>
-        <translation type="unfinished"></translation>
+        <translation>Arriba</translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1170"/>
         <source>Top Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Superior derecha</translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1171"/>
         <source>Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Izquierda</translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1172"/>
         <source>Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Derecha</translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1173"/>
         <source>Bottom Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Inferior izquierda</translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1174"/>
         <source>Bottom</source>
-        <translation type="unfinished"></translation>
+        <translation>Abajo</translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1175"/>
         <source>Bottom Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Inferior derecha</translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1176"/>
         <source>Floating</source>
-        <translation type="unfinished"></translation>
+        <translation>Flotante</translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1178"/>
         <source>&amp;Floating position:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Posición flotante:</translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1179"/>
         <source>x</source>
-        <translation type="unfinished"></translation>
+        <translation>x</translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1180"/>
         <source>Allow &amp;windows to be placed within the dock&apos;s area</source>
-        <translation type="unfinished"></translation>
+        <translation>Permitir que las ventanas sean colocadas en el área del muelle</translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1181"/>
         <source>&amp;Orientation: </source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Orientación: </translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1182"/>
         <source>Vertical</source>
-        <translation type="unfinished"></translation>
+        <translation>Vertical</translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1183"/>
         <source>Horizontal</source>
-        <translation type="unfinished"></translation>
+        <translation>Horizontal</translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1185"/>
         <source>Stacking</source>
-        <translation type="unfinished"></translation>
+        <translation>Apilado</translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1186"/>
         <source>Keep dock &amp;above other windows</source>
-        <translation type="unfinished"></translation>
+        <translation>M&amp;antener el muelle sobre las demás ventanas</translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1187"/>
         <source>A&amp;llow dock to be both above and below windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Permitir que e&amp;l muelle esté tanto encima como debajo de las ventanas</translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1188"/>
         <source>Keep dock &amp;below other windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Mantener el muelle de&amp;bajo de otras ventanas</translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1189"/>
         <source>Hiding</source>
-        <translation type="unfinished"></translation>
+        <translation>Ocultación</translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1190"/>
         <source>&amp;Delay before hiding:</source>
-        <translation type="unfinished"></translation>
+        <translation>Retraso antes &amp;de ocultar:</translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1191"/>
         <source>Delay before &amp;showing:</source>
-        <translation type="unfinished"></translation>
+        <translation>Retraso antes de mo&amp;strar:</translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1192"/>
         <source>&amp;Hide off screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Ocultar fuera de la pantalla</translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1193"/>
@@ -616,7 +616,17 @@ The program is based on ObConf developed by the following developers.
 * Dana Jansens &lt;danakj@orodu.net&gt;
 * Tim Riley &lt;tr@slackzone.org&gt;
 * Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Un gestor de preferencias para Openbox
+
+Derechos de autor (c) 2014-2015
+
+Autores:
+* Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;
+
+El programa está basado en ObConf ObConf, desarrollado por los siguientes desarrolladores.
+* Dana Jansens &lt;danakj@orodu.net&gt;
+* Tim Riley &lt;tr@slackzone.org&gt;
+* Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</translation>
     </message>
     <message>
         <source>A preferences manager for Openbox
