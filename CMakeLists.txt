@@ -6,7 +6,7 @@ find_program(SED_PROGRAM sed)
 
 include(GNUInstallDirs)
 
-set(LXQTBT_MINIMUM_VERSION "0.1.0")
+set(LXQTBT_MINIMUM_VERSION "0.5.0")
 
 # Support Qt4 for the time being
 option(USE_QT4 "Build with Qt4." $ENV{USE_QT4})
@@ -51,6 +51,7 @@ set(OBCONFQT_PATCH_VERSION 0)
 set(OBCONFQT_VERSION ${OBCONFQT_MAJOR_VERSION}.${OBCONFQT_MINOR_VERSION}.${OBCONFQT_PATCH_VERSION})
 add_definitions("-DOBCONFQT_VERSION=\"${OBCONFQT_VERSION}\"")
 
+include(LXQtPreventInSourceBuilds)
 include(LXQtTranslateTs)
 include(LXQtTranslateDesktop)
 include(LXQtCompilerSettings)
