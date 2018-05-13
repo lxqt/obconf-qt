@@ -90,12 +90,12 @@
     <message>
         <location filename="../../ui_obconf.h" line="1139"/>
         <source>Focusing Windows</source>
-        <translation>Enfocar ventanas</translation>
+        <translation>Activación de ventanas</translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1140"/>
         <source>Focus windows when the mouse pointer moves over them</source>
-        <translation>Enfocar las ventanas al pasar el ratón sobre ellas</translation>
+        <translation>Activar las ventanas al pasar el ratón sobre ellas</translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1145"/>
@@ -229,7 +229,7 @@
     <message>
         <location filename="../../ui_obconf.h" line="1136"/>
         <source>Above the window</source>
-        <translation>Encima de la ventana</translation>
+        <translation>Sobre la ventana</translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1137"/>
@@ -411,7 +411,7 @@ D: Omnipresente (en todos los escritorios)</translation>
     <message>
         <location filename="../../ui_obconf.h" line="1069"/>
         <source>Create a theme &amp;archive (.obt)...</source>
-        <translation>Crear &amp;archivador de tema (.obt)…</translation>
+        <translation>Crea un &amp;archivo de tema (.obt)…</translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1071"/>
@@ -456,7 +456,7 @@ D: Omnipresente (en todos los escritorios)</translation>
     <message>
         <location filename="../../ui_obconf.h" line="1094"/>
         <source>Focus &amp;new windows when they appear</source>
-        <translation>Enfocar las ventanas &amp;nuevas cuando aparecen</translation>
+        <translation>Activar las ventanas &amp;nuevas cuando aparecen</translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1095"/>
@@ -491,7 +491,7 @@ D: Omnipresente (en todos los escritorios)</translation>
     <message>
         <location filename="../../ui_obconf.h" line="1113"/>
         <source>Drag &amp;threshold distance:</source>
-        <translation>&amp;Umbral de distancia del arrastre:</translation>
+        <translation>&amp;Umbral de distancia de arrastre:</translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1114"/>
@@ -536,7 +536,7 @@ D: Omnipresente (en todos los escritorios)</translation>
     <message>
         <location filename="../../ui_obconf.h" line="1141"/>
         <source>&amp;Delay before focusing and raising windows:</source>
-        <translation>&amp;Retardo antes de enfocar y elevar ventanas:</translation>
+        <translation>&amp;Retardo antes de activar y elevar ventanas:</translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1142"/>
@@ -576,7 +576,7 @@ D: Omnipresente (en todos los escritorios)</translation>
     <message>
         <location filename="../../ui_obconf.h" line="1153"/>
         <source>&amp;Number of desktops: </source>
-        <translation>&amp;N.º de escritorios: </translation>
+        <translation>&amp;Número de escritorios: </translation>
     </message>
     <message>
         <location filename="../../ui_obconf.h" line="1154"/>
@@ -618,7 +618,7 @@ The program is based on ObConf developed by the following developers.
 * Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</source>
         <translation>Un gestor de preferencias para Openbox
 
-Derechos de autor (c) 2014-2015
+Copyright (c) 2014-2015
 
 Autores:
 * Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;
@@ -660,7 +660,7 @@ Autores:
     <message>
         <location filename="../../archive.cpp" line="26"/>
         <source>&quot;%1&quot; was installed to %1</source>
-        <translation>Se instaló «%1» en %1</translation>
+        <translation>Se ha instalado «%1» en %1</translation>
     </message>
     <message>
         <location filename="../../archive.cpp" line="53"/>
@@ -672,7 +672,7 @@ Autores:
         <source>Unable to create the theme archive &quot;%1&quot;.
 The following errors were reported:
 %2</source>
-        <translation>No se puede crear el archivador de tema «%1».
+        <translation>No se puede crear el archivo de tema «%1».
 Se produjeron los siguientes errores:
 %2</translation>
     </message>
@@ -704,7 +704,7 @@ Please ensure that &quot;%2&quot; is writable and that the file is a valid Openb
 The following errors were reported:
 %3</source>
         <translation>No se puede extraer el archivo «%1».
-Asegúrese de que «%2» es escribible y de que el archivo es un tema de Openbox válido.
+Asegúrese de que se puede escribir en «%2» y de que el archivo es un tema de Openbox válido.
 Se produjeron los siguientes errores:
 %3</translation>
     </message>
@@ -730,7 +730,7 @@ Opciones:
   --help                Mostrar esta ayuda y salir
   --version             Mostrar la versión y salir
   --install ARCHIVADOR.obt Instalar el tema dado y seleccionarlo
-  --archive TEMA        Crear un archivador a partir de la carpeta dada
+  --archive TEMA        Crear un archivo a partir de la carpeta dada
   --config-file ARCHIVO Especificar ruta al archivo de conf. a usar
 </translation>
     </message>
