@@ -8,6 +8,12 @@ include(GNUInstallDirs)
 
 set(LXQTBT_MINIMUM_VERSION "0.5.0")
 
+set(OBCONFQT_MAJOR_VERSION 0)
+set(OBCONFQT_MINOR_VERSION 13)
+set(OBCONFQT_PATCH_VERSION 0)
+set(OBCONFQT_VERSION ${OBCONFQT_MAJOR_VERSION}.${OBCONFQT_MINOR_VERSION}.${OBCONFQT_PATCH_VERSION})
+add_definitions("-DOBCONFQT_VERSION=\"${OBCONFQT_VERSION}\"")
+
 # Support Qt4 for the time being
 option(USE_QT4 "Build with Qt4." $ENV{USE_QT4})
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
@@ -25,7 +31,7 @@ else()
   cmake_minimum_required(VERSION 3.0.2 FATAL_ERROR)
   find_package(Qt5Widgets REQUIRED)
   find_package(Qt5X11Extras REQUIRED)
-  find_package(Qt5LinguistTools REQUIRED QUIET)
+  find_package(Qt5LinguistTools REQUIRED)
   message(STATUS "Building with Qt${Qt5Core_VERSION}")
 endif()
 
@@ -44,12 +50,6 @@ pkg_check_modules(OPENBOX REQUIRED
 if(NOT CMAKE_BUILD_TYPE)
     set(CMAKE_BUILD_TYPE Release)
 endif()
-
-set(OBCONFQT_MAJOR_VERSION 0)
-set(OBCONFQT_MINOR_VERSION 12)
-set(OBCONFQT_PATCH_VERSION 0)
-set(OBCONFQT_VERSION ${OBCONFQT_MAJOR_VERSION}.${OBCONFQT_MINOR_VERSION}.${OBCONFQT_PATCH_VERSION})
-add_definitions("-DOBCONFQT_VERSION=\"${OBCONFQT_VERSION}\"")
 
 include(LXQtPreventInSourceBuilds)
 include(LXQtTranslateTs)
