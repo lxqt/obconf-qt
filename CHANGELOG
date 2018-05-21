@@ -1,7 +1,24 @@
 
-obconf-qt-0.12.0 / 2017-09-24
+obconf-qt-0.13.0 / 2018-05-21
 =============================
 
+  * Bumped minor version to 13
+  * Spanish translation update
+  * CMake: Prevent in-source builds
+  * fixed lxde mentions
+  * Add Traditional Chinese translation
+  * Add Traditional Chinese translation
+  * Add Simplified Chinese translation
+  * Fixes Qt4 build
+  * cmake: Use LXQtCompilerSettings
+  * cmake: Handle CMP0071
+  * cmake: Make it compile with Qt4
+  * cmake: Update CMake minimum required version
+
+0.12.0 / 2017-09-24
+===================
+
+  * Release 0.12.0: Update changelog
   * Bump version to 0.12.0
   * Don't export github templates
   * Added Lithuanian language
