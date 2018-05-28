@@ -17,88 +17,88 @@
 <context>
     <name>MainDialog</name>
     <message>
-        <location filename="../../ui_obconf.h" line="1044"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1041"/>
         <source>Window Manager Preferences</source>
         <translation>窗口管理器设置</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1049"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1046"/>
         <source>Theme</source>
         <translation>主题</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1051"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1048"/>
         <source>Appearance</source>
         <translation>外观</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1053"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1050"/>
         <source>Font</source>
         <translation>字体</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1055"/>
-        <location filename="../../ui_obconf.h" line="1070"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1052"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1067"/>
         <source>Windows</source>
         <translation>窗口</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1057"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1054"/>
         <source>Move &amp; Resize</source>
         <translation>移动与调整大小</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1059"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1056"/>
         <source>Mouse</source>
         <translation>鼠标</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1061"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1058"/>
         <source>Desktops</source>
         <translation>桌面</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1063"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1060"/>
         <source>Margins</source>
         <translation>边距</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1065"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1062"/>
         <source>Dock</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1068"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1065"/>
         <source>&amp;Install a new theme...</source>
         <translation>安装新主题(&amp;I)...</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1069"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1066"/>
         <source>Create a theme &amp;archive (.obt)...</source>
         <translation>创建主题归档（.obt）(&amp;A)...</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1071"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1068"/>
         <source>&amp;Windows retain a border when undecorated</source>
         <translation>窗口去除装饰后保留边框(&amp;W)</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1072"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1069"/>
         <source>A&amp;nimate iconify and restore</source>
         <translation>最小化/最大化时呈现动画(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1073"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1070"/>
         <source>Window Titles</source>
         <translation>窗口标题</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1074"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1071"/>
         <source>Button order:</source>
         <translation>按钮顺序:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1075"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1072"/>
         <source>N: Window icon
 L: Window label (Title)
 I: Iconify (Minimize)
@@ -115,471 +115,471 @@ S：卷起
 D：显示在所有桌面</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1088"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1085"/>
         <source>&amp;Active window title: </source>
         <translation>活动窗口标题(&amp;A): </translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1089"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1086"/>
         <source>&amp;Inactive window title: </source>
         <translation>非活动窗口标题(&amp;I): </translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1090"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1087"/>
         <source>Menu &amp;header: </source>
         <translation>菜单标题(&amp;H): </translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1091"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1088"/>
         <source>&amp;Menu Item: </source>
         <translation>菜单项(&amp;M): </translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1092"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1089"/>
         <source>Active &amp;On-screen display: </source>
         <translation>活动屏幕显示(&amp;O): </translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1093"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1090"/>
         <source>Inactive O&amp;n-screen display: </source>
         <translation>非活动屏幕显示(&amp;N): </translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1094"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1091"/>
         <source>Focus &amp;new windows when they appear</source>
         <translation>聚焦到新窗口(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1095"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1092"/>
         <source>&amp;Place new windows under the mouse pointer</source>
         <translation>将鼠标指针置于新窗口下(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1096"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1093"/>
         <source>&amp;Center new windows when they are placed</source>
         <translation>将新窗口置于中央(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1097"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1094"/>
         <source>Prefer to place new windows &amp;on:</source>
         <translation>将新窗口置于(&amp;O):</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1098"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1095"/>
         <source>All monitors</source>
         <translation>所有监视器</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1099"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1096"/>
         <source>The active monitor</source>
         <translation>活动监视器</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1100"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1097"/>
         <source>The monitor with the mouse</source>
         <translation>鼠标指针所在的监视器</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1101"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1098"/>
         <source>Primary monitor</source>
         <translation>主监视器</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1103"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1100"/>
         <source>Primary Monitor</source>
         <translation>主监视器</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1104"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1101"/>
         <source>The primary monitor is where Openbox will place dialogs, such as the one used for cycling windows.</source>
         <translation>Openbox 将放置对话框于主监视器上，如用于循环窗口的对话框。</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1105"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1102"/>
         <source>Primary &amp;monitor:</source>
         <translation>主监视器(&amp;M):</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1106"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1103"/>
         <source>Fixed Monitor</source>
         <translation>固定监视器</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1107"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1104"/>
         <source>Active Monitor</source>
         <translation>活动监视器</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1108"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1105"/>
         <source>Monitor With Mouse Pointer</source>
         <translation>鼠标指针所在的监视器</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1110"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1107"/>
         <source>&amp;Fixed monitor:</source>
         <translation>固定监视器(&amp;F):</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1111"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1108"/>
         <source>Moving and Resizing Windows</source>
         <translation>移动窗口与调整大小</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1112"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1109"/>
         <source>Update the window contents while &amp;resizing</source>
         <translation>调整窗口大小时更新窗口内容(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1113"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1110"/>
         <source>Drag &amp;threshold distance:</source>
         <translation>拖拽临界距离(&amp;T):</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1114"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1111"/>
         <source>Amount of resistance against other &amp;windows:</source>
         <translation>对其它窗口的阻力(&amp;W):</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1115"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1112"/>
         <source>Amount of resistance against screen &amp;edges:</source>
         <translation>对屏幕边缘的阻力(&amp;E):</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1116"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1113"/>
         <source>&amp;Amount of time to wait before switching:</source>
         <translation>切换窗口前的等待时间(&amp;A):</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1117"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1114"/>
         <source>&amp;Switch desktops when moving a window past the screen edge</source>
         <translation>移动窗口至屏幕边缘时切换桌面(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1118"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1115"/>
         <source>Information Dialog</source>
         <translation>信息对话框</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1119"/>
-        <location filename="../../ui_obconf.h" line="1124"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1116"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1121"/>
         <source>Centered</source>
         <translation>居中</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1120"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1117"/>
         <source>From left edge</source>
         <translation>从左边</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1121"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1118"/>
         <source>From right edge</source>
         <translation>从右边</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1123"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1120"/>
         <source>Fixed &amp;y position:</source>
         <translation>固定纵位置(&amp;Y):</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1125"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1122"/>
         <source>From top edge</source>
         <translation>从顶部</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1126"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1123"/>
         <source>From bottom edge</source>
         <translation>从底部</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1128"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1125"/>
         <source>Information dialog&apos;s &amp;position:</source>
         <translation>信息对话框位置(&amp;P):</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1129"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1126"/>
         <source>Fixed &amp;x position:</source>
         <translation>固定横位置(&amp;X):</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1130"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1127"/>
         <source>Show &amp;information dialog:</source>
         <translation>显示信息对话框(&amp;I):</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1131"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1128"/>
         <source>When resizing terminal windows</source>
         <translation>调整终端窗口大小时</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1132"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1129"/>
         <source>Always</source>
         <translation>总是</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1133"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1130"/>
         <source>Never</source>
         <translation>从不</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1135"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1132"/>
         <source>Centered on the window</source>
         <translation>居于窗口中央</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1136"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1133"/>
         <source>Above the window</source>
         <translation>窗口上</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1137"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1134"/>
         <source>Fixed position on screen</source>
         <translation>屏幕上的固定位置</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1139"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1136"/>
         <source>Focusing Windows</source>
         <translation>聚焦窗口</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1140"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1137"/>
         <source>Focus windows when the mouse pointer moves over them</source>
         <translation>鼠标移动到窗口上时聚焦至此窗口</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1141"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1138"/>
         <source>&amp;Delay before focusing and raising windows:</source>
         <translation>聚焦并提升窗口前的延迟(&amp;D):</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1142"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1139"/>
         <source>Move focus under the mouse when &amp;switching desktops</source>
         <translation>切换桌面时移动焦点至鼠标下(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1143"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1140"/>
         <source>Move focus &amp;under the mouse when the mouse is not moving</source>
         <translation>鼠标不动时移动焦点至鼠标下(&amp;U)</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1144"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1141"/>
         <source>&amp;Raise windows when the mouse pointer moves over them</source>
         <translation>鼠标指针移动至窗口上时提升此窗口(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1145"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1142"/>
         <source>Titlebar</source>
         <translation>标题栏</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1146"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1143"/>
         <source>Double click on the &amp;titlebar:</source>
         <translation>双击标题栏时(&amp;T):</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1147"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1144"/>
         <source>Maximizes the window</source>
         <translation>最大化窗口</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1148"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1145"/>
         <source>Shades the window</source>
         <translation>卷起窗口</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1150"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1147"/>
         <source>Double click ti&amp;me:</source>
         <translation>双击时间(&amp;T):</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1151"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1148"/>
         <source>&amp;Show a notification when switching desktops</source>
         <translation>切换桌面时显示提醒(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1152"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1149"/>
         <source>&amp;Amount of time to show the notification for:</source>
         <translation>提醒显示时间(&amp;A):</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1153"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1150"/>
         <source>&amp;Number of desktops: </source>
         <translation>桌面数量(&amp;N): </translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1154"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1151"/>
         <source>&amp;Desktop names:</source>
         <translation>桌面名称(&amp;D):</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1155"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1152"/>
         <source>Desktop Margins</source>
         <translation>桌面边距</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1156"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1153"/>
         <source>Desktop margins are reserved areas on the edge of your screen.  New windows will not be placed within a margin, and maximized windows will not cover them.</source>
         <translation>桌面边距为屏幕边缘的保留区域。新窗口不会置于桌面边距内，最大化窗口也不会覆盖桌面边距。</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1157"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1154"/>
         <source>Left:</source>
         <translation>左:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1158"/>
-        <location filename="../../ui_obconf.h" line="1160"/>
-        <location filename="../../ui_obconf.h" line="1162"/>
-        <location filename="../../ui_obconf.h" line="1164"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1155"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1157"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1159"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1161"/>
         <source>px</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1159"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1156"/>
         <source>Top:</source>
         <translation>上:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1161"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1158"/>
         <source>Right:</source>
         <translation>右:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1163"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1160"/>
         <source>Bottom:</source>
         <translation>下:</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1165"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1162"/>
         <source>The dock is a special container for &quot;dockapps&quot;, or dock applications.  It is not visible on screen until a dockapp is run.  Dockapps can be used to show things like a clock, or to provide you with a system tray.</source>
         <translation>Dock 为“Dock 应用”的特殊容器，在 Dock 应用运行前其不可见。Dock 应用可用于展示事物，如时钟或由系统托盘提供的程序。</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1166"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1163"/>
         <source>Position</source>
         <translation>位置</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1167"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1164"/>
         <source>&amp;Position:</source>
         <translation>位置(&amp;P):</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1168"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1165"/>
         <source>Top Left</source>
         <translation>左上</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1169"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1166"/>
         <source>Top</source>
         <translation>上</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1170"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1167"/>
         <source>Top Right</source>
         <translation>右上</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1171"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1168"/>
         <source>Left</source>
         <translation>左</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1172"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1169"/>
         <source>Right</source>
         <translation>右</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1173"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1170"/>
         <source>Bottom Left</source>
         <translation>左下</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1174"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1171"/>
         <source>Bottom</source>
         <translation>下</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1175"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1172"/>
         <source>Bottom Right</source>
         <translation>右下</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1176"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1173"/>
         <source>Floating</source>
         <translation>浮动</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1178"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1175"/>
         <source>&amp;Floating position:</source>
         <translation>浮动位置(&amp;F):</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1179"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1176"/>
         <source>x</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1180"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1177"/>
         <source>Allow &amp;windows to be placed within the dock&apos;s area</source>
         <translation>允许放置窗口于 Dock 区域之内(&amp;W)</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1181"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1178"/>
         <source>&amp;Orientation: </source>
         <translation>方向(&amp;O): </translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1182"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1179"/>
         <source>Vertical</source>
         <translation>垂直</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1183"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1180"/>
         <source>Horizontal</source>
         <translation>水平</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1185"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1182"/>
         <source>Stacking</source>
         <translation>堆叠</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1186"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1183"/>
         <source>Keep dock &amp;above other windows</source>
         <translation>保持 Dock 高于其他窗口(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1187"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1184"/>
         <source>A&amp;llow dock to be both above and below windows</source>
         <translation>允许 Dock 既高于也低于窗口(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1188"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1185"/>
         <source>Keep dock &amp;below other windows</source>
         <translation>保持 Dock 低于其他窗口(&amp;B)</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1189"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1186"/>
         <source>Hiding</source>
         <translation>隐藏</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1190"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1187"/>
         <source>&amp;Delay before hiding:</source>
         <translation>隐藏前延迟(&amp;D):</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1191"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1188"/>
         <source>Delay before &amp;showing:</source>
         <translation>显示前延迟(&amp;S):</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1192"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1189"/>
         <source>&amp;Hide off screen</source>
         <translation>隐藏于屏幕(&amp;H)</translation>
     </message>
     <message>
-        <location filename="../../ui_obconf.h" line="1193"/>
+        <location filename="../../../build/src/ui_obconf.h" line="1190"/>
         <source>About</source>
         <translation>关于</translation>
     </message>
