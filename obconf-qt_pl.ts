@@ -123,7 +123,7 @@
         <location filename="../../../build/src/ui_obconf.h" line="1159"/>
         <location filename="../../../build/src/ui_obconf.h" line="1161"/>
         <source>px</source>
-        <translation>piks.</translation>
+        <translation type="unfinished">piks.</translation>
     </message>
     <message>
         <location filename="../../../build/src/ui_obconf.h" line="1156"/>
