@@ -582,7 +582,7 @@ Das dock wird erst nach dem Starten von dockapps sichtbar.</translation>
     <message>
         <location filename="../obconf.ui" line="1306"/>
         <source>About</source>
-        <translation>&amp;Über ObConf-Qt</translation>
+        <translation>Über</translation>
     </message>
 </context>
 <context>
