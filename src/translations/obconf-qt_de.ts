@@ -65,12 +65,12 @@
     <message>
         <location filename="../obconf.ui" line="78"/>
         <source>Dock</source>
-        <translation>Dock</translation>
+        <translation type="unfinished">Dock</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="96"/>
         <source>&amp;Install a new theme...</source>
-        <translation>Neues Thema &amp;installieren...</translation>
+        <translation>&amp;Installiere ein neues Design...</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="103"/>
@@ -80,7 +80,7 @@
     <message>
         <location filename="../obconf.ui" line="120"/>
         <source>&amp;Windows retain a border when undecorated</source>
-        <translation>Undekorierte Fenster um&amp;randen</translation>
+        <translation>&amp;Undekorierte Fenster umranden</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="127"/>
@@ -142,7 +142,7 @@ D: auf allen Arbeitsflächen</translation>
     <message>
         <location filename="../obconf.ui" line="281"/>
         <source>Inactive O&amp;n-screen display: </source>
-        <translation>I&amp;naktive Bildschirmanzeige: </translation>
+        <translation>Inaktive &amp;Bildschirmanzeige: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="295"/>
@@ -167,12 +167,12 @@ D: auf allen Arbeitsflächen</translation>
     <message>
         <location filename="../obconf.ui" line="329"/>
         <source>All monitors</source>
-        <translation>allen Bildschirmen</translation>
+        <translation>Alle Bildschirme</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="334"/>
         <source>The active monitor</source>
-        <translation>dem aktiven Bildschirm</translation>
+        <translation>Der aktive Bildschirm</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="339"/>
@@ -182,7 +182,7 @@ D: auf allen Arbeitsflächen</translation>
     <message>
         <location filename="../obconf.ui" line="344"/>
         <source>Primary monitor</source>
-        <translation>dem primären Bildschirm</translation>
+        <translation>Primärer Bildschirm</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="354"/>
@@ -192,12 +192,12 @@ D: auf allen Arbeitsflächen</translation>
     <message>
         <location filename="../obconf.ui" line="360"/>
         <source>The primary monitor is where Openbox will place dialogs, such as the one used for cycling windows.</source>
-        <translation>Der primäre Bildschirm ist derjenige, auf dem Dialoge wie der zum Wechsel von Fenstern angezeigt werden.</translation>
+        <translation>Der primäre Bildschirm ist derjenige, auf dem Openbox Dialoge platzieren wird, wie solche zum Wechsel von Fenstern.</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="370"/>
         <source>Primary &amp;monitor:</source>
-        <translation>P&amp;rimärer Bildschirm:</translation>
+        <translation>Primärer &amp;Bildschirm:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="381"/>
@@ -527,7 +527,7 @@ Das dock wird erst nach dem Starten von dockapps sichtbar.</translation>
     <message>
         <location filename="../obconf.ui" line="1169"/>
         <source>&amp;Orientation: </source>
-        <translation>&amp;Ausrichtung:</translation>
+        <translation>&amp;Ausrichtung: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1183"/>
