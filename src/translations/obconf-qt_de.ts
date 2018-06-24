@@ -117,32 +117,32 @@ D: auf allen Arbeitsflächen</translation>
     <message>
         <location filename="../obconf.ui" line="231"/>
         <source>&amp;Active window title: </source>
-        <translation>Fenstertitel &amp;aktives Fenster</translation>
+        <translation>Fenstertitel &amp;aktives Fenster: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="241"/>
         <source>&amp;Inactive window title: </source>
-        <translation>Fenstertitel &amp;inaktives Fenster</translation>
+        <translation>Fenstertitel &amp;inaktives Fenster: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="251"/>
         <source>Menu &amp;header: </source>
-        <translation>Menü - &amp;Überschrift</translation>
+        <translation>Menü - &amp;Überschrift: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="261"/>
         <source>&amp;Menu Item: </source>
-        <translation>Menü - einzelne &amp;Einträge</translation>
+        <translation>Menü - einzelne &amp;Einträge: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="271"/>
         <source>Active &amp;On-screen display: </source>
-        <translation>A&amp;ktive Bildschirmanzeige</translation>
+        <translation>A&amp;ktive Bildschirmanzeige: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="281"/>
         <source>Inactive O&amp;n-screen display: </source>
-        <translation>I&amp;naktive Bildschirmanzeige</translation>
+        <translation>I&amp;naktive Bildschirmanzeige: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="295"/>
@@ -162,7 +162,7 @@ D: auf allen Arbeitsflächen</translation>
     <message>
         <location filename="../obconf.ui" line="318"/>
         <source>Prefer to place new windows &amp;on:</source>
-        <translation>Neue Fenster &amp;vorzugsweise platzieren auf</translation>
+        <translation>Neue Fenster &amp;vorzugsweise platzieren auf:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="329"/>
@@ -197,7 +197,7 @@ D: auf allen Arbeitsflächen</translation>
     <message>
         <location filename="../obconf.ui" line="370"/>
         <source>Primary &amp;monitor:</source>
-        <translation>P&amp;rimärer Bildschirm</translation>
+        <translation>P&amp;rimärer Bildschirm:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="381"/>
@@ -217,7 +217,7 @@ D: auf allen Arbeitsflächen</translation>
     <message>
         <location filename="../obconf.ui" line="399"/>
         <source>&amp;Fixed monitor:</source>
-        <translation>&amp;Festgelegter Bildschirm</translation>
+        <translation>&amp;Festgelegter Bildschirm:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="439"/>
@@ -232,22 +232,22 @@ D: auf allen Arbeitsflächen</translation>
     <message>
         <location filename="../obconf.ui" line="452"/>
         <source>Drag &amp;threshold distance:</source>
-        <translation>Abstand beim &amp;Verschieben</translation>
+        <translation>Abstand beim &amp;Verschieben:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="472"/>
         <source>Amount of resistance against other &amp;windows:</source>
-        <translation>Widerstand gegenüber anderen &amp;Fenstern</translation>
+        <translation>Widerstand gegenüber anderen &amp;Fenstern:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="492"/>
         <source>Amount of resistance against screen &amp;edges:</source>
-        <translation>Widerstand gegenüber &amp;Bildschirmrändern</translation>
+        <translation>Widerstand gegenüber &amp;Bildschirmrändern:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="512"/>
         <source>&amp;Amount of time to wait before switching:</source>
-        <translation>Ver&amp;zögerung vor dem Arbeitsflächenwechsel</translation>
+        <translation>&amp;Verzögerung vor dem Arbeitsflächenwechsel:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="532"/>
@@ -278,7 +278,7 @@ D: auf allen Arbeitsflächen</translation>
     <message>
         <location filename="../obconf.ui" line="567"/>
         <source>Fixed &amp;y position:</source>
-        <translation>Festgelegte &amp;y-Position (Pixel)</translation>
+        <translation>Festgelegte &amp;y-Position (Pixel):</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="583"/>
@@ -293,12 +293,12 @@ D: auf allen Arbeitsflächen</translation>
     <message>
         <location filename="../obconf.ui" line="596"/>
         <source>Information dialog&apos;s &amp;position:</source>
-        <translation>&amp;Position des Informationsdialogs</translation>
+        <translation>&amp;Position des Informationsdialogs:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="606"/>
         <source>Fixed &amp;x position:</source>
-        <translation>Festgelegte &amp;x-Position (Pixel)</translation>
+        <translation>Festgelegte &amp;x-Position (Pixel):</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="616"/>
@@ -348,7 +348,7 @@ D: auf allen Arbeitsflächen</translation>
     <message>
         <location filename="../obconf.ui" line="722"/>
         <source>&amp;Delay before focusing and raising windows:</source>
-        <translation>&amp;Verzögerung vor dem Fokussieren und Hervorheben</translation>
+        <translation>&amp;Verzögerung vor dem Fokussieren und Hervorheben:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="742"/>
@@ -373,7 +373,7 @@ D: auf allen Arbeitsflächen</translation>
     <message>
         <location filename="../obconf.ui" line="774"/>
         <source>Double click on the &amp;titlebar:</source>
-        <translation>Doppelklick auf den Fenster&amp;titel</translation>
+        <translation>Doppelklick auf den Fenster&amp;titel:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="785"/>
@@ -388,7 +388,7 @@ D: auf allen Arbeitsflächen</translation>
     <message>
         <location filename="../obconf.ui" line="798"/>
         <source>Double click ti&amp;me:</source>
-        <translation>&amp;Intervall für Doppelklick</translation>
+        <translation>&amp;Intervall für Doppelklick:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="838"/>
@@ -398,17 +398,17 @@ D: auf allen Arbeitsflächen</translation>
     <message>
         <location filename="../obconf.ui" line="845"/>
         <source>&amp;Amount of time to show the notification for:</source>
-        <translation>&amp;Dauer, für die die Benachrichtigung angezeigt wird</translation>
+        <translation>&amp;Dauer, für die die Benachrichtigung angezeigt wird:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="868"/>
         <source>&amp;Number of desktops: </source>
-        <translation>An&amp;zahl an Arbeitsflächen</translation>
+        <translation>An&amp;zahl an Arbeitsflächen: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="891"/>
         <source>&amp;Desktop names:</source>
-        <translation>&amp;Bezeichnungen der Arbeitsflächen</translation>
+        <translation>&amp;Bezeichnungen der Arbeitsflächen:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="905"/>
@@ -423,7 +423,7 @@ D: auf allen Arbeitsflächen</translation>
     <message>
         <location filename="../obconf.ui" line="921"/>
         <source>Left:</source>
-        <translation>Links</translation>
+        <translation>Links:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="935"/>
@@ -436,17 +436,17 @@ D: auf allen Arbeitsflächen</translation>
     <message>
         <location filename="../obconf.ui" line="942"/>
         <source>Top:</source>
-        <translation>Oben</translation>
+        <translation>Oben:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="963"/>
         <source>Right:</source>
-        <translation>Rechts</translation>
+        <translation>Rechts:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="984"/>
         <source>Bottom:</source>
-        <translation>Unten</translation>
+        <translation>Unten:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1025"/>
@@ -512,7 +512,7 @@ Das dock wird erst nach dem Starten von dockapps sichtbar.</translation>
     <message>
         <location filename="../obconf.ui" line="1121"/>
         <source>&amp;Floating position:</source>
-        <translation>&amp;manuell festgelegte Position</translation>
+        <translation>&amp;manuell festgelegte Position:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1146"/>
@@ -527,7 +527,7 @@ Das dock wird erst nach dem Starten von dockapps sichtbar.</translation>
     <message>
         <location filename="../obconf.ui" line="1169"/>
         <source>&amp;Orientation: </source>
-        <translation>Ausrichtung</translation>
+        <translation>&amp;Ausrichtung:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1183"/>
@@ -567,12 +567,12 @@ Das dock wird erst nach dem Starten von dockapps sichtbar.</translation>
     <message>
         <location filename="../obconf.ui" line="1235"/>
         <source>&amp;Delay before hiding:</source>
-        <translation>Verzögerung vor dem &amp;Ausblenden</translation>
+        <translation>&amp;Verzögerung vor dem &amp;Ausblenden:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1245"/>
         <source>Delay before &amp;showing:</source>
-        <translation>Verzögerung vor dem &amp;Einblenden</translation>
+        <translation>Verzögerung vor dem &amp;Einblenden:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1275"/>
@@ -738,32 +738,37 @@ Optionen:
   --install ARCHIVE.obt Thema aus angegebenem Archiv extrahieren und verwenden
   --archive THEMA       Archiv mit dem im genannten Verzeichnis befindlichen Thema erstellen
   --config-file DATEI   zu verwendende Konfigurationsdatei explizit angeben
-  </translation>
+</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="97"/>
         <source>--install requires an argument
 </source>
-        <translation>--install benötigt ein Argument</translation>
+        <translation>--install benötigt ein Argument
+</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="103"/>
         <source>--archive requires an argument
 </source>
-        <translation>--archive benötigt ein Argument</translation>
+        <translation>--archive benötigt ein Argument
+</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="109"/>
         <source>--config-file requires an argument
 </source>
-        <translation>--config-file benötigt ein Argument</translation>
+        <translation>--config-file benötigt ein Argument
+</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="241"/>
         <source>Error while parsing the Openbox configuration file.  Your configuration file is not valid XML.
 
 Message: %1</source>
-        <translation>Fehler bei der Auswertung der Konfigurationsdatei von Openbox. Die Konfigurationsdatei ist nicht in korrekter XML verfasst.</translation>
+        <translation>Fehler bei der Auswertung der Konfigurationsdatei von Openbox. Die Konfigurationsdatei ist nicht in korrekter XML verfasst.
+
+Nachricht: %1</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="227"/>
