@@ -6,12 +6,12 @@
     <message>
         <location filename="../fontbutton.cpp" line="46"/>
         <source>Bold</source>
-        <translation></translation>
+        <translation>מודגש</translation>
     </message>
     <message>
         <location filename="../fontbutton.cpp" line="50"/>
         <source>Italic</source>
-        <translation></translation>
+        <translation>נטוי</translation>
     </message>
 </context>
 <context>
@@ -19,63 +19,63 @@
     <message>
         <location filename="../obconf.ui" line="14"/>
         <source>Window Manager Preferences</source>
-        <translation></translation>
+        <translation>הגדרות מנהל חלונות</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="38"/>
         <source>Theme</source>
-        <translation></translation>
+        <translation>ערכת עיצוב</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="43"/>
         <source>Appearance</source>
-        <translation></translation>
+        <translation>מראה</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="48"/>
         <source>Font</source>
-        <translation></translation>
+        <translation>גופן</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="53"/>
         <location filename="../obconf.ui" line="114"/>
         <source>Windows</source>
-        <translation></translation>
+        <translation>חלונות</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="58"/>
         <source>Move &amp; Resize</source>
-        <translation></translation>
+        <translation>הזזה ושינוי גודל</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="63"/>
         <source>Mouse</source>
-        <translation></translation>
+        <translation>עכבר</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="68"/>
         <source>Desktops</source>
-        <translation></translation>
+        <translation>שולחנות עבודה</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="73"/>
         <source>Margins</source>
-        <translation></translation>
+        <translation>שוליים</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="78"/>
         <source>Dock</source>
-        <translation></translation>
+        <translation>מעגן</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="96"/>
         <source>&amp;Install a new theme...</source>
-        <translation></translation>
+        <translation>התקנת ערכת עיצוב &amp;חדשה…</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="103"/>
         <source>Create a theme &amp;archive (.obt)...</source>
-        <translation></translation>
+        <translation>יצירת &amp;ארכיון ערכת עיצוב (‎.obt)…</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="120"/>
