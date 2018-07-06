@@ -21,3 +21,10 @@ To build run `make`, to install `make install` which accepts variable `DESTDIR` 
 
 Official binary packages are available in Arch Linux and Debian (as of Debian stretch).   
 The tool is missing in Fedora so far. Same applies to openSUSE where it is about to be included, though.   
+
+
+### Translation (Weblate)
+
+<a href="https://weblate.lxqt.org/projects/lxqt/obconf-qt/">
+<img src="https://weblate.lxqt.org/widgets/lxqt/-/obconf-qt/multi-auto.svg" alt="Translation status" />
+</a>
