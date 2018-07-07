@@ -80,22 +80,22 @@
     <message>
         <location filename="../obconf.ui" line="120"/>
         <source>&amp;Windows retain a border when undecorated</source>
-        <translation></translation>
+        <translation>החלונות שומרים על &amp;גבולות גם ללא עיצוב</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="127"/>
         <source>A&amp;nimate iconify and restore</source>
-        <translation></translation>
+        <translation>ה&amp;נפשת צמצום לגודל סמל ושחזור</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="137"/>
         <source>Window Titles</source>
-        <translation></translation>
+        <translation>כותרות חלונות</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="143"/>
         <source>Button order:</source>
-        <translation></translation>
+        <translation>סדר כפתורים:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="153"/>
@@ -106,117 +106,123 @@ M: Maximize
 C: Close
 S: Shade (Roll up)
 D: Omnipresent (On all desktops)</source>
-        <translation></translation>
+        <translation>N: סמל חלון
+L: תווית חלון (כותרת)
+I: צמצום לסמל (מזעור)
+M: הגדלה
+C: סגירה
+S: הצללה (גלגול כלפי מעלה)
+D: נוכחות כוללת (על כל שולחנות העבודה)</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="231"/>
         <source>&amp;Active window title: </source>
-        <translation></translation>
+        <translation>&amp;כותרת החלון הפעיל: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="241"/>
         <source>&amp;Inactive window title: </source>
-        <translation></translation>
+        <translation>כותרות חלונות &amp;בלתי פעילים: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="251"/>
         <source>Menu &amp;header: </source>
-        <translation></translation>
+        <translation>כותרת &amp;תפריט: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="261"/>
         <source>&amp;Menu Item: </source>
-        <translation></translation>
+        <translation>&amp;פריט בתפריט: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="271"/>
         <source>Active &amp;On-screen display: </source>
-        <translation></translation>
+        <translation>תצוגה &amp;פעילה על המסך: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="281"/>
         <source>Inactive O&amp;n-screen display: </source>
-        <translation></translation>
+        <translation>תצוגה ב&amp;לתי פעילה על גבי המסך: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="295"/>
         <source>Focus &amp;new windows when they appear</source>
-        <translation></translation>
+        <translation>התמקדות בחלונות &amp;חדשים כשהם מופיעים</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="302"/>
         <source>&amp;Place new windows under the mouse pointer</source>
-        <translation></translation>
+        <translation>ה&amp;צבת חלונות חדשים תחת סמן העכבר</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="309"/>
         <source>&amp;Center new windows when they are placed</source>
-        <translation></translation>
+        <translation>מ&amp;רכוז חלונות חדשים בעת הצבתם</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="318"/>
         <source>Prefer to place new windows &amp;on:</source>
-        <translation></translation>
+        <translation>להעדיף להציב חלונות ח&amp;דשים ב־:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="329"/>
         <source>All monitors</source>
-        <translation></translation>
+        <translation>כל הצגים</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="334"/>
         <source>The active monitor</source>
-        <translation></translation>
+        <translation>צג הפעיל</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="339"/>
         <source>The monitor with the mouse</source>
-        <translation></translation>
+        <translation>צג עם העכבר</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="344"/>
         <source>Primary monitor</source>
-        <translation></translation>
+        <translation>צג העיקרי</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="354"/>
         <source>Primary Monitor</source>
-        <translation></translation>
+        <translation>הצג העיקרי</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="360"/>
         <source>The primary monitor is where Openbox will place dialogs, such as the one used for cycling windows.</source>
-        <translation></translation>
+        <translation>פתיחה של תיבות דו־שיח על ידי Openbox, כגון זה שמשמש למעבר בין חלונות.</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="370"/>
         <source>Primary &amp;monitor:</source>
-        <translation></translation>
+        <translation>צג &amp;עיקרי:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="381"/>
         <source>Fixed Monitor</source>
-        <translation></translation>
+        <translation>צג קבוע</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="386"/>
         <source>Active Monitor</source>
-        <translation></translation>
+        <translation>צג פעיל</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="391"/>
         <source>Monitor With Mouse Pointer</source>
-        <translation></translation>
+        <translation>צג עם סמן העכבר</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="399"/>
         <source>&amp;Fixed monitor:</source>
-        <translation></translation>
+        <translation>צג &amp;קבוע:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="439"/>
         <source>Moving and Resizing Windows</source>
-        <translation></translation>
+        <translation>הזזה ושינוי גודל של חלונות</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="445"/>
