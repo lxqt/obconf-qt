@@ -70,22 +70,22 @@
     <message>
         <location filename="../obconf.ui" line="96"/>
         <source>&amp;Install a new theme...</source>
-        <translation>&amp;Nainstalovat nový motiv...</translation>
+        <translation>&amp;Nainstalovat nový motiv…</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="103"/>
         <source>Create a theme &amp;archive (.obt)...</source>
-        <translation>Vytvořit &amp;archiv s motivem (.obt)...</translation>
+        <translation>Vytvořit &amp;archiv s motivem (.obt)…</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="120"/>
         <source>&amp;Windows retain a border when undecorated</source>
-        <translation type="unfinished"></translation>
+        <translation>Oknu zůstane okraj když zbaveno dekorací</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="127"/>
         <source>A&amp;nimate iconify and restore</source>
-        <translation type="unfinished"></translation>
+        <translation>A&amp;nimovat minimalizaci a obnovení</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="137"/>
@@ -106,7 +106,13 @@ M: Maximize
 C: Close
 S: Shade (Roll up)
 D: Omnipresent (On all desktops)</source>
-        <translation type="unfinished"></translation>
+        <translation>N: Ikona okna
+L: Štítek okna (titulek)
+I: Minimalizovat
+M: Maximalizovat
+C: Zavřít
+S: Sbalit
+D: Zobrazovat na všech monitorech</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="231"/>
@@ -141,22 +147,22 @@ D: Omnipresent (On all desktops)</source>
     <message>
         <location filename="../obconf.ui" line="295"/>
         <source>Focus &amp;new windows when they appear</source>
-        <translation type="unfinished"></translation>
+        <translation>Zaměřit kurzor do nově otevřeného okna</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="302"/>
         <source>&amp;Place new windows under the mouse pointer</source>
-        <translation type="unfinished"></translation>
+        <translation>Umístit nové okno pod ukazatel myši</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="309"/>
         <source>&amp;Center new windows when they are placed</source>
-        <translation type="unfinished"></translation>
+        <translation>Vystředit nová okna když jsou umisťována</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="318"/>
         <source>Prefer to place new windows &amp;on:</source>
-        <translation type="unfinished"></translation>
+        <translation>Upřednostňovat umisťování nový &amp;oken na:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="329"/>
@@ -176,67 +182,67 @@ D: Omnipresent (On all desktops)</source>
     <message>
         <location filename="../obconf.ui" line="344"/>
         <source>Primary monitor</source>
-        <translation type="unfinished"></translation>
+        <translation>Hlavní monitor</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="354"/>
         <source>Primary Monitor</source>
-        <translation type="unfinished"></translation>
+        <translation>Hlavní monitor</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="360"/>
         <source>The primary monitor is where Openbox will place dialogs, such as the one used for cycling windows.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hlavní monitor je to, kam Openbox bude umisťovat dialogy, jako například ten sloužící pro přepínání oken.</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="370"/>
         <source>Primary &amp;monitor:</source>
-        <translation type="unfinished"></translation>
+        <translation>Hlavní &amp;monitor:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="381"/>
         <source>Fixed Monitor</source>
-        <translation type="unfinished"></translation>
+        <translation>Vždy tento monitor</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="386"/>
         <source>Active Monitor</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivní monitor</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="391"/>
         <source>Monitor With Mouse Pointer</source>
-        <translation type="unfinished"></translation>
+        <translation>Monitor na kterém se nachází ukazatel myši</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="399"/>
         <source>&amp;Fixed monitor:</source>
-        <translation type="unfinished"></translation>
+        <translation>Vždy tento monitor:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="439"/>
         <source>Moving and Resizing Windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Přesouvání a změna velikosti oken</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="445"/>
         <source>Update the window contents while &amp;resizing</source>
-        <translation type="unfinished"></translation>
+        <translation>Při změně velikosti aktualizovat obsah okna</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="452"/>
         <source>Drag &amp;threshold distance:</source>
-        <translation type="unfinished"></translation>
+        <translation>Prahová vzdálenost přetahování:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="472"/>
         <source>Amount of resistance against other &amp;windows:</source>
-        <translation type="unfinished"></translation>
+        <translation>Míra odporu proti ostatním oknům:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="492"/>
         <source>Amount of resistance against screen &amp;edges:</source>
-        <translation type="unfinished"></translation>
+        <translation>Míra odporu proti okrajům obrazovky:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="512"/>
@@ -287,7 +293,7 @@ D: Omnipresent (On all desktops)</source>
     <message>
         <location filename="../obconf.ui" line="596"/>
         <source>Information dialog&apos;s &amp;position:</source>
-        <translation type="unfinished"></translation>
+        <translation>Pozice informačního dialogu:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="606"/>
@@ -332,7 +338,7 @@ D: Omnipresent (On all desktops)</source>
     <message>
         <location filename="../obconf.ui" line="701"/>
         <source>Focusing Windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Zaměření oken</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="710"/>
@@ -362,7 +368,7 @@ D: Omnipresent (On all desktops)</source>
     <message>
         <location filename="../obconf.ui" line="768"/>
         <source>Titlebar</source>
-        <translation type="unfinished"></translation>
+        <translation>Titulní pruh</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="774"/>
@@ -455,7 +461,7 @@ D: Omnipresent (On all desktops)</source>
     <message>
         <location filename="../obconf.ui" line="1053"/>
         <source>&amp;Position:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Pozice:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1067"/>
@@ -505,7 +511,7 @@ D: Omnipresent (On all desktops)</source>
     <message>
         <location filename="../obconf.ui" line="1121"/>
         <source>&amp;Floating position:</source>
-        <translation type="unfinished"></translation>
+        <translation>Plovoucí pozice</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1146"/>
@@ -520,7 +526,7 @@ D: Omnipresent (On all desktops)</source>
     <message>
         <location filename="../obconf.ui" line="1169"/>
         <source>&amp;Orientation: </source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Orientace: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1183"/>
@@ -535,7 +541,7 @@ D: Omnipresent (On all desktops)</source>
     <message>
         <location filename="../obconf.ui" line="1199"/>
         <source>Stacking</source>
-        <translation type="unfinished"></translation>
+        <translation>Vrstvení</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1205"/>
@@ -555,27 +561,27 @@ D: Omnipresent (On all desktops)</source>
     <message>
         <location filename="../obconf.ui" line="1229"/>
         <source>Hiding</source>
-        <translation type="unfinished"></translation>
+        <translation>Skrývání</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1235"/>
         <source>&amp;Delay before hiding:</source>
-        <translation type="unfinished"></translation>
+        <translation>Prodleva skrývání:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1245"/>
         <source>Delay before &amp;showing:</source>
-        <translation type="unfinished"></translation>
+        <translation>Prodleva zobrazení:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1275"/>
         <source>&amp;Hide off screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Skrýt mimo obrazovku</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1306"/>
         <source>About</source>
-        <translation>O programu</translation>
+        <translation>O aplikaci</translation>
     </message>
 </context>
 <context>
@@ -624,12 +630,12 @@ The program is based on ObConf developed by the following developers.
     <message>
         <location filename="../archive.cpp" line="26"/>
         <source>&quot;%1&quot; was installed to %1</source>
-        <translation>&quot;%1&quot; byl nainstalován do %1</translation>
+        <translation>„%1“ byl nainstalován do %1</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="53"/>
         <source>&quot;%1&quot; was successfully created</source>
-        <translation>&quot;%1&quot; byl úspěšně vytvořen</translation>
+        <translation>„%1“ byl úspěšně vytvořen</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="89"/>
@@ -642,12 +648,12 @@ The following errors were reported:
         <location filename="../archive.cpp" line="95"/>
         <location filename="../archive.cpp" line="178"/>
         <source>Unable to run the &quot;tar&quot; command: %1</source>
-        <translation>Nelze spustit příkaz &quot;tar&quot;: %1</translation>
+        <translation>Nelze spustit příkaz „tar“: %1</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="115"/>
         <source>Unable to create directory &quot;%1&quot;: %2</source>
-        <translation>Nelze vytvořit adresář &quot;%1&quot;: %2</translation>
+        <translation>Nelze vytvořit složku „%1“: %2</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="138"/>
@@ -657,7 +663,7 @@ The following errors were reported:
     <message>
         <location filename="../archive.cpp" line="148"/>
         <source>Unable to move to directory &quot;%1&quot;: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Nedaří se přesunout složku „%1“: %2</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="185"/>
