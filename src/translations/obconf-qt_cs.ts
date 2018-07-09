@@ -117,22 +117,22 @@ D: Zobrazovat na všech monitorech</translation>
     <message>
         <location filename="../obconf.ui" line="231"/>
         <source>&amp;Active window title: </source>
-        <translation>Název činné&amp;ho okna:</translation>
+        <translation>Název činné&amp;ho okna: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="241"/>
         <source>&amp;Inactive window title: </source>
-        <translation>Název &amp;nečinného okna:</translation>
+        <translation>Název &amp;nečinného okna: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="251"/>
         <source>Menu &amp;header: </source>
-        <translation>&amp;Nadpis nabídky:</translation>
+        <translation>&amp;Záhlaví nabídky: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="261"/>
         <source>&amp;Menu Item: </source>
-        <translation>Položka na&amp;bídky:</translation>
+        <translation>Položka na&amp;bídky: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="271"/>
@@ -403,7 +403,7 @@ D: Zobrazovat na všech monitorech</translation>
     <message>
         <location filename="../obconf.ui" line="868"/>
         <source>&amp;Number of desktops: </source>
-        <translation>P&amp;očet pracovních ploch:</translation>
+        <translation>P&amp;očet pracovních ploch: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="891"/>
