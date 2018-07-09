@@ -6,12 +6,12 @@
     <message>
         <location filename="../fontbutton.cpp" line="46"/>
         <source>Bold</source>
-        <translation type="unfinished"></translation>
+        <translation>Negrito</translation>
     </message>
     <message>
         <location filename="../fontbutton.cpp" line="50"/>
         <source>Italic</source>
-        <translation type="unfinished"></translation>
+        <translation>Itálico</translation>
     </message>
 </context>
 <context>
@@ -19,103 +19,103 @@
     <message>
         <location filename="../obconf.ui" line="63"/>
         <source>Mouse</source>
-        <translation type="unfinished"></translation>
+        <translation>Mouse</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="14"/>
         <source>Window Manager Preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>Preferências do gerenciador de janelas</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="38"/>
         <source>Theme</source>
-        <translation type="unfinished"></translation>
+        <translation>Tema</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="43"/>
         <source>Appearance</source>
-        <translation type="unfinished"></translation>
+        <translation>Aparência</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="48"/>
         <source>Font</source>
-        <translation type="unfinished"></translation>
+        <translation>Fonte</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="53"/>
         <location filename="../obconf.ui" line="114"/>
         <source>Windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Janelas</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="58"/>
         <source>Move &amp; Resize</source>
-        <translation type="unfinished"></translation>
+        <translation>Mover e redimensionar</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="68"/>
         <source>Desktops</source>
-        <translation type="unfinished"></translation>
+        <translation>Áreas de trabalho</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="73"/>
         <source>Margins</source>
-        <translation type="unfinished"></translation>
+        <translation>Margens</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="78"/>
         <source>Dock</source>
-        <translation type="unfinished"></translation>
+        <translation>Barra de inicialização rápida</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="137"/>
         <source>Window Titles</source>
-        <translation type="unfinished"></translation>
+        <translation>Títulos de janela</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="143"/>
         <source>Button order:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ordem dos botões:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="439"/>
         <source>Moving and Resizing Windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Movendo e redimensionando janelas</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="542"/>
         <source>Information Dialog</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Diálogo de informação</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="701"/>
         <source>Focusing Windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Focando janelas</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="710"/>
         <source>Focus windows when the mouse pointer moves over them</source>
-        <translation type="unfinished"></translation>
+        <translation>Focar quando o cursor mover sobre a janela</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="768"/>
         <source>Titlebar</source>
-        <translation type="unfinished"></translation>
+        <translation>Barra de título</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="905"/>
         <source>Desktop Margins</source>
-        <translation type="unfinished"></translation>
+        <translation>Margens da área de trabalho</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="911"/>
         <source>Desktop margins are reserved areas on the edge of your screen.  New windows will not be placed within a margin, and maximized windows will not cover them.</source>
-        <translation type="unfinished"></translation>
+        <translation>As margens da área de trabalho são áreas reservadas nos cantos da tela. Janelas novas não serão dispostas dentro da margem, assim como janelas maximizadas não as cobrirão.</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="921"/>
         <source>Left:</source>
-        <translation type="unfinished"></translation>
+        <translation>Esquerda:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="935"/>
@@ -123,128 +123,128 @@
         <location filename="../obconf.ui" line="977"/>
         <location filename="../obconf.ui" line="998"/>
         <source>px</source>
-        <translation type="unfinished"></translation>
+        <translation>px</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="942"/>
         <source>Top:</source>
-        <translation type="unfinished"></translation>
+        <translation>Topo:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="963"/>
         <source>Right:</source>
-        <translation type="unfinished"></translation>
+        <translation>Direita:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="984"/>
         <source>Bottom:</source>
-        <translation type="unfinished"></translation>
+        <translation>Base:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="329"/>
         <source>All monitors</source>
-        <translation type="unfinished"></translation>
+        <translation>Todos os monitores</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="334"/>
         <source>The active monitor</source>
-        <translation type="unfinished"></translation>
+        <translation>O monitor ativo</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="339"/>
         <source>The monitor with the mouse</source>
-        <translation type="unfinished"></translation>
+        <translation>O monitor com o mouse</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="354"/>
         <source>Primary Monitor</source>
-        <translation type="unfinished"></translation>
+        <translation>Monitor primário</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="360"/>
         <source>The primary monitor is where Openbox will place dialogs, such as the one used for cycling windows.</source>
-        <translation type="unfinished"></translation>
+        <translation>O monitor primário é onde o Openbox exibirá diálogos, tais como o diálogo para circular entre as janelas.</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="381"/>
         <source>Fixed Monitor</source>
-        <translation type="unfinished"></translation>
+        <translation>Monitor fixo</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="386"/>
         <source>Active Monitor</source>
-        <translation type="unfinished"></translation>
+        <translation>Monitor ativo</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="391"/>
         <source>Monitor With Mouse Pointer</source>
-        <translation type="unfinished"></translation>
+        <translation>Monitor com o cursor</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="549"/>
         <location filename="../obconf.ui" line="578"/>
         <source>Centered</source>
-        <translation type="unfinished"></translation>
+        <translation>Centralizado</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="554"/>
         <source>From left edge</source>
-        <translation type="unfinished"></translation>
+        <translation>Do canto esquerdo</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="559"/>
         <source>From right edge</source>
-        <translation type="unfinished"></translation>
+        <translation>Do canto direito</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="583"/>
         <source>From top edge</source>
-        <translation type="unfinished"></translation>
+        <translation>Do topo</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="588"/>
         <source>From bottom edge</source>
-        <translation type="unfinished"></translation>
+        <translation>Da base</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="641"/>
         <source>When resizing terminal windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Ao redimensionar janelas de terminal</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="646"/>
         <source>Always</source>
-        <translation type="unfinished"></translation>
+        <translation>Sempre</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="651"/>
         <source>Never</source>
-        <translation type="unfinished"></translation>
+        <translation>Nunca</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="660"/>
         <source>Centered on the window</source>
-        <translation type="unfinished"></translation>
+        <translation>Centralizado na janela</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="665"/>
         <source>Above the window</source>
-        <translation type="unfinished"></translation>
+        <translation>Acima da janela</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="670"/>
         <source>Fixed position on screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Posição fixa na tela</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="785"/>
         <source>Maximizes the window</source>
-        <translation type="unfinished"></translation>
+        <translation>Maximiza a janela</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="790"/>
         <source>Shades the window</source>
-        <translation type="unfinished"></translation>
+        <translation>Sombrea a janela</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="153"/>
@@ -255,12 +255,18 @@ M: Maximize
 C: Close
 S: Shade (Roll up)
 D: Omnipresent (On all desktops)</source>
-        <translation type="unfinished"></translation>
+        <translation>N: Ícone da janela
+L: Etiqueta da janela (título)
+I: Iconificar (minimizar)
+M: Maximizar
+C: Fechar
+S: Sombra (enrolar)
+D: onipresente (todas as áreas de trabalho)</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="344"/>
         <source>Primary monitor</source>
-        <translation type="unfinished"></translation>
+        <translation>Monitor primário</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1025"/>
