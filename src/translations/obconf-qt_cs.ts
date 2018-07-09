@@ -137,32 +137,32 @@ D: Zobrazovat na všech monitorech</translation>
     <message>
         <location filename="../obconf.ui" line="271"/>
         <source>Active &amp;On-screen display: </source>
-        <translation type="unfinished"></translation>
+        <translation>Činné zobrazení &amp;na obrazovce: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="281"/>
         <source>Inactive O&amp;n-screen display: </source>
-        <translation type="unfinished"></translation>
+        <translation>N&amp;ečinné zobrazení na obrazovce: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="295"/>
         <source>Focus &amp;new windows when they appear</source>
-        <translation>Zaměřit kurzor do nově otevřeného okna</translation>
+        <translation>Zaměřit &amp;nově otevřená okna</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="302"/>
         <source>&amp;Place new windows under the mouse pointer</source>
-        <translation>Umístit nové okno pod ukazatel myši</translation>
+        <translation>&amp;Umístit nová okna pod ukazovátko myši</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="309"/>
         <source>&amp;Center new windows when they are placed</source>
-        <translation>Vystředit nová okna když jsou umisťována</translation>
+        <translation>&amp;Vystředit nová okna, když jsou umísťována</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="318"/>
         <source>Prefer to place new windows &amp;on:</source>
-        <translation>Upřednostňovat umisťování nový &amp;oken na:</translation>
+        <translation>Upřednostňovat umisťování nový oken &amp;na:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="329"/>
@@ -182,42 +182,42 @@ D: Zobrazovat na všech monitorech</translation>
     <message>
         <location filename="../obconf.ui" line="344"/>
         <source>Primary monitor</source>
-        <translation>Hlavní monitor</translation>
+        <translation>Hlavní obrazovka</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="354"/>
         <source>Primary Monitor</source>
-        <translation>Hlavní monitor</translation>
+        <translation>Hlavní obrazovka</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="360"/>
         <source>The primary monitor is where Openbox will place dialogs, such as the one used for cycling windows.</source>
-        <translation>Hlavní monitor je to, kam Openbox bude umisťovat dialogy, jako například ten sloužící pro přepínání oken.</translation>
+        <translation>Hlavní obrazovka je to, kam Openbox bude umísťovat dialogy, jako například ten sloužící pro přepínání oken.</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="370"/>
         <source>Primary &amp;monitor:</source>
-        <translation>Hlavní &amp;monitor:</translation>
+        <translation>Hlavní &amp;obrazovka:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="381"/>
         <source>Fixed Monitor</source>
-        <translation>Vždy tento monitor</translation>
+        <translation>Vždy tato obrazovka</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="386"/>
         <source>Active Monitor</source>
-        <translation>Aktivní monitor</translation>
+        <translation>Činná obrazovka</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="391"/>
         <source>Monitor With Mouse Pointer</source>
-        <translation>Monitor na kterém se nachází ukazatel myši</translation>
+        <translation>Obrazovka, na které se nachází ukazovátko myši</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="399"/>
         <source>&amp;Fixed monitor:</source>
-        <translation>Vždy tento monitor:</translation>
+        <translation>Vždy tato obrazovka:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="439"/>
@@ -232,27 +232,27 @@ D: Zobrazovat na všech monitorech</translation>
     <message>
         <location filename="../obconf.ui" line="452"/>
         <source>Drag &amp;threshold distance:</source>
-        <translation>Prahová vzdálenost přetahování:</translation>
+        <translation>Odstup při &amp;přetahování:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="472"/>
         <source>Amount of resistance against other &amp;windows:</source>
-        <translation>Míra odporu proti ostatním oknům:</translation>
+        <translation>Míra odporu proti ostatním &amp;oknům:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="492"/>
         <source>Amount of resistance against screen &amp;edges:</source>
-        <translation>Míra odporu proti okrajům obrazovky:</translation>
+        <translation>Míra odporu proti &amp;okrajům obrazovky:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="512"/>
         <source>&amp;Amount of time to wait before switching:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zpoždění před přepnutím pracovní plochy:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="532"/>
         <source>&amp;Switch desktops when moving a window past the screen edge</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Přepnout pracovní plochu při posunutí okna přes okraj obrazovky</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="542"/>
@@ -293,7 +293,7 @@ D: Zobrazovat na všech monitorech</translation>
     <message>
         <location filename="../obconf.ui" line="596"/>
         <source>Information dialog&apos;s &amp;position:</source>
-        <translation>Pozice informačního dialogu:</translation>
+        <translation>Poloha informačního dialogu:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="606"/>
@@ -343,37 +343,37 @@ D: Zobrazovat na všech monitorech</translation>
     <message>
         <location filename="../obconf.ui" line="710"/>
         <source>Focus windows when the mouse pointer moves over them</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zaměřit okna, když se ukazovátko myši nachází nad nimi</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="722"/>
         <source>&amp;Delay before focusing and raising windows:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zpoždění před zaměřením a zvětšením oken:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="742"/>
         <source>Move focus under the mouse when &amp;switching desktops</source>
-        <translation type="unfinished"></translation>
+        <translation>Při &amp;změně pracovní plochy přenést zaměření pod ukazovátko myši</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="749"/>
         <source>Move focus &amp;under the mouse when the mouse is not moving</source>
-        <translation type="unfinished"></translation>
+        <translation>Přenést zaměření &amp;pod ukazovátko myši, když se nepohybuje</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="756"/>
         <source>&amp;Raise windows when the mouse pointer moves over them</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zvětšit okna, když se ukazovátko myši pohybuje nad nimi</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="768"/>
         <source>Titlebar</source>
-        <translation>Titulní pruh</translation>
+        <translation>Název okna</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="774"/>
         <source>Double click on the &amp;titlebar:</source>
-        <translation type="unfinished"></translation>
+        <translation>Dvojité klepnutí na &amp;název okna:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="785"/>
@@ -383,22 +383,22 @@ D: Zobrazovat na všech monitorech</translation>
     <message>
         <location filename="../obconf.ui" line="790"/>
         <source>Shades the window</source>
-        <translation>Sroluje okno</translation>
+        <translation>Sbalí okno</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="798"/>
         <source>Double click ti&amp;me:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Doba trvání pro dvojité klepnutí:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="838"/>
         <source>&amp;Show a notification when switching desktops</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ukázat oznámení při přepnutí pracovní plochy</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="845"/>
         <source>&amp;Amount of time to show the notification for:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Doba trvání zobrazení oznámení pro:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="868"/>
@@ -408,17 +408,17 @@ D: Zobrazovat na všech monitorech</translation>
     <message>
         <location filename="../obconf.ui" line="891"/>
         <source>&amp;Desktop names:</source>
-        <translation>Názvy &amp;pracovní plochy:</translation>
+        <translation>Názvy &amp;pracovních ploch:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="905"/>
         <source>Desktop Margins</source>
-        <translation>Okraje pracovní plochy</translation>
+        <translation>Okraje pracovních ploch</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="911"/>
         <source>Desktop margins are reserved areas on the edge of your screen.  New windows will not be placed within a margin, and maximized windows will not cover them.</source>
-        <translation>Okraje plochy je možné vyhradit pro jiné účely. Nová okna nebudou zasahovat do okrajů a zvětšená okna je nebudou krýt.</translation>
+        <translation>Okraje pracovní plochy je možné vyhradit pro jiné účely. Nová okna nebudou zasahovat do okrajů a zvětšená okna je nebudou krýt.</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="921"/>
@@ -451,7 +451,7 @@ D: Zobrazovat na všech monitorech</translation>
     <message>
         <location filename="../obconf.ui" line="1025"/>
         <source>The dock is a special container for &quot;dockapps&quot;, or dock applications.  It is not visible on screen until a dockapp is run.  Dockapps can be used to show things like a clock, or to provide you with a system tray.</source>
-        <translation>Panel je zvláštní oblast, do které se mohou umisťovat dokovací aplikace. Není viditelná, dokud není nespustíte nějakou dokovací aplikaci. Dokovací aplikace mohou být použity pro zobrazování věcí jako hodiny nebo systémová oblast.</translation>
+        <translation>Panel je zvláštní oblast, do které se mohou umísťovat programy pro ukotvení v panelu. Není viditelná, dokud nespustíte nějaký program, který dokáže zakotvit v tomto přístavu. Ukotvitelné programy mohou být použity pro zobrazování věcí, jako jsou hodiny nebo systémová oblast.</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1041"/>
@@ -461,7 +461,7 @@ D: Zobrazovat na všech monitorech</translation>
     <message>
         <location filename="../obconf.ui" line="1053"/>
         <source>&amp;Position:</source>
-        <translation>&amp;Pozice:</translation>
+        <translation>&amp;Poloha:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1067"/>
@@ -506,12 +506,12 @@ D: Zobrazovat na všech monitorech</translation>
     <message>
         <location filename="../obconf.ui" line="1107"/>
         <source>Floating</source>
-        <translation>Plovoucí</translation>
+        <translation>Ručně stanovená poloha</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1121"/>
         <source>&amp;Floating position:</source>
-        <translation>Plovoucí pozice</translation>
+        <translation>&amp;Ručně stanovená poloha:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1146"/>
@@ -521,12 +521,12 @@ D: Zobrazovat na všech monitorech</translation>
     <message>
         <location filename="../obconf.ui" line="1162"/>
         <source>Allow &amp;windows to be placed within the dock&apos;s area</source>
-        <translation type="unfinished"></translation>
+        <translation>Povolit umísťování &amp;oken do oblasti panelu</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1169"/>
         <source>&amp;Orientation: </source>
-        <translation>&amp;Orientace: </translation>
+        <translation>&amp;Natočení: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1183"/>
@@ -546,17 +546,17 @@ D: Zobrazovat na všech monitorech</translation>
     <message>
         <location filename="../obconf.ui" line="1205"/>
         <source>Keep dock &amp;above other windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Podržet panel vždy v popředí &amp;nad ostatními okny</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1212"/>
         <source>A&amp;llow dock to be both above and below windows</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Povolit panelu být nad i pod okny (v popředí i v pozadí)</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1219"/>
         <source>Keep dock &amp;below other windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Podržet panel vždy v pozadí &amp;pod ostatními okny</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1229"/>
@@ -566,22 +566,22 @@ D: Zobrazovat na všech monitorech</translation>
     <message>
         <location filename="../obconf.ui" line="1235"/>
         <source>&amp;Delay before hiding:</source>
-        <translation>Prodleva skrývání:</translation>
+        <translation>Zpoždění před skrytím:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1245"/>
         <source>Delay before &amp;showing:</source>
-        <translation>Prodleva zobrazení:</translation>
+        <translation>Zpoždění před &amp;ukázáním:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1275"/>
         <source>&amp;Hide off screen</source>
-        <translation>Skrýt mimo obrazovku</translation>
+        <translation>&amp;Skrýt mimo obrazovku</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1306"/>
         <source>About</source>
-        <translation>O aplikaci</translation>
+        <translation>O programu</translation>
     </message>
 </context>
 <context>
@@ -590,7 +590,7 @@ D: Zobrazovat na všech monitorech</translation>
         <location filename="../theme.cpp" line="150"/>
         <location filename="../theme.cpp" line="160"/>
         <source>Choose an Openbox theme</source>
-        <translation>Vyberte motiv Openboxu</translation>
+        <translation>Vyberte vzhled Openboxu</translation>
     </message>
     <message>
         <location filename="../desktops.cpp" line="65"/>
@@ -622,7 +622,17 @@ The program is based on ObConf developed by the following developers.
 * Dana Jansens &lt;danakj@orodu.net&gt;
 * Tim Riley &lt;tr@slackzone.org&gt;
 * Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Správce nastavení pro Openbox
+
+Autorské právo (c) 2014-2015
+
+Autoři:
+* Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;
+
+Program je založen na ObConf vyvíjeném následujícími výojáři.
+* Dana Jansens &lt;danakj@orodu.net&gt;
+* Tim Riley &lt;tr@slackzone.org&gt;
+* Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</translation>
     </message>
 </context>
 <context>
@@ -658,7 +668,7 @@ The following errors were reported:
     <message>
         <location filename="../archive.cpp" line="138"/>
         <source>&quot;%1&quot; does not appear to be a valid Openbox theme directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Zdá se, že &quot;%1&quot; není platným adresářem se vzhledy pro Openbox</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="148"/>
@@ -690,7 +700,16 @@ This is free software, and you are welcome to redistribute it
 under certain conditions. See the file COPYING for details.
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Autorské právo (c) 2003-2008   Dana Jansens
+Autorské právo (c) 2003        Tim Riley
+Autorské právo (c) 2007        Javeed Shaikh
+Autorské právo (c) 2013        Hong Jen Yee (PCMan)
+
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it
+under certain conditions. See the file COPYING for details.
+
+</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="73"/>
