@@ -70,7 +70,7 @@
     <message>
         <location filename="../obconf.ui" line="96"/>
         <source>&amp;Install a new theme...</source>
-        <translation>&amp;Nainstalovat nový motiv…</translation>
+        <translation>Na&amp;instalovat nový motiv…</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="103"/>
@@ -80,7 +80,7 @@
     <message>
         <location filename="../obconf.ui" line="120"/>
         <source>&amp;Windows retain a border when undecorated</source>
-        <translation>Oknu zůstane okraj když zbaveno dekorací</translation>
+        <translation>&amp;Oknu zůstane okraj když zbaveno dekorací</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="127"/>
@@ -117,17 +117,17 @@ D: Zobrazovat na všech monitorech</translation>
     <message>
         <location filename="../obconf.ui" line="231"/>
         <source>&amp;Active window title: </source>
-        <translation>Název činné&amp;ho okna: </translation>
+        <translation>Název činného okn&amp;a: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="241"/>
         <source>&amp;Inactive window title: </source>
-        <translation>Název &amp;nečinného okna: </translation>
+        <translation>Název neč&amp;inného okna: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="251"/>
         <source>Menu &amp;header: </source>
-        <translation>&amp;Záhlaví nabídky: </translation>
+        <translation>Zá&amp;hlaví nabídky: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="261"/>
