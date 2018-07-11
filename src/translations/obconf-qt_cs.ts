@@ -731,11 +731,11 @@ Options:
         <translation>Syntaxe: obconf [volby] [ARCHIV.obt]
 
 Volby:
-  --help                Display this help and exit
-  --version             Display the version and exit
-  --install ARCHIVE.obt Install the given theme archive and select it
-  --archive THEME       Create a theme archive from the given theme directory
-  --config-file SOUBOR  ZSpecify the path to the config file to use
+  --help                Zobrazit tuto nápovědu a skončit
+  --version             Zobrazit verzi a skončit
+  --install ARCHIV.obt  Nainstalovat zadaný archiv s motivem a vybrat ho
+  --archive MOTIV       Vytvořit archiv s motivem ze zadané složky motivu
+  --config-file SOUBOR  Zadejte popis umístění souboru s nastaveními
 </translation>
     </message>
     <message>
@@ -768,14 +768,16 @@ Volby:
     <message>
         <location filename="../obconf-qt.cpp" line="228"/>
         <source>Failed to load an rc.xml. You have probably failed to install Openbox properly.</source>
-        <translation>Nepodařilo se nahrát rc.xml. Pravděpodobně se vám nepodařilo nainstalovat ObConf správně.</translation>
+        <translation>Nepodařilo se načíst rc.xml. Pravděpodobně se u vás nepodařilo nainstalovat ObConf správně.</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="241"/>
         <source>Error while parsing the Openbox configuration file.  Your configuration file is not valid XML.
 
 Message: %1</source>
-        <translation>Chyba při zpracování souboru s nastavením pro Openbox. Váš soubor s nastavením není platným souborem XML.</translation>
+        <translation>Chyba při zpracování souboru s nastavením pro Openbox. Váš soubor s nastavením není platným XML souborem.
+
+Zpráva: %1</translation>
     </message>
 </context>
 </TS>
