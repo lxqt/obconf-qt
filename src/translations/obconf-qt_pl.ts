@@ -123,7 +123,7 @@
         <location filename="../obconf.ui" line="977"/>
         <location filename="../obconf.ui" line="998"/>
         <source>px</source>
-        <translation type="unfinished">piks.</translation>
+        <translation>piks.</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="942"/>
