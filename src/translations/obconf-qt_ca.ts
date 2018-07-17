@@ -704,7 +704,15 @@ Options:
   --archive THEME       Create a theme archive from the given theme directory
   --config-file FILE    Specify the path to the config file to use
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Sintaxi: obconf [opcions] [ARXIU.obt]
+
+Opcions:
+  --help                Visualitza aquesta ajuda i surt
+  --version             Visualitza la versió i surt
+  --install ARXIU.obt Instal·la l&apos;arxiu del tema indicat i el selecciona
+  --archive TEMA       Crea un arxiu de tema a partir del directori del tema indicat
+  --config-file FITXER    Especifica el camí al fitxer de configuració a utilitzar
+</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="97"/>
@@ -736,14 +744,16 @@ Options:
     <message>
         <location filename="../obconf-qt.cpp" line="228"/>
         <source>Failed to load an rc.xml. You have probably failed to install Openbox properly.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha fallat la càrrega d&apos;un rc.xml. Probablement no teniu instal·lat correctament Openbox.</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="241"/>
         <source>Error while parsing the Openbox configuration file.  Your configuration file is not valid XML.
 
 Message: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Error mentre s&apos;analitzava el fitxer de configuració d&apos;Openbox. El vostre fitxer de configuració no és un XML vàlid.
+
+Missatge: %1</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="58"/>
@@ -757,7 +767,16 @@ This is free software, and you are welcome to redistribute it
 under certain conditions. See the file COPYING for details.
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Drets d&apos;autor (c) 2003-2008   Dana Jansens
+Drets d&apos;autor (c) 2003        Tim Riley
+Drets d&apos;autor (c) 2007        Javeed Shaikh
+Drets d&apos;autor (c) 2013        Hong Jen Yee (PCMan)
+
+Aquest programa ABSOLUTAMENT NO INCORPORA CAP GARANTIA.
+Es tracta de programari lliure, i us convidem a redistribuir-lo sota
+certes condicions. Consulteu el fitxer COPYING per als detalls.
+
+</translation>
     </message>
 </context>
 </TS>
