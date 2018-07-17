@@ -177,12 +177,12 @@ D: Zobrazovat na všech monitorech</translation>
     <message>
         <location filename="../obconf.ui" line="339"/>
         <source>The monitor with the mouse</source>
-        <translation>Obrazovka s myší</translation>
+        <translation>Obrazovku s myší</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="344"/>
         <source>Primary monitor</source>
-        <translation>Hlavní obrazovka</translation>
+        <translation>Hlavní obrazovku</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="354"/>
