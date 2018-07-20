@@ -583,7 +583,7 @@ D: Su tutti desktop</translation>
     <message>
         <location filename="../obconf.ui" line="1306"/>
         <source>About</source>
-        <translation>A proposito</translation>
+        <translation>Informazioni</translation>
     </message>
 </context>
 <context>
