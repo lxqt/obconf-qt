@@ -99,7 +99,7 @@ if (USE_QT4)
 endif()
 
 target_link_libraries(obconf-qt
-  ${QTX_LDFLAGS}
+  ${QTX_LIBRARIES}
   ${GLIB_LDFLAGS}
   ${OPENBOX_LDFLAGS}
 )
