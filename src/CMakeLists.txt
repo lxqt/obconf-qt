@@ -100,8 +100,8 @@ endif()
 
 target_link_libraries(obconf-qt
   ${QTX_LIBRARIES}
-  ${GLIB_LIBRARIES}
-  ${OPENBOX_LIBRARIES}
+  ${GLIB_LDFLAGS}
+  ${OPENBOX_LDFLAGS}
 )
 
 install(TARGETS obconf-qt RUNTIME DESTINATION bin)
