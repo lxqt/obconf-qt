@@ -333,7 +333,7 @@ D: Zobrazovat na všech monitorech</translation>
     <message>
         <location filename="../obconf.ui" line="670"/>
         <source>Fixed position on screen</source>
-        <translation>Pevná poloha na obrazovce</translation>
+        <translation>Pevná pozice na obrazovce</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="701"/>
@@ -571,7 +571,7 @@ D: Zobrazovat na všech monitorech</translation>
     <message>
         <location filename="../obconf.ui" line="1245"/>
         <source>Delay before &amp;showing:</source>
-        <translation>Zpoždění před &amp;ukázáním:</translation>
+        <translation>Prodleva před &amp;ukázáním:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1275"/>
@@ -602,7 +602,7 @@ D: Zobrazovat na všech monitorech</translation>
     <message>
         <location filename="../mouse.cpp" line="57"/>
         <source>Custom actions</source>
-        <translation>Uživatelské činnosti</translation>
+        <translation>Uživatelem určené akce</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="76"/>
