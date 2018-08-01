@@ -117,32 +117,32 @@ D: Aanwezig op alle werkbladen</translation>
     <message>
         <location filename="../obconf.ui" line="231"/>
         <source>&amp;Active window title: </source>
-        <translation>Titel van &amp;actieve venster</translation>
+        <translation>Titel van &amp;actieve venster: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="241"/>
         <source>&amp;Inactive window title: </source>
-        <translation>Titel van &amp;inactieve venster</translation>
+        <translation>Titel van &amp;inactieve venster: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="251"/>
         <source>Menu &amp;header: </source>
-        <translation>Menu&amp;kop</translation>
+        <translation>Menu&amp;kop: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="261"/>
         <source>&amp;Menu Item: </source>
-        <translation>&amp;Menu-onderdeel:</translation>
+        <translation>&amp;Menu-onderdeel: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="271"/>
         <source>Active &amp;On-screen display: </source>
-        <translation>A&amp;ctieve beeldschermvertoning:</translation>
+        <translation>A&amp;ctieve beeldschermvertoning: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="281"/>
         <source>Inactive O&amp;n-screen display: </source>
-        <translation>I&amp;nactieve beelschermvertoning:</translation>
+        <translation>I&amp;nactieve beeldschermvertoning: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="295"/>
@@ -197,7 +197,7 @@ D: Aanwezig op alle werkbladen</translation>
     <message>
         <location filename="../obconf.ui" line="370"/>
         <source>Primary &amp;monitor:</source>
-        <translation>&amp;Primair beeldscherm</translation>
+        <translation>&amp;Primair beeldscherm:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="381"/>
@@ -293,7 +293,7 @@ D: Aanwezig op alle werkbladen</translation>
     <message>
         <location filename="../obconf.ui" line="596"/>
         <source>Information dialog&apos;s &amp;position:</source>
-        <translation>&amp;Positie van de informatiedialoog</translation>
+        <translation>Positie van de informatiedialoog:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="606"/>
@@ -526,7 +526,7 @@ D: Aanwezig op alle werkbladen</translation>
     <message>
         <location filename="../obconf.ui" line="1169"/>
         <source>&amp;Orientation: </source>
-        <translation>Oriëntatie:</translation>
+        <translation>Oriëntatie: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1183"/>
@@ -581,7 +581,7 @@ D: Aanwezig op alle werkbladen</translation>
     <message>
         <location filename="../obconf.ui" line="1306"/>
         <source>About</source>
-        <translation>&amp;Over</translation>
+        <translation>Over</translation>
     </message>
 </context>
 <context>
@@ -734,25 +734,28 @@ Opties:
   --install ARCHIVE.obt Installeer en gebruik het opgegeven thema-archief
   --archive THEMA       Maak een thema-archief van de opgegeven themamap
   --config-file DATEI   Geef het pad op naar het te gebruiken instellingenbestand
-  </translation>
+</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="97"/>
         <source>--install requires an argument
 </source>
-        <translation>--install heeft een argument nodig</translation>
+        <translation>--install heeft een argument nodig
+</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="103"/>
         <source>--archive requires an argument
 </source>
-        <translation>--archive benötigt ein Argument</translation>
+        <translation>--archive vereist een argument
+</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="109"/>
         <source>--config-file requires an argument
 </source>
-        <translation>--config-file heeft een argument nodig</translation>
+        <translation>--config-file heeft een argument nodig
+</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="241"/>
