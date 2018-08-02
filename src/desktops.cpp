@@ -104,9 +104,7 @@ void MainDialog::desktops_read_names() {
 }
 
 void MainDialog::desktops_write_names() {
-  gchar** s;
   xmlNodePtr n, c;
-  gint num = 0, last = -1;
 
   // delete all existing keys
   n = tree_get_node("desktops/names", NULL);
