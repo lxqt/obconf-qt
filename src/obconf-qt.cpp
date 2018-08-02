@@ -196,8 +196,6 @@ int main(int argc, char** argv) {
   app.installTranslator(&translator);
 
   // load configurations
-  gchar* p;
-  gboolean exit_with_error = FALSE;
 
   parse_args(argc, argv);
 
@@ -226,7 +224,6 @@ int main(int argc, char** argv) {
                                 "openbox_config"))) {
     QMessageBox::critical(NULL, QObject::tr("Error"),
                           QObject::tr("Failed to load an rc.xml. You have probably failed to install Openbox properly."));
-    exit_with_error = TRUE;
   }
   else {
     doc = obt_xml_doc(parse_i);
@@ -241,7 +238,6 @@ int main(int argc, char** argv) {
       QString message = QObject::tr("Error while parsing the Openbox configuration file.  Your configuration file is not valid XML.\n\nMessage: %1")
         .arg(QString::fromUtf8(e->message));
       QMessageBox::critical(NULL, QObject::tr("Error"), message);
-      exit_with_error = TRUE;
     }
   }
 

@@ -48,7 +48,6 @@ void MainDialog::theme_load_all() {
   gchar* p;
   GList* it, *next;
   gint i;
-  RrFont* active, *inactive, *menu_t, *menu_i, *osd;
   QModelIndex currentItemIndex;
 
   name = tree_get_string("theme/name", "TheBear");

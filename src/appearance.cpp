@@ -121,7 +121,7 @@ void MainDialog::on_font_inactive_display_changed() {
 static RrFont* read_font(Fm::FontButton* button, const gchar* place,
                          gboolean use_default) {
   RrFont* font;
-  gchar* fontstring, *node;
+  gchar* node;
   gchar* name, **names;
   gchar* size;
   gchar* weight;
@@ -180,7 +180,6 @@ static RrFont* read_font(Fm::FontButton* button, const gchar* place,
   if(!g_ascii_strcasecmp(slant, "Oblique")) rr_slant = RR_FONTSLANT_OBLIQUE;
 
   font = RrFontOpen(rrinst, name, atoi(size), rr_weight, rr_slant);
-  // g_free(fontstring);
   g_free(slant);
   g_free(weight);
   g_free(size);
@@ -190,7 +189,6 @@ static RrFont* read_font(Fm::FontButton* button, const gchar* place,
 }
 
 static RrFont* write_font(Fm::FontButton* button, const gchar* place) {
-  gchar *c;
   gchar *node;
   RrFontWeight weight = RR_FONTWEIGHT_NORMAL;
   RrFontSlant slant = RR_FONTSLANT_NORMAL;
