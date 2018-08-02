@@ -37,11 +37,9 @@ endif()
 
 find_package(lxqt-build-tools ${LXQTBT_MINIMUM_VERSION} REQUIRED)
 
-find_package(PkgConfig)
-pkg_check_modules(GLIB REQUIRED
-  glib-2.0
-)
+find_package(GLIB REQUIRED)
 
+find_package(PkgConfig)
 pkg_check_modules(OPENBOX REQUIRED
   obrender-3.5
   obt-3.5
