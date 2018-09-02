@@ -587,8 +587,8 @@ D: &quot;Visuose darbalaukiuose&quot; mygtukas</translation>
 <context>
     <name>Obconf::MainDialog</name>
     <message>
-        <location filename="../theme.cpp" line="150"/>
-        <location filename="../theme.cpp" line="160"/>
+        <location filename="../theme.cpp" line="149"/>
+        <location filename="../theme.cpp" line="159"/>
         <source>Choose an Openbox theme</source>
         <translation>Pasirinkite Openbox temą</translation>
     </message>
@@ -759,18 +759,18 @@ Parametrai:
 </translation>
     </message>
     <message>
-        <location filename="../obconf-qt.cpp" line="227"/>
-        <location filename="../obconf-qt.cpp" line="243"/>
+        <location filename="../obconf-qt.cpp" line="225"/>
+        <location filename="../obconf-qt.cpp" line="240"/>
         <source>Error</source>
         <translation>Klaida</translation>
     </message>
     <message>
-        <location filename="../obconf-qt.cpp" line="228"/>
+        <location filename="../obconf-qt.cpp" line="226"/>
         <source>Failed to load an rc.xml. You have probably failed to install Openbox properly.</source>
         <translation>Nepavyko įkelti rc.xml. Jums, greičiausiai, nepavyko tinkamai įdiegti Openbox.</translation>
     </message>
     <message>
-        <location filename="../obconf-qt.cpp" line="241"/>
+        <location filename="../obconf-qt.cpp" line="238"/>
         <source>Error while parsing the Openbox configuration file.  Your configuration file is not valid XML.
 
 Message: %1</source>

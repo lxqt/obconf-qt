@@ -629,8 +629,8 @@ Lee programme est basé sur ObConf developpé par :
         <translation>Actions personnelles</translation>
     </message>
     <message>
-        <location filename="../theme.cpp" line="150"/>
-        <location filename="../theme.cpp" line="160"/>
+        <location filename="../theme.cpp" line="149"/>
+        <location filename="../theme.cpp" line="159"/>
         <source>Choose an Openbox theme</source>
         <translation>Choisir un thème Openbox</translation>
     </message>
@@ -755,18 +755,18 @@ Options:
         <translation>--config-file demande un argument</translation>
     </message>
     <message>
-        <location filename="../obconf-qt.cpp" line="227"/>
-        <location filename="../obconf-qt.cpp" line="243"/>
+        <location filename="../obconf-qt.cpp" line="225"/>
+        <location filename="../obconf-qt.cpp" line="240"/>
         <source>Error</source>
         <translation>Erreur</translation>
     </message>
     <message>
-        <location filename="../obconf-qt.cpp" line="228"/>
+        <location filename="../obconf-qt.cpp" line="226"/>
         <source>Failed to load an rc.xml. You have probably failed to install Openbox properly.</source>
         <translation>Échec au chargement d&apos;un fichier rc.xml. Vous n&apos;avez probablement pas installé correctement Openbox.</translation>
     </message>
     <message>
-        <location filename="../obconf-qt.cpp" line="241"/>
+        <location filename="../obconf-qt.cpp" line="238"/>
         <source>Error while parsing the Openbox configuration file.  Your configuration file is not valid XML.
 
 Message: %1</source>

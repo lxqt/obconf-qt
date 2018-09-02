@@ -629,8 +629,8 @@ Aquest programa està basat en ObConf que ha estat desenvolupat pels següents d
 * Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</translation>
     </message>
     <message>
-        <location filename="../theme.cpp" line="150"/>
-        <location filename="../theme.cpp" line="160"/>
+        <location filename="../theme.cpp" line="149"/>
+        <location filename="../theme.cpp" line="159"/>
         <source>Choose an Openbox theme</source>
         <translation>Trieu un tema d&apos;Openbox</translation>
     </message>
@@ -736,18 +736,18 @@ Opcions:
 </translation>
     </message>
     <message>
-        <location filename="../obconf-qt.cpp" line="227"/>
-        <location filename="../obconf-qt.cpp" line="243"/>
+        <location filename="../obconf-qt.cpp" line="225"/>
+        <location filename="../obconf-qt.cpp" line="240"/>
         <source>Error</source>
         <translation>Error</translation>
     </message>
     <message>
-        <location filename="../obconf-qt.cpp" line="228"/>
+        <location filename="../obconf-qt.cpp" line="226"/>
         <source>Failed to load an rc.xml. You have probably failed to install Openbox properly.</source>
         <translation>Ha fallat la càrrega d&apos;un rc.xml. Probablement no teniu instal·lat correctament Openbox.</translation>
     </message>
     <message>
-        <location filename="../obconf-qt.cpp" line="241"/>
+        <location filename="../obconf-qt.cpp" line="238"/>
         <source>Error while parsing the Openbox configuration file.  Your configuration file is not valid XML.
 
 Message: %1</source>
