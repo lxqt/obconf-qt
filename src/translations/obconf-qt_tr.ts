@@ -727,7 +727,7 @@ Options:
         <location filename="../obconf-qt.cpp" line="225"/>
         <location filename="../obconf-qt.cpp" line="240"/>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Hata</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="226"/>
