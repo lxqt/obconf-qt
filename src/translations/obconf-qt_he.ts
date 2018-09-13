@@ -581,7 +581,7 @@ D: נוכחות כוללת (על כל שולחנות העבודה)</translation>
     <message>
         <location filename="../obconf.ui" line="1306"/>
         <source>About</source>
-        <translation></translation>
+        <translation>על אודות</translation>
     </message>
 </context>
 <context>
@@ -590,24 +590,24 @@ D: נוכחות כוללת (על כל שולחנות העבודה)</translation>
         <location filename="../theme.cpp" line="149"/>
         <location filename="../theme.cpp" line="159"/>
         <source>Choose an Openbox theme</source>
-        <translation></translation>
+        <translation>נא לבחור ערכת עיצוב של Openbox</translation>
     </message>
     <message>
         <location filename="../desktops.cpp" line="65"/>
         <location filename="../desktops.cpp" line="87"/>
         <location filename="../desktops.cpp" line="99"/>
         <source>(Unnamed desktop)</source>
-        <translation></translation>
+        <translation>(שולחן עבודה ללא שם)</translation>
     </message>
     <message>
         <location filename="../mouse.cpp" line="57"/>
         <source>Custom actions</source>
-        <translation></translation>
+        <translation>פעולות בהתאמה אישית</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="76"/>
         <source>About ObConf-Qt</source>
-        <translation></translation>
+        <translation>על אודות ObConf-Qt</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="77"/>
@@ -622,7 +622,17 @@ The program is based on ObConf developed by the following developers.
 * Dana Jansens &lt;danakj@orodu.net&gt;
 * Tim Riley &lt;tr@slackzone.org&gt;
 * Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</source>
-        <translation></translation>
+        <translation>מנהל העדפות של Openbox
+
+כל הזכויות שמורות (c) 2014‏-2015
+
+יוצרים:
+‎* Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;‎
+
+התכנית הזאת מבוססת על ObConf שפותחה על ידי מגוון מתכנתים.
+‎* Dana Jansens &lt;danakj@orodu.net&gt;‎
+‎* Tim Riley &lt;tr@slackzone.org&gt;‎
+‎* Javeed Shaikh &lt;syscrash2k@gmail.com&gt;‎</translation>
     </message>
 </context>
 <context>
