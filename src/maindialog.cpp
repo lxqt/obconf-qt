@@ -28,9 +28,9 @@
 using namespace Obconf;
 
 MainDialog::MainDialog():
+  QDialog(),
   themes(NULL),
-  themes_model(new QStandardItemModel()),
-  QDialog() {
+  themes_model(new QStandardItemModel()) {
 
   ui.setupUi(this);
   setWindowIcon(QIcon(PIXMAPS_DIR "/obconf-qt.png"));
