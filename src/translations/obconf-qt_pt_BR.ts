@@ -271,317 +271,317 @@ D: onipresente (todas as áreas de trabalho)</translation>
     <message>
         <location filename="../obconf.ui" line="1025"/>
         <source>The dock is a special container for &quot;dockapps&quot;, or dock applications.  It is not visible on screen until a dockapp is run.  Dockapps can be used to show things like a clock, or to provide you with a system tray.</source>
-        <translation type="unfinished"></translation>
+        <translation>O dock é um contêiner especial para os &quot;dockapps&quot; ou aplicativos de dock. Não é visível na tela até que um dockapp seja executado. Dockapps podem ser usados para mostrar coisas como um relógio ou para fornecer uma bandeja do sistema.</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1041"/>
         <source>Position</source>
-        <translation type="unfinished"></translation>
+        <translation>Posição</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1053"/>
         <source>&amp;Position:</source>
-        <translation type="unfinished"></translation>
+        <translation>Posição:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1067"/>
         <source>Top Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Esquerda Superior</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1072"/>
         <source>Top</source>
-        <translation type="unfinished"></translation>
+        <translation>Topo</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1077"/>
         <source>Top Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Superior Direita</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1082"/>
         <source>Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Esquerda</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1087"/>
         <source>Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Direita</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1092"/>
         <source>Bottom Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Inferior Esquerdo</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1097"/>
         <source>Bottom</source>
-        <translation type="unfinished"></translation>
+        <translation>Inferior</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1102"/>
         <source>Bottom Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Inferior Direito</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1107"/>
         <source>Floating</source>
-        <translation type="unfinished"></translation>
+        <translation>Flutuante</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1121"/>
         <source>&amp;Floating position:</source>
-        <translation type="unfinished"></translation>
+        <translation>Posicionamento flutuante:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1146"/>
         <source>x</source>
-        <translation type="unfinished"></translation>
+        <translation>x</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1162"/>
         <source>Allow &amp;windows to be placed within the dock&apos;s area</source>
-        <translation type="unfinished"></translation>
+        <translation>Permitir que janelas sejam colocadas dentro da área de dock.</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1169"/>
         <source>&amp;Orientation: </source>
-        <translation type="unfinished"></translation>
+        <translation>Orientação: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1183"/>
         <source>Vertical</source>
-        <translation type="unfinished"></translation>
+        <translation>Vertical</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1188"/>
         <source>Horizontal</source>
-        <translation type="unfinished"></translation>
+        <translation>Horizontal</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1199"/>
         <source>Stacking</source>
-        <translation type="unfinished"></translation>
+        <translation>Empilhado</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1205"/>
         <source>Keep dock &amp;above other windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Mantenha o dock acima de outras janelas</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1212"/>
         <source>A&amp;llow dock to be both above and below windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Permitir que o dock fique acima e abaixo das janelas</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1219"/>
         <source>Keep dock &amp;below other windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Mantenha o dock abaixo das outras janelas</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1229"/>
         <source>Hiding</source>
-        <translation type="unfinished"></translation>
+        <translation>Ocultação</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1235"/>
         <source>&amp;Delay before hiding:</source>
-        <translation type="unfinished"></translation>
+        <translation>Atraso antes de se esconder:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1245"/>
         <source>Delay before &amp;showing:</source>
-        <translation type="unfinished"></translation>
+        <translation>Atraso antes de mostrar:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1275"/>
         <source>&amp;Hide off screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Esconder a tela</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1306"/>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>Sobre</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="96"/>
         <source>&amp;Install a new theme...</source>
-        <translation type="unfinished"></translation>
+        <translation>Instalar um novo tema...</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="103"/>
         <source>Create a theme &amp;archive (.obt)...</source>
-        <translation type="unfinished"></translation>
+        <translation>Criar um tema (.obt)...</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="120"/>
         <source>&amp;Windows retain a border when undecorated</source>
-        <translation type="unfinished"></translation>
+        <translation>Janelas mantém uma borda quando não decoradas</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="127"/>
         <source>A&amp;nimate iconify and restore</source>
-        <translation type="unfinished"></translation>
+        <translation>Restaurar e animar ícones</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="231"/>
         <source>&amp;Active window title: </source>
-        <translation type="unfinished"></translation>
+        <translation>Título da janela ativa: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="241"/>
         <source>&amp;Inactive window title: </source>
-        <translation type="unfinished"></translation>
+        <translation>Título da janela inativada: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="251"/>
         <source>Menu &amp;header: </source>
-        <translation type="unfinished"></translation>
+        <translation>Cabeçalho do menu: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="261"/>
         <source>&amp;Menu Item: </source>
-        <translation type="unfinished"></translation>
+        <translation>Item do Menu: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="271"/>
         <source>Active &amp;On-screen display: </source>
-        <translation type="unfinished"></translation>
+        <translation>Exibição na tela ativa: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="281"/>
         <source>Inactive O&amp;n-screen display: </source>
-        <translation type="unfinished"></translation>
+        <translation>Exibição na tela inativa: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="295"/>
         <source>Focus &amp;new windows when they appear</source>
-        <translation type="unfinished"></translation>
+        <translation>Focar novas janelas quando elas aparecerem</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="302"/>
         <source>&amp;Place new windows under the mouse pointer</source>
-        <translation type="unfinished"></translation>
+        <translation>Colocar novas janelas abaixo do cursor do mouse</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="309"/>
         <source>&amp;Center new windows when they are placed</source>
-        <translation type="unfinished"></translation>
+        <translation>Centralizar novas janelas quando elas são colocadas</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="318"/>
         <source>Prefer to place new windows &amp;on:</source>
-        <translation type="unfinished"></translation>
+        <translation>Colocar novas janelas em:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="370"/>
         <source>Primary &amp;monitor:</source>
-        <translation type="unfinished"></translation>
+        <translation>Monitor primário:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="399"/>
         <source>&amp;Fixed monitor:</source>
-        <translation type="unfinished"></translation>
+        <translation>Monitor fixo</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="445"/>
         <source>Update the window contents while &amp;resizing</source>
-        <translation type="unfinished"></translation>
+        <translation>Atualize o conteúdo da janela enquanto redimensiona</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="452"/>
         <source>Drag &amp;threshold distance:</source>
-        <translation type="unfinished"></translation>
+        <translation>Arrastar distância limite:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="472"/>
         <source>Amount of resistance against other &amp;windows:</source>
-        <translation type="unfinished"></translation>
+        <translation>Resistência contra outras janelas:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="492"/>
         <source>Amount of resistance against screen &amp;edges:</source>
-        <translation type="unfinished"></translation>
+        <translation>Resistência contra as bordas da tela:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="512"/>
         <source>&amp;Amount of time to wait before switching:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tempo de espera antes de mudar:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="532"/>
         <source>&amp;Switch desktops when moving a window past the screen edge</source>
-        <translation type="unfinished"></translation>
+        <translation>Alternar áreas de trabalho ao mover uma janela além da borda da tela</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="567"/>
         <source>Fixed &amp;y position:</source>
-        <translation type="unfinished"></translation>
+        <translation>Posição y:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="596"/>
         <source>Information dialog&apos;s &amp;position:</source>
-        <translation type="unfinished"></translation>
+        <translation>Posição do diálogo de informações:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="606"/>
         <source>Fixed &amp;x position:</source>
-        <translation type="unfinished"></translation>
+        <translation>Posição x:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="616"/>
         <source>Show &amp;information dialog:</source>
-        <translation type="unfinished"></translation>
+        <translation>Exibir diálogo de informação:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="722"/>
         <source>&amp;Delay before focusing and raising windows:</source>
-        <translation type="unfinished"></translation>
+        <translation>Atraso antes de focar e levantar janelas:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="742"/>
         <source>Move focus under the mouse when &amp;switching desktops</source>
-        <translation type="unfinished"></translation>
+        <translation>Muda o foco embaixo do cursor ao alternar entre ás áreas de trabalho.</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="749"/>
         <source>Move focus &amp;under the mouse when the mouse is not moving</source>
-        <translation type="unfinished"></translation>
+        <translation>Muda o foco embaixo do cursor quando o mesmo não estiver se movendo</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="756"/>
         <source>&amp;Raise windows when the mouse pointer moves over them</source>
-        <translation type="unfinished"></translation>
+        <translation>Sobe janelas quando o ponteiro do mouse se move sobre elas</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="774"/>
         <source>Double click on the &amp;titlebar:</source>
-        <translation type="unfinished"></translation>
+        <translation>Duplo-clique na barra de título:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="798"/>
         <source>Double click ti&amp;me:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tempo para duplo-clique:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="838"/>
         <source>&amp;Show a notification when switching desktops</source>
-        <translation type="unfinished"></translation>
+        <translation>Exibir uma notificação quando alternar entre áreas de trabalho</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="845"/>
         <source>&amp;Amount of time to show the notification for:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tempo para mostrar a notificação:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="868"/>
         <source>&amp;Number of desktops: </source>
-        <translation type="unfinished"></translation>
+        <translation>Número de áreas de trabalho: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="891"/>
         <source>&amp;Desktop names:</source>
-        <translation type="unfinished"></translation>
+        <translation>Nome das áreas de trabalho:</translation>
     </message>
 </context>
 <context>
@@ -589,19 +589,19 @@ D: onipresente (todas as áreas de trabalho)</translation>
     <message>
         <location filename="../mouse.cpp" line="57"/>
         <source>Custom actions</source>
-        <translation type="unfinished"></translation>
+        <translation>Personalizar ações:</translation>
     </message>
     <message>
         <location filename="../desktops.cpp" line="65"/>
         <location filename="../desktops.cpp" line="87"/>
         <location filename="../desktops.cpp" line="99"/>
         <source>(Unnamed desktop)</source>
-        <translation type="unfinished"></translation>
+        <translation>(Área de trabalho sem nome)</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="76"/>
         <source>About ObConf-Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>Sobre ObConf-Qt</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="77"/>
@@ -616,13 +616,23 @@ The program is based on ObConf developed by the following developers.
 * Dana Jansens &lt;danakj@orodu.net&gt;
 * Tim Riley &lt;tr@slackzone.org&gt;
 * Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Um gerenciador de preferências para o Openbox
+
+Copyright (C) 2014-2015
+
+Autor:
+* Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;
+
+O programa é baseado no ObConf, desenvolvido pelos seguintes desenvolvedores:
+* Dana Jansens &lt;danakj@orodu.net&gt;
+* Tim Riley &lt;tr@slackzone.org&gt;
+* Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</translation>
     </message>
     <message>
         <location filename="../theme.cpp" line="149"/>
         <location filename="../theme.cpp" line="159"/>
         <source>Choose an Openbox theme</source>
-        <translation type="unfinished"></translation>
+        <translation>Escolha um tema para o Openbox</translation>
     </message>
 </context>
 <context>
@@ -630,40 +640,42 @@ The program is based on ObConf developed by the following developers.
     <message>
         <location filename="../archive.cpp" line="26"/>
         <source>&quot;%1&quot; was installed to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>&quot;% 1&quot; foi instalado em% 1</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="53"/>
         <source>&quot;%1&quot; was successfully created</source>
-        <translation type="unfinished"></translation>
+        <translation>&quot;% 1&quot; foi criado com sucesso</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="89"/>
         <source>Unable to create the theme archive &quot;%1&quot;.
 The following errors were reported:
 %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Não foi possível criar o arquivo de tema &quot;%1&quot;.
+Os seguintes erros foram relatados:
+%2</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="95"/>
         <location filename="../archive.cpp" line="178"/>
         <source>Unable to run the &quot;tar&quot; command: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Não foi possível executar o comando &quot;tar&quot;: %1</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="115"/>
         <source>Unable to create directory &quot;%1&quot;: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Não foi possível criar o diretório &quot;%1&quot;: %2</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="138"/>
         <source>&quot;%1&quot; does not appear to be a valid Openbox theme directory</source>
-        <translation type="unfinished"></translation>
+        <translation>&quot;%1&quot; não parece ser um diretório válido de tema Openbox</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="148"/>
         <source>Unable to move to directory &quot;%1&quot;: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Não foi possível mover para o diretório &quot;%1&quot;: %2</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="185"/>
@@ -671,12 +683,15 @@ The following errors were reported:
 Please ensure that &quot;%2&quot; is writable and that the file is a valid Openbox theme archive.
 The following errors were reported:
 %3</source>
-        <translation type="unfinished"></translation>
+        <translation>Não foi possível extrair o arquivo &quot;%1&quot;.
+Por favor, certifique-se de que &quot;%2&quot; seja gravável e que o arquivo seja um arquivo de tema válido do Openbox.
+Os seguintes erros foram reportados:
+%3</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="53"/>
         <source>ObConf Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Erro ObConf</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="73"/>
@@ -689,25 +704,36 @@ Options:
   --archive THEME       Create a theme archive from the given theme directory
   --config-file FILE    Specify the path to the config file to use
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Sintaxe: obconf [opções] [ARQUIVO.obt]
+
+Opções:
+  --help                                            Mostra essa ajuda e sai
+  --version                                      Mostra a versão e sai
+  --install ARQUIVO.obt             Instala o arquivo de tema fornecido e o seleciona
+  --archive TEMA                          Cria um arquivo de tema a partir do diretório de tema fornecido
+  --config-file ARQUIVO             Especifica o caminho para o arquivo de configuração a ser usado
+</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="97"/>
         <source>--install requires an argument
 </source>
-        <translation type="unfinished"></translation>
+        <translation>--install requer um argumento
+</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="103"/>
         <source>--archive requires an argument
 </source>
-        <translation type="unfinished"></translation>
+        <translation>--install requer um argumento
+</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="109"/>
         <source>--config-file requires an argument
 </source>
-        <translation type="unfinished"></translation>
+        <translation>--config-file requer um argumento
+</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="225"/>
@@ -718,14 +744,16 @@ Options:
     <message>
         <location filename="../obconf-qt.cpp" line="226"/>
         <source>Failed to load an rc.xml. You have probably failed to install Openbox properly.</source>
-        <translation type="unfinished"></translation>
+        <translation>Falha para carregar rc.xml Você provavelmente não instalou o Openbox corretamente.</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="238"/>
         <source>Error while parsing the Openbox configuration file.  Your configuration file is not valid XML.
 
 Message: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Erro ao analisar o arquivo de configuração do Openbox. Seu arquivo de configuração não é um XML válido.
+
+Mensagem: %1</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="58"/>
@@ -739,7 +767,16 @@ This is free software, and you are welcome to redistribute it
 under certain conditions. See the file COPYING for details.
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Copyright (C) 2003-2008 Dana Jansens
+Copyright (C) 2003 Tim Riley
+Copyright (C) 2007 Javeed Shaikh
+Direitos autorais 2013 Hong Jen Yee (PCMan)
+
+Este programa vem com ABSOLUTAMENTE NENHUMA GARANTIA.
+Isto é software livre, e você está convidado a redistribuí-lo
+sob certas condições. Veja o arquivo COPYING para detalhes.
+
+</translation>
     </message>
 </context>
 </TS>
