@@ -739,7 +739,7 @@ Opções:
         <location filename="../obconf-qt.cpp" line="225"/>
         <location filename="../obconf-qt.cpp" line="240"/>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Erro</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="226"/>
