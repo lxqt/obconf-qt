@@ -227,78 +227,78 @@ D: נוכחות כוללת (על כל שולחנות העבודה)</translation>
     <message>
         <location filename="../obconf.ui" line="445"/>
         <source>Update the window contents while &amp;resizing</source>
-        <translation></translation>
+        <translation>עדכון תוכן החלון בזמן שינוי &amp;גודל</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="452"/>
         <source>Drag &amp;threshold distance:</source>
-        <translation></translation>
+        <translation>מרחק &amp;סף גרירה:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="472"/>
         <source>Amount of resistance against other &amp;windows:</source>
-        <translation></translation>
+        <translation>כמות ההתנגדות מול חלונות &amp;אחרים:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="492"/>
         <source>Amount of resistance against screen &amp;edges:</source>
-        <translation></translation>
+        <translation>כמות ההתנגדות מול &amp;קצוות המסך:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="512"/>
         <source>&amp;Amount of time to wait before switching:</source>
-        <translation></translation>
+        <translation>זמן ההמתנה בטרם ה&amp;חלפה:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="532"/>
         <source>&amp;Switch desktops when moving a window past the screen edge</source>
-        <translation></translation>
+        <translation>מ&amp;עבר בין שולחנות עבודה בעת העברת חלון מעבר לקצה המסך</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="542"/>
         <source>Information Dialog</source>
-        <translation></translation>
+        <translation>דו־שיח מידע</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="549"/>
         <location filename="../obconf.ui" line="578"/>
         <source>Centered</source>
-        <translation></translation>
+        <translation>ממורכז</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="554"/>
         <source>From left edge</source>
-        <translation></translation>
+        <translation>מהקצה השמאלי</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="559"/>
         <source>From right edge</source>
-        <translation></translation>
+        <translation>מהקצה הימני</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="567"/>
         <source>Fixed &amp;y position:</source>
-        <translation></translation>
+        <translation>מיקום y &amp;קבוע:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="583"/>
         <source>From top edge</source>
-        <translation></translation>
+        <translation>מהקצה העליון</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="588"/>
         <source>From bottom edge</source>
-        <translation></translation>
+        <translation>מהקצה התחתון</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="596"/>
         <source>Information dialog&apos;s &amp;position:</source>
-        <translation></translation>
+        <translation>מיקום &amp;דו־שיח מידע:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="606"/>
         <source>Fixed &amp;x position:</source>
-        <translation></translation>
+        <translation>מיקום x ק&amp;בוע:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="616"/>
