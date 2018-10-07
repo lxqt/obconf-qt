@@ -85,7 +85,7 @@
     <message>
         <location filename="../obconf.ui" line="542"/>
         <source>Information Dialog</source>
-        <translation type="unfinished">Diálogo de informação</translation>
+        <translation>Caixas de Dialogo</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="701"/>
@@ -341,7 +341,7 @@ D: onipresente (todas as áreas de trabalho)</translation>
     <message>
         <location filename="../obconf.ui" line="1162"/>
         <source>Allow &amp;windows to be placed within the dock&apos;s area</source>
-        <translation>Permitir que janelas sejam colocadas dentro da área de dock.</translation>
+        <translation>Permitir que janelas sejam colocadas dentro da área de dock</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1169"/>
@@ -481,7 +481,7 @@ D: onipresente (todas as áreas de trabalho)</translation>
     <message>
         <location filename="../obconf.ui" line="399"/>
         <source>&amp;Fixed monitor:</source>
-        <translation>Monitor fixo</translation>
+        <translation>Monitor fixo:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="445"/>
@@ -541,7 +541,7 @@ D: onipresente (todas as áreas de trabalho)</translation>
     <message>
         <location filename="../obconf.ui" line="742"/>
         <source>Move focus under the mouse when &amp;switching desktops</source>
-        <translation>Muda o foco embaixo do cursor ao alternar entre ás áreas de trabalho.</translation>
+        <translation>Muda o foco embaixo do cursor ao alternar entre ás áreas de trabalho</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="749"/>
@@ -589,7 +589,7 @@ D: onipresente (todas as áreas de trabalho)</translation>
     <message>
         <location filename="../mouse.cpp" line="57"/>
         <source>Custom actions</source>
-        <translation>Personalizar ações:</translation>
+        <translation>Personalizar ações</translation>
     </message>
     <message>
         <location filename="../desktops.cpp" line="65"/>
