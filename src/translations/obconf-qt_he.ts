@@ -303,62 +303,62 @@ D: נוכחות כוללת (על כל שולחנות העבודה)</translation>
     <message>
         <location filename="../obconf.ui" line="616"/>
         <source>Show &amp;information dialog:</source>
-        <translation></translation>
+        <translation>הצגת תיבת &amp;דו־שיח מידע:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="641"/>
         <source>When resizing terminal windows</source>
-        <translation></translation>
+        <translation>בעת שינוי גודל חלונות מסוף</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="646"/>
         <source>Always</source>
-        <translation></translation>
+        <translation>תמיד</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="651"/>
         <source>Never</source>
-        <translation></translation>
+        <translation>לעולם לא</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="660"/>
         <source>Centered on the window</source>
-        <translation></translation>
+        <translation>ממורכז בחלון</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="665"/>
         <source>Above the window</source>
-        <translation></translation>
+        <translation>מעל לחלון</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="670"/>
         <source>Fixed position on screen</source>
-        <translation></translation>
+        <translation>במיקום קבוע על המסך</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="701"/>
         <source>Focusing Windows</source>
-        <translation></translation>
+        <translation>מיקוד חלונות</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="710"/>
         <source>Focus windows when the mouse pointer moves over them</source>
-        <translation></translation>
+        <translation>להתמקד על חלונות כשסמן העכבר מרחף מעליהם</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="722"/>
         <source>&amp;Delay before focusing and raising windows:</source>
-        <translation></translation>
+        <translation>ה&amp;שהיה בטרם התמקדות והגבהת חלונות:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="742"/>
         <source>Move focus under the mouse when &amp;switching desktops</source>
-        <translation></translation>
+        <translation>העברת המיקום מתחת לעכבר בעת מ&amp;עבר בין שולחנות עבודה</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="749"/>
         <source>Move focus &amp;under the mouse when the mouse is not moving</source>
-        <translation></translation>
+        <translation>העברת המיקוד &amp;תחת העכבר כאשר העכבר לא זז</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="756"/>
