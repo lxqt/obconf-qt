@@ -65,7 +65,7 @@
     <message>
         <location filename="../obconf.ui" line="78"/>
         <source>Dock</source>
-        <translation>Barra de inicialização rápida</translation>
+        <translation>Dock</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="137"/>
@@ -281,7 +281,7 @@ D: onipresente (todas as áreas de trabalho)</translation>
     <message>
         <location filename="../obconf.ui" line="1053"/>
         <source>&amp;Position:</source>
-        <translation>Posição:</translation>
+        <translation>&amp;Posição:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1067"/>
@@ -481,97 +481,97 @@ D: onipresente (todas as áreas de trabalho)</translation>
     <message>
         <location filename="../obconf.ui" line="399"/>
         <source>&amp;Fixed monitor:</source>
-        <translation>Monitor fixo:</translation>
+        <translation>Monitor &amp;fixo:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="445"/>
         <source>Update the window contents while &amp;resizing</source>
-        <translation>Atualize o conteúdo da janela enquanto redimensiona</translation>
+        <translation>Atualize o conteúdo da janela enquanto &amp;redimensiona</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="452"/>
         <source>Drag &amp;threshold distance:</source>
-        <translation>Arrastar distância limite:</translation>
+        <translation>Arras&amp;tar distância limite:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="472"/>
         <source>Amount of resistance against other &amp;windows:</source>
-        <translation>Resistência contra outras janelas:</translation>
+        <translation>Resistência contra outras janelas(&amp;w):</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="492"/>
         <source>Amount of resistance against screen &amp;edges:</source>
-        <translation>Resistência contra as bordas da tela:</translation>
+        <translation>R&amp;esistência contra as bordas da tela:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="512"/>
         <source>&amp;Amount of time to wait before switching:</source>
-        <translation>Tempo de espera antes de mudar:</translation>
+        <translation>Tempo de esper&amp;a antes de mudar:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="532"/>
         <source>&amp;Switch desktops when moving a window past the screen edge</source>
-        <translation>Alternar áreas de trabalho ao mover uma janela além da borda da tela</translation>
+        <translation>Alternar área&amp;s de trabalho ao mover uma janela além da borda da tela</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="567"/>
         <source>Fixed &amp;y position:</source>
-        <translation>Posição y:</translation>
+        <translation>Posição &amp;y:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="596"/>
         <source>Information dialog&apos;s &amp;position:</source>
-        <translation>Posição do diálogo de informações:</translation>
+        <translation>&amp;Posição do diálogo de informações:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="606"/>
         <source>Fixed &amp;x position:</source>
-        <translation>Posição x:</translation>
+        <translation>Posição &amp;x:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="616"/>
         <source>Show &amp;information dialog:</source>
-        <translation>Exibir diálogo de informação:</translation>
+        <translation>Exibir diálogo de &amp;informação:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="722"/>
         <source>&amp;Delay before focusing and raising windows:</source>
-        <translation>Atraso antes de focar e levantar janelas:</translation>
+        <translation>Atraso antes &amp;de focar e levantar janelas:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="742"/>
         <source>Move focus under the mouse when &amp;switching desktops</source>
-        <translation>Muda o foco embaixo do cursor ao alternar entre ás áreas de trabalho</translation>
+        <translation>Muda o foco embaixo do cur&amp;sor ao alternar entre ás áreas de trabalho</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="749"/>
         <source>Move focus &amp;under the mouse when the mouse is not moving</source>
-        <translation>Muda o foco embaixo do cursor quando o mesmo não estiver se movendo</translation>
+        <translation>M&amp;uda o foco embaixo do cursor quando o mesmo não estiver se movendo</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="756"/>
         <source>&amp;Raise windows when the mouse pointer moves over them</source>
-        <translation>Sobe janelas quando o ponteiro do mouse se move sobre elas</translation>
+        <translation>Sobe janelas quando o pontei&amp;ro do mouse se move sobre elas</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="774"/>
         <source>Double click on the &amp;titlebar:</source>
-        <translation>Duplo-clique na barra de título:</translation>
+        <translation>Duplo-clique na barra de &amp;título:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="798"/>
         <source>Double click ti&amp;me:</source>
-        <translation>Tempo para duplo-clique:</translation>
+        <translation>Te&amp;mpo para duplo-clique:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="838"/>
         <source>&amp;Show a notification when switching desktops</source>
-        <translation>Exibir uma notificação quando alternar entre áreas de trabalho</translation>
+        <translation>Exibir uma notificação quando alternar entre área&amp;s de trabalho</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="845"/>
         <source>&amp;Amount of time to show the notification for:</source>
-        <translation>Tempo para mostrar a notificação:</translation>
+        <translation>Tempo p&amp;ara mostrar a notificação:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="868"/>
@@ -589,7 +589,7 @@ D: onipresente (todas as áreas de trabalho)</translation>
     <message>
         <location filename="../mouse.cpp" line="57"/>
         <source>Custom actions</source>
-        <translation>Personalizar ações</translation>
+        <translation>Ações Personalizadas</translation>
     </message>
     <message>
         <location filename="../desktops.cpp" line="65"/>
@@ -640,12 +640,12 @@ O programa é baseado no ObConf, desenvolvido pelos seguintes desenvolvedores:
     <message>
         <location filename="../archive.cpp" line="26"/>
         <source>&quot;%1&quot; was installed to %1</source>
-        <translation>&quot;% 1&quot; foi instalado em% 1</translation>
+        <translation>&quot;%1&quot; foi instalado em %1</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="53"/>
         <source>&quot;%1&quot; was successfully created</source>
-        <translation>&quot;% 1&quot; foi criado com sucesso</translation>
+        <translation>&quot;%1&quot; foi criado com sucesso</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="89"/>
