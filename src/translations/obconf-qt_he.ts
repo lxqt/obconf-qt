@@ -521,27 +521,27 @@ D: נוכחות כוללת (על כל שולחנות העבודה)</translation>
     <message>
         <location filename="../obconf.ui" line="1162"/>
         <source>Allow &amp;windows to be placed within the dock&apos;s area</source>
-        <translation></translation>
+        <translation>ל&amp;אפשר את הצבת החלונות בתוך אזור המעגן</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1169"/>
         <source>&amp;Orientation: </source>
-        <translation></translation>
+        <translation>&amp;כיווניות: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1183"/>
         <source>Vertical</source>
-        <translation></translation>
+        <translation>אנכי</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1188"/>
         <source>Horizontal</source>
-        <translation></translation>
+        <translation>אופקי</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1199"/>
         <source>Stacking</source>
-        <translation></translation>
+        <translation>ערימה</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1205"/>
