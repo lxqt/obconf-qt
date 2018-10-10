@@ -363,57 +363,57 @@ D: נוכחות כוללת (על כל שולחנות העבודה)</translation>
     <message>
         <location filename="../obconf.ui" line="756"/>
         <source>&amp;Raise windows when the mouse pointer moves over them</source>
-        <translation></translation>
+        <translation>ה&amp;גבהת החלונות כאשר סמן העכבר מרחף מעליהם</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="768"/>
         <source>Titlebar</source>
-        <translation></translation>
+        <translation>פס כותרת</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="774"/>
         <source>Double click on the &amp;titlebar:</source>
-        <translation></translation>
+        <translation>לחיצה &amp;כפולה על פס הכותרת:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="785"/>
         <source>Maximizes the window</source>
-        <translation></translation>
+        <translation>מגדילה את החלון</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="790"/>
         <source>Shades the window</source>
-        <translation></translation>
+        <translation>מצלילה את החלון</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="798"/>
         <source>Double click ti&amp;me:</source>
-        <translation></translation>
+        <translation>&amp;זמן ללחיצה כפולה:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="838"/>
         <source>&amp;Show a notification when switching desktops</source>
-        <translation></translation>
+        <translation>ה&amp;צגת התראה בעת מעבר בין שולחנות עבודה</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="845"/>
         <source>&amp;Amount of time to show the notification for:</source>
-        <translation></translation>
+        <translation>מ&amp;שך הזמן להצגת ההתראה:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="868"/>
         <source>&amp;Number of desktops: </source>
-        <translation></translation>
+        <translation>מספר שול&amp;חנות העבודה: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="891"/>
         <source>&amp;Desktop names:</source>
-        <translation></translation>
+        <translation>ש&amp;מות שולחנות העבודה:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="905"/>
         <source>Desktop Margins</source>
-        <translation></translation>
+        <translation>גבולות שולחן העבודה</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="911"/>
@@ -423,7 +423,7 @@ D: נוכחות כוללת (על כל שולחנות העבודה)</translation>
     <message>
         <location filename="../obconf.ui" line="921"/>
         <source>Left:</source>
-        <translation></translation>
+        <translation>שמאל:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="935"/>
@@ -436,17 +436,17 @@ D: נוכחות כוללת (על כל שולחנות העבודה)</translation>
     <message>
         <location filename="../obconf.ui" line="942"/>
         <source>Top:</source>
-        <translation></translation>
+        <translation>למעלה:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="963"/>
         <source>Right:</source>
-        <translation></translation>
+        <translation>ימין:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="984"/>
         <source>Bottom:</source>
-        <translation></translation>
+        <translation>למטה:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1025"/>
@@ -456,12 +456,12 @@ D: נוכחות כוללת (על כל שולחנות העבודה)</translation>
     <message>
         <location filename="../obconf.ui" line="1041"/>
         <source>Position</source>
-        <translation></translation>
+        <translation>מיקום</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1053"/>
         <source>&amp;Position:</source>
-        <translation></translation>
+        <translation>&amp;מיקום:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1067"/>
