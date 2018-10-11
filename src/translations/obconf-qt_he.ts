@@ -466,52 +466,52 @@ D: נוכחות כוללת (על כל שולחנות העבודה)</translation>
     <message>
         <location filename="../obconf.ui" line="1067"/>
         <source>Top Left</source>
-        <translation></translation>
+        <translation>שמאל למעלה</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1072"/>
         <source>Top</source>
-        <translation></translation>
+        <translation>למעלה</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1077"/>
         <source>Top Right</source>
-        <translation></translation>
+        <translation>ימין למעלה</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1082"/>
         <source>Left</source>
-        <translation></translation>
+        <translation>שמאל</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1087"/>
         <source>Right</source>
-        <translation></translation>
+        <translation>ימין</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1092"/>
         <source>Bottom Left</source>
-        <translation></translation>
+        <translation>שמאל למטה</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1097"/>
         <source>Bottom</source>
-        <translation></translation>
+        <translation>למטה</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1102"/>
         <source>Bottom Right</source>
-        <translation></translation>
+        <translation>ימין למטה</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1107"/>
         <source>Floating</source>
-        <translation></translation>
+        <translation>צף</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1121"/>
         <source>&amp;Floating position:</source>
-        <translation></translation>
+        <translation>מיקום &amp;ציפה:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1146"/>
@@ -546,12 +546,12 @@ D: נוכחות כוללת (על כל שולחנות העבודה)</translation>
     <message>
         <location filename="../obconf.ui" line="1205"/>
         <source>Keep dock &amp;above other windows</source>
-        <translation></translation>
+        <translation>לשמור על המעגן מעל חלונות &amp;אחרים</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1212"/>
         <source>A&amp;llow dock to be both above and below windows</source>
-        <translation></translation>
+        <translation>לא&amp;פשר למעגן להיות מעל ומתחת לחלונות</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1219"/>
