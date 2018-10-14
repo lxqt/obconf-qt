@@ -431,7 +431,7 @@ D: נוכחות כוללת (על כל שולחנות העבודה)</translation>
         <location filename="../obconf.ui" line="977"/>
         <location filename="../obconf.ui" line="998"/>
         <source>px</source>
-        <translation></translation>
+        <translation>פיקסלים</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="942"/>
@@ -556,27 +556,27 @@ D: נוכחות כוללת (על כל שולחנות העבודה)</translation>
     <message>
         <location filename="../obconf.ui" line="1219"/>
         <source>Keep dock &amp;below other windows</source>
-        <translation></translation>
+        <translation>לה&amp;סתיר את המעגן מאחורי חלונות אחרים</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1229"/>
         <source>Hiding</source>
-        <translation></translation>
+        <translation>הסתרה</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1235"/>
         <source>&amp;Delay before hiding:</source>
-        <translation></translation>
+        <translation>ה&amp;שהיה לפני הסתרה:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1245"/>
         <source>Delay before &amp;showing:</source>
-        <translation></translation>
+        <translation>השהיה לפני ה&amp;צגה:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1275"/>
         <source>&amp;Hide off screen</source>
-        <translation></translation>
+        <translation>הסתרה מ&amp;חוץ למסך</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1306"/>
@@ -640,12 +640,12 @@ The program is based on ObConf developed by the following developers.
     <message>
         <location filename="../archive.cpp" line="26"/>
         <source>&quot;%1&quot; was installed to %1</source>
-        <translation></translation>
+        <translation>„%1” הותקן אל %1</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="53"/>
         <source>&quot;%1&quot; was successfully created</source>
-        <translation></translation>
+        <translation>„%1” נוצר בהצלחה</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="89"/>
@@ -658,12 +658,12 @@ The following errors were reported:
         <location filename="../archive.cpp" line="95"/>
         <location filename="../archive.cpp" line="178"/>
         <source>Unable to run the &quot;tar&quot; command: %1</source>
-        <translation></translation>
+        <translation>לא ניתן להפעיל את הפקודה „tar”:‏ %1</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="115"/>
         <source>Unable to create directory &quot;%1&quot;: %2</source>
-        <translation></translation>
+        <translation>לא ניתן ליצור את התיקייה „%1”: %2</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="138"/>
@@ -673,7 +673,7 @@ The following errors were reported:
     <message>
         <location filename="../archive.cpp" line="148"/>
         <source>Unable to move to directory &quot;%1&quot;: %2</source>
-        <translation></translation>
+        <translation>לא ניתן להעביר לתיקייה „%1”:‏ %2</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="185"/>
