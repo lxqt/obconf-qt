@@ -1,6 +1,8 @@
 project(obconf-qt)
-# newer cmake is required for CMAKE_AUTOMOC Qt support
-cmake_minimum_required(VERSION 2.8.12 FATAL_ERROR)
+# CMP0000 - A minimum required CMake version must be specified.
+# Note that the command invocation must appear in the CMakeLists.txt
+# file itself; a call in an included file is not sufficient.
+cmake_minimum_required(VERSION 3.6.2 FATAL_ERROR)
 
 find_program(SED_PROGRAM sed)
 
@@ -45,14 +47,9 @@ pkg_check_modules(OPENBOX REQUIRED
   obt-3.5
 )
 
-if(NOT CMAKE_BUILD_TYPE)
-    set(CMAKE_BUILD_TYPE Release)
-endif()
-
 include(LXQtPreventInSourceBuilds)
 include(LXQtTranslateTs)
 include(LXQtTranslateDesktop)
-include(LXQtCompilerSettings)
 include(LXQtCompilerSettings NO_POLICY_SCOPE)
 
 # add src subdirectory
