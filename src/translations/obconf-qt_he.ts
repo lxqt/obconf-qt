@@ -742,7 +742,7 @@ Options:
     <message>
         <location filename="../obconf-qt.cpp" line="226"/>
         <source>Failed to load an rc.xml. You have probably failed to install Openbox properly.</source>
-        <translation></translation>
+        <translation>טעינת הקובץ rc.xml נכשלה. כנראה שלא התקנת את Openbox כראוי.</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="238"/>
