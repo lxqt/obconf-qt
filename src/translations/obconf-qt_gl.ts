@@ -75,7 +75,7 @@
     <message>
         <location filename="../obconf.ui" line="143"/>
         <source>Button order:</source>
-        <translation>Orde dos botóns</translation>
+        <translation>Orde dos botóns:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="439"/>
@@ -281,7 +281,7 @@ D: Omnipresente (en todos os escritorios)</translation>
     <message>
         <location filename="../obconf.ui" line="1053"/>
         <source>&amp;Position:</source>
-        <translation>&amp;Posición</translation>
+        <translation>&amp;Posición:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1067"/>
@@ -471,17 +471,17 @@ D: Omnipresente (en todos os escritorios)</translation>
     <message>
         <location filename="../obconf.ui" line="318"/>
         <source>Prefer to place new windows &amp;on:</source>
-        <translation>&amp;Centrar as novas xanelas cando se coloquen</translation>
+        <translation>É preferíbel poñer as &amp;novas xanelas en:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="370"/>
         <source>Primary &amp;monitor:</source>
-        <translation>Monitor &amp;primario</translation>
+        <translation>Monitor &amp;primario:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="399"/>
         <source>&amp;Fixed monitor:</source>
-        <translation>Monitor &amp;fixo</translation>
+        <translation>Monitor &amp;fixo:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="445"/>
@@ -551,7 +551,7 @@ D: Omnipresente (en todos os escritorios)</translation>
     <message>
         <location filename="../obconf.ui" line="756"/>
         <source>&amp;Raise windows when the mouse pointer moves over them</source>
-        <translation>&amp;Elevar as xanelas cando o rato pase sobre elas </translation>
+        <translation>&amp;Elevar as xanelas cando o rato pase sobre elas</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="774"/>
