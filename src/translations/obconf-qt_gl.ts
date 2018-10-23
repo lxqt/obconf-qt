@@ -271,132 +271,132 @@ D: Omnipresente (en todos os escritorios)</translation>
     <message>
         <location filename="../obconf.ui" line="1025"/>
         <source>The dock is a special container for &quot;dockapps&quot;, or dock applications.  It is not visible on screen until a dockapp is run.  Dockapps can be used to show things like a clock, or to provide you with a system tray.</source>
-        <translation type="unfinished"></translation>
+        <translation>A doca é un contedor especial para «dockapps», ou aplicacións ancorábeis.  Non se ve na pantalla ata que se executa unha «dockapp».  As «dockapps» poden empregarse para amosar cousas coma un reloxo, ou para fornecerlle unha área de notificación ao sistema.</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1041"/>
         <source>Position</source>
-        <translation type="unfinished"></translation>
+        <translation>Posición</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1053"/>
         <source>&amp;Position:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Posición</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1067"/>
         <source>Top Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Arriba á esquerda</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1072"/>
         <source>Top</source>
-        <translation type="unfinished"></translation>
+        <translation>Arriba</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1077"/>
         <source>Top Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Arriba á dereita</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1082"/>
         <source>Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Esquerda</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1087"/>
         <source>Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Dereita</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1092"/>
         <source>Bottom Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Abaixo á esquerda</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1097"/>
         <source>Bottom</source>
-        <translation type="unfinished"></translation>
+        <translation>Abaixo</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1102"/>
         <source>Bottom Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Abaixo á dereita</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1107"/>
         <source>Floating</source>
-        <translation type="unfinished"></translation>
+        <translation>Flotante</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1121"/>
         <source>&amp;Floating position:</source>
-        <translation type="unfinished"></translation>
+        <translation>Posición &amp;flotante:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1146"/>
         <source>x</source>
-        <translation type="unfinished"></translation>
+        <translation>x</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1162"/>
         <source>Allow &amp;windows to be placed within the dock&apos;s area</source>
-        <translation type="unfinished"></translation>
+        <translation>Permitir que as &amp;xanelas sexan colocadas na área da doca</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1169"/>
         <source>&amp;Orientation: </source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Orientación: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1183"/>
         <source>Vertical</source>
-        <translation type="unfinished"></translation>
+        <translation>Vertical</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1188"/>
         <source>Horizontal</source>
-        <translation type="unfinished"></translation>
+        <translation>Horizontal</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1199"/>
         <source>Stacking</source>
-        <translation type="unfinished"></translation>
+        <translation>Amoreado</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1205"/>
         <source>Keep dock &amp;above other windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Manter a &amp;doca sobre as outras xanelas</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1212"/>
         <source>A&amp;llow dock to be both above and below windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Per&amp;mitir que a doca estea tanto enriba coma embaixo das xanelas</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1219"/>
         <source>Keep dock &amp;below other windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Manter a doca &amp;baixo as outras xanelas</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1229"/>
         <source>Hiding</source>
-        <translation type="unfinished"></translation>
+        <translation>Agachamento</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1235"/>
         <source>&amp;Delay before hiding:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Demora antes de agachar:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1245"/>
         <source>Delay before &amp;showing:</source>
-        <translation type="unfinished"></translation>
+        <translation>Demora antes de amo&amp;sar:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1275"/>
         <source>&amp;Hide off screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Agac&amp;har a pantalla</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1306"/>
@@ -616,7 +616,17 @@ The program is based on ObConf developed by the following developers.
 * Dana Jansens &lt;danakj@orodu.net&gt;
 * Tim Riley &lt;tr@slackzone.org&gt;
 * Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Un administrador de preferencias para Openbox
+
+Copyright (c) 2014-2015
+
+Autores:
+* Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;
+
+Este programa está basado no ObConf, desenvolvido polos seguintes desenvolvedores.
+* Dana Jansens &lt;danakj@orodu.net&gt;
+* Tim Riley &lt;tr@slackzone.org&gt;
+* Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</translation>
     </message>
     <message>
         <location filename="../theme.cpp" line="149"/>
