@@ -721,7 +721,7 @@ Options:
         <location filename="../obconf-qt.cpp" line="225"/>
         <location filename="../obconf-qt.cpp" line="240"/>
         <source>Error</source>
-        <translation></translation>
+        <translation>Feil</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="226"/>
