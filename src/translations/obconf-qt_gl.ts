@@ -506,7 +506,7 @@ D: Omnipresente (en todos os escritorios)</translation>
     <message>
         <location filename="../obconf.ui" line="512"/>
         <source>&amp;Amount of time to wait before switching:</source>
-        <translation>Canto &amp;tempo que debe transcorrer antes de cambiar:</translation>
+        <translation>Cantidade de &amp;tempo que debe transcorrer antes de cambiar:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="532"/>
@@ -536,7 +536,7 @@ D: Omnipresente (en todos os escritorios)</translation>
     <message>
         <location filename="../obconf.ui" line="722"/>
         <source>&amp;Delay before focusing and raising windows:</source>
-        <translation>&amp;Atraso antes de enfocar e elevar as xanelas:</translation>
+        <translation>&amp;Demora antes de enfocar e elevar as xanelas:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="742"/>
@@ -546,7 +546,7 @@ D: Omnipresente (en todos os escritorios)</translation>
     <message>
         <location filename="../obconf.ui" line="749"/>
         <source>Move focus &amp;under the mouse when the mouse is not moving</source>
-        <translation>Mover o foco &amp;baixo o rato cando se move o ratpo</translation>
+        <translation>Mover o foco &amp;baixo o rato cando se move o rato</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="756"/>
@@ -571,7 +571,7 @@ D: Omnipresente (en todos os escritorios)</translation>
     <message>
         <location filename="../obconf.ui" line="845"/>
         <source>&amp;Amount of time to show the notification for:</source>
-        <translation>&amp;Tempo no que amosar o aviso para:</translation>
+        <translation>Cantidade de &amp;tempo durante o que amosar o aviso para:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="868"/>
@@ -623,7 +623,7 @@ Copyright (c) 2014-2015
 Autores:
 * Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;
 
-Este programa está basado no ObConf, desenvolvido polos seguintes desenvolvedores.
+Este programa está baseado no ObConf, desenvolvido por:
 * Dana Jansens &lt;danakj@orodu.net&gt;
 * Tim Riley &lt;tr@slackzone.org&gt;
 * Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</translation>
@@ -744,7 +744,7 @@ Opcións:
     <message>
         <location filename="../obconf-qt.cpp" line="226"/>
         <source>Failed to load an rc.xml. You have probably failed to install Openbox properly.</source>
-        <translation>Non foi posíbel cargar un rc.xml. Probabelmente non foi quen de instalar o  Openbox correctamente.</translation>
+        <translation>Non foi posíbel cargar un rc.xml. Probabelmente non conseguiu instalar o Openbox correctamente.</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="238"/>
