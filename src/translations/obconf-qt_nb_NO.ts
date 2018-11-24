@@ -6,12 +6,12 @@
     <message>
         <location filename="../fontbutton.cpp" line="46"/>
         <source>Bold</source>
-        <translation></translation>
+        <translation>Fet</translation>
     </message>
     <message>
         <location filename="../fontbutton.cpp" line="50"/>
         <source>Italic</source>
-        <translation></translation>
+        <translation>Kursiv</translation>
     </message>
 </context>
 <context>
@@ -575,7 +575,7 @@ D: Omnipresent (On all desktops)</source>
     <message>
         <location filename="../obconf.ui" line="1306"/>
         <source>About</source>
-        <translation></translation>
+        <translation>Om</translation>
     </message>
 </context>
 <context>
