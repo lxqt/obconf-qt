@@ -132,7 +132,7 @@ D: Su tutti desktop</translation>
     <message>
         <location filename="../obconf.ui" line="261"/>
         <source>&amp;Menu Item: </source>
-        <translation>&amp;Voce nel menu: </translation>
+        <translation>&amp;Voce nel menu:· </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="271"/>
