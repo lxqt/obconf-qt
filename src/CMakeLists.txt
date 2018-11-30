@@ -1,13 +1,8 @@
 # set visibility to hidden to hide symbols, unlesss they're exporteted manually in the code
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -DQT_NO_KEYWORDS")
 
-if(USE_QT4)
-    set(QTX_INCLUDE_DIRS ${QT_QTCORE_INCLUDE_DIR} ${QT_QTGUI_INCLUDE_DIR} ${QT_QTDBUS_DIR})
-    set(QTX_LIBRARIES ${QT_QTCORE_LIBRARY} ${QT_QTGUI_LIBRARY} ${QT_QTDBUS_LIBRARY})
-else()
-    set(QTX_INCLUDE_DIRS "")
-    set(QTX_LIBRARIES Qt5::Widgets Qt5::X11Extras)
-endif()
+set(QTX_INCLUDE_DIRS "")
+set(QTX_LIBRARIES Qt5::Widgets Qt5::X11Extras)
 
 include_directories(
   ${QTX_INCLUDE_DIRS}
@@ -36,11 +31,7 @@ set(obconf-qt_UIS
   obconf.ui
 )
 
-if(USE_QT4)
-  qt4_wrap_ui(obconf-qt_UI_H ${obconf-qt_UIS})
-else()
-  qt5_wrap_ui(obconf-qt_UI_H ${obconf-qt_UIS})
-endif()
+qt5_wrap_ui(obconf-qt_UI_H ${obconf-qt_UIS})
 
 set_property(SOURCE ${obconf-qt_UI_H} PROPERTY SKIP_AUTOMOC ON)
 
@@ -60,8 +51,6 @@ add_custom_command(
 # add translation for obconf-qt
 option (UPDATE_TRANSLATIONS "Update source translation translations/*.ts files" OFF)
 lxqt_translate_ts(QM_FILES
-  USE_QT5
-    ${USE_QT5}
   UPDATE_TRANSLATIONS
     ${UPDATE_TRANSLATIONS}
   SOURCES
@@ -93,10 +82,6 @@ add_definitions(
   -DPIXMAPS_DIR="${CMAKE_INSTALL_FULL_DATAROOTDIR}/pixmaps"
   -DTHEME_DIR="${CMAKE_INSTALL_FULL_DATAROOTDIR}/openbox/themes"
 )
-
-if (USE_QT4)
-    add_definitions(-DUSE_QT4)
-endif()
 
 target_link_libraries(obconf-qt
   ${QTX_LIBRARIES}
