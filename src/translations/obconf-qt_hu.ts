@@ -588,7 +588,6 @@ D: Állandósít (Minden asztalon van)</translation>
     <name>Obconf::MainDialog</name>
     <message>
         <location filename="../theme.cpp" line="149"/>
-        <location filename="../theme.cpp" line="159"/>
         <source>Choose an Openbox theme</source>
         <translation>Válassz Openbox témát</translation>
     </message>
@@ -739,18 +738,18 @@ Options:
         <translation></translation>
     </message>
     <message>
-        <location filename="../obconf-qt.cpp" line="225"/>
-        <location filename="../obconf-qt.cpp" line="240"/>
+        <location filename="../obconf-qt.cpp" line="223"/>
+        <location filename="../obconf-qt.cpp" line="238"/>
         <source>Error</source>
         <translation>Hiba</translation>
     </message>
     <message>
-        <location filename="../obconf-qt.cpp" line="226"/>
+        <location filename="../obconf-qt.cpp" line="224"/>
         <source>Failed to load an rc.xml. You have probably failed to install Openbox properly.</source>
         <translation>Nem mtöltgető be rc.xml fájl. Lehet, hogy nincs rendesen telepítve az Openbox.</translation>
     </message>
     <message>
-        <location filename="../obconf-qt.cpp" line="238"/>
+        <location filename="../obconf-qt.cpp" line="236"/>
         <source>Error while parsing the Openbox configuration file.  Your configuration file is not valid XML.
 
 Message: %1</source>

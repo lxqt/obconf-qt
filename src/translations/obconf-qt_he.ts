@@ -588,7 +588,6 @@ D: נוכחות כוללת (על כל שולחנות העבודה)</translation>
     <name>Obconf::MainDialog</name>
     <message>
         <location filename="../theme.cpp" line="149"/>
-        <location filename="../theme.cpp" line="159"/>
         <source>Choose an Openbox theme</source>
         <translation>נא לבחור ערכת עיצוב של Openbox</translation>
     </message>
@@ -734,18 +733,18 @@ Options:
         <translation></translation>
     </message>
     <message>
-        <location filename="../obconf-qt.cpp" line="225"/>
-        <location filename="../obconf-qt.cpp" line="240"/>
+        <location filename="../obconf-qt.cpp" line="223"/>
+        <location filename="../obconf-qt.cpp" line="238"/>
         <source>Error</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../obconf-qt.cpp" line="226"/>
+        <location filename="../obconf-qt.cpp" line="224"/>
         <source>Failed to load an rc.xml. You have probably failed to install Openbox properly.</source>
         <translation>טעינת הקובץ rc.xml נכשלה. כנראה שלא התקנת את Openbox כראוי.</translation>
     </message>
     <message>
-        <location filename="../obconf-qt.cpp" line="238"/>
+        <location filename="../obconf-qt.cpp" line="236"/>
         <source>Error while parsing the Openbox configuration file.  Your configuration file is not valid XML.
 
 Message: %1</source>
