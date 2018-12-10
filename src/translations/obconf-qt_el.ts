@@ -588,7 +588,6 @@ D: Σε όλες τις επιφάνειες εργασίας</translation>
     <name>Obconf::MainDialog</name>
     <message>
         <location filename="../theme.cpp" line="149"/>
-        <location filename="../theme.cpp" line="159"/>
         <source>Choose an Openbox theme</source>
         <translation>Επιλογή ενός θέματος Openbox</translation>
     </message>
@@ -756,18 +755,18 @@ Options:
         <translation>Η επιλογή «--config» απαιτεί ένα όρισμα</translation>
     </message>
     <message>
-        <location filename="../obconf-qt.cpp" line="225"/>
-        <location filename="../obconf-qt.cpp" line="240"/>
+        <location filename="../obconf-qt.cpp" line="223"/>
+        <location filename="../obconf-qt.cpp" line="238"/>
         <source>Error</source>
         <translation>Σφάλμα</translation>
     </message>
     <message>
-        <location filename="../obconf-qt.cpp" line="226"/>
+        <location filename="../obconf-qt.cpp" line="224"/>
         <source>Failed to load an rc.xml. You have probably failed to install Openbox properly.</source>
         <translation>Αποτυχία φόρτωσης ενός rc.xml. Ίσως το Openbox δεν έχει εγκατασταθεί σωστά.</translation>
     </message>
     <message>
-        <location filename="../obconf-qt.cpp" line="238"/>
+        <location filename="../obconf-qt.cpp" line="236"/>
         <source>Error while parsing the Openbox configuration file.  Your configuration file is not valid XML.
 
 Message: %1</source>
