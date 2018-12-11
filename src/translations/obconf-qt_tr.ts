@@ -197,7 +197,7 @@ D: Hazır (Tüm masaüstlerinde)</translation>
     <message>
         <location filename="../obconf.ui" line="370"/>
         <source>Primary &amp;monitor:</source>
-        <translation>Birincil &amp;ekran</translation>
+        <translation>Birincil &amp;ekran:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="381"/>
@@ -217,98 +217,98 @@ D: Hazır (Tüm masaüstlerinde)</translation>
     <message>
         <location filename="../obconf.ui" line="399"/>
         <source>&amp;Fixed monitor:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Sabit ekran:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="439"/>
         <source>Moving and Resizing Windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Pencere Taşıma ve Boyutlandırma</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="445"/>
         <source>Update the window contents while &amp;resizing</source>
-        <translation type="unfinished"></translation>
+        <translation>Pence&amp;reyi yeniden boyutlandırırken içeriğini güncelle</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="452"/>
         <source>Drag &amp;threshold distance:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Eşik mesafesini sürükle:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="472"/>
         <source>Amount of resistance against other &amp;windows:</source>
-        <translation type="unfinished"></translation>
+        <translation>Diğer &amp;pencerelere karşı direnç miktarı:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="492"/>
         <source>Amount of resistance against screen &amp;edges:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ekran köş&amp;elerine karşı direnç miktarı:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="512"/>
         <source>&amp;Amount of time to wait before switching:</source>
-        <translation type="unfinished"></translation>
+        <translation>Değiştirme öncesinde bekleme süresi mikt&amp;arı:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="532"/>
         <source>&amp;Switch desktops when moving a window past the screen edge</source>
-        <translation type="unfinished"></translation>
+        <translation>Bir pencere taşınırken ekran kenarından geçerken ma&amp;saüstünü değiştir</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="542"/>
         <source>Information Dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Bilgi Penceresi</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="549"/>
         <location filename="../obconf.ui" line="578"/>
         <source>Centered</source>
-        <translation type="unfinished"></translation>
+        <translation>Ortalanmış</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="554"/>
         <source>From left edge</source>
-        <translation type="unfinished"></translation>
+        <translation>Sol kenardan</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="559"/>
         <source>From right edge</source>
-        <translation type="unfinished"></translation>
+        <translation>Sağ kenardan</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="567"/>
         <source>Fixed &amp;y position:</source>
-        <translation type="unfinished"></translation>
+        <translation>Sabit &amp;y konumu:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="583"/>
         <source>From top edge</source>
-        <translation type="unfinished"></translation>
+        <translation>Üst kenardan</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="588"/>
         <source>From bottom edge</source>
-        <translation type="unfinished"></translation>
+        <translation>Alt kenardan</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="596"/>
         <source>Information dialog&apos;s &amp;position:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bilgi &amp;penceresinin konumu:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="606"/>
         <source>Fixed &amp;x position:</source>
-        <translation type="unfinished"></translation>
+        <translation>Sabit &amp;x konumu:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="616"/>
         <source>Show &amp;information dialog:</source>
-        <translation type="unfinished"></translation>
+        <translation>B&amp;ilgi penceresini göster:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="641"/>
         <source>When resizing terminal windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Terminal penceresini yeniden boyutlandırırken</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="646"/>
@@ -323,47 +323,47 @@ D: Hazır (Tüm masaüstlerinde)</translation>
     <message>
         <location filename="../obconf.ui" line="660"/>
         <source>Centered on the window</source>
-        <translation type="unfinished"></translation>
+        <translation>Pencerede ortalanmış</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="665"/>
         <source>Above the window</source>
-        <translation type="unfinished"></translation>
+        <translation>Pencerenin üstünde</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="670"/>
         <source>Fixed position on screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Ekranda sabit konum</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="701"/>
         <source>Focusing Windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Pencerelere Odaklanma</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="710"/>
         <source>Focus windows when the mouse pointer moves over them</source>
-        <translation type="unfinished"></translation>
+        <translation>Fare işaretçisi pencereler üzerinde gezinirken pencerelere odaklan</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="722"/>
         <source>&amp;Delay before focusing and raising windows:</source>
-        <translation type="unfinished"></translation>
+        <translation>Pencerelere odaklanma ve yükselme öncesin&amp;de bekle:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="742"/>
         <source>Move focus under the mouse when &amp;switching desktops</source>
-        <translation type="unfinished"></translation>
+        <translation>Masaüstlerini değiştirirken odağı fare altında hareket ettir</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="749"/>
         <source>Move focus &amp;under the mouse when the mouse is not moving</source>
-        <translation type="unfinished"></translation>
+        <translation>Fare hareket etmezken odağı fare altında hareket ettir</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="756"/>
         <source>&amp;Raise windows when the mouse pointer moves over them</source>
-        <translation type="unfinished"></translation>
+        <translation>Fa&amp;re işaretçisi pencerelerin üzerine geldiğinde pencereleri yükselt</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="768"/>
@@ -373,57 +373,57 @@ D: Hazır (Tüm masaüstlerinde)</translation>
     <message>
         <location filename="../obconf.ui" line="774"/>
         <source>Double click on the &amp;titlebar:</source>
-        <translation type="unfinished"></translation>
+        <translation>Başlık çubuğu üzerinde çift &amp;tıkla:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="785"/>
         <source>Maximizes the window</source>
-        <translation type="unfinished"></translation>
+        <translation>Pencereyi büyüt</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="790"/>
         <source>Shades the window</source>
-        <translation type="unfinished"></translation>
+        <translation>Pencereyi gölgeler</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="798"/>
         <source>Double click ti&amp;me:</source>
-        <translation type="unfinished"></translation>
+        <translation>Za&amp;manı çift tıkla:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="838"/>
         <source>&amp;Show a notification when switching desktops</source>
-        <translation type="unfinished"></translation>
+        <translation>Masaüstü değiştirilirken bir uyarı gö&amp;ster</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="845"/>
         <source>&amp;Amount of time to show the notification for:</source>
-        <translation type="unfinished"></translation>
+        <translation>Gösterilecek uy&amp;arı için bekleme süresi:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="868"/>
         <source>&amp;Number of desktops: </source>
-        <translation type="unfinished"></translation>
+        <translation>Masaüstü &amp;sayısı: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="891"/>
         <source>&amp;Desktop names:</source>
-        <translation type="unfinished"></translation>
+        <translation>Masaüstü a&amp;dı:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="905"/>
         <source>Desktop Margins</source>
-        <translation type="unfinished"></translation>
+        <translation>Masaüstü Kenarları</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="911"/>
         <source>Desktop margins are reserved areas on the edge of your screen.  New windows will not be placed within a margin, and maximized windows will not cover them.</source>
-        <translation type="unfinished"></translation>
+        <translation>Masaüstü kenar boşlukları, ekranınızın kenarında ayrılmış alanlardır.  Yeni pencereler bir kenar boşluğuna yerleştirilmeyecek ve büyütülmüş pencereler bunları kaplamayacak.</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="921"/>
         <source>Left:</source>
-        <translation type="unfinished">Sol:</translation>
+        <translation>Sol:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="935"/>
@@ -431,12 +431,12 @@ D: Hazır (Tüm masaüstlerinde)</translation>
         <location filename="../obconf.ui" line="977"/>
         <location filename="../obconf.ui" line="998"/>
         <source>px</source>
-        <translation type="unfinished"></translation>
+        <translation>nk</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="942"/>
         <source>Top:</source>
-        <translation type="unfinished"></translation>
+        <translation>Üst:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="963"/>
@@ -446,22 +446,22 @@ D: Hazır (Tüm masaüstlerinde)</translation>
     <message>
         <location filename="../obconf.ui" line="984"/>
         <source>Bottom:</source>
-        <translation type="unfinished"></translation>
+        <translation>Alt:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1025"/>
         <source>The dock is a special container for &quot;dockapps&quot;, or dock applications.  It is not visible on screen until a dockapp is run.  Dockapps can be used to show things like a clock, or to provide you with a system tray.</source>
-        <translation type="unfinished"></translation>
+        <translation>Rıhtım, &quot;dockapps&quot; veya rıhtım uygulamaları için özel bir konteynırdır. Bir rıhtım uygulaması çalıştırılana kadar ekranda görünmez.  Rıhtım Uygulaması, bir saat gibi şeyler göstermek veya bir sistem tepsisi sağlamak için kullanılabilir.</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1041"/>
         <source>Position</source>
-        <translation type="unfinished"></translation>
+        <translation>Konum</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1053"/>
         <source>&amp;Position:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Konum:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1067"/>
@@ -506,77 +506,77 @@ D: Hazır (Tüm masaüstlerinde)</translation>
     <message>
         <location filename="../obconf.ui" line="1107"/>
         <source>Floating</source>
-        <translation type="unfinished"></translation>
+        <translation>Yüzen</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1121"/>
         <source>&amp;Floating position:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Yüzme konumu:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1146"/>
         <source>x</source>
-        <translation type="unfinished"></translation>
+        <translation>x</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1162"/>
         <source>Allow &amp;windows to be placed within the dock&apos;s area</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Pencerelerin rıhtım alanına yerleştirilmesine izin ver</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1169"/>
         <source>&amp;Orientation: </source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Yönlendirme: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1183"/>
         <source>Vertical</source>
-        <translation type="unfinished"></translation>
+        <translation>Dikey</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1188"/>
         <source>Horizontal</source>
-        <translation type="unfinished"></translation>
+        <translation>Yatay</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1199"/>
         <source>Stacking</source>
-        <translation type="unfinished"></translation>
+        <translation>Yerleşim</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1205"/>
         <source>Keep dock &amp;above other windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Rıhtımı diğer pencerelerin &amp;üzerinde tut</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1212"/>
         <source>A&amp;llow dock to be both above and below windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Rıhtımın pencerelerin hem altında hem üzerinde o&amp;lmasına izin ver</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1219"/>
         <source>Keep dock &amp;below other windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Rıhtımı diğer pencerelerin &amp;altında tut</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1229"/>
         <source>Hiding</source>
-        <translation type="unfinished"></translation>
+        <translation>Gizleme</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1235"/>
         <source>&amp;Delay before hiding:</source>
-        <translation type="unfinished"></translation>
+        <translation>Gizleme öncesi &amp;bekle:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1245"/>
         <source>Delay before &amp;showing:</source>
-        <translation type="unfinished"></translation>
+        <translation>Gö&amp;sterme öncesi bekle:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1275"/>
         <source>&amp;Hide off screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Ekranı &amp;gizle</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1306"/>
@@ -589,24 +589,24 @@ D: Hazır (Tüm masaüstlerinde)</translation>
     <message>
         <location filename="../theme.cpp" line="149"/>
         <source>Choose an Openbox theme</source>
-        <translation type="unfinished"></translation>
+        <translation>Bir Openbox teması seç</translation>
     </message>
     <message>
         <location filename="../desktops.cpp" line="65"/>
         <location filename="../desktops.cpp" line="87"/>
         <location filename="../desktops.cpp" line="99"/>
         <source>(Unnamed desktop)</source>
-        <translation type="unfinished"></translation>
+        <translation>(İsimsiz masaüstü)</translation>
     </message>
     <message>
         <location filename="../mouse.cpp" line="57"/>
         <source>Custom actions</source>
-        <translation type="unfinished"></translation>
+        <translation>Özel eylemler</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="76"/>
         <source>About ObConf-Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>ObConf-Qt Hakkında</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="77"/>
@@ -621,7 +621,17 @@ The program is based on ObConf developed by the following developers.
 * Dana Jansens &lt;danakj@orodu.net&gt;
 * Tim Riley &lt;tr@slackzone.org&gt;
 * Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Openbox için bir tercih yöneticisi
+
+Telif Hakkı (c) 2014-2015
+
+Yazarlar:
+* Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;
+
+ObConf temelli program aşağıdaki geliştiriciler tarafından geliştirilmektedir.
+* Dana Jansens &lt;danakj@orodu.net&gt;
+* Tim Riley &lt;tr@slackzone.org&gt;
+* Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</translation>
     </message>
 </context>
 <context>
@@ -629,40 +639,42 @@ The program is based on ObConf developed by the following developers.
     <message>
         <location filename="../archive.cpp" line="26"/>
         <source>&quot;%1&quot; was installed to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>&quot;%1&quot; %1 ögesine yüklendi</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="53"/>
         <source>&quot;%1&quot; was successfully created</source>
-        <translation type="unfinished"></translation>
+        <translation>&quot;%1&quot; başarılı bir şekilde oluşturuldu</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="89"/>
         <source>Unable to create the theme archive &quot;%1&quot;.
 The following errors were reported:
 %2</source>
-        <translation type="unfinished"></translation>
+        <translation>&quot;%1&quot; tema arşivi oluşturma başarısız.
+Aşağıdaki hatalar bildirildi:
+%2</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="95"/>
         <location filename="../archive.cpp" line="178"/>
         <source>Unable to run the &quot;tar&quot; command: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>&quot;tar&quot; komutu çalıştıralamıyor: %1</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="115"/>
         <source>Unable to create directory &quot;%1&quot;: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>&quot;%1&quot; dizini oluşturulamıyor: %2</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="138"/>
         <source>&quot;%1&quot; does not appear to be a valid Openbox theme directory</source>
-        <translation type="unfinished"></translation>
+        <translation>&quot;%1&quot; geçerli bir Openbox tema dizini gibi görünmüyor</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="148"/>
         <source>Unable to move to directory &quot;%1&quot;: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>&quot;%1&quot; dizinine taşınamıyor: %2</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="185"/>
@@ -670,12 +682,15 @@ The following errors were reported:
 Please ensure that &quot;%2&quot; is writable and that the file is a valid Openbox theme archive.
 The following errors were reported:
 %3</source>
-        <translation type="unfinished"></translation>
+        <translation>&quot;%1&quot; dosyası çıkartılamıyor.
+Lütfen &quot;%2&quot; dizininin yazılabilir ve geçerli bir Openbox tema arşivi olduğundan emin olunuz.
+Aşağıdaki hatalar bildirildi:
+%3</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="53"/>
         <source>ObConf Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Obconf Hatası</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="58"/>
@@ -689,7 +704,17 @@ This is free software, and you are welcome to redistribute it
 under certain conditions. See the file COPYING for details.
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Telif Hakkı (c) 2003-2008   Dana Jansens
+Telif Hakkı (c) 2003        Tim Riley
+Telif Hakkı (c) 2007        Javeed Shaikh
+Telif Hakkı (c) 2013        Hong Jen Yee (PCMan)
+
+Bu program KESİNLİKLE HİÇBİR GARANTİ ile gelmez.
+Bu ücretsiz bir yazılımdır ve bunu belirli koşullar altında 
+yeniden dağıtabilirsiniz. Ayrıntılar için COPYING dosyasına 
+bakınız.
+
+</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="73"/>
@@ -702,43 +727,56 @@ Options:
   --archive THEME       Create a theme archive from the given theme directory
   --config-file FILE    Specify the path to the config file to use
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Sözdizimi: obconf [seçenekler] [ARCHIVE.obt]
+
+Seçenekler:
+   -- help                   Bu yardımı görüntüle ve çık
+   -- version              Sürümü görüntüler ve çık
+   -- install ARCHIVE.obt    Verilen tema arşivini yükle ve onu seç
+   --archive THEME       Verilen tema dizininden bir tema arşivi oluşturun
+   --config-file FILE        Kullanılacak yapılandırma dosyasının yolunu belirtin
+</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="97"/>
         <source>--install requires an argument
 </source>
-        <translation type="unfinished"></translation>
+        <translation>--install bir argüman gerektirir
+</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="103"/>
         <source>--archive requires an argument
 </source>
-        <translation type="unfinished"></translation>
+        <translation>--archive bir argüman gerektirir
+</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="109"/>
         <source>--config-file requires an argument
 </source>
-        <translation type="unfinished"></translation>
+        <translation>--config-file bir argüman gerektirir
+</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="223"/>
         <location filename="../obconf-qt.cpp" line="238"/>
         <source>Error</source>
-        <translation type="unfinished">Hata</translation>
+        <translation>Hata</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="224"/>
         <source>Failed to load an rc.xml. You have probably failed to install Openbox properly.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bir rc.xml yüklenemedi. Muhtemelen Openbox&apos;ı uygun bir şekilde yükleyemediniz.</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="236"/>
         <source>Error while parsing the Openbox configuration file.  Your configuration file is not valid XML.
 
 Message: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Openbox yapılandırma dosyası ayrıştırılırken hata oluştu. Yapılandırma dosyanız geçerli XML dosyası değil.
+
+İleti: %1</translation>
     </message>
 </context>
 </TS>
