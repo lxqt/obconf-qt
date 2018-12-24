@@ -70,7 +70,7 @@
     <message>
         <location filename="../obconf.ui" line="137"/>
         <source>Window Titles</source>
-        <translation>Títulos de janela</translation>
+        <translation>Títulos das janelas</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="143"/>
@@ -90,7 +90,7 @@
     <message>
         <location filename="../obconf.ui" line="701"/>
         <source>Focusing Windows</source>
-        <translation>Focando janelas</translation>
+        <translation>Foco em janelas</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="710"/>
@@ -296,7 +296,7 @@ D: onipresente (todas as áreas de trabalho)</translation>
     <message>
         <location filename="../obconf.ui" line="1077"/>
         <source>Top Right</source>
-        <translation>Superior Direita</translation>
+        <translation>Superior Direito</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1082"/>
@@ -366,7 +366,7 @@ D: onipresente (todas as áreas de trabalho)</translation>
     <message>
         <location filename="../obconf.ui" line="1205"/>
         <source>Keep dock &amp;above other windows</source>
-        <translation>Mantenha o dock acima de outras janelas</translation>
+        <translation>Manter o dock acima de outras janelas</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1212"/>
@@ -376,7 +376,7 @@ D: onipresente (todas as áreas de trabalho)</translation>
     <message>
         <location filename="../obconf.ui" line="1219"/>
         <source>Keep dock &amp;below other windows</source>
-        <translation>Mantenha o dock abaixo das outras janelas</translation>
+        <translation>Manter o dock abaixo das outras janelas</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1229"/>
@@ -386,17 +386,17 @@ D: onipresente (todas as áreas de trabalho)</translation>
     <message>
         <location filename="../obconf.ui" line="1235"/>
         <source>&amp;Delay before hiding:</source>
-        <translation>Atraso antes de se esconder:</translation>
+        <translation>Atraso antes da ocultação:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1245"/>
         <source>Delay before &amp;showing:</source>
-        <translation>Atraso antes de mostrar:</translation>
+        <translation>Atraso antes de mo&amp;strar:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1275"/>
         <source>&amp;Hide off screen</source>
-        <translation>Esconder a tela</translation>
+        <translation>&amp;Ocultar a tela</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1306"/>
@@ -406,32 +406,32 @@ D: onipresente (todas as áreas de trabalho)</translation>
     <message>
         <location filename="../obconf.ui" line="96"/>
         <source>&amp;Install a new theme...</source>
-        <translation>Instalar um novo tema...</translation>
+        <translation>&amp;Instalar um novo tema...</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="103"/>
         <source>Create a theme &amp;archive (.obt)...</source>
-        <translation>Criar um tema (.obt)...</translation>
+        <translation>&amp;Criar um arquivo de tema (.obt)...</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="120"/>
         <source>&amp;Windows retain a border when undecorated</source>
-        <translation>Janelas mantém uma borda quando não decoradas</translation>
+        <translation>&amp;Janelas mantém uma borda quando não decoradas</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="127"/>
         <source>A&amp;nimate iconify and restore</source>
-        <translation>Restaurar e animar ícones</translation>
+        <translation>A&amp;nimações para minimizar e restaurar</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="231"/>
         <source>&amp;Active window title: </source>
-        <translation>Título da janela ativa: </translation>
+        <translation>&amp;Título da janela ativa: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="241"/>
         <source>&amp;Inactive window title: </source>
-        <translation>Título da janela inativada: </translation>
+        <translation>Título da janela inativa: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="251"/>
@@ -441,7 +441,7 @@ D: onipresente (todas as áreas de trabalho)</translation>
     <message>
         <location filename="../obconf.ui" line="261"/>
         <source>&amp;Menu Item: </source>
-        <translation>Item do Menu: </translation>
+        <translation>Item do menu: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="271"/>
@@ -456,7 +456,7 @@ D: onipresente (todas as áreas de trabalho)</translation>
     <message>
         <location filename="../obconf.ui" line="295"/>
         <source>Focus &amp;new windows when they appear</source>
-        <translation>Focar novas janelas quando elas aparecerem</translation>
+        <translation>Focar em novas janelas quando elas aparecerem</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="302"/>
@@ -466,7 +466,7 @@ D: onipresente (todas as áreas de trabalho)</translation>
     <message>
         <location filename="../obconf.ui" line="309"/>
         <source>&amp;Center new windows when they are placed</source>
-        <translation>Centralizar novas janelas quando elas são colocadas</translation>
+        <translation>Centralizar novas janelas quando elas são abertas</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="318"/>
@@ -486,12 +486,12 @@ D: onipresente (todas as áreas de trabalho)</translation>
     <message>
         <location filename="../obconf.ui" line="445"/>
         <source>Update the window contents while &amp;resizing</source>
-        <translation>Atualize o conteúdo da janela enquanto &amp;redimensiona</translation>
+        <translation>Atualizar o conteúdo da janela em &amp;redimensionamentos</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="452"/>
         <source>Drag &amp;threshold distance:</source>
-        <translation>Arras&amp;tar distância limite:</translation>
+        <translation>Distância &amp;limite do arraste:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="472"/>
