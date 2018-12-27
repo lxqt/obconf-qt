@@ -95,10 +95,10 @@ void MainDialog::moveresize_setup_tab() {
   else if(opp) pos = EDGE_RIGHT;
   else pos = EDGE_LEFT;
 
-  g_free(s);
-
   ui.fixed_y_popup->setCurrentIndex(pos);
   ui.fixed_y_pos->setValue(MAX(atoi(s), 0));
+    
+  g_free(s);
 
   i = tree_get_int("mouse/screenEdgeWarpTime", 400);
 
