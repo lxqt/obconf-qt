@@ -618,11 +618,10 @@ Copyright (c) 2014-2015
 Авторы:
 * Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;
 
-Эта программа основана на ObConf, созданной следующими разработчиками
+Эта программа основана на ObConf, созданной следующими разработчиками:
 * Dana Jansens &lt;danakj@orodu.net&gt;
 * Tim Riley &lt;tr@slackzone.org&gt;
-* Javeed Shaikh &lt;syscrash2k@gmail.com&gt;
-        </translation>
+* Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</translation>
     </message>
     <message>
         <location filename="../mouse.cpp" line="57"/>
@@ -726,14 +725,15 @@ Options:
   --archive THEME       Create a theme archive from the given theme directory
   --config-file FILE    Specify the path to the config file to use
 </source>
-        <translation>Синтаксис: obconf [опции] [ARCHIVE.obt]
+        <translation>Синтаксис: obconf [опции] [АРХИВ.obt]
 
 Опции:
-  --help                оказать эту справку и выйти
+  --help                Показать эту справку и выйти
   --version             Показать версию и выйти
-  --install ARCHIVE.obt Установить тему из указанного архива и выбрать её
-  --archive THEME       Создать архив с темой из указаннойпапки с темой
-  --config-file FILE    Выбрать путь к используемому файлу настроек</translation>
+  --install АРХИВ.obt   Установить тему из указанного архива и выбрать её
+  --archive ТЕМА        Создать архив с темой из указанной папки с темой
+  --config-file ФАЙЛ    Выбрать путь к используемому файлу настроек
+</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="97"/>
