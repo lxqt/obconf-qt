@@ -142,7 +142,7 @@ D: Omnipräsent (auf allen Schreibtischen)</translation>
     <message>
         <location filename="../obconf.ui" line="281"/>
         <source>Inactive O&amp;n-screen display: </source>
-        <translation>Inaktive &amp;Bildschirmanzeige: </translation>
+        <translation>Inaktive Bildschirma&amp;nzeige: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="295"/>
@@ -157,12 +157,12 @@ D: Omnipräsent (auf allen Schreibtischen)</translation>
     <message>
         <location filename="../obconf.ui" line="309"/>
         <source>&amp;Center new windows when they are placed</source>
-        <translation>Neue Fenster &amp;zentrieren</translation>
+        <translation>Neue Fenster &amp;zentrieren, wenn sie platziert werden</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="318"/>
         <source>Prefer to place new windows &amp;on:</source>
-        <translation>Neue Fenster &amp;vorzugsweise platzieren auf:</translation>
+        <translation>Neue Fenster v&amp;orzugsweise platzieren auf:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="329"/>
@@ -177,7 +177,7 @@ D: Omnipräsent (auf allen Schreibtischen)</translation>
     <message>
         <location filename="../obconf.ui" line="339"/>
         <source>The monitor with the mouse</source>
-        <translation>dem Bildschirm, wo sich der Mauszeiger befindet</translation>
+        <translation>Der Bildschirm mit der Maus</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="344"/>
@@ -192,7 +192,7 @@ D: Omnipräsent (auf allen Schreibtischen)</translation>
     <message>
         <location filename="../obconf.ui" line="360"/>
         <source>The primary monitor is where Openbox will place dialogs, such as the one used for cycling windows.</source>
-        <translation>Der primäre Bildschirm ist derjenige, auf dem Openbox Dialoge platzieren wird, wie solche zum Wechsel von Fenstern.</translation>
+        <translation>Der primäre Bildschirm ist derjenige, auf dem Openbox Dialoge platziert, wie beispielsweise diejenigen, die zum Wechseln von Fenstern verwendet werden.</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="370"/>
@@ -207,12 +207,12 @@ D: Omnipräsent (auf allen Schreibtischen)</translation>
     <message>
         <location filename="../obconf.ui" line="386"/>
         <source>Active Monitor</source>
-        <translation>aktiver Bildschirm</translation>
+        <translation>Aktiver Bildschirm</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="391"/>
         <source>Monitor With Mouse Pointer</source>
-        <translation>Bildschirm, wo sich der Mauszeiger befindet</translation>
+        <translation>Bildschirm mit Mauszeiger</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="399"/>
