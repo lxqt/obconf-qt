@@ -19,7 +19,7 @@
     <message>
         <location filename="../obconf.ui" line="14"/>
         <source>Window Manager Preferences</source>
-        <translation>Fenstermanager Openbox :: Einstellungen</translation>
+        <translation>Einstellungen der Fensterverwaltung</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="38"/>
@@ -45,7 +45,7 @@
     <message>
         <location filename="../obconf.ui" line="58"/>
         <source>Move &amp; Resize</source>
-        <translation>Verschieben und Größe ändern</translation>
+        <translation>Verschieben &amp; Größe ändern</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="63"/>
