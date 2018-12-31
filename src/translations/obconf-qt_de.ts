@@ -137,7 +137,7 @@ D: Omnipräsent (auf allen Schreibtischen)</translation>
     <message>
         <location filename="../obconf.ui" line="271"/>
         <source>Active &amp;On-screen display: </source>
-        <translation>A&amp;ktive Bildschirmanzeige: </translation>
+        <translation>Aktive &amp;Bildschirmanzeige: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="281"/>
