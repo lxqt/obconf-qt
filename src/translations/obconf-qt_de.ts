@@ -70,7 +70,7 @@
     <message>
         <location filename="../obconf.ui" line="96"/>
         <source>&amp;Install a new theme...</source>
-        <translation>&amp;Installiere ein neues Design...</translation>
+        <translation>&amp;Installiere ein neues Thema...</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="103"/>
