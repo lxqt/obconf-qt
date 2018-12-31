@@ -24,7 +24,7 @@
     <message>
         <location filename="../obconf.ui" line="38"/>
         <source>Theme</source>
-        <translation>Design</translation>
+        <translation>Thema</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="43"/>
