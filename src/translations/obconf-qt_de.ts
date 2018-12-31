@@ -70,17 +70,17 @@
     <message>
         <location filename="../obconf.ui" line="96"/>
         <source>&amp;Install a new theme...</source>
-        <translation>&amp;Installiere ein neues Thema...</translation>
+        <translation>Ein neues Thema &amp;installieren...</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="103"/>
         <source>Create a theme &amp;archive (.obt)...</source>
-        <translation>Themenarchiv &amp;erstellen (.obt)...</translation>
+        <translation>Themen&amp;archiv erstellen (.obt)...</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="120"/>
         <source>&amp;Windows retain a border when undecorated</source>
-        <translation>&amp;Undekorierte Fenster umranden</translation>
+        <translation>&amp;Fenster behalten einen Rand, wenn sie nicht dekoriert sind</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="127"/>
@@ -95,7 +95,7 @@
     <message>
         <location filename="../obconf.ui" line="143"/>
         <source>Button order:</source>
-        <translation>Anordnung der Schaltflächen (Knöpfe):</translation>
+        <translation>Schaltflächenanordnung:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="153"/>
@@ -107,32 +107,32 @@ C: Close
 S: Shade (Roll up)
 D: Omnipresent (On all desktops)</source>
         <translation>N: Fenstersymbol
-L: Fenstertitel
+L: Fensterbezeichnung (Titel)
 I: Minimieren
 M: Maximieren
 C: Schließen
-S: Einrollen
-D: auf allen Arbeitsflächen</translation>
+S: Einklappen (Hochrollen)
+D: Omnipräsent (auf allen Schreibtischen)</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="231"/>
         <source>&amp;Active window title: </source>
-        <translation>Fenstertitel &amp;aktives Fenster: </translation>
+        <translation>&amp;Aktiver Fenstertitel: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="241"/>
         <source>&amp;Inactive window title: </source>
-        <translation>Fenstertitel &amp;inaktives Fenster: </translation>
+        <translation>&amp;Inaktiver Fenstertitel: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="251"/>
         <source>Menu &amp;header: </source>
-        <translation>Menü - &amp;Überschrift: </translation>
+        <translation>Menü&amp;überschrift: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="261"/>
         <source>&amp;Menu Item: </source>
-        <translation>Menü - einzelne &amp;Einträge: </translation>
+        <translation>&amp;Menüpunkt: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="271"/>
