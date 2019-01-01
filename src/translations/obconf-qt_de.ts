@@ -323,7 +323,7 @@ D: Omnipräsent (auf allen Schreibtischen)</translation>
     <message>
         <location filename="../obconf.ui" line="660"/>
         <source>Centered on the window</source>
-        <translation>Fenstermitte</translation>
+        <translation>Zentriert auf dem Fenster</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="665"/>
@@ -482,37 +482,37 @@ Das dock wird erst nach dem Starten von dockapps sichtbar.</translation>
     <message>
         <location filename="../obconf.ui" line="1082"/>
         <source>Left</source>
-        <translation>mitte (vertikal) links</translation>
+        <translation>Links</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1087"/>
         <source>Right</source>
-        <translation>mitte (vertikal) rechts</translation>
+        <translation>Rechts</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1092"/>
         <source>Bottom Left</source>
-        <translation>unten rechts</translation>
+        <translation>Unten links</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1097"/>
         <source>Bottom</source>
-        <translation>unten zentriert</translation>
+        <translation>Unten</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1102"/>
         <source>Bottom Right</source>
-        <translation>unten rechts</translation>
+        <translation>Unten rechts</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1107"/>
         <source>Floating</source>
-        <translation>manuell festgelegte Position</translation>
+        <translation>Schwebend</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1121"/>
         <source>&amp;Floating position:</source>
-        <translation>&amp;manuell festgelegte Position:</translation>
+        <translation>&amp;Schwebeposition:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1146"/>
