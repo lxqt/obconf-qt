@@ -271,7 +271,7 @@ D: Omnipresente (en todos os escritorios)</translation>
     <message>
         <location filename="../obconf.ui" line="1025"/>
         <source>The dock is a special container for &quot;dockapps&quot;, or dock applications.  It is not visible on screen until a dockapp is run.  Dockapps can be used to show things like a clock, or to provide you with a system tray.</source>
-        <translation>A doca é un contedor especial para «dockapps», ou aplicacións ancorábeis.  Non se ve na pantalla ata que se executa unha «dockapp».  As «dockapps» poden empregarse para amosar cousas coma un reloxo, ou para fornecerlle unha área de notificación ao sistema.</translation>
+        <translation>A doca é un contedor especial para «dockapps» (aplicativos ancorábeis) ou trebellos.  Non se ve na pantalla ata que se executa un trebello. Os trebellos poden empregarse para amosar cousas coma un reloxo, ou para fornecerlle unha área de notificación ao sistema.</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1041"/>
