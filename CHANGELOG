@@ -1,5 +1,5 @@
 
-obconf-qt-0.14.0 / 2018-12-01
+obconf-qt-0.14.0 / 2019-01-25
 =============================
 
   * Bumped version to 0.14.0
@@ -35,8 +35,8 @@ obconf-qt-0.13.0 / 2018-05-21
   * cmake: Make it compile with Qt4
   * cmake: Update CMake minimum required version
 
-0.12.0 / 2017-09-24
-===================
+obconf-qt-0.12.0 / 2017-09-24
+=============================
 
   * Release 0.12.0: Update changelog
   * Bump version to 0.12.0
@@ -52,8 +52,8 @@ obconf-qt-0.13.0 / 2018-05-21
   * Update AUTHORS
   * Added *da.desktop
 
-0.11.1 / 2016-12-11
-===================
+obconf-qt-0.11.1 / 2016-12-11
+=============================
 
   * Release 0.11.1: Update changelog
   * Create obconf-qt_fr.desktop
@@ -63,8 +63,8 @@ obconf-qt-0.13.0 / 2018-05-21
   * Remove cpack (#22)
   * README.md: Update dependencies
 
-0.11.0 / 2016-09-24
-===================
+obconf-qt-0.11.0 / 2016-09-24
+=============================
 
   * Release 0.11.0: Add changelog
   * Bump version to 0.2.0 (#20)
@@ -92,8 +92,8 @@ obconf-qt-0.13.0 / 2018-05-21
   * German translation
   * Default to Qt5
 
-0.9.0 / 2015-02-25
-==================
+obconf-qt-0.9.0 / 2015-02-25
+============================
 
   * Generate .desktop file again
   * Enhance Portuguese translations
@@ -114,8 +114,8 @@ obconf-qt-0.13.0 / 2018-05-21
   * Commit from LXDE Pootle server by user rago1975.: 611 of 611 strings translated (0 need review).
   * Support Qt5.
 
-0.1.0 / 2014-05-07
-==================
+obconf-qt-0.1.0 / 2014-05-07
+============================
 
   * Sync COPYING file with the actual used license
   * Commit from LXDE Pootle server by user knedlyk.: 72 of 108 strings translated (0 fuzzy).
