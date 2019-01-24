@@ -1,4 +1,24 @@
 
+obconf-qt-0.14.0 / 2019-01-25
+=============================
+
+  * Bumped version to 0.14.0
+  * Implementation fixed:
+    - Don't use automatic string conversions
+    - Fixed disfunctional *.obt Archive generation
+    - Fixed reorder compiler warning
+    - Fixed usage of memory after freed
+    - Removed unused variables
+  * Improved cmake scripting
+    - Set cmake_minimum_required to 3.1.0
+    - Use lxqt-build-tools FindGLib CMake module
+    - Removed locale compile definitons
+    - Handle ldflags when the module library is not installed in a system dir.
+  * Moved translations from lxqt-l10n back to obconf-qt
+    - Removed obsolete translation fuctionality
+    - Added translation promo in README.md
+  * Translation updates
+
 obconf-qt-0.13.0 / 2018-05-21
 =============================
 
@@ -15,8 +35,8 @@ obconf-qt-0.13.0 / 2018-05-21
   * cmake: Make it compile with Qt4
   * cmake: Update CMake minimum required version
 
-0.12.0 / 2017-09-24
-===================
+obconf-qt-0.12.0 / 2017-09-24
+=============================
 
   * Release 0.12.0: Update changelog
   * Bump version to 0.12.0
@@ -32,8 +52,8 @@ obconf-qt-0.13.0 / 2018-05-21
   * Update AUTHORS
   * Added *da.desktop
 
-0.11.1 / 2016-12-11
-===================
+obconf-qt-0.11.1 / 2016-12-11
+=============================
 
   * Release 0.11.1: Update changelog
   * Create obconf-qt_fr.desktop
@@ -43,8 +63,8 @@ obconf-qt-0.13.0 / 2018-05-21
   * Remove cpack (#22)
   * README.md: Update dependencies
 
-0.11.0 / 2016-09-24
-===================
+obconf-qt-0.11.0 / 2016-09-24
+=============================
 
   * Release 0.11.0: Add changelog
   * Bump version to 0.2.0 (#20)
@@ -72,8 +92,8 @@ obconf-qt-0.13.0 / 2018-05-21
   * German translation
   * Default to Qt5
 
-0.9.0 / 2015-02-25
-==================
+obconf-qt-0.9.0 / 2015-02-25
+============================
 
   * Generate .desktop file again
   * Enhance Portuguese translations
@@ -94,8 +114,8 @@ obconf-qt-0.13.0 / 2018-05-21
   * Commit from LXDE Pootle server by user rago1975.: 611 of 611 strings translated (0 need review).
   * Support Qt5.
 
-0.1.0 / 2014-05-07
-==================
+obconf-qt-0.1.0 / 2014-05-07
+============================
 
   * Sync COPYING file with the actual used license
   * Commit from LXDE Pootle server by user knedlyk.: 72 of 108 strings translated (0 fuzzy).
@@ -108,7 +128,16 @@ obconf-qt-0.13.0 / 2018-05-21
   * Commit from LXDE Pootle server by user strebski.: 95 of 108 strings translated (1 fuzzy).
   * Commit from LXDE Pootle server by user strebski.: 89 of 108 strings translated (1 fuzzy).
   * Commit from LXDE Pootle server by user zvacet.: 73 of 108 strings translated (0 fuzzy).
-  * Commit from LXDE Pootle server by user hirkmt.: 108 of 108 strings translated (0 fuzzy).
+  * Commit from LXDE Pootle  * Bumped version to 0.14.0
+  * Don't use automatic string conversions
+  * Translation updates
+  * Improved cmake scripting
+    - set cmake_minimum_required to 3.1.0
+    - removed locale compile definitons
+    - installed man page
+  * Moved translations from lxqt-l10n back to compton-conf
+    - removed obsolete translation fuctionality
+ server by user hirkmt.: 108 of 108 strings translated (0 fuzzy).
   * New files added from LXDE Pootle server based on templates
   * Handle translations correctly.
   * Commit from LXDE Pootle server by user zvacet.: 72 of 108 strings translated (0 fuzzy).
