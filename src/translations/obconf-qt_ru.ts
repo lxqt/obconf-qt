@@ -664,17 +664,17 @@ The following errors were reported:
     <message>
         <location filename="../archive.cpp" line="115"/>
         <source>Unable to create directory &quot;%1&quot;: %2</source>
-        <translation>Не удалось создать папку &quot;%1&quot;: %2</translation>
+        <translation>Не удалось создать каталог &quot;%1&quot;: %2</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="138"/>
         <source>&quot;%1&quot; does not appear to be a valid Openbox theme directory</source>
-        <translation>&quot;%1&quot; не является правильной папкой тем Openbox</translation>
+        <translation>&quot;%1&quot; не является корректным каталогом тем Openbox</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="148"/>
         <source>Unable to move to directory &quot;%1&quot;: %2</source>
-        <translation>Невозможно переместить в папку &quot;%1&quot;: %2</translation>
+        <translation>Невозможно переместить в каталог &quot;%1&quot;: %2</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="185"/>
@@ -731,7 +731,7 @@ Options:
   --help                Показать эту справку и выйти
   --version             Показать версию и выйти
   --install АРХИВ.obt   Установить тему из указанного архива и выбрать её
-  --archive ТЕМА        Создать архив с темой из указанной папки с темой
+  --archive ТЕМА        Создать архива темы из указанного каталога темы
   --config-file ФАЙЛ    Выбрать путь к используемому файлу настроек
 </translation>
     </message>
@@ -772,7 +772,7 @@ Options:
         <source>Error while parsing the Openbox configuration file.  Your configuration file is not valid XML.
 
 Message: %1</source>
-        <translation>Ошибка при разборе файла конфигурации Openbox. Ваш конфигурационный файл неправильный XML.
+        <translation>Ошибка при разборе файла настроек Openbox. Данный файл настроек не является корректным XML-документом.
 
 Сообщение: %1</translation>
     </message>
