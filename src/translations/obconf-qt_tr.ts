@@ -80,12 +80,12 @@
     <message>
         <location filename="../obconf.ui" line="120"/>
         <source>&amp;Windows retain a border when undecorated</source>
-        <translation>&amp;Pencereler süslemesiz bir sınıra sahip</translation>
+        <translation>&amp;Pencereler dekor edilmediginde bir kenarda tutulur</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="127"/>
         <source>A&amp;nimate iconify and restore</source>
-        <translation>S&amp;imgelendirme ve geri yükleme canlandır</translation>
+        <translation>S&amp;imgelendirme ve geri yüklemeyi canlandır</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="137"/>
@@ -127,7 +127,7 @@ D: Hazır (Tüm masaüstlerinde)</translation>
     <message>
         <location filename="../obconf.ui" line="251"/>
         <source>Menu &amp;header: </source>
-        <translation>Menü &amp;başığı: </translation>
+        <translation>Menü &amp;başlığı: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="261"/>
@@ -137,27 +137,27 @@ D: Hazır (Tüm masaüstlerinde)</translation>
     <message>
         <location filename="../obconf.ui" line="271"/>
         <source>Active &amp;On-screen display: </source>
-        <translation>Etkin &amp;Görünen ekranda: </translation>
+        <translation>&amp;Görünen ekranda etkinleştir: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="281"/>
         <source>Inactive O&amp;n-screen display: </source>
-        <translation>Pasif G&amp;örünen ekranda: </translation>
+        <translation>G&amp;örünen ekranda pasifleştir: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="295"/>
         <source>Focus &amp;new windows when they appear</source>
-        <translation>Yeni &amp;pencereleri göründükleri zaman odakla</translation>
+        <translation>Göründükleri zaman yeni &amp;pencerelere odaklan</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="302"/>
         <source>&amp;Place new windows under the mouse pointer</source>
-        <translation>&amp;Fare işaretçisinin altına yeni pencereler yerleştirin</translation>
+        <translation>Yeni pencereleri &amp;fare işaretçisinin altına yerleştir</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="309"/>
         <source>&amp;Center new windows when they are placed</source>
-        <translation>&amp;Yerleştirildiğinde yeni pencereleri ortala</translation>
+        <translation>&amp;Yeni pencereleri yerleştirildiğinde ortala</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="318"/>
@@ -192,7 +192,7 @@ D: Hazır (Tüm masaüstlerinde)</translation>
     <message>
         <location filename="../obconf.ui" line="360"/>
         <source>The primary monitor is where Openbox will place dialogs, such as the one used for cycling windows.</source>
-        <translation>Birincil monitör, Openbox&apos;un pencere diyalogları koyacağı yer.</translation>
+        <translation>Openbox&apos;ın pencere diyaloglarını yerleştireceği birincil ekran, pencere döndürme için kullanılan gibi.</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="370"/>
