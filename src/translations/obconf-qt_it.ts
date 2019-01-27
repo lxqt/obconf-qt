@@ -138,13 +138,13 @@ D: Su tutti desktop</translation>
         <location filename="../obconf.ui" line="271"/>
         <source>Active &amp;On-screen display: </source>
         <translatorcomment>What should that be?</translatorcomment>
-        <translation type="unfinished"></translation>
+        <translation>Display &amp;On-screen attivi: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="281"/>
         <source>Inactive O&amp;n-screen display: </source>
         <translatorcomment>see above</translatorcomment>
-        <translation type="unfinished"></translation>
+        <translation>Display O&amp;n-screen inattivi: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="295"/>
