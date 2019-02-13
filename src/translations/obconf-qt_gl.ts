@@ -6,12 +6,12 @@
     <message>
         <location filename="../fontbutton.cpp" line="46"/>
         <source>Bold</source>
-        <translation>Negra</translation>
+        <translation>Grosa</translation>
     </message>
     <message>
         <location filename="../fontbutton.cpp" line="50"/>
         <source>Italic</source>
-        <translation>Cursiva</translation>
+        <translation>Itálica</translation>
     </message>
 </context>
 <context>
