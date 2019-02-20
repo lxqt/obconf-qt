@@ -117,32 +117,32 @@ D : Omniprésent (Sur tous les bureaux)</translation>
     <message>
         <location filename="../obconf.ui" line="231"/>
         <source>&amp;Active window title: </source>
-        <translation>Titre de fenêtre &amp;active :</translation>
+        <translation>Titre de fenêtre &amp;active : </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="241"/>
         <source>&amp;Inactive window title: </source>
-        <translation>Titre de fenêtre &amp;inactive :</translation>
+        <translation>Titre de fenêtre &amp;inactive : </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="251"/>
         <source>Menu &amp;header: </source>
-        <translation>En-&amp;tête de menu :</translation>
+        <translation>&amp;En-tête de menu : </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="261"/>
         <source>&amp;Menu Item: </source>
-        <translation>&amp;Menu Item:  </translation>
+        <translation>&amp;Élément du menu : </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="271"/>
         <source>Active &amp;On-screen display: </source>
-        <translation>A&amp;ffichage actif et à l&apos;écran :</translation>
+        <translation>&amp;Affichage actif et à l&apos;écran : </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="281"/>
         <source>Inactive O&amp;n-screen display: </source>
-        <translation>Affichage i&amp;nactif et à l&apos;écran :</translation>
+        <translation>Affichage &amp;inactif et à l&apos;écran : </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="295"/>
@@ -398,12 +398,12 @@ D : Omniprésent (Sur tous les bureaux)</translation>
     <message>
         <location filename="../obconf.ui" line="845"/>
         <source>&amp;Amount of time to show the notification for:</source>
-        <translation>&amp;Durée d&apos;affichage de la notification pour:</translation>
+        <translation>&amp;Durée d&apos;affichage de la notification pour :</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="868"/>
         <source>&amp;Number of desktops: </source>
-        <translation>&amp;Nombre de bureaux :</translation>
+        <translation>&amp;Nombre de bureaux : </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="891"/>
@@ -739,19 +739,22 @@ Options:
         <location filename="../obconf-qt.cpp" line="97"/>
         <source>--install requires an argument
 </source>
-        <translation>--install demande un argument</translation>
+        <translation>--install demande un argument
+</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="103"/>
         <source>--archive requires an argument
 </source>
-        <translation>--archive demande un argument</translation>
+        <translation>--archive demande un argument
+</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="109"/>
         <source>--config-file requires an argument
 </source>
-        <translation>--config-file demande un argument</translation>
+        <translation>--config-file demande un argument
+</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="223"/>
