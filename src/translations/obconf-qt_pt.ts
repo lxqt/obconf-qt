@@ -80,7 +80,7 @@
     <message>
         <location filename="../obconf.ui" line="439"/>
         <source>Moving and Resizing Windows</source>
-        <translation>Movimentar e redimensionar janelas</translation>
+        <translation>Mover e dimensionar janelas</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="542"/>
@@ -163,7 +163,7 @@
     <message>
         <location filename="../obconf.ui" line="360"/>
         <source>The primary monitor is where Openbox will place dialogs, such as the one used for cycling windows.</source>
-        <translation>O monitor principal é aquele em que o Openbox apresenta os diálogos, tais como o diálogo para percorrer janelas.</translation>
+        <translation>O monitor principal é aquele em que o Openbox mostra os diálogos, tais como o diálogo para percorrer janelas.</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="381"/>
@@ -601,7 +601,7 @@ D: Omnipresente (todas as áreas de trabalho)</translation>
     <message>
         <location filename="../maindialog.cpp" line="76"/>
         <source>About ObConf-Qt</source>
-        <translation>Sobre o ObConf-Qt</translation>
+        <translation>Acerca de ObConf-Qt</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="77"/>
@@ -616,9 +616,9 @@ The program is based on ObConf developed by the following developers.
 * Dana Jansens &lt;danakj@orodu.net&gt;
 * Tim Riley &lt;tr@slackzone.org&gt;
 * Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</source>
-        <translation>Um gestor de preferências do Openbox
+        <translation>Um gestor para as preferências Openbox
 
-Copyright (c) 2014-2016
+Copyright (c) 2014-2019
 
 Autores:
 * Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;
@@ -669,7 +669,7 @@ Foram reportados os seguintes erros:
     <message>
         <location filename="../archive.cpp" line="138"/>
         <source>&quot;%1&quot; does not appear to be a valid Openbox theme directory</source>
-        <translation>&quot;%1&quot; não parece ser um diretório válido para temas Openbox</translation>
+        <translation>Parece que &quot;%1&quot; não é um diretório válido para temas Openbox</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="148"/>
@@ -769,7 +769,7 @@ under certain conditions. See the file COPYING for details.
         <translation>Copyright (c) 2003-2008   Dana Jansens
 Copyright (c) 2003            Tim Riley
 Copyright (c) 2007            Javeed Shaikh
-Copyright (c) 2013            Hong Jen Yee (PCMan)
+Copyright (c) 2013-2019            Hong Jen Yee (PCMan)
 
 Este programa NÃO POSSUI QUALQUER GARANTIA.
 É um programa livre e a sua redistribuição é permitida mediante
