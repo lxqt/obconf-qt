@@ -401,7 +401,7 @@ D: Omnipresente (todas as áreas de trabalho)</translation>
     <message>
         <location filename="../obconf.ui" line="1306"/>
         <source>About</source>
-        <translation>Sobre</translation>
+        <translation>Acerca</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="96"/>
