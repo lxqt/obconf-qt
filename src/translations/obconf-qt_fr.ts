@@ -19,7 +19,7 @@
     <message>
         <location filename="../obconf.ui" line="14"/>
         <source>Window Manager Preferences</source>
-        <translation>Préférence du gestionnaire de fenêtres</translation>
+        <translation>Préférences du gestionnaire de fenêtres</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="38"/>
@@ -34,7 +34,7 @@
     <message>
         <location filename="../obconf.ui" line="48"/>
         <source>Font</source>
-        <translation>Fonte</translation>
+        <translation>Police</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="53"/>
@@ -65,7 +65,7 @@
     <message>
         <location filename="../obconf.ui" line="78"/>
         <source>Dock</source>
-        <translation>Dock</translation>
+        <translation>Dock(s)</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="96"/>
@@ -85,7 +85,7 @@
     <message>
         <location filename="../obconf.ui" line="127"/>
         <source>A&amp;nimate iconify and restore</source>
-        <translation>A&amp;nimer iconifier et restaurer</translation>
+        <translation>A&amp;nimer, icônifier et restaurer</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="137"/>
@@ -108,7 +108,7 @@ S: Shade (Roll up)
 D: Omnipresent (On all desktops)</source>
         <translation>N : Icône de fenêtre
 L : Étiquette de fenêtre (Titre)
-I : Iconifier (Minimiser)
+I : Icônifier (Minimiser)
 M : Maximiser
 C : Fermer
 S : Ombrer (Enrouler)
