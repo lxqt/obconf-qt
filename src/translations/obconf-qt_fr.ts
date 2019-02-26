@@ -65,17 +65,17 @@
     <message>
         <location filename="../obconf.ui" line="78"/>
         <source>Dock</source>
-        <translation>Dock(s)</translation>
+        <translation>Dock</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="96"/>
         <source>&amp;Install a new theme...</source>
-        <translation>&amp;Installer un nouveau thème ...</translation>
+        <translation>&amp;Installer un nouveau thème...</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="103"/>
         <source>Create a theme &amp;archive (.obt)...</source>
-        <translation>Créer un thème &amp;archive (.obt) ...</translation>
+        <translation>Créer un thème &amp;archive (.obt)...</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="120"/>
@@ -152,7 +152,7 @@ D : Omniprésent (Sur tous les bureaux)</translation>
     <message>
         <location filename="../obconf.ui" line="302"/>
         <source>&amp;Place new windows under the mouse pointer</source>
-        <translation>&amp;Placez les nouvelles fenêtres sous le pointeur de souris</translation>
+        <translation>&amp;Placer les nouvelles fenêtres sous le pointeur de souris</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="309"/>
@@ -252,7 +252,7 @@ D : Omniprésent (Sur tous les bureaux)</translation>
     <message>
         <location filename="../obconf.ui" line="532"/>
         <source>&amp;Switch desktops when moving a window past the screen edge</source>
-        <translation>&amp;Commutez les bureaux lorsque vous déplacez une fenêtre au-delà du bord de l&apos;écran</translation>
+        <translation>Changer de bureau lorsque vous déplacez une fenêtre au-delà du bord de l&apos;écran</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="542"/>
@@ -308,7 +308,7 @@ D : Omniprésent (Sur tous les bureaux)</translation>
     <message>
         <location filename="../obconf.ui" line="641"/>
         <source>When resizing terminal windows</source>
-        <translation>Au redimensionnement de la fenêtre du terminal</translation>
+        <translation>Lors du redimensionnement de la fenêtre du terminal</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="646"/>
@@ -343,7 +343,7 @@ D : Omniprésent (Sur tous les bureaux)</translation>
     <message>
         <location filename="../obconf.ui" line="710"/>
         <source>Focus windows when the mouse pointer moves over them</source>
-        <translation>Donner le focus lorsque le pointeur de souris passe au-dessus d&apos;elles</translation>
+        <translation>Donner le focus aux fenêtres lorsque le pointeur de la souris passe dessus</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="722"/>
@@ -363,7 +363,7 @@ D : Omniprésent (Sur tous les bureaux)</translation>
     <message>
         <location filename="../obconf.ui" line="756"/>
         <source>&amp;Raise windows when the mouse pointer moves over them</source>
-        <translation>&amp;Agrandir les fenêtres lorsque le pointeur de la souris se déplace sur elles</translation>
+        <translation>&amp;Agrandir les fenêtres lorsque le pointeur de la souris passe dessus</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="768"/>
@@ -418,7 +418,7 @@ D : Omniprésent (Sur tous les bureaux)</translation>
     <message>
         <location filename="../obconf.ui" line="911"/>
         <source>Desktop margins are reserved areas on the edge of your screen.  New windows will not be placed within a margin, and maximized windows will not cover them.</source>
-        <translation>Les marges de bureau sont des zones réservées sur le bord de votre écran. Les nouvelles fenêtres ne seront pas placées dans une marge et les fenêtres maximisées ne les couvriront pas.</translation>
+        <translation>Les marges du bureau sont des zones réservées sur le bord de votre écran.  Les nouvelles fenêtres ne seront pas placées dans une marge et les fenêtres agrandies ne les couvriront pas.</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="921"/>
@@ -451,7 +451,7 @@ D : Omniprésent (Sur tous les bureaux)</translation>
     <message>
         <location filename="../obconf.ui" line="1025"/>
         <source>The dock is a special container for &quot;dockapps&quot;, or dock applications.  It is not visible on screen until a dockapp is run.  Dockapps can be used to show things like a clock, or to provide you with a system tray.</source>
-        <translation>Le dock est un conteneur spécial pour des &quot;dockapps&quot; (dock applications). Elle n&apos;est pas visible à l&apos;écran tant qu&apos;une application de dock n&apos;est pas exécutée. Dockapps peut être utilisé pour afficher des choses telles qu&apos;une horloge ou les informations système.</translation>
+        <translation>Le dock est un conteneur spécial pour les &quot;dockapps&quot;, ou dock applications.  Il n&apos;est pas visible à l&apos;écran tant qu&apos;une application dockapp n&apos;est pas exécutée.  Les dockapps peuvent être utilisées pour afficher des éléments tels qu&apos;une horloge ou pour vous fournir une barre de tâche.</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1041"/>
@@ -511,7 +511,7 @@ D : Omniprésent (Sur tous les bureaux)</translation>
     <message>
         <location filename="../obconf.ui" line="1121"/>
         <source>&amp;Floating position:</source>
-        <translation>Position, en mode &amp;flottant :</translation>
+        <translation>&amp;Position flottante :</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1146"/>
@@ -551,12 +551,12 @@ D : Omniprésent (Sur tous les bureaux)</translation>
     <message>
         <location filename="../obconf.ui" line="1212"/>
         <source>A&amp;llow dock to be both above and below windows</source>
-        <translation>&amp;Permettre au dock d&apos;être aussi bien sur ou sous les fenêtres</translation>
+        <translation>&amp;Permettre au dock d&apos;être à la fois au-dessus et au-dessous des fenêtres</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1219"/>
         <source>Keep dock &amp;below other windows</source>
-        <translation>Gardez le dock au-des&amp;sous d&apos;autres fenêtres</translation>
+        <translation>Garder le dock au-des&amp;sous d&apos;autres fenêtres</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1229"/>
@@ -615,7 +615,7 @@ The program is based on ObConf developed by the following developers.
 
 Copyright (c) 2014-2015
 
-Auteurs:
+Auteurs :
 * Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;
 
 Lee programme est basé sur ObConf developpé par :
@@ -626,7 +626,7 @@ Lee programme est basé sur ObConf developpé par :
     <message>
         <location filename="../mouse.cpp" line="57"/>
         <source>Custom actions</source>
-        <translation>Actions personnelles</translation>
+        <translation>Actions personnalisées</translation>
     </message>
     <message>
         <location filename="../theme.cpp" line="149"/>
@@ -652,19 +652,19 @@ Lee programme est basé sur ObConf developpé par :
 The following errors were reported:
 %2</source>
         <translation>Impossible de créer l&apos;archive de thème &quot;%1&quot;.
-Les erreurs suivantes ont été signalées:
+Les erreurs suivantes ont été signalées :
 %2</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="95"/>
         <location filename="../archive.cpp" line="178"/>
         <source>Unable to run the &quot;tar&quot; command: %1</source>
-        <translation>Impossible d&apos;exécuter la command: &quot;tar&quot; :%1</translation>
+        <translation>Impossible d’exécuter la commande &quot;tar&quot; : %1</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="115"/>
         <source>Unable to create directory &quot;%1&quot;: %2</source>
-        <translation>Impossible de créer le répertoire &quot;%1&quot;:%2</translation>
+        <translation>Impossible de créer le répertoire &quot;%1&quot;: %2</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="138"/>
@@ -690,7 +690,7 @@ Les erreurs suivantes ont été signalées :
     <message>
         <location filename="../obconf-qt.cpp" line="53"/>
         <source>ObConf Error</source>
-        <translation>Erreur de ObConf</translation>
+        <translation>Erreur d&apos;ObConf</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="58"/>
@@ -712,6 +712,7 @@ Copyright (c) 2013        Hong Jen Yee (PCMan)
 Ce programme est livré avec ABSOLUMENT AUCUNE GARANTIE.
 C&apos;est un logiciel libre, et vous êtes les bienvenus pour le redistribuer
 sous certaines conditions. Voir le fichier COPYING pour plus de détails.
+
 </translation>
     </message>
     <message>
@@ -725,13 +726,13 @@ Options:
   --archive THEME       Create a theme archive from the given theme directory
   --config-file FILE    Specify the path to the config file to use
 </source>
-        <translation>Syntaxe: obconf [options] [ARCHIVE.obt]
+        <translation>Syntaxe : obconf [options] [ARCHIVE.obt]
 
-Options:
-  --help                Affiche l&apos;aide et quitte
-  --version             Affiche la version et quitte
-  --install ARCHIVE.obt   Installe le thème archive spécifié et sélectionne celui-ci
-  --archive THEME       Crée un theme archive depuis le répertoire de thème spécifié
+Options :
+  --help                Affiche l&apos;aide et quitté
+  --version             Affiche la version et quitté
+  --install ARCHIVE.obt   Installe le thème archive spécifié et sélectionné celui-ci
+  --archive THEME       Créé un thème archive depuis le répertoire de thème spécifié
   --config-file FILE    Spécifie le chemin vers le fichier de configuration à utiliser
 </translation>
     </message>
