@@ -276,67 +276,67 @@ D: På alla skrivbord</translation>
     <message>
         <location filename="../obconf.ui" line="1041"/>
         <source>Position</source>
-        <translation type="unfinished"></translation>
+        <translation>Position</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1053"/>
         <source>&amp;Position:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Position:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1067"/>
         <source>Top Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Övre vänster</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1072"/>
         <source>Top</source>
-        <translation type="unfinished"></translation>
+        <translation>Övre</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1077"/>
         <source>Top Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Övre höger</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1082"/>
         <source>Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Vänster</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1087"/>
         <source>Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Höger</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1092"/>
         <source>Bottom Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Nedre vänster</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1097"/>
         <source>Bottom</source>
-        <translation type="unfinished"></translation>
+        <translation>Nedre</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1102"/>
         <source>Bottom Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Nedre höger</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1107"/>
         <source>Floating</source>
-        <translation type="unfinished"></translation>
+        <translation>Flytande</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1121"/>
         <source>&amp;Floating position:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Flytande position:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1146"/>
         <source>x</source>
-        <translation type="unfinished"></translation>
+        <translation>x</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1162"/>
