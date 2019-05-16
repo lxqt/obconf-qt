@@ -186,11 +186,11 @@ int main(int argc, char** argv) {
   QTranslator qtTranslator, translator;
 
   // install the translations built-into Qt itself
-  qtTranslator.load("qt_" + QLocale::system().name(), QLibraryInfo::location(QLibraryInfo::TranslationsPath));
+  qtTranslator.load(QStringLiteral("qt_") + QLocale::system().name(), QLibraryInfo::location(QLibraryInfo::TranslationsPath));
   app.installTranslator(&qtTranslator);
 
   // install our own tranlations
-  translator.load("obconf-qt_" + QLocale::system().name(), PACKAGE_DATA_DIR "/translations");
+  translator.load(QStringLiteral("obconf-qt_") + QLocale::system().name(), QStringLiteral(PACKAGE_DATA_DIR) + QStringLiteral("/translations"));
   app.installTranslator(&translator);
 
   // load configurations
