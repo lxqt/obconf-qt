@@ -148,7 +148,7 @@ void MainDialog::on_install_theme_clicked() {
   QString filename = QFileDialog::getOpenFileName(this,
                                                   tr("Choose an Openbox theme"),
                                                   QString(),
-                                                  "Openbox theme archives (*.obt);;");
+                                                  QStringLiteral("Openbox theme archives (*.obt);;"));
   if(!filename.isEmpty()) {
     theme_install(filename.toLocal8Bit().constData());
   }
@@ -157,7 +157,7 @@ void MainDialog::on_install_theme_clicked() {
 void MainDialog::on_theme_archive_clicked() {
     QFileDialog* dialog = new QFileDialog();
     dialog->setFileMode(QFileDialog::Directory);
-    QString filename="";
+    QString filename=QLatin1String("");
     if(dialog->exec())
          filename= dialog->selectedFiles()[0];
   if(!filename.isEmpty()) {

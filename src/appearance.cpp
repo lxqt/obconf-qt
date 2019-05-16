@@ -197,7 +197,7 @@ static RrFont* write_font(Fm::FontButton* button, const gchar* place) {
   if(qfont.bold())
     weight = RR_FONTWEIGHT_BOLD;
 
-  QString size = QString("%1").arg(qfont.pointSize());
+  QString size = QStringLiteral("%1").arg(qfont.pointSize());
 
   const char* slantStr = NULL;
   switch(qfont.style()) {
