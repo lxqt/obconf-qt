@@ -40,7 +40,7 @@ void MainDialog::appearance_setup_tab() {
   ui.animate_iconify->setChecked(tree_get_bool("theme/animateIconify", TRUE));
 
   layout = tree_get_string("theme/titleLayout", "NLIMC");
-  ui.title_layout->setText(layout);
+  ui.title_layout->setText(QString::fromUtf8(static_cast<char*>(layout)));
   // preview_update_set_title_layout(layout); // FIXME
   g_free(layout);
 
@@ -167,7 +167,7 @@ static RrFont* read_font(Fm::FontButton* button, const gchar* place,
   }
 
   QFont qfont;
-  qfont.setFamily(name);
+  qfont.setFamily(QString::fromUtf8(static_cast<char*>(name)));
   // FIXME qfont.setWeight(weight);
   qfont.setPointSize(atoi(size));
 

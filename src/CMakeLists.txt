@@ -83,6 +83,15 @@ add_definitions(
   -DTHEME_DIR="${CMAKE_INSTALL_FULL_DATAROOTDIR}/openbox/themes"
 )
 
+target_compile_definitions(obconf-qt
+    PRIVATE
+        QT_USE_QSTRINGBUILDER
+        QT_NO_CAST_FROM_ASCII
+        QT_NO_CAST_TO_ASCII
+        QT_NO_URL_CAST_FROM_STRING
+        QT_NO_CAST_FROM_BYTEARRAY
+)
+
 target_link_libraries(obconf-qt
   ${QTX_LIBRARIES}
   ${GLIB_LIBRARIES}
