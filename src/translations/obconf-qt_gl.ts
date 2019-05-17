@@ -381,12 +381,12 @@ D: Omnipresente (en todos os escritorios)</translation>
     <message>
         <location filename="../obconf.ui" line="1229"/>
         <source>Hiding</source>
-        <translation>Agachamento</translation>
+        <translation>Agochamento</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1235"/>
         <source>&amp;Delay before hiding:</source>
-        <translation>&amp;Demora antes de agachar:</translation>
+        <translation>&amp;Demora antes de agochar:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1245"/>
