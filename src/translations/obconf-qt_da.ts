@@ -393,12 +393,12 @@ D: Allestedsnærværende (på alle skriveborde)</translation>
     <message>
         <location filename="../obconf.ui" line="838"/>
         <source>&amp;Show a notification when switching desktops</source>
-        <translation>&amp;Vis en notifikation når der skiftes skrivebord</translation>
+        <translation>&amp;Vis en underretning når der skiftes skrivebord</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="845"/>
         <source>&amp;Amount of time to show the notification for:</source>
-        <translation>Visningstid for &amp;notifikationen:</translation>
+        <translation>Visningstid for &amp;underretningen:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="868"/>
