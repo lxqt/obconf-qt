@@ -162,7 +162,7 @@ D: Na všetkých plochách</translation>
     <message>
         <location filename="../obconf.ui" line="318"/>
         <source>Prefer to place new windows &amp;on:</source>
-        <translation>&amp;Nové okná umiestniť</translation>
+        <translation>&amp;Nové okná umiestniť na:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="329"/>
@@ -511,7 +511,7 @@ D: Na všetkých plochách</translation>
     <message>
         <location filename="../obconf.ui" line="1121"/>
         <source>&amp;Floating position:</source>
-        <translation>Plávajúca pozícia</translation>
+        <translation>Plávajúca pozícia:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1146"/>
