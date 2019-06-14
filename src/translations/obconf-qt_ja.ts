@@ -616,14 +616,14 @@ The program is based on ObConf developed by the following developers.
 * Dana Jansens &lt;danakj@orodu.net&gt;
 * Tim Riley &lt;tr@slackzone.org&gt;
 * Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</source>
-        <translation>Openbox の設定マネージャ
+        <translation>Openbox の設定マネージャー
 
-Copyright (c) 20142015
+Copyright (c) 2014-2015
 
 作者:
 * Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;
 
-このプログラムは下記の開発者によって開発されたObConfを基に開発されています。
+このプログラムは下記の開発者によって開発された ObConf を基に開発されています。
 * Dana Jansens &lt;danakj@orodu.net&gt;
 * Tim Riley &lt;tr@slackzone.org&gt;
 * Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</translation>
