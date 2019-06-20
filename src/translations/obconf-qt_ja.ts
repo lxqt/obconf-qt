@@ -244,7 +244,7 @@
     <message>
         <location filename="../obconf.ui" line="790"/>
         <source>Shades the window</source>
-        <translation>ウィンドウに影をつける</translation>
+        <translation>ウィンドウを巻き上げる</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="153"/>
@@ -271,7 +271,7 @@ D: 全てのデスクトップに表示する</translation>
     <message>
         <location filename="../obconf.ui" line="1025"/>
         <source>The dock is a special container for &quot;dockapps&quot;, or dock applications.  It is not visible on screen until a dockapp is run.  Dockapps can be used to show things like a clock, or to provide you with a system tray.</source>
-        <translation>ドックは&quot;dockapps&quot;のためのコンテナです。dockappを実行しない限り表示されません。Dockappsは時計やシステムトレイで使用するようなアプリケーションを提供します。</translation>
+        <translation>ドックは &quot;dockapps&quot; やドック用アプリケーションのためのコンテナです。dockapp を実行するまで画面に表示されません。Dockapps には時計ような物をおいたり、システムトレイのように使うことが出来ます。</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1041"/>
@@ -341,7 +341,7 @@ D: 全てのデスクトップに表示する</translation>
     <message>
         <location filename="../obconf.ui" line="1162"/>
         <source>Allow &amp;windows to be placed within the dock&apos;s area</source>
-        <translation>ウィンドウをドックエリアに配置することを可能にする(&amp;w)</translation>
+        <translation>ウィンドウをドックエリアに配置することを可能にする(&amp;W)</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1169"/>
@@ -366,22 +366,22 @@ D: 全てのデスクトップに表示する</translation>
     <message>
         <location filename="../obconf.ui" line="1205"/>
         <source>Keep dock &amp;above other windows</source>
-        <translation>ドックを常に他のウィンドウの前面に配置する(&amp;a)</translation>
+        <translation>ドックを常に他のウィンドウの前面に配置する(&amp;A)</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1212"/>
         <source>A&amp;llow dock to be both above and below windows</source>
-        <translation>ドックを他のウィンドウの前面にも背面にも配置することを可能にする(&amp;l)</translation>
+        <translation>ドックを他のウィンドウの前面にも背面にも配置することを可能にする(&amp;L)</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1219"/>
         <source>Keep dock &amp;below other windows</source>
-        <translation>ドックを常に他のウィンドウの背面に配置する(&amp;b)</translation>
+        <translation>ドックを常に他のウィンドウの背面に配置する(&amp;B)</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1229"/>
         <source>Hiding</source>
-        <translation>ハイディング</translation>
+        <translation>非表示</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1235"/>
@@ -391,12 +391,12 @@ D: 全てのデスクトップに表示する</translation>
     <message>
         <location filename="../obconf.ui" line="1245"/>
         <source>Delay before &amp;showing:</source>
-        <translation>出現するまでの時間(&amp;s):</translation>
+        <translation>出現するまでの時間(&amp;S):</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1275"/>
         <source>&amp;Hide off screen</source>
-        <translation>スクリーンから隠す(&amp;H)</translation>
+        <translation>画面から隠す(&amp;H)</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1306"/>
@@ -771,9 +771,9 @@ Copyright (c) 2003        Tim Riley
 Copyright (c) 2007        Javeed Shaikh
 Copyright (c) 2013        Hong Jen Yee (PCMan)
 
-このプログラムには全く何の保障もありません。
+このプログラムには全く何の保証もありません。
 これはフリーソフトウェアであり、あなたは定められた条件下で自由に
-再配布することができます。詳細はファイル COPYING にて。
+再配布することができます。詳細は COPYINGファイル を参照して下さい。
 
 </translation>
     </message>
