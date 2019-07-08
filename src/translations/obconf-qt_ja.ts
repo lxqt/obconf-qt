@@ -50,7 +50,7 @@
     <message>
         <location filename="../obconf.ui" line="58"/>
         <source>Move &amp; Resize</source>
-        <translation>移動 &amp; リサイズ</translation>
+        <translation>移動 &amp; サイズ変更</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="68"/>
@@ -80,7 +80,7 @@
     <message>
         <location filename="../obconf.ui" line="439"/>
         <source>Moving and Resizing Windows</source>
-        <translation>ウィンドウの移動とリサイズ</translation>
+        <translation>ウィンドウの移動とサイズ変更</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="542"/>
@@ -163,7 +163,7 @@
     <message>
         <location filename="../obconf.ui" line="360"/>
         <source>The primary monitor is where Openbox will place dialogs, such as the one used for cycling windows.</source>
-        <translation>主モニターとは 例えばウィンドウの循環をさせる際のダイアログなどをOpenbox が配置するモニターです。</translation>
+        <translation>主モニターとは 例えばウィンドウの循環をさせる際のダイアログなどを Openbox が配置するモニターです。</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="381"/>
@@ -209,7 +209,7 @@
     <message>
         <location filename="../obconf.ui" line="641"/>
         <source>When resizing terminal windows</source>
-        <translation>端末ウィンドウをリサイズするとき</translation>
+        <translation>端末ウィンドウをサイズ変更するとき</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="646"/>
@@ -436,7 +436,7 @@ D: 全てのデスクトップに表示する</translation>
     <message>
         <location filename="../obconf.ui" line="251"/>
         <source>Menu &amp;header: </source>
-        <translation>メニューのヘッダ(&amp;H): </translation>
+        <translation>メニューのヘッダー(&amp;H): </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="261"/>
@@ -456,12 +456,12 @@ D: 全てのデスクトップに表示する</translation>
     <message>
         <location filename="../obconf.ui" line="295"/>
         <source>Focus &amp;new windows when they appear</source>
-        <translation>新規ウィンドウが現れたときそれをフォーカスする(&amp;N)</translation>
+        <translation>新規ウィンドウが現れた時それをフォーカスする(&amp;N)</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="302"/>
         <source>&amp;Place new windows under the mouse pointer</source>
-        <translation>新規ウィンドウはマウスポインタの下に配置する(&amp;P)</translation>
+        <translation>新規ウィンドウはマウスポインターの下に配置する(&amp;P)</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="309"/>
@@ -486,7 +486,7 @@ D: 全てのデスクトップに表示する</translation>
     <message>
         <location filename="../obconf.ui" line="445"/>
         <source>Update the window contents while &amp;resizing</source>
-        <translation>リサイズ中もウィンドウの表示内容を更新する(&amp;R)</translation>
+        <translation>サイズ変更中もウィンドウの表示内容を更新する(&amp;R)</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="452"/>
@@ -516,7 +516,7 @@ D: 全てのデスクトップに表示する</translation>
     <message>
         <location filename="../obconf.ui" line="567"/>
         <source>Fixed &amp;y position:</source>
-        <translation>固定のY位置(&amp;Y):</translation>
+        <translation>固定の Y 位置(&amp;Y):</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="596"/>
@@ -526,7 +526,7 @@ D: 全てのデスクトップに表示する</translation>
     <message>
         <location filename="../obconf.ui" line="606"/>
         <source>Fixed &amp;x position:</source>
-        <translation>固定のX位置(&amp;X):</translation>
+        <translation>固定の X 位置(&amp;X):</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="616"/>
@@ -551,7 +551,7 @@ D: 全てのデスクトップに表示する</translation>
     <message>
         <location filename="../obconf.ui" line="756"/>
         <source>&amp;Raise windows when the mouse pointer moves over them</source>
-        <translation>マウスポインタが入ったウィンドウを前面に出す(&amp;R)</translation>
+        <translation>マウスポインターが入ったウィンドウを前面に出す(&amp;R)</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="774"/>
@@ -601,7 +601,7 @@ D: 全てのデスクトップに表示する</translation>
     <message>
         <location filename="../maindialog.cpp" line="76"/>
         <source>About ObConf-Qt</source>
-        <translation>OBConf-Qt について</translation>
+        <translation>ObConf-Qt について</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="77"/>
@@ -639,7 +639,7 @@ Copyright (c) 2014-2015
     <message>
         <location filename="../archive.cpp" line="26"/>
         <source>&quot;%1&quot; was installed to %1</source>
-        <translation>&quot;%1&quot; は %1 へインストールされました</translation>
+        <translation>&quot;%1&quot; は %2 へインストールされました</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="53"/>
@@ -773,7 +773,7 @@ Copyright (c) 2013        Hong Jen Yee (PCMan)
 
 このプログラムには全く何の保証もありません。
 これはフリーソフトウェアであり、あなたは定められた条件下で自由に
-再配布することができます。詳細は COPYINGファイル を参照して下さい。
+再配布することができます。詳細は COPYING ファイル を参照して下さい。
 
 </translation>
     </message>
