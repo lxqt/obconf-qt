@@ -411,7 +411,7 @@ D: 全てのデスクトップに表示する</translation>
     <message>
         <location filename="../obconf.ui" line="103"/>
         <source>Create a theme &amp;archive (.obt)...</source>
-        <translation>テーマアーカイブ (.obt)の作成(&amp;A)...</translation>
+        <translation>テーマアーカイブ(.obt)の作成(&amp;A)...</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="120"/>
