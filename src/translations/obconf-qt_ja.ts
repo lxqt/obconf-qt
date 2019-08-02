@@ -24,7 +24,7 @@
     <message>
         <location filename="../obconf.ui" line="14"/>
         <source>Window Manager Preferences</source>
-        <translation>ウィンドウマネージャの設定</translation>
+        <translation>ウィンドウマネージャーの設定</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="38"/>
