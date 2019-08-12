@@ -23,7 +23,7 @@ gchar* archive_install(const gchar *path)
         return NULL;
 
     if ((name = install_theme_to(path, dest))) {
-      QMessageBox::information(NULL, QString(), QObject::tr("\"%1\" was installed to %1")
+      QMessageBox::information(NULL, QString(), QObject::tr("\"%1\" was installed to %2")
         .arg(QString::fromUtf8(name))
         .arg(QString::fromUtf8(dest)));
     }
