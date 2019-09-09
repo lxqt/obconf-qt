@@ -669,7 +669,7 @@ Byly hlášeny následující chyby:
     <message>
         <location filename="../archive.cpp" line="138"/>
         <source>&quot;%1&quot; does not appear to be a valid Openbox theme directory</source>
-        <translation>Zdá se, že „%1“ není platnou složkou s motivy vzhledu pro Openbox</translation>
+        <translation>Zdá se, že „%1“ není platnou složkou s tématy vzhledu pro Openbox</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="148"/>
