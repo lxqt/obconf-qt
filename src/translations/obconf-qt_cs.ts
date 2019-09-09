@@ -45,7 +45,7 @@
     <message>
         <location filename="../obconf.ui" line="58"/>
         <source>Move &amp; Resize</source>
-        <translation>Přesouváníí a změna velikosti</translation>
+        <translation>Přesouvání a změna velikosti</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="63"/>
@@ -70,12 +70,12 @@
     <message>
         <location filename="../obconf.ui" line="96"/>
         <source>&amp;Install a new theme...</source>
-        <translation>Na&amp;instalovat nový motiv…</translation>
+        <translation>Na&amp;instalovat nové téma vzhledu…</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="103"/>
         <source>Create a theme &amp;archive (.obt)...</source>
-        <translation>Vytvořit &amp;archiv s motivem (.obt)…</translation>
+        <translation>Vytvořit &amp;archiv s tématem vzhledu (.obt)…</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="120"/>
@@ -237,12 +237,12 @@ D: Zobrazovat na všech monitorech</translation>
     <message>
         <location filename="../obconf.ui" line="472"/>
         <source>Amount of resistance against other &amp;windows:</source>
-        <translation>Míra odporu proti ostatním &amp;oknům:</translation>
+        <translation>Míra odporu vůči ostatním &amp;oknům:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="492"/>
         <source>Amount of resistance against screen &amp;edges:</source>
-        <translation>Míra odporu proti &amp;okrajům obrazovky:</translation>
+        <translation>Míra odporu vůči &amp;okrajům obrazovky:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="512"/>
@@ -451,7 +451,7 @@ D: Zobrazovat na všech monitorech</translation>
     <message>
         <location filename="../obconf.ui" line="1025"/>
         <source>The dock is a special container for &quot;dockapps&quot;, or dock applications.  It is not visible on screen until a dockapp is run.  Dockapps can be used to show things like a clock, or to provide you with a system tray.</source>
-        <translation>Panel je zvláštní oblast, ke kterému je možné  ukotvovat aplikace nebo sem umisťovat miniaplikace. Tato oblast není viditelná, dokud nespustíte nějakou miniaplikaci pro ní. Ty mohou sloužit pro zobrazování věcí, jako jsou hodiny nebo oznamovací oblast.</translation>
+        <translation>Dok je zvláštní kontejner, ke kterému je možné  ukotvovat aplikace nebo sem umisťovat miniaplikace. Není viditelný, dokud nespustíte nějakou miniaplikaci pro něj. Ty mohou sloužit pro zobrazování věcí, jako jsou hodiny nebo oznamovací oblast.</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1041"/>
@@ -521,7 +521,7 @@ D: Zobrazovat na všech monitorech</translation>
     <message>
         <location filename="../obconf.ui" line="1162"/>
         <source>Allow &amp;windows to be placed within the dock&apos;s area</source>
-        <translation>Povolit umísťování &amp;oken do oblasti panelu</translation>
+        <translation>Povolit umísťování &amp;oken do oblasti doku</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1169"/>
@@ -546,17 +546,17 @@ D: Zobrazovat na všech monitorech</translation>
     <message>
         <location filename="../obconf.ui" line="1205"/>
         <source>Keep dock &amp;above other windows</source>
-        <translation>Podržet panel vždy v popředí n&amp;ad ostatními okny</translation>
+        <translation>Podržet dok vždy v popředí n&amp;ad ostatními okny</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1212"/>
         <source>A&amp;llow dock to be both above and below windows</source>
-        <translation>Povo&amp;lit panelu být nad i pod okny (v popředí i v pozadí)</translation>
+        <translation>Povo&amp;lit doku být nad i pod okny (v popředí i v pozadí)</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1219"/>
         <source>Keep dock &amp;below other windows</source>
-        <translation>Podržet panel vždy v pozadí &amp;pod ostatními okny</translation>
+        <translation>Podržet dok vždy v pozadí &amp;pod ostatními okny</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1229"/>
@@ -589,7 +589,7 @@ D: Zobrazovat na všech monitorech</translation>
     <message>
         <location filename="../theme.cpp" line="149"/>
         <source>Choose an Openbox theme</source>
-        <translation>Vyberte vzhled Openboxu</translation>
+        <translation>Vyberte téma vzhledu pro Openbox</translation>
     </message>
     <message>
         <location filename="../desktops.cpp" line="65"/>
@@ -669,7 +669,7 @@ Byly hlášeny následující chyby:
     <message>
         <location filename="../archive.cpp" line="138"/>
         <source>&quot;%1&quot; does not appear to be a valid Openbox theme directory</source>
-        <translation>Zdá se, že &quot;%1&quot; není platnou složkou se vzhledy pro Openbox</translation>
+        <translation>Zdá se, že „%1“ není platnou složkou s motivy vzhledu pro Openbox</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="148"/>
@@ -683,7 +683,7 @@ Please ensure that &quot;%2&quot; is writable and that the file is a valid Openb
 The following errors were reported:
 %3</source>
         <translation>Nedaří se rozbalit soubor „%1“.
-Ověřte, že „%2“ je přístupné pro zápis a že soubor je platný archiv s motivem pro Openbox.
+Ověřte, že „%2“ je přístupné pro zápis a že soubor je platný archiv s tématem vzhledu pro Openbox.
 Byly hlášeny následující chyby:
 %3</translation>
     </message>
@@ -710,9 +710,9 @@ Autorské právo © 2007        Javeed Shaikh
 Autorské právo © 2013        Hong Jen Yee (PCMan)
 
 Tento program je poskytován bez JAKÝCHKOLI ZÁRUK.
-Jedná se o svobodný software a proto ho můžete ho šířit dál,
-jen je třeba neomezovat svobodu ostatních a dodržet tak určité podmínky.
-Podrobnosti naleznete v soubor COPYING.
+Jedná se o svobodný software a proto ho můžete klidně šířit dál,
+jen je při tom třeba neomezovat svobody i ostatních a dodržet 
+proto určité podmínky. Podrobnosti naleznete v soubor COPYING.
 
 </translation>
     </message>
@@ -732,8 +732,8 @@ Options:
 Volby:
   --help                Zobrazit tuto nápovědu a skončit
   --version             Zobrazit verzi a skončit
-  --install ARCHIV.obt  Nainstalovat zadaný archiv s motivem a vybrat ho
-  --archive MOTIV       Vytvořit archiv s motivem ze zadané složky motivu
+  --install ARCHIV.obt  Nainstalovat zadaný archiv s tématem vzhledu a vybrat ho
+  --archive MOTIV       Vytvořit archiv s tématem vzhledu ze zadané složky motivu
   --config-file SOUBOR  Zadejte popis umístění souboru s nastaveními
 </translation>
     </message>
