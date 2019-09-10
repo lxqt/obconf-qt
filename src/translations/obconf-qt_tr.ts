@@ -34,7 +34,7 @@
     <message>
         <location filename="../obconf.ui" line="48"/>
         <source>Font</source>
-        <translation>Yazıtipi</translation>
+        <translation>Yazı tipi</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="53"/>
