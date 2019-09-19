@@ -506,7 +506,7 @@ D: 全てのデスクトップに表示する</translation>
     <message>
         <location filename="../obconf.ui" line="512"/>
         <source>&amp;Amount of time to wait before switching:</source>
-        <translation>デスクトップを切り替えるまでのウェイト(&amp;A):</translation>
+        <translation>デスクトップを切り替えるまでの待機時間(&amp;A):</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="532"/>
