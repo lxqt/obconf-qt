@@ -143,7 +143,7 @@
     <message>
         <location filename="../obconf.ui" line="329"/>
         <source>All monitors</source>
-        <translation>全てのモニター</translation>
+        <translation>すべてのモニター</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="334"/>
@@ -224,17 +224,17 @@
     <message>
         <location filename="../obconf.ui" line="660"/>
         <source>Centered on the window</source>
-        <translation>ウィンドウの中央に</translation>
+        <translation>ウィンドウの中央</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="665"/>
         <source>Above the window</source>
-        <translation>ウィンドウの上に</translation>
+        <translation>ウィンドウの上</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="670"/>
         <source>Fixed position on screen</source>
-        <translation>画面の固定位置に</translation>
+        <translation>画面の固定位置</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="785"/>
@@ -255,13 +255,13 @@ M: Maximize
 C: Close
 S: Shade (Roll up)
 D: Omnipresent (On all desktops)</source>
-        <translation>N: ウィンドウアイコン
-L: ウィンドウラベル (タイトル)
+        <translation>N: ウィンドウのアイコン
+L: ウィンドウのラベル (タイトル)
 I: アイコン化 (最小化)
 M: 最大化
 C: 閉じる
 S: シェード化 (巻き上げる)
-D: 全てのデスクトップに表示する</translation>
+D: すべてのデスクトップに表示</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="344"/>
@@ -566,7 +566,7 @@ D: 全てのデスクトップに表示する</translation>
     <message>
         <location filename="../obconf.ui" line="838"/>
         <source>&amp;Show a notification when switching desktops</source>
-        <translation>デスクトップ切替時に通知を表示する(&amp;S)</translation>
+        <translation>デスクトップ切り替え時に通知を表示する(&amp;S)</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="845"/>
