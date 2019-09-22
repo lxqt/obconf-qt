@@ -638,8 +638,8 @@ El programa está basado en ObConf ObConf, desarrollado por los siguientes desar
     <name>QObject</name>
     <message>
         <location filename="../archive.cpp" line="26"/>
-        <source>&quot;%1&quot; was installed to %1</source>
-        <translation>Se ha instalado «%1» en %1</translation>
+        <source>&quot;%1&quot; was installed to %2</source>
+        <translation type="unfinished">Se ha instalado «%2» en %2 {1&quot;?}</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="53"/>

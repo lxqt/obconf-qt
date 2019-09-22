@@ -638,8 +638,8 @@ Program je založený na ObConf vyvinutom nasledujúcimi vývojármi.
     <name>QObject</name>
     <message>
         <location filename="../archive.cpp" line="26"/>
-        <source>&quot;%1&quot; was installed to %1</source>
-        <translation>&quot;%1&quot; bolo inštalované do %1</translation>
+        <source>&quot;%1&quot; was installed to %2</source>
+        <translation type="unfinished">&quot;%2&quot; bolo inštalované do %2 {1&quot;?}</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="53"/>
@@ -728,11 +728,11 @@ Options:
         <translation>Syntax: obconf [možnosti] [ARCHIVE.obt]
 
 voľby:
-   - help...........................................Zobraziť túto pomoc a skončiť
-   --version....................................Zobrazenie verzie
-   --install ARCHIVE.obt..........Nainštalujte daný archív tém
-   --archive THEME....................Vytvorenie archívu témy z daného adresára
-   --config-file FILE....................Zadajte cestu ku konfiguračnému súboru, ktorý sa má použiť
+&#xa0;&#xa0; - help...........................................Zobraziť túto pomoc a skončiť
+&#xa0;&#xa0; --version....................................Zobrazenie verzie
+&#xa0;&#xa0; --install ARCHIVE.obt..........Nainštalujte daný archív tém
+&#xa0;&#xa0; --archive THEME....................Vytvorenie archívu témy z daného adresára
+&#xa0;&#xa0; --config-file FILE....................Zadajte cestu ku konfiguračnému súboru, ktorý sa má použiť
 </translation>
     </message>
     <message>

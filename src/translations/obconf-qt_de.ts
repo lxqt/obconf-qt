@@ -639,8 +639,8 @@ Das Programm basiert auf ObConf, entwickelt von
     <name>QObject</name>
     <message>
         <location filename="../archive.cpp" line="26"/>
-        <source>&quot;%1&quot; was installed to %1</source>
-        <translation>&quot;%1&quot; wurde nach %1 installiert</translation>
+        <source>&quot;%1&quot; was installed to %2</source>
+        <translation type="unfinished">&quot;%2&quot; wurde nach %2 installiert {1&quot;?}</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="53"/>
