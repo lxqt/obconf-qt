@@ -639,7 +639,7 @@ Copyright (c) 2014-2015
     <message>
         <location filename="../archive.cpp" line="26"/>
         <source>&quot;%1&quot; was installed to %2</source>
-        <translation type="unfinished">&quot;%2&quot; は %2 へインストールされました {1&quot;?}</translation>
+        <translation>&quot;%1&quot; は %2 へインストールされました</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="53"/>
