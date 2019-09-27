@@ -639,7 +639,7 @@ Program je založen na ObConf vyvíjeném následujícími výojáři:
     <message>
         <location filename="../archive.cpp" line="26"/>
         <source>&quot;%1&quot; was installed to %2</source>
-        <translation type="unfinished">„%2“ byl nainstalován do %2 {1&quot;?}</translation>
+        <translation>„%1“ bylo nainstalováno do %2</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="53"/>
