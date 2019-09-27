@@ -189,22 +189,22 @@
     <message>
         <location filename="../obconf.ui" line="554"/>
         <source>From left edge</source>
-        <translation>Desde o bordo esquerdo</translation>
+        <translation>Dende o bordo esquerdo</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="559"/>
         <source>From right edge</source>
-        <translation>Desde o bordo dereito</translation>
+        <translation>Dende o bordo dereito</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="583"/>
         <source>From top edge</source>
-        <translation>Desde o bordo superior</translation>
+        <translation>Dende o bordo superior</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="588"/>
         <source>From bottom edge</source>
-        <translation>Desde o bordo inferior</translation>
+        <translation>Dende o bordo inferior</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="641"/>
@@ -271,7 +271,7 @@ D: Omnipresente (en todos os escritorios)</translation>
     <message>
         <location filename="../obconf.ui" line="1025"/>
         <source>The dock is a special container for &quot;dockapps&quot;, or dock applications.  It is not visible on screen until a dockapp is run.  Dockapps can be used to show things like a clock, or to provide you with a system tray.</source>
-        <translation>A doca é un contedor especial para «dockapps» (aplicativos ancorábeis) ou trebellos.  Non se ve na pantalla ata que se executa un trebello. Os trebellos poden empregarse para amosar cousas coma un reloxo, ou para fornecerlle unha área de notificación ao sistema.</translation>
+        <translation>A doca é un contedor especial para «dockapps» (aplicacións ancorábeis) ou trebellos.  Non se ve na pantalla ata que se executa un trebello. Os trebellos poden empregarse para amosar cousas coma un reloxo, ou para fornecerlle unha área de notificación ao sistema.</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1041"/>
@@ -639,7 +639,7 @@ Este programa está baseado no ObConf, desenvolvido por:
     <message>
         <location filename="../archive.cpp" line="26"/>
         <source>&quot;%1&quot; was installed to %2</source>
-        <translation type="unfinished">«%2» foi instalado en %2 {1&quot;?}</translation>
+        <translation>«%1» foi instalado en %2</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="53"/>
