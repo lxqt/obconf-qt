@@ -639,7 +639,7 @@ ObConf temelli program aşağıdaki geliştiriciler tarafından geliştirilmekte
     <message>
         <location filename="../archive.cpp" line="26"/>
         <source>&quot;%1&quot; was installed to %2</source>
-        <translation type="unfinished">&quot;%2&quot; %2 ögesine yüklendi {1&quot;?}</translation>
+        <translation>&quot;%1&quot; %2 ögesine yüklendi</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="53"/>
