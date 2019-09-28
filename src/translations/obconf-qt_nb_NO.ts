@@ -75,7 +75,7 @@
     <message>
         <location filename="../obconf.ui" line="103"/>
         <source>Create a theme &amp;archive (.obt)...</source>
-        <translation>Skap et temaark&amp;iv (.obt)...</translation>
+        <translation>Skap et tema&amp;arkiv (.obt)...</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="120"/>
@@ -192,7 +192,7 @@ D: Allestedsnærværende (på alle skrivebord)</translation>
     <message>
         <location filename="../obconf.ui" line="360"/>
         <source>The primary monitor is where Openbox will place dialogs, such as the one used for cycling windows.</source>
-        <translation>Primærskjermen er der OpenBox vil plassere dialogruter, sånn som den som brukes for å bytte vinduer.</translation>
+        <translation>Primærskjermen er der OpenBox vil plassere dialogruter, som f.eks. den som brukes for å bytte vinduer.</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="370"/>
@@ -348,7 +348,7 @@ D: Allestedsnærværende (på alle skrivebord)</translation>
     <message>
         <location filename="../obconf.ui" line="722"/>
         <source>&amp;Delay before focusing and raising windows:</source>
-        <translation>&amp;Forsinkelse før fokusering og oppreising av vinduer:</translation>
+        <translation>&amp;Forsinkelse før fokusering og maksimering av vinduer:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="742"/>
@@ -431,12 +431,12 @@ D: Allestedsnærværende (på alle skrivebord)</translation>
         <location filename="../obconf.ui" line="977"/>
         <location filename="../obconf.ui" line="998"/>
         <source>px</source>
-        <translation>pksl</translation>
+        <translation>pk</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="942"/>
         <source>Top:</source>
-        <translation>Topp:</translation>
+        <translation>Øverst:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="963"/>
@@ -446,7 +446,7 @@ D: Allestedsnærværende (på alle skrivebord)</translation>
     <message>
         <location filename="../obconf.ui" line="984"/>
         <source>Bottom:</source>
-        <translation>Bunn:</translation>
+        <translation>Nederst:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1025"/>
@@ -456,12 +456,12 @@ D: Allestedsnærværende (på alle skrivebord)</translation>
     <message>
         <location filename="../obconf.ui" line="1041"/>
         <source>Position</source>
-        <translation>Posisjon</translation>
+        <translation>Plassering</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1053"/>
         <source>&amp;Position:</source>
-        <translation>&amp;Posisjon:</translation>
+        <translation>&amp;Plassering:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1067"/>
@@ -506,12 +506,12 @@ D: Allestedsnærværende (på alle skrivebord)</translation>
     <message>
         <location filename="../obconf.ui" line="1107"/>
         <source>Floating</source>
-        <translation>Flytende</translation>
+        <translation>Svevende</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1121"/>
         <source>&amp;Floating position:</source>
-        <translation>&amp;Flytende posisjon:</translation>
+        <translation>&amp;Svevende plassering:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1146"/>
@@ -521,7 +521,7 @@ D: Allestedsnærværende (på alle skrivebord)</translation>
     <message>
         <location filename="../obconf.ui" line="1162"/>
         <source>Allow &amp;windows to be placed within the dock&apos;s area</source>
-        <translation>Tillat &amp;vinduer å plassere på innsiden av dokkens område</translation>
+        <translation>Tillat &amp;vinduer å plasseres på innsiden av dokkens område</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1169"/>
@@ -541,7 +541,7 @@ D: Allestedsnærværende (på alle skrivebord)</translation>
     <message>
         <location filename="../obconf.ui" line="1199"/>
         <source>Stacking</source>
-        <translation>Stabel</translation>
+        <translation>Stabling</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1205"/>
@@ -576,7 +576,7 @@ D: Allestedsnærværende (på alle skrivebord)</translation>
     <message>
         <location filename="../obconf.ui" line="1275"/>
         <source>&amp;Hide off screen</source>
-        <translation>&amp;Skjul av skjermen</translation>
+        <translation>&amp;Skjul utenfor skjermen</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1306"/>
@@ -589,7 +589,7 @@ D: Allestedsnærværende (på alle skrivebord)</translation>
     <message>
         <location filename="../theme.cpp" line="149"/>
         <source>Choose an Openbox theme</source>
-        <translation>Velg et Openbox tema</translation>
+        <translation>Velg et Openbox-tema</translation>
     </message>
     <message>
         <location filename="../desktops.cpp" line="65"/>
@@ -601,7 +601,7 @@ D: Allestedsnærværende (på alle skrivebord)</translation>
     <message>
         <location filename="../mouse.cpp" line="57"/>
         <source>Custom actions</source>
-        <translation>Egendefinerte handlinger</translation>
+        <translation>Selvvalgte handlinger</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="76"/>
@@ -639,7 +639,7 @@ Programmet er basert på ObConf som er skapt av følgende opphavsmenn:
     <message>
         <location filename="../archive.cpp" line="26"/>
         <source>&quot;%1&quot; was installed to %2</source>
-        <translation type="unfinished">&quot;%2&quot; ble installert til %2 {1&quot;?}</translation>
+        <translation>&quot;%2&quot; ble installert til %2</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="53"/>
@@ -669,7 +669,7 @@ De følgende feilene ble rapportert:
     <message>
         <location filename="../archive.cpp" line="138"/>
         <source>&quot;%1&quot; does not appear to be a valid Openbox theme directory</source>
-        <translation>&quot;%1&quot; ser ikke ut til å være en gyldig Openbox tema-mappe</translation>
+        <translation>&quot;%1&quot; ser ikke ut til å være en gyldig mappe for Openbox-temaer</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="148"/>
@@ -683,7 +683,7 @@ Please ensure that &quot;%2&quot; is writable and that the file is a valid Openb
 The following errors were reported:
 %3</source>
         <translation>Kunne ikke pakke ut filen&quot;%1&quot;.
-Sørg for at &quot;%2&quot; er skrivbar og at filen er et gyldig Openbox temaarkiv.
+Sørg for at &quot;%2&quot; er skrivbar og at filen er et gyldig arkiv for Openbox-temaer.
 Følgende feil ble rapportert:
 %3</translation>
     </message>
@@ -726,7 +726,7 @@ Options:
   --archive THEME       Create a theme archive from the given theme directory
   --config-file FILE    Specify the path to the config file to use
 </source>
-        <translation>Syntax: obconf [valg] [ARCHIVE.obt]
+        <translation>Syntaks: obconf [valg] [ARCHIVE.obt]
 
 Valg:
   --help                Viser hjelp og avslutter
@@ -740,21 +740,21 @@ Valg:
         <location filename="../obconf-qt.cpp" line="97"/>
         <source>--install requires an argument
 </source>
-        <translation>--install krever navnet på en .obt OpenBox temafil
+        <translation>--install krever et argument
 </translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="103"/>
         <source>--archive requires an argument
 </source>
-        <translation>--archive krever stien til mappen temafilen skal skapes fra
+        <translation>--archive krever et argument
 </translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="109"/>
         <source>--config-file requires an argument
 </source>
-        <translation>--config-file krever stien til konfigurasjonsfilen som skal brukes
+        <translation>--config-file krever et argument
 </translation>
     </message>
     <message>
