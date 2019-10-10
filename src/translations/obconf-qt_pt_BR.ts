@@ -85,7 +85,7 @@
     <message>
         <location filename="../obconf.ui" line="542"/>
         <source>Information Dialog</source>
-        <translation>Caixas de Dialogo</translation>
+        <translation>Caixas de Diálogo</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="701"/>
@@ -244,7 +244,7 @@
     <message>
         <location filename="../obconf.ui" line="790"/>
         <source>Shades the window</source>
-        <translation>Sombrea a janela</translation>
+        <translation>Sombrear a janela</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="153"/>
@@ -255,7 +255,7 @@ M: Maximize
 C: Close
 S: Shade (Roll up)
 D: Omnipresent (On all desktops)</source>
-        <translation>N: Ícone da janela
+        <translation>N: Icone da janela
 L: Etiqueta da janela (título)
 I: Iconificar (minimizar)
 M: Maximizar
@@ -286,7 +286,7 @@ D: onipresente (todas as áreas de trabalho)</translation>
     <message>
         <location filename="../obconf.ui" line="1067"/>
         <source>Top Left</source>
-        <translation>Esquerda Superior</translation>
+        <translation>Superior Esquerda</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1072"/>
@@ -331,7 +331,7 @@ D: onipresente (todas as áreas de trabalho)</translation>
     <message>
         <location filename="../obconf.ui" line="1121"/>
         <source>&amp;Floating position:</source>
-        <translation>Posicionamento flutuante:</translation>
+        <translation>&amp;Posicionamento flutuante:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1146"/>
@@ -341,12 +341,12 @@ D: onipresente (todas as áreas de trabalho)</translation>
     <message>
         <location filename="../obconf.ui" line="1162"/>
         <source>Allow &amp;windows to be placed within the dock&apos;s area</source>
-        <translation>Permitir que janelas sejam colocadas dentro da área de dock</translation>
+        <translation>Permitir que janelas sejam colocadas dentro da área do dock</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1169"/>
         <source>&amp;Orientation: </source>
-        <translation>Orientação: </translation>
+        <translation>&amp;Orientação: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1183"/>
@@ -366,7 +366,7 @@ D: onipresente (todas as áreas de trabalho)</translation>
     <message>
         <location filename="../obconf.ui" line="1205"/>
         <source>Keep dock &amp;above other windows</source>
-        <translation>Manter o dock acima de outras janelas</translation>
+        <translation>Manter o dock &amp;acima de outras janelas</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1212"/>
@@ -376,7 +376,7 @@ D: onipresente (todas as áreas de trabalho)</translation>
     <message>
         <location filename="../obconf.ui" line="1219"/>
         <source>Keep dock &amp;below other windows</source>
-        <translation>Manter o dock abaixo das outras janelas</translation>
+        <translation>Manter o dock &amp;abaixo das outras janelas</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1229"/>
@@ -386,12 +386,12 @@ D: onipresente (todas as áreas de trabalho)</translation>
     <message>
         <location filename="../obconf.ui" line="1235"/>
         <source>&amp;Delay before hiding:</source>
-        <translation>Atraso antes da ocultação:</translation>
+        <translation>&amp;Atraso antes da ocultação:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1245"/>
         <source>Delay before &amp;showing:</source>
-        <translation>Atraso antes de mo&amp;strar:</translation>
+        <translation>Atraso antes de &amp;mostrar:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1275"/>
@@ -411,7 +411,7 @@ D: onipresente (todas as áreas de trabalho)</translation>
     <message>
         <location filename="../obconf.ui" line="103"/>
         <source>Create a theme &amp;archive (.obt)...</source>
-        <translation>&amp;Criar um arquivo de tema (.obt)...</translation>
+        <translation>Criar um &amp;arquivo de tema (.obt)...</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="120"/>
@@ -431,7 +431,7 @@ D: onipresente (todas as áreas de trabalho)</translation>
     <message>
         <location filename="../obconf.ui" line="241"/>
         <source>&amp;Inactive window title: </source>
-        <translation>Título da janela inativa: </translation>
+        <translation>&amp;Título da janela inativa: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="251"/>
@@ -461,17 +461,17 @@ D: onipresente (todas as áreas de trabalho)</translation>
     <message>
         <location filename="../obconf.ui" line="302"/>
         <source>&amp;Place new windows under the mouse pointer</source>
-        <translation>Colocar novas janelas abaixo do cursor do mouse</translation>
+        <translation>&amp;Colocar novas janelas abaixo do cursor do mouse</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="309"/>
         <source>&amp;Center new windows when they are placed</source>
-        <translation>Centralizar novas janelas quando elas são abertas</translation>
+        <translation>&amp;Centralizar novas janelas quando elas são abertas</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="318"/>
         <source>Prefer to place new windows &amp;on:</source>
-        <translation>Colocar novas janelas em:</translation>
+        <translation>Colocar novas janelas &amp;em:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="370"/>
@@ -639,7 +639,7 @@ O programa é baseado no ObConf, desenvolvido pelos seguintes desenvolvedores:
     <message>
         <location filename="../archive.cpp" line="26"/>
         <source>&quot;%1&quot; was installed to %2</source>
-        <translation type="unfinished">&quot;%2&quot; foi instalado em %2 {1&quot;?}</translation>
+        <translation>&quot;%1&quot; foi instalado em %2</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="53"/>
