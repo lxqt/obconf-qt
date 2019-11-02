@@ -19,7 +19,7 @@
     <message>
         <location filename="../obconf.ui" line="14"/>
         <source>Window Manager Preferences</source>
-        <translation>Einstellungen der Fensterverwaltung</translation>
+        <translation>Einstellungen des Fenstermanagers</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="38"/>
@@ -85,7 +85,7 @@
     <message>
         <location filename="../obconf.ui" line="127"/>
         <source>A&amp;nimate iconify and restore</source>
-        <translation>Minimieren und Wiederherstellen &amp;animieren</translation>
+        <translation>&amp;Animiere das Minimieren und Wiederherstellen</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="137"/>
@@ -107,12 +107,12 @@ C: Close
 S: Shade (Roll up)
 D: Omnipresent (On all desktops)</source>
         <translation>N: Fenstersymbol
-L: Fensterbezeichnung (Titel)
+L: Fenstertitel
 I: Minimieren
 M: Maximieren
 C: Schließen
-S: Einklappen (Hochrollen)
-D: Omnipräsent (auf allen Schreibtischen)</translation>
+S: Einklappen
+D: Präsent auf allen Arbeitsflächen</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="231"/>
@@ -132,7 +132,7 @@ D: Omnipräsent (auf allen Schreibtischen)</translation>
     <message>
         <location filename="../obconf.ui" line="261"/>
         <source>&amp;Menu Item: </source>
-        <translation>&amp;Menüpunkt: </translation>
+        <translation>Menüelement: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="271"/>
@@ -147,22 +147,22 @@ D: Omnipräsent (auf allen Schreibtischen)</translation>
     <message>
         <location filename="../obconf.ui" line="295"/>
         <source>Focus &amp;new windows when they appear</source>
-        <translation>&amp;Neue Fenster beim Erscheinen fokussieren</translation>
+        <translation>Fokussiere &amp;neue Fenster beim Erscheinen</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="302"/>
         <source>&amp;Place new windows under the mouse pointer</source>
-        <translation>Neue Fenster unter dem Mauszeiger &amp;platzieren</translation>
+        <translation>&amp;Platziere neue Fenster unter den Mauszeiger</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="309"/>
         <source>&amp;Center new windows when they are placed</source>
-        <translation>Neue Fenster &amp;zentrieren, wenn sie platziert werden</translation>
+        <translation>&amp;Zentriere neue Fenster</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="318"/>
         <source>Prefer to place new windows &amp;on:</source>
-        <translation>Neue Fenster v&amp;orzugsweise platzieren auf:</translation>
+        <translation>Platziere vorzugsweise neue Fenster &amp;auf:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="329"/>
@@ -177,7 +177,7 @@ D: Omnipräsent (auf allen Schreibtischen)</translation>
     <message>
         <location filename="../obconf.ui" line="339"/>
         <source>The monitor with the mouse</source>
-        <translation>Der Bildschirm mit der Maus</translation>
+        <translation>Der Bildschirm auf dem sich der Mauszeiger befindet</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="344"/>
@@ -263,7 +263,7 @@ D: Omnipräsent (auf allen Schreibtischen)</translation>
         <location filename="../obconf.ui" line="549"/>
         <location filename="../obconf.ui" line="578"/>
         <source>Centered</source>
-        <translation>Fenstermitte</translation>
+        <translation>Zentriert</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="554"/>
@@ -451,8 +451,8 @@ D: Omnipräsent (auf allen Schreibtischen)</translation>
     <message>
         <location filename="../obconf.ui" line="1025"/>
         <source>The dock is a special container for &quot;dockapps&quot;, or dock applications.  It is not visible on screen until a dockapp is run.  Dockapps can be used to show things like a clock, or to provide you with a system tray.</source>
-        <translation>Das &quot;dock&quot; ist ein graphisches Objekt zum Vorhalten sogenannter dock-Anwendungen (&quot;dockapps&quot;), die z. B. eine Uhr oder Benachrichtigungen anzeigen können.
-Das dock wird erst nach dem Starten von dockapps sichtbar.</translation>
+        <translation>Das &quot;Dock&quot; ist ein graphisches Objekt zum Vorhalten sogenannter Dock-Anwendungen (&quot;dockapps&quot;), die z. B. eine Uhr oder Benachrichtigungen anzeigen können.
+Das Dock wird erst nach dem Starten von Dock-Anwendungen sichtbar.</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1041"/>
@@ -467,17 +467,17 @@ Das dock wird erst nach dem Starten von dockapps sichtbar.</translation>
     <message>
         <location filename="../obconf.ui" line="1067"/>
         <source>Top Left</source>
-        <translation>oben links</translation>
+        <translation>Oben Links</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1072"/>
         <source>Top</source>
-        <translation>oben zentriert</translation>
+        <translation>Oben</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1077"/>
         <source>Top Right</source>
-        <translation>oben rechts</translation>
+        <translation>Oben Rechts</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1082"/>
@@ -522,7 +522,7 @@ Das dock wird erst nach dem Starten von dockapps sichtbar.</translation>
     <message>
         <location filename="../obconf.ui" line="1162"/>
         <source>Allow &amp;windows to be placed within the dock&apos;s area</source>
-        <translation>Positionieren von &amp;Fenstern über dem dock erlauben</translation>
+        <translation>Positionieren von &amp;Fenstern über dem Dock erlauben</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1169"/>
@@ -532,12 +532,12 @@ Das dock wird erst nach dem Starten von dockapps sichtbar.</translation>
     <message>
         <location filename="../obconf.ui" line="1183"/>
         <source>Vertical</source>
-        <translation>vertikal</translation>
+        <translation>Vertikal</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1188"/>
         <source>Horizontal</source>
-        <translation>horizontal</translation>
+        <translation>Horizontal</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1199"/>
@@ -547,17 +547,17 @@ Das dock wird erst nach dem Starten von dockapps sichtbar.</translation>
     <message>
         <location filename="../obconf.ui" line="1205"/>
         <source>Keep dock &amp;above other windows</source>
-        <translation>immer im &amp;Vordergrund</translation>
+        <translation>Immer im &amp;Vordergrund</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1212"/>
         <source>A&amp;llow dock to be both above and below windows</source>
-        <translation>analog &amp;regulären Fenstern (Vorder- und Hintergrund möglich)</translation>
+        <translation type="unfinished">Analog &amp;regulären Fenstern (Vorder- und Hintergrund möglich)</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1219"/>
         <source>Keep dock &amp;below other windows</source>
-        <translation>immer im &amp;Hintergrund</translation>
+        <translation>Immer im &amp;Hintergrund</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1229"/>
@@ -590,7 +590,7 @@ Das dock wird erst nach dem Starten von dockapps sichtbar.</translation>
     <message>
         <location filename="../theme.cpp" line="149"/>
         <source>Choose an Openbox theme</source>
-        <translation>Auswahl des Openbox Themas</translation>
+        <translation>Auswahl des Openbox-Themas</translation>
     </message>
     <message>
         <location filename="../desktops.cpp" line="65"/>
@@ -622,7 +622,7 @@ The program is based on ObConf developed by the following developers.
 * Dana Jansens &lt;danakj@orodu.net&gt;
 * Tim Riley &lt;tr@slackzone.org&gt;
 * Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</source>
-        <translation>graphische Benutzeroberfläche zur Konfiguration des Fenstermanagers Openbox
+        <translation>Graphische Benutzeroberfläche zur Konfiguration von Openbox
 
 Copyright (c) 2014-2015
 
@@ -640,7 +640,7 @@ Das Programm basiert auf ObConf, entwickelt von
     <message>
         <location filename="../archive.cpp" line="26"/>
         <source>&quot;%1&quot; was installed to %2</source>
-        <translation type="unfinished">&quot;%2&quot; wurde nach %2 installiert {1&quot;?}</translation>
+        <translation>&quot;%1&quot; wurde nach %2 installiert</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="53"/>
@@ -653,19 +653,19 @@ Das Programm basiert auf ObConf, entwickelt von
 The following errors were reported:
 %2</source>
         <translation>Erstellung des Themenarchivs &quot;%1&quot; ist fehlgeschlagen.
-        Die folgenden Fehlermeldungen wurden mitgeteilt:
-        %2</translation>
+Die folgenden Fehlermeldungen wurden mitgeteilt:
+ %2</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="95"/>
         <location filename="../archive.cpp" line="178"/>
         <source>Unable to run the &quot;tar&quot; command: %1</source>
-        <translation>&quot;tar&quot; Befehl %1 kann nicht ausgeführt werden</translation>
+        <translation>&quot;tar&quot; Befehl %1 konnte nicht ausgeführt werden</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="115"/>
         <source>Unable to create directory &quot;%1&quot;: %2</source>
-        <translation>Verzeichnis &quot;%1&quot; kann nicht erstellt werden: %2</translation>
+        <translation>Verzeichnis &quot;%1&quot; konnte nicht erstellt werden: %2</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="138"/>
@@ -675,7 +675,7 @@ The following errors were reported:
     <message>
         <location filename="../archive.cpp" line="148"/>
         <source>Unable to move to directory &quot;%1&quot;: %2</source>
-        <translation>Verzeichnis &quot;%1&quot; kann nicht verschoben werden: %2</translation>
+        <translation>Verzeichnis &quot;%1&quot; konnte nicht verschoben werden: %2</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="185"/>
@@ -691,7 +691,7 @@ The following errors were reported:
     <message>
         <location filename="../obconf-qt.cpp" line="53"/>
         <source>ObConf Error</source>
-        <translation>ObConf-Qt Fehler</translation>
+        <translation>ObConf Fehler</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="58"/>
