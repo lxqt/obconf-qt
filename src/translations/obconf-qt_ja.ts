@@ -271,7 +271,7 @@ D: すべてのデスクトップに表示</translation>
     <message>
         <location filename="../obconf.ui" line="1025"/>
         <source>The dock is a special container for &quot;dockapps&quot;, or dock applications.  It is not visible on screen until a dockapp is run.  Dockapps can be used to show things like a clock, or to provide you with a system tray.</source>
-        <translation>ドックは &quot;dockapps&quot; やドック用アプリケーションのためのコンテナです。dockapp を実行するまで画面に表示されません。Dockapps には時計ような物をおいたり、システムトレイのように使うことが出来ます。</translation>
+        <translation>ドックは &quot;dockapps&quot; やドック用アプリケーションのためのコンテナです。それはdockapp を実行するまで画面に表示されません。Dockapps には時計ような物をおいたり、システムトレイのように使うことが出来ます。</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1041"/>
