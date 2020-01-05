@@ -552,7 +552,7 @@ Das Dock wird erst nach dem Starten von Dock-Anwendungen sichtbar.</translation>
     <message>
         <location filename="../obconf.ui" line="1212"/>
         <source>A&amp;llow dock to be both above and below windows</source>
-        <translation type="unfinished">Analog &amp;regulären Fenstern (Vorder- und Hintergrund möglich)</translation>
+        <translation>Dock sowohl über als auch unter Fenstern zu&amp;lassen</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1219"/>
