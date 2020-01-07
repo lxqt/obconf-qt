@@ -65,7 +65,7 @@
     <message>
         <location filename="../obconf.ui" line="78"/>
         <source>Dock</source>
-        <translation>Dock</translation>
+        <translation>Panel</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="96"/>
