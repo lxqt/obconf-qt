@@ -373,7 +373,7 @@ D: На все рабочие столы</translation>
     <message>
         <location filename="../obconf.ui" line="774"/>
         <source>Double click on the &amp;titlebar:</source>
-        <translation>Двойной клик на &amp;заголовке окна:</translation>
+        <translation>Двойной щелчок на &amp;заголовке окна:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="785"/>
@@ -388,7 +388,7 @@ D: На все рабочие столы</translation>
     <message>
         <location filename="../obconf.ui" line="798"/>
         <source>Double click ti&amp;me:</source>
-        <translation>&amp;Время двойного клика:</translation>
+        <translation>&amp;Время двойного щелчка:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="838"/>
