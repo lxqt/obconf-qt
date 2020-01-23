@@ -6,7 +6,7 @@
     <message>
         <location filename="../fontbutton.cpp" line="46"/>
         <source>Bold</source>
-        <translation>Tučné</translation>
+        <translation>Zvýraznené</translation>
     </message>
     <message>
         <location filename="../fontbutton.cpp" line="50"/>
@@ -639,7 +639,7 @@ Program je založený na ObConf vyvinutom nasledujúcimi vývojármi.
     <message>
         <location filename="../archive.cpp" line="26"/>
         <source>&quot;%1&quot; was installed to %2</source>
-        <translation type="unfinished">„%1“ bolo nainštalované do %2</translation>
+        <translation>„%1“ bolo nainštalované do %2</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="53"/>
