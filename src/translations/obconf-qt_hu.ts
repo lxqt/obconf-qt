@@ -34,7 +34,7 @@
     <message>
         <location filename="../obconf.ui" line="48"/>
         <source>Font</source>
-        <translation>Betű</translation>
+        <translation>Betűtípus</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="53"/>
@@ -85,7 +85,7 @@
     <message>
         <location filename="../obconf.ui" line="127"/>
         <source>A&amp;nimate iconify and restore</source>
-        <translation>Ikonosítás és a visszaállítás &amp;animált</translation>
+        <translation>Ikonosítás és a visszaállítás &amp;animálása</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="137"/>
@@ -108,11 +108,11 @@ S: Shade (Roll up)
 D: Omnipresent (On all desktops)</source>
         <translation>N: Ablakikon
 L: Ablakcímke (Név)
-I: Ikonosít (Minimalizál)
-M: Maximál
-C: Bezár
-S: Elrejt (Felgördít)
-D: Állandósít (Minden asztalon van)</translation>
+I: Ikonosítás (Minimalizálás)
+M: Maximalizálás
+C: Bezárás
+S: Elrejtés (Felgördítés)
+D: Állandósítás (Minden asztalon van)</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="231"/>
@@ -212,7 +212,7 @@ D: Állandósít (Minden asztalon van)</translation>
     <message>
         <location filename="../obconf.ui" line="391"/>
         <source>Monitor With Mouse Pointer</source>
-        <translation>Egeres kijelző</translation>
+        <translation>Kijelző ahol az egér tartózkodik</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="399"/>
@@ -333,7 +333,7 @@ D: Állandósít (Minden asztalon van)</translation>
     <message>
         <location filename="../obconf.ui" line="670"/>
         <source>Fixed position on screen</source>
-        <translation>A kijelző rögzített helyén</translation>
+        <translation>Rögzített helyzet a kijelzőn</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="701"/>
@@ -358,12 +358,12 @@ D: Állandósít (Minden asztalon van)</translation>
     <message>
         <location filename="../obconf.ui" line="749"/>
         <source>Move focus &amp;under the mouse when the mouse is not moving</source>
-        <translation>Fók&amp;usz az egérhez, ha az mozdulatlan</translation>
+        <translation>Fók&amp;usz az egérhez, ha az nem mozdul</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="756"/>
         <source>&amp;Raise windows when the mouse pointer moves over them</source>
-        <translation>Ablakkiemelés, ha az egé&amp;rkurzor odamegy</translation>
+        <translation>Ablakkiemelés, ha az egé&amp;rkurzor fölé megy</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="768"/>
@@ -436,7 +436,7 @@ D: Állandósít (Minden asztalon van)</translation>
     <message>
         <location filename="../obconf.ui" line="942"/>
         <source>Top:</source>
-        <translation>Fenn:</translation>
+        <translation>Fent:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="963"/>
@@ -446,7 +446,7 @@ D: Állandósít (Minden asztalon van)</translation>
     <message>
         <location filename="../obconf.ui" line="984"/>
         <source>Bottom:</source>
-        <translation>Lenn:</translation>
+        <translation>Lent:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1025"/>
@@ -461,7 +461,7 @@ D: Állandósít (Minden asztalon van)</translation>
     <message>
         <location filename="../obconf.ui" line="1053"/>
         <source>&amp;Position:</source>
-        <translation>&amp;Hely:</translation>
+        <translation>&amp;Helyzet:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1067"/>
@@ -471,12 +471,12 @@ D: Állandósít (Minden asztalon van)</translation>
     <message>
         <location filename="../obconf.ui" line="1072"/>
         <source>Top</source>
-        <translation>Fenn</translation>
+        <translation>Fent</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1077"/>
         <source>Top Right</source>
-        <translation>Fenn jobbra</translation>
+        <translation>Fent jobbra</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1082"/>
@@ -496,12 +496,12 @@ D: Állandósít (Minden asztalon van)</translation>
     <message>
         <location filename="../obconf.ui" line="1097"/>
         <source>Bottom</source>
-        <translation>Lenn</translation>
+        <translation>Lent</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1102"/>
         <source>Bottom Right</source>
-        <translation>Lenn jobbra</translation>
+        <translation>Lent jobbra</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1107"/>
@@ -521,7 +521,7 @@ D: Állandósít (Minden asztalon van)</translation>
     <message>
         <location filename="../obconf.ui" line="1162"/>
         <source>Allow &amp;windows to be placed within the dock&apos;s area</source>
-        <translation>A&amp;z ablakok a dokkoló területén is elhelyezkedhetnek</translation>
+        <translation>A&amp;z ablakok a dokk területén is elhelyezkedhetnek</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1169"/>
@@ -541,7 +541,7 @@ D: Állandósít (Minden asztalon van)</translation>
     <message>
         <location filename="../obconf.ui" line="1199"/>
         <source>Stacking</source>
-        <translation>Kupacolt</translation>
+        <translation>Réteg</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1205"/>
@@ -571,7 +571,7 @@ D: Állandósít (Minden asztalon van)</translation>
     <message>
         <location filename="../obconf.ui" line="1245"/>
         <source>Delay before &amp;showing:</source>
-        <translation>Megjelené&amp;si késleltetés:</translation>
+        <translation>Megjeleníté&amp;si késleltetés:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1275"/>
@@ -581,7 +581,7 @@ D: Állandósít (Minden asztalon van)</translation>
     <message>
         <location filename="../obconf.ui" line="1306"/>
         <source>About</source>
-        <translation>A programról</translation>
+        <translation>Névjegy</translation>
     </message>
 </context>
 <context>
@@ -589,7 +589,7 @@ D: Állandósít (Minden asztalon van)</translation>
     <message>
         <location filename="../theme.cpp" line="149"/>
         <source>Choose an Openbox theme</source>
-        <translation>Válassz Openbox témát</translation>
+        <translation>Válasszon Openbox témát</translation>
     </message>
     <message>
         <location filename="../desktops.cpp" line="65"/>
@@ -606,7 +606,7 @@ D: Állandósít (Minden asztalon van)</translation>
     <message>
         <location filename="../maindialog.cpp" line="76"/>
         <source>About ObConf-Qt</source>
-        <translation>Az ObConf-Qt</translation>
+        <translation>ObConf-Qt névjegye</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="77"/>
@@ -674,7 +674,7 @@ A hibajelentés:
     <message>
         <location filename="../archive.cpp" line="148"/>
         <source>Unable to move to directory &quot;%1&quot;: %2</source>
-        <translation>Nem mozgatható könyvtár &quot;%1&quot;: %2</translation>
+        <translation>Nem áthelyezhető a könyvtár &quot;%1&quot;: %2</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="185"/>
