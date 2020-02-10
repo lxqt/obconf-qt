@@ -684,9 +684,9 @@ Please ensure that &quot;%2&quot; is writable and that the file is a valid Openb
 The following errors were reported:
 %3</source>
         <translation>Datei &quot;%1&quot; kann nicht entpackt werden.
-        Bitte sicherstellen, dass &quot;%2&quot; beschrieben werden kann und die Datei ein korrektes Archiv mit einem Openbox Thema ist.
-        Folgende Fehlermeldungen wurden mitgeteilt:
-        %3</translation>
+Bitte sicherstellen, dass &quot;%2&quot; beschrieben werden kann und die Datei ein korrektes Archiv mit einem Openbox Thema ist.
+Folgende Fehlermeldungen wurden mitgeteilt:
+%3</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="53"/>
