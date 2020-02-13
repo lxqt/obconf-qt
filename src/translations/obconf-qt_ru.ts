@@ -358,7 +358,7 @@ D: На все рабочие столы</translation>
     <message>
         <location filename="../obconf.ui" line="749"/>
         <source>Move focus &amp;under the mouse when the mouse is not moving</source>
-        <translation>Передавать фокус  &amp;под курсор, когда мышь не двигается</translation>
+        <translation>Передавать фокус &amp;под курсор, когда мышь не двигается</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="756"/>
@@ -451,7 +451,7 @@ D: На все рабочие столы</translation>
     <message>
         <location filename="../obconf.ui" line="1025"/>
         <source>The dock is a special container for &quot;dockapps&quot;, or dock applications.  It is not visible on screen until a dockapp is run.  Dockapps can be used to show things like a clock, or to provide you with a system tray.</source>
-        <translation>Док - это специальный контейнер для &quot;dockapps&quot;, или приложений дока. Он не отображается на экране, пока не запущены эти приложения. Приложения дока могут быть использованы для показа таких вещей, как часы, или отображения системного лотка.</translation>
+        <translation>Док - это специальный контейнер для «dockapps», или приложений дока. Он не отображается на экране, пока не запущены эти приложения. Приложения дока могут быть использованы для показа таких вещей, как часы, или отображения системного лотка.</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1041"/>
@@ -639,19 +639,19 @@ Copyright (c) 2014-2015
     <message>
         <location filename="../archive.cpp" line="26"/>
         <source>&quot;%1&quot; was installed to %2</source>
-        <translation>&quot;%1&quot; была установлена в %2</translation>
+        <translation>«%1» была установлена в %2</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="53"/>
         <source>&quot;%1&quot; was successfully created</source>
-        <translation>&quot;%1&quot; была успешно создана</translation>
+        <translation>«%1» была успешно создана</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="89"/>
         <source>Unable to create the theme archive &quot;%1&quot;.
 The following errors were reported:
 %2</source>
-        <translation>Не удалось создать архив с темой &quot;%1&quot;.
+        <translation>Не удалось создать архив с темой «%1».
 Было сообщено о следующих ошибках:
 %2</translation>
     </message>
@@ -659,7 +659,7 @@ The following errors were reported:
         <location filename="../archive.cpp" line="95"/>
         <location filename="../archive.cpp" line="178"/>
         <source>Unable to run the &quot;tar&quot; command: %1</source>
-        <translation>Не удалось запустить команду &quot;tar&quot;: %1</translation>
+        <translation>Не удалось выполнить команду «tar»: %1</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="115"/>
@@ -674,7 +674,7 @@ The following errors were reported:
     <message>
         <location filename="../archive.cpp" line="148"/>
         <source>Unable to move to directory &quot;%1&quot;: %2</source>
-        <translation>Невозможно переместить в каталог &quot;%1&quot;: %2</translation>
+        <translation>Невозможно переместить в каталог «%1»: %2</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="185"/>
@@ -682,8 +682,8 @@ The following errors were reported:
 Please ensure that &quot;%2&quot; is writable and that the file is a valid Openbox theme archive.
 The following errors were reported:
 %3</source>
-        <translation>Невозможно распаковать файл &quot;%1&quot;.
-Убедитесь в том, что &quot;%2&quot; записываемый и в том, что этот файл является корректным архивом темы Openbox.
+        <translation>Невозможно распаковать файл «%1».
+Убедитесь в том, что «%2» доступен для записи и в том, что этот файл является корректным архивом темы Openbox.
 Было сообщено о следующих ошибках:
 %3</translation>
     </message>
