@@ -639,7 +639,7 @@ A program az ObConf -on alapul, melynek fejlesztői.
     <message>
         <location filename="../archive.cpp" line="26"/>
         <source>&quot;%1&quot; was installed to %2</source>
-        <translation type="unfinished">&quot;%2&quot; installált ide: %2 {1&quot;?}</translation>
+        <translation>&quot;%1&quot; installált ide: %2</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="53"/>
