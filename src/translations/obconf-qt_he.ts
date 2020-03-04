@@ -418,7 +418,7 @@ D: נוכחות כוללת (על כל שולחנות העבודה)</translation>
     <message>
         <location filename="../obconf.ui" line="911"/>
         <source>Desktop margins are reserved areas on the edge of your screen.  New windows will not be placed within a margin, and maximized windows will not cover them.</source>
-        <translation></translation>
+        <translation>שולי שולחן העבודה הם אזורים שמורים בקצוות המסך שלך. חלונות חדשים לא יוצבו בשוליים האלה וחלונות מוגדלים לא יכסו אותם.</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="921"/>
