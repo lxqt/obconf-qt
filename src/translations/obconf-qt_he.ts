@@ -451,7 +451,7 @@ D: נוכחות כוללת (על כל שולחנות העבודה)</translation>
     <message>
         <location filename="../obconf.ui" line="1025"/>
         <source>The dock is a special container for &quot;dockapps&quot;, or dock applications.  It is not visible on screen until a dockapp is run.  Dockapps can be used to show things like a clock, or to provide you with a system tray.</source>
-        <translation></translation>
+        <translation>המעגן הוא מכולה מיוחדת ל„יישומי מעגן”. הוא אינו מופיע על המסך עד להפעלת יישום מעגן. ניתן להשתמש ביישומי מעגן כדי להציג דברים כמו שעון או לספק לך את מגש המערכת.</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1041"/>
@@ -651,7 +651,9 @@ The program is based on ObConf developed by the following developers.
         <source>Unable to create the theme archive &quot;%1&quot;.
 The following errors were reported:
 %2</source>
-        <translation></translation>
+        <translation>לא ניתן ליצור את ארכיון ערכת העיצוב „%1”.
+דווחו השגיאות הבאות:
+%2</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="95"/>
@@ -667,7 +669,7 @@ The following errors were reported:
     <message>
         <location filename="../archive.cpp" line="138"/>
         <source>&quot;%1&quot; does not appear to be a valid Openbox theme directory</source>
-        <translation></translation>
+        <translation>&quot;%1&quot; אינה תיקייה תקנית עם ערכת עיצוב של Openbox</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="148"/>
@@ -680,7 +682,10 @@ The following errors were reported:
 Please ensure that &quot;%2&quot; is writable and that the file is a valid Openbox theme archive.
 The following errors were reported:
 %3</source>
-        <translation></translation>
+        <translation>לא ניתן לחלץ את הקובץ „%1”.
+נא לוודא שניתן לכתוב אל &quot;%2&quot; ושהקובץ הוא ארכיון ערכת נושא תקני של Openbox.
+דווחו השגיאות הבאות:
+%3</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="53"/>
@@ -699,7 +704,16 @@ This is free software, and you are welcome to redistribute it
 under certain conditions. See the file COPYING for details.
 
 </source>
-        <translation></translation>
+        <translation>כל הזכויות שמורות (c) 2003‏-2008   Dana Jansens
+כל הזכויות שמורות (c) 2003‏        Tim Riley
+כל הזכויות שמורות (c) 2007‏        Javeed Shaikh
+כל הזכויות שמורות (c) 2013‏        Hong Jen Yee (PCMan)
+
+תכנית זו מופצת ללא שום אחריות.
+זו תכנה חופשית, ומותר לך להפיץ אותה כאוות נפשך
+תחת תנאים מסוימים. הפרטים מופיעים בקובץ COPYING.
+
+</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="73"/>
