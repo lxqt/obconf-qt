@@ -750,7 +750,7 @@ Options:
         <location filename="../obconf-qt.cpp" line="223"/>
         <location filename="../obconf-qt.cpp" line="238"/>
         <source>Error</source>
-        <translation></translation>
+        <translation>שגיאה</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="224"/>
