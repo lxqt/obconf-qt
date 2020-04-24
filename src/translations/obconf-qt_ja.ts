@@ -446,12 +446,12 @@ D: すべてのデスクトップに表示</translation>
     <message>
         <location filename="../obconf.ui" line="271"/>
         <source>Active &amp;On-screen display: </source>
-        <translation>アクティブなオンスクリーンディスプレイ(&amp;O): </translation>
+        <translation>オンスクリーンディスプレイ内のアクティブ(&amp;O): </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="281"/>
         <source>Inactive O&amp;n-screen display: </source>
-        <translation>非アクティブなオンスクリーンディスプレイ(&amp;N): </translation>
+        <translation>オンスクリーンディスプレイ内の非アクティブ(&amp;N): </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="295"/>
