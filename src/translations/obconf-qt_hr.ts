@@ -6,7 +6,7 @@
     <message>
         <location filename="../fontbutton.cpp" line="46"/>
         <source>Bold</source>
-        <translation>Masno</translation>
+        <translation>Podebljano</translation>
     </message>
     <message>
         <location filename="../fontbutton.cpp" line="50"/>
@@ -24,7 +24,7 @@
     <message>
         <location filename="../obconf.ui" line="14"/>
         <source>Window Manager Preferences</source>
-        <translation>Osobitosti upravitelja prozora</translation>
+        <translation>Upravljač prozora – Postavke</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="38"/>
@@ -50,7 +50,7 @@
     <message>
         <location filename="../obconf.ui" line="58"/>
         <source>Move &amp; Resize</source>
-        <translation>Pomakni &amp; promjeni veličinu</translation>
+        <translation>Premještanje i mijenjanje veličine</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="68"/>
@@ -65,7 +65,7 @@
     <message>
         <location filename="../obconf.ui" line="78"/>
         <source>Dock</source>
-        <translation type="unfinished"></translation>
+        <translation>Dok</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="137"/>
@@ -75,12 +75,12 @@
     <message>
         <location filename="../obconf.ui" line="143"/>
         <source>Button order:</source>
-        <translation>Redoslijed dugmadi:</translation>
+        <translation>Redoslijed gumba:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="439"/>
         <source>Moving and Resizing Windows</source>
-        <translation>Pomicanje i promjena veličine prozora</translation>
+        <translation>Premještanje i mijenjanje veličine prozora</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="542"/>
@@ -90,12 +90,12 @@
     <message>
         <location filename="../obconf.ui" line="701"/>
         <source>Focusing Windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Fokusiranje prozora</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="710"/>
         <source>Focus windows when the mouse pointer moves over them</source>
-        <translation type="unfinished"></translation>
+        <translation>Fokusiraj prozore kad pokazivač miša prelazi preko njih</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="768"/>
@@ -110,7 +110,7 @@
     <message>
         <location filename="../obconf.ui" line="911"/>
         <source>Desktop margins are reserved areas on the edge of your screen.  New windows will not be placed within a margin, and maximized windows will not cover them.</source>
-        <translation type="unfinished"></translation>
+        <translation>Margine radne površine su rezervirana područja na rubu ekrana. Novi prozori neće biti postavljeni unutar margina, a maksimalno prošireni prozori ih neće pokriti.</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="921"/>
@@ -128,7 +128,7 @@
     <message>
         <location filename="../obconf.ui" line="942"/>
         <source>Top:</source>
-        <translation>Vrh:</translation>
+        <translation>Gore:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="963"/>
@@ -138,12 +138,12 @@
     <message>
         <location filename="../obconf.ui" line="984"/>
         <source>Bottom:</source>
-        <translation>Dno:</translation>
+        <translation>Dolje:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="329"/>
         <source>All monitors</source>
-        <translation>Svi monitori</translation>
+        <translation>Sve monitore</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="334"/>
@@ -153,7 +153,7 @@
     <message>
         <location filename="../obconf.ui" line="339"/>
         <source>The monitor with the mouse</source>
-        <translation>Monitor s  mišem</translation>
+        <translation>Monitor s mišem</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="354"/>
@@ -163,12 +163,12 @@
     <message>
         <location filename="../obconf.ui" line="360"/>
         <source>The primary monitor is where Openbox will place dialogs, such as the one used for cycling windows.</source>
-        <translation type="unfinished"></translation>
+        <translation>Osnovni monitor je mjesto, gdje Openbox smješta dijaloge, kao što je dijalog za kretanje po prozorima.</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="381"/>
         <source>Fixed Monitor</source>
-        <translation type="unfinished"></translation>
+        <translation>Fiksan monitor</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="386"/>
@@ -178,7 +178,7 @@
     <message>
         <location filename="../obconf.ui" line="391"/>
         <source>Monitor With Mouse Pointer</source>
-        <translation>Monitor sa pokazivačem miša</translation>
+        <translation>Monitor s pokazivačem miša</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="549"/>
@@ -209,7 +209,7 @@
     <message>
         <location filename="../obconf.ui" line="641"/>
         <source>When resizing terminal windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Pri mijenjanju veličine prozora terminala</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="646"/>
@@ -234,17 +234,17 @@
     <message>
         <location filename="../obconf.ui" line="670"/>
         <source>Fixed position on screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Fiksan pložaj na ekranu</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="785"/>
         <source>Maximizes the window</source>
-        <translation type="unfinished"></translation>
+        <translation>Proširuje prozor maksimalno</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="790"/>
         <source>Shades the window</source>
-        <translation>Osjenčava prozor</translation>
+        <translation>Sklapa prozor u naslovnu traku</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="153"/>
@@ -255,7 +255,13 @@ M: Maximize
 C: Close
 S: Shade (Roll up)
 D: Omnipresent (On all desktops)</source>
-        <translation type="unfinished"></translation>
+        <translation>N: Ikona prozora
+L: Oznaka prozora (naslov)
+I: Smanji na ikonu (sklopi u programsku traku)
+M: Maksimalno proširi prozor
+C: Zatvori
+S: Roleta (sklopi u naslovnu traku)
+D: Sveprisutno (na svim radnim površinama)</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="344"/>
@@ -265,207 +271,207 @@ D: Omnipresent (On all desktops)</source>
     <message>
         <location filename="../obconf.ui" line="1025"/>
         <source>The dock is a special container for &quot;dockapps&quot;, or dock applications.  It is not visible on screen until a dockapp is run.  Dockapps can be used to show things like a clock, or to provide you with a system tray.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dok je poseban kontejner za tzv. „dok-aplikacije”. Na ekranu se vide tek kad se pokrenu. Dok-aplikacije se koriste za prikaz stvari poput sata ili programske trake.</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1041"/>
         <source>Position</source>
-        <translation type="unfinished"></translation>
+        <translation>Mjesto</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1053"/>
         <source>&amp;Position:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Mjesto:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1067"/>
         <source>Top Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Gore lijevo</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1072"/>
         <source>Top</source>
-        <translation type="unfinished"></translation>
+        <translation>Gore</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1077"/>
         <source>Top Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Gore desno</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1082"/>
         <source>Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Lijevo</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1087"/>
         <source>Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Desno</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1092"/>
         <source>Bottom Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Dolje lijevo</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1097"/>
         <source>Bottom</source>
-        <translation type="unfinished"></translation>
+        <translation>Dolje</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1102"/>
         <source>Bottom Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Dolje desno</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1107"/>
         <source>Floating</source>
-        <translation type="unfinished"></translation>
+        <translation>Plutanje</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1121"/>
         <source>&amp;Floating position:</source>
-        <translation type="unfinished"></translation>
+        <translation>Mjest&amp;o plutanja:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1146"/>
         <source>x</source>
-        <translation type="unfinished"></translation>
+        <translation>×</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1162"/>
         <source>Allow &amp;windows to be placed within the dock&apos;s area</source>
-        <translation type="unfinished"></translation>
+        <translation>Dozvoli da se pro&amp;zori smjeste unutar područja doka</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1169"/>
         <source>&amp;Orientation: </source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Položaj: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1183"/>
         <source>Vertical</source>
-        <translation type="unfinished"></translation>
+        <translation>Okomito</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1188"/>
         <source>Horizontal</source>
-        <translation type="unfinished"></translation>
+        <translation>Vodoravno</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1199"/>
         <source>Stacking</source>
-        <translation type="unfinished"></translation>
+        <translation>Naslaganje</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1205"/>
         <source>Keep dock &amp;above other windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Z&amp;adrži dok iznad ostalih prozora</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1212"/>
         <source>A&amp;llow dock to be both above and below windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Dozvo&amp;li da dok bude iznad i ispod prozora</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1219"/>
         <source>Keep dock &amp;below other windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Zadrži dok ispod &amp;ostalih prozora</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1229"/>
         <source>Hiding</source>
-        <translation type="unfinished"></translation>
+        <translation>Skrivanje</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1235"/>
         <source>&amp;Delay before hiding:</source>
-        <translation type="unfinished"></translation>
+        <translation>O&amp;dgoda prije skrivanja:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1245"/>
         <source>Delay before &amp;showing:</source>
-        <translation type="unfinished"></translation>
+        <translation>Odgoda prije prika&amp;zivanja:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1275"/>
         <source>&amp;Hide off screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Sakrij iz&amp;van ekrana</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1306"/>
         <source>About</source>
-        <translation>O programu</translation>
+        <translation>Informacije</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="96"/>
         <source>&amp;Install a new theme...</source>
-        <translation>Instaliraj novu temu…</translation>
+        <translation>&amp;Instaliraj novu temu …</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="103"/>
         <source>Create a theme &amp;archive (.obt)...</source>
-        <translation>Napravi temu i arhivu (.obt)...</translation>
+        <translation>Stvori &amp;arhivu teme (.obt) …</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="120"/>
         <source>&amp;Windows retain a border when undecorated</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Prozori zadržavaju rub kad se uklone dekoracije</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="127"/>
         <source>A&amp;nimate iconify and restore</source>
-        <translation type="unfinished"></translation>
+        <translation>A&amp;nimiraj smanjivanje na ikonu i obnovi</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="231"/>
         <source>&amp;Active window title: </source>
-        <translation>&amp;Aktivni naslov prozora: </translation>
+        <translation>Naslov &amp;aktivnog prozora: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="241"/>
         <source>&amp;Inactive window title: </source>
-        <translation>&amp;Neaktivni naslov prozora: </translation>
+        <translation>Naslov &amp;neaktivnog prozora: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="251"/>
         <source>Menu &amp;header: </source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zaglavlje izbornika: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="261"/>
         <source>&amp;Menu Item: </source>
-        <translation>&amp;Stavka izbornika: </translation>
+        <translation>&amp;Element izbornika: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="271"/>
         <source>Active &amp;On-screen display: </source>
-        <translation type="unfinished"></translation>
+        <translation>A&amp;ktivan prikaz na ekranu: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="281"/>
         <source>Inactive O&amp;n-screen display: </source>
-        <translation type="unfinished"></translation>
+        <translation>Akti&amp;van prikaz na ekranu: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="295"/>
         <source>Focus &amp;new windows when they appear</source>
-        <translation type="unfinished"></translation>
+        <translation>Fokusiraj &amp;nove prozore kad se pojave</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="302"/>
         <source>&amp;Place new windows under the mouse pointer</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Smjesti nove prozore na mjesto pokazivača miša</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="309"/>
         <source>&amp;Center new windows when they are placed</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Centriraj nove prozore kad se smještaju</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="318"/>
         <source>Prefer to place new windows &amp;on:</source>
-        <translation type="unfinished"></translation>
+        <translation>Smjesti n&amp;ove prozore na:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="370"/>
@@ -475,27 +481,27 @@ D: Omnipresent (On all desktops)</source>
     <message>
         <location filename="../obconf.ui" line="399"/>
         <source>&amp;Fixed monitor:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Fiksan monitor:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="445"/>
         <source>Update the window contents while &amp;resizing</source>
-        <translation>Ažuriraj sadtžaj prizora za vrijeme &amp;promjene veličine</translation>
+        <translation>Aktualiziraj sadržaj prozora pri &amp;mijenjanju veličine</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="452"/>
         <source>Drag &amp;threshold distance:</source>
-        <translation type="unfinished"></translation>
+        <translation>Daljina praga po&amp;vlačenja:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="472"/>
         <source>Amount of resistance against other &amp;windows:</source>
-        <translation type="unfinished"></translation>
+        <translation>Količina otpora prema drugim pro&amp;zorima:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="492"/>
         <source>Amount of resistance against screen &amp;edges:</source>
-        <translation type="unfinished"></translation>
+        <translation>Količina otpora prema rubovima &amp;ekrana:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="512"/>
@@ -505,47 +511,47 @@ D: Omnipresent (On all desktops)</source>
     <message>
         <location filename="../obconf.ui" line="532"/>
         <source>&amp;Switch desktops when moving a window past the screen edge</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zamijeni radne površine prilikom povlačenja prozora van ruba ekrana</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="567"/>
         <source>Fixed &amp;y position:</source>
-        <translation type="unfinished"></translation>
+        <translation>Fiksan &amp;y položaj:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="596"/>
         <source>Information dialog&apos;s &amp;position:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Položaj informacijskog dijaloga:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="606"/>
         <source>Fixed &amp;x position:</source>
-        <translation type="unfinished"></translation>
+        <translation>Fiksan &amp;x položaj:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="616"/>
         <source>Show &amp;information dialog:</source>
-        <translation>Pokaži &amp;informacijski dijalog:</translation>
+        <translation>Prikaži &amp;informacijski dijalog:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="722"/>
         <source>&amp;Delay before focusing and raising windows:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Odgodi fokusiranje i dizanje prozora:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="742"/>
         <source>Move focus under the mouse when &amp;switching desktops</source>
-        <translation type="unfinished"></translation>
+        <translation>Premje&amp;sti fokus ispod pokazivača miša prilikom mijenjanja radne površine</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="749"/>
         <source>Move focus &amp;under the mouse when the mouse is not moving</source>
-        <translation type="unfinished"></translation>
+        <translation>Pre&amp;mjesti fokus ispod pokazivača miša kad se miš ne kreće</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="756"/>
         <source>&amp;Raise windows when the mouse pointer moves over them</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Digni prozore kad pokazivač miša pređe preko njih</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="774"/>
@@ -560,12 +566,12 @@ D: Omnipresent (On all desktops)</source>
     <message>
         <location filename="../obconf.ui" line="838"/>
         <source>&amp;Show a notification when switching desktops</source>
-        <translation>&amp;Pokaži obavjest kada prebacuješ radne površine</translation>
+        <translation>&amp;Pokaži obavijest prilikom mijenjanja radne površine</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="845"/>
         <source>&amp;Amount of time to show the notification for:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Trajanje prikaza obavijesti:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="868"/>
@@ -595,7 +601,7 @@ D: Omnipresent (On all desktops)</source>
     <message>
         <location filename="../maindialog.cpp" line="76"/>
         <source>About ObConf-Qt</source>
-        <translation>O ObConf-Qt</translation>
+        <translation>ObConf-Qt informacije</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="77"/>
@@ -610,12 +616,22 @@ The program is based on ObConf developed by the following developers.
 * Dana Jansens &lt;danakj@orodu.net&gt;
 * Tim Riley &lt;tr@slackzone.org&gt;
 * Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Upravljač postavki za Openbox
+
+Copyright (c) 2014. – 2015.
+
+Autori:
+* Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;
+
+Osnova programa je ObConf, koji su razvili sljedeći programeri.
+* Dana Jansens &lt;danakj@orodu.net&gt;
+* Tim Riley &lt;tr@slackzone.org&gt;
+* Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</translation>
     </message>
     <message>
         <location filename="../theme.cpp" line="149"/>
         <source>Choose an Openbox theme</source>
-        <translation>Odaberite Openbox temu</translation>
+        <translation>Odaberi Openbox temu</translation>
     </message>
 </context>
 <context>
@@ -623,19 +639,19 @@ The program is based on ObConf developed by the following developers.
     <message>
         <location filename="../archive.cpp" line="26"/>
         <source>&quot;%1&quot; was installed to %2</source>
-        <translation type="unfinished">&quot;%2&quot; je bio instaliran na %2 {1&quot;?}</translation>
+        <translation>„%1” je instalirana na %2</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="53"/>
         <source>&quot;%1&quot; was successfully created</source>
-        <translation>&quot;%1&quot; je uspješno napravljen</translation>
+        <translation>„%1” je uspješno stvorena</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="89"/>
         <source>Unable to create the theme archive &quot;%1&quot;.
 The following errors were reported:
 %2</source>
-        <translation>NIje moguće napraviti arhivu teme &quot;%1&quot;.
+        <translation>NIje moguće stvoriti arhivu teme „%1”.
 Slijedeće greške su prijavljene:
 %2</translation>
     </message>
@@ -643,22 +659,22 @@ Slijedeće greške su prijavljene:
         <location filename="../archive.cpp" line="95"/>
         <location filename="../archive.cpp" line="178"/>
         <source>Unable to run the &quot;tar&quot; command: %1</source>
-        <translation>Nije moguće pokrenuti &quot;tar&quot; naredbu: %1</translation>
+        <translation>Nije moguće pokrenuti naredbu „tar”: %1</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="115"/>
         <source>Unable to create directory &quot;%1&quot;: %2</source>
-        <translation>Nije moguće napraviti direktorij &quot;%1&quot;: %2</translation>
+        <translation>Nije moguće stvoriti mapu „%1”: %2</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="138"/>
         <source>&quot;%1&quot; does not appear to be a valid Openbox theme directory</source>
-        <translation>&quot;%1&quot; nije valjani Openbox direktorij teme</translation>
+        <translation>„%1” nije valjana mapa Openbox tema</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="148"/>
         <source>Unable to move to directory &quot;%1&quot;: %2</source>
-        <translation>NIje moguće premjestiti direktorij &quot;%1&quot;: %2</translation>
+        <translation>NIje moguće premjestiti mapu „%1”: %2</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="185"/>
@@ -666,7 +682,10 @@ Slijedeće greške su prijavljene:
 Please ensure that &quot;%2&quot; is writable and that the file is a valid Openbox theme archive.
 The following errors were reported:
 %3</source>
-        <translation type="unfinished"></translation>
+        <translation>Nije moguće otpakirati datoteku „%1”.
+Osiguraj, da se „%2” može prepisati i da je datoteka valjana arhiva Openbox tema.
+Prijavljene su sljedeće greške:
+%3</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="53"/>
@@ -684,27 +703,36 @@ Options:
   --archive THEME       Create a theme archive from the given theme directory
   --config-file FILE    Specify the path to the config file to use
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Sintaksa: obconf [opcije] [ARHIVA.obt]
+
+Opcije:
+  --help                Prikaži ovu pomoć i zatvori program
+  --version             Prikaži ovu verziju i zatvori program
+  --install ARHIVA.obt Instaliraj zadanu arhivu tema i odaberi je
+  --archive TEMA       Izradi arhivu tema iz zadane mape tema
+  --config-file DATOTEKA    Odredi stazu do korištene datoteke konfiguracije
+</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="97"/>
         <source>--install requires an argument
 </source>
-        <translation>--install zahtjeva argument
+        <translation>--install zahtijeva argument
 </translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="103"/>
         <source>--archive requires an argument
 </source>
-        <translation>--archive zahtjeva argument
+        <translation>--archive zahtijeva argument
 </translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="109"/>
         <source>--config-file requires an argument
 </source>
-        <translation type="unfinished"></translation>
+        <translation>--config-file zahtijeva argument
+</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="223"/>
@@ -715,15 +743,16 @@ Options:
     <message>
         <location filename="../obconf-qt.cpp" line="224"/>
         <source>Failed to load an rc.xml. You have probably failed to install Openbox properly.</source>
-        <translation>Neuspjelo učitavanje rc.xml. Vjerojatno niste uspjeli valjano instalirati Openbox.</translation>
+        <translation>Neuspjelo učitavanje datoteke rc.xml. Vjerojatno je Openbox neispravno istaliran.</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="236"/>
         <source>Error while parsing the Openbox configuration file.  Your configuration file is not valid XML.
 
 Message: %1</source>
-        <translation>Greška prilikom analize Openbox konfiguracijske datoteke.  Vaša konfiguracijaka datoteka nije valjani XML.
-</translation>
+        <translation>Greška prilikom obrade konfiguracijske datoteke Openboxa. Tvoja datoteka konfiguracije nije ispravna XML datoteka.
+
+Poruka: %1</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="58"/>
@@ -737,7 +766,16 @@ This is free software, and you are welcome to redistribute it
 under certain conditions. See the file COPYING for details.
 
 </source>
-        <translation>   </translation>
+        <translation>Copyright (c) 2003. – 2008 . Dana Jansens
+Copyright (c) 2003.        Tim Riley
+Copyright (c) 2007.        Javeed Shaikh
+Copyright (c) 2013.        Hong Jen Yee (PCMan)
+
+Ovaj se program nudi BEZ IKAKVOG JAMSTVA.
+Radi se o slobodnom softveru, koji se može distribuirati
+pod određenim uvjetima. Pregledaj detalje u datoteci COPYING.
+
+</translation>
     </message>
 </context>
 </TS>
