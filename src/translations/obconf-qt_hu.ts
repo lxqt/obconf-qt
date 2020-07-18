@@ -19,7 +19,7 @@
     <message>
         <location filename="../obconf.ui" line="14"/>
         <source>Window Manager Preferences</source>
-        <translation>Ablakkezelő tulajdonságok</translation>
+        <translation>Ablakkezelő beállítások</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="38"/>
@@ -70,12 +70,12 @@
     <message>
         <location filename="../obconf.ui" line="96"/>
         <source>&amp;Install a new theme...</source>
-        <translation>ÚJ téma  telep&amp;ítés...</translation>
+        <translation>Új téma  telep&amp;ítése...</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="103"/>
         <source>Create a theme &amp;archive (.obt)...</source>
-        <translation>Téma &amp;archívum készítés (.obt)...</translation>
+        <translation>Téma &amp;archívum létrehozása (.obt)...</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="120"/>
@@ -107,12 +107,12 @@ C: Close
 S: Shade (Roll up)
 D: Omnipresent (On all desktops)</source>
         <translation>N: Ablakikon
-L: Ablakcímke (Név)
+L: Ablakcím (Név)
 I: Ikonosítás (Minimalizálás)
 M: Maximalizálás
 C: Bezárás
 S: Elrejtés (Felgördítés)
-D: Állandósítás (Minden asztalon van)</translation>
+D: Állandósítás (Az összes asztalon)</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="231"/>
@@ -152,17 +152,17 @@ D: Állandósítás (Minden asztalon van)</translation>
     <message>
         <location filename="../obconf.ui" line="302"/>
         <source>&amp;Place new windows under the mouse pointer</source>
-        <translation>Új ab&amp;lak helye az egérmutatónál</translation>
+        <translation>Helyezze az új ab&amp;lakokat az egérmutató alá</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="309"/>
         <source>&amp;Center new windows when they are placed</source>
-        <translation>Új ablak &amp;központosítása</translation>
+        <translation>Új ablakok &amp;központosítása</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="318"/>
         <source>Prefer to place new windows &amp;on:</source>
-        <translation>Új ablak&amp;ok elsődleges helye:</translation>
+        <translation>Lehetőleg ide helyezze az új ablak&amp;okat:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="329"/>
@@ -177,7 +177,7 @@ D: Állandósítás (Minden asztalon van)</translation>
     <message>
         <location filename="../obconf.ui" line="339"/>
         <source>The monitor with the mouse</source>
-        <translation>Egeres kijelző</translation>
+        <translation>Kijelző az egérmutatóval</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="344"/>
@@ -192,7 +192,7 @@ D: Állandósítás (Minden asztalon van)</translation>
     <message>
         <location filename="../obconf.ui" line="360"/>
         <source>The primary monitor is where Openbox will place dialogs, such as the one used for cycling windows.</source>
-        <translation>Az elsődleges kijelző az, ahol a kijelzőváltó párbeszédablakok is megjelennek.</translation>
+        <translation>Az elsődleges kijelző az, ahol a kijelzőváltó panelek is megjelennek.</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="370"/>
@@ -212,7 +212,7 @@ D: Állandósítás (Minden asztalon van)</translation>
     <message>
         <location filename="../obconf.ui" line="391"/>
         <source>Monitor With Mouse Pointer</source>
-        <translation>Kijelző ahol az egér tartózkodik</translation>
+        <translation>Kijelző az egérmutatóval</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="399"/>
@@ -227,7 +227,7 @@ D: Állandósítás (Minden asztalon van)</translation>
     <message>
         <location filename="../obconf.ui" line="445"/>
         <source>Update the window contents while &amp;resizing</source>
-        <translation>Ablakta&amp;rtalom átméretezés alatt frissül</translation>
+        <translation>Ablakta&amp;rtalom frissítése átméretezés közben</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="452"/>
@@ -242,38 +242,38 @@ D: Állandósítás (Minden asztalon van)</translation>
     <message>
         <location filename="../obconf.ui" line="492"/>
         <source>Amount of resistance against screen &amp;edges:</source>
-        <translation>Távolság a képernyőszél&amp;ekhez:</translation>
+        <translation>Távolság a képernyőszél&amp;ektől:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="512"/>
         <source>&amp;Amount of time to wait before switching:</source>
-        <translation>Munkaterületváltási vár&amp;akozás:</translation>
+        <translation>Vár&amp;akozás a váltás előtt:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="532"/>
         <source>&amp;Switch desktops when moving a window past the screen edge</source>
-        <translation>A&amp;sztalváltás az ablak képről való kicsúsztatásakor</translation>
+        <translation>A&amp;sztalváltás, amikor az ablakot a képernyő széléhez mozgatja</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="542"/>
         <source>Information Dialog</source>
-        <translation>Információs párbeszédablak</translation>
+        <translation>Információs panel</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="549"/>
         <location filename="../obconf.ui" line="578"/>
         <source>Centered</source>
-        <translation>Közepütt</translation>
+        <translation>Középen</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="554"/>
         <source>From left edge</source>
-        <translation>Balszéltől</translation>
+        <translation>Bal széltől</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="559"/>
         <source>From right edge</source>
-        <translation>Jobbszéltől</translation>
+        <translation>Jobb széltől</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="567"/>
@@ -293,7 +293,7 @@ D: Állandósítás (Minden asztalon van)</translation>
     <message>
         <location filename="../obconf.ui" line="596"/>
         <source>Information dialog&apos;s &amp;position:</source>
-        <translation>Információs &amp;párbeszédablak helye:</translation>
+        <translation>Információs &amp;panel helye:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="606"/>
@@ -303,7 +303,7 @@ D: Állandósítás (Minden asztalon van)</translation>
     <message>
         <location filename="../obconf.ui" line="616"/>
         <source>Show &amp;information dialog:</source>
-        <translation>&amp;Információs ablak megjelenítése:</translation>
+        <translation>&amp;Információs panel megjelenítése:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="641"/>
@@ -343,12 +343,12 @@ D: Állandósítás (Minden asztalon van)</translation>
     <message>
         <location filename="../obconf.ui" line="710"/>
         <source>Focus windows when the mouse pointer moves over them</source>
-        <translation>Egérmutatóval fókuszál</translation>
+        <translation>Fókuszálása az ablakra, amikor az egérmutató fölé ér</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="722"/>
         <source>&amp;Delay before focusing and raising windows:</source>
-        <translation>Ablakfókusz és kiemelés &amp;késletetése:</translation>
+        <translation>Ablakfókusz és felemelés &amp;késletetése:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="742"/>
@@ -358,12 +358,12 @@ D: Állandósítás (Minden asztalon van)</translation>
     <message>
         <location filename="../obconf.ui" line="749"/>
         <source>Move focus &amp;under the mouse when the mouse is not moving</source>
-        <translation>Fók&amp;usz az egérhez, ha az nem mozdul</translation>
+        <translation>Fók&amp;usz az egér alá, ha az nem mozdul</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="756"/>
         <source>&amp;Raise windows when the mouse pointer moves over them</source>
-        <translation>Ablakkiemelés, ha az egé&amp;rkurzor fölé megy</translation>
+        <translation>Ablak felemelése, ha az egé&amp;rmutató fölé ér</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="768"/>
@@ -378,22 +378,22 @@ D: Állandósítás (Minden asztalon van)</translation>
     <message>
         <location filename="../obconf.ui" line="785"/>
         <source>Maximizes the window</source>
-        <translation>Ablak maximalizálás</translation>
+        <translation>Ablak maximalizálása</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="790"/>
         <source>Shades the window</source>
-        <translation>Ablak eltűntetés</translation>
+        <translation>Ablak felgördítése</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="798"/>
         <source>Double click ti&amp;me:</source>
-        <translation>Duplakattintási &amp;idő:</translation>
+        <translation>Duplakattintás &amp;ideje:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="838"/>
         <source>&amp;Show a notification when switching desktops</source>
-        <translation>Asztalváltáskor értesíté&amp;s</translation>
+        <translation>Értesíté&amp;s megjelenítése asztalváltáskor</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="845"/>
@@ -413,12 +413,12 @@ D: Állandósítás (Minden asztalon van)</translation>
     <message>
         <location filename="../obconf.ui" line="905"/>
         <source>Desktop Margins</source>
-        <translation>Asztalmargók</translation>
+        <translation>Asztali margók</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="911"/>
         <source>Desktop margins are reserved areas on the edge of your screen.  New windows will not be placed within a margin, and maximized windows will not cover them.</source>
-        <translation>Asztali margók foglalt területek a kijelző szélén,az új ablakok ezen belülre kerülnek, a maximalizált ablakok nem lépnek túl rajtuk.</translation>
+        <translation>Az asztali margók lefoglalt területek a kijelző szélén.  Az új ablakok ezen belülre kerülnek, a maximalizált ablakok nem lépnek túl rajtuk.</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="921"/>
@@ -431,12 +431,12 @@ D: Állandósítás (Minden asztalon van)</translation>
         <location filename="../obconf.ui" line="977"/>
         <location filename="../obconf.ui" line="998"/>
         <source>px</source>
-        <translation></translation>
+        <translation>px</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="942"/>
         <source>Top:</source>
-        <translation>Fent:</translation>
+        <translation>Felső:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="963"/>
@@ -446,17 +446,17 @@ D: Állandósítás (Minden asztalon van)</translation>
     <message>
         <location filename="../obconf.ui" line="984"/>
         <source>Bottom:</source>
-        <translation>Lent:</translation>
+        <translation>Alsó:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1025"/>
         <source>The dock is a special container for &quot;dockapps&quot;, or dock applications.  It is not visible on screen until a dockapp is run.  Dockapps can be used to show things like a clock, or to provide you with a system tray.</source>
-        <translation>A dock a &quot;dokkalkalmazások&quot; speciális helye, a dokkalkalmazás futása alatt nem látható.  A dokkalkalmazások olyasfélék, minta az óra, vagy a rendszertálca.</translation>
+        <translation>A dokk egy speciális tároló a &quot;dokkalkalmazásokhoz&quot;. A dokkalkalmazás futása alatt nem látható.  A dokkalkalmazások megjeleníthetnek dogokat, mint az óra, vagy a rendszertálca.</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1041"/>
         <source>Position</source>
-        <translation>Hely</translation>
+        <translation>Elhelyezkedés</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1053"/>
@@ -466,7 +466,7 @@ D: Állandósítás (Minden asztalon van)</translation>
     <message>
         <location filename="../obconf.ui" line="1067"/>
         <source>Top Left</source>
-        <translation>Fenn balra</translation>
+        <translation>Balra fent</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1072"/>
@@ -476,7 +476,7 @@ D: Állandósítás (Minden asztalon van)</translation>
     <message>
         <location filename="../obconf.ui" line="1077"/>
         <source>Top Right</source>
-        <translation>Fent jobbra</translation>
+        <translation>Jobbra fent</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1082"/>
@@ -491,7 +491,7 @@ D: Állandósítás (Minden asztalon van)</translation>
     <message>
         <location filename="../obconf.ui" line="1092"/>
         <source>Bottom Left</source>
-        <translation>Lenn balra</translation>
+        <translation>Balra lent</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1097"/>
@@ -501,7 +501,7 @@ D: Állandósítás (Minden asztalon van)</translation>
     <message>
         <location filename="../obconf.ui" line="1102"/>
         <source>Bottom Right</source>
-        <translation>Lent jobbra</translation>
+        <translation>Jobbra lent</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1107"/>
@@ -516,7 +516,7 @@ D: Állandósítás (Minden asztalon van)</translation>
     <message>
         <location filename="../obconf.ui" line="1146"/>
         <source>x</source>
-        <translation></translation>
+        <translation>x</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1162"/>
@@ -546,12 +546,12 @@ D: Állandósítás (Minden asztalon van)</translation>
     <message>
         <location filename="../obconf.ui" line="1205"/>
         <source>Keep dock &amp;above other windows</source>
-        <translation>A dokk az &amp;ablakok fölött marad</translation>
+        <translation>A dokk az &amp;ablakok felett marad</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1212"/>
         <source>A&amp;llow dock to be both above and below windows</source>
-        <translation>A dokk az ab&amp;lakok előtt és alatt is lehet</translation>
+        <translation>A dokk az ab&amp;lakok felett és alatt is lehet</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1219"/>
@@ -571,12 +571,12 @@ D: Állandósítás (Minden asztalon van)</translation>
     <message>
         <location filename="../obconf.ui" line="1245"/>
         <source>Delay before &amp;showing:</source>
-        <translation>Megjeleníté&amp;si késleltetés:</translation>
+        <translation>Megjeleníté&amp;s késleltetése:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1275"/>
         <source>&amp;Hide off screen</source>
-        <translation>A &amp;képernyőn elrejtés</translation>
+        <translation>Elrejtés a &amp;képernyőről</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1306"/>
@@ -589,7 +589,7 @@ D: Állandósítás (Minden asztalon van)</translation>
     <message>
         <location filename="../theme.cpp" line="149"/>
         <source>Choose an Openbox theme</source>
-        <translation>Válasszon Openbox témát</translation>
+        <translation>Válasszon egy Openbox témát</translation>
     </message>
     <message>
         <location filename="../desktops.cpp" line="65"/>
@@ -601,7 +601,7 @@ D: Állandósítás (Minden asztalon van)</translation>
     <message>
         <location filename="../mouse.cpp" line="57"/>
         <source>Custom actions</source>
-        <translation>Egyéb akciók</translation>
+        <translation>Egyéni műveletek</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="76"/>
@@ -621,7 +621,7 @@ The program is based on ObConf developed by the following developers.
 * Dana Jansens &lt;danakj@orodu.net&gt;
 * Tim Riley &lt;tr@slackzone.org&gt;
 * Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</source>
-        <translation>Openbox beállító
+        <translation>Egy beállításkezelő az Openboxhoz
 
 Copyright (c) 2014-2015
 
@@ -639,42 +639,42 @@ A program az ObConf -on alapul, melynek fejlesztői.
     <message>
         <location filename="../archive.cpp" line="26"/>
         <source>&quot;%1&quot; was installed to %2</source>
-        <translation>&quot;%1&quot; installált ide: %2</translation>
+        <translation>&quot;%1&quot; telepítve ide: %2</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="53"/>
         <source>&quot;%1&quot; was successfully created</source>
-        <translation>&quot;%1&quot; elkészült</translation>
+        <translation>&quot;%1&quot; sikeresen létrehozva</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="89"/>
         <source>Unable to create the theme archive &quot;%1&quot;.
 The following errors were reported:
 %2</source>
-        <translation>A &quot;%1&quot; archív témakészítés sikertelen.
-A hibajelentés:
+        <translation>Nem sikerült létrehozni a &quot;%1&quot;témaarchívumot.
+A következő hibák történtek:
 %2</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="95"/>
         <location filename="../archive.cpp" line="178"/>
         <source>Unable to run the &quot;tar&quot; command: %1</source>
-        <translation>A %1 tar parancs nem futtatható</translation>
+        <translation>Nem sikerült futtatni a tar parancsot: %1</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="115"/>
         <source>Unable to create directory &quot;%1&quot;: %2</source>
-        <translation>Létrehozhatatlan a könyvtár &quot;%1&quot;: %2</translation>
+        <translation>Nem sikerült létrehozni a könyvtárat: &quot;%1&quot;: %2</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="138"/>
         <source>&quot;%1&quot; does not appear to be a valid Openbox theme directory</source>
-        <translation>A &quot;%1&quot; érvénytelen Openbox téma könyvtár</translation>
+        <translation>A &quot;%1&quot; érvénytelen Openbox témakönyvtár</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="148"/>
         <source>Unable to move to directory &quot;%1&quot;: %2</source>
-        <translation>Nem áthelyezhető a könyvtár &quot;%1&quot;: %2</translation>
+        <translation>Nem sikerült áthelyezni a könyvtárat &quot;%1&quot;: %2</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="185"/>
@@ -682,9 +682,9 @@ A hibajelentés:
 Please ensure that &quot;%2&quot; is writable and that the file is a valid Openbox theme archive.
 The following errors were reported:
 %3</source>
-        <translation>A &quot;%1&quot; fájl kicsomaglhatatlan.
-A &quot;%2&quot; írható és a fájl érvényes Openbox téma archívum?
-A hibák:
+        <translation>A &quot;%1&quot; fájlt nem sikerült kibontani.
+A &quot;%2&quot; írható és a fájl egy érvényes Openbox témaarchívum?
+A következő hibák történtek:
 %3</translation>
     </message>
     <message>
@@ -704,7 +704,16 @@ This is free software, and you are welcome to redistribute it
 under certain conditions. See the file COPYING for details.
 
 </source>
-        <translation></translation>
+        <translation>Copyright (c) 2003-2008   Dana Jansens
+Copyright (c) 2003        Tim Riley
+Copyright (c) 2007        Javeed Shaikh
+Copyright (c) 2013        Hong Jen Yee (PCMan)
+
+A programra SEMMILYEN MÉRTÉKBEN NINCS GARANCIA.
+Ez egy szabad szoftver, amely bizonyos feltételek mellett szabadon
+terjeszthető. A részletekért tekintse meg a COPYING fájlt.
+
+</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="73"/>
@@ -717,25 +726,36 @@ Options:
   --archive THEME       Create a theme archive from the given theme directory
   --config-file FILE    Specify the path to the config file to use
 </source>
-        <translation></translation>
+        <translation>Szintaxis: obconf [opciók] [ARCHÍVUM.obt]
+
+Opciók:
+  --help                 Megjeleníti ezt a súgót és kilép
+  --version              Kiírja a verziót és kilép
+  --install ARCHÍVUM.obt Telepíti az adott témaarchívumot és kiválasztja
+  --archive THEME        Létrehoz egy témaarchívumot az adott témakönyvtárból
+  --config-file FILE     Megadja a használandó konfigurációs fájl útvonalát
+</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="97"/>
         <source>--install requires an argument
 </source>
-        <translation></translation>
+        <translation>az --install parancs további argumentumokat igényel
+</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="103"/>
         <source>--archive requires an argument
 </source>
-        <translation></translation>
+        <translation>az --archive parancs további argumentumokat igényel
+</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="109"/>
         <source>--config-file requires an argument
 </source>
-        <translation></translation>
+        <translation>a --config-file további argumentumokat igényel
+</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="223"/>
@@ -746,14 +766,16 @@ Options:
     <message>
         <location filename="../obconf-qt.cpp" line="224"/>
         <source>Failed to load an rc.xml. You have probably failed to install Openbox properly.</source>
-        <translation>Nem mtöltgető be rc.xml fájl. Lehet, hogy nincs rendesen telepítve az Openbox.</translation>
+        <translation>Nem sikerült betölteni az rc.xml fájlt. Lehet, hogy nincs rendesen telepítve az Openbox.</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="236"/>
         <source>Error while parsing the Openbox configuration file.  Your configuration file is not valid XML.
 
 Message: %1</source>
-        <translation></translation>
+        <translation>Hiba az Openbox konfigurációs fájl értelmezése közben. A konfigurációs fájl nem egy érvényes XML.
+
+Üzenet: %1</translation>
     </message>
 </context>
 </TS>
