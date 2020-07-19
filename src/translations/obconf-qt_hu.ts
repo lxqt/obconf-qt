@@ -343,7 +343,7 @@ D: Állandósítás (Az összes asztalon)</translation>
     <message>
         <location filename="../obconf.ui" line="710"/>
         <source>Focus windows when the mouse pointer moves over them</source>
-        <translation>Fókuszálása az ablakra, amikor az egérmutató fölé ér</translation>
+        <translation>Fókuszálás az ablakra, amikor az egérmutató fölé ér</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="722"/>
@@ -451,7 +451,7 @@ D: Állandósítás (Az összes asztalon)</translation>
     <message>
         <location filename="../obconf.ui" line="1025"/>
         <source>The dock is a special container for &quot;dockapps&quot;, or dock applications.  It is not visible on screen until a dockapp is run.  Dockapps can be used to show things like a clock, or to provide you with a system tray.</source>
-        <translation>A dokk egy speciális tároló a &quot;dokkalkalmazásokhoz&quot;. A dokkalkalmazás futása alatt nem látható.  A dokkalkalmazások megjeleníthetnek dogokat, mint az óra, vagy a rendszertálca.</translation>
+        <translation>A dokk egy speciális tároló a &quot;dokkalkalmazásokhoz&quot;. A dokkalkalmazás futása alatt nem látható.  A dokkalkalmazások megjeleníthetnek dolgokat, mint az óra, vagy a rendszertálca.</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1041"/>
