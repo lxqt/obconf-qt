@@ -690,7 +690,7 @@ The following errors were reported:
     <message>
         <location filename="../obconf-qt.cpp" line="53"/>
         <source>ObConf Error</source>
-        <translation></translation>
+        <translation>שגיאה ב־ObConf</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="58"/>
