@@ -351,12 +351,12 @@ D: På alla skrivbord</translation>
     <message>
         <location filename="../obconf.ui" line="1183"/>
         <source>Vertical</source>
-        <translation type="unfinished"></translation>
+        <translation>Vertikal</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1188"/>
         <source>Horizontal</source>
-        <translation type="unfinished"></translation>
+        <translation>Horisontell</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1199"/>
@@ -629,7 +629,7 @@ The program is based on ObConf developed by the following developers.
     <message>
         <location filename="../archive.cpp" line="26"/>
         <source>&quot;%1&quot; was installed to %2</source>
-        <translation type="unfinished">&quot;%2&quot; installerades på %2 {1&quot;?}</translation>
+        <translation>&quot;%1&quot; installerades på %2</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="53"/>
