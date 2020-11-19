@@ -55,7 +55,7 @@
     <message>
         <location filename="../obconf.ui" line="68"/>
         <source>Desktops</source>
-        <translation>Áreas de trabalho</translation>
+        <translation>Ambientes de trabalho</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="73"/>
@@ -105,12 +105,12 @@
     <message>
         <location filename="../obconf.ui" line="905"/>
         <source>Desktop Margins</source>
-        <translation>Margens da área de trabalho</translation>
+        <translation>Margens do ambiente de trabalho</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="911"/>
         <source>Desktop margins are reserved areas on the edge of your screen.  New windows will not be placed within a margin, and maximized windows will not cover them.</source>
-        <translation>As margens da área de trabalho são as áreas reservadas nos limites do ecrã. As janelas não serão colocadas nas margens e as janelas maximizadas também não as cobrirão.</translation>
+        <translation>As margens do ambiente de trabalho são as áreas reservadas nos limites do ecrã. As janelas não serão colocadas nas margens e as janelas maximizadas também não as cobrirão.</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="921"/>
@@ -261,7 +261,7 @@ I: Minimizar
 M: Maximizar
 C: Fechar
 S: Enrolar
-D: Omnipresente (todas as áreas de trabalho)</translation>
+D: Omnipresente (todos os ambiente de trabalho)</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="344"/>
@@ -511,7 +511,7 @@ D: Omnipresente (todas as áreas de trabalho)</translation>
     <message>
         <location filename="../obconf.ui" line="532"/>
         <source>&amp;Switch desktops when moving a window past the screen edge</source>
-        <translation>Trocar de área de trabalho ao mover a janela para além do&amp;s limites do ecrã</translation>
+        <translation>Trocar de ambiente de trabalho ao mover a janela para além do&amp;s limites do ecrã</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="567"/>
@@ -541,7 +541,7 @@ D: Omnipresente (todas as áreas de trabalho)</translation>
     <message>
         <location filename="../obconf.ui" line="742"/>
         <source>Move focus under the mouse when &amp;switching desktops</source>
-        <translation>Mover foco para bai&amp;xo do rato ao trocar de área de trabalho</translation>
+        <translation>Mover foco para bai&amp;xo do rato ao trocar de ambiente de trabalho</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="749"/>
@@ -566,7 +566,7 @@ D: Omnipresente (todas as áreas de trabalho)</translation>
     <message>
         <location filename="../obconf.ui" line="838"/>
         <source>&amp;Show a notification when switching desktops</source>
-        <translation>Mo&amp;strar notificação ao trocar a área de trabalho</translation>
+        <translation>Mo&amp;strar notificação ao trocar o ambiente de trabalho</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="845"/>
@@ -576,12 +576,12 @@ D: Omnipresente (todas as áreas de trabalho)</translation>
     <message>
         <location filename="../obconf.ui" line="868"/>
         <source>&amp;Number of desktops: </source>
-        <translation>&amp;Número de áreas de trabalho: </translation>
+        <translation>&amp;Número de ambientes de trabalho: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="891"/>
         <source>&amp;Desktop names:</source>
-        <translation>Nome das áreas &amp;de trabalho:</translation>
+        <translation>Nome dos ambientes &amp;de trabalho:</translation>
     </message>
 </context>
 <context>
@@ -596,7 +596,7 @@ D: Omnipresente (todas as áreas de trabalho)</translation>
         <location filename="../desktops.cpp" line="87"/>
         <location filename="../desktops.cpp" line="99"/>
         <source>(Unnamed desktop)</source>
-        <translation>(Área de trabalho sem nome)</translation>
+        <translation>(Ambiente de trabalho sem nome)</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="76"/>
