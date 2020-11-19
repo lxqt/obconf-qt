@@ -64,6 +64,7 @@ lxqt_translate_ts(QM_FILES
 lxqt_translate_desktop(DESKTOP_FILES
     TRANSLATION_DIR "translations"
     SOURCES obconf-qt.desktop.in
+    USE_YAML
 )
 install(FILES ${DESKTOP_FILES} DESTINATION share/applications)
 
