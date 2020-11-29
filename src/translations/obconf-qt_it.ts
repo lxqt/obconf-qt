@@ -70,7 +70,7 @@
     <message>
         <location filename="../obconf.ui" line="96"/>
         <source>&amp;Install a new theme...</source>
-        <translation>&amp;Installa  un nuovo tema...</translation>
+        <translation>&amp;Installa un nuovo tema...</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="103"/>
@@ -405,7 +405,7 @@ D: Su tutti desktop</translation>
     <message>
         <location filename="../obconf.ui" line="868"/>
         <source>&amp;Number of desktops: </source>
-        <translation>&amp;Numero di desktop:</translation>
+        <translation>&amp;Numero di desktop: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="891"/>
@@ -453,7 +453,7 @@ D: Su tutti desktop</translation>
     <message>
         <location filename="../obconf.ui" line="1025"/>
         <source>The dock is a special container for &quot;dockapps&quot;, or dock applications.  It is not visible on screen until a dockapp is run.  Dockapps can be used to show things like a clock, or to provide you with a system tray.</source>
-        <translation>La dock è un contenitore di speciali applicazioni. Non è visibile sullo schermo finché non viene eseguita una &quot;dockapp&quot;. La &quot;dockapp&quot; può essere utilizzata per visualizzare, ad esempio, un orologio o il vassoio di sistema. </translation>
+        <translation>La dock è un contenitore di speciali applicazioni. Non è visibile sullo schermo finché non viene eseguita una &quot;dockapp&quot;. La &quot;dockapp&quot; può essere utilizzata per visualizzare, ad esempio, un orologio o il vassoio di sistema.</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1041"/>
@@ -528,7 +528,7 @@ D: Su tutti desktop</translation>
     <message>
         <location filename="../obconf.ui" line="1169"/>
         <source>&amp;Orientation: </source>
-        <translation>&amp;Disposizione:</translation>
+        <translation>&amp;Disposizione: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1183"/>
@@ -647,7 +647,7 @@ Questo programma è basato su ObConf sviluppato da:
         <location filename="../archive.cpp" line="53"/>
         <source>&quot;%1&quot; was successfully created</source>
         <translatorcomment>&quot;%1&quot; è stato creato con successo</translatorcomment>
-        <translation></translation>
+        <translation>&quot;%1&quot; è stato creato con successo</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="89"/>
