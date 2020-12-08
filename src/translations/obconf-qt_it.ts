@@ -598,7 +598,7 @@ D: Su tutti desktop</translation>
         <location filename="../desktops.cpp" line="87"/>
         <location filename="../desktops.cpp" line="99"/>
         <source>(Unnamed desktop)</source>
-        <translation>(Ddesktop senza nome)</translation>
+        <translation>(Desktop senza nome)</translation>
     </message>
     <message>
         <location filename="../mouse.cpp" line="57"/>
