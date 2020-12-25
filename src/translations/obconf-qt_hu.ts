@@ -70,7 +70,7 @@
     <message>
         <location filename="../obconf.ui" line="96"/>
         <source>&amp;Install a new theme...</source>
-        <translation>Új téma  telep&amp;ítése...</translation>
+        <translation>Új téma telep&amp;ítése...</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="103"/>
@@ -80,7 +80,7 @@
     <message>
         <location filename="../obconf.ui" line="120"/>
         <source>&amp;Windows retain a border when undecorated</source>
-        <translation>&amp;Díszítetlen ablakok bekeretezése</translation>
+        <translation>&amp;Díszítés nélküli ablakok megtartják a szegélyt</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="127"/>
@@ -147,7 +147,7 @@ D: Állandósítás (Az összes asztalon)</translation>
     <message>
         <location filename="../obconf.ui" line="295"/>
         <source>Focus &amp;new windows when they appear</source>
-        <translation>Ú&amp;j ablakra fókuszál</translation>
+        <translation>Fókuszálás ú&amp;j ablakokra amikor megjelennek</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="302"/>
@@ -157,7 +157,7 @@ D: Állandósítás (Az összes asztalon)</translation>
     <message>
         <location filename="../obconf.ui" line="309"/>
         <source>&amp;Center new windows when they are placed</source>
-        <translation>Új ablakok &amp;központosítása</translation>
+        <translation>Új ablakok &amp;középre igazítása</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="318"/>
@@ -167,57 +167,57 @@ D: Állandósítás (Az összes asztalon)</translation>
     <message>
         <location filename="../obconf.ui" line="329"/>
         <source>All monitors</source>
-        <translation>Összes kijelző</translation>
+        <translation>Összes összes monitor</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="334"/>
         <source>The active monitor</source>
-        <translation>Aktív kijelző</translation>
+        <translation>Aktív monitor</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="339"/>
         <source>The monitor with the mouse</source>
-        <translation>Kijelző az egérmutatóval</translation>
+        <translation>Monitor az egérmutatóval</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="344"/>
         <source>Primary monitor</source>
-        <translation>Elsődleges kijelző</translation>
+        <translation>Elsődleges monitor</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="354"/>
         <source>Primary Monitor</source>
-        <translation>Elsődleges kijelző</translation>
+        <translation>Elsődleges monitor</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="360"/>
         <source>The primary monitor is where Openbox will place dialogs, such as the one used for cycling windows.</source>
-        <translation>Az elsődleges kijelző az, ahol a kijelzőváltó panelek is megjelennek.</translation>
+        <translation>Az elsődleges monitor az, ahol az Openbox elhelyezi a párbeszédablakokat, például azt ami az ablakváltáshoz van használva.</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="370"/>
         <source>Primary &amp;monitor:</source>
-        <translation>El&amp;sődleges kijelző:</translation>
+        <translation>El&amp;sődleges monitor:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="381"/>
         <source>Fixed Monitor</source>
-        <translation>Fix kijelző</translation>
+        <translation>Fix monitor</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="386"/>
         <source>Active Monitor</source>
-        <translation>Aktív kijelző</translation>
+        <translation>Aktív monitor</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="391"/>
         <source>Monitor With Mouse Pointer</source>
-        <translation>Kijelző az egérmutatóval</translation>
+        <translation>Monitor az egérmutatóval</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="399"/>
         <source>&amp;Fixed monitor:</source>
-        <translation>&amp;Fix kijelző:</translation>
+        <translation>&amp;Fix monitor:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="439"/>
@@ -237,17 +237,17 @@ D: Állandósítás (Az összes asztalon)</translation>
     <message>
         <location filename="../obconf.ui" line="472"/>
         <source>Amount of resistance against other &amp;windows:</source>
-        <translation>Tá&amp;volság más ablakoktól:</translation>
+        <translation>Más ablakokkal &amp;szembeni ellenállás mértéke:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="492"/>
         <source>Amount of resistance against screen &amp;edges:</source>
-        <translation>Távolság a képernyőszél&amp;ektől:</translation>
+        <translation>&amp;Képernyőszélekkel szembeni ellenállás mértéke:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="512"/>
         <source>&amp;Amount of time to wait before switching:</source>
-        <translation>Vár&amp;akozás a váltás előtt:</translation>
+        <translation>Vár&amp;akozás mértéke a váltás előtt:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="532"/>
@@ -333,7 +333,7 @@ D: Állandósítás (Az összes asztalon)</translation>
     <message>
         <location filename="../obconf.ui" line="670"/>
         <source>Fixed position on screen</source>
-        <translation>Rögzített helyzet a kijelzőn</translation>
+        <translation>Rögzített helyzet a képernyőn</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="701"/>
@@ -343,7 +343,7 @@ D: Állandósítás (Az összes asztalon)</translation>
     <message>
         <location filename="../obconf.ui" line="710"/>
         <source>Focus windows when the mouse pointer moves over them</source>
-        <translation>Fókuszálás az ablakra, amikor az egérmutató fölé ér</translation>
+        <translation>Fókuszálás az ablakokra, amikor az egérmutató föléjük ér</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="722"/>
@@ -353,17 +353,17 @@ D: Állandósítás (Az összes asztalon)</translation>
     <message>
         <location filename="../obconf.ui" line="742"/>
         <source>Move focus under the mouse when &amp;switching desktops</source>
-        <translation>A&amp;sztalváltáskor fókusz az egérmutónál</translation>
+        <translation>A&amp;sztalváltáskor fókusz az egérmutató alatt</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="749"/>
         <source>Move focus &amp;under the mouse when the mouse is not moving</source>
-        <translation>Fók&amp;usz az egér alá, ha az nem mozdul</translation>
+        <translation>Fók&amp;usz az egérmutató alá, ha az nem mozdul</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="756"/>
         <source>&amp;Raise windows when the mouse pointer moves over them</source>
-        <translation>Ablak felemelése, ha az egé&amp;rmutató fölé ér</translation>
+        <translation>Ablakok felemelése, ha az egé&amp;rmutató föléjük ér</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="768"/>
@@ -373,7 +373,7 @@ D: Állandósítás (Az összes asztalon)</translation>
     <message>
         <location filename="../obconf.ui" line="774"/>
         <source>Double click on the &amp;titlebar:</source>
-        <translation>Dupla ka&amp;ttintás a címsorra:</translation>
+        <translation>Dupla ka&amp;ttintás a címsoron:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="785"/>
@@ -388,7 +388,7 @@ D: Állandósítás (Az összes asztalon)</translation>
     <message>
         <location filename="../obconf.ui" line="798"/>
         <source>Double click ti&amp;me:</source>
-        <translation>Duplakattintás &amp;ideje:</translation>
+        <translation>Dupla kattintás &amp;ideje:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="838"/>
@@ -418,7 +418,7 @@ D: Állandósítás (Az összes asztalon)</translation>
     <message>
         <location filename="../obconf.ui" line="911"/>
         <source>Desktop margins are reserved areas on the edge of your screen.  New windows will not be placed within a margin, and maximized windows will not cover them.</source>
-        <translation>Az asztali margók lefoglalt területek a kijelző szélén.  Az új ablakok ezen belülre kerülnek, a maximalizált ablakok nem lépnek túl rajtuk.</translation>
+        <translation>Az asztali margók lefoglalt területek a kijelző szélén.  Az új ablakok ezeken belülre kerülnek, a maximalizált ablakok nem lépnek túl rajtuk.</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="921"/>
