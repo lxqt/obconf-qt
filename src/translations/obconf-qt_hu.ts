@@ -247,7 +247,7 @@ D: Állandósítás (Az összes asztalon)</translation>
     <message>
         <location filename="../obconf.ui" line="512"/>
         <source>&amp;Amount of time to wait before switching:</source>
-        <translation>Vár&amp;akozás mértéke a váltás előtt:</translation>
+        <translation>Vár&amp;akozás időtartama a váltás előtt:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="532"/>
@@ -451,7 +451,7 @@ D: Állandósítás (Az összes asztalon)</translation>
     <message>
         <location filename="../obconf.ui" line="1025"/>
         <source>The dock is a special container for &quot;dockapps&quot;, or dock applications.  It is not visible on screen until a dockapp is run.  Dockapps can be used to show things like a clock, or to provide you with a system tray.</source>
-        <translation>A dokk egy speciális tároló a &quot;dokkalkalmazásokhoz&quot;. A dokkalkalmazás futása alatt nem látható.  A dokkalkalmazások megjeleníthetnek dolgokat, mint az óra, vagy a rendszertálca.</translation>
+        <translation>A dokk egy speciális tároló a &quot;dokkalkalmazásokhoz&quot;. Ez nem látható, amíg nem fut egy dokkalkalmazás.  A dokkalkalmazások segítségével olyan dolgok jeleníthetők meg, mint egy óra, vagy rendszertálca.</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1041"/>
@@ -481,12 +481,12 @@ D: Állandósítás (Az összes asztalon)</translation>
     <message>
         <location filename="../obconf.ui" line="1082"/>
         <source>Left</source>
-        <translation>Baloldalt</translation>
+        <translation>Balra</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1087"/>
         <source>Right</source>
-        <translation>Jobboldalt</translation>
+        <translation>Jobbra</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1092"/>
@@ -521,12 +521,12 @@ D: Állandósítás (Az összes asztalon)</translation>
     <message>
         <location filename="../obconf.ui" line="1162"/>
         <source>Allow &amp;windows to be placed within the dock&apos;s area</source>
-        <translation>A&amp;z ablakok a dokk területén is elhelyezkedhetnek</translation>
+        <translation>A&amp;z ablakok a dokk területén belül is elhelyezkedhetnek</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1169"/>
         <source>&amp;Orientation: </source>
-        <translation>I&amp;rány: </translation>
+        <translation>&amp;Tájolás: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1183"/>
@@ -628,7 +628,7 @@ Copyright (c) 2014-2015
 Szerzők:
 * Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;
 
-A program az ObConf -on alapul, melynek fejlesztői.
+A program az ObConf-on alapul, melynek fejlesztői.
 * Dana Jansens &lt;danakj@orodu.net&gt;
 * Tim Riley &lt;tr@slackzone.org&gt;
 * Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</translation>
@@ -652,14 +652,14 @@ A program az ObConf -on alapul, melynek fejlesztői.
 The following errors were reported:
 %2</source>
         <translation>Nem sikerült létrehozni a &quot;%1&quot;témaarchívumot.
-A következő hibák történtek:
+A következő hibákat jelentették:
 %2</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="95"/>
         <location filename="../archive.cpp" line="178"/>
         <source>Unable to run the &quot;tar&quot; command: %1</source>
-        <translation>Nem sikerült futtatni a tar parancsot: %1</translation>
+        <translation>Nem sikerült futtatni a &quot;tar&quot; parancsot: %1</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="115"/>
@@ -669,7 +669,7 @@ A következő hibák történtek:
     <message>
         <location filename="../archive.cpp" line="138"/>
         <source>&quot;%1&quot; does not appear to be a valid Openbox theme directory</source>
-        <translation>A &quot;%1&quot; érvénytelen Openbox témakönyvtár</translation>
+        <translation>A &quot;%1&quot; érvénytelen Openbox témakönyvtárnak tűnik</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="148"/>
@@ -683,8 +683,8 @@ Please ensure that &quot;%2&quot; is writable and that the file is a valid Openb
 The following errors were reported:
 %3</source>
         <translation>A &quot;%1&quot; fájlt nem sikerült kibontani.
-A &quot;%2&quot; írható és a fájl egy érvényes Openbox témaarchívum?
-A következő hibák történtek:
+Győződjön meg arról, hogy a(z) &quot;%2&quot; írható és a fájl egy érvényes Openbox témaarchívum.
+A következő hibák lettek jelentve:
 %3</translation>
     </message>
     <message>
@@ -740,21 +740,21 @@ Opciók:
         <location filename="../obconf-qt.cpp" line="97"/>
         <source>--install requires an argument
 </source>
-        <translation>az --install parancs további argumentumokat igényel
+        <translation>az --install parancs igényel egy argumentumot
 </translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="103"/>
         <source>--archive requires an argument
 </source>
-        <translation>az --archive parancs további argumentumokat igényel
+        <translation>az --archive parancs igényel egy argumentumot
 </translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="109"/>
         <source>--config-file requires an argument
 </source>
-        <translation>a --config-file további argumentumokat igényel
+        <translation>a --config-file parancs igényel egy argumentumot
 </translation>
     </message>
     <message>
@@ -766,7 +766,7 @@ Opciók:
     <message>
         <location filename="../obconf-qt.cpp" line="224"/>
         <source>Failed to load an rc.xml. You have probably failed to install Openbox properly.</source>
-        <translation>Nem sikerült betölteni az rc.xml fájlt. Lehet, hogy nincs rendesen telepítve az Openbox.</translation>
+        <translation>Nem sikerült betölteni az rc.xml fájlt. Lehet, hogy nincs megfelelően telepítve az Openbox.</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="236"/>
