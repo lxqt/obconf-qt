@@ -308,7 +308,7 @@ D: Állandósítás (Az összes asztalon)</translation>
     <message>
         <location filename="../obconf.ui" line="641"/>
         <source>When resizing terminal windows</source>
-        <translation>Terminálablak átméretezésekor</translation>
+        <translation>Terminálablakok átméretezésekor</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="646"/>
@@ -353,7 +353,7 @@ D: Állandósítás (Az összes asztalon)</translation>
     <message>
         <location filename="../obconf.ui" line="742"/>
         <source>Move focus under the mouse when &amp;switching desktops</source>
-        <translation>A&amp;sztalváltáskor fókusz az egérmutató alatt</translation>
+        <translation>A&amp;sztalváltáskor fókusz az egérmutató alá</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="749"/>
@@ -418,7 +418,7 @@ D: Állandósítás (Az összes asztalon)</translation>
     <message>
         <location filename="../obconf.ui" line="911"/>
         <source>Desktop margins are reserved areas on the edge of your screen.  New windows will not be placed within a margin, and maximized windows will not cover them.</source>
-        <translation>Az asztali margók lefoglalt területek a kijelző szélén.  Az új ablakok ezeken belülre kerülnek, a maximalizált ablakok nem lépnek túl rajtuk.</translation>
+        <translation>Az asztali margók lefoglalt területek a kijelző szélén.  Az új ablakok nem kerülnek ezekre, a maximalizált ablakok nem lépnek túl rajtuk.</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="921"/>
@@ -652,7 +652,7 @@ A program az ObConf-on alapul, melynek fejlesztői.
 The following errors were reported:
 %2</source>
         <translation>Nem sikerült létrehozni a &quot;%1&quot;témaarchívumot.
-A következő hibákat jelentették:
+A következő hibák lettek jelentve:
 %2</translation>
     </message>
     <message>
@@ -669,7 +669,7 @@ A következő hibákat jelentették:
     <message>
         <location filename="../archive.cpp" line="138"/>
         <source>&quot;%1&quot; does not appear to be a valid Openbox theme directory</source>
-        <translation>A &quot;%1&quot; érvénytelen Openbox témakönyvtárnak tűnik</translation>
+        <translation>A &quot;%1&quot; nem tűnik érvényes Openbox témakönyvtárnak</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="148"/>
