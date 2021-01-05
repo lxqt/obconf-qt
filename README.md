@@ -19,8 +19,7 @@ To build run `make`, to install `make install` which accepts variable `DESTDIR` 
 
 ### Binary packages
 
-Official binary packages are available in Arch Linux and Debian (as of Debian stretch).   
-The tool is missing in Fedora so far. Same applies to openSUSE where it is about to be included, though.   
+Official binary packages are available in the most common distributions, search in your package manager for `obconf-qt`.
 
 ### Translations
 
