@@ -24,7 +24,7 @@
     <message>
         <location filename="../obconf.ui" line="38"/>
         <source>Theme</source>
-        <translation>Tema</translation>
+        <translation>Apipavidalinimas</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="43"/>
@@ -70,12 +70,12 @@
     <message>
         <location filename="../obconf.ui" line="96"/>
         <source>&amp;Install a new theme...</source>
-        <translation>Į&amp;diegti naują temą...</translation>
+        <translation>Į&amp;diegti naują apipavidalinimą...</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="103"/>
         <source>Create a theme &amp;archive (.obt)...</source>
-        <translation>Sukurti temos &amp;archyvą (.obt)...</translation>
+        <translation>Sukurti apipavidalinimo &amp;archyvą (.obt)...</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="120"/>
@@ -589,7 +589,7 @@ D: &quot;Visuose darbalaukiuose&quot; mygtukas</translation>
     <message>
         <location filename="../theme.cpp" line="149"/>
         <source>Choose an Openbox theme</source>
-        <translation>Pasirinkite Openbox temą</translation>
+        <translation>Pasirinkite Openbox apipavidalinimą</translation>
     </message>
     <message>
         <location filename="../desktops.cpp" line="65"/>
@@ -651,7 +651,7 @@ Programa yra pagrįsta ObConf, kurią savo ruožtu kūrė šie kūrėjai.
         <source>Unable to create the theme archive &quot;%1&quot;.
 The following errors were reported:
 %2</source>
-        <translation>Nepavyko sukurti temos archyvo &quot;%1“.
+        <translation>Nepavyko sukurti apipavidalinimo archyvo &quot;%1“.
 Buvo pranešta apie šias klaidas:
 %2</translation>
     </message>
@@ -669,7 +669,7 @@ Buvo pranešta apie šias klaidas:
     <message>
         <location filename="../archive.cpp" line="138"/>
         <source>&quot;%1&quot; does not appear to be a valid Openbox theme directory</source>
-        <translation>&quot;%1“ nėra tinkamas Openbox temos katalogas</translation>
+        <translation>&quot;%1“ nėra tinkamas Openbox apipavidalinimo katalogas</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="148"/>
@@ -683,7 +683,7 @@ Please ensure that &quot;%2&quot; is writable and that the file is a valid Openb
 The following errors were reported:
 %3</source>
         <translation>Nepavyko išskleisti failo &quot;%1&quot;.
-Įsitikinkite, kad galima rašyti į &quot;%2&quot; ir, kad tas failas yra tinkamas Openbox temos archyvas.
+Įsitikinkite, kad galima rašyti į &quot;%2&quot; ir, kad tas failas yra tinkamas Openbox apipavidalinimo archyvas.
 Buvo pranešta apie šias klaidas:
 %3</translation>
     </message>
@@ -731,8 +731,8 @@ Options:
 Parametrai:
   --help                Parodyti šią pagalbą ir išeiti
   --version             Parodyti versiją ir išeiti
-  --install ARCHYVAS.obt Įdiegti temos archyvą ir ją pasirinkti
-  --archive TEMA       Iš nurodyto temos katalogo sukurti temos archyvą
+  --install ARCHYVAS.obt Įdiegti apipavidalinimo archyvą ir jį pasirinkti
+  --archive APIPAVIDALINIMAS       Iš nurodyto apipavidalinimo katalogo sukurti apipavidalinimo archyvą
   --config-file FAILAS    Nurodyti kelią į konfigūracijos failą, kurį naudoti
 </translation>
     </message>
