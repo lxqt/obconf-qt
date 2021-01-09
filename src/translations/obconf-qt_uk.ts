@@ -255,10 +255,10 @@ M: Maximize
 C: Close
 S: Shade (Roll up)
 D: Omnipresent (On all desktops)</source>
-        <translation>N: Іконка вікна
+        <translation>N: Піктограма вікна
 L: Мітка вікна (Назва)
-I: Іконка (Мінімізація)
-M: Максимізація
+I: Піктограма (Зменшити)
+M: Розгорнути
 C: Закрити
 S: Затінити (Згорнути)
 D: Розмістити всюди (На всіх стільницях)</translation>
@@ -346,7 +346,7 @@ D: Розмістити всюди (На всіх стільницях)</transla
     <message>
         <location filename="../obconf.ui" line="1169"/>
         <source>&amp;Orientation: </source>
-        <translation>&amp;Орієнтація:</translation>
+        <translation>&amp;Орієнтація: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1183"/>
@@ -366,7 +366,7 @@ D: Розмістити всюди (На всіх стільницях)</transla
     <message>
         <location filename="../obconf.ui" line="1205"/>
         <source>Keep dock &amp;above other windows</source>
-        <translation>Помістити док &amp;над іншими вікнами </translation>
+        <translation>Помістити док &amp;над іншими вікнами</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1212"/>
@@ -396,7 +396,7 @@ D: Розмістити всюди (На всіх стільницях)</transla
     <message>
         <location filename="../obconf.ui" line="1275"/>
         <source>&amp;Hide off screen</source>
-        <translation>П&amp;риховування поза екраном </translation>
+        <translation>С&amp;ховати з екрану</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1306"/>
@@ -421,27 +421,27 @@ D: Розмістити всюди (На всіх стільницях)</transla
     <message>
         <location filename="../obconf.ui" line="127"/>
         <source>A&amp;nimate iconify and restore</source>
-        <translation>Ані&amp;мація значків і відновлення</translation>
+        <translation>Ані&amp;мація піктограм і відновлення</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="231"/>
         <source>&amp;Active window title: </source>
-        <translation>Назва &amp;активного вікна:</translation>
+        <translation>Назва &amp;активного вікна: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="241"/>
         <source>&amp;Inactive window title: </source>
-        <translation>Назва &amp;неактивного вікна:</translation>
+        <translation>Назва &amp;неактивного вікна: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="251"/>
         <source>Menu &amp;header: </source>
-        <translation>Заголово&amp;к меню:</translation>
+        <translation>Заголово&amp;к меню: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="261"/>
         <source>&amp;Menu Item: </source>
-        <translation>П&amp;ункт меню:</translation>
+        <translation>П&amp;ункт меню: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="271"/>
@@ -639,7 +639,7 @@ The program is based on ObConf developed by the following developers.
     <message>
         <location filename="../archive.cpp" line="26"/>
         <source>&quot;%1&quot; was installed to %2</source>
-        <translation>&quot;%1&quot; встановлено до %2</translation>
+        <translation>«%1» встановлено до %2</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="53"/>
