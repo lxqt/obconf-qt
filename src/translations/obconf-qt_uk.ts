@@ -682,10 +682,10 @@ The following errors were reported:
 Please ensure that &quot;%2&quot; is writable and that the file is a valid Openbox theme archive.
 The following errors were reported:
 %3</source>
-        <translation>Неможливо розпакувати файл &quot;%1&quot;.
-Будь ласка, впевніться, що у &quot;%2&quot; можна записувати і що файл є справжнім архівом теми Openbox.
-Сталися наступні помилки :
-%3 </translation>
+        <translation>Неможливо розпакувати файл «%1».
+Впевніться, що до «%2» можна записувати і що файл є справжнім архівом теми Openbox.
+Сталися такі помилки :
+%3</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="53"/>
