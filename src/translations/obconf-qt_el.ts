@@ -740,19 +740,22 @@ Options:
         <location filename="../obconf-qt.cpp" line="97"/>
         <source>--install requires an argument
 </source>
-        <translation>Η επιλογή «--install» απαιτεί ένα όρισμα</translation>
+        <translation>Η επιλογή «--install» απαιτεί ένα όρισμα
+</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="103"/>
         <source>--archive requires an argument
 </source>
-        <translation>Η επιλογή «--archive» απαιτεί ένα όρισμα</translation>
+        <translation>Η επιλογή «--archive» απαιτεί ένα όρισμα
+</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="109"/>
         <source>--config-file requires an argument
 </source>
-        <translation>Η επιλογή «--config» απαιτεί ένα όρισμα</translation>
+        <translation>Η επιλογή «--config-file» απαιτεί ένα όρισμα
+</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="223"/>
