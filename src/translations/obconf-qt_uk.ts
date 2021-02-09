@@ -95,7 +95,7 @@
     <message>
         <location filename="../obconf.ui" line="710"/>
         <source>Focus windows when the mouse pointer moves over them</source>
-        <translation>Фокусування вікон, якщо вказівник миші знаходиться над ними</translation>
+        <translation>Фокусування вікон, якщо вказівник миші розташовано над ними</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="768"/>
