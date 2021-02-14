@@ -506,12 +506,12 @@ D: Розмістити всюди (На всіх стільницях)</transla
     <message>
         <location filename="../obconf.ui" line="512"/>
         <source>&amp;Amount of time to wait before switching:</source>
-        <translation>&amp;Час очікування перед переключанням:</translation>
+        <translation>&amp;Час очікування до перемикання:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="532"/>
         <source>&amp;Switch desktops when moving a window past the screen edge</source>
-        <translation type="unfinished"></translation>
+        <translation>Перемикати робочий стіл під час переміщення вікна за край екрана</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="567"/>
