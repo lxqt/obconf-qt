@@ -491,17 +491,17 @@ D: Розмістити всюди (На всіх стільницях)</transla
     <message>
         <location filename="../obconf.ui" line="452"/>
         <source>Drag &amp;threshold distance:</source>
-        <translation type="unfinished"></translation>
+        <translation>Відс&amp;туп під час перетягування:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="472"/>
         <source>Amount of resistance against other &amp;windows:</source>
-        <translation type="unfinished"></translation>
+        <translation>Сила опору до інших &amp;вікон:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="492"/>
         <source>Amount of resistance against screen &amp;edges:</source>
-        <translation type="unfinished"></translation>
+        <translation>Сила опору до меж &amp;екрана:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="512"/>
