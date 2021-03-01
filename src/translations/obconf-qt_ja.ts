@@ -683,7 +683,7 @@ Please ensure that &quot;%2&quot; is writable and that the file is a valid Openb
 The following errors were reported:
 %3</source>
         <translation>ファイル &quot;%1” が展開できません。
-&quot;%2&quot; が書き込み可能であり、ファイルが正しい Openbox テーマアーカイブであることを確認してください。
+&quot;%2&quot; が書き込み可能であり、ファイルが正しい Openbox テーマアーカイブであることを確認して下さい。
 エラーメッセージは以下の通りです:
 %3</translation>
     </message>
