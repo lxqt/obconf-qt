@@ -152,7 +152,7 @@ D: Zobrazovat na všech monitorech</translation>
     <message>
         <location filename="../obconf.ui" line="302"/>
         <source>&amp;Place new windows under the mouse pointer</source>
-        <translation>Umístit nová okna &amp;pod ukazatel myši</translation>
+        <translation>Umístit nová okna &amp;pod ukazovátko myši</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="309"/>
@@ -212,7 +212,7 @@ D: Zobrazovat na všech monitorech</translation>
     <message>
         <location filename="../obconf.ui" line="391"/>
         <source>Monitor With Mouse Pointer</source>
-        <translation>Obrazovka, na které se nachází ukazatel myši</translation>
+        <translation>Obrazovka, na které se nachází ukazovátko myši</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="399"/>
@@ -343,7 +343,7 @@ D: Zobrazovat na všech monitorech</translation>
     <message>
         <location filename="../obconf.ui" line="710"/>
         <source>Focus windows when the mouse pointer moves over them</source>
-        <translation>Zaměřit okna, když se ukazatel myši nachází nad nimi</translation>
+        <translation>Zaměřit okna, když se ukazovátko myši nachází nad nimi</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="722"/>
@@ -353,17 +353,17 @@ D: Zobrazovat na všech monitorech</translation>
     <message>
         <location filename="../obconf.ui" line="742"/>
         <source>Move focus under the mouse when &amp;switching desktops</source>
-        <translation>Při změně pracovní plochy přené&amp;st zaměření pod ukazatel myši</translation>
+        <translation>Při změně pracovní plochy přené&amp;st zaměření pod ukazovátko myši</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="749"/>
         <source>Move focus &amp;under the mouse when the mouse is not moving</source>
-        <translation>Přesunout zaměření pod &amp;ukazatel myši, když se nepohybuje</translation>
+        <translation>Přesunout zaměření pod &amp;ukazovátko myši, když se nepohybuje</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="756"/>
         <source>&amp;Raise windows when the mouse pointer moves over them</source>
-        <translation>Vyzdvihnout okna, &amp;když se ukazatel myši pohybuje nad nimi</translation>
+        <translation>Vyzdvihnout okna, &amp;když se ukazovátko myši pohybuje nad nimi</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="768"/>
@@ -373,7 +373,7 @@ D: Zobrazovat na všech monitorech</translation>
     <message>
         <location filename="../obconf.ui" line="774"/>
         <source>Double click on the &amp;titlebar:</source>
-        <translation>Dvojklik na &amp;název okna:</translation>
+        <translation>Dvojklepnutí na &amp;název okna:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="785"/>
