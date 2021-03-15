@@ -451,7 +451,7 @@ D: Розмістити всюди (На всіх стільницях)</transla
     <message>
         <location filename="../obconf.ui" line="281"/>
         <source>Inactive O&amp;n-screen display: </source>
-        <translation>Неактивне від&amp;ображення на екрані:</translation>
+        <translation>Неактивне від&amp;ображення на екрані: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="295"/>
