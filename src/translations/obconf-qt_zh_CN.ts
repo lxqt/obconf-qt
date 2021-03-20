@@ -639,7 +639,7 @@ The program is based on ObConf developed by the following developers.
     <message>
         <location filename="../archive.cpp" line="26"/>
         <source>&quot;%1&quot; was installed to %2</source>
-        <translation>&quot;%1&quot; 被安装到 %2</translation>
+        <translation>“%1”已安装至 %2</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="53"/>
