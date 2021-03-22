@@ -110,7 +110,7 @@
     <message>
         <location filename="../obconf.ui" line="911"/>
         <source>Desktop margins are reserved areas on the edge of your screen.  New windows will not be placed within a margin, and maximized windows will not cover them.</source>
-        <translation>Поля робочого столу - це зарезервовані ділянки на краю Вашого екрану. Нові вікна не будуть поміщені за цими межами, а максимізовані вікна не будуть закривати їх.</translation>
+        <translation>Поля стільниці — це зарезервовані ділянки на краю вашого екрана. Нові вікна не будуть поміщені по за цими межами, а розгорнені вікна не затулятимуть їх.</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="921"/>
@@ -396,7 +396,7 @@ D: Розмістити всюди (На всіх стільницях)</transla
     <message>
         <location filename="../obconf.ui" line="1275"/>
         <source>&amp;Hide off screen</source>
-        <translation>С&amp;ховати з екрану</translation>
+        <translation>С&amp;ховати з екрана</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1306"/>
@@ -743,7 +743,7 @@ Options:
     <message>
         <location filename="../obconf-qt.cpp" line="224"/>
         <source>Failed to load an rc.xml. You have probably failed to install Openbox properly.</source>
-        <translation>Помилка завантаження rc.xml. Можливо Ви не встановили правильно Openbox.</translation>
+        <translation>Помилка завантаження rc.xml. Можливо ви встановили Openbox не правильно.</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="236"/>
@@ -771,8 +771,8 @@ under certain conditions. See the file COPYING for details.
 Всі права застережено (c) 2007        Javeed Shaikh
 Всі права застережено (c) 2013        Hong Jen Yee (PCMan)
 
-Ця програма поставляється без всяких гарантій.
-Це вільне програмне забезпечення, і Ви можете поширювати
+Ця програма поставляється без жодних гарантій.
+Це вільне програмне забезпечення і ви можете поширювати
 його за певних умов. Див. файл з назвою COPYING для деталей.
 
 </translation>
