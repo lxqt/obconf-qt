@@ -6,12 +6,12 @@
     <message>
         <location filename="../fontbutton.cpp" line="46"/>
         <source>Bold</source>
-        <translation>Vet</translation>
+        <translation>Vetgedrukt</translation>
     </message>
     <message>
         <location filename="../fontbutton.cpp" line="50"/>
         <source>Italic</source>
-        <translation>Schuin</translation>
+        <translation>Cursief</translation>
     </message>
 </context>
 <context>
@@ -19,7 +19,7 @@
     <message>
         <location filename="../obconf.ui" line="14"/>
         <source>Window Manager Preferences</source>
-        <translation>Instellingen van vensterbeheerder Openbox</translation>
+        <translation>Vensterbeheerder-instellingen</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="38"/>
@@ -29,7 +29,7 @@
     <message>
         <location filename="../obconf.ui" line="43"/>
         <source>Appearance</source>
-        <translation>Uiterlijk</translation>
+        <translation>Vormgeving</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="48"/>
@@ -45,7 +45,7 @@
     <message>
         <location filename="../obconf.ui" line="58"/>
         <source>Move &amp; Resize</source>
-        <translation>Verplaatsen en herschalen</translation>
+        <translation>Verplaatsen en grootte aanpassen</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="63"/>
@@ -65,27 +65,27 @@
     <message>
         <location filename="../obconf.ui" line="78"/>
         <source>Dock</source>
-        <translation>Dok</translation>
+        <translation>Dock</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="96"/>
         <source>&amp;Install a new theme...</source>
-        <translation>Nieuw thema &amp;installeren...</translation>
+        <translation>Thema &amp;installeren…</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="103"/>
         <source>Create a theme &amp;archive (.obt)...</source>
-        <translation>Thema-archief &amp;maken (.obt)...</translation>
+        <translation>Thema-archief s&amp;amenstellen (.obt)…</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="120"/>
         <source>&amp;Windows retain a border when undecorated</source>
-        <translation>&amp;Vensters behouden een rand wanneer niet versierd</translation>
+        <translation>&amp;Vensterranden behouden indien niet versierd</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="127"/>
         <source>A&amp;nimate iconify and restore</source>
-        <translation>&amp;Animeer minimaliseren en herstellen</translation>
+        <translation>Minimaliseren en herstellen voorzien van a&amp;nimatie</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="137"/>
@@ -117,12 +117,12 @@ D: Aanwezig op alle werkbladen</translation>
     <message>
         <location filename="../obconf.ui" line="231"/>
         <source>&amp;Active window title: </source>
-        <translation>Titel van &amp;actieve venster: </translation>
+        <translation>Titel van &amp;actief venster: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="241"/>
         <source>&amp;Inactive window title: </source>
-        <translation>Titel van &amp;inactieve venster: </translation>
+        <translation>Titel van &amp;inactief venster: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="251"/>
@@ -132,12 +132,12 @@ D: Aanwezig op alle werkbladen</translation>
     <message>
         <location filename="../obconf.ui" line="261"/>
         <source>&amp;Menu Item: </source>
-        <translation>&amp;Menu-onderdeel: </translation>
+        <translation>&amp;Menu-item: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="271"/>
         <source>Active &amp;On-screen display: </source>
-        <translation>A&amp;ctieve beeldschermvertoning: </translation>
+        <translation>Actieve beeldschermvert&amp;oning: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="281"/>
@@ -147,47 +147,47 @@ D: Aanwezig op alle werkbladen</translation>
     <message>
         <location filename="../obconf.ui" line="295"/>
         <source>Focus &amp;new windows when they appear</source>
-        <translation>&amp;Stel scherp op nieuwe vensters wanneer zij verschijnen</translation>
+        <translation>Focussen op &amp;nieuwe vensters zodra zij verschijnen</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="302"/>
         <source>&amp;Place new windows under the mouse pointer</source>
-        <translation>&amp;Plaats nieuwe vensters onder de muisaanwijzer</translation>
+        <translation>Nieuwe vensters onder de cursor &amp;plaatsen</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="309"/>
         <source>&amp;Center new windows when they are placed</source>
-        <translation>&amp;Centreer nieuwe vensters wanneer ze worden geplaatst</translation>
+        <translation>Nieuwe vensters &amp;centreren zodra ze worden geplaatst</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="318"/>
         <source>Prefer to place new windows &amp;on:</source>
-        <translation>Plaats &amp;nieuwe vensters bij voorkeur op:</translation>
+        <translation>Nieuwe vensters bij voorkeur plaatsen &amp;op:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="329"/>
         <source>All monitors</source>
-        <translation>alle beeldschermen</translation>
+        <translation>Alle beeldschermen</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="334"/>
         <source>The active monitor</source>
-        <translation>het actieve beeldscherm</translation>
+        <translation>Het actieve beeldscherm</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="339"/>
         <source>The monitor with the mouse</source>
-        <translation>het beeldscherm waar de muispijl zich bevindt</translation>
+        <translation>Het beeldscherm met de cursor</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="344"/>
         <source>Primary monitor</source>
-        <translation>het primaire beeldscherm</translation>
+        <translation>Het primaire beeldscherm</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="354"/>
         <source>Primary Monitor</source>
-        <translation>Primaire beeldscherm</translation>
+        <translation>Primair beeldscherm</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="360"/>
@@ -212,7 +212,7 @@ D: Aanwezig op alle werkbladen</translation>
     <message>
         <location filename="../obconf.ui" line="391"/>
         <source>Monitor With Mouse Pointer</source>
-        <translation>Beeldscherm met muisaanwijzer</translation>
+        <translation>Beeldscherm met cursor</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="399"/>
@@ -769,7 +769,7 @@ Boodschap: %1</translation>
         <location filename="../obconf-qt.cpp" line="223"/>
         <location filename="../obconf-qt.cpp" line="238"/>
         <source>Error</source>
-        <translation>Fout</translation>
+        <translation>Foutmelding</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="224"/>
