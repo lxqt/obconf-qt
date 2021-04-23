@@ -341,12 +341,12 @@ D: På alla skrivbord</translation>
     <message>
         <location filename="../obconf.ui" line="1162"/>
         <source>Allow &amp;windows to be placed within the dock&apos;s area</source>
-        <translation type="unfinished"></translation>
+        <translation>Tillåt &amp;fönster att placeras inom dockningsområdet</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1169"/>
         <source>&amp;Orientation: </source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Orientering: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1183"/>
@@ -361,22 +361,22 @@ D: På alla skrivbord</translation>
     <message>
         <location filename="../obconf.ui" line="1199"/>
         <source>Stacking</source>
-        <translation type="unfinished"></translation>
+        <translation>Stapling</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1205"/>
         <source>Keep dock &amp;above other windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Håll docka &amp;ovanför andra fönster</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1212"/>
         <source>A&amp;llow dock to be both above and below windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Tillåt &amp;docka att vara både över och under fönster</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1219"/>
         <source>Keep dock &amp;below other windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Håll dockan &amp;under andra fönster</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1229"/>
