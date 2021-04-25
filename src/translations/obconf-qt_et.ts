@@ -19,28 +19,28 @@
     <message>
         <location filename="../obconf.ui" line="14"/>
         <source>Window Manager Preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>Aknahalduri seadistused</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="38"/>
         <source>Theme</source>
-        <translation type="unfinished"></translation>
+        <translation>Teema</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="43"/>
         <source>Appearance</source>
-        <translation type="unfinished"></translation>
+        <translation>Välimus</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="48"/>
         <source>Font</source>
-        <translation type="unfinished"></translation>
+        <translation>Font</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="53"/>
         <location filename="../obconf.ui" line="114"/>
         <source>Windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Aknad</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="58"/>
@@ -70,12 +70,12 @@
     <message>
         <location filename="../obconf.ui" line="96"/>
         <source>&amp;Install a new theme...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Paigalda uus teema...</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="103"/>
         <source>Create a theme &amp;archive (.obt)...</source>
-        <translation type="unfinished"></translation>
+        <translation>Loo uus teema&amp;fail (.obt)...</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="120"/>
