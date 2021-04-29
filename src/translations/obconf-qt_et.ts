@@ -6,12 +6,12 @@
     <message>
         <location filename="../fontbutton.cpp" line="46"/>
         <source>Bold</source>
-        <translation type="unfinished"></translation>
+        <translation>Paks kiri</translation>
     </message>
     <message>
         <location filename="../fontbutton.cpp" line="50"/>
         <source>Italic</source>
-        <translation type="unfinished"></translation>
+        <translation>Kaldkiri</translation>
     </message>
 </context>
 <context>
