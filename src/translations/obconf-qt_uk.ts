@@ -6,7 +6,7 @@
     <message>
         <location filename="../fontbutton.cpp" line="46"/>
         <source>Bold</source>
-        <translation>Жирний</translation>
+        <translation>Грубий</translation>
     </message>
     <message>
         <location filename="../fontbutton.cpp" line="50"/>
