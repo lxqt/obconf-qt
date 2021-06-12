@@ -45,27 +45,27 @@
     <message>
         <location filename="../obconf.ui" line="58"/>
         <source>Move &amp; Resize</source>
-        <translation type="unfinished"></translation>
+        <translation>Muuda aknaid</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="63"/>
         <source>Mouse</source>
-        <translation type="unfinished"></translation>
+        <translation>Hiir</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="68"/>
         <source>Desktops</source>
-        <translation type="unfinished"></translation>
+        <translation>Töölauad</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="73"/>
         <source>Margins</source>
-        <translation type="unfinished"></translation>
+        <translation>Äärised</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="78"/>
         <source>Dock</source>
-        <translation type="unfinished"></translation>
+        <translation>Dokk</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="96"/>
@@ -85,17 +85,17 @@
     <message>
         <location filename="../obconf.ui" line="127"/>
         <source>A&amp;nimate iconify and restore</source>
-        <translation type="unfinished"></translation>
+        <translation>Visualiseeri ikoo&amp;niks muutmist ja taastamist</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="137"/>
         <source>Window Titles</source>
-        <translation type="unfinished"></translation>
+        <translation>Akna tiitliriba</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="143"/>
         <source>Button order:</source>
-        <translation type="unfinished"></translation>
+        <translation>Nuppude järjekord:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="153"/>
