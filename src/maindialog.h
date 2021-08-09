@@ -101,6 +101,7 @@ private Q_SLOTS:
   void on_fixed_monitor_valueChanged(int newValue);
   void on_focus_new_toggled(bool checked);
   void on_place_mouse_toggled(bool checked);
+  void on_place_center_toggled(bool checked);
 
   void on_place_active_popup_currentIndexChanged(int index);
   void on_primary_monitor_popup_currentIndexChanged(int index);
