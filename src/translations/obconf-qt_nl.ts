@@ -732,7 +732,7 @@ Opties:
   --version             Toon de programmaversie en sluit het programma af
   --install ARCHIVE.obt Installeer en gebruik het opgegeven thema-archief
   --archive THEMA       Maak een thema-archief van de opgegeven themamap
-  --config-file DATEI   Geef het pad op naar het te gebruiken instellingenbestand
+  --config-file DATEI   Geef de locatie op van het te gebruiken instellingenbestand
 </translation>
     </message>
     <message>
