@@ -456,7 +456,7 @@ D: Розмістити всюди (На всіх стільницях)</transla
     <message>
         <location filename="../obconf.ui" line="295"/>
         <source>Focus &amp;new windows when they appear</source>
-        <translation>Фокусувати &amp;нове вікно коли воно появляється</translation>
+        <translation>Фокусуватися на &amp;новому вікні коли воно з&apos;являється</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="302"/>
