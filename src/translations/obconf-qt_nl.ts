@@ -651,9 +651,9 @@ Het programma is gebaseerd op ObConf, ontwikkeld door:
         <source>Unable to create the theme archive &quot;%1&quot;.
 The following errors were reported:
 %2</source>
-        <translation>Kon thema-archief &quot;%1&quot; niet maken.
-        De volgende fouten werden gemeld:
-        %2</translation>
+        <translation>Het thema-archief ‘%1’ kan niet worden samengesteld.
+De volgende fouten zijn opgetreden:
+%2</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="95"/>
