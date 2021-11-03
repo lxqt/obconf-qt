@@ -70,12 +70,12 @@
     <message>
         <location filename="../obconf.ui" line="96"/>
         <source>&amp;Install a new theme...</source>
-        <translation>Na&amp;instalovat nové téma vzhledu…</translation>
+        <translation>Na&amp;instalovat nový motiv vzhledu…</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="103"/>
         <source>Create a theme &amp;archive (.obt)...</source>
-        <translation>Vytvořit &amp;archiv s tématem vzhledu (.obt)…</translation>
+        <translation>Vytvořit &amp;archiv s motivem vzhledu (.obt)…</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="120"/>
@@ -152,7 +152,7 @@ D: Zobrazovat na všech monitorech</translation>
     <message>
         <location filename="../obconf.ui" line="302"/>
         <source>&amp;Place new windows under the mouse pointer</source>
-        <translation>Umístit nová okna &amp;pod ukazovátko myši</translation>
+        <translation>Umístit nová okna &amp;pod ukazatel myši</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="309"/>
@@ -172,7 +172,7 @@ D: Zobrazovat na všech monitorech</translation>
     <message>
         <location filename="../obconf.ui" line="334"/>
         <source>The active monitor</source>
-        <translation>Činnou obrazovku</translation>
+        <translation>Monitor, na kterém se nachází ukazatel myši</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="339"/>
@@ -212,7 +212,7 @@ D: Zobrazovat na všech monitorech</translation>
     <message>
         <location filename="../obconf.ui" line="391"/>
         <source>Monitor With Mouse Pointer</source>
-        <translation>Obrazovka, na které se nachází ukazovátko myši</translation>
+        <translation>Obrazovka, na které se nachází ukazatel myši</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="399"/>
@@ -343,27 +343,27 @@ D: Zobrazovat na všech monitorech</translation>
     <message>
         <location filename="../obconf.ui" line="710"/>
         <source>Focus windows when the mouse pointer moves over them</source>
-        <translation>Zaměřit okna, když se ukazovátko myši nachází nad nimi</translation>
+        <translation>Zaměřit okna, když se ukazatel myši nachází nad nimi</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="722"/>
         <source>&amp;Delay before focusing and raising windows:</source>
-        <translation>Zpoždění pře&amp;d zaměřením a vyzdvižením oken:</translation>
+        <translation>Prodleva pře&amp;d zaměřením a vyzdvižením oken:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="742"/>
         <source>Move focus under the mouse when &amp;switching desktops</source>
-        <translation>Při změně pracovní plochy přené&amp;st zaměření pod ukazovátko myši</translation>
+        <translation>Při změně pracovní plochy přené&amp;st zaměření pod ukazatel myši</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="749"/>
         <source>Move focus &amp;under the mouse when the mouse is not moving</source>
-        <translation>Přesunout zaměření pod &amp;ukazovátko myši, když se nepohybuje</translation>
+        <translation>Přesunout zaměření pod &amp;ukazatel myši, když se nepohybuje</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="756"/>
         <source>&amp;Raise windows when the mouse pointer moves over them</source>
-        <translation>Vyzdvihnout okna, &amp;když se ukazovátko myši pohybuje nad nimi</translation>
+        <translation>Vyzdvihnout okna, &amp;když se ukazatel myši pohybuje nad nimi</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="768"/>
@@ -373,7 +373,7 @@ D: Zobrazovat na všech monitorech</translation>
     <message>
         <location filename="../obconf.ui" line="774"/>
         <source>Double click on the &amp;titlebar:</source>
-        <translation>Dvojklepnutí na &amp;název okna:</translation>
+        <translation>Dvojklik na liš&amp;tu s názvem okna:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="785"/>
@@ -589,7 +589,7 @@ D: Zobrazovat na všech monitorech</translation>
     <message>
         <location filename="../theme.cpp" line="149"/>
         <source>Choose an Openbox theme</source>
-        <translation>Vyberte téma vzhledu pro Openbox</translation>
+        <translation>Vyberte motiv vzhledu pro Openbox</translation>
     </message>
     <message>
         <location filename="../desktops.cpp" line="65"/>
@@ -601,7 +601,7 @@ D: Zobrazovat na všech monitorech</translation>
     <message>
         <location filename="../mouse.cpp" line="57"/>
         <source>Custom actions</source>
-        <translation>Uživatelem určené akce</translation>
+        <translation>Uživatelsky určené akce</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="76"/>
@@ -767,7 +767,7 @@ Volby:
     <message>
         <location filename="../obconf-qt.cpp" line="224"/>
         <source>Failed to load an rc.xml. You have probably failed to install Openbox properly.</source>
-        <translation>Nepodařilo se načíst rc.xml. Pravděpodobně se u vás nepodařilo nainstalovat ObConf správně.</translation>
+        <translation>Nepodařilo se načíst rc.xml. Pravděpodobně se u vás nepodařilo nainstalovat OpenBox správně.</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="236"/>
