@@ -19,7 +19,7 @@
     <message>
         <location filename="../obconf.ui" line="14"/>
         <source>Window Manager Preferences</source>
-        <translation>Předvolby správce oken</translation>
+        <translation>Předvolby pro správce oken</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="38"/>
@@ -65,7 +65,7 @@
     <message>
         <location filename="../obconf.ui" line="78"/>
         <source>Dock</source>
-        <translation>Panel</translation>
+        <translation>Dok</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="96"/>
@@ -117,12 +117,12 @@ D: Zobrazovat na všech monitorech</translation>
     <message>
         <location filename="../obconf.ui" line="231"/>
         <source>&amp;Active window title: </source>
-        <translation>Název činného okn&amp;a: </translation>
+        <translation>Název aktivního okn&amp;a: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="241"/>
         <source>&amp;Inactive window title: </source>
-        <translation>Název neč&amp;inného okna: </translation>
+        <translation>Název neakt&amp;ivního okna: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="251"/>
@@ -137,12 +137,12 @@ D: Zobrazovat na všech monitorech</translation>
     <message>
         <location filename="../obconf.ui" line="271"/>
         <source>Active &amp;On-screen display: </source>
-        <translation>Činné z&amp;obrazení na obrazovce: </translation>
+        <translation>Aktivní z&amp;obrazení na obrazovce: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="281"/>
         <source>Inactive O&amp;n-screen display: </source>
-        <translation>&amp;Nečinné zobrazení na obrazovce: </translation>
+        <translation>&amp;Neaktivní zobrazení na obrazovce: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="295"/>
@@ -162,7 +162,7 @@ D: Zobrazovat na všech monitorech</translation>
     <message>
         <location filename="../obconf.ui" line="318"/>
         <source>Prefer to place new windows &amp;on:</source>
-        <translation>Upředn&amp;ostňovat umisťování nový oken na:</translation>
+        <translation>Upředn&amp;ostňovat umisťování nových oken na:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="329"/>
@@ -172,7 +172,7 @@ D: Zobrazovat na všech monitorech</translation>
     <message>
         <location filename="../obconf.ui" line="334"/>
         <source>The active monitor</source>
-        <translation>Monitor, na kterém se nachází ukazatel myši</translation>
+        <translation>Obrazovku, na kterém se nachází ukazatel myši</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="339"/>
@@ -207,7 +207,7 @@ D: Zobrazovat na všech monitorech</translation>
     <message>
         <location filename="../obconf.ui" line="386"/>
         <source>Active Monitor</source>
-        <translation>Činná obrazovka</translation>
+        <translation>Aktivní obrazovka</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="391"/>
@@ -623,12 +623,12 @@ The program is based on ObConf developed by the following developers.
 * Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</source>
         <translation>Správce nastavení pro Openbox
 
-Autorské právo © 2014-2015
+Autorská práva © 2014-2015
 
 Autoři:
 * Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;
 
-Program je založen na ObConf vyvíjeném následujícími výojáři:
+Program je založen na ObConf vyvíjeném následujícími vývojáři:
 * Dana Jansens &lt;danakj@orodu.net&gt;
 * Tim Riley &lt;tr@slackzone.org&gt;
 * Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</translation>
@@ -669,7 +669,7 @@ Byly hlášeny následující chyby:
     <message>
         <location filename="../archive.cpp" line="138"/>
         <source>&quot;%1&quot; does not appear to be a valid Openbox theme directory</source>
-        <translation>Zdá se, že „%1“ není platnou složkou s tématy vzhledu pro Openbox</translation>
+        <translation>Zdá se, že „%1“ není platnou složkou s motivy vzhledu pro Openbox</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="148"/>
@@ -683,7 +683,7 @@ Please ensure that &quot;%2&quot; is writable and that the file is a valid Openb
 The following errors were reported:
 %3</source>
         <translation>Nedaří se rozbalit soubor „%1“.
-Ověřte, že „%2“ je přístupné pro zápis a že soubor je platný archiv s tématem vzhledu pro Openbox.
+Ověřte, že „%2“ je přístupné pro zápis a že soubor je platný archiv s motivem vzhledu pro Openbox.
 Byly hlášeny následující chyby:
 %3</translation>
     </message>
@@ -732,8 +732,8 @@ Options:
 Volby:
   --help                Zobrazit tuto nápovědu a skončit
   --version             Zobrazit verzi a skončit
-  --install ARCHIV.obt  Nainstalovat zadaný archiv s tématem vzhledu a vybrat ho
-  --archive MOTIV       Vytvořit archiv s tématem vzhledu ze zadané složky motivu
+  --install ARCHIV.obt  Nainstalovat zadaný archiv s motivem vzhledu a vybrat ho
+  --archive MOTIV       Vytvořit archiv s motivem vzhledu ze zadané složky motivu
   --config-file SOUBOR  Zadejte popis umístění souboru s nastaveními
 </translation>
     </message>
