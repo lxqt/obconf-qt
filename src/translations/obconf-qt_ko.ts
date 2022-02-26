@@ -75,7 +75,7 @@
     <message>
         <location filename="../obconf.ui" line="103"/>
         <source>Create a theme &amp;archive (.obt)...</source>
-        <translation>테마 아카이브(.obt) 만들기(&amp;A)...</translation>
+        <translation>테마 압축파일(.obt) 만들기(&amp;A)...</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="120"/>
@@ -654,7 +654,7 @@ The program is based on ObConf developed by the following developers.
         <source>Unable to create the theme archive &quot;%1&quot;.
 The following errors were reported:
 %2</source>
-        <translation>&quot;%1&quot; 테마 아카이브를 만들 수 없습니다.
+        <translation>&quot;%1&quot; 테마 압축파일을 만들 수 없습니다.
 다음 오류가 보고되었습니다:
 %2</translation>
     </message>
@@ -686,7 +686,7 @@ Please ensure that &quot;%2&quot; is writable and that the file is a valid Openb
 The following errors were reported:
 %3</source>
         <translation>&quot;%1&quot; 파일을 추출할 수 없습니다.
-&quot;%2&quot;이(가) 쓰기 가능하고 파일이 유효한 Openbox 테마 아카이브인지 확인하십시오.
+&quot;%2&quot;이(가) 쓰기 가능하고 파일이 유효한 Openbox 테마 압축파일인지 확인하십시오.
 다음 오류가 보고되었습니다:
 %3</translation>
     </message>
@@ -735,7 +735,7 @@ Options:
   --help                이 도움말을 표시하고 종료
   --version             버전을 표시하고 종료
   --install ARCHIVE.obt  주어진 테마 아카이브를 설치하고 선택
-  --archive THEME       주어진 테마 디렉터리에서 테마 아카이브 만들기
+  --archive THEME       주어진 테마 디렉터리에서 테마 압축파일 만들기
   --config-file FILE    사용할 구성 파일에 대한 경로 지정하기
 </translation>
     </message>
