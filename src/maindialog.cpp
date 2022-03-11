@@ -35,8 +35,10 @@ MainDialog::MainDialog():
   ui.setupUi(this);
   setWindowIcon(QIcon(QStringLiteral(PIXMAPS_DIR) + QStringLiteral("/obconf-qt.png")));
 
+  ui.listWidget->setCurrentRow(0);
   // resize the list widget according to the width of its content.
-  ui.listWidget->setMaximumWidth(ui.listWidget->sizeHintForColumn(0) + ui.listWidget->frameWidth() * 2 + 2);
+  ui.listWidget->setSizePolicy(QSizePolicy::Fixed, QSizePolicy::Expanding);
+  ui.listWidget->setFixedWidth(ui.listWidget->sizeHintForColumn(0) + 2 * ui.listWidget->frameWidth() + 4);
   ui.theme_names->setModel(themes_model);
 
   theme_setup_tab();
