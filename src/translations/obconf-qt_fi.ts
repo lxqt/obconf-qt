@@ -19,7 +19,7 @@
     <message>
         <location filename="../obconf.ui" line="14"/>
         <source>Window Manager Preferences</source>
-        <translation>Ikkunointiohjelman Asetukset</translation>
+        <translation>Ikkunointiohjelman asetukset</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="38"/>
@@ -29,7 +29,7 @@
     <message>
         <location filename="../obconf.ui" line="43"/>
         <source>Appearance</source>
-        <translation>Ulkonäkö</translation>
+        <translation>Ulkoasu</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="48"/>
@@ -45,7 +45,7 @@
     <message>
         <location filename="../obconf.ui" line="58"/>
         <source>Move &amp; Resize</source>
-        <translation>Liikuttelu &amp; Koko</translation>
+        <translation>Liikuttelu ja koko</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="63"/>
@@ -75,7 +75,7 @@
     <message>
         <location filename="../obconf.ui" line="103"/>
         <source>Create a theme &amp;archive (.obt)...</source>
-        <translation>&amp;Luo teema arkisto (.obt)...</translation>
+        <translation>&amp;Luo teema-arkisto (.obt)...</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="120"/>
@@ -90,7 +90,7 @@
     <message>
         <location filename="../obconf.ui" line="137"/>
         <source>Window Titles</source>
-        <translation>Ikkuna Otsikot</translation>
+        <translation>Ikkunaotsikot</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="143"/>
@@ -137,12 +137,12 @@ D: Kaikkiallaoleva (Kaikilla työpöydillä)</translation>
     <message>
         <location filename="../obconf.ui" line="271"/>
         <source>Active &amp;On-screen display: </source>
-        <translation>Aktiivinen OS&amp;D näkymä: </translation>
+        <translation>Aktiivinen OS&amp;D-näkymä: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="281"/>
         <source>Inactive O&amp;n-screen display: </source>
-        <translation>Passiivinen &amp;OSD näkymä: </translation>
+        <translation>Passiivinen &amp;OSD-näkymä: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="295"/>
@@ -187,7 +187,7 @@ D: Kaikkiallaoleva (Kaikilla työpöydillä)</translation>
     <message>
         <location filename="../obconf.ui" line="354"/>
         <source>Primary Monitor</source>
-        <translation>Ensisijainen Näyttö</translation>
+        <translation>Ensisijainen näyttö</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="360"/>
@@ -202,17 +202,17 @@ D: Kaikkiallaoleva (Kaikilla työpöydillä)</translation>
     <message>
         <location filename="../obconf.ui" line="381"/>
         <source>Fixed Monitor</source>
-        <translation>Valittu Näyttö</translation>
+        <translation>Valittu näyttö</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="386"/>
         <source>Active Monitor</source>
-        <translation>Aktiivinen Näyttö</translation>
+        <translation>Aktiivinen näyttö</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="391"/>
         <source>Monitor With Mouse Pointer</source>
-        <translation>Näyttö Jossa Hiiren Osoitin</translation>
+        <translation>Näyttö jossa hiiren osoitin</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="399"/>
@@ -222,7 +222,7 @@ D: Kaikkiallaoleva (Kaikilla työpöydillä)</translation>
     <message>
         <location filename="../obconf.ui" line="439"/>
         <source>Moving and Resizing Windows</source>
-        <translation>Ikkunoiden Liikuttaminen ja Koon Muuttaminen</translation>
+        <translation>Ikkunoiden liikuttaminen ja koon muuttaminen</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="445"/>
@@ -257,7 +257,7 @@ D: Kaikkiallaoleva (Kaikilla työpöydillä)</translation>
     <message>
         <location filename="../obconf.ui" line="542"/>
         <source>Information Dialog</source>
-        <translation>Informaatio Dialogi</translation>
+        <translation>Tietoikkuna</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="549"/>
@@ -278,7 +278,7 @@ D: Kaikkiallaoleva (Kaikilla työpöydillä)</translation>
     <message>
         <location filename="../obconf.ui" line="567"/>
         <source>Fixed &amp;y position:</source>
-        <translation>Valittu &amp;y kohta:</translation>
+        <translation>Valittu &amp;y-sijainti:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="583"/>
@@ -293,17 +293,17 @@ D: Kaikkiallaoleva (Kaikilla työpöydillä)</translation>
     <message>
         <location filename="../obconf.ui" line="596"/>
         <source>Information dialog&apos;s &amp;position:</source>
-        <translation>Informaatio dialogin &amp;asettelu:</translation>
+        <translation>Tietoikkunan &amp;sijainti:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="606"/>
         <source>Fixed &amp;x position:</source>
-        <translation>Valittu &amp;x kohta:</translation>
+        <translation>Valittu &amp;x-sijainti:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="616"/>
         <source>Show &amp;information dialog:</source>
-        <translation>&amp;Näytä informaatio dialogi:</translation>
+        <translation>&amp;Näytä tietoikkuna:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="641"/>
@@ -338,7 +338,7 @@ D: Kaikkiallaoleva (Kaikilla työpöydillä)</translation>
     <message>
         <location filename="../obconf.ui" line="701"/>
         <source>Focusing Windows</source>
-        <translation>Ikkunoiden Kohdistus</translation>
+        <translation>Ikkunoiden kohdistus</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="710"/>
@@ -378,7 +378,7 @@ D: Kaikkiallaoleva (Kaikilla työpöydillä)</translation>
     <message>
         <location filename="../obconf.ui" line="785"/>
         <source>Maximizes the window</source>
-        <translation>Maksimoi ikkunan</translation>
+        <translation>Suurentaa ikkunan</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="790"/>
@@ -413,7 +413,7 @@ D: Kaikkiallaoleva (Kaikilla työpöydillä)</translation>
     <message>
         <location filename="../obconf.ui" line="905"/>
         <source>Desktop Margins</source>
-        <translation>Työpöydän Marginaalit</translation>
+        <translation>Työpöydän marginaalit</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="911"/>
@@ -466,7 +466,7 @@ D: Kaikkiallaoleva (Kaikilla työpöydillä)</translation>
     <message>
         <location filename="../obconf.ui" line="1067"/>
         <source>Top Left</source>
-        <translation>Vasen Yläkulma</translation>
+        <translation>Vasen yläkulma</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1072"/>
@@ -476,7 +476,7 @@ D: Kaikkiallaoleva (Kaikilla työpöydillä)</translation>
     <message>
         <location filename="../obconf.ui" line="1077"/>
         <source>Top Right</source>
-        <translation>Oikea Yläreuna</translation>
+        <translation>Oikea yläreuna</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1082"/>
@@ -491,7 +491,7 @@ D: Kaikkiallaoleva (Kaikilla työpöydillä)</translation>
     <message>
         <location filename="../obconf.ui" line="1092"/>
         <source>Bottom Left</source>
-        <translation>Vasen Alakulma</translation>
+        <translation>Vasen alakulma</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1097"/>
@@ -501,7 +501,7 @@ D: Kaikkiallaoleva (Kaikilla työpöydillä)</translation>
     <message>
         <location filename="../obconf.ui" line="1102"/>
         <source>Bottom Right</source>
-        <translation>Oikea Alakulma</translation>
+        <translation>Oikea alakulma</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1107"/>
@@ -606,7 +606,7 @@ D: Kaikkiallaoleva (Kaikilla työpöydillä)</translation>
     <message>
         <location filename="../maindialog.cpp" line="76"/>
         <source>About ObConf-Qt</source>
-        <translation>ObConf-Qt Tietoja</translation>
+        <translation>Tietoja - ObConf-Qt</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="77"/>
@@ -690,7 +690,7 @@ Virhetiedot:
     <message>
         <location filename="../obconf-qt.cpp" line="53"/>
         <source>ObConf Error</source>
-        <translation>ObConf Virhe</translation>
+        <translation>ObConf-virhe</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="58"/>
