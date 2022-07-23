@@ -271,7 +271,7 @@ D: På alla skrivbord</translation>
     <message>
         <location filename="../obconf.ui" line="1025"/>
         <source>The dock is a special container for &quot;dockapps&quot;, or dock applications.  It is not visible on screen until a dockapp is run.  Dockapps can be used to show things like a clock, or to provide you with a system tray.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dockan är en speciell behållare för &quot;dockappar&quot;.  Den syns inte på skärmen förrens en dockapp körs.  Dockappar kan användas för att visa saker som en klocka, eller för att ge dig ett systemfält.</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1041"/>
@@ -381,22 +381,22 @@ D: På alla skrivbord</translation>
     <message>
         <location filename="../obconf.ui" line="1229"/>
         <source>Hiding</source>
-        <translation type="unfinished"></translation>
+        <translation>Dölja</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1235"/>
         <source>&amp;Delay before hiding:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Fördröjning innan den döljs:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1245"/>
         <source>Delay before &amp;showing:</source>
-        <translation type="unfinished"></translation>
+        <translation>Fördröjning innan den &amp;visas:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1275"/>
         <source>&amp;Hide off screen</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Dölj utanför skärmen</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1306"/>
@@ -616,7 +616,17 @@ The program is based on ObConf developed by the following developers.
 * Dana Jansens &lt;danakj@orodu.net&gt;
 * Tim Riley &lt;tr@slackzone.org&gt;
 * Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>En inställningshanterare för Openbox
+
+Copyright (c) 2014-2015
+
+Skapare:
+* Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;
+
+Detta program är baserad på ObConf vilket utveclades av följande utvecklare.
+* Dana Jansens &lt;danakj@orodu.net&gt;
+* Tim Riley &lt;tr@slackzone.org&gt;
+* Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</translation>
     </message>
     <message>
         <location filename="../theme.cpp" line="149"/>
