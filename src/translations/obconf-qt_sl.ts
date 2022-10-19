@@ -137,7 +137,7 @@ D: Na vseh namizjih</translation>
     <message>
         <location filename="../obconf.ui" line="271"/>
         <source>Active &amp;On-screen display: </source>
-        <translation>Dejavni &amp;On-screen display: </translation>
+        <translation type="unfinished">Dejavni &amp;On-screen display: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="281"/>
@@ -182,52 +182,52 @@ D: Na vseh namizjih</translation>
     <message>
         <location filename="../obconf.ui" line="344"/>
         <source>Primary monitor</source>
-        <translation type="unfinished"></translation>
+        <translation>Glavni monitor</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="354"/>
         <source>Primary Monitor</source>
-        <translation type="unfinished"></translation>
+        <translation>Glavni monitor</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="360"/>
         <source>The primary monitor is where Openbox will place dialogs, such as the one used for cycling windows.</source>
-        <translation type="unfinished"></translation>
+        <translation>Na glavnem monitorju bodo prikazana pogovorna okna, kot je preklapljanje med odprtimi programi.</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="370"/>
         <source>Primary &amp;monitor:</source>
-        <translation type="unfinished"></translation>
+        <translation>Glavni &amp;monitor:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="381"/>
         <source>Fixed Monitor</source>
-        <translation type="unfinished"></translation>
+        <translation>Fiksni monitor</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="386"/>
         <source>Active Monitor</source>
-        <translation type="unfinished"></translation>
+        <translation>Dejavni monitor</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="391"/>
         <source>Monitor With Mouse Pointer</source>
-        <translation type="unfinished"></translation>
+        <translation>Monitor z miškinim kazalcem</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="399"/>
         <source>&amp;Fixed monitor:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Fiksni monitor:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="439"/>
         <source>Moving and Resizing Windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Premikanje in spreminjanje velikosti</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="445"/>
         <source>Update the window contents while &amp;resizing</source>
-        <translation type="unfinished"></translation>
+        <translation>Posodobi vsebino okna med spreminjanjem velikosti</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="452"/>
