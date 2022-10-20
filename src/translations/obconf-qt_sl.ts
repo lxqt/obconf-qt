@@ -142,7 +142,7 @@ D: Na vseh namizjih</translation>
     <message>
         <location filename="../obconf.ui" line="281"/>
         <source>Inactive O&amp;n-screen display: </source>
-        <translation>Nedejavni On-&amp;screen display: </translation>
+        <translation type="unfinished">Nedejavni On-&amp;screen display: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="295"/>
@@ -227,7 +227,7 @@ D: Na vseh namizjih</translation>
     <message>
         <location filename="../obconf.ui" line="445"/>
         <source>Update the window contents while &amp;resizing</source>
-        <translation>Posodobi vsebino okna med spreminjanjem velikosti</translation>
+        <translation>Posodobi vsebino okna med &amp;spreminjanjem velikosti</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="452"/>
@@ -252,7 +252,7 @@ D: Na vseh namizjih</translation>
     <message>
         <location filename="../obconf.ui" line="532"/>
         <source>&amp;Switch desktops when moving a window past the screen edge</source>
-        <translation type="unfinished"></translation>
+        <translation>Preklopi med &amp;namizji, kadar premakneš okno čez rob zaslona</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="542"/>
