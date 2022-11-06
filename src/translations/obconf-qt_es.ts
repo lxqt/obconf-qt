@@ -95,7 +95,7 @@
     <message>
         <location filename="../obconf.ui" line="710"/>
         <source>Focus windows when the mouse pointer moves over them</source>
-        <translation>Activar las ventanas al pasar el ratón sobre ellas</translation>
+        <translation>Activar las ventanas al pasar el ratón por encima</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="768"/>
@@ -623,7 +623,7 @@ Copyright (c) 2014-2015
 Autores:
 * Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;
 
-El programa está basado en ObConf ObConf, desarrollado por los siguientes desarrolladores.
+Este programa está basado en ObConf desarrollado por los siguientes desarrolladores.
 * Dana Jansens &lt;danakj@orodu.net&gt;
 * Tim Riley &lt;tr@slackzone.org&gt;
 * Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</translation>
