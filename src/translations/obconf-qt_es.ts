@@ -39,7 +39,7 @@
     <message>
         <location filename="../obconf.ui" line="48"/>
         <source>Font</source>
-        <translation>Tipo de letra</translation>
+        <translation>Fuente</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="53"/>
