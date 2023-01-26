@@ -6,12 +6,12 @@
     <message>
         <location filename="../fontbutton.cpp" line="46"/>
         <source>Bold</source>
-        <translation type="unfinished"></translation>
+        <translation>Gras</translation>
     </message>
     <message>
         <location filename="../fontbutton.cpp" line="50"/>
         <source>Italic</source>
-        <translation type="unfinished"></translation>
+        <translation>Italica</translation>
     </message>
 </context>
 <context>
@@ -19,48 +19,48 @@
     <message>
         <location filename="../obconf.ui" line="14"/>
         <source>Window Manager Preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>Preferéncias del gestionari de fenèstras</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="38"/>
         <source>Theme</source>
-        <translation type="unfinished"></translation>
+        <translation>Tèma</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="43"/>
         <source>Appearance</source>
-        <translation type="unfinished"></translation>
+        <translation>Aparéncia</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="48"/>
         <source>Font</source>
-        <translation type="unfinished"></translation>
+        <translation>Polissa</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="53"/>
         <location filename="../obconf.ui" line="114"/>
         <source>Windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Fenèstras</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="58"/>
         <source>Move &amp; Resize</source>
-        <translation type="unfinished"></translation>
+        <translation>Desplaçar e redimensionar</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="63"/>
         <source>Mouse</source>
-        <translation type="unfinished"></translation>
+        <translation>Mirga</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="68"/>
         <source>Desktops</source>
-        <translation type="unfinished"></translation>
+        <translation>Burèus</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="73"/>
         <source>Margins</source>
-        <translation type="unfinished"></translation>
+        <translation>Marges</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="78"/>
@@ -90,7 +90,7 @@
     <message>
         <location filename="../obconf.ui" line="137"/>
         <source>Window Titles</source>
-        <translation type="unfinished"></translation>
+        <translation>Títols de fenèstra</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="143"/>
@@ -161,27 +161,27 @@ D: Omnipresent (On all desktops)</source>
     <message>
         <location filename="../obconf.ui" line="329"/>
         <source>All monitors</source>
-        <translation type="unfinished"></translation>
+        <translation>Totes los monitors</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="334"/>
         <source>The active monitor</source>
-        <translation type="unfinished"></translation>
+        <translation>Lo monitor actiu</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="339"/>
         <source>The monitor with the mouse</source>
-        <translation type="unfinished"></translation>
+        <translation>Lo monitor amb la mirga</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="344"/>
         <source>Primary monitor</source>
-        <translation type="unfinished"></translation>
+        <translation>Monitor principal</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="354"/>
         <source>Primary Monitor</source>
-        <translation type="unfinished"></translation>
+        <translation>Monitor principal</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="360"/>
@@ -196,12 +196,12 @@ D: Omnipresent (On all desktops)</source>
     <message>
         <location filename="../obconf.ui" line="381"/>
         <source>Fixed Monitor</source>
-        <translation type="unfinished"></translation>
+        <translation>Monitor fixe</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="386"/>
         <source>Active Monitor</source>
-        <translation type="unfinished"></translation>
+        <translation>Monitor actiu</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="391"/>
@@ -307,12 +307,12 @@ D: Omnipresent (On all desktops)</source>
     <message>
         <location filename="../obconf.ui" line="646"/>
         <source>Always</source>
-        <translation type="unfinished"></translation>
+        <translation>Totjorn</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="651"/>
         <source>Never</source>
-        <translation type="unfinished"></translation>
+        <translation>Jamai</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="660"/>
@@ -417,7 +417,7 @@ D: Omnipresent (On all desktops)</source>
     <message>
         <location filename="../obconf.ui" line="921"/>
         <source>Left:</source>
-        <translation type="unfinished"></translation>
+        <translation>Esquèrra :</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="935"/>
@@ -430,17 +430,17 @@ D: Omnipresent (On all desktops)</source>
     <message>
         <location filename="../obconf.ui" line="942"/>
         <source>Top:</source>
-        <translation type="unfinished"></translation>
+        <translation>Dessús :</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="963"/>
         <source>Right:</source>
-        <translation type="unfinished"></translation>
+        <translation>Drecha :</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="984"/>
         <source>Bottom:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bas :</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1025"/>
@@ -450,7 +450,7 @@ D: Omnipresent (On all desktops)</source>
     <message>
         <location filename="../obconf.ui" line="1041"/>
         <source>Position</source>
-        <translation type="unfinished"></translation>
+        <translation>Posicion</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1053"/>
@@ -575,7 +575,7 @@ D: Omnipresent (On all desktops)</source>
     <message>
         <location filename="../obconf.ui" line="1306"/>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>A prepaus</translation>
     </message>
 </context>
 <context>
@@ -720,7 +720,7 @@ Options:
         <location filename="../obconf-qt.cpp" line="223"/>
         <location filename="../obconf-qt.cpp" line="238"/>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Error</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="224"/>
