@@ -621,7 +621,7 @@ The program is based on ObConf developed by the following developers.
 * Dana Jansens &lt;danakj@orodu.net&gt;
 * Tim Riley &lt;tr@slackzone.org&gt;
 * Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</source>
-        <translation>Openbox asetuksien määrittelyohjelma
+        <translation>Openboxin asetuksien määrittelyohjelma
 
 Copyright (c) 2014-2015
 
