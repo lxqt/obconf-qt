@@ -22,83 +22,83 @@
         <translation>창 관리자 기본 설정</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="38"/>
+        <location filename="../obconf.ui" line="26"/>
         <source>Theme</source>
         <translation>테마</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="43"/>
+        <location filename="../obconf.ui" line="31"/>
         <source>Appearance</source>
         <translation>모양새</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="48"/>
+        <location filename="../obconf.ui" line="36"/>
         <source>Font</source>
         <translation>글꼴</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="53"/>
-        <location filename="../obconf.ui" line="114"/>
+        <location filename="../obconf.ui" line="41"/>
+        <location filename="../obconf.ui" line="102"/>
         <source>Windows</source>
         <translation>창</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="58"/>
+        <location filename="../obconf.ui" line="46"/>
         <source>Move &amp; Resize</source>
         <translation>이동 및 크기 조정</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="63"/>
+        <location filename="../obconf.ui" line="51"/>
         <source>Mouse</source>
         <translation>마우스</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="68"/>
+        <location filename="../obconf.ui" line="56"/>
         <source>Desktops</source>
         <translation>바탕화면</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="73"/>
+        <location filename="../obconf.ui" line="61"/>
         <source>Margins</source>
         <translation>여백</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="78"/>
+        <location filename="../obconf.ui" line="66"/>
         <source>Dock</source>
         <translation>독</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="96"/>
+        <location filename="../obconf.ui" line="84"/>
         <source>&amp;Install a new theme...</source>
         <translation>새 테마 설치(&amp;I)...</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="103"/>
+        <location filename="../obconf.ui" line="91"/>
         <source>Create a theme &amp;archive (.obt)...</source>
         <translation>테마 압축파일(.obt) 만들기(&amp;A)...</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="120"/>
+        <location filename="../obconf.ui" line="108"/>
         <source>&amp;Windows retain a border when undecorated</source>
         <translation>장식되지 않은 경우 창 테두리 유지(&amp;W)</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="127"/>
+        <location filename="../obconf.ui" line="115"/>
         <source>A&amp;nimate iconify and restore</source>
         <translation>움직이는 아이콘화 및 복원(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="137"/>
+        <location filename="../obconf.ui" line="125"/>
         <source>Window Titles</source>
         <translation>창 제목</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="143"/>
+        <location filename="../obconf.ui" line="131"/>
         <source>Button order:</source>
         <translation>단추 순서:</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="153"/>
+        <location filename="../obconf.ui" line="141"/>
         <source>N: Window icon
 L: Window label (Title)
 I: Iconify (Minimize)
@@ -115,471 +115,471 @@ S: 음영 (롤업)
 D: 편재 (모든 바탕화면)</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="231"/>
+        <location filename="../obconf.ui" line="219"/>
         <source>&amp;Active window title: </source>
         <translation>활성 창 제목(&amp;A): </translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="241"/>
+        <location filename="../obconf.ui" line="229"/>
         <source>&amp;Inactive window title: </source>
         <translation>비활성 창 제목(&amp;I): </translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="251"/>
+        <location filename="../obconf.ui" line="239"/>
         <source>Menu &amp;header: </source>
         <translation>메뉴 헤더(&amp;H): </translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="261"/>
+        <location filename="../obconf.ui" line="249"/>
         <source>&amp;Menu Item: </source>
         <translation>메뉴 항목(&amp;M): </translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="271"/>
+        <location filename="../obconf.ui" line="259"/>
         <source>Active &amp;On-screen display: </source>
         <translation>활성 화면의 화면표시(&amp;O): </translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="281"/>
+        <location filename="../obconf.ui" line="269"/>
         <source>Inactive O&amp;n-screen display: </source>
         <translation>비활성 화면의 화면표시(&amp;N): </translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="295"/>
+        <location filename="../obconf.ui" line="283"/>
         <source>Focus &amp;new windows when they appear</source>
         <translation>새 창이 나타날 때 초점 맞추기(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="302"/>
+        <location filename="../obconf.ui" line="290"/>
         <source>&amp;Place new windows under the mouse pointer</source>
         <translation>마우스 포인터 아래에 새 창 배치(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="309"/>
+        <location filename="../obconf.ui" line="297"/>
         <source>&amp;Center new windows when they are placed</source>
         <translation>중앙에 새 창 배치(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="318"/>
+        <location filename="../obconf.ui" line="306"/>
         <source>Prefer to place new windows &amp;on:</source>
         <translation>원하는 곳에 새 창 배치(&amp;O):</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="329"/>
+        <location filename="../obconf.ui" line="317"/>
         <source>All monitors</source>
         <translation>모든 모니터</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="334"/>
+        <location filename="../obconf.ui" line="322"/>
         <source>The active monitor</source>
         <translation>활성 모니터</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="339"/>
+        <location filename="../obconf.ui" line="327"/>
         <source>The monitor with the mouse</source>
         <translation>마우스가 있는 모니터</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="344"/>
+        <location filename="../obconf.ui" line="332"/>
         <source>Primary monitor</source>
         <translation>기본 모니터</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="354"/>
+        <location filename="../obconf.ui" line="342"/>
         <source>Primary Monitor</source>
         <translation>기본 모니터</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="360"/>
+        <location filename="../obconf.ui" line="348"/>
         <source>The primary monitor is where Openbox will place dialogs, such as the one used for cycling windows.</source>
         <translation>기본 모니터는 Openbox가 순환 창에 사용되는 것과 같은 대화 상자를 배치하는 위치입니다.</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="370"/>
+        <location filename="../obconf.ui" line="358"/>
         <source>Primary &amp;monitor:</source>
         <translation>기본 모니터(&amp;M):</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="381"/>
+        <location filename="../obconf.ui" line="369"/>
         <source>Fixed Monitor</source>
         <translation>고정 모니터</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="386"/>
+        <location filename="../obconf.ui" line="374"/>
         <source>Active Monitor</source>
         <translation>활성 모니터</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="391"/>
+        <location filename="../obconf.ui" line="379"/>
         <source>Monitor With Mouse Pointer</source>
         <translation>마우스 포인터가 있는 모니터</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="399"/>
+        <location filename="../obconf.ui" line="387"/>
         <source>&amp;Fixed monitor:</source>
         <translation>고정 모니터(&amp;F):</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="439"/>
+        <location filename="../obconf.ui" line="427"/>
         <source>Moving and Resizing Windows</source>
         <translation>창 이동 및 크기 조정</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="445"/>
+        <location filename="../obconf.ui" line="433"/>
         <source>Update the window contents while &amp;resizing</source>
         <translation>크기를 조정하는 동안 창 내용 업데이트(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="452"/>
+        <location filename="../obconf.ui" line="440"/>
         <source>Drag &amp;threshold distance:</source>
         <translation>드래그 임계값 거리(&amp;T):</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="472"/>
+        <location filename="../obconf.ui" line="460"/>
         <source>Amount of resistance against other &amp;windows:</source>
         <translation>다른 창에 접했을 때의 저항의 양(&amp;W):</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="492"/>
+        <location filename="../obconf.ui" line="480"/>
         <source>Amount of resistance against screen &amp;edges:</source>
         <translation>화면 가장자리에 접했을 때의 저항의 양(&amp;E):</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="512"/>
+        <location filename="../obconf.ui" line="500"/>
         <source>&amp;Amount of time to wait before switching:</source>
         <translation>바탕화면을 전환 할 때까지의 대기 시간(&amp;A):</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="532"/>
+        <location filename="../obconf.ui" line="520"/>
         <source>&amp;Switch desktops when moving a window past the screen edge</source>
         <translation>화면 가장자리를 지나 창을 이동할 때 바탕화면 전환(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="542"/>
+        <location filename="../obconf.ui" line="530"/>
         <source>Information Dialog</source>
         <translation>정보 대화상자</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="549"/>
-        <location filename="../obconf.ui" line="578"/>
+        <location filename="../obconf.ui" line="537"/>
+        <location filename="../obconf.ui" line="566"/>
         <source>Centered</source>
         <translation>중앙</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="554"/>
+        <location filename="../obconf.ui" line="542"/>
         <source>From left edge</source>
         <translation>왼쪽 가장자리에서</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="559"/>
+        <location filename="../obconf.ui" line="547"/>
         <source>From right edge</source>
         <translation>오른쪽 가장자리에서</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="567"/>
+        <location filename="../obconf.ui" line="555"/>
         <source>Fixed &amp;y position:</source>
         <translation>고정 Y 위치(&amp;Y):</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="583"/>
+        <location filename="../obconf.ui" line="571"/>
         <source>From top edge</source>
         <translation>상단 가장자리에서</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="588"/>
+        <location filename="../obconf.ui" line="576"/>
         <source>From bottom edge</source>
         <translation>하단 가장자리에서</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="596"/>
+        <location filename="../obconf.ui" line="584"/>
         <source>Information dialog&apos;s &amp;position:</source>
         <translation>정보 대화상자의 위치(&amp;P):</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="606"/>
+        <location filename="../obconf.ui" line="594"/>
         <source>Fixed &amp;x position:</source>
         <translation>고정 X 위치(&amp;X):</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="616"/>
+        <location filename="../obconf.ui" line="604"/>
         <source>Show &amp;information dialog:</source>
         <translation>정보 대화상자 표시(&amp;I):</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="641"/>
+        <location filename="../obconf.ui" line="629"/>
         <source>When resizing terminal windows</source>
         <translation>터미널 창 크기를 조정할 때</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="646"/>
+        <location filename="../obconf.ui" line="634"/>
         <source>Always</source>
         <translation>항상</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="651"/>
+        <location filename="../obconf.ui" line="639"/>
         <source>Never</source>
         <translation>없음</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="660"/>
+        <location filename="../obconf.ui" line="648"/>
         <source>Centered on the window</source>
         <translation>창의 중앙</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="665"/>
+        <location filename="../obconf.ui" line="653"/>
         <source>Above the window</source>
         <translation>창 위에</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="670"/>
+        <location filename="../obconf.ui" line="658"/>
         <source>Fixed position on screen</source>
         <translation>화면의 고정 위치</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="701"/>
+        <location filename="../obconf.ui" line="689"/>
         <source>Focusing Windows</source>
         <translation>창 초점 맞추기</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="710"/>
+        <location filename="../obconf.ui" line="698"/>
         <source>Focus windows when the mouse pointer moves over them</source>
         <translation>마우스 포인터가 창 위로 이동할 때 창에 초점 맞추기</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="722"/>
+        <location filename="../obconf.ui" line="710"/>
         <source>&amp;Delay before focusing and raising windows:</source>
         <translation>창에 초점을 맞추고 올리기 전 지연시간(&amp;D):</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="742"/>
+        <location filename="../obconf.ui" line="730"/>
         <source>Move focus under the mouse when &amp;switching desktops</source>
         <translation>바탕화면 전환 시 마우스 아래로 초점 이동(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="749"/>
+        <location filename="../obconf.ui" line="737"/>
         <source>Move focus &amp;under the mouse when the mouse is not moving</source>
         <translation>마우스가 움직이지 않을 때 마우스 아래로 초점 이동(&amp;U)</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="756"/>
+        <location filename="../obconf.ui" line="744"/>
         <source>&amp;Raise windows when the mouse pointer moves over them</source>
         <translation>마우스 포인터가 창 위로 이동할 때 창 올리기(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="768"/>
+        <location filename="../obconf.ui" line="756"/>
         <source>Titlebar</source>
         <translation>제목 표시줄</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="774"/>
+        <location filename="../obconf.ui" line="762"/>
         <source>Double click on the &amp;titlebar:</source>
         <translation>제목 표시줄 두 번 클릭(&amp;T):</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="785"/>
+        <location filename="../obconf.ui" line="773"/>
         <source>Maximizes the window</source>
         <translation>창 최대화</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="790"/>
+        <location filename="../obconf.ui" line="778"/>
         <source>Shades the window</source>
         <translation>창 음영</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="798"/>
+        <location filename="../obconf.ui" line="786"/>
         <source>Double click ti&amp;me:</source>
         <translation>시간 두번 클릭(&amp;M):</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="838"/>
+        <location filename="../obconf.ui" line="826"/>
         <source>&amp;Show a notification when switching desktops</source>
         <translation>바탕화면 전환 시 알림 표시(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="845"/>
+        <location filename="../obconf.ui" line="833"/>
         <source>&amp;Amount of time to show the notification for:</source>
         <translation>알림을 표시할 시간(&amp;A):</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="868"/>
+        <location filename="../obconf.ui" line="856"/>
         <source>&amp;Number of desktops: </source>
         <translation>바탕화면 수(&amp;N): </translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="891"/>
+        <location filename="../obconf.ui" line="879"/>
         <source>&amp;Desktop names:</source>
         <translation>바탕화면 이름(&amp;D):</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="905"/>
+        <location filename="../obconf.ui" line="893"/>
         <source>Desktop Margins</source>
         <translation>바탕화면 여백</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="911"/>
+        <location filename="../obconf.ui" line="899"/>
         <source>Desktop margins are reserved areas on the edge of your screen.  New windows will not be placed within a margin, and maximized windows will not cover them.</source>
         <translation>바탕화면 여백은 화면 가장자리의 예약된 영역입니다. 새 창은 여백 내에 배치되지 않으며 최대화된 창은 이를 덮지 않습니다.</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="921"/>
+        <location filename="../obconf.ui" line="909"/>
         <source>Left:</source>
         <translation>왼쪽:</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="935"/>
-        <location filename="../obconf.ui" line="956"/>
-        <location filename="../obconf.ui" line="977"/>
-        <location filename="../obconf.ui" line="998"/>
+        <location filename="../obconf.ui" line="923"/>
+        <location filename="../obconf.ui" line="944"/>
+        <location filename="../obconf.ui" line="965"/>
+        <location filename="../obconf.ui" line="986"/>
         <source>px</source>
         <translation>픽셀</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="942"/>
+        <location filename="../obconf.ui" line="930"/>
         <source>Top:</source>
         <translation>상단:</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="963"/>
+        <location filename="../obconf.ui" line="951"/>
         <source>Right:</source>
         <translation>오른쪽:</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="984"/>
+        <location filename="../obconf.ui" line="972"/>
         <source>Bottom:</source>
         <translation>하단:</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="1025"/>
+        <location filename="../obconf.ui" line="1013"/>
         <source>The dock is a special container for &quot;dockapps&quot;, or dock applications.  It is not visible on screen until a dockapp is run.  Dockapps can be used to show things like a clock, or to provide you with a system tray.</source>
         <translation>독(Dock)은 &quot;독앱&quot; 또는 독 응용프로그램을 위한 특수 컨테이너입니다. 독앱이 실행될 때까지 화면에 표시되지 않습니다. 독앱은 시계와 같은 것을 표시하거나 시스템 트레이를 제공하는 데 사용할 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="1041"/>
+        <location filename="../obconf.ui" line="1029"/>
         <source>Position</source>
         <translation>위치</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="1053"/>
+        <location filename="../obconf.ui" line="1041"/>
         <source>&amp;Position:</source>
         <translation>위치(&amp;P):</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="1067"/>
+        <location filename="../obconf.ui" line="1055"/>
         <source>Top Left</source>
         <translation>왼쪽 상단</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="1072"/>
+        <location filename="../obconf.ui" line="1060"/>
         <source>Top</source>
         <translation>상단</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="1077"/>
+        <location filename="../obconf.ui" line="1065"/>
         <source>Top Right</source>
         <translation>오른쪽 상단</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="1082"/>
+        <location filename="../obconf.ui" line="1070"/>
         <source>Left</source>
         <translation>왼쪽</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="1087"/>
+        <location filename="../obconf.ui" line="1075"/>
         <source>Right</source>
         <translation>오른쪽</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="1092"/>
+        <location filename="../obconf.ui" line="1080"/>
         <source>Bottom Left</source>
         <translation>왼쪽 하단</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="1097"/>
+        <location filename="../obconf.ui" line="1085"/>
         <source>Bottom</source>
         <translation>하단</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="1102"/>
+        <location filename="../obconf.ui" line="1090"/>
         <source>Bottom Right</source>
         <translation>오른쪽 하단</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="1107"/>
+        <location filename="../obconf.ui" line="1095"/>
         <source>Floating</source>
         <translation>플로팅</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="1121"/>
+        <location filename="../obconf.ui" line="1109"/>
         <source>&amp;Floating position:</source>
         <translation>플로팅 위치(&amp;F):</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="1146"/>
+        <location filename="../obconf.ui" line="1134"/>
         <source>x</source>
         <translation>x</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="1162"/>
+        <location filename="../obconf.ui" line="1150"/>
         <source>Allow &amp;windows to be placed within the dock&apos;s area</source>
         <translation>독의 영역 내에 창을 배치할 수 있도록 허용(&amp;W)</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="1169"/>
+        <location filename="../obconf.ui" line="1157"/>
         <source>&amp;Orientation: </source>
         <translation>방향(&amp;O): </translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="1183"/>
+        <location filename="../obconf.ui" line="1171"/>
         <source>Vertical</source>
         <translation>세로</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="1188"/>
+        <location filename="../obconf.ui" line="1176"/>
         <source>Horizontal</source>
         <translation>가로</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="1199"/>
+        <location filename="../obconf.ui" line="1187"/>
         <source>Stacking</source>
         <translation>겹침</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="1205"/>
+        <location filename="../obconf.ui" line="1193"/>
         <source>Keep dock &amp;above other windows</source>
         <translation>다른 창 위에 독 유지(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="1212"/>
+        <location filename="../obconf.ui" line="1200"/>
         <source>A&amp;llow dock to be both above and below windows</source>
         <translation>독이 창 위와 아래 모두에 있도록 허용(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="1219"/>
+        <location filename="../obconf.ui" line="1207"/>
         <source>Keep dock &amp;below other windows</source>
         <translation>다른 창 아래에 독 유지(&amp;B)</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="1229"/>
+        <location filename="../obconf.ui" line="1217"/>
         <source>Hiding</source>
         <translation>숨김</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="1235"/>
+        <location filename="../obconf.ui" line="1223"/>
         <source>&amp;Delay before hiding:</source>
         <translation>숨기기 전 지연시간(&amp;D):</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="1245"/>
+        <location filename="../obconf.ui" line="1233"/>
         <source>Delay before &amp;showing:</source>
         <translation>표시하기 전 지연시간(&amp;S):</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="1275"/>
+        <location filename="../obconf.ui" line="1263"/>
         <source>&amp;Hide off screen</source>
         <translation>화면에서 숨기기(&amp;H)</translation>
     </message>
     <message>
-        <location filename="../obconf.ui" line="1306"/>
+        <location filename="../obconf.ui" line="1294"/>
         <source>About</source>
         <translation>정보</translation>
     </message>
@@ -604,12 +604,12 @@ D: 편재 (모든 바탕화면)</translation>
         <translation>사용자 지정 작업</translation>
     </message>
     <message>
-        <location filename="../maindialog.cpp" line="76"/>
+        <location filename="../maindialog.cpp" line="78"/>
         <source>About ObConf-Qt</source>
         <translation>ObConf-Qt 정보</translation>
     </message>
     <message>
-        <location filename="../maindialog.cpp" line="77"/>
+        <location filename="../maindialog.cpp" line="79"/>
         <source>A preferences manager for Openbox
 
 Copyright (c) 2014-2015
