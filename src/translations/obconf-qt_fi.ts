@@ -740,21 +740,21 @@ Vivut:
         <location filename="../obconf-qt.cpp" line="97"/>
         <source>--install requires an argument
 </source>
-        <translation>--install vaatii argumentin
+        <translation>--install vaatii parametrin
 </translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="103"/>
         <source>--archive requires an argument
 </source>
-        <translation>--archive vaatii argumentin
+        <translation>--archive vaatii parametrin
 </translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="109"/>
         <source>--config-file requires an argument
 </source>
-        <translation>--config-file vaatii argumentin
+        <translation>--config-file vaatii parametrin
 </translation>
     </message>
     <message>
