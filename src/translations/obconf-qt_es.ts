@@ -95,7 +95,7 @@
     <message>
         <location filename="../obconf.ui" line="698"/>
         <source>Focus windows when the mouse pointer moves over them</source>
-        <translation>Activar las ventanas al pasar el ratón por encima</translation>
+        <translation>Enfocar ventanas cuando el puntero del ratón se desplaza sobre ellas</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="756"/>
