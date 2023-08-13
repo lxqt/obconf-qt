@@ -60,7 +60,7 @@
     <message>
         <location filename="../obconf.ui" line="61"/>
         <source>Margins</source>
-        <translation>Äärised</translation>
+        <translation>Veerised</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="66"/>
