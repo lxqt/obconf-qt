@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.1.0 FATAL_ERROR)
+cmake_minimum_required(VERSION 3.5.0 FATAL_ERROR)
 # CMP0000: Call the cmake_minimum_required() command at the beginning of the top-level
 # CMakeLists.txt file even before calling the project() command.
 # The cmake_minimum_required(VERSION) command implicitly invokes the cmake_policy(VERSION)
@@ -18,7 +18,7 @@ set(QT_MINIMUM_VERSION "5.12.0")
 
 set(OBCONFQT_MAJOR_VERSION 0)
 set(OBCONFQT_MINOR_VERSION 16)
-set(OBCONFQT_PATCH_VERSION 2)
+set(OBCONFQT_PATCH_VERSION 3)
 set(OBCONFQT_VERSION ${OBCONFQT_MAJOR_VERSION}.${OBCONFQT_MINOR_VERSION}.${OBCONFQT_PATCH_VERSION})
 add_definitions("-DOBCONFQT_VERSION=\"${OBCONFQT_VERSION}\"")
 

@@ -1,3 +1,9 @@
+obconf-qt-0.16.3 / 2023-08-16
+=============================
+  * Added missing copyright info.
+  * Bumped the minimum required version of cmake to 3.5.0 (to silence a compilation warning).
+  * Translation updates.
+
 obconf-qt-0.16.2 / 2022-03-11
 =============================
   * Fixed the option for centering window on opening.
