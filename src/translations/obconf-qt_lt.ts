@@ -112,7 +112,7 @@ I: Suskleisti
 M: Išskleisti
 C: Užverti
 S: Užraityti
-D: &quot;Visuose darbalaukiuose&quot; mygtukas</translation>
+D: „Visuose darbalaukiuose“ mygtukas</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="219"/>
@@ -639,7 +639,7 @@ Programa yra pagrįsta ObConf, kurią savo ruožtu kūrė šie kūrėjai.
     <message>
         <location filename="../archive.cpp" line="26"/>
         <source>&quot;%1&quot; was installed to %2</source>
-        <translation>&quot;%1&quot; buvo įdiegta į %2</translation>
+        <translation>„%1“ buvo įdiegta į %2</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="53"/>
@@ -674,7 +674,7 @@ Buvo pranešta apie šias klaidas:
     <message>
         <location filename="../archive.cpp" line="148"/>
         <source>Unable to move to directory &quot;%1&quot;: %2</source>
-        <translation>Nepavyko perkelti į katalogą &quot;%1&quot;: %2</translation>
+        <translation>Nepavyko perkelti į katalogą „%1“: %2</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="185"/>
