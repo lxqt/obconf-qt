@@ -644,14 +644,14 @@ Programa yra pagrįsta ObConf, kurią savo ruožtu kūrė šie kūrėjai.
     <message>
         <location filename="../archive.cpp" line="53"/>
         <source>&quot;%1&quot; was successfully created</source>
-        <translation>&quot;%1&quot; buvo sėkmingai sukurta</translation>
+        <translation>„%1“ buvo sėkmingai sukurta</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="89"/>
         <source>Unable to create the theme archive &quot;%1&quot;.
 The following errors were reported:
 %2</source>
-        <translation>Nepavyko sukurti apipavidalinimo archyvo &quot;%1“.
+        <translation>Nepavyko sukurti apipavidalinimo archyvo „%1“.
 Buvo pranešta apie šias klaidas:
 %2</translation>
     </message>
@@ -659,17 +659,17 @@ Buvo pranešta apie šias klaidas:
         <location filename="../archive.cpp" line="95"/>
         <location filename="../archive.cpp" line="178"/>
         <source>Unable to run the &quot;tar&quot; command: %1</source>
-        <translation>Nepavyko įvykdyti &quot;tar“ komandos: %1</translation>
+        <translation>Nepavyko įvykdyti „tar“ komandos: %1</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="115"/>
         <source>Unable to create directory &quot;%1&quot;: %2</source>
-        <translation>Nepavyko sukurti katalogo &quot;%1&quot;: %2</translation>
+        <translation>Nepavyko sukurti katalogo „%1“: %2</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="138"/>
         <source>&quot;%1&quot; does not appear to be a valid Openbox theme directory</source>
-        <translation>&quot;%1“ nėra tinkamas Openbox apipavidalinimo katalogas</translation>
+        <translation>„%1“ nėra tinkamas Openbox apipavidalinimo katalogas</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="148"/>
@@ -682,8 +682,8 @@ Buvo pranešta apie šias klaidas:
 Please ensure that &quot;%2&quot; is writable and that the file is a valid Openbox theme archive.
 The following errors were reported:
 %3</source>
-        <translation>Nepavyko išskleisti failo &quot;%1&quot;.
-Įsitikinkite, kad galima rašyti į &quot;%2&quot; ir, kad tas failas yra tinkamas Openbox apipavidalinimo archyvas.
+        <translation>Nepavyko išskleisti failo „%1“.
+Įsitikinkite, kad galima rašyti į „%2“ ir, kad tas failas yra tinkamas Openbox apipavidalinimo archyvas.
 Buvo pranešta apie šias klaidas:
 %3</translation>
     </message>
