@@ -90,7 +90,7 @@
     <message>
         <location filename="../obconf.ui" line="689"/>
         <source>Focusing Windows</source>
-        <translation>Activación de ventanas</translation>
+        <translation>Enfocando ventanas</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="698"/>

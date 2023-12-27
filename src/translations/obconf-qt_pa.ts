@@ -6,12 +6,12 @@
     <message>
         <location filename="../fontbutton.cpp" line="46"/>
         <source>Bold</source>
-        <translation type="unfinished"></translation>
+        <translation>ਗੂੜ੍ਹਾ</translation>
     </message>
     <message>
         <location filename="../fontbutton.cpp" line="50"/>
         <source>Italic</source>
-        <translation type="unfinished"></translation>
+        <translation>ਤਿਰਛਾ</translation>
     </message>
 </context>
 <context>
@@ -19,93 +19,93 @@
     <message>
         <location filename="../obconf.ui" line="51"/>
         <source>Mouse</source>
-        <translation type="unfinished"></translation>
+        <translation>ਮਾਊਸ</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="14"/>
         <source>Window Manager Preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>ਵਿੰਡੋ ਮੈਨੇਜਰ ਪਸੰਦਾਂ</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="26"/>
         <source>Theme</source>
-        <translation type="unfinished"></translation>
+        <translation>ਥੀਮ</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="31"/>
         <source>Appearance</source>
-        <translation type="unfinished"></translation>
+        <translation>ਦਿੱਖ</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="36"/>
         <source>Font</source>
-        <translation type="unfinished"></translation>
+        <translation>ਫ਼ੋਂਟ</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="41"/>
         <location filename="../obconf.ui" line="102"/>
         <source>Windows</source>
-        <translation type="unfinished"></translation>
+        <translation>ਵਿੰਡੋਆਂ</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="46"/>
         <source>Move &amp; Resize</source>
-        <translation type="unfinished"></translation>
+        <translation>ਹਿਲਾਉਣ ਅਤੇ ਆਕਾਰ ਬਦਲਣਾ</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="56"/>
         <source>Desktops</source>
-        <translation type="unfinished"></translation>
+        <translation>ਡੈਸਕਟਾਪ</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="61"/>
         <source>Margins</source>
-        <translation type="unfinished"></translation>
+        <translation>ਫਾਸਲਾ</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="66"/>
         <source>Dock</source>
-        <translation type="unfinished"></translation>
+        <translation>ਡੌਕ</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="125"/>
         <source>Window Titles</source>
-        <translation type="unfinished"></translation>
+        <translation>ਵਿੰਡੋ ਟਾਈਟਲ</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="131"/>
         <source>Button order:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਬਟਨ ਕ੍ਰਮ:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="427"/>
         <source>Moving and Resizing Windows</source>
-        <translation type="unfinished"></translation>
+        <translation>ਵਿੰਡੋਆਂ ਨੂੰ ਹਿਲਾਉਣਾ ਅਤੇ ਆਕਾਰ ਬਦਲਣਾ</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="530"/>
         <source>Information Dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>ਜਾਣਕਾਰੀ ਡਾਈਲਾਗ</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="689"/>
         <source>Focusing Windows</source>
-        <translation type="unfinished"></translation>
+        <translation>ਵਿੰਡੋਆਂ ਦਾ ਫੋਕਸ ਲੈਣਾ</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="698"/>
         <source>Focus windows when the mouse pointer moves over them</source>
-        <translation type="unfinished"></translation>
+        <translation>ਜਦੋਂ ਮਾਊਂਸ ਪੁਆਇੰਟ ਵਿੰਡੋਆਂ ਉੱਤੇ ਜਾਵੇ ਤਾਂ ਉਹਨਾਂ ਦਾ ਫੋਕਸ ਲਵੋ</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="756"/>
         <source>Titlebar</source>
-        <translation type="unfinished"></translation>
+        <translation>ਟਾਈਟਲ-ਪੱਟੀ</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="893"/>
         <source>Desktop Margins</source>
-        <translation type="unfinished"></translation>
+        <translation>ਡੈਸਕਟਾਪ ਹਾਸ਼ੀਆ</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="899"/>
@@ -115,7 +115,7 @@
     <message>
         <location filename="../obconf.ui" line="909"/>
         <source>Left:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਖੱਬਾ:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="923"/>
@@ -123,42 +123,42 @@
         <location filename="../obconf.ui" line="965"/>
         <location filename="../obconf.ui" line="986"/>
         <source>px</source>
-        <translation type="unfinished"></translation>
+        <translation>ਪਿਕਸਲ</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="930"/>
         <source>Top:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਉੱਤੇ:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="951"/>
         <source>Right:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸੱਜਾ:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="972"/>
         <source>Bottom:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਹੇਠਾਂ:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="317"/>
         <source>All monitors</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਾਰੇ ਮਾਨੀਟਰ</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="322"/>
         <source>The active monitor</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਰਗਰਮ ਮਾਨੀਟਰ</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="327"/>
         <source>The monitor with the mouse</source>
-        <translation type="unfinished"></translation>
+        <translation>ਮਾਊਸ ਵਾਲਾ ਮਾਨੀਟਰ</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="342"/>
         <source>Primary Monitor</source>
-        <translation type="unfinished"></translation>
+        <translation>ਮੂਲ ਮਾਨੀਟੜ</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="348"/>
@@ -168,43 +168,43 @@
     <message>
         <location filename="../obconf.ui" line="369"/>
         <source>Fixed Monitor</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਥਿਰ ਮਾਨੀਟਰ</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="374"/>
         <source>Active Monitor</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਰਗਰਮ ਮਾਨੀਟਰ</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="379"/>
         <source>Monitor With Mouse Pointer</source>
-        <translation type="unfinished"></translation>
+        <translation>ਮਾਊਸ ਪੁਆਇੰਟਰ ਵਾਲਾ ਮਾਨੀਟਰ</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="537"/>
         <location filename="../obconf.ui" line="566"/>
         <source>Centered</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸੈਂਟਰ ਵਾਲਾ</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="542"/>
         <source>From left edge</source>
-        <translation type="unfinished"></translation>
+        <translation>ਖੱਬੇ ਕੋਨੇ ਤੋਂ</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="547"/>
         <source>From right edge</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸੱਜੇ ਕੋਨੇ ਤੋਂ</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="571"/>
         <source>From top edge</source>
-        <translation type="unfinished"></translation>
+        <translation>ਉੱਤਲੇ ਕੋਨੇ ਤੋਂ</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="576"/>
         <source>From bottom edge</source>
-        <translation type="unfinished"></translation>
+        <translation>ਹੇਠਲੇ ਕੋਨੇ ਤੋਂ</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="629"/>
@@ -214,27 +214,27 @@
     <message>
         <location filename="../obconf.ui" line="634"/>
         <source>Always</source>
-        <translation type="unfinished"></translation>
+        <translation>ਹਮੇਸ਼ਾਂ</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="639"/>
         <source>Never</source>
-        <translation type="unfinished"></translation>
+        <translation>ਕਦੇ ਨਹੀਂ</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="648"/>
         <source>Centered on the window</source>
-        <translation type="unfinished"></translation>
+        <translation>ਵਿੰਡੋਂ ਉੱਤੇ ਸੈਂਟਰ ਕੀਤਾ</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="653"/>
         <source>Above the window</source>
-        <translation type="unfinished"></translation>
+        <translation>ਵਿੰਡੋ ਉੱਤੇ</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="658"/>
         <source>Fixed position on screen</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਕਰੀਨ ਉੱਤੇ ਸਥਿਰ ਸਥਿਤੀ</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="773"/>
@@ -260,7 +260,7 @@ D: Omnipresent (On all desktops)</source>
     <message>
         <location filename="../obconf.ui" line="332"/>
         <source>Primary monitor</source>
-        <translation type="unfinished"></translation>
+        <translation>ਮੁੱਢਲਾ ਮਾਨੀਟਰ</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1013"/>
@@ -270,12 +270,12 @@ D: Omnipresent (On all desktops)</source>
     <message>
         <location filename="../obconf.ui" line="1029"/>
         <source>Position</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਥਿਤੀ</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1041"/>
         <source>&amp;Position:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਥਿਤੀ(&amp;P):</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1055"/>
@@ -285,32 +285,32 @@ D: Omnipresent (On all desktops)</source>
     <message>
         <location filename="../obconf.ui" line="1060"/>
         <source>Top</source>
-        <translation type="unfinished"></translation>
+        <translation>ਉੱਤੇ</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1065"/>
         <source>Top Right</source>
-        <translation type="unfinished"></translation>
+        <translation>ਉੱਤੇ ਸੱਜੇ</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1070"/>
         <source>Left</source>
-        <translation type="unfinished"></translation>
+        <translation>ਖੱਬੇ</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1075"/>
         <source>Right</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸੱਜੇ</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1080"/>
         <source>Bottom Left</source>
-        <translation type="unfinished"></translation>
+        <translation>ਹੇਠਾਂ ਖੱਬੇ</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1085"/>
         <source>Bottom</source>
-        <translation type="unfinished"></translation>
+        <translation>ਹੇਠਾਂ</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1090"/>
@@ -330,7 +330,7 @@ D: Omnipresent (On all desktops)</source>
     <message>
         <location filename="../obconf.ui" line="1134"/>
         <source>x</source>
-        <translation type="unfinished"></translation>
+        <translation>x</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1150"/>
@@ -395,7 +395,7 @@ D: Omnipresent (On all desktops)</source>
     <message>
         <location filename="../obconf.ui" line="1294"/>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>ਇਸ ਬਾਰੇ</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="84"/>
@@ -706,7 +706,7 @@ Options:
         <location filename="../obconf-qt.cpp" line="223"/>
         <location filename="../obconf-qt.cpp" line="238"/>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation>ਗਲਤੀ</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="224"/>
