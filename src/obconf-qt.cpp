@@ -230,7 +230,7 @@ int main(int argc, char** argv) {
 
   /* look for parsing errors */
   {
-    xmlErrorPtr e = xmlGetLastError();
+    const xmlError *e = xmlGetLastError();
 
     if(e) {
       QString message = QObject::tr("Error while parsing the Openbox configuration file.  Your configuration file is not valid XML.\n\nMessage: %1")
