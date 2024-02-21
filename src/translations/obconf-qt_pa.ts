@@ -239,7 +239,7 @@
     <message>
         <location filename="../obconf.ui" line="773"/>
         <source>Maximizes the window</source>
-        <translation type="unfinished"></translation>
+        <translation>ਵਿੰਡੋ ਨੂੰ ਵੱਧ ਤੋਂ ਵੱਧ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="778"/>
@@ -280,7 +280,7 @@ D: Omnipresent (On all desktops)</source>
     <message>
         <location filename="../obconf.ui" line="1055"/>
         <source>Top Left</source>
-        <translation type="unfinished"></translation>
+        <translation>ਉੱਤੇ ਖੱਬੇ</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1060"/>
@@ -315,17 +315,17 @@ D: Omnipresent (On all desktops)</source>
     <message>
         <location filename="../obconf.ui" line="1090"/>
         <source>Bottom Right</source>
-        <translation type="unfinished"></translation>
+        <translation>ਹੇਠਾਂ ਸੱਜੇ</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1095"/>
         <source>Floating</source>
-        <translation type="unfinished"></translation>
+        <translation>ਤਰਦਾ</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1109"/>
         <source>&amp;Floating position:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਤਰਨ ਦੀ ਸਥਿਤੀ(&amp;F):</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1134"/>
@@ -340,17 +340,17 @@ D: Omnipresent (On all desktops)</source>
     <message>
         <location filename="../obconf.ui" line="1157"/>
         <source>&amp;Orientation: </source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਥਿਤੀ(&amp;O): </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1171"/>
         <source>Vertical</source>
-        <translation type="unfinished"></translation>
+        <translation>ਖੜ੍ਹਵੀਂ</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1176"/>
         <source>Horizontal</source>
-        <translation type="unfinished"></translation>
+        <translation>ਲੇਟਵੀਂ</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1187"/>
@@ -360,7 +360,7 @@ D: Omnipresent (On all desktops)</source>
     <message>
         <location filename="../obconf.ui" line="1193"/>
         <source>Keep dock &amp;above other windows</source>
-        <translation type="unfinished"></translation>
+        <translation>ਹੋਰ ਵਿੰਡੋਆਂ ਦੇ ਉੱਤੇ ਡੌਕ ਕਰੋ(&amp;a)</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1200"/>
@@ -375,17 +375,17 @@ D: Omnipresent (On all desktops)</source>
     <message>
         <location filename="../obconf.ui" line="1217"/>
         <source>Hiding</source>
-        <translation type="unfinished"></translation>
+        <translation>ਓਹਲੇ</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1223"/>
         <source>&amp;Delay before hiding:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਓਹਲੇ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਦੇਰੀ(&amp;D):</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1233"/>
         <source>Delay before &amp;showing:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਵੇਖਾਉਣ ਤੋਂ ਪਹਿਲਾਂ ਦੇਰੀ(&amp;s):</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1263"/>
@@ -400,7 +400,7 @@ D: Omnipresent (On all desktops)</source>
     <message>
         <location filename="../obconf.ui" line="84"/>
         <source>&amp;Install a new theme...</source>
-        <translation type="unfinished"></translation>
+        <translation>ਨਵਾਂ ਥੀਮ ਇੰਸਟਾਲ ਕਰੋ(&amp;I)...</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="91"/>
@@ -430,27 +430,27 @@ D: Omnipresent (On all desktops)</source>
     <message>
         <location filename="../obconf.ui" line="239"/>
         <source>Menu &amp;header: </source>
-        <translation type="unfinished"></translation>
+        <translation>ਮੇਨੂ ਹੈੱਡਰ(&amp;h): </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="249"/>
         <source>&amp;Menu Item: </source>
-        <translation type="unfinished"></translation>
+        <translation>ਮੇਨੂ ਆਈਟਮ(&amp;M): </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="259"/>
         <source>Active &amp;On-screen display: </source>
-        <translation type="unfinished"></translation>
+        <translation>ਆਨ-ਸਕਰੀਨ ਡਿਸਪਲੇਅ ਸਰਗਰਮ ਕਰੋ(&amp;O): </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="269"/>
         <source>Inactive O&amp;n-screen display: </source>
-        <translation type="unfinished"></translation>
+        <translation>ਆਨ-ਸਕਰੀਨ ਡਿਸਪਲੇਅ ਨਾ-ਸਰਗਰਮ ਕਰੋ(&amp;n): </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="283"/>
         <source>Focus &amp;new windows when they appear</source>
-        <translation type="unfinished"></translation>
+        <translation>ਜਦੋਂ ਨਵੀਂ ਵਿੰਡੋ ਪ੍ਰਗਟ ਹੋਵੇ ਤਾਂ ਉਸ ਉੱਤੇ ਫੋਕਸ ਕਰੋ(&amp;n)</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="290"/>
@@ -470,17 +470,17 @@ D: Omnipresent (On all desktops)</source>
     <message>
         <location filename="../obconf.ui" line="358"/>
         <source>Primary &amp;monitor:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਪ੍ਰਾਇਮਰੀ ਮਾਨੀਟਰ(&amp;m):</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="387"/>
         <source>&amp;Fixed monitor:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਥਿਰ ਮਾਨੀਟਰ(&amp;F):</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="433"/>
         <source>Update the window contents while &amp;resizing</source>
-        <translation type="unfinished"></translation>
+        <translation>ਮੁੜ-ਆਕਾਰ ਕਰਨ ਦੌਰਾਨ ਵਿੰਡੋ ਸਮੱਗਰੀ ਨੂੰ ਅੱਪਡੇਟ ਕਰੋ(&amp;r)</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="440"/>
@@ -595,7 +595,7 @@ D: Omnipresent (On all desktops)</source>
     <message>
         <location filename="../maindialog.cpp" line="78"/>
         <source>About ObConf-Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>ObConf-Qt ਬਾਰੇ</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="79"/>
