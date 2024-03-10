@@ -66,7 +66,12 @@ lxqt_translate_desktop(DESKTOP_FILES
     SOURCES obconf-qt.desktop.in
     USE_YAML
 )
-install(FILES ${DESKTOP_FILES} DESTINATION share/applications)
+
+# Follow freedesktop specifications
+set(DNS_DESKTOP_FILENAME "org.lxqt_project.ObConf_Qt.desktop")
+
+
+install(FILES ${DESKTOP_FILES} DESTINATION share/applications RENAME ${DNS_DESKTOP_FILENAME})
 
 # prevent the generated files from being deleted during make clean
 set_directory_properties(PROPERTIES CLEAN_NO_CUSTOM true)
