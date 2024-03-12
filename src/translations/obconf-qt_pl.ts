@@ -85,7 +85,7 @@
     <message>
         <location filename="../obconf.ui" line="530"/>
         <source>Information Dialog</source>
-        <translation>Okno dialogowe</translation>
+        <translation>Okno informacyjne</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="689"/>
@@ -690,7 +690,7 @@ Zostały zgłoszone następujące błędy:
     <message>
         <location filename="../obconf-qt.cpp" line="53"/>
         <source>ObConf Error</source>
-        <translation>Błąd ObConfa</translation>
+        <translation>Błąd ObConf</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="73"/>
