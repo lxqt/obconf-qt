@@ -24,7 +24,6 @@
 #include <obrender/render.h>
 #include "tree.h"
 
-#include <QX11Info>
 // FIXME: how to support XCB or Wayland?
 #include <X11/Xlib.h>
 
