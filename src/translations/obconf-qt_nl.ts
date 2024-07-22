@@ -774,7 +774,7 @@ Boodschap: %1</translation>
     <message>
         <location filename="../obconf-qt.cpp" line="224"/>
         <source>Failed to load an rc.xml. You have probably failed to install Openbox properly.</source>
-        <translation>Kon bestand rc.xml niet laden. U hebt Openbox waarschijnlijk niet juist geïnstalleerd.</translation>
+        <translation>Kon bestand rc.xml niet laden. U heeft Openbox waarschijnlijk niet juist geïnstalleerd.</translation>
     </message>
 </context>
 </TS>

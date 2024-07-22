@@ -45,7 +45,7 @@
     <message>
         <location filename="../obconf.ui" line="46"/>
         <source>Move &amp; Resize</source>
-        <translation>Преместване и преорзмеряване</translation>
+        <translation>Преместване и преоразмеряване</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="51"/>
@@ -80,7 +80,7 @@
     <message>
         <location filename="../obconf.ui" line="108"/>
         <source>&amp;Windows retain a border when undecorated</source>
-        <translation>&amp;Недекорираните прозорци запазват границите</translation>
+        <translation>&amp;Недекорираните прозорци запазват рамките</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="115"/>
@@ -242,7 +242,7 @@ D: Показване във всички работни плотове</transla
     <message>
         <location filename="../obconf.ui" line="480"/>
         <source>Amount of resistance against screen &amp;edges:</source>
-        <translation>Съпротивление към границите на &amp;екрана:</translation>
+        <translation>Съпротивление към краищата на &amp;екрана:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="500"/>
@@ -348,7 +348,7 @@ D: Показване във всички работни плотове</transla
     <message>
         <location filename="../obconf.ui" line="710"/>
         <source>&amp;Delay before focusing and raising windows:</source>
-        <translation>&amp;Забавяне преди фокусиране и преорзмеряване на прозорци:</translation>
+        <translation>&amp;Забавяне преди фокусиране и преоразмеряване на прозорци:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="730"/>
@@ -476,7 +476,7 @@ D: Показване във всички работни плотове</transla
     <message>
         <location filename="../obconf.ui" line="1065"/>
         <source>Top Right</source>
-        <translation>Оторе вдясно</translation>
+        <translation>Отгоре вдясно</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1070"/>
@@ -711,7 +711,7 @@ Copyright (c) 2013        Hong Jen Yee (PCMan)
 
 Тази програма идва без абсолютно никаква гаранция.
 Това е безплатен софтуер и вие сте добре дошли да го разпространявате
-при определени условия. Вижте файла COPYING за подробности.n
+при определени условия. Вижте файла COPYING за подробности.
 
 </translation>
     </message>
@@ -726,7 +726,7 @@ Options:
   --archive THEME       Create a theme archive from the given theme directory
   --config-file FILE    Specify the path to the config file to use
 </source>
-        <translation>Синтакс: obconf [options] [ARCHIVE.obt]
+        <translation>Синтаксис: obconf [options] [ARCHIVE.obt]
 
 Опции:
   --help                Показване на тази помощ
@@ -773,7 +773,7 @@ Options:
         <source>Error while parsing the Openbox configuration file.  Your configuration file is not valid XML.
 
 Message: %1</source>
-        <translation>Грехка при анализ на конфигурационния файл на Openbox. Файлът не е валиден XML.
+        <translation>Грешка при анализ на конфигурационния файл на Openbox. Файлът не е валиден XML.
 
 Съобщение: %1</translation>
     </message>
