@@ -431,7 +431,7 @@ D: Allestedsnærværende (på alle skrivebord)</translation>
         <location filename="../obconf.ui" line="965"/>
         <location filename="../obconf.ui" line="986"/>
         <source>px</source>
-        <translation>pk</translation>
+        <translation>px</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="930"/>
