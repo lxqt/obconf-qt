@@ -45,7 +45,7 @@
     <message>
         <location filename="../obconf.ui" line="46"/>
         <source>Move &amp; Resize</source>
-        <translation>Перемещение и изменение размера</translation>
+        <translation>Перемещение и смена размера</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="51"/>
@@ -252,12 +252,12 @@ D: На все рабочие столы</translation>
     <message>
         <location filename="../obconf.ui" line="520"/>
         <source>&amp;Switch desktops when moving a window past the screen edge</source>
-        <translation>&amp;Переключать рабочие столы при перемещенииокна за границы экрана</translation>
+        <translation>&amp;Переключать рабочие столы при перемещении окна за границы экрана</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="530"/>
         <source>Information Dialog</source>
-        <translation>Информагионный диалог</translation>
+        <translation>Информационный диалог</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="537"/>
@@ -418,7 +418,7 @@ D: На все рабочие столы</translation>
     <message>
         <location filename="../obconf.ui" line="899"/>
         <source>Desktop margins are reserved areas on the edge of your screen.  New windows will not be placed within a margin, and maximized windows will not cover them.</source>
-        <translation>Границы рабочего стола - это зарезервированные зоны по вашего экрана. Новые окна не будут помещены в рамках границ, и развёрнутые окна не перекроют их.</translation>
+        <translation>Границы рабочего стола — это зарезервированные зоны по вашего экрана. Новые окна не будут помещены в рамках границ, и развёрнутые окна не перекроют их.</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="909"/>
@@ -451,7 +451,7 @@ D: На все рабочие столы</translation>
     <message>
         <location filename="../obconf.ui" line="1013"/>
         <source>The dock is a special container for &quot;dockapps&quot;, or dock applications.  It is not visible on screen until a dockapp is run.  Dockapps can be used to show things like a clock, or to provide you with a system tray.</source>
-        <translation>Док - это специальный контейнер для «dockapps», или приложений дока. Он не отображается на экране, пока не запущены эти приложения. Приложения дока могут быть использованы для показа таких вещей, как часы, или отображения системного лотка.</translation>
+        <translation>Док — это специальный контейнер для «dockapps» или приложений дока. Он не отображается на экране, если не запущены эти приложения. Приложения дока можно использовать для показа, например, часов или системного лотка.</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1029"/>
