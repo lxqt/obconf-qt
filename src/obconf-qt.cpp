@@ -49,6 +49,7 @@ static gchar* obc_theme_archive = NULL;
 
 void obconf_error(gchar* msg, gboolean modal) {
   // FIXME: we did not handle modal
+  (void)(modal); // unused
   QMessageBox::critical(NULL, QObject::tr("ObConf Error"), QString::fromUtf8(msg));
 }
 

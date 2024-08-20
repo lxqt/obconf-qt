@@ -93,7 +93,7 @@ void MainDialog::on_primary_monitor_popup_currentIndexChanged(int index) {
     "Active",
     "Mouse"
   };
-  if(index < G_N_ELEMENTS(strs) && index >= 0) {
+  if(index < (long) G_N_ELEMENTS(strs) && index >= 0) {
     if(index == PLACE_ON_FIXED) {
       tree_set_int("placement/primaryMonitor", ui.fixed_monitor->value());
     }
@@ -134,6 +134,6 @@ void MainDialog::on_place_active_popup_currentIndexChanged(int index) {
     "Mouse",
     "Primary"
   };
-  if(index < G_N_ELEMENTS(strs) && index >= 0)
+  if(index < (long) G_N_ELEMENTS(strs) && index >= 0)
     tree_set_string("placement/monitor", strs[index]);
 }

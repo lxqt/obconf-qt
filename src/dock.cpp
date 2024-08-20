@@ -45,7 +45,9 @@ extern RrInstance* rrinst; // defined in obconf-qt.cpp
 #define DIRECTION_VERTICAL   0
 #define DIRECTION_HORIZONTAL 1
 
+/*
 static void dock_enable_stuff();
+*/
 
 void MainDialog::dock_setup_tab() {
   gchar* s;

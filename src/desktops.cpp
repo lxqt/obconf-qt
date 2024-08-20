@@ -33,11 +33,13 @@ extern RrInstance* rrinst; // defined in obconf-qt.cpp
 
 static int num_desktops;
 
+/*
 static void desktops_read_names();
 static void desktops_write_names();
 static void desktops_write_number();
 
 static void enable_stuff();
+*/
 
 void MainDialog::desktops_setup_tab() {
   num_desktops = tree_get_int("desktops/number", 4);
