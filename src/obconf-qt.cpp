@@ -196,10 +196,20 @@ int main(int argc, char** argv) {
     app.installTranslator(&translator);
   }
 
-  // load configurations
-
+  // handle args
   parse_args(argc, argv);
 
+  // exit early if Wayland (unsupported)
+  if (QGuiApplication::platformName() == QLatin1String("wayland"))
+  {
+    QMessageBox::warning(nullptr,
+      QObject::tr("Platform Unsupported"),
+      QObject::tr("ObConf-Qt is unsupported under Wayland.\n"));
+
+    return 1;
+  }
+
+  // load configurations
   if(obc_theme_archive) {
     archive_create(obc_theme_archive);
     return 0;
@@ -208,15 +218,15 @@ int main(int argc, char** argv) {
   paths = obt_paths_new();
   parse_i = obt_xml_instance_new();
 
+  /* */
   auto x11NativeInterface = qApp->nativeInterface<QNativeInterface::QX11Application>();
   auto display = x11NativeInterface->display();
-  auto appRootWindow = XDefaultRootWindow(x11NativeInterface->display());
-
   int screen = DefaultScreen(display);
+
   rrinst = RrInstanceNew(display, screen);
   if(!obc_config_file) {
     gchar* p;
-    if(prop_get_string_utf8(appRootWindow,
+    if(prop_get_string_utf8(XDefaultRootWindow(display),
                             XInternAtom(display, "_OB_CONFIG_FILE", 0), &p)) {
       obc_config_file = g_filename_from_utf8(p, -1, NULL, NULL, NULL);
       g_free(p);

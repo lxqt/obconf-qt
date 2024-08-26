@@ -117,14 +117,13 @@ void tree_apply()
     if (!err) {
         auto x11NativeInterface = qApp->nativeInterface<QNativeInterface::QX11Application>();
         auto display = x11NativeInterface->display();
-        auto appRootWindow = XDefaultRootWindow(x11NativeInterface->display());
 
         XEvent ce;
 
         ce.xclient.type = ClientMessage;
         ce.xclient.display = display;
         ce.xclient.message_type = XInternAtom(ce.xclient.display, "_OB_CONTROL", false);
-        Window root = appRootWindow;
+        Window root = XDefaultRootWindow(display);
         ce.xclient.window = root;
         ce.xclient.format = 32;
         ce.xclient.data.l[0] = 1; /* reconfigure */

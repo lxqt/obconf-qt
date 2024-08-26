@@ -128,10 +128,9 @@ void MainDialog::desktops_write_names() {
 
   auto x11NativeInterface = qApp->nativeInterface<QNativeInterface::QX11Application>();
   auto display = x11NativeInterface->display();
-  auto appRootWindow = XDefaultRootWindow(x11NativeInterface->display());
 
   /* make openbox re-set the property */
-  XDeleteProperty(display, appRootWindow,
+  XDeleteProperty(display, XDefaultRootWindow(display),
                   XInternAtom(display, "_NET_DESKTOP_NAMES", False));
 }
 
@@ -139,7 +138,7 @@ void MainDialog::desktops_write_number() {
 
   auto x11NativeInterface = qApp->nativeInterface<QNativeInterface::QX11Application>();
   auto display = x11NativeInterface->display();
-  auto appRootWindow = XDefaultRootWindow(x11NativeInterface->display());
+  auto appRootWindow = XDefaultRootWindow(display);
 
   XEvent ce;
   tree_set_int("desktops/number", num_desktops);
