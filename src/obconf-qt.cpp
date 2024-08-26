@@ -206,7 +206,7 @@ int main(int argc, char** argv) {
       QObject::tr("Platform Unsupported"),
       QObject::tr("ObConf-Qt is unsupported under Wayland.\n"));
 
-    return 1;
+    return 0;
   }
 
   // load configurations
