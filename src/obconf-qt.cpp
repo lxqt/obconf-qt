@@ -24,7 +24,6 @@
 #include <QTranslator>
 #include <QLibraryInfo>
 #include <QLocale>
-#include <QX11Info>
 #include <QMessageBox>
 #include "maindialog.h"
 #include <X11/Xlib.h>
@@ -50,6 +49,7 @@ static gchar* obc_theme_archive = NULL;
 
 void obconf_error(gchar* msg, gboolean modal) {
   // FIXME: we did not handle modal
+  (void)(modal); // unused
   QMessageBox::critical(NULL, QObject::tr("ObConf Error"), QString::fromUtf8(msg));
 }
 
@@ -124,7 +124,8 @@ static gboolean get_all(Window win, Atom prop, Atom type, gint size,
   gint ret_size;
   gulong ret_items, bytes_left;
 
-  res = XGetWindowProperty(QX11Info::display(), win, prop, 0l, G_MAXLONG,
+  auto display = qApp->nativeInterface<QNativeInterface::QX11Application>()->display();
+  res = XGetWindowProperty(display, win, prop, 0l, G_MAXLONG,
                            FALSE, type, &ret_type, &ret_size,
                            &ret_items, &bytes_left, &xdata);
 
@@ -163,7 +164,8 @@ static gboolean prop_get_string_utf8(Window win, Atom prop, gchar** ret) {
   gchar* str;
   guint num;
 
-  if(get_all(win, prop, XInternAtom(QX11Info::display(), "UTF8_STRING", 0), 8, (guchar**)&raw, &num)) {
+  auto display = qApp->nativeInterface<QNativeInterface::QX11Application>()->display();
+  if(get_all(win, prop, XInternAtom(display, "UTF8_STRING", 0), 8, (guchar**)&raw, &num)) {
     str = g_strndup(raw, num); /* grab the first string from the list */
     g_free(raw);
 
@@ -180,23 +182,34 @@ static gboolean prop_get_string_utf8(Window win, Atom prop, gchar** ret) {
 
 int main(int argc, char** argv) {
   QApplication app(argc, argv);
-  app.setAttribute(Qt::AA_UseHighDpiPixmaps, true);
 
   // load translations
   QTranslator qtTranslator, translator;
 
   // install the translations built-into Qt itself
-  qtTranslator.load(QStringLiteral("qt_") + QLocale::system().name(), QLibraryInfo::location(QLibraryInfo::TranslationsPath));
-  app.installTranslator(&qtTranslator);
+  if(qtTranslator.load(QStringLiteral("qt_") + QLocale::system().name(), QLibraryInfo::path(QLibraryInfo::TranslationsPath))) {
+    app.installTranslator(&qtTranslator);
+  }
 
   // install our own tranlations
-  translator.load(QStringLiteral("obconf-qt_") + QLocale::system().name(), QStringLiteral(PACKAGE_DATA_DIR) + QStringLiteral("/translations"));
-  app.installTranslator(&translator);
+  if(translator.load(QStringLiteral("obconf-qt_") + QLocale::system().name(), QStringLiteral(PACKAGE_DATA_DIR) + QStringLiteral("/translations"))) {
+    app.installTranslator(&translator);
+  }
 
-  // load configurations
-
+  // handle args
   parse_args(argc, argv);
 
+  // exit early if Wayland (unsupported)
+  if (QGuiApplication::platformName() == QLatin1String("wayland"))
+  {
+    QMessageBox::warning(nullptr,
+      QObject::tr("Platform Unsupported"),
+      QObject::tr("ObConf-Qt is unsupported under Wayland.\n"));
+
+    return 0;
+  }
+
+  // load configurations
   if(obc_theme_archive) {
     archive_create(obc_theme_archive);
     return 0;
@@ -204,12 +217,17 @@ int main(int argc, char** argv) {
 
   paths = obt_paths_new();
   parse_i = obt_xml_instance_new();
-  int screen = QX11Info::appScreen();
-  rrinst = RrInstanceNew(QX11Info::display(), screen);
+
+  /* */
+  auto x11NativeInterface = qApp->nativeInterface<QNativeInterface::QX11Application>();
+  auto display = x11NativeInterface->display();
+  int screen = DefaultScreen(display);
+
+  rrinst = RrInstanceNew(display, screen);
   if(!obc_config_file) {
     gchar* p;
-    if(prop_get_string_utf8(QX11Info::appRootWindow(screen),
-                            XInternAtom(QX11Info::display(), "_OB_CONFIG_FILE", 0), &p)) {
+    if(prop_get_string_utf8(XDefaultRootWindow(display),
+                            XInternAtom(display, "_OB_CONFIG_FILE", 0), &p)) {
       obc_config_file = g_filename_from_utf8(p, -1, NULL, NULL, NULL);
       g_free(p);
     }

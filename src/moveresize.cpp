@@ -24,7 +24,6 @@
 #include <obrender/render.h>
 #include "tree.h"
 
-#include <QX11Info>
 // FIXME: how to support XCB or Wayland?
 #include <X11/Xlib.h>
 
@@ -178,18 +177,20 @@ void MainDialog::on_resize_position_currentIndexChanged(int index) {
     "Fixed"
   };
 
-  if(index >= 0 && index < G_N_ELEMENTS(strs)) {
+  if(index >= 0 && index < (long) G_N_ELEMENTS(strs)) {
     tree_set_string("resize/popupPosition", strs[index]);
     moveresize_enable_stuff();
   }
 }
 
 void MainDialog::on_fixed_x_popup_currentIndexChanged(int index) {
+  (void)(index); // unused
   write_fixed_position("x");
   moveresize_enable_stuff();
 }
 
 void MainDialog::on_fixed_y_popup_currentIndexChanged(int index) {
+  (void)(index); // unused
   write_fixed_position("y");
   moveresize_enable_stuff();
 }
@@ -223,10 +224,12 @@ void MainDialog::write_fixed_position(const char* coord) {
 }
 
 void MainDialog::on_fixed_x_pos_valueChanged(int newValue) {
+  (void)(newValue); // unused
   write_fixed_position("x");
 }
 
 void MainDialog::on_fixed_y_pos_valueChanged(int newValue) {
+  (void)(newValue); // unused
   write_fixed_position("y");
 }
 

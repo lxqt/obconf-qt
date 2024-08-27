@@ -133,6 +133,9 @@ void MainDialog::theme_setup_tab() {
 }
 
 void MainDialog::onThemeNamesSelectionChanged(const QItemSelection & selected, const QItemSelection & deselected) {
+
+  (void)(deselected); // unused
+
   QModelIndex sel = selected.indexes().first();
   if(sel.isValid()) {
     QStandardItem* item = themes_model->itemFromIndex(sel);
