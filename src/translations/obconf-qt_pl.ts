@@ -587,14 +587,14 @@ D: Wszechobecne (Na wszystkich pulpitach)</translation>
 <context>
     <name>Obconf::MainDialog</name>
     <message>
-        <location filename="../mouse.cpp" line="57"/>
+        <location filename="../mouse.cpp" line="56"/>
         <source>Custom actions</source>
         <translation>Działania własne</translation>
     </message>
     <message>
-        <location filename="../desktops.cpp" line="65"/>
-        <location filename="../desktops.cpp" line="87"/>
-        <location filename="../desktops.cpp" line="99"/>
+        <location filename="../desktops.cpp" line="67"/>
+        <location filename="../desktops.cpp" line="89"/>
+        <location filename="../desktops.cpp" line="101"/>
         <source>(Unnamed desktop)</source>
         <translation>(Nienazwany pulpit)</translation>
     </message>
@@ -629,7 +629,7 @@ Ten program jest oparty na ObConf utworzonym przez następujących programistów
 * Javeed Shaikh &lt;syscrash2k@gmail.com&gt;</translation>
     </message>
     <message>
-        <location filename="../theme.cpp" line="149"/>
+        <location filename="../theme.cpp" line="152"/>
         <source>Choose an Openbox theme</source>
         <translation>Wybierz motyw Openbox</translation>
     </message>
@@ -657,7 +657,7 @@ Zgłoszono następujące błędy:
     </message>
     <message>
         <location filename="../archive.cpp" line="95"/>
-        <location filename="../archive.cpp" line="178"/>
+        <location filename="../archive.cpp" line="180"/>
         <source>Unable to run the &quot;tar&quot; command: %1</source>
         <translation>Nie udało się uruchomić polecenia &quot;tar&quot;: %1</translation>
     </message>
@@ -672,12 +672,7 @@ Zgłoszono następujące błędy:
         <translation>&quot;%1&quot; nie wydaje się być poprawnym katalogiem motywów Openbox</translation>
     </message>
     <message>
-        <location filename="../archive.cpp" line="148"/>
-        <source>Unable to move to directory &quot;%1&quot;: %2</source>
-        <translation>Nie można przenieść do katalogu &quot;%1&quot;: %2</translation>
-    </message>
-    <message>
-        <location filename="../archive.cpp" line="185"/>
+        <location filename="../archive.cpp" line="187"/>
         <source>Unable to extract the file &quot;%1&quot;.
 Please ensure that &quot;%2&quot; is writable and that the file is a valid Openbox theme archive.
 The following errors were reported:
@@ -735,18 +730,29 @@ Opcje:
 </translation>
     </message>
     <message>
-        <location filename="../obconf-qt.cpp" line="223"/>
-        <location filename="../obconf-qt.cpp" line="238"/>
+        <location filename="../obconf-qt.cpp" line="206"/>
+        <source>Platform Unsupported</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../obconf-qt.cpp" line="207"/>
+        <source>ObConf-Qt is unsupported under Wayland.
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../obconf-qt.cpp" line="241"/>
+        <location filename="../obconf-qt.cpp" line="256"/>
         <source>Error</source>
         <translation>Błąd</translation>
     </message>
     <message>
-        <location filename="../obconf-qt.cpp" line="224"/>
+        <location filename="../obconf-qt.cpp" line="242"/>
         <source>Failed to load an rc.xml. You have probably failed to install Openbox properly.</source>
         <translation>Wystąpił błąd podczas wczytywania rc.xml. Prawdopodobnie Openbox został niepoprawnie zainstalowany.</translation>
     </message>
     <message>
-        <location filename="../obconf-qt.cpp" line="236"/>
+        <location filename="../obconf-qt.cpp" line="254"/>
         <source>Error while parsing the Openbox configuration file.  Your configuration file is not valid XML.
 
 Message: %1</source>
