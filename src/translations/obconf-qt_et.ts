@@ -754,13 +754,14 @@ Valikud:
     <message>
         <location filename="../obconf-qt.cpp" line="206"/>
         <source>Platform Unsupported</source>
-        <translation type="unfinished"></translation>
+        <translation>See platvorm pole toetatud</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="207"/>
         <source>ObConf-Qt is unsupported under Wayland.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>ObConf-Qt pole kasutatav Waylandiga.
+</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="241"/>

@@ -732,13 +732,14 @@ Opcje:
     <message>
         <location filename="../obconf-qt.cpp" line="206"/>
         <source>Platform Unsupported</source>
-        <translation type="unfinished"></translation>
+        <translation>Platforma nieobsługiwana</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="207"/>
         <source>ObConf-Qt is unsupported under Wayland.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>ObConf-Qt nie jest obsługiwany w Wayland.
+</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="241"/>
