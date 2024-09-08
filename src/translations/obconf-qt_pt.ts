@@ -261,7 +261,7 @@ I: Minimizar
 M: Maximizar
 C: Fechar
 S: Enrolar
-D: Omnipresente (todos os ambiente de trabalho)</translation>
+D: Omnipresente (em todas as áreas de trabalho)</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="332"/>
@@ -271,7 +271,7 @@ D: Omnipresente (todos os ambiente de trabalho)</translation>
     <message>
         <location filename="../obconf.ui" line="1013"/>
         <source>The dock is a special container for &quot;dockapps&quot;, or dock applications.  It is not visible on screen until a dockapp is run.  Dockapps can be used to show things like a clock, or to provide you with a system tray.</source>
-        <translation>A doca é uma área em que se colocam os ícones das aplicações ou &quot;dockapps&quot;. Esta área apenas está visível de estiver a executar uma &quot;dockapp&quot;. Com as &quot;dockapps&quot; pode  mostrar um relógio e mostrar a bandeja do sistema.</translation>
+        <translation>A doca é uma área em que se colocam os ícones das aplicações ou &quot;dockapps&quot;. Esta área apenas está visível de estiver a executar uma &quot;dockapp&quot;. Com as &quot;dockapps&quot; pode  mostrar um relógio e mostrar a área de notificação do sistema.</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1029"/>
@@ -421,7 +421,7 @@ D: Omnipresente (todos os ambiente de trabalho)</translation>
     <message>
         <location filename="../obconf.ui" line="115"/>
         <source>A&amp;nimate iconify and restore</source>
-        <translation>A&amp;nimar minimização e restauro</translation>
+        <translation>A&amp;nimar minimização e restaurar</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="219"/>
@@ -732,13 +732,14 @@ Opções:
     <message>
         <location filename="../obconf-qt.cpp" line="206"/>
         <source>Platform Unsupported</source>
-        <translation type="unfinished"></translation>
+        <translation>Plataforma não suportada</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="207"/>
         <source>ObConf-Qt is unsupported under Wayland.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>O ObConf-Qt não é suportado pelo Wayland.
+</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="241"/>
