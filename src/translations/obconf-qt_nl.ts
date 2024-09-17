@@ -19,7 +19,7 @@
     <message>
         <location filename="../obconf.ui" line="14"/>
         <source>Window Manager Preferences</source>
-        <translation>Vensterbeheerder-instellingen</translation>
+        <translation>Vensterbeheerderinstellingen</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="26"/>
