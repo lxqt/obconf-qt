@@ -664,7 +664,7 @@ Les erreurs suivantes ont été signalées :
     <message>
         <location filename="../archive.cpp" line="115"/>
         <source>Unable to create directory &quot;%1&quot;: %2</source>
-        <translation>Impossible de créer le répertoire &quot;%1&quot;&#x202f;: %2</translation>
+        <translation>Impossible de créer le dossier &quot;%1&quot; : %2</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="138"/>
@@ -704,7 +704,7 @@ Copyright (c) 2003        Tim Riley
 Copyright (c) 2007        Javeed Shaikh
 Copyright (c) 2013        Hong Jen Yee (PCMan)
 
-Ce programme est livré avec ABSOLUMENT AUCUNE GARANTIE.
+Ce programme est livré sans AUCUNE GARANTIE.
 C&apos;est un logiciel libre, et vous êtes les bienvenus pour le redistribuer
 sous certaines conditions. Voir le fichier COPYING pour plus de détails.
 
@@ -724,10 +724,10 @@ Options:
         <translation>Syntaxe : obconf [options] [ARCHIVE.obt]
 
 Options :
-  --help                Affiche l&apos;aide et quitté
-  --version             Affiche la version et quitté
-  --install ARCHIVE.obt   Installe le thème archive spécifié et sélectionné celui-ci
-  --archive THEME       Créé un thème archive depuis le répertoire de thème spécifié
+  --help                Affiche l&apos;aide et quitte
+  --version             Affiche la version et quitte
+  --install ARCHIVE.obt   Installer l&apos;archive du thème spécifié et le sélectionner
+  --archive THEME       Créé un une archive du thème depuis le dossier du thème spécifié
   --config-file FILE    Spécifie le chemin vers le fichier de configuration à utiliser
 </translation>
     </message>
@@ -735,33 +735,34 @@ Options :
         <location filename="../obconf-qt.cpp" line="97"/>
         <source>--install requires an argument
 </source>
-        <translation>--install demande un argument
+        <translation>--install nécessite un argument
 </translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="103"/>
         <source>--archive requires an argument
 </source>
-        <translation>--archive demande un argument
+        <translation>--archive nécessite un argument
 </translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="109"/>
         <source>--config-file requires an argument
 </source>
-        <translation>--config-file demande un argument
+        <translation>--config-file nécessite un argument
 </translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="206"/>
         <source>Platform Unsupported</source>
-        <translation>Plateforme non supportée</translation>
+        <translation>Plateforme non prise en charge</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="207"/>
         <source>ObConf-Qt is unsupported under Wayland.
 </source>
-        <translation>ObConf-Qt n'est pas prévu pour Wayland</translation>
+        <translation>ObConf-Qt n&apos;est pas pris en charge par Wayland.
+</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="241"/>
