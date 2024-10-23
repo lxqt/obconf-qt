@@ -19,7 +19,7 @@
     <message>
         <location filename="../obconf.ui" line="14"/>
         <source>Window Manager Preferences</source>
-        <translation>Vindushånterervalg</translation>
+        <translation>Vindushåndtererinnstillinger</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="26"/>
@@ -75,7 +75,7 @@
     <message>
         <location filename="../obconf.ui" line="91"/>
         <source>Create a theme &amp;archive (.obt)...</source>
-        <translation>Skap et tema&amp;arkiv (.obt)...</translation>
+        <translation>Opprett et tema&amp;arkiv (.obt)...</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="108"/>
@@ -132,7 +132,7 @@ D: Allestedsnærværende (på alle skrivebord)</translation>
     <message>
         <location filename="../obconf.ui" line="249"/>
         <source>&amp;Menu Item: </source>
-        <translation>&amp;Menyvalg: </translation>
+        <translation>&amp;Menyelement: </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="259"/>
@@ -152,7 +152,7 @@ D: Allestedsnærværende (på alle skrivebord)</translation>
     <message>
         <location filename="../obconf.ui" line="290"/>
         <source>&amp;Place new windows under the mouse pointer</source>
-        <translation>&amp;Plaser nye vinduer under muspekeren</translation>
+        <translation>&amp;Plasser nye vinduer under muspekeren</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="297"/>
@@ -202,7 +202,7 @@ D: Allestedsnærværende (på alle skrivebord)</translation>
     <message>
         <location filename="../obconf.ui" line="369"/>
         <source>Fixed Monitor</source>
-        <translation>Alltid forvalgt skjerm</translation>
+        <translation>Fast skjerm</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="374"/>
@@ -217,7 +217,7 @@ D: Allestedsnærværende (på alle skrivebord)</translation>
     <message>
         <location filename="../obconf.ui" line="387"/>
         <source>&amp;Fixed monitor:</source>
-        <translation>&amp;Forvalgt skjerm:</translation>
+        <translation>&amp;Fast skjerm:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="427"/>
@@ -257,7 +257,7 @@ D: Allestedsnærværende (på alle skrivebord)</translation>
     <message>
         <location filename="../obconf.ui" line="530"/>
         <source>Information Dialog</source>
-        <translation>Informasjonsdialogrute</translation>
+        <translation>Informasjonsdialog</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="537"/>
@@ -278,7 +278,7 @@ D: Allestedsnærværende (på alle skrivebord)</translation>
     <message>
         <location filename="../obconf.ui" line="555"/>
         <source>Fixed &amp;y position:</source>
-        <translation>Forvalgt &amp;y posisjon:</translation>
+        <translation>Fast &amp;y-posisjon:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="571"/>
@@ -293,17 +293,17 @@ D: Allestedsnærværende (på alle skrivebord)</translation>
     <message>
         <location filename="../obconf.ui" line="584"/>
         <source>Information dialog&apos;s &amp;position:</source>
-        <translation>Informasjonsdialogruters &amp;posisjon:</translation>
+        <translation>Informasjonsdialogens &amp;posisjon:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="594"/>
         <source>Fixed &amp;x position:</source>
-        <translation>Forvalgt &amp;x posisjon:</translation>
+        <translation>Fast &amp;x-posisjon:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="604"/>
         <source>Show &amp;information dialog:</source>
-        <translation>Vis &amp;informasjonsdialogrute:</translation>
+        <translation>Vis &amp;informasjonsdialog:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="629"/>
@@ -333,7 +333,7 @@ D: Allestedsnærværende (på alle skrivebord)</translation>
     <message>
         <location filename="../obconf.ui" line="658"/>
         <source>Fixed position on screen</source>
-        <translation>Forvalgt posisjon på skjermen</translation>
+        <translation>Fast posisjon på skjermen</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="689"/>
@@ -353,7 +353,7 @@ D: Allestedsnærværende (på alle skrivebord)</translation>
     <message>
         <location filename="../obconf.ui" line="730"/>
         <source>Move focus under the mouse when &amp;switching desktops</source>
-        <translation>Flytt fokus under musen når man &amp;skifter vinduer</translation>
+        <translation>Flytt fokus under musen når du &amp;skifter skrivebord</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="737"/>
@@ -363,7 +363,7 @@ D: Allestedsnærværende (på alle skrivebord)</translation>
     <message>
         <location filename="../obconf.ui" line="744"/>
         <source>&amp;Raise windows when the mouse pointer moves over them</source>
-        <translation>&amp;Oppreis vinduer når muspekeren beveger seg over dem</translation>
+        <translation>Fram&amp;hev vinduer når muspekeren beveger seg over dem</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="756"/>
@@ -451,7 +451,7 @@ D: Allestedsnærværende (på alle skrivebord)</translation>
     <message>
         <location filename="../obconf.ui" line="1013"/>
         <source>The dock is a special container for &quot;dockapps&quot;, or dock applications.  It is not visible on screen until a dockapp is run.  Dockapps can be used to show things like a clock, or to provide you with a system tray.</source>
-        <translation>Dokken er et spesielt området for &quot;dokkapps&quot;. Det er ikke synlig på skjermen før en dokkapp kjøres. Dokkapper kan brukes til å vise f.eks. en klokke eller til å gi deg et systemtrau.</translation>
+        <translation>Dokken er en spesiell beholder for &quot;dokkapps&quot;, eller dokkprogrammer. Den er ikke synlig på skjermen før en dokkapp kjøres. Dokkapper kan brukes til å vise f.eks. en klokke eller til å gi deg en systemkurv.</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1029"/>
@@ -506,12 +506,12 @@ D: Allestedsnærværende (på alle skrivebord)</translation>
     <message>
         <location filename="../obconf.ui" line="1095"/>
         <source>Floating</source>
-        <translation>Svevende</translation>
+        <translation>Flytende</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1109"/>
         <source>&amp;Floating position:</source>
-        <translation>&amp;Svevende plassering:</translation>
+        <translation>&amp;Flytende posisjon:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1134"/>
@@ -644,14 +644,14 @@ Programmet er basert på ObConf som er skapt av følgende opphavsmenn:
     <message>
         <location filename="../archive.cpp" line="53"/>
         <source>&quot;%1&quot; was successfully created</source>
-        <translation>&quot;%1&quot; ble skapt</translation>
+        <translation>&quot;%1&quot; ble opprettet</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="89"/>
         <source>Unable to create the theme archive &quot;%1&quot;.
 The following errors were reported:
 %2</source>
-        <translation>Ute av stand til å skape følgende temaarkiv &quot;%1&quot;.
+        <translation>Kan ikke opprette temaarkivet &quot;%1&quot;.
 De følgende feilene ble rapportert:
 %2</translation>
     </message>
@@ -664,7 +664,7 @@ De følgende feilene ble rapportert:
     <message>
         <location filename="../archive.cpp" line="115"/>
         <source>Unable to create directory &quot;%1&quot;: %2</source>
-        <translation>Kunne ikke skape mappen &quot;%1&quot;: %2</translation>
+        <translation>Kan ikke opprette mappen &quot;%1&quot;: %2</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="138"/>
@@ -755,7 +755,7 @@ Valg:
     <message>
         <location filename="../obconf-qt.cpp" line="206"/>
         <source>Platform Unsupported</source>
-        <translation type="unfinished"></translation>
+        <translation>Plattform ikke støttet</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="207"/>
