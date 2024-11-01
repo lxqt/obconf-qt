@@ -106,7 +106,7 @@ M: Maximize
 C: Close
 S: Shade (Roll up)
 D: Omnipresent (On all desktops)</source>
-        <translation>N: Vindussymbol
+        <translation>N: Vindusikon
 L: Vindustittel
 I: Minimer
 M: Maksimer
