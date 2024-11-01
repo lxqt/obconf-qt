@@ -754,7 +754,7 @@ Options:
     <message>
         <location filename="../obconf-qt.cpp" line="206"/>
         <source>Platform Unsupported</source>
-        <translation type="unfinished"></translation>
+        <translation>Платформа не поддерживается</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="207"/>
