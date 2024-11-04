@@ -19,7 +19,7 @@
     <message>
         <location filename="../obconf.ui" line="14"/>
         <source>Window Manager Preferences</source>
-        <translation>Настройки менеджера окон</translation>
+        <translation>Настройки оконного менеджера</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="26"/>
@@ -760,7 +760,8 @@ Options:
         <location filename="../obconf-qt.cpp" line="207"/>
         <source>ObConf-Qt is unsupported under Wayland.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>ObConf-Qt не поддерживается под Wayland.
+</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="241"/>
