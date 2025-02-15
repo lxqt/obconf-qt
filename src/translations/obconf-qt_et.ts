@@ -779,7 +779,7 @@ Valikud:
         <source>Error while parsing the Openbox configuration file.  Your configuration file is not valid XML.
 
 Message: %1</source>
-        <translation>Openboxi seadistustefaili parsimisel tekkis viga. Seadistustefail ei ole korrektsel kujul XML.
+        <translation>Openboxi seadistustefaili parsimisel tekkis viga. Seadistustefail ei ole korrektse XMLi kujul.
 
 Teade: %s</translation>
     </message>
