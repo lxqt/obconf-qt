@@ -45,7 +45,7 @@
     <message>
         <location filename="../obconf.ui" line="46"/>
         <source>Move &amp; Resize</source>
-        <translation>移動並調整大小</translation>
+        <translation>移動並變更大小</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="51"/>
@@ -222,12 +222,12 @@ D：顯示於全部桌面</translation>
     <message>
         <location filename="../obconf.ui" line="427"/>
         <source>Moving and Resizing Windows</source>
-        <translation>視窗移動並調整大小</translation>
+        <translation>視窗移動並變更大小</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="433"/>
         <source>Update the window contents while &amp;resizing</source>
-        <translation>當調整視窗大小時更新其中內容</translation>
+        <translation>在變更視窗大小時並更新其中內容</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="440"/>
@@ -308,7 +308,7 @@ D：顯示於全部桌面</translation>
     <message>
         <location filename="../obconf.ui" line="629"/>
         <source>When resizing terminal windows</source>
-        <translation>當調整終端視窗之時</translation>
+        <translation>在變更終端機視窗大小之時</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="634"/>
@@ -393,12 +393,12 @@ D：顯示於全部桌面</translation>
     <message>
         <location filename="../obconf.ui" line="826"/>
         <source>&amp;Show a notification when switching desktops</source>
-        <translation>當切換桌面之時顯示提醒通知(&amp;S)</translation>
+        <translation>當切換桌面之時顯示提示通知(&amp;S)</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="833"/>
         <source>&amp;Amount of time to show the notification for:</source>
-        <translation>顯示提醒通知時間(&amp;A)：</translation>
+        <translation>顯示提示通知時間(&amp;A)：</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="856"/>
@@ -664,7 +664,7 @@ The following errors were reported:
     <message>
         <location filename="../archive.cpp" line="115"/>
         <source>Unable to create directory &quot;%1&quot;: %2</source>
-        <translation>無法建立路徑目錄 &quot;%1&quot;： %2</translation>
+        <translation>無法建立目錄 &quot;%1&quot;： %2</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="138"/>
@@ -699,14 +699,14 @@ This is free software, and you are welcome to redistribute it
 under certain conditions. See the file COPYING for details.
 
 </source>
-        <translation>版權所有 (c) 2003-2008   Dana Jansens
-版權所有 (c) 2003 ……  Tim Riley
-版權所有 (c) 2007 …… Javeed Shaikh
-版權所有 (c) 2013 …… 洪任諭（PCMan）
+        <translation>版權所有 (c) 2003-2008 ........ Dana Jansens
+版權所有 (c) 2003 ........ Tim Riley
+版權所有 (c) 2007 ........ Javeed Shaikh
+版權所有 (c) 2013 ........ 洪任諭 (PCMan)
 
-此程序絕對不附帶任何保證。
+此程式附帶承擔不具任何保證。
 這是自由軟體，在特定條件下歡迎您傳播分發。
-請參閱檔案 COPYING 了解詳情。
+敬請參閱檔案 COPYING 了解詳情。
 
 </translation>
     </message>
