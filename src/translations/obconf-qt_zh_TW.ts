@@ -122,7 +122,7 @@ D：顯示於全部桌面</translation>
     <message>
         <location filename="../obconf.ui" line="229"/>
         <source>&amp;Inactive window title: </source>
-        <translation>非作用視窗標是(&amp;I)： </translation>
+        <translation>非作用中的視窗標題(&amp;I)： </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="239"/>
@@ -137,12 +137,12 @@ D：顯示於全部桌面</translation>
     <message>
         <location filename="../obconf.ui" line="259"/>
         <source>Active &amp;On-screen display: </source>
-        <translation>作用螢幕顯示(&amp;O)： </translation>
+        <translation>作用中的螢幕調控顯示(&amp;O)： </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="269"/>
         <source>Inactive O&amp;n-screen display: </source>
-        <translation>非作螢幕顯示(&amp;N)： </translation>
+        <translation>非作用中的螢幕調控顯示(&amp;N)： </translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="283"/>
@@ -172,7 +172,7 @@ D：顯示於全部桌面</translation>
     <message>
         <location filename="../obconf.ui" line="322"/>
         <source>The active monitor</source>
-        <translation>作用顯示器</translation>
+        <translation>作用中的顯示器</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="327"/>
@@ -207,7 +207,7 @@ D：顯示於全部桌面</translation>
     <message>
         <location filename="../obconf.ui" line="374"/>
         <source>Active Monitor</source>
-        <translation>作用顯示器</translation>
+        <translation>作用中的顯示器</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="379"/>
@@ -268,12 +268,12 @@ D：顯示於全部桌面</translation>
     <message>
         <location filename="../obconf.ui" line="542"/>
         <source>From left edge</source>
-        <translation>來自左邊界</translation>
+        <translation>來自左邊緣</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="547"/>
         <source>From right edge</source>
-        <translation>來自右邊界</translation>
+        <translation>來自右邊緣</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="555"/>
@@ -283,7 +283,7 @@ D：顯示於全部桌面</translation>
     <message>
         <location filename="../obconf.ui" line="571"/>
         <source>From top edge</source>
-        <translation>來自上邊界</translation>
+        <translation>來自上邊緣</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="576"/>
@@ -333,7 +333,7 @@ D：顯示於全部桌面</translation>
     <message>
         <location filename="../obconf.ui" line="658"/>
         <source>Fixed position on screen</source>
-        <translation>固定位置於螢幕</translation>
+        <translation>固定位置於螢幕上</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="689"/>
@@ -393,12 +393,12 @@ D：顯示於全部桌面</translation>
     <message>
         <location filename="../obconf.ui" line="826"/>
         <source>&amp;Show a notification when switching desktops</source>
-        <translation>當切換桌面之時顯示提示通知(&amp;S)</translation>
+        <translation>當切換桌面之時顯示通知(&amp;S)</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="833"/>
         <source>&amp;Amount of time to show the notification for:</source>
-        <translation>顯示提示通知時間(&amp;A)：</translation>
+        <translation>顯示通知時間(&amp;A)：</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="856"/>
@@ -418,7 +418,7 @@ D：顯示於全部桌面</translation>
     <message>
         <location filename="../obconf.ui" line="899"/>
         <source>Desktop margins are reserved areas on the edge of your screen.  New windows will not be placed within a margin, and maximized windows will not cover them.</source>
-        <translation>桌面邊距是在螢幕邊緣的保留區域。新的視窗不會置於邊距之內，且最大化視窗將不會蓋過桌面邊距。</translation>
+        <translation>桌面邊界是在螢幕邊緣的保留區域。新的視窗不會置於邊界之內，且最大化視窗將不會蓋過桌面邊界。</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="909"/>
@@ -721,14 +721,14 @@ Options:
   --archive THEME       Create a theme archive from the given theme directory
   --config-file FILE    Specify the path to the config file to use
 </source>
-        <translation>Syntax: obconf [options] [ARCHIVE.obt]
+        <translation>語法： obconf [options] [ARCHIVE.obt]
 
-Options:
-  --help                Display this help and exit
-  --version             Display the version and exit
-  --install ARCHIVE.obt Install the given theme archive and select it
-  --archive THEME       Create a theme archive from the given theme directory
-  --config-file FILE    Specify the path to the config file to use
+選項：
+  --help                顯示說明並離開
+  --version             顯示版本並離開
+  --install ARCHIVE.obt 安裝所指定的主題封檔並選用它
+  --archive THEME       建立主題封檔來自所指定的主題目錄
+  --config-file FILE    指明路徑的設定檔案來使用
 </translation>
     </message>
     <message>
