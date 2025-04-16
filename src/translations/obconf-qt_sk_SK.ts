@@ -723,11 +723,11 @@ Options:
         <translation>Syntax: obconf [možnosti] [ARCHIVE.obt]
 
 voľby:
-&#xa0;&#xa0; - help...........................................Zobraziť túto pomoc a skončiť
-&#xa0;&#xa0; --version....................................Zobrazenie verzie
-&#xa0;&#xa0; --install ARCHIVE.obt..........Nainštalujte daný archív tém
-&#xa0;&#xa0; --archive THEME....................Vytvorenie archívu témy z daného adresára
-&#xa0;&#xa0; --config-file FILE....................Zadajte cestu ku konfiguračnému súboru, ktorý sa má použiť
+   - help...........................................Zobraziť túto pomoc a skončiť
+   --version....................................Zobrazenie verzie
+   --install ARCHIVE.obt..........Nainštalujte daný archív tém
+   --archive THEME....................Vytvorenie archívu témy z daného adresára
+   --config-file FILE....................Zadajte cestu ku konfiguračnému súboru, ktorý sa má použiť
 </translation>
     </message>
     <message>
@@ -754,13 +754,14 @@ voľby:
     <message>
         <location filename="../obconf-qt.cpp" line="206"/>
         <source>Platform Unsupported</source>
-        <translation type="unfinished"></translation>
+        <translation>Nepodporovaná platforma</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="207"/>
         <source>ObConf-Qt is unsupported under Wayland.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Systém Wayland nepodporuje ObConf-Qt.
+</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="241"/>
