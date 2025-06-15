@@ -85,7 +85,7 @@
     <message>
         <location filename="../obconf.ui" line="115"/>
         <source>A&amp;nimate iconify and restore</source>
-        <translation>在縮成圖示及還原畫面時以動畫呈現(&amp;N)</translation>
+        <translation>在縮小圖示及還原畫面時呈現動畫(&amp;N)</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="125"/>
@@ -705,7 +705,7 @@ under certain conditions. See the file COPYING for details.
 版權所有 (c) 2013 ........ 洪任諭 (PCMan)
 
 此程式附帶承擔不具任何保證。
-這是自由軟體，在特定條件下歡迎您傳播分發。
+這是自由軟體，在特定條件下歡迎您傳播發行。
 敬請參閱檔案 COPYING 了解詳情。
 
 </translation>
