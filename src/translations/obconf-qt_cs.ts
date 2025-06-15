@@ -278,7 +278,7 @@ D: Zobrazovat na všech monitorech</translation>
     <message>
         <location filename="../obconf.ui" line="555"/>
         <source>Fixed &amp;y position:</source>
-        <translation>Pevná pozice &amp;y:</translation>
+        <translation>Pevná poloha &amp;y:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="571"/>
@@ -293,12 +293,12 @@ D: Zobrazovat na všech monitorech</translation>
     <message>
         <location filename="../obconf.ui" line="584"/>
         <source>Information dialog&apos;s &amp;position:</source>
-        <translation>&amp;Pozice informačního dialogu:</translation>
+        <translation>&amp;Poloha informačního dialogu:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="594"/>
         <source>Fixed &amp;x position:</source>
-        <translation>Pevná pozice &amp;x:</translation>
+        <translation>Pevná poloha &amp;x:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="604"/>
@@ -333,7 +333,7 @@ D: Zobrazovat na všech monitorech</translation>
     <message>
         <location filename="../obconf.ui" line="658"/>
         <source>Fixed position on screen</source>
-        <translation>Pevná pozice na obrazovce</translation>
+        <translation>Pevná poloha na obrazovce</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="689"/>
@@ -373,7 +373,7 @@ D: Zobrazovat na všech monitorech</translation>
     <message>
         <location filename="../obconf.ui" line="762"/>
         <source>Double click on the &amp;titlebar:</source>
-        <translation>Dvojklik na liš&amp;tu s názvem okna:</translation>
+        <translation>Dvojklepnutí na liš&amp;tu s názvem okna:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="773"/>
@@ -388,7 +388,7 @@ D: Zobrazovat na všech monitorech</translation>
     <message>
         <location filename="../obconf.ui" line="786"/>
         <source>Double click ti&amp;me:</source>
-        <translation>Doba &amp;trvání pro dvojklik:</translation>
+        <translation>Doba &amp;trvání pro dvojklepnutí:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="826"/>
@@ -456,12 +456,12 @@ D: Zobrazovat na všech monitorech</translation>
     <message>
         <location filename="../obconf.ui" line="1029"/>
         <source>Position</source>
-        <translation>Pozice</translation>
+        <translation>Poloha</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1041"/>
         <source>&amp;Position:</source>
-        <translation>&amp;Pozice:</translation>
+        <translation>&amp;Poloha:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1055"/>
@@ -511,7 +511,7 @@ D: Zobrazovat na všech monitorech</translation>
     <message>
         <location filename="../obconf.ui" line="1109"/>
         <source>&amp;Floating position:</source>
-        <translation>&amp;Plovoucí pozice:</translation>
+        <translation>&amp;Plovoucí umístění:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1134"/>
@@ -756,13 +756,14 @@ Volby:
     <message>
         <location filename="../obconf-qt.cpp" line="206"/>
         <source>Platform Unsupported</source>
-        <translation type="unfinished"></translation>
+        <translation>Nepodporovaná platforma</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="207"/>
         <source>ObConf-Qt is unsupported under Wayland.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>ObConf-Qt není pod Waylandem podporován.
+</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="241"/>
