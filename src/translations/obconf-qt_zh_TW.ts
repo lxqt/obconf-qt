@@ -237,7 +237,7 @@ D：顯示於全部桌面</translation>
     <message>
         <location filename="../obconf.ui" line="460"/>
         <source>Amount of resistance against other &amp;windows:</source>
-        <translation>抗阻其它視窗量值(&amp;W)：</translation>
+        <translation>抗阻其他視窗量值(&amp;W)：</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="480"/>
@@ -546,7 +546,7 @@ D：顯示於全部桌面</translation>
     <message>
         <location filename="../obconf.ui" line="1193"/>
         <source>Keep dock &amp;above other windows</source>
-        <translation>維持 Dock 位於其它視窗之上(&amp;A)</translation>
+        <translation>維持 Dock 位於其他視窗之上(&amp;A)</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1200"/>
@@ -556,7 +556,7 @@ D：顯示於全部桌面</translation>
     <message>
         <location filename="../obconf.ui" line="1207"/>
         <source>Keep dock &amp;below other windows</source>
-        <translation>維持 Dock 位於其它視窗之下(&amp;B)</translation>
+        <translation>維持 Dock 位於其他視窗之下(&amp;B)</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1217"/>
