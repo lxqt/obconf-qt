@@ -80,7 +80,6 @@ add_executable(obconf-qt
 
 add_definitions(
   -DPACKAGE_DATA_DIR="${CMAKE_INSTALL_FULL_DATAROOTDIR}/obconf-qt"
-  -DPIXMAPS_DIR="${CMAKE_INSTALL_FULL_DATAROOTDIR}/pixmaps"
   -DTHEME_DIR="${CMAKE_INSTALL_FULL_DATAROOTDIR}/openbox/themes"
 )
 
