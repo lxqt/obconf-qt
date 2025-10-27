@@ -440,7 +440,7 @@ D: Omnipresent (On all desktops)</source>
     <message>
         <location filename="../obconf.ui" line="972"/>
         <source>Bottom:</source>
-        <translation>Bas&#xa0;:</translation>
+        <translation>Bas :</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1013"/>
@@ -714,7 +714,7 @@ Options:
     <message>
         <location filename="../obconf-qt.cpp" line="206"/>
         <source>Platform Unsupported</source>
-        <translation type="unfinished"></translation>
+        <translation>Platafòrma incompatibla</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="207"/>
