@@ -664,7 +664,7 @@ Les erreurs suivantes ont été signalées :
     <message>
         <location filename="../archive.cpp" line="115"/>
         <source>Unable to create directory &quot;%1&quot;: %2</source>
-        <translation>Impossible de créer le dossier &quot;%1&quot; : %2</translation>
+        <translation>Impossible de créer le dossier &quot;%1&quot;&#x202f;: %2</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="138"/>

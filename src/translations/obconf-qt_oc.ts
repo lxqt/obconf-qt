@@ -440,7 +440,7 @@ D: Omnipresent (On all desktops)</source>
     <message>
         <location filename="../obconf.ui" line="972"/>
         <source>Bottom:</source>
-        <translation>Bas :</translation>
+        <translation>Bas&#xa0;:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1013"/>
