@@ -1,3 +1,9 @@
+obconf-qt-0.16.6 / 2025-11-08
+=============================
+ * Fixed window icon.
+ * Assigned file dialog to parent window.
+ * Translation updates.
+
 obconf-qt-0.16.5 / 2024-11-01
 =============================
  * Ported to Qt6 and updated translations.
