@@ -58,8 +58,7 @@ MainDialog::MainDialog():
 
 MainDialog::~MainDialog() {
   if(themes) {
-    g_list_foreach(themes, (GFunc)g_free, NULL);
-    g_list_free(themes);
+    g_list_free_full(themes, g_free);
   }
   delete themes_model;
 }
