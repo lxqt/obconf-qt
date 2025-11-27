@@ -47,13 +47,11 @@ void MainDialog::theme_load_all() {
   gchar* name;
   gchar* p;
   GList* it, *next;
-  gint i;
   QModelIndex currentItemIndex;
 
   name = tree_get_string("theme/name", "TheBear");
   if(themes) {
-    g_list_foreach(themes, (GFunc)g_free, NULL);
-    g_list_free(themes);
+    g_list_free_full(themes, g_free);
     themes = NULL;
   }
 
@@ -71,11 +69,10 @@ void MainDialog::theme_load_all() {
 
   add_theme_dir(THEME_DIR);
   themes = g_list_sort(themes, (GCompareFunc) strcasecmp);
-  
+
   themes_model->clear();
 
   /* return to regular scheduled programming */
-  i = 0;
   for(it = themes; it; it = next) {
     next = g_list_next(it);
     /* remove duplicates */
@@ -91,7 +88,6 @@ void MainDialog::theme_load_all() {
       currentItemIndex = item->index();
       ui.theme_names->selectionModel()->select(currentItemIndex, QItemSelectionModel::Select);
     }
-    ++i;
   }
   // FIXME: preview_update_all();
   g_free(name);
