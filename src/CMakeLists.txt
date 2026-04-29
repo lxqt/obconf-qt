@@ -78,6 +78,11 @@ add_executable(obconf-qt
   ${DESKTOP_FILES}
 )
 
+target_compile_options(obconf-qt
+    PRIVATE
+        "$<$<CXX_COMPILER_ID:Clang>:-Wno-c2y-extensions>"
+)
+
 add_definitions(
   -DPACKAGE_DATA_DIR="${CMAKE_INSTALL_FULL_DATAROOTDIR}/obconf-qt"
   -DTHEME_DIR="${CMAKE_INSTALL_FULL_DATAROOTDIR}/openbox/themes"
