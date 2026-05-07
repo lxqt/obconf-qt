@@ -1,5 +1,4 @@
 # set visibility to hidden to hide symbols, unlesss they're exporteted manually in the code
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -DQT_NO_KEYWORDS")
 
 include_directories(
   ${GLIB_INCLUDE_DIRS}
