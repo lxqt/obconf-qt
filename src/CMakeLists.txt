@@ -1,5 +1,3 @@
-# set visibility to hidden to hide symbols, unlesss they're exporteted manually in the code
-
 include_directories(
   ${GLIB_INCLUDE_DIRS}
   ${OPENBOX_INCLUDE_DIRS}
