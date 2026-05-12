@@ -1,11 +1,4 @@
-# set visibility to hidden to hide symbols, unlesss they're exporteted manually in the code
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -DQT_NO_KEYWORDS")
-
-set(QTX_INCLUDE_DIRS "")
-set(QTX_LIBRARIES Qt6::Widgets)
-
 include_directories(
-  ${QTX_INCLUDE_DIRS}
   ${GLIB_INCLUDE_DIRS}
   ${OPENBOX_INCLUDE_DIRS}
   ${CMAKE_CURRENT_BINARY_DIR}
@@ -89,7 +82,7 @@ add_definitions(
 )
 
 target_link_libraries(obconf-qt
-  ${QTX_LIBRARIES}
+  Qt6::Widgets
   ${GLIB_LIBRARIES}
   ${OPENBOX_LDFLAGS}
 )

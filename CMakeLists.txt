@@ -13,7 +13,7 @@ include(GNUInstallDirs)
 
 # Minimum Versions
 set(GLIB_MINIMUM_VERSION "2.50.0")
-set(LXQTBT_MINIMUM_VERSION "2.0.0")
+set(LXQTBT_MINIMUM_VERSION "2.4.0")
 set(QT_MINIMUM_VERSION "6.6.0")
 
 set(OBCONFQT_MAJOR_VERSION 0)
@@ -22,13 +22,11 @@ set(OBCONFQT_PATCH_VERSION 6)
 set(OBCONFQT_VERSION ${OBCONFQT_MAJOR_VERSION}.${OBCONFQT_MINOR_VERSION}.${OBCONFQT_PATCH_VERSION})
 add_definitions("-DOBCONFQT_VERSION=\"${OBCONFQT_VERSION}\"")
 
-set(CMAKE_INCLUDE_CURRENT_DIR ON)
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 set(CMAKE_AUTOMOC ON)
 
 find_package(Qt6Widgets ${QT_MINIMUM_VERSION} REQUIRED)
 find_package(Qt6LinguistTools ${QT_MINIMUM_VERSION} REQUIRED)
-message(STATUS "Building with Qt${Qt5Core_VERSION}")
 
 find_package(lxqt2-build-tools ${LXQTBT_MINIMUM_VERSION} REQUIRED)
 
@@ -39,6 +37,8 @@ pkg_check_modules(OPENBOX REQUIRED
   obrender-3.5
   obt-3.5
 )
+
+message(STATUS "Building with Qt${Qt6Core_VERSION}")
 
 include(LXQtPreventInSourceBuilds)
 include(LXQtTranslateTs)
