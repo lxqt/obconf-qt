@@ -45,7 +45,7 @@
     <message>
         <location filename="../obconf.ui" line="46"/>
         <source>Move &amp; Resize</source>
-        <translation>Verschieben &amp; Größe ändern</translation>
+        <translation>Verschieben und Größe ändern</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="51"/>
@@ -70,12 +70,12 @@
     <message>
         <location filename="../obconf.ui" line="84"/>
         <source>&amp;Install a new theme...</source>
-        <translation>Ein neues Thema &amp;installieren...</translation>
+        <translation>Ein neues Thema &amp;installieren ...</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="91"/>
         <source>Create a theme &amp;archive (.obt)...</source>
-        <translation>Themen&amp;archiv erstellen (.obt)...</translation>
+        <translation>Themen&amp;archiv erstellen (.obt) ...</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="108"/>
@@ -85,7 +85,7 @@
     <message>
         <location filename="../obconf.ui" line="115"/>
         <source>A&amp;nimate iconify and restore</source>
-        <translation>&amp;Animiere das Minimieren und Wiederherstellen</translation>
+        <translation>Minimieren und Wiederherstellen &amp;animieren</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="125"/>
@@ -152,17 +152,17 @@ D: Präsent auf allen Arbeitsflächen</translation>
     <message>
         <location filename="../obconf.ui" line="290"/>
         <source>&amp;Place new windows under the mouse pointer</source>
-        <translation>&amp;Platziere neue Fenster unter den Mauszeiger</translation>
+        <translation>Neue Fenster unter den Mauszeiger &amp;platzieren</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="297"/>
         <source>&amp;Center new windows when they are placed</source>
-        <translation>&amp;Zentriere neue Fenster</translation>
+        <translation>Neue Fenster &amp;zentrieren</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="306"/>
         <source>Prefer to place new windows &amp;on:</source>
-        <translation>Platziere vorzugsweise neue Fenster &amp;auf:</translation>
+        <translation>Neue Fenster vorzugsweise platzieren &amp;auf:</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="317"/>
@@ -492,7 +492,7 @@ Das Dock wird erst nach dem Starten von Dock-Anwendungen sichtbar.</translation>
     <message>
         <location filename="../obconf.ui" line="1080"/>
         <source>Bottom Left</source>
-        <translation>Unten links</translation>
+        <translation>Unten Links</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1085"/>
@@ -502,7 +502,7 @@ Das Dock wird erst nach dem Starten von Dock-Anwendungen sichtbar.</translation>
     <message>
         <location filename="../obconf.ui" line="1090"/>
         <source>Bottom Right</source>
-        <translation>Unten rechts</translation>
+        <translation>Unten Rechts</translation>
     </message>
     <message>
         <location filename="../obconf.ui" line="1095"/>
@@ -660,7 +660,7 @@ Die folgenden Fehlermeldungen wurden mitgeteilt:
         <location filename="../archive.cpp" line="95"/>
         <location filename="../archive.cpp" line="180"/>
         <source>Unable to run the &quot;tar&quot; command: %1</source>
-        <translation>&quot;tar&quot; Befehl %1 konnte nicht ausgeführt werden</translation>
+        <translation>&quot;tar&quot;-Befehl %1 konnte nicht ausgeführt werden</translation>
     </message>
     <message>
         <location filename="../archive.cpp" line="115"/>
@@ -686,7 +686,7 @@ Folgende Fehlermeldungen wurden mitgeteilt:
     <message>
         <location filename="../obconf-qt.cpp" line="53"/>
         <source>ObConf Error</source>
-        <translation>ObConf Fehler</translation>
+        <translation>ObConf-Fehler</translation>
     </message>
     <message>
         <location filename="../obconf-qt.cpp" line="58"/>
@@ -707,7 +707,7 @@ Copyright (c) 2013        Hong Jen Yee (PCMan)
 
 Dieses Programm wird unter Ausschluss jeglicher Garantie zur Verfügung
 gestellt.
-Es handelt sich um freie Software,die unter Beachtung bestimmter
+Es handelt sich um freie Software, die unter Beachtung bestimmter
 Voraussetzungen gerne weitergegeben werden darf, Näheres enthält die
 Datei COPYING.
 
@@ -764,7 +764,7 @@ Optionen:
         <location filename="../obconf-qt.cpp" line="207"/>
         <source>ObConf-Qt is unsupported under Wayland.
 </source>
-        <translation>ObConf-Qt kann nicht benutzt werden in Wayland.
+        <translation>ObConf-Qt wird unter Wayland nicht unterstützt.
 </translation>
     </message>
     <message>
@@ -772,7 +772,7 @@ Optionen:
         <source>Error while parsing the Openbox configuration file.  Your configuration file is not valid XML.
 
 Message: %1</source>
-        <translation>Fehler bei der Auswertung der Konfigurationsdatei von Openbox. Die Konfigurationsdatei ist nicht in korrekter XML verfasst.
+        <translation>Fehler bei der Auswertung der Konfigurationsdatei von Openbox. Die Konfigurationsdatei ist kein gültiges XML.
 
 Nachricht: %1</translation>
     </message>
@@ -785,7 +785,7 @@ Nachricht: %1</translation>
     <message>
         <location filename="../obconf-qt.cpp" line="242"/>
         <source>Failed to load an rc.xml. You have probably failed to install Openbox properly.</source>
-        <translation>Datei rc.xml konnte nicht geladen werden. Möglicher Weise wurde Openbox nicht korrekt installiert.</translation>
+        <translation>Eine Datei rc.xml konnte nicht geladen werden. Vermutlich wurde Openbox nicht ordnungsgemäß installiert.</translation>
     </message>
 </context>
 </TS>
