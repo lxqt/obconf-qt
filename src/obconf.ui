@@ -870,10 +870,17 @@ D: Omnipresent (On all desktops)</string>
            </property>
           </widget>
          </item>
+         <item row="4" column="0">
+          <widget class="QCheckBox" name="all_desktops">
+           <property name="text">
+            <string>&amp;Show windows from all desktops when task switching (Alt-Tab)</string>
+           </property>
+          </widget>
+         </item>
          <item row="9" column="0" colspan="2">
           <widget class="QListWidget" name="desktop_names"/>
          </item>
-         <item row="4" column="0" colspan="2">
+         <item row="6" column="0" colspan="2">
           <widget class="QLabel" name="label_19">
            <property name="text">
             <string>&amp;Desktop names:</string>
@@ -1381,6 +1388,10 @@ D: Omnipresent (On all desktops)</string>
      <y>39</y>
     </hint>
    </hints>
+  </connection>
+  <connection>
+   <sender>all_desktops</sender>
+   <signal>toggled(bool)</signal>
   </connection>
   <connection>
    <sender>dock_hide</sender>
