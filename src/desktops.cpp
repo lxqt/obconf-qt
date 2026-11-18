@@ -33,6 +33,9 @@ extern RrInstance* rrinst; // defined in obconf-qt.cpp
 
 static int num_desktops;
 
+static const gchar* all_desktops_node_1 = "keyboard/keybind:key=A-Tab/action:name=NextWindow/allDesktops";
+static const gchar* all_desktops_node_2 = "keyboard/keybind:key=A-S-Tab/action:name=PreviousWindow/allDesktops";
+
 /*
 static void desktops_read_names();
 static void desktops_write_names();
@@ -52,6 +55,9 @@ void MainDialog::desktops_setup_tab() {
   i = tree_get_int("desktops/popupTime", 875);
   ui.desktop_popup->setChecked(i != 0);
   ui.desktop_popup_time->setValue(i ? i : 875);
+
+  gboolean all_desktops = tree_get_bool(all_desktops_node_1, TRUE);
+  ui.all_desktops->setChecked(all_desktops);
 }
 
 void MainDialog::on_desktop_num_valueChanged(int newValue) {
@@ -165,6 +171,11 @@ void MainDialog::on_desktop_popup_toggled(bool checked) {
   }
   else
     tree_set_int("desktops/popupTime", 0);
+}
+
+void MainDialog::on_all_desktops_toggled(bool checked) {
+  tree_set_bool(all_desktops_node_1, checked);
+  tree_set_bool(all_desktops_node_2, checked);
 }
 
 void MainDialog::on_desktop_popup_time_valueChanged(int newValue) {
